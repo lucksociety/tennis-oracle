@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-28T10:36:50+00:00",
+ "generated_at_utc": "2026-10-28T18:23:04+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -593,8 +593,8 @@
    "round": "Round 2",
    "court": "Center Court",
    "start_utc": "2026-10-28T08:40Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Harriet Dart",
@@ -610,7 +610,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:12+00:00",
@@ -723,8 +739,8 @@
    "round": "Round 2",
    "court": "Center",
    "start_utc": "2026-10-28T09:50Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alexandra Eala",
@@ -740,7 +756,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:14+00:00",
@@ -846,145 +878,15 @@
    }
   },
   {
-   "espn_id": "185720",
-   "tour": "wta",
-   "tournament": "Guangzhou Open",
-   "venue": "Guangzhou, China PR",
-   "round": "Round 2",
-   "court": "Center Court",
-   "start_utc": "2026-10-28T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Shi Han",
-     "id": "wta:222559"
-    },
-    {
-     "name": "Dayana Yastremska",
-     "id": "wta:215035"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:16+00:00",
-    "path": "forecasts/2026-10-28/185720-shi-han-vs-dayana-yastremska/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Dayana Yastremska",
-    "win_prob": {
-     "A": 0.4434,
-     "B": 0.5566
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.3578
-    },
-    "games_mean": 22.68,
-    "strongest": {
-     "selection": "Dayana Yastremska to win at least one set",
-     "probability": 0.7329,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4434,
-      "B": 0.5566
-     },
-     "set_score_probs": {
-      "0-2": 0.3578,
-      "2-0": 0.2671,
-      "1-2": 0.1988,
-      "2-1": 0.1764
-     },
-     "games_pmf": {
-      "12": 0.00197,
-      "13": 0.00989,
-      "14": 0.02374,
-      "15": 0.04476,
-      "16": 0.06501,
-      "17": 0.08242,
-      "18": 0.08176,
-      "19": 0.07922,
-      "20": 0.06971,
-      "21": 0.05013,
-      "22": 0.06068,
-      "23": 0.03994,
-      "24": 0.02012,
-      "25": 0.03704,
-      "26": 0.04124,
-      "27": 0.0367,
-      "28": 0.04092,
-      "29": 0.04104,
-      "30": 0.03978,
-      "31": 0.0377,
-      "32": 0.03218,
-      "33": 0.02103,
-      "34": 0.01562,
-      "35": 0.01453,
-      "36": 0.00691,
-      "37": 0.0021,
-      "38": 0.00255,
-      "39": 0.00131
-     },
-     "games_diff_pmf": {
-      "-12": 0.00137,
-      "-11": 0.00643,
-      "-10": 0.01554,
-      "-9": 0.02873,
-      "-8": 0.0457,
-      "-7": 0.06672,
-      "-6": 0.07854,
-      "-5": 0.08529,
-      "-4": 0.08199,
-      "-3": 0.06025,
-      "-2": 0.04107,
-      "-1": 0.03108,
-      "0": 0.0287,
-      "1": 0.02853,
-      "2": 0.03795,
-      "3": 0.05101,
-      "4": 0.07088,
-      "5": 0.06881,
-      "6": 0.06032,
-      "7": 0.04872,
-      "8": 0.03064,
-      "9": 0.01869,
-      "10": 0.00889,
-      "11": 0.00355,
-      "12": 0.0006
-     },
-     "p_tiebreak": 0.2727,
-     "p_decider": 0.3752
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0022
-   }
-  },
-  {
    "espn_id": "185840",
    "tour": "wta",
    "tournament": "Valle D'Aosta Ladies Open",
    "venue": "Courmayeur, Italy",
    "round": "Round 1",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T11:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Robin Montgomery",
@@ -1000,7 +902,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      0,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:18+00:00",
@@ -1112,9 +1026,9 @@
    "venue": "Courmayeur, Italy",
    "round": "Round 1",
    "court": "Grandstand",
-   "start_utc": "2026-10-28T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T11:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Yelyzaveta Kotliar",
@@ -1130,7 +1044,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:20+00:00",
@@ -1236,15 +1162,157 @@
    }
   },
   {
+   "espn_id": "185720",
+   "tour": "wta",
+   "tournament": "Guangzhou Open",
+   "venue": "Guangzhou, China PR",
+   "round": "Round 2",
+   "court": "Center Court",
+   "start_utc": "2026-10-28T11:25Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Shi Han",
+     "id": "wta:222559"
+    },
+    {
+     "name": "Dayana Yastremska",
+     "id": "wta:215035"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:16+00:00",
+    "path": "forecasts/2026-10-28/185720-shi-han-vs-dayana-yastremska/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Dayana Yastremska",
+    "win_prob": {
+     "A": 0.4434,
+     "B": 0.5566
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3578
+    },
+    "games_mean": 22.68,
+    "strongest": {
+     "selection": "Dayana Yastremska to win at least one set",
+     "probability": 0.7329,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4434,
+      "B": 0.5566
+     },
+     "set_score_probs": {
+      "0-2": 0.3578,
+      "2-0": 0.2671,
+      "1-2": 0.1988,
+      "2-1": 0.1764
+     },
+     "games_pmf": {
+      "12": 0.00197,
+      "13": 0.00989,
+      "14": 0.02374,
+      "15": 0.04476,
+      "16": 0.06501,
+      "17": 0.08242,
+      "18": 0.08176,
+      "19": 0.07922,
+      "20": 0.06971,
+      "21": 0.05013,
+      "22": 0.06068,
+      "23": 0.03994,
+      "24": 0.02012,
+      "25": 0.03704,
+      "26": 0.04124,
+      "27": 0.0367,
+      "28": 0.04092,
+      "29": 0.04104,
+      "30": 0.03978,
+      "31": 0.0377,
+      "32": 0.03218,
+      "33": 0.02103,
+      "34": 0.01562,
+      "35": 0.01453,
+      "36": 0.00691,
+      "37": 0.0021,
+      "38": 0.00255,
+      "39": 0.00131
+     },
+     "games_diff_pmf": {
+      "-12": 0.00137,
+      "-11": 0.00643,
+      "-10": 0.01554,
+      "-9": 0.02873,
+      "-8": 0.0457,
+      "-7": 0.06672,
+      "-6": 0.07854,
+      "-5": 0.08529,
+      "-4": 0.08199,
+      "-3": 0.06025,
+      "-2": 0.04107,
+      "-1": 0.03108,
+      "0": 0.0287,
+      "1": 0.02853,
+      "2": 0.03795,
+      "3": 0.05101,
+      "4": 0.07088,
+      "5": 0.06881,
+      "6": 0.06032,
+      "7": 0.04872,
+      "8": 0.03064,
+      "9": 0.01869,
+      "10": 0.00889,
+      "11": 0.00355,
+      "12": 0.0006
+     },
+     "p_tiebreak": 0.2727,
+     "p_decider": 0.3752
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0022
+   }
+  },
+  {
    "espn_id": "185135",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
    "venue": "Basel, Switzerland",
    "round": "Round 1",
    "court": "IWB Court 1",
-   "start_utc": "2026-10-28T11:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T11:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Yannick Hanfmann",
@@ -1260,7 +1328,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:22+00:00",
@@ -1372,9 +1452,9 @@
    "venue": "Vienna, Austria",
    "round": "Round 1",
    "court": "Glaubandich Court",
-   "start_utc": "2026-10-28T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T12:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tallon Griekspoor",
@@ -1390,7 +1470,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      1
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:24+00:00",
@@ -1502,9 +1598,9 @@
    "venue": "Vienna, Austria",
    "round": "Round 1",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T12:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Daniel Merida",
@@ -1520,7 +1616,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:26+00:00",
@@ -1632,9 +1740,9 @@
    "venue": "Courmayeur, Italy",
    "round": "Round 1",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T12:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Laura Mair",
@@ -1650,7 +1758,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:27+00:00",
@@ -1756,145 +1876,15 @@
    }
   },
   {
-   "espn_id": "185838",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Round 1",
-   "court": "Grandstand",
-   "start_utc": "2026-10-28T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Elsa Jacquemot",
-     "id": "wta:221039"
-    },
-    {
-     "name": "Caroline Werner",
-     "id": "wta:espn4384"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:29+00:00",
-    "path": "forecasts/2026-10-28/185838-elsa-jacquemot-vs-caroline-werner/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Caroline Werner",
-    "win_prob": {
-     "A": 0.4908,
-     "B": 0.5092
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3182
-    },
-    "games_mean": 22.7,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7302,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4908,
-      "B": 0.5092
-     },
-     "set_score_probs": {
-      "0-2": 0.3182,
-      "2-0": 0.3027,
-      "1-2": 0.1909,
-      "2-1": 0.1882
-     },
-     "games_pmf": {
-      "12": 0.00196,
-      "13": 0.00977,
-      "14": 0.02411,
-      "15": 0.0441,
-      "16": 0.06542,
-      "17": 0.08144,
-      "18": 0.08325,
-      "19": 0.07641,
-      "20": 0.06748,
-      "21": 0.05027,
-      "22": 0.06102,
-      "23": 0.04098,
-      "24": 0.02132,
-      "25": 0.03672,
-      "26": 0.04193,
-      "27": 0.03821,
-      "28": 0.04092,
-      "29": 0.04311,
-      "30": 0.03975,
-      "31": 0.03645,
-      "32": 0.03286,
-      "33": 0.02114,
-      "34": 0.01513,
-      "35": 0.01393,
-      "36": 0.00657,
-      "37": 0.0018,
-      "38": 0.00271,
-      "39": 0.00124
-     },
-     "games_diff_pmf": {
-      "-12": 0.00117,
-      "-11": 0.00502,
-      "-10": 0.01298,
-      "-9": 0.02384,
-      "-8": 0.03978,
-      "-7": 0.05864,
-      "-6": 0.07134,
-      "-5": 0.07845,
-      "-4": 0.07644,
-      "-3": 0.05701,
-      "-2": 0.03964,
-      "-1": 0.03043,
-      "0": 0.02936,
-      "1": 0.02914,
-      "2": 0.03873,
-      "3": 0.05639,
-      "4": 0.07567,
-      "5": 0.07351,
-      "6": 0.06956,
-      "7": 0.05533,
-      "8": 0.03715,
-      "9": 0.02298,
-      "10": 0.01182,
-      "11": 0.00483,
-      "12": 0.00079
-     },
-     "p_tiebreak": 0.2698,
-     "p_decider": 0.3791
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0027
-   }
-  },
-  {
    "espn_id": "185142",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
    "venue": "Basel, Switzerland",
    "round": "Round 1",
    "court": "IWB Court 1",
-   "start_utc": "2026-10-28T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T13:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Remy Bertola",
@@ -1910,7 +1900,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:31+00:00",
@@ -2022,9 +2024,9 @@
    "venue": "Basel, Switzerland",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-10-28T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T13:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Nuno Borges",
@@ -2040,7 +2042,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:33+00:00",
@@ -2146,15 +2164,161 @@
    }
   },
   {
+   "espn_id": "185838",
+   "tour": "wta",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "venue": "Courmayeur, Italy",
+   "round": "Round 1",
+   "court": "Grandstand",
+   "start_utc": "2026-10-28T13:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Elsa Jacquemot",
+     "id": "wta:221039"
+    },
+    {
+     "name": "Caroline Werner",
+     "id": "wta:espn4384"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:29+00:00",
+    "path": "forecasts/2026-10-28/185838-elsa-jacquemot-vs-caroline-werner/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Caroline Werner",
+    "win_prob": {
+     "A": 0.4908,
+     "B": 0.5092
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3182
+    },
+    "games_mean": 22.7,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7302,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4908,
+      "B": 0.5092
+     },
+     "set_score_probs": {
+      "0-2": 0.3182,
+      "2-0": 0.3027,
+      "1-2": 0.1909,
+      "2-1": 0.1882
+     },
+     "games_pmf": {
+      "12": 0.00196,
+      "13": 0.00977,
+      "14": 0.02411,
+      "15": 0.0441,
+      "16": 0.06542,
+      "17": 0.08144,
+      "18": 0.08325,
+      "19": 0.07641,
+      "20": 0.06748,
+      "21": 0.05027,
+      "22": 0.06102,
+      "23": 0.04098,
+      "24": 0.02132,
+      "25": 0.03672,
+      "26": 0.04193,
+      "27": 0.03821,
+      "28": 0.04092,
+      "29": 0.04311,
+      "30": 0.03975,
+      "31": 0.03645,
+      "32": 0.03286,
+      "33": 0.02114,
+      "34": 0.01513,
+      "35": 0.01393,
+      "36": 0.00657,
+      "37": 0.0018,
+      "38": 0.00271,
+      "39": 0.00124
+     },
+     "games_diff_pmf": {
+      "-12": 0.00117,
+      "-11": 0.00502,
+      "-10": 0.01298,
+      "-9": 0.02384,
+      "-8": 0.03978,
+      "-7": 0.05864,
+      "-6": 0.07134,
+      "-5": 0.07845,
+      "-4": 0.07644,
+      "-3": 0.05701,
+      "-2": 0.03964,
+      "-1": 0.03043,
+      "0": 0.02936,
+      "1": 0.02914,
+      "2": 0.03873,
+      "3": 0.05639,
+      "4": 0.07567,
+      "5": 0.07351,
+      "6": 0.06956,
+      "7": 0.05533,
+      "8": 0.03715,
+      "9": 0.02298,
+      "10": 0.01182,
+      "11": 0.00483,
+      "12": 0.00079
+     },
+     "p_tiebreak": 0.2698,
+     "p_decider": 0.3791
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0027
+   }
+  },
+  {
    "espn_id": "185178",
    "tour": "atp",
    "tournament": "Erste Bank Open",
    "venue": "Vienna, Austria",
    "round": "Round 1",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T14:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T14:30Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Lorenzo Musetti",
@@ -2170,7 +2334,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:35+00:00",
@@ -2276,14 +2452,585 @@
    }
   },
   {
+   "espn_id": "185772",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Round 2",
+   "court": "Quadra 1",
+   "start_utc": "2026-10-28T14:30Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Alice Tubello",
+     "id": "wta:220554"
+    },
+    {
+     "name": "Luna Maria Cinalli",
+     "id": "wta:espn17421"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:40+00:00",
+    "path": "forecasts/2026-10-28/185772-alice-tubello-vs-luna-maria-cinalli/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Luna Maria Cinalli",
+    "win_prob": {
+     "A": 0.4695,
+     "B": 0.5305
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3364
+    },
+    "games_mean": 22.64,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7312,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4695,
+      "B": 0.5305
+     },
+     "set_score_probs": {
+      "0-2": 0.3364,
+      "2-0": 0.2887,
+      "1-2": 0.1941,
+      "2-1": 0.1808
+     },
+     "games_pmf": {
+      "12": 0.00207,
+      "13": 0.01016,
+      "14": 0.02348,
+      "15": 0.04532,
+      "16": 0.06583,
+      "17": 0.08313,
+      "18": 0.08304,
+      "19": 0.07861,
+      "20": 0.06838,
+      "21": 0.04927,
+      "22": 0.059,
+      "23": 0.04135,
+      "24": 0.02137,
+      "25": 0.03665,
+      "26": 0.04217,
+      "27": 0.03787,
+      "28": 0.03993,
+      "29": 0.04239,
+      "30": 0.03981,
+      "31": 0.03694,
+      "32": 0.03085,
+      "33": 0.02043,
+      "34": 0.01468,
+      "35": 0.01474,
+      "36": 0.00693,
+      "37": 0.00196,
+      "38": 0.00228,
+      "39": 0.00136
+     },
+     "games_diff_pmf": {
+      "-12": 0.00133,
+      "-11": 0.00586,
+      "-10": 0.01414,
+      "-9": 0.02643,
+      "-8": 0.043,
+      "-7": 0.06348,
+      "-6": 0.07427,
+      "-5": 0.07944,
+      "-4": 0.07916,
+      "-3": 0.05872,
+      "-2": 0.04052,
+      "-1": 0.02959,
+      "0": 0.02767,
+      "1": 0.02938,
+      "2": 0.03732,
+      "3": 0.05524,
+      "4": 0.07123,
+      "5": 0.07249,
+      "6": 0.06503,
+      "7": 0.05332,
+      "8": 0.0352,
+      "9": 0.02184,
+      "10": 0.01021,
+      "11": 0.00439,
+      "12": 0.00074
+     },
+     "p_tiebreak": 0.2688,
+     "p_decider": 0.3749
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0033
+   }
+  },
+  {
+   "espn_id": "185773",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Round 2",
+   "court": "Quadra Central",
+   "start_utc": "2026-10-28T14:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Lourdes Ayala",
+     "id": "wta:espn19256"
+    },
+    {
+     "name": "Jazmin Ortenzi",
+     "id": "wta:220446"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      0,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:42+00:00",
+    "path": "forecasts/2026-10-28/185773-lourdes-ayala-vs-jazmin-ortenzi/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Jazmin Ortenzi",
+    "win_prob": {
+     "A": 0.4894,
+     "B": 0.5106
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.32
+    },
+    "games_mean": 22.63,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7348,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4894,
+      "B": 0.5106
+     },
+     "set_score_probs": {
+      "0-2": 0.32,
+      "2-0": 0.3032,
+      "1-2": 0.1905,
+      "2-1": 0.1862
+     },
+     "games_pmf": {
+      "12": 0.0021,
+      "13": 0.01017,
+      "14": 0.02401,
+      "15": 0.04568,
+      "16": 0.06648,
+      "17": 0.08335,
+      "18": 0.08194,
+      "19": 0.07847,
+      "20": 0.06831,
+      "21": 0.05005,
+      "22": 0.06017,
+      "23": 0.03941,
+      "24": 0.02108,
+      "25": 0.0372,
+      "26": 0.041,
+      "27": 0.03776,
+      "28": 0.04128,
+      "29": 0.04226,
+      "30": 0.04021,
+      "31": 0.03652,
+      "32": 0.03139,
+      "33": 0.02066,
+      "34": 0.01477,
+      "35": 0.01338,
+      "36": 0.00665,
+      "37": 0.00198,
+      "38": 0.00257,
+      "39": 0.00115
+     },
+     "games_diff_pmf": {
+      "-12": 0.00123,
+      "-11": 0.00544,
+      "-10": 0.0128,
+      "-9": 0.02517,
+      "-8": 0.04072,
+      "-7": 0.06095,
+      "-6": 0.07191,
+      "-5": 0.07857,
+      "-4": 0.07654,
+      "-3": 0.05483,
+      "-2": 0.03951,
+      "-1": 0.02945,
+      "0": 0.0278,
+      "1": 0.02852,
+      "2": 0.03784,
+      "3": 0.05591,
+      "4": 0.0752,
+      "5": 0.07452,
+      "6": 0.06805,
+      "7": 0.0564,
+      "8": 0.03752,
+      "9": 0.02348,
+      "10": 0.01197,
+      "11": 0.0048,
+      "12": 0.00087
+     },
+     "p_tiebreak": 0.2652,
+     "p_decider": 0.3768
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0011
+   }
+  },
+  {
+   "espn_id": "185133",
+   "tour": "atp",
+   "tournament": "Swiss Indoors Basel",
+   "venue": "Basel, Switzerland",
+   "round": "Round 1",
+   "court": "Center Court",
+   "start_utc": "2026-10-28T15:20Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Novak Djokovic",
+     "id": "atp:104925"
+    },
+    {
+     "name": "Ugo Humbert",
+     "id": "atp:200005"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:38+00:00",
+    "path": "forecasts/2026-10-28/185133-novak-djokovic-vs-ugo-humbert/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Novak Djokovic",
+    "win_prob": {
+     "A": 0.732,
+     "B": 0.268
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.5076
+    },
+    "games_mean": 24.51,
+    "strongest": {
+     "selection": "Novak Djokovic to win at least one set",
+     "probability": 0.8645,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.732,
+      "B": 0.268
+     },
+     "set_score_probs": {
+      "2-0": 0.5076,
+      "2-1": 0.2244,
+      "0-2": 0.1355,
+      "1-2": 0.1324
+     },
+     "games_pmf": {
+      "12": 0.00037,
+      "13": 0.00259,
+      "14": 0.00688,
+      "15": 0.01855,
+      "16": 0.03119,
+      "17": 0.05666,
+      "18": 0.06435,
+      "19": 0.08087,
+      "20": 0.07862,
+      "21": 0.05068,
+      "22": 0.09575,
+      "23": 0.07982,
+      "24": 0.00714,
+      "25": 0.03263,
+      "26": 0.06202,
+      "27": 0.01789,
+      "28": 0.0243,
+      "29": 0.02684,
+      "30": 0.02825,
+      "31": 0.04066,
+      "32": 0.04531,
+      "33": 0.02819,
+      "34": 0.02116,
+      "35": 0.03926,
+      "36": 0.03087,
+      "37": 0.00244,
+      "38": 0.00986,
+      "39": 0.01685
+     },
+     "games_diff_pmf": {
+      "-11": 0.00012,
+      "-10": 0.00023,
+      "-9": 0.00147,
+      "-8": 0.0029,
+      "-7": 0.00897,
+      "-6": 0.01593,
+      "-5": 0.03221,
+      "-4": 0.0507,
+      "-3": 0.0544,
+      "-2": 0.04881,
+      "-1": 0.0331,
+      "0": 0.03473,
+      "1": 0.04258,
+      "2": 0.08188,
+      "3": 0.11791,
+      "4": 0.14672,
+      "5": 0.11987,
+      "6": 0.08551,
+      "7": 0.06278,
+      "8": 0.03152,
+      "9": 0.01803,
+      "10": 0.00677,
+      "11": 0.00249,
+      "12": 0.00037
+     },
+     "p_tiebreak": 0.5098,
+     "p_decider": 0.3569
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0032
+   }
+  },
+  {
+   "espn_id": "185769",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Round 2",
+   "court": "Quadra 1",
+   "start_utc": "2026-10-28T16:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Leyre Romero Gormaz",
+     "id": "wta:220742"
+    },
+    {
+     "name": "Antonia Vergara Rivera",
+     "id": "wta:254733"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:49+00:00",
+    "path": "forecasts/2026-10-28/185769-leyre-romero-gormaz-vs-antonia-vergara-rivera/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Leyre Romero Gormaz",
+    "win_prob": {
+     "A": 0.5861,
+     "B": 0.4139
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3849
+    },
+    "games_mean": 22.52,
+    "strongest": {
+     "selection": "Leyre Romero Gormaz to win at least one set",
+     "probability": 0.7554,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5861,
+      "B": 0.4139
+     },
+     "set_score_probs": {
+      "2-0": 0.3849,
+      "0-2": 0.2446,
+      "2-1": 0.2013,
+      "1-2": 0.1693
+     },
+     "games_pmf": {
+      "12": 0.00225,
+      "13": 0.0111,
+      "14": 0.02568,
+      "15": 0.04704,
+      "16": 0.06917,
+      "17": 0.08413,
+      "18": 0.08336,
+      "19": 0.07666,
+      "20": 0.06886,
+      "21": 0.04954,
+      "22": 0.05979,
+      "23": 0.03948,
+      "24": 0.02032,
+      "25": 0.03628,
+      "26": 0.04155,
+      "27": 0.03719,
+      "28": 0.04001,
+      "29": 0.04254,
+      "30": 0.0385,
+      "31": 0.03587,
+      "32": 0.03088,
+      "33": 0.02018,
+      "34": 0.0143,
+      "35": 0.0139,
+      "36": 0.00592,
+      "37": 0.00165,
+      "38": 0.00249,
+      "39": 0.00136
+     },
+     "games_diff_pmf": {
+      "-12": 0.00061,
+      "-11": 0.00317,
+      "-10": 0.00803,
+      "-9": 0.01655,
+      "-8": 0.0287,
+      "-7": 0.04497,
+      "-6": 0.05594,
+      "-5": 0.06274,
+      "-4": 0.06611,
+      "-3": 0.04967,
+      "-2": 0.03473,
+      "-1": 0.02856,
+      "0": 0.02748,
+      "1": 0.03004,
+      "2": 0.04007,
+      "3": 0.05936,
+      "4": 0.0839,
+      "5": 0.08713,
+      "6": 0.08458,
+      "7": 0.07329,
+      "8": 0.05279,
+      "9": 0.0334,
+      "10": 0.0185,
+      "11": 0.00804,
+      "12": 0.00164
+     },
+     "p_tiebreak": 0.2624,
+     "p_decider": 0.3706
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0016
+   }
+  },
+  {
    "espn_id": "185844",
    "tour": "wta",
    "tournament": "Valle D'Aosta Ladies Open",
    "venue": "Courmayeur, Italy",
    "round": "Round 2",
    "court": "Grandstand",
-   "start_utc": "2026-10-28T14:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T16:30Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2406,23 +3153,23 @@
    }
   },
   {
-   "espn_id": "185133",
-   "tour": "atp",
-   "tournament": "Swiss Indoors Basel",
-   "venue": "Basel, Switzerland",
-   "round": "Round 1",
-   "court": "Center Court",
-   "start_utc": "2026-10-28T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "espn_id": "185846",
+   "tour": "wta",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "venue": "Courmayeur, Italy",
+   "round": "Round 2",
+   "court": "Centre Court",
+   "start_utc": "2026-10-28T16:30Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
-     "name": "Novak Djokovic",
-     "id": "atp:104925"
+     "name": "Gabriela Knutson",
+     "id": "wta:espn13314"
     },
     {
-     "name": "Ugo Humbert",
-     "id": "atp:200005"
+     "name": "Alina Charaeva",
+     "id": "wta:221406"
     }
    ],
    "surface": "Hard",
@@ -2430,368 +3177,125 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      1
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:38+00:00",
-    "path": "forecasts/2026-10-28/185133-novak-djokovic-vs-ugo-humbert/v1.json",
+    "frozen_at_utc": "2026-10-28T03:31:46+00:00",
+    "path": "forecasts/2026-10-28/185846-gabriela-knutson-vs-alina-charaeva/v1.json",
     "model_version": "v1.1",
-    "predicted_winner": "Novak Djokovic",
+    "predicted_winner": "Gabriela Knutson",
     "win_prob": {
-     "A": 0.732,
-     "B": 0.268
+     "A": 0.5874,
+     "B": 0.4126
     },
     "most_likely_set_score": "2-0",
     "final_score": {
      "A_sets": 2,
      "B_sets": 0,
      "sets": [
-      "6-4",
+      "6-3",
       "6-4"
      ],
-     "prob": 0.5076
+     "prob": 0.3874
     },
-    "games_mean": 24.51,
+    "games_mean": 22.49,
     "strongest": {
-     "selection": "Novak Djokovic to win at least one set",
-     "probability": 0.8645,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.732,
-      "B": 0.268
-     },
-     "set_score_probs": {
-      "2-0": 0.5076,
-      "2-1": 0.2244,
-      "0-2": 0.1355,
-      "1-2": 0.1324
-     },
-     "games_pmf": {
-      "12": 0.00037,
-      "13": 0.00259,
-      "14": 0.00688,
-      "15": 0.01855,
-      "16": 0.03119,
-      "17": 0.05666,
-      "18": 0.06435,
-      "19": 0.08087,
-      "20": 0.07862,
-      "21": 0.05068,
-      "22": 0.09575,
-      "23": 0.07982,
-      "24": 0.00714,
-      "25": 0.03263,
-      "26": 0.06202,
-      "27": 0.01789,
-      "28": 0.0243,
-      "29": 0.02684,
-      "30": 0.02825,
-      "31": 0.04066,
-      "32": 0.04531,
-      "33": 0.02819,
-      "34": 0.02116,
-      "35": 0.03926,
-      "36": 0.03087,
-      "37": 0.00244,
-      "38": 0.00986,
-      "39": 0.01685
-     },
-     "games_diff_pmf": {
-      "-11": 0.00012,
-      "-10": 0.00023,
-      "-9": 0.00147,
-      "-8": 0.0029,
-      "-7": 0.00897,
-      "-6": 0.01593,
-      "-5": 0.03221,
-      "-4": 0.0507,
-      "-3": 0.0544,
-      "-2": 0.04881,
-      "-1": 0.0331,
-      "0": 0.03473,
-      "1": 0.04258,
-      "2": 0.08188,
-      "3": 0.11791,
-      "4": 0.14672,
-      "5": 0.11987,
-      "6": 0.08551,
-      "7": 0.06278,
-      "8": 0.03152,
-      "9": 0.01803,
-      "10": 0.00677,
-      "11": 0.00249,
-      "12": 0.00037
-     },
-     "p_tiebreak": 0.5098,
-     "p_decider": 0.3569
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0032
-   }
-  },
-  {
-   "espn_id": "185772",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Round 2",
-   "court": "Quadra 1",
-   "start_utc": "2026-10-28T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Alice Tubello",
-     "id": "wta:220554"
-    },
-    {
-     "name": "Luna Maria Cinalli",
-     "id": "wta:espn17421"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:40+00:00",
-    "path": "forecasts/2026-10-28/185772-alice-tubello-vs-luna-maria-cinalli/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Luna Maria Cinalli",
-    "win_prob": {
-     "A": 0.4695,
-     "B": 0.5305
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3364
-    },
-    "games_mean": 22.64,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7312,
+     "selection": "Gabriela Knutson to win at least one set",
+     "probability": 0.7577,
      "confidence": "Low"
     },
     "data_quality": "LOW",
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.4695,
-      "B": 0.5305
+      "A": 0.5874,
+      "B": 0.4126
      },
      "set_score_probs": {
-      "0-2": 0.3364,
-      "2-0": 0.2887,
-      "1-2": 0.1941,
-      "2-1": 0.1808
+      "2-0": 0.3874,
+      "0-2": 0.2424,
+      "2-1": 0.2,
+      "1-2": 0.1702
      },
      "games_pmf": {
-      "12": 0.00207,
-      "13": 0.01016,
-      "14": 0.02348,
-      "15": 0.04532,
-      "16": 0.06583,
-      "17": 0.08313,
-      "18": 0.08304,
-      "19": 0.07861,
-      "20": 0.06838,
-      "21": 0.04927,
-      "22": 0.059,
-      "23": 0.04135,
-      "24": 0.02137,
-      "25": 0.03665,
-      "26": 0.04217,
-      "27": 0.03787,
-      "28": 0.03993,
-      "29": 0.04239,
-      "30": 0.03981,
-      "31": 0.03694,
-      "32": 0.03085,
-      "33": 0.02043,
-      "34": 0.01468,
-      "35": 0.01474,
-      "36": 0.00693,
-      "37": 0.00196,
-      "38": 0.00228,
-      "39": 0.00136
+      "12": 0.00233,
+      "13": 0.01188,
+      "14": 0.02703,
+      "15": 0.04786,
+      "16": 0.06835,
+      "17": 0.08348,
+      "18": 0.08314,
+      "19": 0.07809,
+      "20": 0.06837,
+      "21": 0.0494,
+      "22": 0.05904,
+      "23": 0.03775,
+      "24": 0.02129,
+      "25": 0.0373,
+      "26": 0.04102,
+      "27": 0.03696,
+      "28": 0.04087,
+      "29": 0.04274,
+      "30": 0.03844,
+      "31": 0.03562,
+      "32": 0.0307,
+      "33": 0.01964,
+      "34": 0.01389,
+      "35": 0.01314,
+      "36": 0.00612,
+      "37": 0.00191,
+      "38": 0.00265,
+      "39": 0.00099
      },
      "games_diff_pmf": {
-      "-12": 0.00133,
-      "-11": 0.00586,
-      "-10": 0.01414,
-      "-9": 0.02643,
-      "-8": 0.043,
-      "-7": 0.06348,
-      "-6": 0.07427,
-      "-5": 0.07944,
-      "-4": 0.07916,
-      "-3": 0.05872,
-      "-2": 0.04052,
-      "-1": 0.02959,
-      "0": 0.02767,
-      "1": 0.02938,
-      "2": 0.03732,
-      "3": 0.05524,
-      "4": 0.07123,
-      "5": 0.07249,
-      "6": 0.06503,
-      "7": 0.05332,
-      "8": 0.0352,
-      "9": 0.02184,
-      "10": 0.01021,
-      "11": 0.00439,
-      "12": 0.00074
+      "-12": 0.00058,
+      "-11": 0.00328,
+      "-10": 0.00848,
+      "-9": 0.01653,
+      "-8": 0.02807,
+      "-7": 0.04534,
+      "-6": 0.05624,
+      "-5": 0.06284,
+      "-4": 0.06515,
+      "-3": 0.04752,
+      "-2": 0.0345,
+      "-1": 0.02843,
+      "0": 0.02763,
+      "1": 0.02963,
+      "2": 0.04033,
+      "3": 0.05844,
+      "4": 0.08343,
+      "5": 0.0885,
+      "6": 0.08514,
+      "7": 0.0733,
+      "8": 0.0527,
+      "9": 0.03423,
+      "10": 0.01924,
+      "11": 0.00872,
+      "12": 0.00175
      },
-     "p_tiebreak": 0.2688,
-     "p_decider": 0.3749
+     "p_tiebreak": 0.2573,
+     "p_decider": 0.3703
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0033
-   }
-  },
-  {
-   "espn_id": "185773",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Round 2",
-   "court": "Quadra Central",
-   "start_utc": "2026-10-28T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Lourdes Ayala",
-     "id": "wta:espn19256"
-    },
-    {
-     "name": "Jazmin Ortenzi",
-     "id": "wta:220446"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:42+00:00",
-    "path": "forecasts/2026-10-28/185773-lourdes-ayala-vs-jazmin-ortenzi/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Jazmin Ortenzi",
-    "win_prob": {
-     "A": 0.4894,
-     "B": 0.5106
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.32
-    },
-    "games_mean": 22.63,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7348,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4894,
-      "B": 0.5106
-     },
-     "set_score_probs": {
-      "0-2": 0.32,
-      "2-0": 0.3032,
-      "1-2": 0.1905,
-      "2-1": 0.1862
-     },
-     "games_pmf": {
-      "12": 0.0021,
-      "13": 0.01017,
-      "14": 0.02401,
-      "15": 0.04568,
-      "16": 0.06648,
-      "17": 0.08335,
-      "18": 0.08194,
-      "19": 0.07847,
-      "20": 0.06831,
-      "21": 0.05005,
-      "22": 0.06017,
-      "23": 0.03941,
-      "24": 0.02108,
-      "25": 0.0372,
-      "26": 0.041,
-      "27": 0.03776,
-      "28": 0.04128,
-      "29": 0.04226,
-      "30": 0.04021,
-      "31": 0.03652,
-      "32": 0.03139,
-      "33": 0.02066,
-      "34": 0.01477,
-      "35": 0.01338,
-      "36": 0.00665,
-      "37": 0.00198,
-      "38": 0.00257,
-      "39": 0.00115
-     },
-     "games_diff_pmf": {
-      "-12": 0.00123,
-      "-11": 0.00544,
-      "-10": 0.0128,
-      "-9": 0.02517,
-      "-8": 0.04072,
-      "-7": 0.06095,
-      "-6": 0.07191,
-      "-5": 0.07857,
-      "-4": 0.07654,
-      "-3": 0.05483,
-      "-2": 0.03951,
-      "-1": 0.02945,
-      "0": 0.0278,
-      "1": 0.02852,
-      "2": 0.03784,
-      "3": 0.05591,
-      "4": 0.0752,
-      "5": 0.07452,
-      "6": 0.06805,
-      "7": 0.0564,
-      "8": 0.03752,
-      "9": 0.02348,
-      "10": 0.01197,
-      "11": 0.0048,
-      "12": 0.00087
-     },
-     "p_tiebreak": 0.2652,
-     "p_decider": 0.3768
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0011
+    "cross_check_max_diff": 0.0026
    }
   },
   {
@@ -2801,8 +3305,8 @@
    "venue": "Vienna, Austria",
    "round": "Round 2",
    "court": "Glaubandich Court",
-   "start_utc": "2026-10-28T15:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T16:45Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2925,404 +3429,14 @@
    }
   },
   {
-   "espn_id": "185846",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Round 2",
-   "court": "Centre Court",
-   "start_utc": "2026-10-28T15:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Gabriela Knutson",
-     "id": "wta:espn13314"
-    },
-    {
-     "name": "Alina Charaeva",
-     "id": "wta:221406"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:46+00:00",
-    "path": "forecasts/2026-10-28/185846-gabriela-knutson-vs-alina-charaeva/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Gabriela Knutson",
-    "win_prob": {
-     "A": 0.5874,
-     "B": 0.4126
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.3874
-    },
-    "games_mean": 22.49,
-    "strongest": {
-     "selection": "Gabriela Knutson to win at least one set",
-     "probability": 0.7577,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5874,
-      "B": 0.4126
-     },
-     "set_score_probs": {
-      "2-0": 0.3874,
-      "0-2": 0.2424,
-      "2-1": 0.2,
-      "1-2": 0.1702
-     },
-     "games_pmf": {
-      "12": 0.00233,
-      "13": 0.01188,
-      "14": 0.02703,
-      "15": 0.04786,
-      "16": 0.06835,
-      "17": 0.08348,
-      "18": 0.08314,
-      "19": 0.07809,
-      "20": 0.06837,
-      "21": 0.0494,
-      "22": 0.05904,
-      "23": 0.03775,
-      "24": 0.02129,
-      "25": 0.0373,
-      "26": 0.04102,
-      "27": 0.03696,
-      "28": 0.04087,
-      "29": 0.04274,
-      "30": 0.03844,
-      "31": 0.03562,
-      "32": 0.0307,
-      "33": 0.01964,
-      "34": 0.01389,
-      "35": 0.01314,
-      "36": 0.00612,
-      "37": 0.00191,
-      "38": 0.00265,
-      "39": 0.00099
-     },
-     "games_diff_pmf": {
-      "-12": 0.00058,
-      "-11": 0.00328,
-      "-10": 0.00848,
-      "-9": 0.01653,
-      "-8": 0.02807,
-      "-7": 0.04534,
-      "-6": 0.05624,
-      "-5": 0.06284,
-      "-4": 0.06515,
-      "-3": 0.04752,
-      "-2": 0.0345,
-      "-1": 0.02843,
-      "0": 0.02763,
-      "1": 0.02963,
-      "2": 0.04033,
-      "3": 0.05844,
-      "4": 0.08343,
-      "5": 0.0885,
-      "6": 0.08514,
-      "7": 0.0733,
-      "8": 0.0527,
-      "9": 0.03423,
-      "10": 0.01924,
-      "11": 0.00872,
-      "12": 0.00175
-     },
-     "p_tiebreak": 0.2573,
-     "p_decider": 0.3703
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0026
-   }
-  },
-  {
-   "espn_id": "185849",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Round 2",
-   "court": "Grandstand",
-   "start_utc": "2026-10-28T15:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Linda Klimovicova",
-     "id": "wta:221626"
-    },
-    {
-     "name": "Noma Noha Akugue",
-     "id": "wta:223333"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:48+00:00",
-    "path": "forecasts/2026-10-28/185849-linda-klimovicova-vs-noma-noha-akugue/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Noma Noha Akugue",
-    "win_prob": {
-     "A": 0.3894,
-     "B": 0.6106
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.4078
-    },
-    "games_mean": 22.46,
-    "strongest": {
-     "selection": "Noma Noha Akugue to win at least one set",
-     "probability": 0.7736,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3894,
-      "B": 0.6106
-     },
-     "set_score_probs": {
-      "0-2": 0.4078,
-      "2-0": 0.2264,
-      "1-2": 0.2029,
-      "2-1": 0.163
-     },
-     "games_pmf": {
-      "12": 0.00267,
-      "13": 0.01184,
-      "14": 0.02707,
-      "15": 0.04798,
-      "16": 0.06957,
-      "17": 0.08322,
-      "18": 0.08451,
-      "19": 0.0792,
-      "20": 0.06736,
-      "21": 0.04899,
-      "22": 0.05934,
-      "23": 0.0398,
-      "24": 0.01957,
-      "25": 0.03736,
-      "26": 0.0403,
-      "27": 0.03682,
-      "28": 0.03968,
-      "29": 0.04133,
-      "30": 0.03769,
-      "31": 0.03604,
-      "32": 0.03016,
-      "33": 0.01959,
-      "34": 0.01373,
-      "35": 0.0142,
-      "36": 0.00617,
-      "37": 0.00174,
-      "38": 0.00259,
-      "39": 0.00148
-     },
-     "games_diff_pmf": {
-      "-12": 0.00223,
-      "-11": 0.00912,
-      "-10": 0.0209,
-      "-9": 0.03639,
-      "-8": 0.05537,
-      "-7": 0.07764,
-      "-6": 0.08806,
-      "-5": 0.09096,
-      "-4": 0.08588,
-      "-3": 0.0615,
-      "-2": 0.03983,
-      "-1": 0.03031,
-      "0": 0.02638,
-      "1": 0.02741,
-      "2": 0.03398,
-      "3": 0.04832,
-      "4": 0.06218,
-      "5": 0.05977,
-      "6": 0.05249,
-      "7": 0.04076,
-      "8": 0.02582,
-      "9": 0.01461,
-      "10": 0.00685,
-      "11": 0.0028,
-      "12": 0.00044
-     },
-     "p_tiebreak": 0.2602,
-     "p_decider": 0.3659
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0021
-   }
-  },
-  {
-   "espn_id": "185769",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Round 2",
-   "court": "Quadra 1",
-   "start_utc": "2026-10-28T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Leyre Romero Gormaz",
-     "id": "wta:220742"
-    },
-    {
-     "name": "Antonia Vergara Rivera",
-     "id": "wta:254733"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:49+00:00",
-    "path": "forecasts/2026-10-28/185769-leyre-romero-gormaz-vs-antonia-vergara-rivera/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Leyre Romero Gormaz",
-    "win_prob": {
-     "A": 0.5861,
-     "B": 0.4139
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-4",
-      "6-4"
-     ],
-     "prob": 0.3849
-    },
-    "games_mean": 22.52,
-    "strongest": {
-     "selection": "Leyre Romero Gormaz to win at least one set",
-     "probability": 0.7554,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5861,
-      "B": 0.4139
-     },
-     "set_score_probs": {
-      "2-0": 0.3849,
-      "0-2": 0.2446,
-      "2-1": 0.2013,
-      "1-2": 0.1693
-     },
-     "games_pmf": {
-      "12": 0.00225,
-      "13": 0.0111,
-      "14": 0.02568,
-      "15": 0.04704,
-      "16": 0.06917,
-      "17": 0.08413,
-      "18": 0.08336,
-      "19": 0.07666,
-      "20": 0.06886,
-      "21": 0.04954,
-      "22": 0.05979,
-      "23": 0.03948,
-      "24": 0.02032,
-      "25": 0.03628,
-      "26": 0.04155,
-      "27": 0.03719,
-      "28": 0.04001,
-      "29": 0.04254,
-      "30": 0.0385,
-      "31": 0.03587,
-      "32": 0.03088,
-      "33": 0.02018,
-      "34": 0.0143,
-      "35": 0.0139,
-      "36": 0.00592,
-      "37": 0.00165,
-      "38": 0.00249,
-      "39": 0.00136
-     },
-     "games_diff_pmf": {
-      "-12": 0.00061,
-      "-11": 0.00317,
-      "-10": 0.00803,
-      "-9": 0.01655,
-      "-8": 0.0287,
-      "-7": 0.04497,
-      "-6": 0.05594,
-      "-5": 0.06274,
-      "-4": 0.06611,
-      "-3": 0.04967,
-      "-2": 0.03473,
-      "-1": 0.02856,
-      "0": 0.02748,
-      "1": 0.03004,
-      "2": 0.04007,
-      "3": 0.05936,
-      "4": 0.0839,
-      "5": 0.08713,
-      "6": 0.08458,
-      "7": 0.07329,
-      "8": 0.05279,
-      "9": 0.0334,
-      "10": 0.0185,
-      "11": 0.00804,
-      "12": 0.00164
-     },
-     "p_tiebreak": 0.2624,
-     "p_decider": 0.3706
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0016
-   }
-  },
-  {
    "espn_id": "185179",
    "tour": "atp",
    "tournament": "Erste Bank Open",
    "venue": "Vienna, Austria",
    "round": "Round 1",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T16:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T17:00Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -3445,144 +3559,14 @@
    }
   },
   {
-   "espn_id": "185138",
-   "tour": "atp",
-   "tournament": "Swiss Indoors Basel",
-   "venue": "Basel, Switzerland",
-   "round": "Round 1",
-   "court": "Center Court",
-   "start_utc": "2026-10-28T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Taylor Fritz",
-     "id": "atp:126203"
-    },
-    {
-     "name": "Rinky Hijikata",
-     "id": "atp:208014"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:53+00:00",
-    "path": "forecasts/2026-10-28/185138-taylor-fritz-vs-rinky-hijikata/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Taylor Fritz",
-    "win_prob": {
-     "A": 0.7557,
-     "B": 0.2443
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.5376
-    },
-    "games_mean": 23.68,
-    "strongest": {
-     "selection": "Taylor Fritz to win at least one set",
-     "probability": 0.8769,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.7557,
-      "B": 0.2443
-     },
-     "set_score_probs": {
-      "2-0": 0.5376,
-      "2-1": 0.2181,
-      "0-2": 0.1231,
-      "1-2": 0.1212
-     },
-     "games_pmf": {
-      "12": 0.00081,
-      "13": 0.00474,
-      "14": 0.01273,
-      "15": 0.02868,
-      "16": 0.04385,
-      "17": 0.06826,
-      "18": 0.07457,
-      "19": 0.08474,
-      "20": 0.07995,
-      "21": 0.05316,
-      "22": 0.08512,
-      "23": 0.06837,
-      "24": 0.00855,
-      "25": 0.03061,
-      "26": 0.04964,
-      "27": 0.02192,
-      "28": 0.02682,
-      "29": 0.02859,
-      "30": 0.03137,
-      "31": 0.03855,
-      "32": 0.04133,
-      "33": 0.02578,
-      "34": 0.01903,
-      "35": 0.03172,
-      "36": 0.02202,
-      "37": 0.00219,
-      "38": 0.0072,
-      "39": 0.0097
-     },
-     "games_diff_pmf": {
-      "-12": 1e-05,
-      "-11": 0.00012,
-      "-10": 0.00068,
-      "-9": 0.00197,
-      "-8": 0.00348,
-      "-7": 0.01016,
-      "-6": 0.01749,
-      "-5": 0.03239,
-      "-4": 0.04484,
-      "-3": 0.04748,
-      "-2": 0.04015,
-      "-1": 0.02761,
-      "0": 0.0303,
-      "1": 0.03679,
-      "2": 0.06736,
-      "3": 0.10557,
-      "4": 0.13967,
-      "5": 0.12574,
-      "6": 0.10054,
-      "7": 0.0767,
-      "8": 0.0453,
-      "9": 0.02782,
-      "10": 0.01237,
-      "11": 0.00466,
-      "12": 0.0008
-     },
-     "p_tiebreak": 0.4363,
-     "p_decider": 0.3393
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0035
-   }
-  },
-  {
    "espn_id": "185768",
    "tour": "wta",
    "tournament": "Curitiba Open",
    "venue": "Curitiba, Brazil",
    "round": "Round 2",
    "court": "Quadra Central",
-   "start_utc": "2026-10-28T17:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T17:10Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -3705,23 +3689,23 @@
    }
   },
   {
-   "espn_id": "185146",
+   "espn_id": "185138",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
    "venue": "Basel, Switzerland",
-   "round": "Round 2",
+   "round": "Round 1",
    "court": "Center Court",
-   "start_utc": "2026-10-28T18:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T18:15Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
-     "name": "Hubert Hurkacz",
-     "id": "atp:128034"
+     "name": "Taylor Fritz",
+     "id": "atp:126203"
     },
     {
-     "name": "Holger Rune",
-     "id": "atp:208029"
+     "name": "Rinky Hijikata",
+     "id": "atp:208014"
     }
    ],
    "surface": "Hard",
@@ -3732,106 +3716,236 @@
    "result": null,
    "forecast": {
     "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:57+00:00",
-    "path": "forecasts/2026-10-28/185146-hubert-hurkacz-vs-holger-rune/v1.json",
+    "frozen_at_utc": "2026-10-28T03:31:53+00:00",
+    "path": "forecasts/2026-10-28/185138-taylor-fritz-vs-rinky-hijikata/v1.json",
     "model_version": "v1.1",
-    "predicted_winner": "Hubert Hurkacz",
+    "predicted_winner": "Taylor Fritz",
     "win_prob": {
-     "A": 0.5613,
-     "B": 0.4387
+     "A": 0.7557,
+     "B": 0.2443
     },
     "most_likely_set_score": "2-0",
     "final_score": {
      "A_sets": 2,
      "B_sets": 0,
      "sets": [
-      "6-4",
+      "6-3",
       "6-4"
      ],
-     "prob": 0.3473
+     "prob": 0.5376
     },
-    "games_mean": 25.09,
+    "games_mean": 23.68,
     "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8527,
-     "confidence": "Low"
+     "selection": "Taylor Fritz to win at least one set",
+     "probability": 0.8769,
+     "confidence": "Medium"
     },
-    "data_quality": "LOW",
-    "games_projected": 23.0,
+    "data_quality": "MEDIUM",
+    "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.5613,
-      "B": 0.4387
+      "A": 0.7557,
+      "B": 0.2443
      },
      "set_score_probs": {
-      "2-0": 0.3473,
-      "0-2": 0.2502,
-      "2-1": 0.214,
-      "1-2": 0.1885
+      "2-0": 0.5376,
+      "2-1": 0.2181,
+      "0-2": 0.1231,
+      "1-2": 0.1212
      },
      "games_pmf": {
-      "12": 0.00017,
-      "13": 0.00149,
-      "14": 0.00481,
-      "15": 0.01314,
-      "16": 0.0244,
-      "17": 0.04686,
-      "18": 0.05644,
-      "19": 0.07821,
-      "20": 0.07414,
-      "21": 0.04904,
-      "22": 0.09245,
-      "23": 0.07923,
-      "24": 0.00858,
-      "25": 0.03431,
-      "26": 0.06303,
-      "27": 0.02246,
-      "28": 0.02979,
-      "29": 0.03134,
-      "30": 0.03298,
-      "31": 0.04625,
-      "32": 0.05102,
-      "33": 0.03162,
-      "34": 0.02393,
-      "35": 0.0431,
-      "36": 0.03198,
-      "37": 0.00237,
-      "38": 0.01012,
-      "39": 0.01674
+      "12": 0.00081,
+      "13": 0.00474,
+      "14": 0.01273,
+      "15": 0.02868,
+      "16": 0.04385,
+      "17": 0.06826,
+      "18": 0.07457,
+      "19": 0.08474,
+      "20": 0.07995,
+      "21": 0.05316,
+      "22": 0.08512,
+      "23": 0.06837,
+      "24": 0.00855,
+      "25": 0.03061,
+      "26": 0.04964,
+      "27": 0.02192,
+      "28": 0.02682,
+      "29": 0.02859,
+      "30": 0.03137,
+      "31": 0.03855,
+      "32": 0.04133,
+      "33": 0.02578,
+      "34": 0.01903,
+      "35": 0.03172,
+      "36": 0.02202,
+      "37": 0.00219,
+      "38": 0.0072,
+      "39": 0.0097
      },
      "games_diff_pmf": {
-      "-12": 5e-05,
-      "-11": 0.00043,
-      "-10": 0.00171,
-      "-9": 0.00501,
-      "-8": 0.01016,
-      "-7": 0.02336,
-      "-6": 0.03718,
-      "-5": 0.06423,
-      "-4": 0.08493,
-      "-3": 0.08239,
-      "-2": 0.06676,
-      "-1": 0.04125,
-      "0": 0.04025,
-      "1": 0.04384,
-      "2": 0.07427,
-      "3": 0.09987,
-      "4": 0.11296,
-      "5": 0.08819,
-      "6": 0.05476,
-      "7": 0.03755,
-      "8": 0.01745,
-      "9": 0.00898,
-      "10": 0.00324,
-      "11": 0.00106,
-      "12": 0.00012
+      "-12": 1e-05,
+      "-11": 0.00012,
+      "-10": 0.00068,
+      "-9": 0.00197,
+      "-8": 0.00348,
+      "-7": 0.01016,
+      "-6": 0.01749,
+      "-5": 0.03239,
+      "-4": 0.04484,
+      "-3": 0.04748,
+      "-2": 0.04015,
+      "-1": 0.02761,
+      "0": 0.0303,
+      "1": 0.03679,
+      "2": 0.06736,
+      "3": 0.10557,
+      "4": 0.13967,
+      "5": 0.12574,
+      "6": 0.10054,
+      "7": 0.0767,
+      "8": 0.0453,
+      "9": 0.02782,
+      "10": 0.01237,
+      "11": 0.00466,
+      "12": 0.0008
      },
-     "p_tiebreak": 0.5251,
-     "p_decider": 0.4024
+     "p_tiebreak": 0.4363,
+     "p_decider": 0.3393
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0022
+    "cross_check_max_diff": 0.0035
+   }
+  },
+  {
+   "espn_id": "185849",
+   "tour": "wta",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "venue": "Courmayeur, Italy",
+   "round": "Round 2",
+   "court": "Grandstand",
+   "start_utc": "2026-10-28T18:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Linda Klimovicova",
+     "id": "wta:221626"
+    },
+    {
+     "name": "Noma Noha Akugue",
+     "id": "wta:223333"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:48+00:00",
+    "path": "forecasts/2026-10-28/185849-linda-klimovicova-vs-noma-noha-akugue/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Noma Noha Akugue",
+    "win_prob": {
+     "A": 0.3894,
+     "B": 0.6106
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4078
+    },
+    "games_mean": 22.46,
+    "strongest": {
+     "selection": "Noma Noha Akugue to win at least one set",
+     "probability": 0.7736,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3894,
+      "B": 0.6106
+     },
+     "set_score_probs": {
+      "0-2": 0.4078,
+      "2-0": 0.2264,
+      "1-2": 0.2029,
+      "2-1": 0.163
+     },
+     "games_pmf": {
+      "12": 0.00267,
+      "13": 0.01184,
+      "14": 0.02707,
+      "15": 0.04798,
+      "16": 0.06957,
+      "17": 0.08322,
+      "18": 0.08451,
+      "19": 0.0792,
+      "20": 0.06736,
+      "21": 0.04899,
+      "22": 0.05934,
+      "23": 0.0398,
+      "24": 0.01957,
+      "25": 0.03736,
+      "26": 0.0403,
+      "27": 0.03682,
+      "28": 0.03968,
+      "29": 0.04133,
+      "30": 0.03769,
+      "31": 0.03604,
+      "32": 0.03016,
+      "33": 0.01959,
+      "34": 0.01373,
+      "35": 0.0142,
+      "36": 0.00617,
+      "37": 0.00174,
+      "38": 0.00259,
+      "39": 0.00148
+     },
+     "games_diff_pmf": {
+      "-12": 0.00223,
+      "-11": 0.00912,
+      "-10": 0.0209,
+      "-9": 0.03639,
+      "-8": 0.05537,
+      "-7": 0.07764,
+      "-6": 0.08806,
+      "-5": 0.09096,
+      "-4": 0.08588,
+      "-3": 0.0615,
+      "-2": 0.03983,
+      "-1": 0.03031,
+      "0": 0.02638,
+      "1": 0.02741,
+      "2": 0.03398,
+      "3": 0.04832,
+      "4": 0.06218,
+      "5": 0.05977,
+      "6": 0.05249,
+      "7": 0.04076,
+      "8": 0.02582,
+      "9": 0.01461,
+      "10": 0.00685,
+      "11": 0.0028,
+      "12": 0.00044
+     },
+     "p_tiebreak": 0.2602,
+     "p_decider": 0.3659
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0021
    }
   },
   {
@@ -3962,6 +4076,136 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0025
+   }
+  },
+  {
+   "espn_id": "185146",
+   "tour": "atp",
+   "tournament": "Swiss Indoors Basel",
+   "venue": "Basel, Switzerland",
+   "round": "Round 2",
+   "court": "Center Court",
+   "start_utc": "2026-10-28T19:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Hubert Hurkacz",
+     "id": "atp:128034"
+    },
+    {
+     "name": "Holger Rune",
+     "id": "atp:208029"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T03:31:57+00:00",
+    "path": "forecasts/2026-10-28/185146-hubert-hurkacz-vs-holger-rune/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Hubert Hurkacz",
+    "win_prob": {
+     "A": 0.5613,
+     "B": 0.4387
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3473
+    },
+    "games_mean": 25.09,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8527,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5613,
+      "B": 0.4387
+     },
+     "set_score_probs": {
+      "2-0": 0.3473,
+      "0-2": 0.2502,
+      "2-1": 0.214,
+      "1-2": 0.1885
+     },
+     "games_pmf": {
+      "12": 0.00017,
+      "13": 0.00149,
+      "14": 0.00481,
+      "15": 0.01314,
+      "16": 0.0244,
+      "17": 0.04686,
+      "18": 0.05644,
+      "19": 0.07821,
+      "20": 0.07414,
+      "21": 0.04904,
+      "22": 0.09245,
+      "23": 0.07923,
+      "24": 0.00858,
+      "25": 0.03431,
+      "26": 0.06303,
+      "27": 0.02246,
+      "28": 0.02979,
+      "29": 0.03134,
+      "30": 0.03298,
+      "31": 0.04625,
+      "32": 0.05102,
+      "33": 0.03162,
+      "34": 0.02393,
+      "35": 0.0431,
+      "36": 0.03198,
+      "37": 0.00237,
+      "38": 0.01012,
+      "39": 0.01674
+     },
+     "games_diff_pmf": {
+      "-12": 5e-05,
+      "-11": 0.00043,
+      "-10": 0.00171,
+      "-9": 0.00501,
+      "-8": 0.01016,
+      "-7": 0.02336,
+      "-6": 0.03718,
+      "-5": 0.06423,
+      "-4": 0.08493,
+      "-3": 0.08239,
+      "-2": 0.06676,
+      "-1": 0.04125,
+      "0": 0.04025,
+      "1": 0.04384,
+      "2": 0.07427,
+      "3": 0.09987,
+      "4": 0.11296,
+      "5": 0.08819,
+      "6": 0.05476,
+      "7": 0.03755,
+      "8": 0.01745,
+      "9": 0.00898,
+      "10": 0.00324,
+      "11": 0.00106,
+      "12": 0.00012
+     },
+     "p_tiebreak": 0.5251,
+     "p_decider": 0.4024
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0022
    }
   },
   {
