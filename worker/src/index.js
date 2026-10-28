@@ -10,6 +10,38 @@ const json = (o, s = 200, h = {}) => new Response(JSON.stringify(o), { status: s
 const CORS = { 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET, OPTIONS' };
 const nyDate = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
 const nyTime = iso => iso ? new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit' }).format(new Date(iso)) + ' ET' : '';
+const addDays = (ymd, k) => { const d = new Date(ymd + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + k); return d.toISOString().slice(0, 10); };
+const dayLabel = ymd => new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric' }).format(new Date(ymd + 'T12:00:00Z'));
+// accepts today / tomorrow / yesterday / YYYY-MM-DD / MM-DD / M/D (NY time); returns YYYY-MM-DD or null
+function parseDay(v) {
+  const t = nyDate(), s = String(v || '').trim().toLowerCase();
+  if (!s || s === 'today') return t;
+  if (s === 'tomorrow') return addDays(t, 1);
+  if (s === 'yesterday') return addDays(t, -1);
+  let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  const ok = (y, mo, d) => { const x = `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`; return isNaN(Date.parse(x + 'T12:00:00Z')) || new Date(x + 'T12:00:00Z').toISOString().slice(0, 10) !== x ? null : x; };
+  if (m) return ok(m[1], m[2], m[3]);
+  m = s.match(/^(\d{1,2})[-/](\d{1,2})$/);
+  if (m) return ok(t.slice(0, 4), m[1], m[2]);
+  return null;
+}
+async function dateChoices(env, typed) {
+  const t = nyDate(); let idx = { dates: [], counts: {} };
+  try { idx = await getJSON(`${env.DASHBOARD_URL}data/slates.json`); } catch (e) { }
+  const cnt = d => (idx.counts && idx.counts[d] != null) ? ` (${idx.counts[d]} matches)` : (idx.dates || []).includes(d) ? '' : ' (no slate yet)';
+  const rel = [['Today', t], ['Tomorrow', addDays(t, 1)], ['Yesterday', addDays(t, -1)]];
+  let ch = rel.map(([n, d]) => ({ name: `${n} · ${dayLabel(d)}${cnt(d)}`, value: d }));
+  const rs = new Set(rel.map(r => r[1]));
+  ch = ch.concat([...(idx.dates || [])].sort().reverse().filter(d => !rs.has(d)).map(d => ({ name: `${dayLabel(d)}${cnt(d)}`, value: d })));
+  const q = String(typed || '').trim().toLowerCase();
+  if (q) {
+    const p = parseDay(q);
+    const hit = ch.filter(c => c.name.toLowerCase().includes(q) || c.value.includes(q) || c.value === p);
+    if (p && !hit.some(c => c.value === p)) hit.unshift({ name: `${dayLabel(p)}${cnt(p)}`, value: p });
+    ch = hit;
+  }
+  return ch.slice(0, 25);
+}
 const pct = (x, d = 1) => (100 * x).toFixed(d) + '%';
 
 function hex2buf(h) { const b = new Uint8Array(h.length / 2); for (let i = 0; i < b.length; i++) b[i] = parseInt(h.substr(2 * i, 2), 16); return b; }
@@ -163,11 +195,15 @@ export default {
       if (!(await verifyDiscord(req, body, env.DISCORD_PUBLIC_KEY))) return new Response('invalid request signature', { status: 401 });
       const it = JSON.parse(body);
       if (it.type === 1) return json({ type: 1 });
+      if (it.type === 4 && it.data && it.data.name === 'tennis') {   // autocomplete for the date option
+        const f = (it.data.options || []).find(o => o.focused) || {};
+        return json({ type: 8, data: { choices: await dateChoices(env, f.value) } });
+      }
       if (it.type === 2 && it.data && it.data.name === 'tennis') {
         const opts = Object.fromEntries((it.data.options || []).map(o => [o.name, o.value]));
-        let day = opts.date || nyDate();
-        if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) return json({ type: 4, data: { content: 'Date must be YYYY-MM-DD.', flags: 64 } });
-        ctx.waitUntil(followUp(env, it, day, opts.tour || 'all'));
+        const day = parseDay(opts.date);
+        if (!day) return json({ type: 4, data: { content: 'Pick a date from the list, or type today / tomorrow / yesterday / YYYY-MM-DD / MM-DD.', flags: 64 } });
+        ctx.waitUntil(followUp(env, it, day, 'all'));
         return json({ type: 5 });
       }
       return json({ type: 4, data: { content: 'Unknown command', flags: 64 } });

@@ -109,6 +109,7 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         idx = json.loads(idx_f.read_text()) if idx_f.exists() else {"dates": []}
         if str(day) not in idx["dates"]:
             idx["dates"] = sorted(idx["dates"] + [str(day)])
+        idx.setdefault("counts", {})[str(day)] = len(out)
         idx["updated_utc"] = slate["generated_at_utc"]
         idx_f.write_text(json.dumps(idx, indent=1))
     return slate

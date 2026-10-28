@@ -223,6 +223,6 @@ Note: Jupiter geo-restricts US (and South Korea) IPs; the Action step is allowed
 
 Cloudflare Worker in `worker/` (`node build.mjs` bundles `docs/engine.js` + `docs/markets.js`). `POST /interactions` verifies the
 Ed25519 signature, defers, then posts the NY-date slate (winner, win %, final score, projected games, Jupiter best bet or NO BET,
-plus top-probability and top-EV leaderboards) in < 2000-char messages. `GET /api/bets?date=` returns live evaluations (CORS).
+plus top-probability and top-EV leaderboards) in < 2000-char messages. Optional `date` option uses autocomplete (Today / Tomorrow / Yesterday / published slate dates; typed today, MM-DD, YYYY-MM-DD also work); always all ATP+WTA. `GET /api/bets?date=` returns live evaluations (CORS).
 Live: https://tennis-oracle.dreiss324.workers.dev (Interactions Endpoint: /interactions). Register the command with `DISCORD_BOT_TOKEN=... python scripts/register_commands.py`; deploy with `worker/deploy.sh`.
 The bot token is NOT needed by the Worker (follow-ups use the interaction token).

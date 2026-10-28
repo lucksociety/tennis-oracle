@@ -11,12 +11,11 @@ import urllib.request
 APP_ID = os.environ.get("DISCORD_APPLICATION_ID", "1564848519913930784")
 COMMANDS = [{
     "name": "tennis", "type": 1,
-    "description": "Luck Society Tennis Oracle: today's slate - winners, win %, score predictions, Jupiter best bets",
+    "description": "Tennis Oracle: ATP+WTA slate - winners, win %, score predictions, Jupiter best bets",
     "integration_types": [0, 1], "contexts": [0, 1, 2],
     "options": [
-        {"type": 3, "name": "date", "description": "Slate date YYYY-MM-DD (America/New_York). Default: today", "required": False},
-        {"type": 3, "name": "tour", "description": "Tour filter", "required": False,
-         "choices": [{"name": "All", "value": "all"}, {"name": "ATP", "value": "atp"}, {"name": "WTA", "value": "wta"}]},
+        {"type": 3, "name": "date", "description": "Slate date (NY time): pick from the list or type today / tomorrow / MM-DD. Default: today",
+         "required": False, "autocomplete": True},
     ],
 }]
 
