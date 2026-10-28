@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
- "n": 35,
- "passed": 35,
+ "n": 37,
+ "passed": 37,
  "results": [
   {
    "match": "Novak Djokovic vs Ugo Humbert",
@@ -208,6 +208,23 @@
    "file": "forecasts/2026-10-28/185198-learner-tien-vs-alex-de-minaur/v1.json"
   },
   {
+   "match": "Alycia Parks vs Kimberly Birrell",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0034,
+   "reproduction": {
+    "frozen_p_a": 0.4694,
+    "rerun_p_a": 0.4694,
+    "frozen_games_mean": 22.93,
+    "rerun_games_mean": 22.93,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "file": "forecasts/2026-10-28/185660-alycia-parks-vs-kimberly-birrell/v1.json"
+  },
+  {
    "match": "Alexandra Eala vs Talia Gibson",
    "n_sims": 100000,
    "seed": 20261027,
@@ -240,6 +257,23 @@
    "ok": true,
    "errors": [],
    "file": "forecasts/2026-10-28/185669-aliaksandra-sasnovich-vs-diana-shnaider/v1.json"
+  },
+  {
+   "match": "Leylah Fernandez vs Elise Mertens",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0037,
+   "reproduction": {
+    "frozen_p_a": 0.423,
+    "rerun_p_a": 0.423,
+    "frozen_games_mean": 23.08,
+    "rerun_games_mean": 23.08,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "file": "forecasts/2026-10-28/185678-leylah-fernandez-vs-elise-mertens/v1.json"
   },
   {
    "match": "Cristina Bucsa vs Maya Joint",

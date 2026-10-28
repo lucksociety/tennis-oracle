@@ -1,8 +1,278 @@
 {
- "generated_at_utc": "2026-10-28T03:33:36+00:00",
+ "generated_at_utc": "2026-10-28T10:39:37+00:00",
  "summary": {
-  "n": 0
+  "n": 5,
+  "brier": 0.178269248,
+  "log_loss": 0.543719320295448,
+  "accuracy": 0.6,
+  "games_mae": 4.1899999999999995,
+  "exact_sets_accuracy": 0.2,
+  "tiebreak_brier": 0.066606684
  },
- "n": 0,
- "rows": []
+ "n": 5,
+ "overall": {
+  "n": 5,
+  "brier": 0.178269248,
+  "log_loss": 0.543719320295448,
+  "accuracy": 0.6
+ },
+ "games_mae": 4.1899999999999995,
+ "exact_sets_accuracy": 0.2,
+ "tiebreak_brier": 0.066606684,
+ "by_surface": {
+  "Hard": {
+   "n": 5,
+   "brier": 0.178269248,
+   "log_loss": 0.543719320295448,
+   "accuracy": 0.6
+  }
+ },
+ "by_tour": {
+  "wta": {
+   "n": 5,
+   "brier": 0.178269248,
+   "log_loss": 0.543719320295448,
+   "accuracy": 0.6
+  }
+ },
+ "by_quality": {
+  "LOW": {
+   "n": 1,
+   "brier": 0.10176099999999996,
+   "log_loss": 0.3841929728326246,
+   "accuracy": 1.0
+  },
+  "MEDIUM": {
+   "n": 4,
+   "brier": 0.19739631,
+   "log_loss": 0.5836009071611538,
+   "accuracy": 0.5
+  }
+ },
+ "calibration": [
+  {
+   "bucket": "50%-60%",
+   "n": 2,
+   "mean_pred": 0.528,
+   "observed": 0.0
+  },
+  {
+   "bucket": "60%-70%",
+   "n": 3,
+   "mean_pred": 0.6666,
+   "observed": 1.0
+  }
+ ],
+ "rows": [
+  {
+   "match": "Cristina Bucsa vs Maya Joint",
+   "date": "2026-10-27",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.5275,
+   "a_won": 0,
+   "pred_winner": "Cristina Bucsa",
+   "actual_winner": "Maya Joint",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1824,
+   "exp_games": 22.55,
+   "actual_games": 25,
+   "p_tb": 0.2582,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4847,
+     0
+    ],
+    "A -2.5": [
+     0.4456,
+     0
+    ],
+    "A -3.5": [
+     0.3913,
+     0
+    ],
+    "A -4.5": [
+     0.3128,
+     0
+    ],
+    "A -5.5": [
+     0.2325,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Aliaksandra Sasnovich vs Diana Shnaider",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.3405,
+   "a_won": 0,
+   "pred_winner": "Diana Shnaider",
+   "actual_winner": "Diana Shnaider",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2062,
+   "exp_games": 22.41,
+   "actual_games": 30,
+   "p_tb": 0.2676,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2989,
+     0
+    ],
+    "A -2.5": [
+     0.2662,
+     0
+    ],
+    "A -3.5": [
+     0.2221,
+     0
+    ],
+    "A -4.5": [
+     0.1661,
+     0
+    ],
+    "A -5.5": [
+     0.1119,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Cristina Bucsa vs Maya Joint",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.5285,
+   "a_won": 0,
+   "pred_winner": "Cristina Bucsa",
+   "actual_winner": "Maya Joint",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1829,
+   "exp_games": 22.56,
+   "actual_games": 25,
+   "p_tb": 0.2596,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4847,
+     0
+    ],
+    "A -2.5": [
+     0.4457,
+     0
+    ],
+    "A -3.5": [
+     0.3902,
+     0
+    ],
+    "A -4.5": [
+     0.3129,
+     0
+    ],
+    "A -5.5": [
+     0.2325,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Katerina Siniakova vs Lanlana Tararudee",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Guangzhou Open",
+   "p_a": 0.681,
+   "a_won": 1,
+   "pred_winner": "Katerina Siniakova",
+   "actual_winner": "Katerina Siniakova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2017,
+   "exp_games": 21.96,
+   "actual_games": 25,
+   "p_tb": 0.2351,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6436,
+     1
+    ],
+    "A -2.5": [
+     0.6059,
+     1
+    ],
+    "A -3.5": [
+     0.5472,
+     0
+    ],
+    "A -4.5": [
+     0.4584,
+     0
+    ],
+    "A -5.5": [
+     0.3618,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Paula Badosa vs Sinja Kraus",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Guangzhou Open",
+   "p_a": 0.6593,
+   "a_won": 1,
+   "pred_winner": "Paula Badosa",
+   "actual_winner": "Paula Badosa",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4517,
+   "exp_games": 22.43,
+   "actual_games": 17,
+   "p_tb": 0.2685,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6169,
+     1
+    ],
+    "A -2.5": [
+     0.5764,
+     1
+    ],
+    "A -3.5": [
+     0.5126,
+     1
+    ],
+    "A -4.5": [
+     0.4207,
+     1
+    ],
+    "A -5.5": [
+     0.3218,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  }
+ ]
 }

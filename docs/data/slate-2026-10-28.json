@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-28T03:54:37+00:00",
+ "generated_at_utc": "2026-10-28T10:36:50+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -12,9 +12,9 @@
    "venue": "Tokyo, Japan",
    "round": "Round 2",
    "court": "Center",
-   "start_utc": "2026-10-28T04:10Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T04:45Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Cristina Bucsa",
@@ -30,7 +30,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:54:37+00:00",
@@ -142,9 +158,9 @@
    "venue": "Guangzhou, China PR",
    "round": "Round 1",
    "court": "Center Court",
-   "start_utc": "2026-10-28T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T05:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Katerina Siniakova",
@@ -160,7 +176,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:09+00:00",
@@ -272,9 +304,9 @@
    "venue": "Tokyo, Japan",
    "round": "Round 2",
    "court": "Center",
-   "start_utc": "2026-10-28T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T06:50Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Aliaksandra Sasnovich",
@@ -290,7 +322,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:07+00:00",
@@ -402,9 +450,9 @@
    "venue": "Guangzhou, China PR",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-10-28T06:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T07:20Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Paula Badosa",
@@ -420,7 +468,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:11+00:00",
@@ -532,8 +592,8 @@
    "venue": "Guangzhou, China PR",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-10-28T08:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T08:40Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -662,8 +722,8 @@
    "venue": "Tokyo, Japan",
    "round": "Round 2",
    "court": "Center",
-   "start_utc": "2026-10-28T08:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T09:50Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -4552,6 +4612,266 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0015
+   }
+  },
+  {
+   "espn_id": "185660",
+   "tour": "wta",
+   "tournament": "Toray Pan Pacific Open Tennis",
+   "venue": "Tokyo, Japan",
+   "round": "Round 2",
+   "court": "Center",
+   "start_utc": "2026-10-29T01:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alycia Parks",
+     "id": "wta:219917"
+    },
+    {
+     "name": "Kimberly Birrell",
+     "id": "wta:214040"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T10:36:48+00:00",
+    "path": "forecasts/2026-10-28/185660-alycia-parks-vs-kimberly-birrell/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Kimberly Birrell",
+    "win_prob": {
+     "A": 0.4694,
+     "B": 0.5306
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3332
+    },
+    "games_mean": 22.93,
+    "strongest": {
+     "selection": "Kimberly Birrell to win at least one set",
+     "probability": 0.7128,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4694,
+      "B": 0.5306
+     },
+     "set_score_probs": {
+      "0-2": 0.3332,
+      "2-0": 0.2872,
+      "1-2": 0.1974,
+      "2-1": 0.1822
+     },
+     "games_pmf": {
+      "12": 0.00158,
+      "13": 0.0078,
+      "14": 0.02034,
+      "15": 0.03998,
+      "16": 0.06036,
+      "17": 0.07814,
+      "18": 0.08141,
+      "19": 0.07948,
+      "20": 0.07022,
+      "21": 0.05102,
+      "22": 0.06474,
+      "23": 0.04456,
+      "24": 0.01889,
+      "25": 0.0373,
+      "26": 0.04209,
+      "27": 0.03672,
+      "28": 0.04104,
+      "29": 0.04218,
+      "30": 0.03917,
+      "31": 0.03802,
+      "32": 0.03536,
+      "33": 0.02212,
+      "34": 0.01615,
+      "35": 0.01638,
+      "36": 0.00795,
+      "37": 0.00169,
+      "38": 0.00324,
+      "39": 0.00207
+     },
+     "games_diff_pmf": {
+      "-12": 0.00088,
+      "-11": 0.00449,
+      "-10": 0.01205,
+      "-9": 0.02426,
+      "-8": 0.03865,
+      "-7": 0.0587,
+      "-6": 0.0734,
+      "-5": 0.08312,
+      "-4": 0.08223,
+      "-3": 0.06319,
+      "-2": 0.04368,
+      "-1": 0.03105,
+      "0": 0.02951,
+      "1": 0.02987,
+      "2": 0.03954,
+      "3": 0.05766,
+      "4": 0.0774,
+      "5": 0.07366,
+      "6": 0.0638,
+      "7": 0.04986,
+      "8": 0.03172,
+      "9": 0.01821,
+      "10": 0.00898,
+      "11": 0.00339,
+      "12": 0.0007
+     },
+     "p_tiebreak": 0.2964,
+     "p_decider": 0.3796
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0034
+   }
+  },
+  {
+   "espn_id": "185678",
+   "tour": "wta",
+   "tournament": "Toray Pan Pacific Open Tennis",
+   "venue": "Tokyo, Japan",
+   "round": "Round 2",
+   "court": "Center",
+   "start_utc": "2026-10-29T02:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Leylah Fernandez",
+     "id": "wta:220367"
+    },
+    {
+     "name": "Elise Mertens",
+     "id": "wta:210722"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T10:36:50+00:00",
+    "path": "forecasts/2026-10-28/185678-leylah-fernandez-vs-elise-mertens/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Elise Mertens",
+    "win_prob": {
+     "A": 0.423,
+     "B": 0.577
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3716
+    },
+    "games_mean": 23.08,
+    "strongest": {
+     "selection": "Elise Mertens to win at least one set",
+     "probability": 0.7503,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.423,
+      "B": 0.577
+     },
+     "set_score_probs": {
+      "0-2": 0.3716,
+      "2-0": 0.2497,
+      "1-2": 0.2054,
+      "2-1": 0.1733
+     },
+     "games_pmf": {
+      "12": 0.00144,
+      "13": 0.00755,
+      "14": 0.01842,
+      "15": 0.03764,
+      "16": 0.05634,
+      "17": 0.07685,
+      "18": 0.08045,
+      "19": 0.08144,
+      "20": 0.07281,
+      "21": 0.05103,
+      "22": 0.06649,
+      "23": 0.04628,
+      "24": 0.01747,
+      "25": 0.03558,
+      "26": 0.04258,
+      "27": 0.03477,
+      "28": 0.04054,
+      "29": 0.04082,
+      "30": 0.03942,
+      "31": 0.03928,
+      "32": 0.03639,
+      "33": 0.02315,
+      "34": 0.01667,
+      "35": 0.01808,
+      "36": 0.01011,
+      "37": 0.00201,
+      "38": 0.00357,
+      "39": 0.00282
+     },
+     "games_diff_pmf": {
+      "-12": 0.00109,
+      "-11": 0.00519,
+      "-10": 0.01283,
+      "-9": 0.02626,
+      "-8": 0.04152,
+      "-7": 0.06449,
+      "-6": 0.08083,
+      "-5": 0.09059,
+      "-4": 0.09265,
+      "-3": 0.06793,
+      "-2": 0.04574,
+      "-1": 0.03162,
+      "0": 0.03148,
+      "1": 0.03064,
+      "2": 0.04084,
+      "3": 0.05666,
+      "4": 0.07194,
+      "5": 0.06713,
+      "6": 0.0535,
+      "7": 0.04099,
+      "8": 0.02373,
+      "9": 0.01338,
+      "10": 0.0062,
+      "11": 0.00242,
+      "12": 0.00035
+     },
+     "p_tiebreak": 0.3124,
+     "p_decider": 0.3787
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0037
    }
   }
  ]
