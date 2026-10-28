@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TENNIS ORACLE V1.0 — Independent Tennis Prediction Engine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="ball"></span><div><h1>TENNIS ORACLE <small>V1.0</small></h1>
+  <p class="sub">Independent statistical tennis prediction &amp; simulation engine</p></div></div>
+  <div class="badges" id="badges"></div>
+</header>
+<nav id="tabs">
+  <button data-tab="slate" class="active">Daily Slate</button>
+  <button data-tab="match">Single Match</button>
+  <button data-tab="backtest">Backtest &amp; Calibration</button>
+  <button data-tab="about">Method &amp; Limits</button>
+</nav>
+<main>
+<section id="tab-slate" class="tab active">
+  <div class="card controls">
+    <div class="row">
+      <label>Day <input type="date" id="slateDate"></label>
+      <label>Tour <select id="slateTour"><option value="">ATP + WTA</option><option value="atp">ATP</option><option value="wta">WTA</option></select></label>
+      <label>Sims / match <select id="slateSims"><option>100000</option><option>250000</option></select></label>
+      <label class="chk"><input type="checkbox" id="slateIncludeDone"> include started/finished</label>
+      <button id="simulateBtn" class="big">▶ Simulate</button>
+    </div>
+    <div id="slateInfo" class="muted"></div>
+    <details id="manualBox"><summary>Manual matchups (fallback / additions)</summary>
+      <p class="muted">One per line: <code>Player A, Player B, surface, best-of, tour[, tb10]</code> — e.g. <code>Sinner, Alcaraz, hard, 3, atp</code></p>
+      <textarea id="manualText" rows="5" placeholder="Jannik Sinner, Carlos Alcaraz, hard, 3, atp"></textarea>
+      <label class="chk"><input type="checkbox" id="manualOnly"> manual matchups only</label>
+    </details>
+    <div id="progress" class="progress hidden"><div></div></div>
+  </div>
+  <div id="slateOut"></div>
+</section>
+
+<section id="tab-match" class="tab">
+  <div class="card controls">
+    <div class="row">
+      <label>Tour <select id="mTour"><option value="atp">ATP</option><option value="wta">WTA</option></select></label>
+      <label>Player A <input id="mA" list="plist" placeholder="Jannik Sinner"></label>
+      <label>Player B <input id="mB" list="plist" placeholder="Carlos Alcaraz"></label>
+      <datalist id="plist"></datalist>
+    </div>
+    <div class="row">
+      <label>Surface <select id="mSurf"><option>Hard</option><option>Clay</option><option>Grass</option></select></label>
+      <label class="chk"><input type="checkbox" id="mIndoor"> indoor</label>
+      <label>Best of <select id="mBo"><option>3</option><option>5</option></select></label>
+      <label>Deciding set <select id="mFr"><option value="tb7">7-pt TB</option><option value="tb10">10-pt TB (Slam)</option><option value="adv">Advantage</option></select></label>
+      <label>Sims <input id="mSims" type="number" value="100000" min="100000" step="50000"></label>
+      <label>Seed <input id="mSeed" type="number" value="20261027"></label>
+    </div>
+    <div class="row">
+      <label>Tournament <input id="mTourn" placeholder="optional"></label>
+      <label>Round <input id="mRound" placeholder="optional"></label>
+      <label title="Verified context only: fatigue/injury/conditions, Elo points, capped">A context adj (Elo) <input id="mAadj" type="number" value="0" step="5"></label>
+      <label>B context adj (Elo) <input id="mBadj" type="number" value="0" step="5"></label>
+      <label class="chk"><input type="checkbox" id="mInj"> injury status uncertain</label>
+      <button id="predictBtn" class="big">Predict</button>
+    </div>
+    <p class="muted">Context adjustments must be verified facts (e.g. 3 five-setters in 5 days). Leave at 0 when nothing is verified — the model never fabricates fitness or weather inputs.</p>
+  </div>
+  <div id="matchOut"></div>
+</section>
+
+<section id="tab-backtest" class="tab"><div id="btOut"></div></section>
+
+<section id="tab-about" class="tab"><div class="card prose" id="aboutOut"></div></section>
+</main>
+<footer>
+  Data: Jeff Sackmann tennis_atp / tennis_wta (CC BY-NC-SA 4.0) via archival mirror; ESPN public scoreboard for fixtures &amp; post-cutoff results (scores only).
+  <b>No betting odds, market data, tipster or third-party predictions are used anywhere.</b> Fair odds shown are 1/probability from this model, not sportsbook prices.
+</footer>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

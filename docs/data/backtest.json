@@ -1,0 +1,1635 @@
+{
+ "data": {
+  "atp": {
+   "sackmann_last_tourney_date": "2026-05-25",
+   "point_stats_cutoff": "2026-06-08",
+   "sackmann_matches": 40919,
+   "espn_matches": 1677,
+   "results_cutoff": "2026-10-27"
+  },
+  "wta": {
+   "sackmann_last_tourney_date": "2026-05-25",
+   "point_stats_cutoff": "2026-06-08",
+   "sackmann_matches": 38339,
+   "espn_matches": 2975,
+   "results_cutoff": "2026-10-28"
+  }
+ },
+ "variation_fit": {
+  "sigma": 0.2509,
+  "rho": -0.0553,
+  "by_tour": {
+   "atp": [
+    0.2358,
+    -0.0703
+   ],
+   "wta": [
+    0.266,
+    -0.0402
+   ]
+  }
+ },
+ "promoted": "v1.1",
+ "counts": {
+  "train": 46430,
+  "validation": 5289,
+  "test": 10806
+ },
+ "validation": {
+  "v1.0": {
+   "winner": {
+    "n": 5289,
+    "brier": 0.21357088143977887,
+    "log_loss": 0.6135934159355287,
+    "accuracy": 0.6490830024579316
+   },
+   "surface_elo_baseline": {
+    "n": 5289,
+    "brier": 0.2233394990501753,
+    "log_loss": 0.6380196372023751,
+    "accuracy": 0.6384949896010588
+   },
+   "blend_elo_baseline": {
+    "n": 5289,
+    "brier": 0.21780586439461821,
+    "log_loss": 0.6238215653934427,
+    "accuracy": 0.6426545660805445
+   },
+   "games_mae": 5.141280378576021,
+   "tiebreak_brier": 0.20493346452234695,
+   "tiebreak_base_rate_brier": 0.2191473601576509,
+   "exact_set_score_accuracy": 0.4274910190962375,
+   "exact_set_score_log_loss": 1.2870793159996017,
+   "games_mae_naive_mean": 5.223125350826991,
+   "calibration": [
+    {
+     "bucket": "50%-60%",
+     "n": 1855,
+     "mean_pred": 0.5496,
+     "observed": 0.5337
+    },
+    {
+     "bucket": "60%-70%",
+     "n": 1566,
+     "mean_pred": 0.6478,
+     "observed": 0.622
+    },
+    {
+     "bucket": "70%-80%",
+     "n": 1079,
+     "mean_pred": 0.7455,
+     "observed": 0.7266
+    },
+    {
+     "bucket": "80%-90%",
+     "n": 669,
+     "mean_pred": 0.8452,
+     "observed": 0.8475
+    },
+    {
+     "bucket": "90%-100%",
+     "n": 120,
+     "mean_pred": 0.9224,
+     "observed": 0.9833
+    }
+   ],
+   "by_tour_surface": {
+    "atp/Clay": {
+     "oracle": {
+      "n": 853,
+      "brier": 0.216061660799255,
+      "log_loss": 0.6181495667801138,
+      "accuracy": 0.6447831184056272
+     },
+     "surface_elo": {
+      "n": 853,
+      "brier": 0.23219679370324783,
+      "log_loss": 0.6583964082542825,
+      "accuracy": 0.6260257913247362
+     },
+     "games_mae": 5.126889015700555,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 324,
+       "mean_pred": 0.5489,
+       "observed": 0.5278
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 251,
+       "mean_pred": 0.6496,
+       "observed": 0.6375
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 155,
+       "mean_pred": 0.7437,
+       "observed": 0.729
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 104,
+       "mean_pred": 0.8422,
+       "observed": 0.8365
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 19,
+       "mean_pred": 0.9228,
+       "observed": 1.0
+      }
+     ]
+    },
+    "atp/Grass": {
+     "oracle": {
+      "n": 287,
+      "brier": 0.20864969000454375,
+      "log_loss": 0.6003872014797247,
+      "accuracy": 0.6445993031358885
+     },
+     "surface_elo": {
+      "n": 287,
+      "brier": 0.2361884555474543,
+      "log_loss": 0.6709883279942875,
+      "accuracy": 0.6411149825783972
+     },
+     "games_mae": 6.255006644845435,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 111,
+       "mean_pred": 0.5459,
+       "observed": 0.5045
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 90,
+       "mean_pred": 0.6448,
+       "observed": 0.6333
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 49,
+       "mean_pred": 0.7465,
+       "observed": 0.7551
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 32,
+       "mean_pred": 0.8504,
+       "observed": 0.9375
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 5,
+       "mean_pred": 0.9301,
+       "observed": 1.0
+      }
+     ]
+    },
+    "atp/Hard": {
+     "oracle": {
+      "n": 1631,
+      "brier": 0.21340811352383116,
+      "log_loss": 0.6135543260976051,
+      "accuracy": 0.6548129981606376
+     },
+     "surface_elo": {
+      "n": 1631,
+      "brier": 0.2189668968225872,
+      "log_loss": 0.6279949903562742,
+      "accuracy": 0.6492949110974862
+     },
+     "games_mae": 5.336534999072003,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 559,
+       "mean_pred": 0.5523,
+       "observed": 0.5528
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 484,
+       "mean_pred": 0.6473,
+       "observed": 0.6136
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 342,
+       "mean_pred": 0.7469,
+       "observed": 0.7193
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 196,
+       "mean_pred": 0.8461,
+       "observed": 0.8571
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 50,
+       "mean_pred": 0.9251,
+       "observed": 0.96
+      }
+     ]
+    },
+    "wta/Clay": {
+     "oracle": {
+      "n": 657,
+      "brier": 0.2085637129625556,
+      "log_loss": 0.6030146231137273,
+      "accuracy": 0.6666666666666666
+     },
+     "surface_elo": {
+      "n": 657,
+      "brier": 0.21646377574717485,
+      "log_loss": 0.6202531975734557,
+      "accuracy": 0.6529680365296804
+     },
+     "games_mae": 5.105472711707859,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 207,
+       "mean_pred": 0.55,
+       "observed": 0.5459
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 214,
+       "mean_pred": 0.6467,
+       "observed": 0.6402
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 152,
+       "mean_pred": 0.7439,
+       "observed": 0.7632
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 74,
+       "mean_pred": 0.8478,
+       "observed": 0.8378
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 10,
+       "mean_pred": 0.9175,
+       "observed": 1.0
+      }
+     ]
+    },
+    "wta/Grass": {
+     "oracle": {
+      "n": 279,
+      "brier": 0.21926010292795503,
+      "log_loss": 0.6263599537667572,
+      "accuracy": 0.6308243727598566
+     },
+     "surface_elo": {
+      "n": 279,
+      "brier": 0.23593281113664608,
+      "log_loss": 0.6743236167119803,
+      "accuracy": 0.6200716845878136
+     },
+     "games_mae": 5.1126067584860335,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 117,
+       "mean_pred": 0.5509,
+       "observed": 0.547
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 76,
+       "mean_pred": 0.6489,
+       "observed": 0.5789
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 60,
+       "mean_pred": 0.7459,
+       "observed": 0.7333
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 25,
+       "mean_pred": 0.8394,
+       "observed": 0.92
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 1,
+       "mean_pred": 0.9071,
+       "observed": 1.0
+      }
+     ]
+    },
+    "wta/Hard": {
+     "oracle": {
+      "n": 1582,
+      "brier": 0.21436458467209535,
+      "log_loss": 0.6157147466770262,
+      "accuracy": 0.6422250316055625
+     },
+     "surface_elo": {
+      "n": 1582,
+      "brier": 0.22137528129881773,
+      "log_loss": 0.6323625825844577,
+      "accuracy": 0.6308470290771175
+     },
+     "games_mae": 4.765617727009644,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 537,
+       "mean_pred": 0.5475,
+       "observed": 0.5158
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 451,
+       "mean_pred": 0.6482,
+       "observed": 0.6186
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 321,
+       "mean_pred": 0.7453,
+       "observed": 0.7103
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 238,
+       "mean_pred": 0.8448,
+       "observed": 0.8277
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 35,
+       "mean_pred": 0.9192,
+       "observed": 1.0
+      }
+     ]
+    }
+   },
+   "by_source": {
+    "sackmann": {
+     "oracle": {
+      "n": 5289,
+      "brier": 0.21357088143977887,
+      "log_loss": 0.6135934159355287,
+      "accuracy": 0.6490830024579316
+     },
+     "surface_elo": {
+      "n": 5289,
+      "brier": 0.2233394990501753,
+      "log_loss": 0.6380196372023751,
+      "accuracy": 0.6384949896010588
+     }
+    }
+   }
+  },
+  "v1.1-candidate": {
+   "winner": {
+    "n": 5289,
+    "brier": 0.21241192908324238,
+    "log_loss": 0.6110572939147987,
+    "accuracy": 0.6524862923047835
+   },
+   "surface_elo_baseline": {
+    "n": 5289,
+    "brier": 0.2233394990501753,
+    "log_loss": 0.6380196372023751,
+    "accuracy": 0.6384949896010588
+   },
+   "blend_elo_baseline": {
+    "n": 5289,
+    "brier": 0.21780586439461821,
+    "log_loss": 0.6238215653934427,
+    "accuracy": 0.6426545660805445
+   },
+   "games_mae": 5.13755087846419,
+   "tiebreak_brier": 0.20480288891535606,
+   "tiebreak_base_rate_brier": 0.2191473601576509,
+   "exact_set_score_accuracy": 0.43108338060124785,
+   "exact_set_score_log_loss": 1.2843025933776038,
+   "games_mae_naive_mean": 5.223125350826991,
+   "calibration": [
+    {
+     "bucket": "50%-60%",
+     "n": 1808,
+     "mean_pred": 0.5492,
+     "observed": 0.5337
+    },
+    {
+     "bucket": "60%-70%",
+     "n": 1569,
+     "mean_pred": 0.6469,
+     "observed": 0.6157
+    },
+    {
+     "bucket": "70%-80%",
+     "n": 1082,
+     "mean_pred": 0.7459,
+     "observed": 0.7394
+    },
+    {
+     "bucket": "80%-90%",
+     "n": 726,
+     "mean_pred": 0.8502,
+     "observed": 0.8512
+    },
+    {
+     "bucket": "90%-100%",
+     "n": 104,
+     "mean_pred": 0.918,
+     "observed": 0.9808
+    }
+   ],
+   "by_tour_surface": {
+    "atp/Clay": {
+     "oracle": {
+      "n": 853,
+      "brier": 0.21426771451919124,
+      "log_loss": 0.6143997400070325,
+      "accuracy": 0.6459554513481829
+     },
+     "surface_elo": {
+      "n": 853,
+      "brier": 0.23219679370324783,
+      "log_loss": 0.6583964082542825,
+      "accuracy": 0.6260257913247362
+     },
+     "games_mae": 5.126963961582918,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 320,
+       "mean_pred": 0.5492,
+       "observed": 0.5344
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 256,
+       "mean_pred": 0.6472,
+       "observed": 0.6289
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 159,
+       "mean_pred": 0.747,
+       "observed": 0.717
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 96,
+       "mean_pred": 0.8475,
+       "observed": 0.8646
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 22,
+       "mean_pred": 0.9175,
+       "observed": 1.0
+      }
+     ]
+    },
+    "atp/Grass": {
+     "oracle": {
+      "n": 287,
+      "brier": 0.2024959257161173,
+      "log_loss": 0.5866647699059412,
+      "accuracy": 0.6655052264808362
+     },
+     "surface_elo": {
+      "n": 287,
+      "brier": 0.2361884555474543,
+      "log_loss": 0.6709883279942875,
+      "accuracy": 0.6411149825783972
+     },
+     "games_mae": 6.260004806467371,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 115,
+       "mean_pred": 0.5439,
+       "observed": 0.5304
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 81,
+       "mean_pred": 0.6463,
+       "observed": 0.6296
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 54,
+       "mean_pred": 0.7437,
+       "observed": 0.8148
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 34,
+       "mean_pred": 0.8549,
+       "observed": 0.9412
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 3,
+       "mean_pred": 0.9372,
+       "observed": 1.0
+      }
+     ]
+    },
+    "atp/Hard": {
+     "oracle": {
+      "n": 1631,
+      "brier": 0.21260984739323027,
+      "log_loss": 0.6120182635495427,
+      "accuracy": 0.6566523605150214
+     },
+     "surface_elo": {
+      "n": 1631,
+      "brier": 0.2189668968225872,
+      "log_loss": 0.6279949903562742,
+      "accuracy": 0.6492949110974862
+     },
+     "games_mae": 5.345712327739337,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 564,
+       "mean_pred": 0.5514,
+       "observed": 0.5443
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 481,
+       "mean_pred": 0.6465,
+       "observed": 0.6133
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 333,
+       "mean_pred": 0.7463,
+       "observed": 0.7508
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 210,
+       "mean_pred": 0.8479,
+       "observed": 0.8476
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 43,
+       "mean_pred": 0.9193,
+       "observed": 0.9535
+      }
+     ]
+    },
+    "wta/Clay": {
+     "oracle": {
+      "n": 657,
+      "brier": 0.20821651847871872,
+      "log_loss": 0.6023969986625394,
+      "accuracy": 0.6681887366818874
+     },
+     "surface_elo": {
+      "n": 657,
+      "brier": 0.21646377574717485,
+      "log_loss": 0.6202531975734557,
+      "accuracy": 0.6529680365296804
+     },
+     "games_mae": 5.09179449382425,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 198,
+       "mean_pred": 0.5495,
+       "observed": 0.5758
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 208,
+       "mean_pred": 0.6476,
+       "observed": 0.601
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 145,
+       "mean_pred": 0.7438,
+       "observed": 0.7586
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 95,
+       "mean_pred": 0.8512,
+       "observed": 0.8316
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 11,
+       "mean_pred": 0.9111,
+       "observed": 1.0
+      }
+     ]
+    },
+    "wta/Grass": {
+     "oracle": {
+      "n": 279,
+      "brier": 0.21740014724099233,
+      "log_loss": 0.6214332020619343,
+      "accuracy": 0.6272401433691757
+     },
+     "surface_elo": {
+      "n": 279,
+      "brier": 0.23593281113664608,
+      "log_loss": 0.6743236167119803,
+      "accuracy": 0.6200716845878136
+     },
+     "games_mae": 5.070368914074714,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 103,
+       "mean_pred": 0.5458,
+       "observed": 0.5146
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 84,
+       "mean_pred": 0.6509,
+       "observed": 0.5714
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 66,
+       "mean_pred": 0.7521,
+       "observed": 0.7727
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 26,
+       "mean_pred": 0.8485,
+       "observed": 0.8846
+      }
+     ]
+    },
+    "wta/Hard": {
+     "oracle": {
+      "n": 1582,
+      "brier": 0.2138688033734257,
+      "log_loss": 0.614456245878947,
+      "accuracy": 0.6472819216182049
+     },
+     "surface_elo": {
+      "n": 1582,
+      "brier": 0.22137528129881773,
+      "log_loss": 0.6323625825844577,
+      "accuracy": 0.6308470290771175
+     },
+     "games_mae": 4.755869937736096,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 508,
+       "mean_pred": 0.5487,
+       "observed": 0.5098
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 459,
+       "mean_pred": 0.6461,
+       "observed": 0.6231
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 325,
+       "mean_pred": 0.7451,
+       "observed": 0.7108
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 265,
+       "mean_pred": 0.8522,
+       "observed": 0.8415
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 25,
+       "mean_pred": 0.9169,
+       "observed": 1.0
+      }
+     ]
+    }
+   },
+   "by_source": {
+    "sackmann": {
+     "oracle": {
+      "n": 5289,
+      "brier": 0.21241192908324238,
+      "log_loss": 0.6110572939147987,
+      "accuracy": 0.6524862923047835
+     },
+     "surface_elo": {
+      "n": 5289,
+      "brier": 0.2233394990501753,
+      "log_loss": 0.6380196372023751,
+      "accuracy": 0.6384949896010588
+     }
+    }
+   }
+  }
+ },
+ "test": {
+  "v1.0": {
+   "winner": {
+    "n": 10806,
+    "brier": 0.21754918994609448,
+    "log_loss": 0.6233808497955577,
+    "accuracy": 0.6420507125670923
+   },
+   "surface_elo_baseline": {
+    "n": 10806,
+    "brier": 0.2263811796822311,
+    "log_loss": 0.6456404615549097,
+    "accuracy": 0.6295576531556543
+   },
+   "blend_elo_baseline": {
+    "n": 10806,
+    "brier": 0.22024690717777157,
+    "log_loss": 0.6307530327372564,
+    "accuracy": 0.6367758652600407
+   },
+   "games_mae": 5.214411716604734,
+   "tiebreak_brier": 0.2058682734160755,
+   "tiebreak_base_rate_brier": 0.21901534701170683,
+   "exact_set_score_accuracy": 0.4229131963723857,
+   "exact_set_score_log_loss": 1.299321628983658,
+   "games_mae_naive_mean": 5.236178532562573,
+   "calibration": [
+    {
+     "bucket": "50%-60%",
+     "n": 4316,
+     "mean_pred": 0.5487,
+     "observed": 0.5373
+    },
+    {
+     "bucket": "60%-70%",
+     "n": 3201,
+     "mean_pred": 0.6473,
+     "observed": 0.6448
+    },
+    {
+     "bucket": "70%-80%",
+     "n": 2041,
+     "mean_pred": 0.745,
+     "observed": 0.732
+    },
+    {
+     "bucket": "80%-90%",
+     "n": 1038,
+     "mean_pred": 0.843,
+     "observed": 0.8324
+    },
+    {
+     "bucket": "90%-100%",
+     "n": 210,
+     "mean_pred": 0.9224,
+     "observed": 0.9381
+    }
+   ],
+   "by_tour_surface": {
+    "atp/Clay": {
+     "oracle": {
+      "n": 1489,
+      "brier": 0.2193125753793796,
+      "log_loss": 0.6273505935654085,
+      "accuracy": 0.6359973136333109
+     },
+     "surface_elo": {
+      "n": 1489,
+      "brier": 0.22887894147672,
+      "log_loss": 0.6521615078790097,
+      "accuracy": 0.6279382135661518
+     },
+     "games_mae": 5.382669344521079,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 568,
+       "mean_pred": 0.5478,
+       "observed": 0.5194
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 463,
+       "mean_pred": 0.6458,
+       "observed": 0.6501
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 278,
+       "mean_pred": 0.7444,
+       "observed": 0.7266
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 146,
+       "mean_pred": 0.8422,
+       "observed": 0.8082
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 34,
+       "mean_pred": 0.9266,
+       "observed": 0.9118
+      }
+     ]
+    },
+    "atp/Grass": {
+     "oracle": {
+      "n": 577,
+      "brier": 0.21670284720824787,
+      "log_loss": 0.6203671407911976,
+      "accuracy": 0.6464471403812825
+     },
+     "surface_elo": {
+      "n": 577,
+      "brier": 0.22906993558420477,
+      "log_loss": 0.6493112439647156,
+      "accuracy": 0.6152512998266898
+     },
+     "games_mae": 6.572835576568255,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 243,
+       "mean_pred": 0.5486,
+       "observed": 0.5473
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 181,
+       "mean_pred": 0.6451,
+       "observed": 0.6519
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 98,
+       "mean_pred": 0.7422,
+       "observed": 0.7755
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 34,
+       "mean_pred": 0.8396,
+       "observed": 0.7353
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 21,
+       "mean_pred": 0.9263,
+       "observed": 1.0
+      }
+     ]
+    },
+    "atp/Hard": {
+     "oracle": {
+      "n": 3073,
+      "brier": 0.2171673647999549,
+      "log_loss": 0.6224882333823468,
+      "accuracy": 0.6469248291571754
+     },
+     "surface_elo": {
+      "n": 3073,
+      "brier": 0.22507246493599517,
+      "log_loss": 0.6435827092153564,
+      "accuracy": 0.6381386267491052
+     },
+     "games_mae": 5.518688923667858,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 1163,
+       "mean_pred": 0.5487,
+       "observed": 0.5443
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 935,
+       "mean_pred": 0.6489,
+       "observed": 0.6513
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 602,
+       "mean_pred": 0.745,
+       "observed": 0.7143
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 296,
+       "mean_pred": 0.8417,
+       "observed": 0.8209
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 77,
+       "mean_pred": 0.9263,
+       "observed": 0.9481
+      }
+     ]
+    },
+    "wta/Clay": {
+     "oracle": {
+      "n": 1146,
+      "brier": 0.21143182753900389,
+      "log_loss": 0.6088190828900093,
+      "accuracy": 0.6465968586387435
+     },
+     "surface_elo": {
+      "n": 1146,
+      "brier": 0.22141261716933971,
+      "log_loss": 0.6336527474696749,
+      "accuracy": 0.6212914485165794
+     },
+     "games_mae": 4.789813169904213,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 422,
+       "mean_pred": 0.5489,
+       "observed": 0.5095
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 331,
+       "mean_pred": 0.652,
+       "observed": 0.6193
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 240,
+       "mean_pred": 0.7475,
+       "observed": 0.775
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 134,
+       "mean_pred": 0.8439,
+       "observed": 0.8731
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 19,
+       "mean_pred": 0.9145,
+       "observed": 0.9474
+      }
+     ]
+    },
+    "wta/Grass": {
+     "oracle": {
+      "n": 677,
+      "brier": 0.2242178506152269,
+      "log_loss": 0.6381346630065762,
+      "accuracy": 0.6248153618906942
+     },
+     "surface_elo": {
+      "n": 677,
+      "brier": 0.24698153631689715,
+      "log_loss": 0.6904219932082984,
+      "accuracy": 0.5627769571639586
+     },
+     "games_mae": 4.972322634400557,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 315,
+       "mean_pred": 0.547,
+       "observed": 0.5492
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 207,
+       "mean_pred": 0.6451,
+       "observed": 0.628
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 111,
+       "mean_pred": 0.7444,
+       "observed": 0.7297
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 44,
+       "mean_pred": 0.8444,
+       "observed": 0.8864
+      }
+     ]
+    },
+    "wta/Hard": {
+     "oracle": {
+      "n": 3844,
+      "brier": 0.21794768671227194,
+      "log_loss": 0.6247519281488106,
+      "accuracy": 0.641519250780437
+     },
+     "surface_elo": {
+      "n": 3844,
+      "brier": 0.22390943986585618,
+      "log_loss": 0.6398955127840303,
+      "accuracy": 0.6396982310093653
+     },
+     "games_mae": 4.871304071105163,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 1605,
+       "mean_pred": 0.5494,
+       "observed": 0.5421
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 1084,
+       "mean_pred": 0.646,
+       "observed": 0.6467
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 712,
+       "mean_pred": 0.7449,
+       "observed": 0.7289
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 384,
+       "mean_pred": 0.8442,
+       "observed": 0.8385
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 59,
+       "mean_pred": 0.9162,
+       "observed": 0.9153
+      }
+     ]
+    }
+   },
+   "by_source": {
+    "espn": {
+     "oracle": {
+      "n": 3603,
+      "brier": 0.22309683107141035,
+      "log_loss": 0.6361219441509931,
+      "accuracy": 0.6297529836247572
+     },
+     "surface_elo": {
+      "n": 3603,
+      "brier": 0.2314277245218568,
+      "log_loss": 0.6566911946191301,
+      "accuracy": 0.6186511240632806
+     }
+    },
+    "sackmann": {
+     "oracle": {
+      "n": 7203,
+      "brier": 0.21477421410623432,
+      "log_loss": 0.6170076493287198,
+      "accuracy": 0.6482021379980564
+     },
+     "surface_elo": {
+      "n": 7203,
+      "brier": 0.22385685633679564,
+      "log_loss": 0.6401127937456099,
+      "accuracy": 0.635013188949049
+     }
+    }
+   }
+  },
+  "v1.1-candidate": {
+   "winner": {
+    "n": 10806,
+    "brier": 0.2171958961875076,
+    "log_loss": 0.6226914034453935,
+    "accuracy": 0.6489913011290024
+   },
+   "surface_elo_baseline": {
+    "n": 10806,
+    "brier": 0.2263811796822311,
+    "log_loss": 0.6456404615549097,
+    "accuracy": 0.6295576531556543
+   },
+   "blend_elo_baseline": {
+    "n": 10806,
+    "brier": 0.22024690717777157,
+    "log_loss": 0.6307530327372564,
+    "accuracy": 0.6367758652600407
+   },
+   "games_mae": 5.209229370379651,
+   "tiebreak_brier": 0.20603918636877752,
+   "tiebreak_base_rate_brier": 0.21901534701170683,
+   "exact_set_score_accuracy": 0.4285582084027392,
+   "exact_set_score_log_loss": 1.2980849134887174,
+   "games_mae_naive_mean": 5.236178532562573,
+   "calibration": [
+    {
+     "bucket": "50%-60%",
+     "n": 4272,
+     "mean_pred": 0.5481,
+     "observed": 0.5564
+    },
+    {
+     "bucket": "60%-70%",
+     "n": 3185,
+     "mean_pred": 0.6473,
+     "observed": 0.637
+    },
+    {
+     "bucket": "70%-80%",
+     "n": 2016,
+     "mean_pred": 0.7459,
+     "observed": 0.7331
+    },
+    {
+     "bucket": "80%-90%",
+     "n": 1149,
+     "mean_pred": 0.8479,
+     "observed": 0.8329
+    },
+    {
+     "bucket": "90%-100%",
+     "n": 184,
+     "mean_pred": 0.9193,
+     "observed": 0.9348
+    }
+   ],
+   "by_tour_surface": {
+    "atp/Clay": {
+     "oracle": {
+      "n": 1489,
+      "brier": 0.2198664472886487,
+      "log_loss": 0.6287703134636723,
+      "accuracy": 0.6366689053055742
+     },
+     "surface_elo": {
+      "n": 1489,
+      "brier": 0.22887894147672,
+      "log_loss": 0.6521615078790097,
+      "accuracy": 0.6279382135661518
+     },
+     "games_mae": 5.381147761635581,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 558,
+       "mean_pred": 0.5481,
+       "observed": 0.5341
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 486,
+       "mean_pred": 0.6482,
+       "observed": 0.6276
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 269,
+       "mean_pred": 0.7473,
+       "observed": 0.7398
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 144,
+       "mean_pred": 0.8468,
+       "observed": 0.8125
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 32,
+       "mean_pred": 0.9223,
+       "observed": 0.9062
+      }
+     ]
+    },
+    "atp/Grass": {
+     "oracle": {
+      "n": 577,
+      "brier": 0.21517434481396408,
+      "log_loss": 0.6167342439933412,
+      "accuracy": 0.6551126516464472
+     },
+     "surface_elo": {
+      "n": 577,
+      "brier": 0.22906993558420477,
+      "log_loss": 0.6493112439647156,
+      "accuracy": 0.6152512998266898
+     },
+     "games_mae": 6.5200801099027315,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 235,
+       "mean_pred": 0.5478,
+       "observed": 0.5574
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 174,
+       "mean_pred": 0.6465,
+       "observed": 0.6494
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 111,
+       "mean_pred": 0.7418,
+       "observed": 0.7568
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 39,
+       "mean_pred": 0.8436,
+       "observed": 0.8462
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 18,
+       "mean_pred": 0.9283,
+       "observed": 0.9444
+      }
+     ]
+    },
+    "atp/Hard": {
+     "oracle": {
+      "n": 3073,
+      "brier": 0.21649714110887136,
+      "log_loss": 0.6210349372833189,
+      "accuracy": 0.6527822974292222
+     },
+     "surface_elo": {
+      "n": 3073,
+      "brier": 0.22507246493599517,
+      "log_loss": 0.6435827092153564,
+      "accuracy": 0.6381386267491052
+     },
+     "games_mae": 5.521933701615853,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 1172,
+       "mean_pred": 0.5483,
+       "observed": 0.5606
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 935,
+       "mean_pred": 0.6469,
+       "observed": 0.6492
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 591,
+       "mean_pred": 0.7454,
+       "observed": 0.7191
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 297,
+       "mean_pred": 0.8437,
+       "observed": 0.8182
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 78,
+       "mean_pred": 0.9203,
+       "observed": 0.9487
+      }
+     ]
+    },
+    "wta/Clay": {
+     "oracle": {
+      "n": 1146,
+      "brier": 0.21139490722075524,
+      "log_loss": 0.6088728074234759,
+      "accuracy": 0.6579406631762653
+     },
+     "surface_elo": {
+      "n": 1146,
+      "brier": 0.22141261716933971,
+      "log_loss": 0.6336527474696749,
+      "accuracy": 0.6212914485165794
+     },
+     "games_mae": 4.776837696378737,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 398,
+       "mean_pred": 0.5477,
+       "observed": 0.5402
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 330,
+       "mean_pred": 0.6493,
+       "observed": 0.6212
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 237,
+       "mean_pred": 0.7467,
+       "observed": 0.7426
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 167,
+       "mean_pred": 0.8489,
+       "observed": 0.8623
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 14,
+       "mean_pred": 0.914,
+       "observed": 1.0
+      }
+     ]
+    },
+    "wta/Grass": {
+     "oracle": {
+      "n": 677,
+      "brier": 0.22142808321256646,
+      "log_loss": 0.6327082939426206,
+      "accuracy": 0.6366322008862629
+     },
+     "surface_elo": {
+      "n": 677,
+      "brier": 0.24698153631689715,
+      "log_loss": 0.6904219932082984,
+      "accuracy": 0.5627769571639586
+     },
+     "games_mae": 4.9584456439135565,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 291,
+       "mean_pred": 0.5474,
+       "observed": 0.5395
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 208,
+       "mean_pred": 0.646,
+       "observed": 0.6683
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 117,
+       "mean_pred": 0.742,
+       "observed": 0.7009
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 61,
+       "mean_pred": 0.8505,
+       "observed": 0.8689
+      }
+     ]
+    },
+    "wta/Hard": {
+     "oracle": {
+      "n": 3844,
+      "brier": 0.21800755114315748,
+      "log_loss": 0.624910649199079,
+      "accuracy": 0.6493236212278877
+     },
+     "surface_elo": {
+      "n": 3844,
+      "brier": 0.22390943986585618,
+      "log_loss": 0.6398955127840303,
+      "accuracy": 0.6396982310093653
+     },
+     "games_mae": 4.868962375074981,
+     "calibration": [
+      {
+       "bucket": "50%-60%",
+       "n": 1618,
+       "mean_pred": 0.5482,
+       "observed": 0.568
+      },
+      {
+       "bucket": "60%-70%",
+       "n": 1052,
+       "mean_pred": 0.6471,
+       "observed": 0.6274
+      },
+      {
+       "bucket": "70%-80%",
+       "n": 691,
+       "mean_pred": 0.7468,
+       "observed": 0.741
+      },
+      {
+       "bucket": "80%-90%",
+       "n": 441,
+       "mean_pred": 0.8507,
+       "observed": 0.8322
+      },
+      {
+       "bucket": "90%-100%",
+       "n": 42,
+       "mean_pred": 0.9131,
+       "observed": 0.9048
+      }
+     ]
+    }
+   },
+   "by_source": {
+    "espn": {
+     "oracle": {
+      "n": 3603,
+      "brier": 0.22324512919276662,
+      "log_loss": 0.63626278148664,
+      "accuracy": 0.6361365528726062
+     },
+     "surface_elo": {
+      "n": 3603,
+      "brier": 0.2314277245218568,
+      "log_loss": 0.6566911946191301,
+      "accuracy": 0.6186511240632806
+     }
+    },
+    "sackmann": {
+     "oracle": {
+      "n": 7203,
+      "brier": 0.21417001995289034,
+      "log_loss": 0.6159028882319254,
+      "accuracy": 0.6554213522143552
+     },
+     "surface_elo": {
+      "n": 7203,
+      "brier": 0.22385685633679564,
+      "log_loss": 0.6401127937456099,
+      "accuracy": 0.635013188949049
+     }
+    }
+   }
+  }
+ },
+ "runtime_sec": 16.4,
+ "params": {
+  "v1.0": {
+   "version": "v1.0",
+   "description": "Starting weights from the TENNIS ORACLE V1.0 spec; scale/variation fitted chronologically on pre-test data.",
+   "weights": {
+    "surface_elo": 0.35,
+    "serve_return": 0.25,
+    "overall_elo": 0.2,
+    "form": 0.15,
+    "context": 0.05
+   },
+   "composite_scale": 0.9293,
+   "context_max_elo": 100.0,
+   "elo": {
+    "init": 1500.0,
+    "k_num": 250.0,
+    "k_off": 5.0,
+    "k_pow": 0.4,
+    "slam_mult": 1.1
+   },
+   "sr": {
+    "prior_n": 12.0,
+    "eta_min": 0.04,
+    "surface_prior_n": 15.0,
+    "eta_min_surface": 0.05,
+    "baseline_eta": 0.002,
+    "decay_days": 365.0
+   },
+   "form": {
+    "halflife_matches": 8.0,
+    "shrink_n": 6.0
+   },
+   "sr_elo_cap": 600.0,
+   "variation": {
+    "sigma": 0.2509,
+    "rho": -0.0553,
+    "by_tour": {
+     "atp": [
+      0.2358,
+      -0.0703
+     ],
+     "wta": [
+      0.266,
+      -0.0402
+     ]
+    }
+   },
+   "indoor_logit_adj": 0.0,
+   "mc": {
+    "n_sims": 100000,
+    "seed": 20261027
+   },
+   "gh_nodes": 5,
+   "fit": {
+    "train_years": [
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ],
+    "validation_years": [
+     2024
+    ],
+    "test_years": [
+     2025,
+     2026
+    ]
+   }
+  },
+  "v1.1-candidate": {
+   "version": "v1.1-candidate",
+   "description": "Weights re-estimated by logistic regression on train years; promoted only if better on validation.",
+   "weights": {
+    "surface_elo": 0.1645,
+    "serve_return": 0.4696,
+    "overall_elo": 0.318,
+    "form": -0.0022,
+    "context": 0.05
+   },
+   "composite_scale": 0.743,
+   "context_max_elo": 100.0,
+   "elo": {
+    "init": 1500.0,
+    "k_num": 250.0,
+    "k_off": 5.0,
+    "k_pow": 0.4,
+    "slam_mult": 1.1
+   },
+   "sr": {
+    "prior_n": 12.0,
+    "eta_min": 0.04,
+    "surface_prior_n": 15.0,
+    "eta_min_surface": 0.05,
+    "baseline_eta": 0.002,
+    "decay_days": 365.0
+   },
+   "form": {
+    "halflife_matches": 8.0,
+    "shrink_n": 6.0
+   },
+   "sr_elo_cap": 600.0,
+   "variation": {
+    "sigma": 0.2509,
+    "rho": -0.0553,
+    "by_tour": {
+     "atp": [
+      0.2358,
+      -0.0703
+     ],
+     "wta": [
+      0.266,
+      -0.0402
+     ]
+    }
+   },
+   "indoor_logit_adj": 0.0,
+   "mc": {
+    "n_sims": 100000,
+    "seed": 20261027
+   },
+   "gh_nodes": 5,
+   "fit": {
+    "train_years": [
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ],
+    "validation_years": [
+     2024
+    ],
+    "test_years": [
+     2025,
+     2026
+    ]
+   }
+  }
+ }
+}

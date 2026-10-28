@@ -1,0 +1,74 @@
+{
+  "version": "v1.1",
+  "description": "Weights re-estimated by logistic regression on train years; promoted only if better on validation.",
+  "weights": {
+    "surface_elo": 0.1645,
+    "serve_return": 0.4696,
+    "overall_elo": 0.318,
+    "form": -0.0022,
+    "context": 0.05
+  },
+  "composite_scale": 0.743,
+  "context_max_elo": 100.0,
+  "elo": {
+    "init": 1500.0,
+    "k_num": 250.0,
+    "k_off": 5.0,
+    "k_pow": 0.4,
+    "slam_mult": 1.1
+  },
+  "sr": {
+    "prior_n": 12.0,
+    "eta_min": 0.04,
+    "surface_prior_n": 15.0,
+    "eta_min_surface": 0.05,
+    "baseline_eta": 0.002,
+    "decay_days": 365.0
+  },
+  "form": {
+    "halflife_matches": 8.0,
+    "shrink_n": 6.0
+  },
+  "sr_elo_cap": 600.0,
+  "variation": {
+    "sigma": 0.2509,
+    "rho": -0.0553,
+    "by_tour": {
+      "atp": [
+        0.2358,
+        -0.0703
+      ],
+      "wta": [
+        0.266,
+        -0.0402
+      ]
+    }
+  },
+  "indoor_logit_adj": 0.0,
+  "mc": {
+    "n_sims": 100000,
+    "seed": 20261027
+  },
+  "gh_nodes": 5,
+  "fit": {
+    "train_years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "validation_years": [
+      2024
+    ],
+    "test_years": [
+      2025,
+      2026
+    ]
+  }
+}
