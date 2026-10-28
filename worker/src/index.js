@@ -18,6 +18,7 @@ function parseDay(v) {
   if (!s || s === 'today') return t;
   if (s === 'tomorrow') return addDays(t, 1);
   if (s === 'yesterday') return addDays(t, -1);
+  let r = s.match(/^\+(\d)$/); if (r) return addDays(t, +r[1]);
   let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
   const ok = (y, mo, d) => { const x = `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`; return isNaN(Date.parse(x + 'T12:00:00Z')) || new Date(x + 'T12:00:00Z').toISOString().slice(0, 10) !== x ? null : x; };
   if (m) return ok(m[1], m[2], m[3]);

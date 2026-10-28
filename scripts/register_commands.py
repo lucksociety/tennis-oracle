@@ -14,8 +14,13 @@ COMMANDS = [{
     "description": "Tennis Oracle: ATP+WTA slate - winners, win %, score predictions, Jupiter best bets",
     "integration_types": [0, 1], "contexts": [0, 1, 2],
     "options": [
-        {"type": 3, "name": "date", "description": "Slate date (NY time): pick from the list or type today / tomorrow / MM-DD. Default: today",
-         "required": False, "autocomplete": True},
+        {"type": 3, "name": "date", "description": "Which day's matches (New York time). Default: Today",
+         "required": False, "choices": [
+             {"name": "Today", "value": "today"}, {"name": "Tomorrow", "value": "tomorrow"},
+             {"name": "Yesterday", "value": "yesterday"},
+             {"name": "In 2 days", "value": "+2"}, {"name": "In 3 days", "value": "+3"},
+             {"name": "In 4 days", "value": "+4"}, {"name": "In 5 days", "value": "+5"},
+             {"name": "In 6 days", "value": "+6"}]},
     ],
 }]
 
