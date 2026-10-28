@@ -66,13 +66,19 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         key = f"{r['espn_id']}-{slug(r['players'][0]['name'])}-vs-{slug(r['players'][1]['name'])}"
         if all(ids):
             f = latest(str(day), key)
-            if f is None and r["status"] == "STATUS_SCHEDULED":
+            cur_v = eng.p["version"]
+            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"])
+            if (f is None or stale) and r["status"] == "STATUS_SCHEDULED":
+                # new version only before play; earlier versions stay untouched
+                reason = "initial pre-match forecast" if f is None else (
+                    f"model updated to {cur_v}" if f["model"]["version"] != cur_v else
+                    f"ratings refreshed with results through {eng.info['results_cutoff']}")
                 f = forecast(eng, ids[0], ids[1], surf, bo, fr, tour, asof=pd.Timestamp(day),
                              meta={"tournament": r["event"], "round": r["round"]}, n_sims=n_sims,
                              data_cutoff=eng.point_cutoff)
                 f["results_cutoff"] = eng.info["results_cutoff"]
                 if do_freeze:
-                    freeze(f, str(day), key, extra={"espn_id": r["espn_id"], "scheduled_start_utc": r["start"]})
+                    freeze(f, str(day), key, reason=reason, extra={"espn_id": r["espn_id"], "scheduled_start_utc": r["start"]})
                     f = latest(str(day), key)
             if f is not None:
                 m["forecast"] = {
