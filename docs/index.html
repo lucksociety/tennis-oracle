@@ -1,50 +1,71 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TENNIS ORACLE V1.0 — Independent Tennis Prediction Engine</title>
+<title>Tennis Oracle · Luck Society</title>
+<meta name="description" content="Luck Society Tennis Oracle: independent statistical tennis predictions and simulations. No market data.">
+<meta name="theme-color" content="#01181d">
+<link rel="icon" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>try{const t=localStorage.getItem("ls-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
-<header>
-  <div class="brand"><span class="ball"></span><div><h1>TENNIS ORACLE <small>V1.0</small></h1>
-  <p class="sub">Independent statistical tennis prediction &amp; simulation engine</p></div></div>
-  <div class="badges" id="badges"></div>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="Luck Society Tennis Oracle">
+    <img src="assets/logo-128.png" alt="Luck Society clover coin" width="44" height="44">
+    <span class="wm"><span class="wm1">LUCK SOCIETY</span><span class="wm2">Tennis Oracle</span></span>
+  </a>
+  <nav id="tabs">
+    <button data-tab="slate" class="active">Daily Slate</button>
+    <button data-tab="match">Single Match</button>
+    <button data-tab="backtest">Track Record</button>
+    <button data-tab="about">Method</button>
+  </nav>
+  <button id="themeBtn" class="iconbtn" title="Toggle light/dark" aria-label="Toggle light or dark theme">◐</button>
 </header>
-<nav id="tabs">
-  <button data-tab="slate" class="active">Daily Slate</button>
-  <button data-tab="match">Single Match</button>
-  <button data-tab="backtest">Backtest &amp; Calibration</button>
-  <button data-tab="about">Method &amp; Limits</button>
-</nav>
-<main>
-<section id="tab-slate" class="tab active">
-  <div class="card controls">
-    <div class="row">
+
+<section class="hero">
+  <div class="hero-bg" style="background-image:url(assets/banner.jpg)"></div>
+  <div class="hero-in">
+    <div class="eyebrow">🍀 Model-only tennis predictions · ATP &amp; WTA</div>
+    <h1>Every match. <span class="gold">Simulated.</span></h1>
+    <p class="lede">100,000 point-by-point simulations per match from independent stats. No odds, no market data, and no one else's picks.</p>
+    <div class="hero-ctl">
       <label>Day <input type="date" id="slateDate"></label>
       <label>Tour <select id="slateTour"><option value="">ATP + WTA</option><option value="atp">ATP</option><option value="wta">WTA</option></select></label>
       <label>Sims / match <select id="slateSims"><option>100000</option><option>250000</option></select></label>
-      <label class="chk"><input type="checkbox" id="slateIncludeDone"> include started/finished</label>
-      <button id="simulateBtn" class="big">▶ Simulate</button>
+      <button id="simulateBtn" class="cta"><span class="clover">🍀</span> SIMULATE</button>
     </div>
-    <div id="slateInfo" class="muted"></div>
-    <details id="manualBox"><summary>Manual matchups (fallback / additions)</summary>
-      <p class="muted">One per line: <code>Player A, Player B, surface, best-of, tour[, tb10]</code> — e.g. <code>Sinner, Alcaraz, hard, 3, atp</code></p>
-      <textarea id="manualText" rows="5" placeholder="Jannik Sinner, Carlos Alcaraz, hard, 3, atp"></textarea>
-      <label class="chk"><input type="checkbox" id="manualOnly"> manual matchups only</label>
-    </details>
+    <div class="hero-sub">
+      <label class="chk"><input type="checkbox" id="slateIncludeDone"> include started / finished</label>
+      <span id="slateInfo" class="muted"></span>
+    </div>
     <div id="progress" class="progress hidden"><div></div></div>
+    <div class="badges" id="badges"></div>
   </div>
-  <div id="slateOut"></div>
+</section>
+
+<main>
+<section id="tab-slate" class="tab active">
+  <details id="manualBox" class="card">
+    <summary>✍️ Manual matchups <span class="muted">(fallback or additions)</span></summary>
+    <p class="muted">One per line: <code>Player A, Player B, surface, best-of, tour[, tb10]</code>, e.g. <code>Sinner, Alcaraz, hard, 3, atp</code></p>
+    <textarea id="manualText" rows="4" placeholder="Jannik Sinner, Carlos Alcaraz, hard, 3, atp"></textarea>
+    <label class="chk"><input type="checkbox" id="manualOnly"> manual matchups only</label>
+  </details>
+  <div id="slateOut"><div class="empty card"><img src="assets/logo-128.png" alt="" width="64" height="64"><p>Pick a day and hit <b>Simulate</b> to run the newest model on every match.</p></div></div>
 </section>
 
 <section id="tab-match" class="tab">
   <div class="card controls">
+    <h2 class="sec">Single match lab</h2>
     <div class="row">
       <label>Tour <select id="mTour"><option value="atp">ATP</option><option value="wta">WTA</option></select></label>
-      <label>Player A <input id="mA" list="plist" placeholder="Jannik Sinner"></label>
-      <label>Player B <input id="mB" list="plist" placeholder="Carlos Alcaraz"></label>
+      <label class="grow">Player A <input id="mA" list="plist" placeholder="Jannik Sinner"></label>
+      <label class="grow">Player B <input id="mB" list="plist" placeholder="Carlos Alcaraz"></label>
       <datalist id="plist"></datalist>
     </div>
     <div class="row">
@@ -56,25 +77,26 @@
       <label>Seed <input id="mSeed" type="number" value="20261027"></label>
     </div>
     <div class="row">
-      <label>Tournament <input id="mTourn" placeholder="optional"></label>
+      <label class="grow">Tournament <input id="mTourn" placeholder="optional"></label>
       <label>Round <input id="mRound" placeholder="optional"></label>
-      <label title="Verified context only: fatigue/injury/conditions, Elo points, capped">A context adj (Elo) <input id="mAadj" type="number" value="0" step="5"></label>
-      <label>B context adj (Elo) <input id="mBadj" type="number" value="0" step="5"></label>
-      <label class="chk"><input type="checkbox" id="mInj"> injury status uncertain</label>
-      <button id="predictBtn" class="big">Predict</button>
+      <label title="Verified context only: fatigue/injury/conditions, Elo points, capped">A context (Elo) <input id="mAadj" type="number" value="0" step="5"></label>
+      <label>B context (Elo) <input id="mBadj" type="number" value="0" step="5"></label>
+      <label class="chk"><input type="checkbox" id="mInj"> injury uncertain</label>
+      <button id="predictBtn" class="cta sm">PREDICT</button>
     </div>
-    <p class="muted">Context adjustments must be verified facts (e.g. 3 five-setters in 5 days). Leave at 0 when nothing is verified — the model never fabricates fitness or weather inputs.</p>
+    <p class="muted small">Context adjustments must be verified facts (e.g. three five-setters in five days). Leave them at 0 when nothing is verified. The model never fabricates fitness or weather inputs.</p>
   </div>
   <div id="matchOut"></div>
 </section>
 
 <section id="tab-backtest" class="tab"><div id="btOut"></div></section>
-
 <section id="tab-about" class="tab"><div class="card prose" id="aboutOut"></div></section>
 </main>
+
 <footer>
-  Data: Jeff Sackmann tennis_atp / tennis_wta (CC BY-NC-SA 4.0) via archival mirror; ESPN public scoreboard for fixtures &amp; post-cutoff results (scores only).
-  <b>No betting odds, market data, tipster or third-party predictions are used anywhere.</b> Fair odds shown are 1/probability from this model, not sportsbook prices.
+  <div class="foot-brand"><img src="assets/logo-128.png" alt="" width="28" height="28"> <b>Luck Society</b> · Tennis Oracle</div>
+  <p><b>No betting odds, market data, tipster or third-party predictions are used anywhere.</b> Fair odds are 1/probability from this model. They are not sportsbook prices and not betting advice.</p>
+  <p>Data: Jeff Sackmann tennis_atp / tennis_wta (CC BY-NC-SA 4.0) via archival mirror; ESPN public scoreboard for fixtures and post-cutoff scores only. <a href="https://github.com/lucksociety/tennis-oracle">Source on GitHub</a> · <a href="https://x.com/lucksociety">@lucksociety</a></p>
 </footer>
 <script src="engine.js"></script>
 <script src="app.js"></script>

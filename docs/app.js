@@ -12,6 +12,10 @@
   const getJSON = async u => { const r = await fetch(u, { cache: "no-store" }); if (!r.ok) throw new Error(u + " " + r.status); return r.json(); };
   const tick = () => new Promise(r => setTimeout(r, 0));
 
+  /* ---------- theme (dark default, Luck Society night palette; light = ivory/gold) ---------- */
+  const themeBtn = document.getElementById("themeBtn");
+  if (themeBtn) themeBtn.onclick = () => { const t = document.documentElement.dataset.theme === "light" ? "dark" : "light"; document.documentElement.dataset.theme = t; try { localStorage.setItem("ls-theme", t); } catch (e) { } };
+
   /* ---------- tabs ---------- */
   document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
   function showTab(t) {
@@ -30,7 +34,7 @@
       <span class="badge">Ratings built <b>${esc((RATINGS.generated_at_utc || "").slice(0, 10))}</b></span>
       <span class="badge">Point-stats cutoff <b>${esc(d.atp.point_stats_cutoff)}</b></span>
       <span class="badge">Results through <b>${esc(d.atp.results_cutoff)}</b> ATP / <b>${esc(d.wta.results_cutoff)}</b> WTA</span>
-      <span class="badge acc">No market data</span>`;
+      <span class="badge ok">✓ No market data</span>`;
     $("#plist").innerHTML = RATINGS.players.filter(p => p.t === $("#mTour").value).map(p => `<option value="${esc(p.n)}">`).join("");
     $("#mTour").onchange = () => $("#plist").innerHTML = RATINGS.players.filter(p => p.t === $("#mTour").value).map(p => `<option value="${esc(p.n)}">`).join("");
     try { SLATES = await getJSON("data/slates.json"); } catch (e) { }
@@ -79,7 +83,7 @@
   /* ---------- slate simulation ---------- */
   async function runSlate() {
     const btn = $("#simulateBtn"), day = $("#slateDate").value, nS = +$("#slateSims").value;
-    btn.disabled = true; btn.textContent = "Simulating…";
+    btn.disabled = true; btn.textContent = "SIMULATING…";
     const [manual, merrs] = parseManual($("#manualText").value);
     let list = [];
     if (!$("#manualOnly").checked && SLATE_FILE) list = filtTour(SLATE_FILE.matches).filter(m => $("#slateIncludeDone").checked || m.status === "STATUS_SCHEDULED");
@@ -97,7 +101,8 @@
       rows.push({ m, f });
     }
     bar.style.width = "100%"; setTimeout(() => prog.classList.add("hidden"), 400);
-    btn.disabled = false; btn.textContent = "▶ Simulate";
+    btn.disabled = false; btn.innerHTML = '<span class="clover">🍀</span> SIMULATE';
+    if (rows.length) $("#slateOut").scrollIntoView({ behavior: "smooth", block: "start" });
     LAST_SLATE = { day, rows, skipped, ranAt: new Date().toISOString(), nS };
     const ver = freezeLocal(LAST_SLATE);
     renderSlate(LAST_SLATE, ver);
@@ -137,32 +142,37 @@
     const order = [...S.rows].sort((a, b) => Math.max(...b.f.win_prob) - Math.max(...a.f.win_prob));
     const confRank = { High: 3, Medium: 2, Low: 1 };
     const strong = [...S.rows].sort((a, b) => (confRank[b.f.strongest.confidence] - confRank[a.f.strongest.confidence]) || (b.f.strongest.probability - a.f.strongest.probability));
-    let h = `<div class="card"><h2>Slate ${S.day} — ${S.rows.length} matches simulated with model ${esc(ORACLE.version)}</h2>
-      <p class="muted">${S.nS.toLocaleString()} Monte Carlo sims per match, seed ${ORACLE.P.mc.seed}. Run ${fmtNY(S.ranAt)}. Browser freeze v${ver} saved locally (append-only).
-      The official pre-match freeze is written by the Python pipeline to <code>forecasts/${S.day}/</code> in the repo.</p>
-      <button class="small" id="dlSlate">Download frozen slate JSON</button> <button class="small" id="copyList">Copy vertical score list</button></div>`;
+    const nHigh = S.rows.filter(r => r.f.strongest.confidence === "High").length, top = order[0];
+    let h = `<div class="card"><div class="strip"><div><h2 class="sec" style="margin:0">Slate · ${esc(S.day)}</h2>
+      <div class="muted small">Model ${esc(ORACLE.version)} · ${S.nS.toLocaleString()} sims/match · seed ${ORACLE.P.mc.seed} · run ${fmtNY(S.ranAt)} · browser freeze v${ver} (append-only, local)</div></div>
+      <div class="stat"><b>${S.rows.length}</b><span>Matches</span></div><div class="stat"><b>${pct(Math.max(...top.f.win_prob), 0)}</b><span>Top favourite</span></div>
+      <div class="stat"><b>${nHigh}</b><span>High-conf picks</span></div>
+      <div><button class="small" id="dlSlate">⬇ Frozen slate JSON</button> <button class="small" id="copyList">⧉ Copy score list</button></div></div>
+      <p class="muted small" style="margin:10px 0 0">Official pre-match freezes are written by the Python pipeline to <code>forecasts/${esc(S.day)}/</code> in the repo.</p></div>`;
     // match cards
-    h += `<div class="grid2">` + S.rows.map((r, i) => {
-      const f = r.f, m = r.m, aFav = f.win_prob[0] >= 0.5, fs = f.final_score;
-      const fz = m.forecast ? `<div class="muted">Frozen pre-match (Python ${esc(m.forecast.model_version)} v${m.forecast.frozen_version}): ${esc(m.forecast.predicted_winner)} ${pct(Math.max(m.forecast.win_prob.A, m.forecast.win_prob.B))}, ${esc(m.forecast.final_score.sets.join(" "))}</div>` : "";
-      return `<div class="card"><div class="muted">${esc(m.tour.toUpperCase())} · ${esc(m.tournament)}${m.round ? " · " + esc(m.round) : ""} · ${esc(f.surface)}${m.surface_source === "assumed" ? " (assumed)" : ""} · Bo${f.best_of}${m.start_utc ? " · " + fmtNY(m.start_utc) : ""}</div>
-        <div class="mcard"><div><div class="pname ${aFav ? "fav" : ""}">${esc(f.A.n)}</div><div class="pct ${aFav ? "fav" : ""}">${pct(f.win_prob[0])}</div></div>
-        <div class="muted">vs</div><div style="text-align:right"><div class="pname ${!aFav ? "fav" : ""}">${esc(f.B.n)}</div><div class="pct ${!aFav ? "fav" : ""}">${pct(f.win_prob[1])}</div></div></div>
-        <div class="bar2"><span style="width:${100 * f.win_prob[0]}%;background:var(--acc)"></span><span style="flex:1;background:var(--acc2)"></span></div>
-        <p><b>Predicted winner:</b> ${esc(f.predicted_winner)} · <b>Final score:</b> <span class="score">${fs.A}-${fs.B} (${esc(fs.sets.join(", "))})</span>
-        <br><b>Most likely sets:</b> ${esc(f.most_likely_set_score)} (${pct(f.set_score_probs[0][1])}) · <b>Games:</b> ${f.games.mean.toFixed(1)} · <b>TB:</b> ${pct(f.p_tiebreak, 0)}
-        <br><b>Strongest:</b> ${esc(f.strongest.selection)} ${pct(f.strongest.probability)} <span class="conf ${f.strongest.confidence}">${f.strongest.confidence}</span> · <span class="dq ${f.data_quality}">${f.data_quality}</span></p>
-        ${fz}<div>${resultCell(m, f)}</div><button class="small" data-open="${i}">Full report →</button></div>`;
+    const setsFor = (fs, side) => fs.sets.map(x => { const g = x.split("-").map(Number), me = g[side], op = g[1 - side]; return `<span class="${me > op ? "w" : ""}">${me}</span>`; }).join("");
+    h += `<div class="grid3">` + S.rows.map((r, i) => {
+      const f = r.f, m = r.m, aFav = f.win_prob[0] >= 0.5, fs = f.final_score, aWin = fs.A > fs.B;
+      const fz = m.forecast ? `<div class="frz">🔒 Frozen pre-match (Python ${esc(m.forecast.model_version)} v${m.forecast.frozen_version}): ${esc(m.forecast.predicted_winner)} ${pct(Math.max(m.forecast.win_prob.A, m.forecast.win_prob.B))}, ${esc(m.forecast.final_score.sets.join(" "))}</div>` : "";
+      return `<div class="card mc"><div class="mc-top"><span class="t"><span class="tour">${esc(m.tour.toUpperCase())}</span>${esc(m.tournament)}${m.round ? " · " + esc(m.round) : ""}</span>
+        <span>${esc(f.surface)}${m.surface_source === "assumed" ? "*" : ""} · Bo${f.best_of}${m.start_utc ? " · " + fmtNY(m.start_utc) : ""}</span></div>
+        <div class="pl ${aWin ? "win" : ""}"><span class="n">${esc(f.A.n)}</span><span class="sets">${setsFor(fs, 0)}</span><span class="p">${pct(f.win_prob[0])}</span></div>
+        <div class="pl ${!aWin ? "win" : ""}"><span class="n">${esc(f.B.n)}</span><span class="sets">${setsFor(fs, 1)}</span><span class="p">${pct(f.win_prob[1])}</span></div>
+        <div class="wbar" title="${esc(f.A.n)} ${pct(f.win_prob[0])} / ${esc(f.B.n)} ${pct(f.win_prob[1])}"><span style="width:${100 * f.win_prob[0]}%"></span><span></span></div>
+        <div class="chips"><span class="chip">Sets <b>${esc(f.most_likely_set_score)}</b> ${pct(f.set_score_probs[0][1], 0)}</span><span class="chip">Games <b>${f.games.mean.toFixed(1)}</b></span>
+        <span class="chip">Tiebreak <b>${pct(f.p_tiebreak, 0)}</b></span><span class="chip">Decider <b>${pct(f.p_decider, 0)}</b></span></div>
+        <div class="pick"><div><div class="l">Strongest prediction</div><b>${esc(f.strongest.selection)}</b> · ${pct(f.strongest.probability)}</div><span class="conf ${f.strongest.confidence}">${f.strongest.confidence}</span></div>
+        ${fz}<div class="mc-foot"><span>${resultCell(m, f) || `<span class="dq ${f.data_quality}">DQ ${f.data_quality}</span>`}</span><button class="small" data-open="${i}">Full report →</button></div></div>`;
     }).join("") + `</div>`;
     // summary table
-    h += `<div class="card"><h2>Multi-match summary</h2><div style="overflow:auto"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>DQ</th><th>Result</th></tr>` +
+    h += `<div class="card"><h2 class="sec">Multi-match summary</h2><div class="tblwrap"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>DQ</th><th>Result</th></tr>` +
       S.rows.map((r, i) => { const f = r.f; return `<tr class="click" data-open="${i}"><td>${esc(f.A.n)} vs ${esc(f.B.n)}</td><td>${esc(f.predicted_winner)}</td><td class="num">${pct(Math.max(...f.win_prob))}</td>
         <td>${esc(f.most_likely_set_score)}</td><td class="score">${esc(f.final_score.sets.join(" "))}</td><td class="num">${f.games.mean.toFixed(1)}</td><td>${esc(f.strongest.selection)} (${pct(f.strongest.probability)})</td>
         <td class="conf ${f.strongest.confidence}">${f.strongest.confidence}</td><td><span class="dq ${f.data_quality}">${f.data_quality}</span></td><td>${resultCell(r.m, f)}</td></tr>`; }).join("") + `</table></div></div>`;
     // rankings + vertical list
-    h += `<div class="grid2"><div class="card"><h2>Ranking by winner probability</h2><table>` + order.map((r, k) => `<tr><td>${k + 1}</td><td>${esc(r.f.predicted_winner)}</td><td class="num">${pct(Math.max(...r.f.win_prob))}</td></tr>`).join("") + `</table>
+    h += `<div class="grid2"><div class="card"><h2 class="sec">Winner probability ranking</h2><table>` + order.map((r, k) => `<tr><td>${k + 1}</td><td>${esc(r.f.predicted_winner)}</td><td class="num">${pct(Math.max(...r.f.win_prob))}</td></tr>`).join("") + `</table>
       <h3>Strongest-prediction ranking</h3><table>` + strong.slice(0, 15).map((r, k) => `<tr><td>${k + 1}</td><td>${esc(r.f.strongest.selection)}</td><td class="num">${pct(r.f.strongest.probability)}</td><td class="conf ${r.f.strongest.confidence}">${r.f.strongest.confidence}</td></tr>`).join("") + `</table></div>
-      <div class="card"><h2>Vertical score list</h2><pre id="vlist" class="score">${esc(verticalList(S))}</pre></div></div>`;
+      <div class="card"><h2 class="sec">Vertical score list</h2><pre id="vlist" class="score">${esc(verticalList(S))}</pre></div></div>`;
     if (S.skipped.length) h += `<div class="card warn">Skipped: ${S.skipped.map(s => esc(s.m ? `${s.m.players[0].name} vs ${s.m.players[1].name}: ${s.why}` : s.why)).join("<br>")}</div>`;
     out.innerHTML = h;
     out.querySelectorAll("[data-open]").forEach(el => el.onclick = () => { const r = S.rows[+el.dataset.open]; renderMatch(r.f, $("#matchOut")); prefill(r.f); showTab("match"); window.scrollTo(0, 0); });
@@ -182,18 +192,23 @@
     const tour = $("#mTour").value, A = ORACLE.find($("#mA").value, tour), B = ORACLE.find($("#mB").value, tour), out = $("#matchOut");
     if (!A || !B) { out.innerHTML = `<div class="card warn">Player not found in ${tour.toUpperCase()} ratings: ${esc(!A ? $("#mA").value : $("#mB").value)}</div>`; return; }
     if (A.id === B.id) { out.innerHTML = `<div class="card warn">Pick two different players.</div>`; return; }
-    const btn = $("#predictBtn"); btn.disabled = true; btn.textContent = "Running…"; await tick();
+    const btn = $("#predictBtn"); btn.disabled = true; btn.textContent = "RUNNING…"; await tick();
     const f = ORACLE.forecast({ a: A.id, b: B.id, tour, surface: $("#mSurf").value, bestOf: +$("#mBo").value, finalRule: $("#mFr").value, indoor: $("#mIndoor").checked,
       sims: Math.max(100000, +$("#mSims").value || 100000), seed: +$("#mSeed").value, aAdj: +$("#mAadj").value || 0, bAdj: +$("#mBadj").value || 0,
       injuryUncertain: $("#mInj").checked, tournament: $("#mTourn").value, round: $("#mRound").value, date: todayNY() + "T12:00:00" });
-    btn.disabled = false; btn.textContent = "Predict"; renderMatch(f, out);
+    btn.disabled = false; btn.textContent = "PREDICT"; renderMatch(f, out);
   }
 
   function renderMatch(f, out) {
     const A = f.A.n, B = f.B.n, m = f.model, g = f.games;
     const ana = f.analytic, xc = ana ? `MC vs exact Markov mixture: win ${pct(f.win_prob[0], 2)} vs ${pct(ana.pWin, 2)}, tiebreak ${pct(f.p_tiebreak, 2)} vs ${pct(ana.pTb, 2)}, games ${g.mean.toFixed(2)} vs ${ana.gamesMean.toFixed(2)} (MC s.e. ≈ ${(100 * Math.sqrt(f.win_prob[0] * f.win_prob[1] / m.n_sims)).toFixed(2)} pp)` : "Analytic cross-check skipped for slate speed — run from Single Match for the cross-check.";
     const s = f.strongest, fs = f.final_score;
-    let h = `<div class="card"><h2>MATCH: ${esc(A)} vs ${esc(B)}</h2><div class="kv">
+    const aF = f.win_prob[0] >= 0.5;
+    let h = `<div class="card"><div class="vs"><div class="${aF ? "fav" : ""}"><div class="nm">${esc(A)}</div><div class="bigp">${pct(f.win_prob[0])}</div></div><div class="mid">VS</div>
+      <div class="${!aF ? "fav" : ""}"><div class="nm">${esc(B)}</div><div class="bigp">${pct(f.win_prob[1])}</div></div></div>
+      <div class="wbar" style="height:10px;margin:14px 0"><span style="width:${100 * f.win_prob[0]}%"></span><span></span></div>
+      <div style="text-align:center"><div class="muted small">PROJECTED FINAL</div><div class="final">🍀 ${esc(f.predicted_winner)} · <span class="score">${esc(fs.sets.join("  "))}</span></div></div></div>
+      <div class="card"><h2 class="sec">Match: ${esc(A)} vs ${esc(B)}</h2><div class="kv">
       <div>Tournament</div><div>${esc(f.tournament || "(not specified)")}</div><div>Round</div><div>${esc(f.round || "(not specified)")}</div>
       <div>Surface</div><div>${esc(f.surface)}${f.indoor ? " (indoor)" : ""}</div><div>Format</div><div>${esc(f.format)}</div>
       <div>Data cutoff</div><div>${esc(f.data_cutoff)} (point-level stats); results through ${esc(f.results_cutoff)}</div>
@@ -246,7 +261,7 @@
     const ks = Object.keys(g.pmf).map(Number).sort((a, b) => a - b).filter(k => g.pmf[k] > 2e-4), W = 460, H = 150, pad = 22;
     const lo = ks[0], hi = ks[ks.length - 1], mx = Math.max(...ks.map(k => g.pmf[k])), bw = (W - pad) / (hi - lo + 1);
     let s = `<svg viewBox="0 0 ${W} ${H + 18}" width="100%">`;
-    for (const k of ks) { const h = (H - 10) * g.pmf[k] / mx, x = pad + (k - lo) * bw; s += `<rect x="${x}" y="${H - h}" width="${Math.max(1, bw - 1)}" height="${h}" fill="${k >= g.p10 && k <= g.p90 ? "var(--acc2)" : "#3a4670"}"><title>${k} games: ${pct(g.pmf[k], 2)}</title></rect>`; }
+    for (const k of ks) { const h = (H - 10) * g.pmf[k] / mx, x = pad + (k - lo) * bw; s += `<rect x="${x}" y="${H - h}" width="${Math.max(1, bw - 1)}" height="${h}" fill="${k >= g.p10 && k <= g.p90 ? "var(--acc2)" : "var(--chart-dim)"}"><title>${k} games: ${pct(g.pmf[k], 2)}</title></rect>`; }
     for (let k = Math.ceil(lo / 5) * 5; k <= hi; k += 5) s += `<text x="${pad + (k - lo) * bw}" y="${H + 14}">${k}</text>`;
     const mxPos = pad + (g.mean - lo) * bw; s += `<line x1="${mxPos}" x2="${mxPos}" y1="0" y2="${H}" stroke="var(--acc)" stroke-dasharray="3 3"/><text x="${mxPos + 3}" y="10">mean ${g.mean.toFixed(1)}</text>`;
     return s + `</svg><p class="muted">Total-games distribution from the simulations (highlighted: 10th–90th percentile).</p>`;
@@ -277,7 +292,7 @@
   }
   function relChart(cal) {
     const W = 300, P = 30, S = W - P - 8, x = v => P + (v - 0.5) / 0.5 * S, y = v => 8 + S - (v - 0.5) / 0.5 * S;
-    let s = `<svg viewBox="0 0 ${W} ${W}" width="100%" style="max-width:360px"><rect x="${P}" y="8" width="${S}" height="${S}" fill="none" stroke="#2a3557"/><line x1="${x(.5)}" y1="${y(.5)}" x2="${x(1)}" y2="${y(1)}" stroke="#55628a" stroke-dasharray="4 3"/>`;
+    let s = `<svg viewBox="0 0 ${W} ${W}" width="100%" style="max-width:360px"><rect x="${P}" y="8" width="${S}" height="${S}" fill="none" stroke="var(--chart-grid)"/><line x1="${x(.5)}" y1="${y(.5)}" x2="${x(1)}" y2="${y(1)}" stroke="var(--chart-dim)" stroke-dasharray="4 3"/>`;
     for (const t of [.5, .6, .7, .8, .9, 1]) s += `<text x="${x(t) - 8}" y="${W - 6}">${t * 100}</text><text x="2" y="${y(t) + 3}">${t * 100}</text>`;
     s += `<polyline fill="none" stroke="var(--acc)" stroke-width="2" points="${cal.map(c => `${x(c.mean_pred)},${y(c.observed)}`).join(" ")}"/>`;
     for (const c of cal) s += `<circle cx="${x(c.mean_pred)}" cy="${y(c.observed)}" r="${3 + Math.sqrt(c.n) / 12}" fill="var(--acc)" fill-opacity=".6"><title>${c.bucket}: predicted ${pct(c.mean_pred)}, observed ${pct(c.observed)} (n=${c.n})</title></circle>`;
