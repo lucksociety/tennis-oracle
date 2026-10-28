@@ -5,4 +5,4 @@ set -euo pipefail
 cd "$(dirname "$0")"
 node build.mjs
 npx wrangler@4 deploy
-echo "Interactions Endpoint URL: https://tennis-oracle.<your-subdomain>.workers.dev/interactions"
+echo "Interactions Endpoint URL: https://tennis-oracle.dreiss324.workers.dev/interactions"

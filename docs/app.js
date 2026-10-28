@@ -8,7 +8,7 @@
   const pct = (x, d = 1) => (100 * x).toFixed(d) + "%";
   const TZ = "America/New_York";
   let ORACLE = null, RATINGS = null, BACKTEST = null, SLATES = { dates: [] }, LAST_SLATE = null, JUP = null;
-  const WORKER_API = "";   // e.g. "https://tennis-oracle.<subdomain>.workers.dev" -> enables "Live prices" refresh
+  const WORKER_API = "https://tennis-oracle.dreiss324.workers.dev";   // e.g. "https://tennis-oracle.<subdomain>.workers.dev" -> enables "Live prices" refresh
 
   const todayNY = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const fmtNY = iso => iso ? new Date(iso).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET" : "";
