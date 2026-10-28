@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "TENNIS ORACLE V1.0 - independent statistical tennis prediction & simulation engine (no betting-market inputs)"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["numpy>=1.24", "pandas>=2.0"]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "requests>=2.28"]
 license = {text = "MIT (code); data CC BY-NC-SA 4.0 (Jeff Sackmann)"}
 
 [project.optional-dependencies]

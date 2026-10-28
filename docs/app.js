@@ -1,11 +1,14 @@
 /* TENNIS ORACLE dashboard. All predictions are computed in-browser by engine.js from data/ratings.json
-   (model version + params exported by the Python pipeline). No odds or market data are loaded anywhere. */
+   (model version + params exported by the Python pipeline). The model never loads odds or market data.
+   Jupiter prediction-market prices (data/jupiter-<date>.json, or live via the Worker API) are only compared
+   AFTERWARDS with the frozen pre-match forecasts to flag a best bet (markets.js). */
 (function () {
   "use strict";
   const $ = s => document.querySelector(s), esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const pct = (x, d = 1) => (100 * x).toFixed(d) + "%";
   const TZ = "America/New_York";
-  let ORACLE = null, RATINGS = null, BACKTEST = null, SLATES = { dates: [] }, LAST_SLATE = null;
+  let ORACLE = null, RATINGS = null, BACKTEST = null, SLATES = { dates: [] }, LAST_SLATE = null, JUP = null;
+  const WORKER_API = "";   // e.g. "https://tennis-oracle.<subdomain>.workers.dev" -> enables "Live prices" refresh
 
   const todayNY = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const fmtNY = iso => iso ? new Date(iso).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET" : "";
@@ -52,9 +55,11 @@
     const day = $("#slateDate").value; SLATE_FILE = null;
     try {
       SLATE_FILE = await getJSON(`data/slate-${day}.json`);
+      JUP = await getJSON(`data/jupiter-${day}.json`).catch(() => null);
       const ms = filtTour(SLATE_FILE.matches), sched = ms.filter(m => m.status === "STATUS_SCHEDULED").length;
       $("#slateInfo").innerHTML = `Schedule for <b>${day}</b> (${TZ}): <b>${ms.length}</b> singles matches (${sched} not yet started) from ${esc(SLATE_FILE.source)}.
-        Fetched ${fmtNY(SLATE_FILE.generated_at_utc)}. Frozen server-side forecasts: model ${esc(SLATE_FILE.model_version)}.`;
+        Fetched ${fmtNY(SLATE_FILE.generated_at_utc)}. Frozen server-side forecasts: model ${esc(SLATE_FILE.model_version)}.
+        ${JUP ? `Jupiter price snapshot: ${fmtNY(JUP.snapshot_at_utc)}.` : "No Jupiter price snapshot for this date."}`;
     } catch (e) {
       $("#slateInfo").innerHTML = `No prepared schedule file for <b>${day}</b> yet (the GitHub Action fetches today and tomorrow every few hours). Available: ${(SLATES.dates || []).slice(-10).join(", ") || "none"}. Use manual matchups below.`;
     }
@@ -136,6 +141,21 @@
     return `<span class="${ok ? "hit" : "miss"}">${ok ? "✓" : "✗"}</span> ${esc(wn)} <span class="score">${sc}</span>`;
   }
 
+  function betRow(m) { return JUP && m && m.espn_id ? (JUP.matches || []).find(x => String(x.espn_id) === String(m.espn_id)) : null; }
+  function betBlock(m) {
+    if (!m || m.manual) return "";
+    const r = betRow(m), src = JUP ? `Jupiter · ${JUP.source_label || fmtNY(JUP.snapshot_at_utc)}` : "Jupiter";
+    if (r && r.status === "bet") { const b = r.best;
+      return `<div class="bet yes"><div><div class="l">Best bet · ${esc(src)}</div><b>${esc(b.selection)}</b> @ ${b.price.toFixed(2)}</div>
+        <div class="bn"><span>Implied <b>${pct(b.implied)}</b></span><span>Model <b>${pct(b.model_p)}</b></span><span>Edge <b>+${(100 * b.edge).toFixed(1)}</b></span><span>EV <b>+${(100 * b.ev_per_1).toFixed(1)}%</b></span></div></div>`; }
+    const v = r ? r.verdict : (JUP ? "NO BET (no market)" : "NO BET (no price snapshot)");
+    return `<div class="bet no"><div class="l">Best bet · ${esc(src)}</div><b>NO BET</b> <span class="muted">${esc(v.replace(/^NO BET\s*/, ""))}</span></div>`;
+  }
+  async function refreshLive(S, ver) {
+    if (!WORKER_API) return;
+    try { const j = await getJSON(`${WORKER_API}/api/bets?date=${S.day}`); if (j.matches && j.matches.length) { JUP = Object.assign(j, { source_label: (j.source === "live" ? "live " : "snapshot ") + fmtNY(j.snapshot_at_utc) }); renderSlate(S, ver); } }
+    catch (e) { console.warn("live prices unavailable", e); }
+  }
   function renderSlate(S, ver) {
     const out = $("#slateOut");
     if (!S.rows.length) { out.innerHTML = `<div class="card warn">No matches to simulate for ${S.day}. ${S.skipped.length ? "Skipped: " + S.skipped.map(s => esc(s.why)).join("; ") : "Tick “include started/finished” or add manual matchups."}</div>`; return; }
@@ -147,8 +167,10 @@
       <div class="muted small">Model ${esc(ORACLE.version)} · ${S.nS.toLocaleString()} sims/match · seed ${ORACLE.P.mc.seed} · run ${fmtNY(S.ranAt)} · browser freeze v${ver} (append-only, local)</div></div>
       <div class="stat"><b>${S.rows.length}</b><span>Matches</span></div><div class="stat"><b>${pct(Math.max(...top.f.win_prob), 0)}</b><span>Top favourite</span></div>
       <div class="stat"><b>${nHigh}</b><span>High-conf picks</span></div>
-      <div><button class="small" id="dlSlate">⬇ Frozen slate JSON</button> <button class="small" id="copyList">⧉ Copy score list</button></div></div>
-      <p class="muted small" style="margin:10px 0 0">Official pre-match freezes are written by the Python pipeline to <code>forecasts/${esc(S.day)}/</code> in the repo.</p></div>`;
+      <div class="stat"><b>${S.rows.filter(r => (betRow(r.m) || {}).status === "bet").length}</b><span>Best bets</span></div>
+      <div>${WORKER_API ? '<button class="small" id="liveBets">↻ Live prices</button> ' : ""}<button class="small" id="dlSlate">⬇ Frozen slate JSON</button> <button class="small" id="copyList">⧉ Copy score list</button></div></div>
+      <p class="muted small" style="margin:10px 0 0">Best bets compare Jupiter prices${JUP ? ` (snapshot ${fmtNY(JUP.snapshot_at_utc)})` : ""} with the <b>frozen</b> Python forecast, never the reverse: an outcome qualifies only if model probability &gt; 50% <b>and</b> edge &gt; 0 after fees; the highest-EV qualifier is shown, otherwise NO BET. Not betting advice.</p>
+      <p class="muted small" style="margin:6px 0 0">Official pre-match freezes are written by the Python pipeline to <code>forecasts/${esc(S.day)}/</code> in the repo.</p></div>`;
     // match cards
     const setsFor = (fs, side) => fs.sets.map(x => { const g = x.split("-").map(Number), me = g[side], op = g[1 - side]; return `<span class="${me > op ? "w" : ""}">${me}</span>`; }).join("");
     h += `<div class="grid3">` + S.rows.map((r, i) => {
@@ -159,24 +181,38 @@
         <div class="pl ${aWin ? "win" : ""}"><span class="n">${esc(f.A.n)}</span><span class="sets">${setsFor(fs, 0)}</span><span class="p">${pct(f.win_prob[0])}</span></div>
         <div class="pl ${!aWin ? "win" : ""}"><span class="n">${esc(f.B.n)}</span><span class="sets">${setsFor(fs, 1)}</span><span class="p">${pct(f.win_prob[1])}</span></div>
         <div class="wbar" title="${esc(f.A.n)} ${pct(f.win_prob[0])} / ${esc(f.B.n)} ${pct(f.win_prob[1])}"><span style="width:${100 * f.win_prob[0]}%"></span><span></span></div>
-        <div class="chips"><span class="chip">Sets <b>${esc(f.most_likely_set_score)}</b> ${pct(f.set_score_probs[0][1], 0)}</span><span class="chip">Games <b>${f.games.mean.toFixed(1)}</b></span>
+        <div class="chips"><span class="chip">Sets <b>${esc(f.most_likely_set_score)}</b> ${pct(f.set_score_probs[0][1], 0)}</span><span class="chip" title="median of simulated total games (mean ${f.games.mean.toFixed(1)})">Proj. games <b>${f.games.median}</b></span>
         <span class="chip">Tiebreak <b>${pct(f.p_tiebreak, 0)}</b></span><span class="chip">Decider <b>${pct(f.p_decider, 0)}</b></span></div>
         <div class="pick"><div><div class="l">Strongest prediction</div><b>${esc(f.strongest.selection)}</b> · ${pct(f.strongest.probability)}</div><span class="conf ${f.strongest.confidence}">${f.strongest.confidence}</span></div>
-        ${fz}<div class="mc-foot"><span>${resultCell(m, f) || `<span class="dq ${f.data_quality}">DQ ${f.data_quality}</span>`}</span><button class="small" data-open="${i}">Full report →</button></div></div>`;
+        ${betBlock(m)}${fz}<div class="mc-foot"><span>${resultCell(m, f) || `<span class="dq ${f.data_quality}">DQ ${f.data_quality}</span>`}</span><button class="small" data-open="${i}">Full report →</button></div></div>`;
     }).join("") + `</div>`;
+    // leaderboards across the slate (post-freeze market comparison)
+    if (JUP && window.TOMarkets) {
+      const ids = new Set(S.rows.map(r => String(r.m.espn_id)));
+      const LB = TOMarkets.leaderboards((JUP.matches || []).filter(x => ids.has(String(x.espn_id))), 10);
+      const nm = o => { const r = S.rows.find(x => String(x.m.espn_id) === String(o.espn_id)); return r ? `${r.m.players[0].name} vs ${r.m.players[1].name}` : (o.event_title || ""); };
+      const tbl = (L, kind) => !L.length ? `<p class="muted">${kind === "ev" ? "No +EV outcomes in this snapshot." : "No priced outcomes."}</p>` :
+        `<div class="tblwrap"><table><tr><th>#</th><th>Bet</th><th>Match</th><th class="num">Price</th><th class="num">Implied</th><th class="num">Model</th><th class="num">Edge</th><th class="num">EV</th><th>&gt;50% &amp; +edge</th></tr>` +
+        L.map((o, k) => `<tr${o.is_best ? ' class="hl"' : ""}><td>${k + 1}</td><td><b>${esc(o.selection)}</b></td><td class="small">${esc(nm(o))}</td><td class="num">${o.price.toFixed(2)}</td><td class="num">${pct(o.implied)}</td><td class="num">${pct(o.model_p)}</td>
+          <td class="num ${o.edge > 0 ? "hit" : "miss"}">${o.edge > 0 ? "+" : ""}${(100 * o.edge).toFixed(1)}</td><td class="num">${o.ev_per_1 > 0 ? "+" : ""}${(100 * o.ev_per_1).toFixed(1)}%</td>
+          <td title="${o.eligible ? "model >50% and positive edge" : o.model_p > 0.5 ? "no positive edge" : "model ≤50%"}">${o.eligible ? "✓" : o.model_p > 0.5 ? "— edge" : "— ≤50%"}</td></tr>`).join("") + `</table></div>`;
+      h += `<div class="grid2"><div class="card"><h2 class="sec">Top highest-probability bets</h2><p class="muted small">Every priced Jupiter outcome on pre-match games, ranked by frozen model probability. Highlighted = that match's best bet.</p>${tbl(LB.top_probability, "p")}</div>
+        <div class="card"><h2 class="sec">Top highest-EV bets</h2><p class="muted small">Only +EV outcomes (model / implied − 1 &gt; 0). “Passes rule” = also over 50% model probability.</p>${tbl(LB.top_ev, "ev")}</div></div>`;
+    }
     // summary table
-    h += `<div class="card"><h2 class="sec">Multi-match summary</h2><div class="tblwrap"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>DQ</th><th>Result</th></tr>` +
+    h += `<div class="card"><h2 class="sec">Multi-match summary</h2><div class="tblwrap"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>Best bet (Jupiter)</th><th>DQ</th><th>Result</th></tr>` +
       S.rows.map((r, i) => { const f = r.f; return `<tr class="click" data-open="${i}"><td>${esc(f.A.n)} vs ${esc(f.B.n)}</td><td>${esc(f.predicted_winner)}</td><td class="num">${pct(Math.max(...f.win_prob))}</td>
         <td>${esc(f.most_likely_set_score)}</td><td class="score">${esc(f.final_score.sets.join(" "))}</td><td class="num">${f.games.mean.toFixed(1)}</td><td>${esc(f.strongest.selection)} (${pct(f.strongest.probability)})</td>
-        <td class="conf ${f.strongest.confidence}">${f.strongest.confidence}</td><td><span class="dq ${f.data_quality}">${f.data_quality}</span></td><td>${resultCell(r.m, f)}</td></tr>`; }).join("") + `</table></div></div>`;
+        <td class="conf ${f.strongest.confidence}">${f.strongest.confidence}</td><td>${(() => { const b = betRow(r.m); return b && b.status === "bet" ? `<b>${esc(b.best.selection)}</b> @ ${b.best.price.toFixed(2)}` : '<span class="muted">NO BET</span>'; })()}</td><td><span class="dq ${f.data_quality}">${f.data_quality}</span></td><td>${resultCell(r.m, f)}</td></tr>`; }).join("") + `</table></div></div>`;
     // rankings + vertical list
     h += `<div class="grid2"><div class="card"><h2 class="sec">Winner probability ranking</h2><table>` + order.map((r, k) => `<tr><td>${k + 1}</td><td>${esc(r.f.predicted_winner)}</td><td class="num">${pct(Math.max(...r.f.win_prob))}</td></tr>`).join("") + `</table>
       <h3>Strongest-prediction ranking</h3><table>` + strong.slice(0, 15).map((r, k) => `<tr><td>${k + 1}</td><td>${esc(r.f.strongest.selection)}</td><td class="num">${pct(r.f.strongest.probability)}</td><td class="conf ${r.f.strongest.confidence}">${r.f.strongest.confidence}</td></tr>`).join("") + `</table></div>
       <div class="card"><h2 class="sec">Vertical score list</h2><pre id="vlist" class="score">${esc(verticalList(S))}</pre></div></div>`;
     if (S.skipped.length) h += `<div class="card warn">Skipped: ${S.skipped.map(s => esc(s.m ? `${s.m.players[0].name} vs ${s.m.players[1].name}: ${s.why}` : s.why)).join("<br>")}</div>`;
     out.innerHTML = h;
-    out.querySelectorAll("[data-open]").forEach(el => el.onclick = () => { const r = S.rows[+el.dataset.open]; renderMatch(r.f, $("#matchOut")); prefill(r.f); showTab("match"); window.scrollTo(0, 0); });
+    out.querySelectorAll("[data-open]").forEach(el => el.onclick = () => { const r = S.rows[+el.dataset.open]; renderMatch(r.f, $("#matchOut"), r.m); prefill(r.f); showTab("match"); window.scrollTo(0, 0); });
     $("#dlSlate").onclick = () => download(`oracle-slate-${S.day}-browser-v${S.frozen.version}.json`, S.frozen);
+    $("#liveBets") && ($("#liveBets").onclick = () => refreshLive(S, ver));
     $("#copyList").onclick = () => navigator.clipboard && navigator.clipboard.writeText(verticalList(S));
   }
   function verticalList(S) {
@@ -199,7 +235,21 @@
     btn.disabled = false; btn.textContent = "PREDICT"; renderMatch(f, out);
   }
 
-  function renderMatch(f, out) {
+  function marketSection(m) {
+    if (!m || m.manual) return "";
+    const r = betRow(m);
+    let h = `<div class="card"><h3>11. Jupiter prediction-market comparison (post-freeze)</h3>`;
+    if (!m.forecast) return h + `<p class="muted">No frozen pre-match forecast for this match, so no market comparison.</p></div>`;
+    h += `<p class="muted small">Compared with the frozen forecast v${m.forecast.frozen_version} (${fmtNY(m.forecast.frozen_at_utc)}), not the browser run above. Prices: ${JUP ? (JUP.source_label || "snapshot " + fmtNY(JUP.snapshot_at_utc)) : "none"}. Implied = ask + Jupiter fee 0.07·p·(1−p); edge = model − implied; EV per $1 = model/implied − 1.</p>`;
+    if (!r || !r.outcomes || !r.outcomes.length) return h + `<p><b>${esc(r ? r.verdict : "NO BET (no market)")}</b></p></div>`;
+    h += `<p>Verdict: <b class="${r.status === "bet" ? "fav" : ""}">${esc(r.status === "bet" ? "BEST BET: " + r.verdict : r.verdict)}</b> <span class="muted small">${esc(r.event_title || "")}</span></p>
+      <div class="tblwrap"><table><tr><th>Outcome</th><th class="num">Ask</th><th class="num">Implied (incl. fee)</th><th class="num">Model</th><th class="num">Edge</th><th class="num">EV / $1</th><th>Qualifies</th></tr>` +
+      r.outcomes.map(o => o.implied == null ? `<tr class="muted"><td>${esc(o.selection || o.label)}</td><td colspan="6">${esc(o.skip || "")}${o.model_p != null ? ` · model ${pct(o.model_p)}` : ""}</td></tr>` :
+        `<tr${r.best && r.best.market_id === o.market_id ? ' class="hl"' : ""}><td>${esc(o.selection)}</td><td class="num">${o.price.toFixed(2)}</td><td class="num">${pct(o.implied)}</td><td class="num">${pct(o.model_p)}</td>
+        <td class="num ${o.edge > 0 ? "hit" : "miss"}">${o.edge > 0 ? "+" : ""}${(100 * o.edge).toFixed(1)}</td><td class="num">${o.ev_per_1 > 0 ? "+" : ""}${(100 * o.ev_per_1).toFixed(1)}%</td><td>${o.eligible ? "✓" : "—"}</td></tr>`).join("") + `</table></div></div>`;
+    return h;
+  }
+  function renderMatch(f, out, slateM) {
     const A = f.A.n, B = f.B.n, m = f.model, g = f.games;
     const ana = f.analytic, xc = ana ? `MC vs exact Markov mixture: win ${pct(f.win_prob[0], 2)} vs ${pct(ana.pWin, 2)}, tiebreak ${pct(f.p_tiebreak, 2)} vs ${pct(ana.pTb, 2)}, games ${g.mean.toFixed(2)} vs ${ana.gamesMean.toFixed(2)} (MC s.e. ≈ ${(100 * Math.sqrt(f.win_prob[0] * f.win_prob[1] / m.n_sims)).toFixed(2)} pp)` : "Analytic cross-check skipped for slate speed — run from Single Match for the cross-check.";
     const s = f.strongest, fs = f.final_score;
@@ -223,7 +273,7 @@
       <p>Most likely exact outcome: ${esc(A)} ${esc(f.most_likely_set_score)} ${esc(B)}</p>
       <h3>3. Projected individual set scores</h3><p>Representative sequence for ${esc(f.most_likely_set_score)}: <span class="score">${esc(f.representative_sets.join(", "))}</span>
       <span class="muted">(most frequent sequence, ${pct(f.representative_p)} of sims — representative, not definitive)</span></p></div>
-      <div class="card"><h3>4. Expected total games</h3><p>Mean <b>${g.mean.toFixed(1)}</b> · Median <b>${g.median}</b> · 10th–90th <b>${g.p10}–${g.p90}</b> · SD <b>${g.sd.toFixed(1)}</b></p>${gamesChart(g)}
+      <div class="card"><h3>4. Expected total games</h3><p>Projected (median) <b>${g.median}</b> · Mean <b>${g.mean.toFixed(1)}</b> · 10th–90th <b>${g.p10}–${g.p90}</b> · SD <b>${g.sd.toFixed(1)}</b></p>${gamesChart(g)}
       <h3>7. Tiebreak and set probabilities</h3><div class="kv">
       <div>At least one tiebreak</div><div>${pct(f.p_tiebreak)}</div><div>${esc(A)} wins a set</div><div>${pct(f.p_a_set)}</div><div>${esc(B)} wins a set</div><div>${pct(f.p_b_set)}</div>
       <div>Deciding set</div><div>${pct(f.p_decider)}</div><div>Expected breaks</div><div>${f.breaks.total.toFixed(2)} (${esc(A)} ${f.breaks.A.toFixed(2)}, ${esc(B)} ${f.breaks.B.toFixed(2)})</div>
@@ -245,7 +295,7 @@
       <div>Modeled probability</div><div>${pct(s.probability)}</div><div>Fair mathematical odds</div><div>${s.fair_odds.decimal.toFixed(2)} / ${s.fair_odds.american} <span class="muted">(model price; not a proven +EV bet)</span></div>
       <div>Confidence</div><div class="conf ${s.confidence}">${s.confidence}</div><div>Main risk</div><div>${esc(s.main_risk)}</div></div></div>
       <div class="card"><h3>10. Final score prediction</h3><p class="pct">${esc(A.toUpperCase())} ${fs.A} – ${esc(B.toUpperCase())} ${fs.B}</p>
-      <p>Projected set scores: <span class="score">${esc(fs.sets.join(", "))}</span></p><button class="small" id="dlMatch">Download forecast JSON</button></div></div>`;
+      <p>Projected set scores: <span class="score">${esc(fs.sets.join(", "))}</span></p><button class="small" id="dlMatch">Download forecast JSON</button></div></div>` + marketSection(slateM);
     out.innerHTML = h;
     $("#dlMatch") && ($("#dlMatch").onclick = () => { const o = JSON.parse(JSON.stringify(f)); o.frozen_at_utc = new Date().toISOString(); delete o.games.pmf; delete o.diff_pmf; download(`oracle-${f.A.n}-vs-${f.B.n}.json`.replace(/\s+/g, "_"), o); });
   }
@@ -302,7 +352,8 @@
   function renderAbout() {
     const P = ORACLE.P, w = P.weights;
     $("#aboutOut").innerHTML = `<h2>How TENNIS ORACLE works</h2>
-    <p><b>Inputs (independent statistics only).</b> Match results and point-level serve/return statistics from Jeff Sackmann's tennis_atp / tennis_wta datasets (via an archival mirror, since the upstream repositories are no longer online), plus completed scores from ESPN's public scoreboard after that dataset ends. No betting odds, market prices, consensus picks, tipster or media predictions are used in any form.</p>
+    <p><b>Inputs (independent statistics only).</b> Match results and point-level serve/return statistics from Jeff Sackmann's tennis_atp / tennis_wta datasets (via an archival mirror, since the upstream repositories are no longer online), plus completed scores from ESPN's public scoreboard after that dataset ends. No betting odds, market prices, consensus picks, tipster or media predictions are used in any form as model inputs.</p>
+      <p><b>Jupiter best bets (post-freeze only).</b> After a forecast is frozen, Jupiter prediction-market prices (Polymarket-provided markets via api.jup.ag) are snapshotted separately (<code>market_snapshots/</code>) and compared with the frozen probabilities: implied = ask + fee 0.07·p·(1−p), edge = model − implied, EV per $1 = model/implied − 1. A best bet is the highest-EV outcome with model probability &gt; 50% and positive edge; otherwise NO BET. Prices never feed back into ratings or simulations.</p>
     <p><b>Ratings.</b> Overall and surface Elo (FiveThirtyEight-style decaying K), opponent-adjusted serve and return ratings in logit space shrunk toward tour/surface baselines, and opponent-adjusted recent form. The composite rating difference uses weights (model ${esc(ORACLE.version)}): surface Elo ${w.surface_elo}, serve/return ${w.serve_return}, overall Elo ${w.overall_elo}, form ${w.form}, verified context ≤ ±${P.context_max_elo} Elo. ${esc(ORACLE.version)} weights were refit on 2014–2023 and promoted only because they beat the spec weights on 2024 validation.</p>
     <p><b>Point model.</b> Serve-point probabilities are calibrated so the match-win probability equals the composite forecast while keeping each player's serve/return style, then fed to an exact Markov model of games, tiebreaks (correct serve rotation), sets and matches (Bo3/Bo5, 7-point, 10-point or advantage deciding sets), and to a point-by-point Monte Carlo simulation (≥100,000 sims, fixed seed ${P.mc.seed}) with per-match random variation in serve level (σ=${P.variation.sigma}, ρ=${P.variation.rho}, fitted from data).</p>
     <p><b>Daily schedule.</b> A GitHub Action fetches fixtures for today and tomorrow (America/New_York) from ESPN's public tennis scoreboard API, which carries fixtures and scores only; any odds-like field is stripped defensively. It refreshes ratings with newly completed results, re-exports this dashboard's ratings, freezes pre-match forecasts in <code>forecasts/</code> (append-only, versioned, timestamped), and audits settled ones.</p>

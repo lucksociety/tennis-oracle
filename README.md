@@ -194,3 +194,35 @@ Run on 2026-10-27 for a hypothetical indoor match on 2026-10-28. Point-level dat
 ## Licence
 
 Code: MIT. Data: Jeff Sackmann's tennis_atp / tennis_wta, CC BY-NC-SA 4.0, non-commercial. Derived files in `docs/data` and `forecasts/` inherit that licence.
+
+## Simulator verification
+
+`oracle verify --date YYYY-MM-DD [--days N] [--json]` audits every frozen forecast: n_sims ≥ 100,000 and a recorded
+seed; a re-run of `simulate_match` with the recorded serve-point probabilities, format, σ/ρ, n and seed reproduces the
+frozen numbers (exactly for new forecasts, which store full-precision probabilities; within MC error for older ones that
+stored 4-dp values); MC vs exact Markov-mixture cross-check within 4 MC standard errors; set-score, games and
+handicap distributions internally consistent; projected final score legal and equal to the winner's modal set score.
+Runs in the daily Action; results in `docs/data/verify-<date>.json`.
+
+Score study (`scripts/score_study.py`, walk-forward train 2014–23 / validate 2024 / test 2025–26): the serve-variation σ
+multiplier 0.9 beat 1.0 on validation by a noise-level margin (score log-loss 4.3587 vs 4.3605) and not meaningfully on test,
+so σ stays at 1.0. The games median beats the mean as a point prediction (MAE 4.99 vs 5.14 validation, 5.06 vs 5.21 test),
+so "projected games" = median.
+
+## Jupiter best bets (post-freeze only)
+
+`oracle markets --date D` fetches Jupiter Prediction API tennis events (api.jup.ag/prediction/v1, Polymarket-provided markets)
+AFTER forecasts are frozen, saves a timestamped price snapshot in `market_snapshots/<date>/`, and writes
+`docs/data/jupiter-<date>.json`. For each outcome: implied = ask + fee 0.07·p·(1−p) (Jupiter fee schedule), edge = model − implied,
+EV per $1 = model / implied − 1. Best bet = highest-EV outcome with model probability > 50% AND edge > 0; otherwise NO BET
+("no market" when Jupiter lists none; started matches are never bet because the pre-match model is not an in-play model).
+Prices are never inputs: `tests/test_markets.py` asserts no model/forecast module or `engine.js` imports or reads price data.
+Note: Jupiter geo-restricts US (and South Korea) IPs; the Action step is allowed to fail.
+
+## Discord `/tennis`
+
+Cloudflare Worker in `worker/` (`node build.mjs` bundles `docs/engine.js` + `docs/markets.js`). `POST /interactions` verifies the
+Ed25519 signature, defers, then posts the NY-date slate (winner, win %, final score, projected games, Jupiter best bet or NO BET,
+plus top-probability and top-EV leaderboards) in < 2000-char messages. `GET /api/bets?date=` returns live evaluations (CORS).
+Register the command with `DISCORD_BOT_TOKEN=... python scripts/register_commands.py`; deploy with `worker/deploy.sh`.
+The bot token is NOT needed by the Worker (follow-ups use the interaction token).

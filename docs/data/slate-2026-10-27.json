@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-28T03:33:34+00:00",
+ "generated_at_utc": "2026-10-28T03:54:33+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -2328,61 +2328,6 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": null
-  },
-  {
-   "espn_id": "185682",
-   "tour": "wta",
-   "tournament": "Toray Pan Pacific Open Tennis",
-   "venue": "Tokyo, Japan",
-   "round": "Round 2",
-   "court": "Center",
-   "start_utc": "2026-10-28T03:50Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Cristina Bucsa",
-     "id": "wta:213710"
-    },
-    {
-     "name": "Maya Joint",
-     "id": "wta:233741"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:31:03+00:00",
-    "path": "forecasts/2026-10-27/185682-cristina-bucsa-vs-maya-joint/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Cristina Bucsa",
-    "win_prob": {
-     "A": 0.5275,
-     "B": 0.4725
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-4",
-      "6-4"
-     ],
-     "prob": 0.3369
-    },
-    "games_mean": 22.55,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7418,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM"
-   }
   }
  ]
 }

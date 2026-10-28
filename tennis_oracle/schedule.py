@@ -87,7 +87,14 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
                     "model_version": f["model"]["version"], "predicted_winner": f["predicted_winner"], "win_prob": f["win_prob"],
                     "most_likely_set_score": f["most_likely_set_score"], "final_score": f["final_score"],
                     "games_mean": f["games"]["mean"], "strongest": {k: f["strongest"][k] for k in ("selection", "probability", "confidence")},
-                    "data_quality": f["data_quality"]}
+                    "data_quality": f["data_quality"],
+                    "games_projected": f["games"].get("projected", f["games"]["median"]),
+                    # frozen outcome distribution (copied verbatim from the frozen file) for post-freeze market comparison
+                    "dist": {"win_prob": f["win_prob"], "set_score_probs": f["set_score_probs"],
+                             "games_pmf": f["games"]["pmf"], "games_diff_pmf": f["games_diff_pmf"],
+                             "p_tiebreak": f.get("p_tiebreak"), "p_decider": f.get("p_decider")},
+                    "n_sims": f["model"]["n_sims"], "seed": f["model"].get("seed"),
+                    "cross_check_max_diff": f.get("cross_check", {}).get("max_abs_diff_probs")}
         else:
             m["note"] = "player(s) not in rating database (no tour-level history) - no forecast"
         out.append(m)

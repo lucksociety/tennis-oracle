@@ -47,13 +47,18 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then oracle schedule --date "${{ github.event.inputs.date }}" --days 2
           else oracle schedule --days 2; fi
+      - name: Verify simulator (n>=100k, seed, re-run, analytic cross-check, consistency)
+        run: oracle verify --days 2 --json
+      - name: Jupiter prices (POST-FREEZE comparison only; never a model input)
+        continue-on-error: true   # Jupiter geo-restricts US IPs; GitHub runners may be blocked
+        run: oracle markets --days 2
       - name: Post-match audit
         run: oracle audit > /dev/null
       - name: Commit
         run: |
           git config user.name "tennis-oracle-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data forecasts data/espn
+          git add docs/data forecasts data/espn market_snapshots
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Daily slate $(date +%F) (model $(cat models/CURRENT)) [skip ci]"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

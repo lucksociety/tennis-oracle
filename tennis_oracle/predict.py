@@ -134,6 +134,7 @@ def forecast(engine: RatingEngine, a_id: str, b_id: str, surface: str, best_of: 
                   "context_elo": ctx, "target_bo3_win_prob": round(target3, 4),
                   "serve_return_implied_spw": {"A": round(pa_sr, 4), "B": round(pb_sr, 4)},
                   "point_probs": {"A_serve": round(pa, 4), "B_serve": round(pb, 4)},
+                  "point_probs_exact": {"A_serve": float(pa), "B_serve": float(pb)},
                   "hold_probs": {"A": round(float(_hold(pa)), 4), "B": round(float(_hold(pb)), 4)},
                   "variation": {"sigma": sig, "rho": rho}, "n_sims": n, "seed": sd},
         "cross_check": cross,
@@ -179,7 +180,9 @@ def build_report(na, nb, bo, fr, sim, pa, pb) -> dict:
         "most_likely_set_score": top,
         "representative_sets": rep["sets"], "representative_sets_prob": round(rep.get("p", 0), 4),
         "games": {"mean": round(sim["games_mean"], 2), "median": sim["games_median"], "p10": sim["games_p10"],
-                  "p90": sim["games_p90"], "sd": round(sim["games_sd"], 2), "pmf": {int(k): round(v, 5) for k, v in games_pmf.items()}},
+                  "p90": sim["games_p90"], "sd": round(sim["games_sd"], 2),
+                  # point prediction for total games = median (lower walk-forward MAE than the mean; models/score_study.json)
+                  "projected": sim["games_median"], "pmf": {int(k): round(v, 5) for k, v in games_pmf.items()}},
         "games_diff_pmf": {int(k): round(v, 5) for k, v in diff_pmf.items()},
         "over_under": ou, "handicaps": hc,
         "p_tiebreak": round(sim["p_tb"], 4),

@@ -1,0 +1,15 @@
+name = "tennis-oracle"
+main = "dist/index.js"
+compatibility_date = "2026-04-01"
+workers_dev = true
+
+[build]
+command = "node build.mjs"
+
+[vars]
+DISCORD_APPLICATION_ID = "1564848519913930784"
+DISCORD_PUBLIC_KEY = "5abe89a0d1d28b6bb8c374b0d344e524442dedc40aab10d881865959b0c1fb32"
+DASHBOARD_URL = "https://lucksociety.github.io/tennis-oracle/"
+# "on" = simulate Jupiter-listed matches missing from the frozen slate (needs Workers Paid CPU time)
+ENGINE_FALLBACK = "off"
+# optional secret: wrangler secret put JUPITER_API_KEY

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from pathlib import Path
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -87,6 +88,40 @@ def cmd_schedule(a):
         print(f"{d}: {len(s['matches'])} singles matches, {nf} with frozen forecasts")
 
 
+def cmd_verify(a):
+    from .verify import verify_date
+    tz = ZoneInfo("America/New_York")
+    d0 = date.fromisoformat(a.date) if a.date else datetime.now(tz).date()
+    ok = True
+    for k in range(a.days):
+        r = verify_date(str(d0 + timedelta(days=k)), resim=not a.no_resim)
+        ok &= r["passed"] == r["n"]
+        print(f"{r['date']}: {r['passed']}/{r['n']} frozen forecasts pass")
+        for x in r["results"]:
+            rep = x["reproduction"] or {}
+            print(f"  {'OK ' if x['ok'] else 'FAIL'} {x['match'][:48]:48s} n={x['n_sims']} seed={x['seed']} MC-vs-exact={x['max_mc_vs_exact']:.4f}"
+                  + (f" rerun p_a {rep.get('frozen_p_a')}->{rep.get('rerun_p_a')}" if rep else "") + ("" if x["ok"] else "  " + "; ".join(x["errors"])))
+        if a.json:
+            out = Path("docs/data") / f"verify-{r['date']}.json"; out.write_text(json.dumps(r, indent=1))
+    raise SystemExit(0 if ok else 1)
+
+
+def cmd_markets(a):
+    from .jupiter import run
+    tz = ZoneInfo("America/New_York")
+    d0 = date.fromisoformat(a.date) if a.date else datetime.now(tz).date()
+    fetched = None
+    for k in range(a.days):
+        d = str(d0 + timedelta(days=k))
+        if not (Path("docs/data") / f"slate-{d}.json").exists(): continue
+        from .jupiter import fetch_events
+        fetched = fetched or fetch_events()
+        r = run(d, fetched=fetched)
+        nb = sum(1 for m in r["matches"] if m["status"] == "bet"); nm = sum(1 for m in r["matches"] if m["event_id"])
+        print(f"{d}: snapshot {r['snapshot_at_utc']} ({r['snapshot_path']}), {nm}/{len(r['matches'])} matched to Jupiter events, {nb} best bets"
+              + (f"; errors: {r['errors']}" if r["errors"] else ""))
+
+
 def cmd_export(a):
     from .config import load_params
     from .export import export_ratings
@@ -153,6 +188,11 @@ def main(argv=None):
     p.add_argument("--date", default=None); p.add_argument("--days", type=int, default=1); p.add_argument("--sims", type=int, default=100_000)
     p.add_argument("--no-export", action="store_true"); p.set_defaults(func=cmd_schedule)
     p = sub.add_parser("export"); p.set_defaults(func=cmd_export)
+    p = sub.add_parser("verify", help="audit frozen forecasts: real MC (n, seed, re-run), analytic cross-check, internal consistency")
+    p.add_argument("--date"); p.add_argument("--days", type=int, default=1); p.add_argument("--no-resim", action="store_true")
+    p.add_argument("--json", action="store_true"); p.set_defaults(func=cmd_verify)
+    p = sub.add_parser("markets", help="POST-FREEZE: snapshot Jupiter prices and compare with frozen forecasts (never a model input)")
+    p.add_argument("--date"); p.add_argument("--days", type=int, default=2); p.set_defaults(func=cmd_markets)
     p = sub.add_parser("update-data"); p.add_argument("--force", action="store_true"); p.add_argument("--full", action="store_true")
     p.add_argument("--days", type=int, default=10); p.set_defaults(func=cmd_update)
     p = sub.add_parser("backtest"); p.set_defaults(func=cmd_backtest)
