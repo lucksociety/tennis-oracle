@@ -1,0 +1,633 @@
+{
+ "predicted_winner": "Xinran Sun",
+ "win_prob": {
+  "A": 0.519,
+  "B": 0.481
+ },
+ "win_prob_exact": {
+  "A": 0.51903,
+  "B": 0.48097
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.93,
+   "american": "-108"
+  },
+  "B": {
+   "decimal": 2.08,
+   "american": "+108"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3285,
+  "0-2": 0.2962,
+  "2-1": 0.1905,
+  "1-2": 0.1847
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0172,
+ "games": {
+  "mean": 22.66,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00209,
+   "13": 0.00992,
+   "14": 0.02363,
+   "15": 0.04443,
+   "16": 0.06682,
+   "17": 0.08146,
+   "18": 0.08172,
+   "19": 0.0789,
+   "20": 0.06856,
+   "21": 0.05053,
+   "22": 0.06074,
+   "23": 0.04139,
+   "24": 0.0211,
+   "25": 0.03612,
+   "26": 0.04191,
+   "27": 0.03709,
+   "28": 0.04065,
+   "29": 0.04057,
+   "30": 0.04088,
+   "31": 0.03744,
+   "32": 0.03222,
+   "33": 0.01955,
+   "34": 0.01486,
+   "35": 0.01471,
+   "36": 0.00687,
+   "37": 0.00173,
+   "38": 0.00284,
+   "39": 0.00127
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00095,
+  "-11": 0.00451,
+  "-10": 0.01106,
+  "-9": 0.02133,
+  "-8": 0.03684,
+  "-7": 0.0532,
+  "-6": 0.06548,
+  "-5": 0.07455,
+  "-4": 0.07504,
+  "-3": 0.05476,
+  "-2": 0.039,
+  "-1": 0.02823,
+  "0": 0.02933,
+  "1": 0.03008,
+  "2": 0.03944,
+  "3": 0.05668,
+  "4": 0.07798,
+  "5": 0.07834,
+  "6": 0.07346,
+  "7": 0.06187,
+  "8": 0.04184,
+  "9": 0.02606,
+  "10": 0.01333,
+  "11": 0.0055,
+  "12": 0.00114
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7717,
+   "under": 0.2284
+  },
+  {
+   "line": 18.5,
+   "over": 0.6899,
+   "under": 0.3101
+  },
+  {
+   "line": 19.5,
+   "over": 0.611,
+   "under": 0.389
+  },
+  {
+   "line": 20.5,
+   "over": 0.5425,
+   "under": 0.4575
+  },
+  {
+   "line": 21.5,
+   "over": 0.4919,
+   "under": 0.5081
+  },
+  {
+   "line": 22.5,
+   "over": 0.4312,
+   "under": 0.5688
+  },
+  {
+   "line": 23.5,
+   "over": 0.3898,
+   "under": 0.6102
+  },
+  {
+   "line": 24.5,
+   "over": 0.3687,
+   "under": 0.6313
+  },
+  {
+   "line": 25.5,
+   "over": 0.3326,
+   "under": 0.6674
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4756,
+   "B +1.5": 0.5244,
+   "B -1.5": 0.4367,
+   "A +1.5": 0.5633
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4362,
+   "B +2.5": 0.5638,
+   "B -2.5": 0.3977,
+   "A +2.5": 0.6023
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3795,
+   "B +3.5": 0.6205,
+   "B -3.5": 0.343,
+   "A +3.5": 0.657
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3015,
+   "B +4.5": 0.6985,
+   "B -4.5": 0.2679,
+   "A +4.5": 0.7321
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2232,
+   "B +5.5": 0.7768,
+   "B -5.5": 0.1934,
+   "A +5.5": 0.8066
+  }
+ ],
+ "p_tiebreak": 0.2712,
+ "p_a_wins_set": 0.7038,
+ "p_b_wins_set": 0.6715,
+ "p_decider": 0.3753,
+ "expected_breaks": {
+  "total": 7.69,
+  "by_A": 3.91,
+  "by_B": 3.78
+ },
+ "expected_break_points": {
+  "A_creates": 8.72,
+  "B_creates": 8.5
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3285
+ },
+ "match": "Xinran Sun vs Claire Liu",
+ "players": {
+  "A": {
+   "id": "wta:espn17886",
+   "name": "Xinran Sun",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1753.4,
+   "surface_elo": {
+    "Hard": 1743.4,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 4,
+   "matches_surface": {
+    "Hard": 4,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    1
+   ],
+   "last10": [
+    3,
+    1
+   ],
+   "last20": [
+    3,
+    1
+   ],
+   "last52w": [
+    3,
+    1
+   ],
+   "last52w_surface": [
+    3,
+    1
+   ],
+   "career_surface_wl": [
+    3,
+    1
+   ],
+   "games_won_lost_52w": [
+    48,
+    44
+   ],
+   "sets_won_lost_52w": [
+    6,
+    3
+   ],
+   "avg_opp_elo_last20": 1833.4,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 44.1,
+   "last_match": "2026-10-29",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:214906",
+   "name": "Claire Liu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 182.0,
+   "age": 26.33258042436687,
+   "elo": 1685.1,
+   "surface_elo": {
+    "Hard": 1622.4,
+    "Clay": 1572.1,
+    "Grass": 1635.5
+   },
+   "matches_total": 125,
+   "matches_surface": {
+    "Hard": 80,
+    "Clay": 30,
+    "Grass": 15
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    17,
+    11
+   ],
+   "last52w_surface": [
+    10,
+    7
+   ],
+   "career_surface_wl": [
+    32,
+    48
+   ],
+   "games_won_lost_52w": [
+    323,
+    274
+   ],
+   "sets_won_lost_52w": [
+    37,
+    26
+   ],
+   "avg_opp_elo_last20": 1587.7,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0306,
+   "return_rating": 0.0163,
+   "form_elo": 32.6,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-02-23",
+   "stats_52w": {
+    "first_in": 0.7416,
+    "first_won": 0.5455,
+    "second_won": 0.4783,
+    "serve_pts_won": 0.5281,
+    "hold": 0.6364,
+    "aces_per_svgm": 0.0909,
+    "df_per_svgm": 0.2727,
+    "bp_saved": 0.6364,
+    "ret_pts_won": 0.375,
+    "ret_1st_won": 0.34,
+    "ret_2nd_won": 0.4545,
+    "ret_games_won": 0.2727,
+    "bp_conv": 0.5,
+    "bp_chances_per_retgm": 0.5455,
+    "matches_with_stats": 1
+   },
+   "rank_history": [
+    [
+     "2024-01-01",
+     95.0
+    ],
+    [
+     "2024-01-08",
+     104.0
+    ],
+    [
+     "2024-01-15",
+     99.0
+    ],
+    [
+     "2024-03-18",
+     114.0
+    ],
+    [
+     "2024-04-01",
+     116.0
+    ],
+    [
+     "2025-03-05",
+     284.0
+    ],
+    [
+     "2025-03-18",
+     282.0
+    ],
+    [
+     "2025-08-25",
+     371.0
+    ],
+    [
+     "2025-10-20",
+     305.0
+    ],
+    [
+     "2025-10-27",
+     222.0
+    ],
+    [
+     "2026-02-23",
+     214.0
+    ],
+    [
+     "2026-05-25",
+     182.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Guangzhou Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Xinran Sun: sparse record (4 tour matches, 0 with serve stats in 52w)",
+  "Claire Liu: sparse record (125 tour matches, 1 with serve stats in 52w)",
+  "Claire Liu: latest point-level stats are 249 days old (2026-02-23)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 16.2,
+  "components_elo": {
+   "surface_elo": 121.0,
+   "overall_elo": 68.3,
+   "serve_return": -42.1,
+   "form": 11.5
+  },
+  "weighted_contributions": {
+   "surface_elo": 14.8,
+   "overall_elo": 16.1,
+   "serve_return": -14.7,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5233,
+  "serve_return_implied_spw": {
+   "A": 0.5617,
+   "B": 0.5732
+  },
+  "point_probs": {
+   "A_serve": 0.5709,
+   "B_serve": 0.5641
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5708655836115621,
+   "B_serve": 0.5641353338637908
+  },
+  "hold_probs": {
+   "A": 0.672,
+   "B": 0.6565
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.519,
+   0.5227
+  ],
+  "p_tb": [
+   0.2712,
+   0.2694
+  ],
+  "p_decider": [
+   0.3753,
+   0.3772
+  ],
+  "games_mean": [
+   22.663,
+   22.673
+  ],
+  "exp_breaks": [
+   7.693,
+   7.708
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2962,
+    0.293
+   ],
+   "1-2": [
+    0.1847,
+    0.1842
+   ],
+   "2-0": [
+    0.3285,
+    0.3298
+   ],
+   "2-1": [
+    0.1905,
+    0.193
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0037
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Xinran Sun",
+   "elo_points": 16.1,
+   "raw_diff": 68.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Xinran Sun",
+   "elo_points": 14.8,
+   "raw_diff": 121.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Claire Liu",
+   "elo_points": -14.7,
+   "raw_diff": -42.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5709,
+   "B": 0.5641,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7288,
+  "fair_odds": {
+   "decimal": 1.37,
+   "american": "-269"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Xinran Sun: sparse record (4 tour matches, 0 with serve stats in 52w); Claire Liu: sparse record (125 tour matches, 1 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7288,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Xinran Sun to win at least one set",
+    "probability": 0.7038,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Claire Liu +4.5 games",
+    "probability": 0.6985,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6899,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Claire Liu to win at least one set",
+    "probability": 0.6715,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6313,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6247,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5688,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Claire Liu +2.5 games",
+    "probability": 0.5638,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5425,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Xinran Sun to win",
+    "probability": 0.519,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Claire Liu to win",
+    "probability": 0.481,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4575,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Xinran Sun -2.5 games",
+    "probability": 0.4362,
+    "fair_decimal": 2.29
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4312,
+    "fair_decimal": 2.32
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:26+00:00",
+  "version": 1,
+  "input_hash": "f4f52dc1e6db7bad",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185732",
+  "scheduled_start_utc": "2026-10-30T07:30Z"
+ }
+}

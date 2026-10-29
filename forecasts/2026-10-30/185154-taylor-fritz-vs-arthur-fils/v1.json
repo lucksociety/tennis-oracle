@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Arthur Fils",
+ "win_prob": {
+  "A": 0.4819,
+  "B": 0.5181
+ },
+ "win_prob_exact": {
+  "A": 0.48187,
+  "B": 0.51813
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.08,
+   "american": "+108"
+  },
+  "B": {
+   "decimal": 1.93,
+   "american": "-108"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3089,
+  "2-0": 0.2813,
+  "1-2": 0.2092,
+  "2-1": 0.2006
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "6-7",
+  "6-7"
+ ],
+ "representative_sets_prob": 0.0314,
+ "games": {
+  "mean": 25.58,
+  "median": 24.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.35,
+  "projected": 24.0,
+  "pmf": {
+   "12": 0.00013,
+   "13": 0.001,
+   "14": 0.00328,
+   "15": 0.00964,
+   "16": 0.01788,
+   "17": 0.03904,
+   "18": 0.05011,
+   "19": 0.07187,
+   "20": 0.07201,
+   "21": 0.04622,
+   "22": 0.09879,
+   "23": 0.08835,
+   "24": 0.00715,
+   "25": 0.03519,
+   "26": 0.07388,
+   "27": 0.0198,
+   "28": 0.02691,
+   "29": 0.02786,
+   "30": 0.03059,
+   "31": 0.04505,
+   "32": 0.05204,
+   "33": 0.03313,
+   "34": 0.02415,
+   "35": 0.04886,
+   "36": 0.03917,
+   "37": 0.00301,
+   "38": 0.01265,
+   "39": 0.02224
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 7e-05,
+  "-11": 0.0006,
+  "-10": 0.00197,
+  "-9": 0.00559,
+  "-8": 0.01175,
+  "-7": 0.02671,
+  "-6": 0.04424,
+  "-5": 0.07408,
+  "-4": 0.10442,
+  "-3": 0.10042,
+  "-2": 0.08038,
+  "-1": 0.04702,
+  "0": 0.04237,
+  "1": 0.04576,
+  "2": 0.07698,
+  "3": 0.09518,
+  "4": 0.09758,
+  "5": 0.06693,
+  "6": 0.03877,
+  "7": 0.0239,
+  "8": 0.00873,
+  "9": 0.00467,
+  "10": 0.00142,
+  "11": 0.0004,
+  "12": 6e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.929,
+   "under": 0.071
+  },
+  {
+   "line": 18.5,
+   "over": 0.8789,
+   "under": 0.1211
+  },
+  {
+   "line": 19.5,
+   "over": 0.8071,
+   "under": 0.193
+  },
+  {
+   "line": 20.5,
+   "over": 0.735,
+   "under": 0.265
+  },
+  {
+   "line": 21.5,
+   "over": 0.6888,
+   "under": 0.3112
+  },
+  {
+   "line": 22.5,
+   "over": 0.59,
+   "under": 0.41
+  },
+  {
+   "line": 23.5,
+   "over": 0.5017,
+   "under": 0.4983
+  },
+  {
+   "line": 24.5,
+   "over": 0.4945,
+   "under": 0.5055
+  },
+  {
+   "line": 25.5,
+   "over": 0.4593,
+   "under": 0.5407
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4146,
+   "B +1.5": 0.5854,
+   "B -1.5": 0.4502,
+   "A +1.5": 0.5498
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3376,
+   "B +2.5": 0.6624,
+   "B -2.5": 0.3699,
+   "A +2.5": 0.6301
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2425,
+   "B +3.5": 0.7575,
+   "B -3.5": 0.2694,
+   "A +3.5": 0.7306
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1449,
+   "B +4.5": 0.8551,
+   "B -4.5": 0.165,
+   "A +4.5": 0.835
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.078,
+   "B +5.5": 0.9221,
+   "B -5.5": 0.0909,
+   "A +5.5": 0.9091
+  }
+ ],
+ "p_tiebreak": 0.5759,
+ "p_a_wins_set": 0.6911,
+ "p_b_wins_set": 0.7187,
+ "p_decider": 0.4098,
+ "expected_breaks": {
+  "total": 3.11,
+  "by_A": 1.51,
+  "by_B": 1.59
+ },
+ "expected_break_points": {
+  "A_creates": 4.59,
+  "B_creates": 4.77
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "6-7",
+   "6-7"
+  ],
+  "prob": 0.3089
+ },
+ "match": "Taylor Fritz vs Arthur Fils",
+ "players": {
+  "A": {
+   "id": "atp:126203",
+   "name": "Taylor Fritz",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 9.0,
+   "age": 28.932580424366872,
+   "elo": 1962.6,
+   "surface_elo": {
+    "Hard": 1908.0,
+    "Clay": 1763.6,
+    "Grass": 1918.4
+   },
+   "matches_total": 600,
+   "matches_surface": {
+    "Hard": 417,
+    "Clay": 99,
+    "Grass": 84
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    40,
+    21
+   ],
+   "last52w_surface": [
+    26,
+    15
+   ],
+   "career_surface_wl": [
+    258,
+    159
+   ],
+   "games_won_lost_52w": [
+    889,
+    787
+   ],
+   "sets_won_lost_52w": [
+    100,
+    61
+   ],
+   "avg_opp_elo_last20": 1794.0,
+   "vs_top_opp_52w": [
+    5,
+    11
+   ],
+   "serve_rating": 0.3156,
+   "return_rating": 0.1186,
+   "form_elo": 0.6,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6843,
+    "first_won": 0.7821,
+    "second_won": 0.5166,
+    "serve_pts_won": 0.6983,
+    "hold": 0.8818,
+    "aces_per_svgm": 1.0879,
+    "df_per_svgm": 0.103,
+    "bp_saved": 0.6929,
+    "ret_pts_won": 0.3323,
+    "ret_1st_won": 0.2552,
+    "ret_2nd_won": 0.4744,
+    "ret_games_won": 0.1142,
+    "bp_conv": 0.2467,
+    "bp_chances_per_retgm": 0.463,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-06-16",
+     4.0
+    ],
+    [
+     "2025-06-23",
+     5.0
+    ],
+    [
+     "2025-07-21",
+     4.0
+    ],
+    [
+     "2025-09-12",
+     5.0
+    ],
+    [
+     "2025-10-01",
+     4.0
+    ],
+    [
+     "2025-11-09",
+     6.0
+    ],
+    [
+     "2026-01-05",
+     9.0
+    ],
+    [
+     "2026-02-09",
+     7.0
+    ],
+    [
+     "2026-02-16",
+     8.0
+    ],
+    [
+     "2026-03-04",
+     7.0
+    ],
+    [
+     "2026-05-17",
+     8.0
+    ],
+    [
+     "2026-05-25",
+     9.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:209950",
+   "name": "Arthur Fils",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 25.0,
+   "age": 22.322929500342234,
+   "elo": 2026.1,
+   "surface_elo": {
+    "Hard": 1947.4,
+    "Clay": 2004.6,
+    "Grass": 1639.3
+   },
+   "matches_total": 184,
+   "matches_surface": {
+    "Hard": 119,
+    "Clay": 53,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    39,
+    13
+   ],
+   "last52w_surface": [
+    29,
+    11
+   ],
+   "career_surface_wl": [
+    75,
+    44
+   ],
+   "games_won_lost_52w": [
+    678,
+    553
+   ],
+   "sets_won_lost_52w": [
+    83,
+    41
+   ],
+   "avg_opp_elo_last20": 1836.5,
+   "vs_top_opp_52w": [
+    11,
+    8
+   ],
+   "serve_rating": 0.2719,
+   "return_rating": 0.1284,
+   "form_elo": -23.9,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.6408,
+    "first_won": 0.7393,
+    "second_won": 0.576,
+    "serve_pts_won": 0.6807,
+    "hold": 0.8651,
+    "aces_per_svgm": 0.4046,
+    "df_per_svgm": 0.1875,
+    "bp_saved": 0.6639,
+    "ret_pts_won": 0.3508,
+    "ret_1st_won": 0.2744,
+    "ret_2nd_won": 0.4896,
+    "ret_games_won": 0.2068,
+    "bp_conv": 0.3836,
+    "bp_chances_per_retgm": 0.539,
+    "matches_with_stats": 27
+   },
+   "rank_history": [
+    [
+     "2025-02-01",
+     19.0
+    ],
+    [
+     "2025-03-05",
+     21.0
+    ],
+    [
+     "2025-03-19",
+     18.0
+    ],
+    [
+     "2025-04-07",
+     15.0
+    ],
+    [
+     "2025-04-14",
+     14.0
+    ],
+    [
+     "2025-07-27",
+     21.0
+    ],
+    [
+     "2026-02-02",
+     42.0
+    ],
+    [
+     "2026-02-16",
+     40.0
+    ],
+    [
+     "2026-03-04",
+     32.0
+    ],
+    [
+     "2026-03-18",
+     31.0
+    ],
+    [
+     "2026-04-13",
+     30.0
+    ],
+    [
+     "2026-04-22",
+     25.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Swiss Indoors Basel",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Taylor Fritz: latest point-level stats are 166 days old (2026-05-17)",
+  "Arthur Fils: latest point-level stats are 191 days old (2026-04-22)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -11.6,
+  "components_elo": {
+   "surface_elo": -39.4,
+   "overall_elo": -63.5,
+   "serve_return": 23.8,
+   "form": 24.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.8,
+   "overall_elo": -15.0,
+   "serve_return": 8.3,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4834,
+  "serve_return_implied_spw": {
+   "A": 0.6931,
+   "B": 0.6858
+  },
+  "point_probs": {
+   "A_serve": 0.687,
+   "B_serve": 0.6919
+  },
+  "point_probs_exact": {
+   "A_serve": 0.68700210189881,
+   "B_serve": 0.6918583827341052
+  },
+  "hold_probs": {
+   "A": 0.8845,
+   "B": 0.8908
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4819,
+   0.4833
+  ],
+  "p_tb": [
+   0.5759,
+   0.5759
+  ],
+  "p_decider": [
+   0.4098,
+   0.4114
+  ],
+  "games_mean": [
+   25.58,
+   25.597
+  ],
+  "exp_breaks": [
+   3.106,
+   3.11
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3089,
+    0.3073
+   ],
+   "1-2": [
+    0.2092,
+    0.2095
+   ],
+   "2-0": [
+    0.2813,
+    0.2814
+   ],
+   "2-1": [
+    0.2006,
+    0.2019
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Arthur Fils",
+   "elo_points": -15.0,
+   "raw_diff": -63.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Taylor Fritz",
+   "elo_points": 8.3,
+   "raw_diff": 23.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Arthur Fils",
+   "elo_points": -4.8,
+   "raw_diff": -39.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5166,
+   "B": 0.576,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3323,
+   "B": 0.3508,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.687,
+   "B": 0.6919,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8789,
+  "fair_odds": {
+   "decimal": 1.14,
+   "american": "-726"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.35 games; p10-p90 18-35); a single tiebreak or deciding set swings it. Data quality MEDIUM: Taylor Fritz: latest point-level stats are 166 days old (2026-05-17); Arthur Fils: latest point-level stats are 191 days old (2026-04-22)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8789,
+    "fair_decimal": 1.14
+   },
+   {
+    "selection": "Taylor Fritz +4.5 games",
+    "probability": 0.835,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.735,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Arthur Fils to win at least one set",
+    "probability": 0.7187,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Taylor Fritz to win at least one set",
+    "probability": 0.6911,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Taylor Fritz +2.5 games",
+    "probability": 0.6301,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5902,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.59,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5759,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Arthur Fils to win",
+    "probability": 0.5181,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5055,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4945,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Taylor Fritz to win",
+    "probability": 0.4819,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4241,
+    "fair_decimal": 2.36
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.41,
+    "fair_decimal": 2.44
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:42+00:00",
+  "version": 1,
+  "input_hash": "84a5574980f9fe6c",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185154",
+  "scheduled_start_utc": "2026-10-30T14:30Z"
+ }
+}

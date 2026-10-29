@@ -1,0 +1,682 @@
+{
+ "predicted_winner": "Valentin Vacherot",
+ "win_prob": {
+  "A": 0.462,
+  "B": 0.538
+ },
+ "win_prob_exact": {
+  "A": 0.46196,
+  "B": 0.5380400000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.16,
+   "american": "+116"
+  },
+  "B": {
+   "decimal": 1.86,
+   "american": "-116"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3275,
+  "2-0": 0.2676,
+  "1-2": 0.2105,
+  "2-1": 0.1943
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0273,
+ "games": {
+  "mean": 24.92,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 34.0,
+  "sd": 6.27,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00022,
+   "13": 0.00181,
+   "14": 0.00511,
+   "15": 0.0146,
+   "16": 0.02634,
+   "17": 0.04979,
+   "18": 0.05953,
+   "19": 0.07856,
+   "20": 0.07356,
+   "21": 0.04961,
+   "22": 0.0906,
+   "23": 0.07607,
+   "24": 0.00944,
+   "25": 0.03401,
+   "26": 0.06027,
+   "27": 0.02373,
+   "28": 0.0309,
+   "29": 0.03398,
+   "30": 0.03545,
+   "31": 0.04634,
+   "32": 0.05062,
+   "33": 0.031,
+   "34": 0.0232,
+   "35": 0.03967,
+   "36": 0.02967,
+   "37": 0.00265,
+   "38": 0.0096,
+   "39": 0.01367
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00014,
+  "-11": 0.0012,
+  "-10": 0.00324,
+  "-9": 0.00905,
+  "-8": 0.0175,
+  "-7": 0.03788,
+  "-6": 0.05437,
+  "-5": 0.08334,
+  "-4": 0.10526,
+  "-3": 0.09453,
+  "-2": 0.07054,
+  "-1": 0.04182,
+  "0": 0.03988,
+  "1": 0.04033,
+  "2": 0.0649,
+  "3": 0.08191,
+  "4": 0.09092,
+  "5": 0.0707,
+  "6": 0.04312,
+  "7": 0.02765,
+  "8": 0.01254,
+  "9": 0.00647,
+  "10": 0.00202,
+  "11": 0.00061,
+  "12": 8e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9021,
+   "under": 0.0979
+  },
+  {
+   "line": 18.5,
+   "over": 0.8426,
+   "under": 0.1574
+  },
+  {
+   "line": 19.5,
+   "over": 0.764,
+   "under": 0.236
+  },
+  {
+   "line": 20.5,
+   "over": 0.6905,
+   "under": 0.3095
+  },
+  {
+   "line": 21.5,
+   "over": 0.6409,
+   "under": 0.3591
+  },
+  {
+   "line": 22.5,
+   "over": 0.5503,
+   "under": 0.4497
+  },
+  {
+   "line": 23.5,
+   "over": 0.4742,
+   "under": 0.5258
+  },
+  {
+   "line": 24.5,
+   "over": 0.4648,
+   "under": 0.5352
+  },
+  {
+   "line": 25.5,
+   "over": 0.4307,
+   "under": 0.5693
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4009,
+   "B +1.5": 0.5991,
+   "B -1.5": 0.477,
+   "A +1.5": 0.523
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.336,
+   "B +2.5": 0.664,
+   "B -2.5": 0.4065,
+   "A +2.5": 0.5935
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2541,
+   "B +3.5": 0.7459,
+   "B -3.5": 0.312,
+   "A +3.5": 0.688
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1632,
+   "B +4.5": 0.8368,
+   "B -4.5": 0.2067,
+   "A +4.5": 0.7933
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0925,
+   "B +5.5": 0.9075,
+   "B -5.5": 0.1234,
+   "A +5.5": 0.8766
+  }
+ ],
+ "p_tiebreak": 0.503,
+ "p_a_wins_set": 0.6725,
+ "p_b_wins_set": 0.7324,
+ "p_decider": 0.4049,
+ "expected_breaks": {
+  "total": 3.72,
+  "by_A": 1.77,
+  "by_B": 1.95
+ },
+ "expected_break_points": {
+  "A_creates": 5.13,
+  "B_creates": 5.49
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3275
+ },
+ "match": "Holger Rune vs Valentin Vacherot",
+ "players": {
+  "A": {
+   "id": "atp:208029",
+   "name": "Holger Rune",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 11.0,
+   "age": 23.44585900068446,
+   "elo": 1888.9,
+   "surface_elo": {
+    "Hard": 1868.1,
+    "Clay": 1923.2,
+    "Grass": 1686.3
+   },
+   "matches_total": 271,
+   "matches_surface": {
+    "Hard": 165,
+    "Clay": 85,
+    "Grass": 21
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    2,
+    2
+   ],
+   "last52w_surface": [
+    2,
+    2
+   ],
+   "career_surface_wl": [
+    104,
+    61
+   ],
+   "games_won_lost_52w": [
+    55,
+    58
+   ],
+   "sets_won_lost_52w": [
+    5,
+    6
+   ],
+   "avg_opp_elo_last20": 1764.9,
+   "vs_top_opp_52w": [
+    1,
+    0
+   ],
+   "serve_rating": 0.1105,
+   "return_rating": 0.1077,
+   "form_elo": -28.7,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2025-10-13",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-10-28",
+     13.0
+    ],
+    [
+     "2025-01-31",
+     12.0
+    ],
+    [
+     "2025-02-03",
+     14.0
+    ],
+    [
+     "2025-02-10",
+     12.0
+    ],
+    [
+     "2025-02-24",
+     13.0
+    ],
+    [
+     "2025-03-19",
+     12.0
+    ],
+    [
+     "2025-04-14",
+     13.0
+    ],
+    [
+     "2025-05-07",
+     10.0
+    ],
+    [
+     "2025-06-16",
+     9.0
+    ],
+    [
+     "2025-06-30",
+     8.0
+    ],
+    [
+     "2025-07-27",
+     9.0
+    ],
+    [
+     "2025-08-25",
+     11.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200473",
+   "name": "Valentin Vacherot",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 19.0,
+   "age": 27.932580424366872,
+   "elo": 1883.5,
+   "surface_elo": {
+    "Hard": 1864.8,
+    "Clay": 1685.1,
+    "Grass": 1500.0
+   },
+   "matches_total": 70,
+   "matches_surface": {
+    "Hard": 46,
+    "Clay": 24,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    24,
+    18
+   ],
+   "last52w_surface": [
+    18,
+    13
+   ],
+   "career_surface_wl": [
+    30,
+    16
+   ],
+   "games_won_lost_52w": [
+    572,
+    541
+   ],
+   "sets_won_lost_52w": [
+    60,
+    49
+   ],
+   "avg_opp_elo_last20": 1799.2,
+   "vs_top_opp_52w": [
+    5,
+    7
+   ],
+   "serve_rating": 0.2384,
+   "return_rating": 0.0833,
+   "form_elo": 18.9,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.6552,
+    "first_won": 0.7672,
+    "second_won": 0.5095,
+    "serve_pts_won": 0.6783,
+    "hold": 0.863,
+    "aces_per_svgm": 0.7815,
+    "df_per_svgm": 0.2185,
+    "bp_saved": 0.6917,
+    "ret_pts_won": 0.3482,
+    "ret_1st_won": 0.2773,
+    "ret_2nd_won": 0.4799,
+    "ret_games_won": 0.1859,
+    "bp_conv": 0.3571,
+    "bp_chances_per_retgm": 0.5204,
+    "matches_with_stats": 21
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     40.0
+    ],
+    [
+     "2026-01-04",
+     31.0
+    ],
+    [
+     "2026-01-12",
+     32.0
+    ],
+    [
+     "2026-01-19",
+     31.0
+    ],
+    [
+     "2026-02-06",
+     27.0
+    ],
+    [
+     "2026-02-16",
+     26.0
+    ],
+    [
+     "2026-02-23",
+     27.0
+    ],
+    [
+     "2026-03-04",
+     26.0
+    ],
+    [
+     "2026-03-18",
+     25.0
+    ],
+    [
+     "2026-04-05",
+     23.0
+    ],
+    [
+     "2026-04-22",
+     17.0
+    ],
+    [
+     "2026-05-25",
+     19.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Swiss Indoors Basel",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Holger Rune: sparse record (271 tour matches, 0 with serve stats in 52w)",
+  "Holger Rune: latest point-level stats are 382 days old (2025-10-13)",
+  "Valentin Vacherot: latest point-level stats are 191 days old (2026-04-22)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -25.1,
+  "components_elo": {
+   "surface_elo": 3.3,
+   "overall_elo": 5.4,
+   "serve_return": -77.0,
+   "form": -47.7
+  },
+  "weighted_contributions": {
+   "surface_elo": 0.4,
+   "overall_elo": 1.3,
+   "serve_return": -26.9,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4639,
+  "serve_return_implied_spw": {
+   "A": 0.658,
+   "B": 0.6809
+  },
+  "point_probs": {
+   "A_serve": 0.6643,
+   "B_serve": 0.6748
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6642774086157806,
+   "B_serve": 0.6747853173507372
+  },
+  "hold_probs": {
+   "A": 0.8524,
+   "B": 0.8678
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.462,
+   0.464
+  ],
+  "p_tb": [
+   0.503,
+   0.5038
+  ],
+  "p_decider": [
+   0.4049,
+   0.4034
+  ],
+  "games_mean": [
+   24.924,
+   24.918
+  ],
+  "exp_breaks": [
+   3.725,
+   3.722
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3275,
+    0.3265
+   ],
+   "1-2": [
+    0.2105,
+    0.2095
+   ],
+   "2-0": [
+    0.2676,
+    0.2702
+   ],
+   "2-1": [
+    0.1943,
+    0.1938
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0026
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Valentin Vacherot",
+   "elo_points": -26.9,
+   "raw_diff": -77.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Holger Rune",
+   "elo_points": 1.3,
+   "raw_diff": 5.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Holger Rune",
+   "elo_points": 0.4,
+   "raw_diff": 3.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6643,
+   "B": 0.6748,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8426,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-535"
+  },
+  "confidence": "Low",
+  "main_risk": "Total-games distribution is wide (sd 6.27 games; p10-p90 18-34); a single tiebreak or deciding set swings it. Data quality LOW: Holger Rune: sparse record (271 tour matches, 0 with serve stats in 52w); Holger Rune: latest point-level stats are 382 days old (2025-10-13)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8426,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Holger Rune +4.5 games",
+    "probability": 0.7933,
+    "fair_decimal": 1.26
+   },
+   {
+    "selection": "Valentin Vacherot to win at least one set",
+    "probability": 0.7324,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6905,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Holger Rune to win at least one set",
+    "probability": 0.6725,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5951,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Holger Rune +2.5 games",
+    "probability": 0.5935,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5503,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Valentin Vacherot to win",
+    "probability": 0.538,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5352,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.503,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.497,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4648,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Holger Rune to win",
+    "probability": 0.462,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4497,
+    "fair_decimal": 2.22
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:33+00:00",
+  "version": 1,
+  "input_hash": "73f8c6e83cc76e51",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185153",
+  "scheduled_start_utc": "2026-10-30T13:00Z"
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "predicted_winner": "Elizara Yaneva",
+ "win_prob": {
+  "A": 0.3391,
+  "B": 0.6609
+ },
+ "win_prob_exact": {
+  "A": 0.33909,
+  "B": 0.66091
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.95,
+   "american": "+195"
+  },
+  "B": {
+   "decimal": 1.51,
+   "american": "-195"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4522,
+  "1-2": 0.2087,
+  "2-0": 0.192,
+  "2-1": 0.1471
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0221,
+ "games": {
+  "mean": 22.32,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00336,
+   "13": 0.01214,
+   "14": 0.02878,
+   "15": 0.05212,
+   "16": 0.0715,
+   "17": 0.08496,
+   "18": 0.08554,
+   "19": 0.07868,
+   "20": 0.06656,
+   "21": 0.04845,
+   "22": 0.06003,
+   "23": 0.03881,
+   "24": 0.01947,
+   "25": 0.03445,
+   "26": 0.03921,
+   "27": 0.03636,
+   "28": 0.03883,
+   "29": 0.03985,
+   "30": 0.03803,
+   "31": 0.03534,
+   "32": 0.02935,
+   "33": 0.01952,
+   "34": 0.01402,
+   "35": 0.01312,
+   "36": 0.00598,
+   "37": 0.00179,
+   "38": 0.00269,
+   "39": 0.00106
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00308,
+  "-11": 0.01043,
+  "-10": 0.0245,
+  "-9": 0.04363,
+  "-8": 0.06325,
+  "-7": 0.08544,
+  "-6": 0.09792,
+  "-5": 0.09708,
+  "-4": 0.09151,
+  "-3": 0.06157,
+  "-2": 0.04045,
+  "-1": 0.02879,
+  "0": 0.02649,
+  "1": 0.02664,
+  "2": 0.03118,
+  "3": 0.04429,
+  "4": 0.05583,
+  "5": 0.05216,
+  "6": 0.04321,
+  "7": 0.03347,
+  "8": 0.02054,
+  "9": 0.01137,
+  "10": 0.00511,
+  "11": 0.00178,
+  "12": 0.00028
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7471,
+   "under": 0.2529
+  },
+  {
+   "line": 18.5,
+   "over": 0.6616,
+   "under": 0.3384
+  },
+  {
+   "line": 19.5,
+   "over": 0.5829,
+   "under": 0.4171
+  },
+  {
+   "line": 20.5,
+   "over": 0.5164,
+   "under": 0.4836
+  },
+  {
+   "line": 21.5,
+   "over": 0.4679,
+   "under": 0.5321
+  },
+  {
+   "line": 22.5,
+   "over": 0.4079,
+   "under": 0.5921
+  },
+  {
+   "line": 23.5,
+   "over": 0.3691,
+   "under": 0.6309
+  },
+  {
+   "line": 24.5,
+   "over": 0.3496,
+   "under": 0.6504
+  },
+  {
+   "line": 25.5,
+   "over": 0.3152,
+   "under": 0.6848
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2992,
+   "B +1.5": 0.7008,
+   "B -1.5": 0.6189,
+   "A +1.5": 0.3811
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.268,
+   "B +2.5": 0.732,
+   "B -2.5": 0.5784,
+   "A +2.5": 0.4216
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2238,
+   "B +3.5": 0.7762,
+   "B -3.5": 0.5168,
+   "A +3.5": 0.4832
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1679,
+   "B +4.5": 0.8321,
+   "B -4.5": 0.4253,
+   "A +4.5": 0.5747
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1158,
+   "B +5.5": 0.8842,
+   "B -5.5": 0.3283,
+   "A +5.5": 0.6717
+  }
+ ],
+ "p_tiebreak": 0.2566,
+ "p_a_wins_set": 0.5478,
+ "p_b_wins_set": 0.808,
+ "p_decider": 0.3559,
+ "expected_breaks": {
+  "total": 7.54,
+  "by_A": 3.26,
+  "by_B": 4.28
+ },
+ "expected_break_points": {
+  "A_creates": 7.66,
+  "B_creates": 9.18
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4522
+ },
+ "match": "Elsa Jacquemot vs Elizara Yaneva",
+ "players": {
+  "A": {
+   "id": "wta:221039",
+   "name": "Elsa Jacquemot",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 67.0,
+   "age": 23.432580424366872,
+   "elo": 1586.7,
+   "surface_elo": {
+    "Hard": 1559.8,
+    "Clay": 1510.3,
+    "Grass": 1473.4
+   },
+   "matches_total": 74,
+   "matches_surface": {
+    "Hard": 45,
+    "Clay": 23,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    15,
+    25
+   ],
+   "last52w_surface": [
+    11,
+    17
+   ],
+   "career_surface_wl": [
+    18,
+    27
+   ],
+   "games_won_lost_52w": [
+    383,
+    458
+   ],
+   "sets_won_lost_52w": [
+    32,
+    57
+   ],
+   "avg_opp_elo_last20": 1601.7,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": -0.0086,
+   "return_rating": -0.0326,
+   "form_elo": 29.9,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6517,
+    "first_won": 0.6169,
+    "second_won": 0.362,
+    "serve_pts_won": 0.5281,
+    "hold": 0.5614,
+    "aces_per_svgm": 0.2281,
+    "df_per_svgm": 0.5351,
+    "bp_saved": 0.4949,
+    "ret_pts_won": 0.3759,
+    "ret_1st_won": 0.3055,
+    "ret_2nd_won": 0.5129,
+    "ret_games_won": 0.2051,
+    "bp_conv": 0.3117,
+    "bp_chances_per_retgm": 0.6581,
+    "matches_with_stats": 11
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     91.0
+    ],
+    [
+     "2025-09-08",
+     83.0
+    ],
+    [
+     "2025-09-24",
+     65.0
+    ],
+    [
+     "2026-01-04",
+     56.0
+    ],
+    [
+     "2026-01-12",
+     58.0
+    ],
+    [
+     "2026-01-19",
+     60.0
+    ],
+    [
+     "2026-03-04",
+     63.0
+    ],
+    [
+     "2026-03-17",
+     62.0
+    ],
+    [
+     "2026-04-13",
+     60.0
+    ],
+    [
+     "2026-04-21",
+     62.0
+    ],
+    [
+     "2026-05-05",
+     64.0
+    ],
+    [
+     "2026-05-25",
+     67.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:260664",
+   "name": "Elizara Yaneva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 464.0,
+   "age": 19.60335386721424,
+   "elo": 1683.7,
+   "surface_elo": {
+    "Hard": 1729.2,
+    "Clay": 1559.1,
+    "Grass": 1557.8
+   },
+   "matches_total": 32,
+   "matches_surface": {
+    "Hard": 19,
+    "Clay": 8,
+    "Grass": 5
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    15,
+    8
+   ],
+   "last52w_surface": [
+    10,
+    4
+   ],
+   "career_surface_wl": [
+    15,
+    4
+   ],
+   "games_won_lost_52w": [
+    277,
+    246
+   ],
+   "sets_won_lost_52w": [
+    34,
+    24
+   ],
+   "avg_opp_elo_last20": 1558.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0952,
+   "return_rating": 0.0899,
+   "form_elo": 10.8,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2025-09-22",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-09-15",
+     658.0
+    ],
+    [
+     "2025-09-22",
+     464.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Valle D'Aosta Ladies Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Elsa Jacquemot: limited recent/surface sample (40 matches 52w, 45 career on Hard, 11 with stats)",
+  "Elsa Jacquemot: latest point-level stats are 178 days old (2026-05-05)",
+  "Elizara Yaneva: sparse record (32 tour matches, 0 with serve stats in 52w)",
+  "Elizara Yaneva: latest point-level stats are 403 days old (2025-09-22)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -116.0,
+  "components_elo": {
+   "surface_elo": -169.4,
+   "overall_elo": -97.0,
+   "serve_return": -207.3,
+   "form": 19.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -20.7,
+   "overall_elo": -22.9,
+   "serve_return": -72.3,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.339,
+  "serve_return_implied_spw": {
+   "A": 0.5414,
+   "B": 0.5968
+  },
+  "point_probs": {
+   "A_serve": 0.5451,
+   "B_serve": 0.5933
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5450744117300544,
+   "B_serve": 0.5933029882582138
+  },
+  "hold_probs": {
+   "A": 0.6113,
+   "B": 0.7216
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3391,
+   0.3414
+  ],
+  "p_tb": [
+   0.2566,
+   0.258
+  ],
+  "p_decider": [
+   0.3559,
+   0.3554
+  ],
+  "games_mean": [
+   22.321,
+   22.314
+  ],
+  "exp_breaks": [
+   7.541,
+   7.527
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4522,
+    0.4516
+   ],
+   "1-2": [
+    0.2087,
+    0.207
+   ],
+   "2-0": [
+    0.192,
+    0.193
+   ],
+   "2-1": [
+    0.1471,
+    0.1484
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0023
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Elizara Yaneva",
+   "elo_points": -72.3,
+   "raw_diff": -207.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Elizara Yaneva",
+   "elo_points": -22.9,
+   "raw_diff": -97.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Elizara Yaneva",
+   "elo_points": -20.7,
+   "raw_diff": -169.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5451,
+   "B": 0.5933,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Elizara Yaneva to win at least one set",
+  "probability": 0.808,
+  "fair_odds": {
+   "decimal": 1.24,
+   "american": "-421"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Elsa Jacquemot: limited recent/surface sample (40 matches 52w, 45 career on Hard, 11 with stats); Elsa Jacquemot: latest point-level stats are 178 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "Elizara Yaneva to win at least one set",
+    "probability": 0.808,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7434,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6616,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Elizara Yaneva to win",
+    "probability": 0.6609,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6504,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6441,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5921,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Elizara Yaneva -2.5 games",
+    "probability": 0.5784,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Elsa Jacquemot +4.5 games",
+    "probability": 0.5747,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Elsa Jacquemot to win at least one set",
+    "probability": 0.5478,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5164,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4836,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Exact sets Elsa Jacquemot 0-2 Elizara Yaneva",
+    "probability": 0.4522,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Elizara Yaneva -4.5 games",
+    "probability": 0.4253,
+    "fair_decimal": 2.35
+   },
+   {
+    "selection": "Elsa Jacquemot +2.5 games",
+    "probability": 0.4216,
+    "fair_decimal": 2.37
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:44+00:00",
+  "version": 1,
+  "input_hash": "7e087108c6aef0b6",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185856",
+  "scheduled_start_utc": "2026-10-30T14:30Z"
+ }
+}

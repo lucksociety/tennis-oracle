@@ -1,0 +1,631 @@
+{
+ "predicted_winner": "Lilli Tagger",
+ "win_prob": {
+  "A": 0.568,
+  "B": 0.432
+ },
+ "win_prob_exact": {
+  "A": 0.56803,
+  "B": 0.43196999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.76,
+   "american": "-131"
+  },
+  "B": {
+   "decimal": 2.31,
+   "american": "+131"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3684,
+  "0-2": 0.2582,
+  "2-1": 0.1996,
+  "1-2": 0.1738
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0207,
+ "games": {
+  "mean": 22.78,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 5.97,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00172,
+   "13": 0.00949,
+   "14": 0.02186,
+   "15": 0.04192,
+   "16": 0.06221,
+   "17": 0.08022,
+   "18": 0.08375,
+   "19": 0.07995,
+   "20": 0.07114,
+   "21": 0.0516,
+   "22": 0.06202,
+   "23": 0.04352,
+   "24": 0.01902,
+   "25": 0.03548,
+   "26": 0.04052,
+   "27": 0.03709,
+   "28": 0.04053,
+   "29": 0.04019,
+   "30": 0.03854,
+   "31": 0.0377,
+   "32": 0.03378,
+   "33": 0.02068,
+   "34": 0.0163,
+   "35": 0.01628,
+   "36": 0.00811,
+   "37": 0.00184,
+   "38": 0.00302,
+   "39": 0.00152
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00057,
+  "-11": 0.00325,
+  "-10": 0.0079,
+  "-9": 0.0153,
+  "-8": 0.02746,
+  "-7": 0.04461,
+  "-6": 0.05722,
+  "-5": 0.06818,
+  "-4": 0.07119,
+  "-3": 0.05432,
+  "-2": 0.03886,
+  "-1": 0.02908,
+  "0": 0.02801,
+  "1": 0.03025,
+  "2": 0.04232,
+  "3": 0.06198,
+  "4": 0.08505,
+  "5": 0.0874,
+  "6": 0.08272,
+  "7": 0.06751,
+  "8": 0.04551,
+  "9": 0.02925,
+  "10": 0.01456,
+  "11": 0.00635,
+  "12": 0.00115
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7826,
+   "under": 0.2174
+  },
+  {
+   "line": 18.5,
+   "over": 0.6988,
+   "under": 0.3012
+  },
+  {
+   "line": 19.5,
+   "over": 0.6189,
+   "under": 0.3811
+  },
+  {
+   "line": 20.5,
+   "over": 0.5477,
+   "under": 0.4523
+  },
+  {
+   "line": 21.5,
+   "over": 0.4961,
+   "under": 0.5039
+  },
+  {
+   "line": 22.5,
+   "over": 0.4341,
+   "under": 0.5659
+  },
+  {
+   "line": 23.5,
+   "over": 0.3906,
+   "under": 0.6094
+  },
+  {
+   "line": 24.5,
+   "over": 0.3716,
+   "under": 0.6284
+  },
+  {
+   "line": 25.5,
+   "over": 0.3361,
+   "under": 0.6639
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5238,
+   "B +1.5": 0.4762,
+   "B -1.5": 0.3889,
+   "A +1.5": 0.6111
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4815,
+   "B +2.5": 0.5185,
+   "B -2.5": 0.35,
+   "A +2.5": 0.65
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4195,
+   "B +3.5": 0.5805,
+   "B -3.5": 0.2957,
+   "A +3.5": 0.7043
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3345,
+   "B +4.5": 0.6655,
+   "B -4.5": 0.2245,
+   "A +4.5": 0.7755
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.247,
+   "B +5.5": 0.753,
+   "B -5.5": 0.1563,
+   "A +5.5": 0.8437
+  }
+ ],
+ "p_tiebreak": 0.2862,
+ "p_a_wins_set": 0.7418,
+ "p_b_wins_set": 0.6316,
+ "p_decider": 0.3734,
+ "expected_breaks": {
+  "total": 7.05,
+  "by_A": 3.74,
+  "by_B": 3.31
+ },
+ "expected_break_points": {
+  "A_creates": 8.43,
+  "B_creates": 7.78
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3684
+ },
+ "match": "Lilli Tagger vs Han Shi",
+ "players": {
+  "A": {
+   "id": "wta:260172",
+   "name": "Lilli Tagger",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 90.0,
+   "age": 18.63258042436687,
+   "elo": 1797.2,
+   "surface_elo": {
+    "Hard": 1786.4,
+    "Clay": 1489.5,
+    "Grass": 1361.5
+   },
+   "matches_total": 38,
+   "matches_surface": {
+    "Hard": 30,
+    "Clay": 6,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    18,
+    15
+   ],
+   "last52w_surface": [
+    16,
+    9
+   ],
+   "career_surface_wl": [
+    20,
+    10
+   ],
+   "games_won_lost_52w": [
+    393,
+    351
+   ],
+   "sets_won_lost_52w": [
+    45,
+    33
+   ],
+   "avg_opp_elo_last20": 1727.8,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": 0.1291,
+   "return_rating": 0.0129,
+   "form_elo": 54.5,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6755,
+    "first_won": 0.6636,
+    "second_won": 0.43,
+    "serve_pts_won": 0.5878,
+    "hold": 0.6634,
+    "aces_per_svgm": 0.2772,
+    "df_per_svgm": 0.2277,
+    "bp_saved": 0.5278,
+    "ret_pts_won": 0.3968,
+    "ret_1st_won": 0.3149,
+    "ret_2nd_won": 0.5267,
+    "ret_games_won": 0.2718,
+    "bp_conv": 0.4667,
+    "bp_chances_per_retgm": 0.5825,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     235.0
+    ],
+    [
+     "2026-03-04",
+     119.0
+    ],
+    [
+     "2026-03-17",
+     115.0
+    ],
+    [
+     "2026-04-06",
+     117.0
+    ],
+    [
+     "2026-04-13",
+     97.0
+    ],
+    [
+     "2026-05-05",
+     92.0
+    ],
+    [
+     "2026-05-25",
+     90.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:222559",
+   "name": "Han Shi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 312.0,
+   "age": 21.397878165639973,
+   "elo": 1807.4,
+   "surface_elo": {
+    "Hard": 1783.5,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 23,
+   "matches_surface": {
+    "Hard": 23,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    12,
+    5
+   ],
+   "last52w_surface": [
+    12,
+    5
+   ],
+   "career_surface_wl": [
+    14,
+    9
+   ],
+   "games_won_lost_52w": [
+    209,
+    175
+   ],
+   "sets_won_lost_52w": [
+    25,
+    15
+   ],
+   "avg_opp_elo_last20": 1662.6,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": -0.0048,
+   "return_rating": -0.0209,
+   "form_elo": 108.9,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2025-09-24",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-09-25",
+     240.0
+    ],
+    [
+     "2024-10-21",
+     254.0
+    ],
+    [
+     "2024-10-28",
+     245.0
+    ],
+    [
+     "2025-09-24",
+     312.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Guangzhou Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Lilli Tagger: limited recent/surface sample (33 matches 52w, 30 career on Hard, 9 with stats)",
+  "Lilli Tagger: latest point-level stats are 178 days old (2026-05-05)",
+  "Han Shi: sparse record (23 tour matches, 0 with serve stats in 52w)",
+  "Han Shi: latest point-level stats are 401 days old (2025-09-24)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 50.3,
+  "components_elo": {
+   "surface_elo": 2.9,
+   "overall_elo": -10.1,
+   "serve_return": 149.8,
+   "form": -54.4
+  },
+  "weighted_contributions": {
+   "surface_elo": 0.4,
+   "overall_elo": -2.4,
+   "serve_return": 52.3,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5719,
+  "serve_return_implied_spw": {
+   "A": 0.6022,
+   "B": 0.5614
+  },
+  "point_probs": {
+   "A_serve": 0.5924,
+   "B_serve": 0.5714
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5923687633038986,
+   "B_serve": 0.5714280627568648
+  },
+  "hold_probs": {
+   "A": 0.7196,
+   "B": 0.6732
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.568,
+   0.5705
+  ],
+  "p_tb": [
+   0.2862,
+   0.2864
+  ],
+  "p_decider": [
+   0.3734,
+   0.3758
+  ],
+  "games_mean": [
+   22.781,
+   22.806
+  ],
+  "exp_breaks": [
+   7.052,
+   7.051
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2582,
+    0.2552
+   ],
+   "1-2": [
+    0.1738,
+    0.1743
+   ],
+   "2-0": [
+    0.3684,
+    0.369
+   ],
+   "2-1": [
+    0.1996,
+    0.2015
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.003
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lilli Tagger",
+   "elo_points": 52.3,
+   "raw_diff": 149.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Han Shi",
+   "elo_points": -2.4,
+   "raw_diff": -10.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lilli Tagger",
+   "elo_points": 0.4,
+   "raw_diff": 2.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5924,
+   "B": 0.5714,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Lilli Tagger to win at least one set",
+  "probability": 0.7418,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-287"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Lilli Tagger: limited recent/surface sample (33 matches 52w, 30 career on Hard, 9 with stats); Lilli Tagger: latest point-level stats are 178 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "Lilli Tagger to win at least one set",
+    "probability": 0.7418,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7138,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6988,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Han Shi +4.5 games",
+    "probability": 0.6655,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Han Shi to win at least one set",
+    "probability": 0.6316,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6284,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6266,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Lilli Tagger to win",
+    "probability": 0.568,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5659,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5477,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Han Shi +2.5 games",
+    "probability": 0.5185,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Lilli Tagger -2.5 games",
+    "probability": 0.4815,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4523,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4341,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Han Shi to win",
+    "probability": 0.432,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:28+00:00",
+  "version": 1,
+  "input_hash": "9a08ffa51e7afa71",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185731",
+  "scheduled_start_utc": "2026-10-30T11:00Z"
+ }
+}

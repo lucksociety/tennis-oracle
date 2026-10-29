@@ -1,0 +1,689 @@
+{
+ "predicted_winner": "Alexander Zverev",
+ "win_prob": {
+  "A": 0.8522,
+  "B": 0.1478
+ },
+ "win_prob_exact": {
+  "A": 0.85221,
+  "B": 0.14778999999999998
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.17,
+   "american": "-577"
+  },
+  "B": {
+   "decimal": 6.77,
+   "american": "+577"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.6584,
+  "2-1": 0.1938,
+  "1-2": 0.0781,
+  "0-2": 0.0697
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0454,
+ "games": {
+  "mean": 22.29,
+  "median": 20.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.12,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00232,
+   "13": 0.01045,
+   "14": 0.02405,
+   "15": 0.04637,
+   "16": 0.06567,
+   "17": 0.09103,
+   "18": 0.09047,
+   "19": 0.08991,
+   "20": 0.08044,
+   "21": 0.05215,
+   "22": 0.07785,
+   "23": 0.0559,
+   "24": 0.00848,
+   "25": 0.0268,
+   "26": 0.039,
+   "27": 0.01892,
+   "28": 0.0229,
+   "29": 0.0244,
+   "30": 0.02592,
+   "31": 0.03118,
+   "32": 0.03118,
+   "33": 0.02019,
+   "34": 0.01458,
+   "35": 0.02188,
+   "36": 0.01536,
+   "37": 0.0016,
+   "38": 0.00503,
+   "39": 0.00597
+  }
+ },
+ "games_diff_pmf": {
+  "-11": 7e-05,
+  "-10": 0.00018,
+  "-9": 0.0009,
+  "-8": 0.00194,
+  "-7": 0.00544,
+  "-6": 0.00932,
+  "-5": 0.01776,
+  "-4": 0.02689,
+  "-3": 0.0284,
+  "-2": 0.02442,
+  "-1": 0.01893,
+  "0": 0.02286,
+  "1": 0.02746,
+  "2": 0.05475,
+  "3": 0.09432,
+  "4": 0.13868,
+  "5": 0.13809,
+  "6": 0.1276,
+  "7": 0.10813,
+  "8": 0.07014,
+  "9": 0.04684,
+  "10": 0.02415,
+  "11": 0.01041,
+  "12": 0.00232
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7601,
+   "under": 0.2399
+  },
+  {
+   "line": 18.5,
+   "over": 0.6696,
+   "under": 0.3304
+  },
+  {
+   "line": 19.5,
+   "over": 0.5797,
+   "under": 0.4203
+  },
+  {
+   "line": 20.5,
+   "over": 0.4993,
+   "under": 0.5007
+  },
+  {
+   "line": 21.5,
+   "over": 0.4471,
+   "under": 0.5529
+  },
+  {
+   "line": 22.5,
+   "over": 0.3693,
+   "under": 0.6307
+  },
+  {
+   "line": 23.5,
+   "over": 0.3134,
+   "under": 0.6866
+  },
+  {
+   "line": 24.5,
+   "over": 0.3049,
+   "under": 0.6951
+  },
+  {
+   "line": 25.5,
+   "over": 0.2781,
+   "under": 0.7219
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.8154,
+   "B +1.5": 0.1846,
+   "B -1.5": 0.1153,
+   "A +1.5": 0.8847
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.7607,
+   "B +2.5": 0.2393,
+   "B -2.5": 0.0909,
+   "A +2.5": 0.9091
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.6664,
+   "B +3.5": 0.3336,
+   "B -3.5": 0.0625,
+   "A +3.5": 0.9375
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.5277,
+   "B +4.5": 0.4723,
+   "B -4.5": 0.0356,
+   "A +4.5": 0.9644
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3896,
+   "B +5.5": 0.6104,
+   "B -5.5": 0.0178,
+   "A +5.5": 0.9821
+  }
+ ],
+ "p_tiebreak": 0.355,
+ "p_a_wins_set": 0.9303,
+ "p_b_wins_set": 0.3416,
+ "p_decider": 0.2719,
+ "expected_breaks": {
+  "total": 4.03,
+  "by_A": 2.97,
+  "by_B": 1.06
+ },
+ "expected_break_points": {
+  "A_creates": 7.14,
+  "B_creates": 3.43
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.6584
+ },
+ "match": "Alexander Zverev vs Arthur Fery",
+ "players": {
+  "A": {
+   "id": "atp:100644",
+   "name": "Alexander Zverev",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 3.0,
+   "age": 29.432580424366872,
+   "elo": 2105.7,
+   "surface_elo": {
+    "Hard": 2043.8,
+    "Clay": 2052.4,
+    "Grass": 1885.6
+   },
+   "matches_total": 806,
+   "matches_surface": {
+    "Hard": 478,
+    "Clay": 250,
+    "Grass": 78
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    17,
+    3
+   ],
+   "last52w": [
+    64,
+    17
+   ],
+   "last52w_surface": [
+    35,
+    11
+   ],
+   "career_surface_wl": [
+    331,
+    147
+   ],
+   "games_won_lost_52w": [
+    1296,
+    1016
+   ],
+   "sets_won_lost_52w": [
+    163,
+    64
+   ],
+   "avg_opp_elo_last20": 1827.0,
+   "vs_top_opp_52w": [
+    15,
+    13
+   ],
+   "serve_rating": 0.4211,
+   "return_rating": 0.2401,
+   "form_elo": 20.1,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.7181,
+    "first_won": 0.7565,
+    "second_won": 0.5635,
+    "serve_pts_won": 0.7021,
+    "hold": 0.8768,
+    "aces_per_svgm": 0.6869,
+    "df_per_svgm": 0.1172,
+    "bp_saved": 0.5764,
+    "ret_pts_won": 0.3748,
+    "ret_1st_won": 0.2913,
+    "ret_2nd_won": 0.5256,
+    "ret_games_won": 0.2317,
+    "bp_conv": 0.4191,
+    "bp_chances_per_retgm": 0.5528,
+    "matches_with_stats": 40
+   },
+   "rank_history": [
+    [
+     "2023-11-13",
+     7.0
+    ],
+    [
+     "2024-01-15",
+     6.0
+    ],
+    [
+     "2024-03-18",
+     5.0
+    ],
+    [
+     "2024-05-27",
+     4.0
+    ],
+    [
+     "2024-09-20",
+     2.0
+    ],
+    [
+     "2024-10-02",
+     3.0
+    ],
+    [
+     "2024-11-11",
+     2.0
+    ],
+    [
+     "2025-04-14",
+     3.0
+    ],
+    [
+     "2025-04-23",
+     2.0
+    ],
+    [
+     "2025-05-18",
+     3.0
+    ],
+    [
+     "2026-02-23",
+     4.0
+    ],
+    [
+     "2026-04-05",
+     3.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:209259",
+   "name": "Arthur Fery",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 174.0,
+   "age": 24.218754277891858,
+   "elo": 1796.5,
+   "surface_elo": {
+    "Hard": 1725.8,
+    "Clay": 1429.6,
+    "Grass": 1750.1
+   },
+   "matches_total": 32,
+   "matches_surface": {
+    "Hard": 19,
+    "Clay": 1,
+    "Grass": 12
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    15,
+    11
+   ],
+   "last52w_surface": [
+    9,
+    8
+   ],
+   "career_surface_wl": [
+    10,
+    9
+   ],
+   "games_won_lost_52w": [
+    385,
+    369
+   ],
+   "sets_won_lost_52w": [
+    39,
+    35
+   ],
+   "avg_opp_elo_last20": 1781.5,
+   "vs_top_opp_52w": [
+    3,
+    3
+   ],
+   "serve_rating": -0.0519,
+   "return_rating": 0.0659,
+   "form_elo": 5.5,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-03-18",
+   "stats_52w": {
+    "first_in": 0.6694,
+    "first_won": 0.6627,
+    "second_won": 0.5,
+    "serve_pts_won": 0.6089,
+    "hold": 0.7368,
+    "aces_per_svgm": 0.4211,
+    "df_per_svgm": 0.0263,
+    "bp_saved": 0.5652,
+    "ret_pts_won": 0.3534,
+    "ret_1st_won": 0.3165,
+    "ret_2nd_won": 0.4176,
+    "ret_games_won": 0.1842,
+    "bp_conv": 0.3043,
+    "bp_chances_per_retgm": 0.6053,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2023-07-03",
+     391.0
+    ],
+    [
+     "2024-07-01",
+     247.0
+    ],
+    [
+     "2025-06-30",
+     461.0
+    ],
+    [
+     "2025-09-12",
+     227.0
+    ],
+    [
+     "2025-10-13",
+     221.0
+    ],
+    [
+     "2026-01-19",
+     186.0
+    ],
+    [
+     "2026-03-18",
+     174.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Erste Bank Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Alexander Zverev: latest point-level stats are 177 days old (2026-05-06)",
+  "Arthur Fery: limited recent/surface sample (26 matches 52w, 19 career on Hard, 3 with stats)",
+  "Arthur Fery: latest point-level stats are 226 days old (2026-03-18)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 306.5,
+  "components_elo": {
+   "surface_elo": 318.0,
+   "overall_elo": 309.2,
+   "serve_return": 557.7,
+   "form": 14.7
+  },
+  "weighted_contributions": {
+   "surface_elo": 38.9,
+   "overall_elo": 73.1,
+   "serve_return": 194.6,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.8537,
+  "serve_return_implied_spw": {
+   "A": 0.7276,
+   "B": 0.583
+  },
+  "point_probs": {
+   "A_serve": 0.7174,
+   "B_serve": 0.5953
+  },
+  "point_probs_exact": {
+   "A_serve": 0.7174464273299151,
+   "B_serve": 0.5952616924235605
+  },
+  "hold_probs": {
+   "A": 0.9202,
+   "B": 0.7258
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.8522,
+   0.8534
+  ],
+  "p_tb": [
+   0.355,
+   0.3542
+  ],
+  "p_decider": [
+   0.2719,
+   0.2709
+  ],
+  "games_mean": [
+   22.286,
+   22.267
+  ],
+  "exp_breaks": [
+   4.026,
+   4.03
+  ],
+  "set_scores": {
+   "0-2": [
+    0.0697,
+    0.0691
+   ],
+   "1-2": [
+    0.0781,
+    0.0774
+   ],
+   "2-0": [
+    0.6584,
+    0.66
+   ],
+   "2-1": [
+    0.1938,
+    0.1934
+   ]
+  },
+  "mc_se_p_a": 0.0011,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alexander Zverev",
+   "elo_points": 194.6,
+   "raw_diff": 557.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 73.1,
+   "raw_diff": 309.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 38.9,
+   "raw_diff": 318.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5635,
+   "B": 0.5,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3748,
+   "B": 0.3534,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.7174,
+   "B": 0.5953,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alexander Zverev to win",
+  "probability": 0.8522,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-577"
+  },
+  "confidence": "Medium",
+  "main_risk": "Upset through serve-dominant variance: P(at least one tiebreak) = 36%; underdog wins 15% of simulations. Data quality MEDIUM: Alexander Zverev: latest point-level stats are 177 days old (2026-05-06); Arthur Fery: limited recent/surface sample (26 matches 52w, 19 career on Hard, 3 with stats)",
+  "candidates": [
+   {
+    "selection": "Alexander Zverev to win at least one set",
+    "probability": 0.9303,
+    "fair_decimal": 1.07
+   },
+   {
+    "selection": "Alexander Zverev to win",
+    "probability": 0.8522,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "Alexander Zverev -2.5 games",
+    "probability": 0.7607,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7281,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6951,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6696,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Exact sets Alexander Zverev 2-0 Arthur Fery",
+    "probability": 0.6584,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.645,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6307,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Alexander Zverev -4.5 games",
+    "probability": 0.5277,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5007,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4993,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Arthur Fery +4.5 games",
+    "probability": 0.4723,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3693,
+    "fair_decimal": 2.71
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.355,
+    "fair_decimal": 2.82
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:46+00:00",
+  "version": 1,
+  "input_hash": "16028bf728970d48",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185199",
+  "scheduled_start_utc": "2026-10-30T16:30Z"
+ }
+}

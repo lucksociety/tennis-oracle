@@ -1,0 +1,651 @@
+{
+ "predicted_winner": "Alina Charaeva",
+ "win_prob": {
+  "A": 0.4268,
+  "B": 0.5732
+ },
+ "win_prob_exact": {
+  "A": 0.42684,
+  "B": 0.57316
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.34,
+   "american": "+134"
+  },
+  "B": {
+   "decimal": 1.74,
+   "american": "-134"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3721,
+  "2-0": 0.2545,
+  "1-2": 0.201,
+  "2-1": 0.1723
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0186,
+ "games": {
+  "mean": 22.55,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00254,
+   "13": 0.01075,
+   "14": 0.02587,
+   "15": 0.04767,
+   "16": 0.06702,
+   "17": 0.08354,
+   "18": 0.08389,
+   "19": 0.07688,
+   "20": 0.06776,
+   "21": 0.0483,
+   "22": 0.06015,
+   "23": 0.03946,
+   "24": 0.02054,
+   "25": 0.03682,
+   "26": 0.04051,
+   "27": 0.03852,
+   "28": 0.04126,
+   "29": 0.0419,
+   "30": 0.04052,
+   "31": 0.03605,
+   "32": 0.03021,
+   "33": 0.02018,
+   "34": 0.01382,
+   "35": 0.01381,
+   "36": 0.00646,
+   "37": 0.00187,
+   "38": 0.00246,
+   "39": 0.00124
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00189,
+  "-11": 0.00771,
+  "-10": 0.01749,
+  "-9": 0.03222,
+  "-8": 0.0487,
+  "-7": 0.07067,
+  "-6": 0.08272,
+  "-5": 0.0848,
+  "-4": 0.08412,
+  "-3": 0.05937,
+  "-2": 0.03949,
+  "-1": 0.03043,
+  "0": 0.02777,
+  "1": 0.02865,
+  "2": 0.03573,
+  "3": 0.04999,
+  "4": 0.0666,
+  "5": 0.06484,
+  "6": 0.0582,
+  "7": 0.04685,
+  "8": 0.0304,
+  "9": 0.01833,
+  "10": 0.00925,
+  "11": 0.00313,
+  "12": 0.00065
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7626,
+   "under": 0.2374
+  },
+  {
+   "line": 18.5,
+   "over": 0.6787,
+   "under": 0.3213
+  },
+  {
+   "line": 19.5,
+   "over": 0.6018,
+   "under": 0.3982
+  },
+  {
+   "line": 20.5,
+   "over": 0.5341,
+   "under": 0.4659
+  },
+  {
+   "line": 21.5,
+   "over": 0.4858,
+   "under": 0.5142
+  },
+  {
+   "line": 22.5,
+   "over": 0.4256,
+   "under": 0.5744
+  },
+  {
+   "line": 23.5,
+   "over": 0.3862,
+   "under": 0.6138
+  },
+  {
+   "line": 24.5,
+   "over": 0.3656,
+   "under": 0.6344
+  },
+  {
+   "line": 25.5,
+   "over": 0.3288,
+   "under": 0.6712
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.384,
+   "B +1.5": 0.616,
+   "B -1.5": 0.5292,
+   "A +1.5": 0.4708
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3482,
+   "B +2.5": 0.6518,
+   "B -2.5": 0.4897,
+   "A +2.5": 0.5103
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2982,
+   "B +3.5": 0.7018,
+   "B -3.5": 0.4303,
+   "A +3.5": 0.5697
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2316,
+   "B +4.5": 0.7683,
+   "B -4.5": 0.3462,
+   "A +4.5": 0.6538
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1668,
+   "B +5.5": 0.8332,
+   "B -5.5": 0.2614,
+   "A +5.5": 0.7386
+  }
+ ],
+ "p_tiebreak": 0.2615,
+ "p_a_wins_set": 0.6279,
+ "p_b_wins_set": 0.7455,
+ "p_decider": 0.3734,
+ "expected_breaks": {
+  "total": 7.96,
+  "by_A": 3.75,
+  "by_B": 4.21
+ },
+ "expected_break_points": {
+  "A_creates": 8.44,
+  "B_creates": 9.11
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3721
+ },
+ "match": "Marina Bassols Ribera vs Alina Charaeva",
+ "players": {
+  "A": {
+   "id": "wta:215453",
+   "name": "Marina Bassols Ribera",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 175.0,
+   "age": 26.83258042436687,
+   "elo": 1562.3,
+   "surface_elo": {
+    "Hard": 1541.0,
+    "Clay": 1450.0,
+    "Grass": 1549.5
+   },
+   "matches_total": 41,
+   "matches_surface": {
+    "Hard": 26,
+    "Clay": 11,
+    "Grass": 4
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    12,
+    13
+   ],
+   "last52w_surface": [
+    9,
+    9
+   ],
+   "career_surface_wl": [
+    9,
+    17
+   ],
+   "games_won_lost_52w": [
+    274,
+    267
+   ],
+   "sets_won_lost_52w": [
+    32,
+    29
+   ],
+   "avg_opp_elo_last20": 1567.6,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0077,
+   "return_rating": -0.0139,
+   "form_elo": 90.1,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2024-09-09",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-01-30",
+     124.0
+    ],
+    [
+     "2023-02-06",
+     128.0
+    ],
+    [
+     "2023-02-27",
+     124.0
+    ],
+    [
+     "2023-04-03",
+     122.0
+    ],
+    [
+     "2023-04-24",
+     119.0
+    ],
+    [
+     "2023-10-16",
+     110.0
+    ],
+    [
+     "2024-02-05",
+     105.0
+    ],
+    [
+     "2024-07-15",
+     121.0
+    ],
+    [
+     "2024-07-22",
+     122.0
+    ],
+    [
+     "2024-08-26",
+     114.0
+    ],
+    [
+     "2024-09-09",
+     113.0
+    ],
+    [
+     "2026-05-25",
+     175.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221406",
+   "name": "Alina Charaeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 129.0,
+   "age": 24.425667351129363,
+   "elo": 1765.2,
+   "surface_elo": {
+    "Hard": 1742.7,
+    "Clay": 1546.7,
+    "Grass": 1567.5
+   },
+   "matches_total": 31,
+   "matches_surface": {
+    "Hard": 21,
+    "Clay": 7,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    17,
+    12
+   ],
+   "last52w_surface": [
+    12,
+    7
+   ],
+   "career_surface_wl": [
+    12,
+    9
+   ],
+   "games_won_lost_52w": [
+    362,
+    329
+   ],
+   "sets_won_lost_52w": [
+    40,
+    33
+   ],
+   "avg_opp_elo_last20": 1692.1,
+   "vs_top_opp_52w": [
+    1,
+    1
+   ],
+   "serve_rating": -0.0653,
+   "return_rating": -0.0269,
+   "form_elo": 84.1,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-04-21",
+   "stats_52w": {
+    "first_in": 0.5809,
+    "first_won": 0.5696,
+    "second_won": 0.3509,
+    "serve_pts_won": 0.4779,
+    "hold": 0.4783,
+    "aces_per_svgm": 0.1739,
+    "df_per_svgm": 0.5652,
+    "bp_saved": 0.4,
+    "ret_pts_won": 0.3944,
+    "ret_1st_won": 0.3579,
+    "ret_2nd_won": 0.4681,
+    "ret_games_won": 0.2727,
+    "bp_conv": 0.5,
+    "bp_chances_per_retgm": 0.5455,
+    "matches_with_stats": 2
+   },
+   "rank_history": [
+    [
+     "2025-02-24",
+     285.0
+    ],
+    [
+     "2025-10-20",
+     150.0
+    ],
+    [
+     "2026-04-13",
+     130.0
+    ],
+    [
+     "2026-04-21",
+     129.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Valle D'Aosta Ladies Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Marina Bassols Ribera: sparse record (41 tour matches, 0 with serve stats in 52w)",
+  "Marina Bassols Ribera: latest point-level stats are 781 days old (2024-09-09)",
+  "Alina Charaeva: sparse record (31 tour matches, 2 with serve stats in 52w)",
+  "Alina Charaeva: latest point-level stats are 192 days old (2026-04-21)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -50.3,
+  "components_elo": {
+   "surface_elo": -201.7,
+   "overall_elo": -202.9,
+   "serve_return": 64.0,
+   "form": 6.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -24.6,
+   "overall_elo": -47.9,
+   "serve_return": 22.3,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4281,
+  "serve_return_implied_spw": {
+   "A": 0.5705,
+   "B": 0.5531
+  },
+  "point_probs": {
+   "A_serve": 0.5513,
+   "B_serve": 0.5723
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5512644440917824,
+   "B_serve": 0.5722500551019126
+  },
+  "hold_probs": {
+   "A": 0.6262,
+   "B": 0.6751
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4268,
+   0.4295
+  ],
+  "p_tb": [
+   0.2615,
+   0.2604
+  ],
+  "p_decider": [
+   0.3734,
+   0.3724
+  ],
+  "games_mean": [
+   22.551,
+   22.537
+  ],
+  "exp_breaks": [
+   7.955,
+   7.95
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3721,
+    0.3709
+   ],
+   "1-2": [
+    0.201,
+    0.1996
+   ],
+   "2-0": [
+    0.2545,
+    0.2567
+   ],
+   "2-1": [
+    0.1723,
+    0.1728
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0027
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -47.9,
+   "raw_diff": -202.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -24.6,
+   "raw_diff": -201.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Marina Bassols Ribera",
+   "elo_points": 22.3,
+   "raw_diff": 64.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5513,
+   "B": 0.5723,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alina Charaeva to win at least one set",
+  "probability": 0.7455,
+  "fair_odds": {
+   "decimal": 1.34,
+   "american": "-293"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Marina Bassols Ribera: sparse record (41 tour matches, 0 with serve stats in 52w); Marina Bassols Ribera: latest point-level stats are 781 days old (2024-09-09)",
+  "candidates": [
+   {
+    "selection": "Alina Charaeva to win at least one set",
+    "probability": 0.7455,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7385,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6787,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Marina Bassols Ribera +4.5 games",
+    "probability": 0.6538,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6344,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Marina Bassols Ribera to win at least one set",
+    "probability": 0.6279,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6266,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5744,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Alina Charaeva to win",
+    "probability": 0.5732,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5341,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Marina Bassols Ribera +2.5 games",
+    "probability": 0.5103,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Alina Charaeva -2.5 games",
+    "probability": 0.4897,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4659,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Marina Bassols Ribera to win",
+    "probability": 0.4268,
+    "fair_decimal": 2.34
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4256,
+    "fair_decimal": 2.35
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:37+00:00",
+  "version": 1,
+  "input_hash": "64efbe9b8e1d1b60",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185857",
+  "scheduled_start_utc": "2026-10-30T13:00Z"
+ }
+}

@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Maya Joint",
+ "win_prob": {
+  "A": 0.5,
+  "B": 0.5
+ },
+ "win_prob_exact": {
+  "A": 0.49998,
+  "B": 0.50002
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.0,
+   "american": "+100"
+  },
+  "B": {
+   "decimal": 2.0,
+   "american": "-100"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3141,
+  "0-2": 0.3124,
+  "1-2": 0.1876,
+  "2-1": 0.1859
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0164,
+ "games": {
+  "mean": 22.55,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00241,
+   "13": 0.01048,
+   "14": 0.0255,
+   "15": 0.04585,
+   "16": 0.06957,
+   "17": 0.0823,
+   "18": 0.08282,
+   "19": 0.07716,
+   "20": 0.06833,
+   "21": 0.05001,
+   "22": 0.0587,
+   "23": 0.04061,
+   "24": 0.02186,
+   "25": 0.03683,
+   "26": 0.0406,
+   "27": 0.0383,
+   "28": 0.04154,
+   "29": 0.04129,
+   "30": 0.03975,
+   "31": 0.0361,
+   "32": 0.03144,
+   "33": 0.01867,
+   "34": 0.01425,
+   "35": 0.01399,
+   "36": 0.00647,
+   "37": 0.0018,
+   "38": 0.00239,
+   "39": 0.00098
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0013,
+  "-11": 0.0052,
+  "-10": 0.01295,
+  "-9": 0.02416,
+  "-8": 0.04069,
+  "-7": 0.05784,
+  "-6": 0.07177,
+  "-5": 0.07501,
+  "-4": 0.07387,
+  "-3": 0.05542,
+  "-2": 0.03896,
+  "-1": 0.0289,
+  "0": 0.02848,
+  "1": 0.02877,
+  "2": 0.03758,
+  "3": 0.05488,
+  "4": 0.07499,
+  "5": 0.07547,
+  "6": 0.06969,
+  "7": 0.05852,
+  "8": 0.04096,
+  "9": 0.02481,
+  "10": 0.01328,
+  "11": 0.00539,
+  "12": 0.00111
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7639,
+   "under": 0.2361
+  },
+  {
+   "line": 18.5,
+   "over": 0.6811,
+   "under": 0.3189
+  },
+  {
+   "line": 19.5,
+   "over": 0.6039,
+   "under": 0.3961
+  },
+  {
+   "line": 20.5,
+   "over": 0.5356,
+   "under": 0.4644
+  },
+  {
+   "line": 21.5,
+   "over": 0.4856,
+   "under": 0.5144
+  },
+  {
+   "line": 22.5,
+   "over": 0.4269,
+   "under": 0.5731
+  },
+  {
+   "line": 23.5,
+   "over": 0.3863,
+   "under": 0.6137
+  },
+  {
+   "line": 24.5,
+   "over": 0.3644,
+   "under": 0.6356
+  },
+  {
+   "line": 25.5,
+   "over": 0.3276,
+   "under": 0.6724
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4567,
+   "B +1.5": 0.5433,
+   "B -1.5": 0.4572,
+   "A +1.5": 0.5428
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4191,
+   "B +2.5": 0.5809,
+   "B -2.5": 0.4182,
+   "A +2.5": 0.5818
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3642,
+   "B +3.5": 0.6358,
+   "B -3.5": 0.3628,
+   "A +3.5": 0.6372
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2892,
+   "B +4.5": 0.7108,
+   "B -4.5": 0.2889,
+   "A +4.5": 0.7111
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2138,
+   "B +5.5": 0.7862,
+   "B -5.5": 0.2139,
+   "A +5.5": 0.7861
+  }
+ ],
+ "p_tiebreak": 0.2596,
+ "p_a_wins_set": 0.6876,
+ "p_b_wins_set": 0.6859,
+ "p_decider": 0.3735,
+ "expected_breaks": {
+  "total": 8.12,
+  "by_A": 4.06,
+  "by_B": 4.06
+ },
+ "expected_break_points": {
+  "A_creates": 8.9,
+  "B_creates": 8.9
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3124
+ },
+ "match": "Kamilla Rakhimova vs Maya Joint",
+ "players": {
+  "A": {
+   "id": "wta:215872",
+   "name": "Kamilla Rakhimova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 89.0,
+   "age": 25.12984257357974,
+   "elo": 1734.5,
+   "surface_elo": {
+    "Hard": 1704.8,
+    "Clay": 1570.4,
+    "Grass": 1532.6
+   },
+   "matches_total": 161,
+   "matches_surface": {
+    "Hard": 99,
+    "Clay": 49,
+    "Grass": 13
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    20,
+    23
+   ],
+   "last52w_surface": [
+    17,
+    17
+   ],
+   "career_surface_wl": [
+    38,
+    61
+   ],
+   "games_won_lost_52w": [
+    488,
+    494
+   ],
+   "sets_won_lost_52w": [
+    48,
+    55
+   ],
+   "avg_opp_elo_last20": 1730.8,
+   "vs_top_opp_52w": [
+    0,
+    8
+   ],
+   "serve_rating": 0.0709,
+   "return_rating": 0.1041,
+   "form_elo": 71.8,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.5876,
+    "first_won": 0.6109,
+    "second_won": 0.4301,
+    "serve_pts_won": 0.5363,
+    "hold": 0.5816,
+    "aces_per_svgm": 0.1418,
+    "df_per_svgm": 0.4184,
+    "bp_saved": 0.553,
+    "ret_pts_won": 0.4452,
+    "ret_1st_won": 0.348,
+    "ret_2nd_won": 0.6064,
+    "ret_games_won": 0.3571,
+    "bp_conv": 0.4902,
+    "bp_chances_per_retgm": 0.7286,
+    "matches_with_stats": 13
+   },
+   "rank_history": [
+    [
+     "2025-09-24",
+     89.0
+    ],
+    [
+     "2025-10-20",
+     103.0
+    ],
+    [
+     "2025-10-27",
+     106.0
+    ],
+    [
+     "2026-01-19",
+     93.0
+    ],
+    [
+     "2026-02-15",
+     91.0
+    ],
+    [
+     "2026-02-23",
+     92.0
+    ],
+    [
+     "2026-03-04",
+     88.0
+    ],
+    [
+     "2026-03-17",
+     82.0
+    ],
+    [
+     "2026-04-13",
+     74.0
+    ],
+    [
+     "2026-04-21",
+     73.0
+    ],
+    [
+     "2026-05-05",
+     76.0
+    ],
+    [
+     "2026-05-25",
+     89.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:233741",
+   "name": "Maya Joint",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 52.0,
+   "age": 20.529842573579742,
+   "elo": 1771.0,
+   "surface_elo": {
+    "Hard": 1741.2,
+    "Clay": 1556.5,
+    "Grass": 1634.7
+   },
+   "matches_total": 99,
+   "matches_surface": {
+    "Hard": 78,
+    "Clay": 11,
+    "Grass": 10
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    19,
+    24
+   ],
+   "last52w_surface": [
+    18,
+    18
+   ],
+   "career_surface_wl": [
+    41,
+    37
+   ],
+   "games_won_lost_52w": [
+    483,
+    523
+   ],
+   "sets_won_lost_52w": [
+    50,
+    58
+   ],
+   "avg_opp_elo_last20": 1694.2,
+   "vs_top_opp_52w": [
+    2,
+    5
+   ],
+   "serve_rating": 0.052,
+   "return_rating": 0.0777,
+   "form_elo": 93.9,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6291,
+    "first_won": 0.5789,
+    "second_won": 0.4464,
+    "serve_pts_won": 0.5298,
+    "hold": 0.5556,
+    "aces_per_svgm": 0.1556,
+    "df_per_svgm": 0.2556,
+    "bp_saved": 0.5402,
+    "ret_pts_won": 0.3978,
+    "ret_1st_won": 0.3292,
+    "ret_2nd_won": 0.5174,
+    "ret_games_won": 0.2111,
+    "bp_conv": 0.38,
+    "bp_chances_per_retgm": 0.5556,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     43.0
+    ],
+    [
+     "2025-09-15",
+     46.0
+    ],
+    [
+     "2025-09-24",
+     36.0
+    ],
+    [
+     "2025-10-06",
+     35.0
+    ],
+    [
+     "2025-10-20",
+     32.0
+    ],
+    [
+     "2026-01-19",
+     31.0
+    ],
+    [
+     "2026-02-01",
+     29.0
+    ],
+    [
+     "2026-02-08",
+     30.0
+    ],
+    [
+     "2026-02-15",
+     28.0
+    ],
+    [
+     "2026-03-04",
+     29.0
+    ],
+    [
+     "2026-05-05",
+     34.0
+    ],
+    [
+     "2026-05-25",
+     52.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Toray Pan Pacific Open Tennis",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-29",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Kamilla Rakhimova: limited recent/surface sample (43 matches 52w, 99 career on Hard, 13 with stats)",
+  "Kamilla Rakhimova: latest point-level stats are 177 days old (2026-05-05)",
+  "Maya Joint: limited recent/surface sample (43 matches 52w, 78 career on Hard, 9 with stats)",
+  "Maya Joint: latest point-level stats are 165 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 143 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 1.3,
+  "components_elo": {
+   "surface_elo": -36.4,
+   "overall_elo": -36.5,
+   "serve_return": 41.1,
+   "form": -22.2
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.5,
+   "overall_elo": -8.6,
+   "serve_return": 14.4,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5019,
+  "serve_return_implied_spw": {
+   "A": 0.5641,
+   "B": 0.5529
+  },
+  "point_probs": {
+   "A_serve": 0.5588,
+   "B_serve": 0.5583
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5587696021521137,
+   "B_serve": 0.5582512425287035
+  },
+  "hold_probs": {
+   "A": 0.6439,
+   "B": 0.6427
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5,
+   0.5018
+  ],
+  "p_tb": [
+   0.2596,
+   0.2596
+  ],
+  "p_decider": [
+   0.3735,
+   0.3763
+  ],
+  "games_mean": [
+   22.553,
+   22.575
+  ],
+  "exp_breaks": [
+   8.115,
+   8.122
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3124,
+    0.3104
+   ],
+   "1-2": [
+    0.1876,
+    0.1878
+   ],
+   "2-0": [
+    0.3141,
+    0.3133
+   ],
+   "2-1": [
+    0.1859,
+    0.1885
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Kamilla Rakhimova",
+   "elo_points": 14.4,
+   "raw_diff": 41.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Maya Joint",
+   "elo_points": -8.6,
+   "raw_diff": -36.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Maya Joint",
+   "elo_points": -4.5,
+   "raw_diff": -36.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4301,
+   "B": 0.4464,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4452,
+   "B": 0.3978,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5588,
+   "B": 0.5583,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7404,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-285"
+  },
+  "confidence": "Medium",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality MEDIUM: Kamilla Rakhimova: limited recent/surface sample (43 matches 52w, 99 career on Hard, 13 with stats); Kamilla Rakhimova: latest point-level stats are 177 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7404,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Maya Joint +4.5 games",
+    "probability": 0.7108,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Kamilla Rakhimova to win at least one set",
+    "probability": 0.6876,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Maya Joint to win at least one set",
+    "probability": 0.6859,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6811,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6356,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6265,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Maya Joint +2.5 games",
+    "probability": 0.5809,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5731,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5356,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Kamilla Rakhimova to win",
+    "probability": 0.5,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Maya Joint to win",
+    "probability": 0.5,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4644,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4269,
+    "fair_decimal": 2.34
+   },
+   {
+    "selection": "Kamilla Rakhimova -2.5 games",
+    "probability": 0.4191,
+    "fair_decimal": 2.39
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-29T19:43:09+00:00",
+  "version": 1,
+  "input_hash": "a08c559a3708b8c2",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185684",
+  "scheduled_start_utc": "2026-10-30T01:30Z"
+ }
+}
