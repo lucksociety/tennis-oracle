@@ -1,77 +1,77 @@
 {
- "generated_at_utc": "2026-10-28T18:25:52+00:00",
+ "generated_at_utc": "2026-10-29T00:05:11+00:00",
  "summary": {
-  "n": 23,
-  "brier": 0.22684879347826087,
-  "log_loss": 0.6425078157371523,
-  "accuracy": 0.5217391304347826,
-  "games_mae": 3.8091304347826087,
-  "exact_sets_accuracy": 0.34782608695652173,
-  "tiebreak_brier": 0.17086255
+  "n": 33,
+  "brier": 0.2303933115151515,
+  "log_loss": 0.65042322209502,
+  "accuracy": 0.5454545454545454,
+  "games_mae": 4.063030303030303,
+  "exact_sets_accuracy": 0.36363636363636365,
+  "tiebreak_brier": 0.17863167606060606
  },
- "n": 23,
+ "n": 33,
  "overall": {
-  "n": 23,
-  "brier": 0.22684879347826087,
-  "log_loss": 0.6425078157371523,
-  "accuracy": 0.5217391304347826
+  "n": 33,
+  "brier": 0.2303933115151515,
+  "log_loss": 0.65042322209502,
+  "accuracy": 0.5454545454545454
  },
- "games_mae": 3.8091304347826087,
- "exact_sets_accuracy": 0.34782608695652173,
- "tiebreak_brier": 0.17086255,
+ "games_mae": 4.063030303030303,
+ "exact_sets_accuracy": 0.36363636363636365,
+ "tiebreak_brier": 0.17863167606060606,
  "by_surface": {
   "Hard": {
-   "n": 23,
-   "brier": 0.22684879347826087,
-   "log_loss": 0.6425078157371523,
-   "accuracy": 0.5217391304347826
+   "n": 33,
+   "brier": 0.2303933115151515,
+   "log_loss": 0.65042322209502,
+   "accuracy": 0.5454545454545454
   }
  },
  "by_tour": {
   "atp": {
-   "n": 7,
-   "brier": 0.22176889571428574,
-   "log_loss": 0.6265095754977593,
-   "accuracy": 0.42857142857142855
+   "n": 12,
+   "brier": 0.2365183333333333,
+   "log_loss": 0.6592135088405665,
+   "accuracy": 0.4166666666666667
   },
   "wta": {
-   "n": 16,
-   "brier": 0.22907124875,
-   "log_loss": 0.6495070458418867,
-   "accuracy": 0.5625
+   "n": 21,
+   "brier": 0.22689329904761907,
+   "log_loss": 0.6454002010975648,
+   "accuracy": 0.6190476190476191
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 13,
-   "brier": 0.21521060846153844,
-   "log_loss": 0.6173041895920728,
-   "accuracy": 0.6153846153846154
+   "n": 20,
+   "brier": 0.2233165055,
+   "log_loss": 0.635558159238036,
+   "accuracy": 0.6
   },
   "MEDIUM": {
-   "n": 10,
-   "brier": 0.24197843400000002,
-   "log_loss": 0.6752725297257558,
-   "accuracy": 0.4
+   "n": 13,
+   "brier": 0.24128070538461538,
+   "log_loss": 0.673292549567303,
+   "accuracy": 0.46153846153846156
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 16,
-   "mean_pred": 0.5398000000000001,
-   "observed": 0.375
+   "n": 23,
+   "mean_pred": 0.5418043478260871,
+   "observed": 0.43478260869565216
   },
   {
    "bucket": "60%-70%",
-   "n": 4,
-   "mean_pred": 0.67005,
-   "observed": 0.75
+   "n": 6,
+   "mean_pred": 0.6610166666666667,
+   "observed": 0.6666666666666666
   },
   {
    "bucket": "70%-80%",
-   "n": 2,
-   "mean_pred": 0.7176,
+   "n": 3,
+   "mean_pred": 0.7303000000000001,
    "observed": 1.0
   },
   {
@@ -209,6 +209,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Taylor Fritz vs Rinky Hijikata",
+   "date": "2026-10-28",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.7557,
+   "a_won": 1,
+   "pred_winner": "Taylor Fritz",
+   "actual_winner": "Taylor Fritz",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.5376,
+   "exp_games": 23.68,
+   "actual_games": 23,
+   "p_tb": 0.4363,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.7065,
+     1
+    ],
+    "A -2.5": [
+     0.6392,
+     1
+    ],
+    "A -3.5": [
+     0.5336,
+     0
+    ],
+    "A -4.5": [
+     0.3939,
+     0
+    ],
+    "A -5.5": [
+     0.2682,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Remy Bertola vs Denis Shapovalov",
    "date": "2026-10-28",
    "tour": "atp",
@@ -293,6 +335,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Hubert Hurkacz vs Holger Rune",
+   "date": "2026-10-28",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.5613,
+   "a_won": 0,
+   "pred_winner": "Hubert Hurkacz",
+   "actual_winner": "Holger Rune",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1885,
+   "exp_games": 25.09,
+   "actual_games": 31,
+   "p_tb": 0.5251,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4985,
+     0
+    ],
+    "A -2.5": [
+     0.4242,
+     0
+    ],
+    "A -3.5": [
+     0.3243,
+     0
+    ],
+    "A -4.5": [
+     0.2114,
+     0
+    ],
+    "A -5.5": [
+     0.1232,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Lorenzo Musetti vs Frances Tiafoe",
    "date": "2026-10-28",
    "tour": "atp",
@@ -328,6 +412,90 @@
     ],
     "A -5.5": [
      0.1371,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jurij Rodionov vs Nikoloz Basilashvili",
+   "date": "2026-10-28",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Erste Bank Open",
+   "p_a": 0.5039,
+   "a_won": 0,
+   "pred_winner": "Jurij Rodionov",
+   "actual_winner": "Nikoloz Basilashvili",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2952,
+   "exp_games": 24.56,
+   "actual_games": 20,
+   "p_tb": 0.4619,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4462,
+     0
+    ],
+    "A -2.5": [
+     0.3827,
+     0
+    ],
+    "A -3.5": [
+     0.299,
+     0
+    ],
+    "A -4.5": [
+     0.2021,
+     0
+    ],
+    "A -5.5": [
+     0.1238,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jakub Mensik vs Adrian Mannarino",
+   "date": "2026-10-28",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Erste Bank Open",
+   "p_a": 0.6753,
+   "a_won": 0,
+   "pred_winner": "Jakub Mensik",
+   "actual_winner": "Adrian Mannarino",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.1731,
+   "exp_games": 23.93,
+   "actual_games": 22,
+   "p_tb": 0.4249,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6233,
+     0
+    ],
+    "A -2.5": [
+     0.5605,
+     0
+    ],
+    "A -3.5": [
+     0.464,
+     0
+    ],
+    "A -4.5": [
+     0.3408,
+     0
+    ],
+    "A -5.5": [
+     0.23,
      0
     ]
    },
@@ -412,6 +580,48 @@
     ],
     "A -5.5": [
      0.0521,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Learner Tien vs Alex De Minaur",
+   "date": "2026-10-28",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Erste Bank Open",
+   "p_a": 0.4485,
+   "a_won": 0,
+   "pred_winner": "Alex De Minaur",
+   "actual_winner": "Alex De Minaur",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3466,
+   "exp_games": 23.69,
+   "actual_games": 18,
+   "p_tb": 0.3746,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3983,
+     0
+    ],
+    "A -2.5": [
+     0.3503,
+     0
+    ],
+    "A -3.5": [
+     0.2838,
+     0
+    ],
+    "A -4.5": [
+     0.2037,
+     0
+    ],
+    "A -5.5": [
+     0.1315,
      0
     ]
    },
@@ -713,6 +923,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Gabriela Ce vs Solana Sierra",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.4485,
+   "a_won": 0,
+   "pred_winner": "Solana Sierra",
+   "actual_winner": "Solana Sierra",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1988,
+   "exp_games": 22.63,
+   "actual_games": 32,
+   "p_tb": 0.2665,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4055,
+     0
+    ],
+    "A -2.5": [
+     0.3679,
+     0
+    ],
+    "A -3.5": [
+     0.3151,
+     0
+    ],
+    "A -4.5": [
+     0.2451,
+     0
+    ],
+    "A -5.5": [
+     0.1784,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Leyre Romero Gormaz vs Antonia Vergara Rivera",
    "date": "2026-10-28",
    "tour": "wta",
@@ -749,6 +1001,48 @@
     "A -5.5": [
      0.2722,
      1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Nauhany Vitoria Leme Da Silva vs Luisina Giovannini",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.5038,
+   "a_won": 1,
+   "pred_winner": "Nauhany Vitoria Leme Da Silva",
+   "actual_winner": "Nauhany Vitoria Leme Da Silva",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.315,
+   "exp_games": 22.65,
+   "actual_games": 20,
+   "p_tb": 0.2641,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.46,
+     1
+    ],
+    "A -2.5": [
+     0.4219,
+     1
+    ],
+    "A -3.5": [
+     0.3666,
+     1
+    ],
+    "A -4.5": [
+     0.2898,
+     0
+    ],
+    "A -5.5": [
+     0.2126,
+     0
     ]
    },
    "data_quality": "LOW",
@@ -832,6 +1126,48 @@
     ],
     "A -5.5": [
      0.2031,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Carmen Andreea Herea vs Carole Monnet",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Queretaro Open",
+   "p_a": 0.5708,
+   "a_won": 0,
+   "pred_winner": "Carmen Andreea Herea",
+   "actual_winner": "Carole Monnet",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2561,
+   "exp_games": 22.63,
+   "actual_games": 15,
+   "p_tb": 0.2678,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5279,
+     0
+    ],
+    "A -2.5": [
+     0.4882,
+     0
+    ],
+    "A -3.5": [
+     0.4275,
+     0
+    ],
+    "A -4.5": [
+     0.3435,
+     0
+    ],
+    "A -5.5": [
+     0.2562,
      0
     ]
    },
@@ -1007,6 +1343,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Elizara Yaneva vs Oksana Selekhmeteva",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.5819,
+   "a_won": 1,
+   "pred_winner": "Elizara Yaneva",
+   "actual_winner": "Elizara Yaneva",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1977,
+   "exp_games": 22.41,
+   "actual_games": 27,
+   "p_tb": 0.2532,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5403,
+     1
+    ],
+    "A -2.5": [
+     0.5021,
+     1
+    ],
+    "A -3.5": [
+     0.4439,
+     0
+    ],
+    "A -4.5": [
+     0.3628,
+     0
+    ],
+    "A -5.5": [
+     0.2757,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Gabriela Knutson vs Alina Charaeva",
    "date": "2026-10-28",
    "tour": "wta",
@@ -1042,6 +1420,48 @@
     ],
     "A -5.5": [
      0.2751,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Linda Klimovicova vs Noma Noha Akugue",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.3894,
+   "a_won": 0,
+   "pred_winner": "Noma Noha Akugue",
+   "actual_winner": "Noma Noha Akugue",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4078,
+   "exp_games": 22.46,
+   "actual_games": 19,
+   "p_tb": 0.2602,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.348,
+     0
+    ],
+    "A -2.5": [
+     0.314,
+     0
+    ],
+    "A -3.5": [
+     0.2657,
+     0
+    ],
+    "A -4.5": [
+     0.2035,
+     0
+    ],
+    "A -5.5": [
+     0.1438,
      0
     ]
    },

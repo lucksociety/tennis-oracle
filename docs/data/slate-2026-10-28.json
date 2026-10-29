@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-28T18:23:04+00:00",
+ "generated_at_utc": "2026-10-29T00:01:15+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -3030,8 +3030,8 @@
    "round": "Round 2",
    "court": "Grandstand",
    "start_utc": "2026-10-28T16:30Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Elizara Yaneva",
@@ -3047,7 +3047,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:36+00:00",
@@ -3306,8 +3322,8 @@
    "round": "Round 2",
    "court": "Glaubandich Court",
    "start_utc": "2026-10-28T16:45Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jakub Mensik",
@@ -3323,7 +3339,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:44+00:00",
@@ -3436,8 +3464,8 @@
    "round": "Round 1",
    "court": "Centre Court",
    "start_utc": "2026-10-28T17:00Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jurij Rodionov",
@@ -3453,7 +3481,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:51+00:00",
@@ -3566,8 +3606,8 @@
    "round": "Round 2",
    "court": "Quadra Central",
    "start_utc": "2026-10-28T17:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Gabriela Ce",
@@ -3583,7 +3623,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:55+00:00",
@@ -3696,8 +3752,8 @@
    "round": "Round 1",
    "court": "Center Court",
    "start_utc": "2026-10-28T18:15Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Taylor Fritz",
@@ -3713,7 +3769,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:53+00:00",
@@ -3825,9 +3893,9 @@
    "venue": "Courmayeur, Italy",
    "round": "Round 2",
    "court": "Grandstand",
-   "start_utc": "2026-10-28T18:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T18:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Linda Klimovicova",
@@ -3843,7 +3911,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:48+00:00",
@@ -3955,9 +4035,9 @@
    "venue": "Vienna, Austria",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-10-28T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T19:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Learner Tien",
@@ -3973,7 +4053,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:59+00:00",
@@ -4085,9 +4177,9 @@
    "venue": "Basel, Switzerland",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-10-28T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T20:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Hubert Hurkacz",
@@ -4103,7 +4195,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:31:57+00:00",
@@ -4209,145 +4317,15 @@
    }
   },
   {
-   "espn_id": "185848",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Round 2",
-   "court": "Centre Court",
-   "start_utc": "2026-10-28T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Lucrezia Stefanini",
-     "id": "wta:214593"
-    },
-    {
-     "name": "Ayla Aksu",
-     "id": "wta:213767"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T03:32:00+00:00",
-    "path": "forecasts/2026-10-28/185848-lucrezia-stefanini-vs-ayla-aksu/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Lucrezia Stefanini",
-    "win_prob": {
-     "A": 0.528,
-     "B": 0.472
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.3381
-    },
-    "games_mean": 22.4,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7556,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.528,
-      "B": 0.472
-     },
-     "set_score_probs": {
-      "2-0": 0.3381,
-      "0-2": 0.2905,
-      "2-1": 0.1898,
-      "1-2": 0.1816
-     },
-     "games_pmf": {
-      "12": 0.00259,
-      "13": 0.01191,
-      "14": 0.0275,
-      "15": 0.05091,
-      "16": 0.06966,
-      "17": 0.08328,
-      "18": 0.08408,
-      "19": 0.0782,
-      "20": 0.06599,
-      "21": 0.04931,
-      "22": 0.05833,
-      "23": 0.03729,
-      "24": 0.02249,
-      "25": 0.03766,
-      "26": 0.04057,
-      "27": 0.03838,
-      "28": 0.04163,
-      "29": 0.0423,
-      "30": 0.03944,
-      "31": 0.03426,
-      "32": 0.02931,
-      "33": 0.01819,
-      "34": 0.01444,
-      "35": 0.01226,
-      "36": 0.00529,
-      "37": 0.0017,
-      "38": 0.00218,
-      "39": 0.00085
-     },
-     "games_diff_pmf": {
-      "-12": 0.00111,
-      "-11": 0.00512,
-      "-10": 0.01239,
-      "-9": 0.02413,
-      "-8": 0.03726,
-      "-7": 0.05477,
-      "-6": 0.06601,
-      "-5": 0.07056,
-      "-4": 0.07099,
-      "-3": 0.05055,
-      "-2": 0.03582,
-      "-1": 0.02882,
-      "0": 0.0276,
-      "1": 0.02811,
-      "2": 0.03749,
-      "3": 0.0533,
-      "4": 0.07573,
-      "5": 0.08,
-      "6": 0.07616,
-      "7": 0.06391,
-      "8": 0.04565,
-      "9": 0.03029,
-      "10": 0.01581,
-      "11": 0.00694,
-      "12": 0.00148
-     },
-     "p_tiebreak": 0.2444,
-     "p_decider": 0.3714
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0027
-   }
-  },
-  {
    "espn_id": "185771",
    "tour": "wta",
    "tournament": "Curitiba Open",
    "venue": "Curitiba, Brazil",
    "round": "Round 2",
    "court": "Quadra Central",
-   "start_utc": "2026-10-28T21:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T21:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Nauhany Vitoria Leme Da Silva",
@@ -4363,7 +4341,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:32:02+00:00",
@@ -4475,9 +4465,9 @@
    "venue": "Santiago de Quer\u00e9taro, Mexico",
    "round": "Round 2",
    "court": "Estadio Mexcovery",
-   "start_utc": "2026-10-28T21:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-10-28T21:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Carmen Andreea Herea",
@@ -4493,7 +4483,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T03:32:04+00:00",
@@ -4605,8 +4607,8 @@
    "venue": "Santiago de Quer\u00e9taro, Mexico",
    "round": "Round 2",
    "court": "Estadio Mexcovery",
-   "start_utc": "2026-10-28T23:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-28T23:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
