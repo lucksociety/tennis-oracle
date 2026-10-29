@@ -51,6 +51,14 @@ jobs:
         run: oracle markets --date "$DATE" --days 1
       - name: Build Discord response from this run
         run: node scripts/discord-report.mjs
+      - name: Preserve pre-game forecasts for prospective evaluation
+        run: python3 scripts/model_learning.py --capture-only
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learning-${{ github.run_id }}
+          path: learning/inbox.jsonl
+          retention-days: 90
+          if-no-files-found: error
       - name: Deliver result
         run: node scripts/discord-relay.mjs post
       - name: Report failure

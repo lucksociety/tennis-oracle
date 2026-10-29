@@ -6,6 +6,7 @@ Any column that looks like betting / odds / market data is rejected outright.
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 import unicodedata
@@ -51,8 +52,15 @@ def download_sackmann(tours=("atp", "wta"), years=None, force=False) -> None:
             if f.exists() and not force and y < date.today().year:
                 continue
             try:
-                urllib.request.urlretrieve(SACKMANN_BASE.format(tour=t, year=y), f)
+                temporary=f.with_suffix('.download')
+                urllib.request.urlretrieve(SACKMANN_BASE.format(tour=t, year=y), temporary)
+                candidate=pd.read_csv(temporary,low_memory=False)
+                assert_no_market_columns(candidate)
+                if candidate.empty or not {'winner_id','loser_id','tourney_date'}.issubset(candidate.columns):
+                    raise ValueError('Invalid point-statistics download; keeping last good data')
+                os.replace(temporary,f)
             except Exception as e:  # missing future year etc.
+                f.with_suffix('.download').unlink(missing_ok=True)
                 print(f"[data] {t} {y}: {e}")
 
 
@@ -121,7 +129,7 @@ def _strip_market(obj):
     return obj
 
 
-def fetch_espn_day(league: str, d: date, retries: int = 3) -> dict:
+def fetch_espn_day(league: str, d: date, retries: int = 3, strict: bool = False) -> dict:
     url = ESPN_URL.format(league=league, d=d.strftime("%Y%m%d"))
     for k in range(retries):
         try:
@@ -131,6 +139,7 @@ def fetch_espn_day(league: str, d: date, retries: int = 3) -> dict:
         except Exception as e:
             if k == retries - 1:
                 print(f"[espn] {url}: {e}")
+                if strict: raise RuntimeError(f"ESPN results unavailable for {league} {d}; keeping cached results") from e
                 return {"events": []}
             time.sleep(2)
 
@@ -184,14 +193,21 @@ def update_espn_results(since: date, until: date | None = None, step_days: int =
     d = since
     while d <= until:
         for league in ("atp", "wta"):
-            payload = fetch_espn_day(league, d)
+            payload = fetch_espn_day(league, d, strict=True)
             for tour in ("atp", "wta"):
                 for ev, c in espn_competitions(payload, tour):
                     rec = espn_flatten(ev, c, tour)
                     if rec["completed"]:
                         cache[rec["espn_id"]] = rec
+        # Checkpoint each day so a timeout does not discard a long catch-up run.
+        temporary=cache_f.with_suffix('.tmp')
+        temporary.write_text(json.dumps(cache,indent=0,sort_keys=True))
+        os.replace(temporary,cache_f)
+        coverage=ESPN_DIR/'coverage.json'
+        progress=coverage.with_suffix('.tmp')
+        progress.write_text(json.dumps({'through':d.isoformat(),'source':'ESPN ATP/WTA daily scoreboards'}))
+        os.replace(progress,coverage)
         d += timedelta(days=step_days)
-    cache_f.write_text(json.dumps(cache, indent=0, sort_keys=True))
     return list(cache.values())
 
 

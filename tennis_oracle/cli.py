@@ -133,8 +133,17 @@ def cmd_update(a):
     from .data import download_sackmann, load_sackmann, update_espn_results
     download_sackmann(force=a.force)
     end = min(sackmann_end(load_sackmann(t)) for t in ("atp", "wta"))
-    since = end.date() - timedelta(days=3) if a.full else max(end.date(), date.today() - timedelta(days=a.days))
-    recs = update_espn_results(since, date.today() + timedelta(days=1), step_days=2 if a.full else 1)
+    # Resume from the older tour's last cached result, rather than losing games after an outage.
+    from .data import ESPN_DIR
+    cached_file=ESPN_DIR/'results.json'
+    cached=list(json.loads(cached_file.read_text()).values()) if cached_file.exists() else []
+    tour_ends=[max((r['start'][:10] for r in cached if r.get('tour')==tour),default=end.date().isoformat()) for tour in ('atp','wta')]
+    frontier=date.fromisoformat(min(tour_ends))
+    coverage=ESPN_DIR/'coverage.json'
+    if coverage.exists():frontier=max(frontier,date.fromisoformat(json.loads(coverage.read_text())['through']))
+    resume=frontier-timedelta(days=3)
+    since = end.date()-timedelta(days=3) if a.full else max(end.date(),min(resume,date.today()-timedelta(days=a.days)))
+    recs = update_espn_results(since, date.today() + timedelta(days=1), step_days=1)
     print(f"ESPN results cached: {len(recs)} (fetched from {since})")
 
 
