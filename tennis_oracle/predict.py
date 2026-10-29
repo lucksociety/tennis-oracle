@@ -175,6 +175,7 @@ def build_report(na, nb, bo, fr, sim, pa, pb) -> dict:
     return {
         "predicted_winner": na if pA >= 0.5 else nb,
         "win_prob": {"A": round(pA, 4), "B": round(pB, 4)},
+        "win_prob_exact": {"A": float(pA), "B": float(pB)},
         "fair_odds": {"A": fair_odds(pA), "B": fair_odds(pB)},
         "set_score_probs": {k: round(v, 4) for k, v in ss.items()},
         "most_likely_set_score": top,

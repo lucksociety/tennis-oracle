@@ -22,6 +22,7 @@ jobs:
     timeout-minutes: 60
     env:
       TZ: America/New_York
+      DATE: ${{ inputs.date }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,15 +44,15 @@ jobs:
         run: python -m pytest -q tests
       - name: Update results (ESPN scores since dataset cutoff)
         run: oracle update-data --days 5
+      - name: Resolve requested date
+        run: echo "DATE=${DATE:-$(TZ=America/New_York date +%F)}" >> "$GITHUB_ENV"
       - name: Fetch fixtures, export ratings, freeze forecasts
-        run: |
-          if [ -n "${{ github.event.inputs.date }}" ]; then oracle schedule --date "${{ github.event.inputs.date }}" --days 2
-          else oracle schedule --days 2; fi
+        run: oracle schedule --date "$DATE" --days 2
       - name: Verify simulator (n>=100k, seed, re-run, analytic cross-check, consistency)
-        run: oracle verify --days 2 --json
+        run: oracle verify --date "$DATE" --days 2 --json
       - name: Jupiter prices (POST-FREEZE comparison only; never a model input)
         continue-on-error: true   # Jupiter geo-restricts US IPs; GitHub runners may be blocked
-        run: oracle markets --days 2
+        run: oracle markets --date "$DATE" --days 2
       - name: Post-match audit
         run: oracle audit > /dev/null
       - name: Commit

@@ -53,7 +53,21 @@ def check(f: dict, resim: bool = True) -> dict:
     pa_sets = sum(v for k, v in ss.items() if int(k.split("-")[0]) == need)
     if abs(pa_sets - pA) > 2e-3: errs.append(f"A set-score total {pa_sets} != win prob {pA}")
     # winner / final score
-    a_fav = pA >= 0.5
+    exact_win = f.get("win_prob_exact", {}).get("A")
+    named_a = f["predicted_winner"] == f["players"]["A"]["name"]
+    if f["predicted_winner"] not in (f["players"]["A"]["name"], f["players"]["B"]["name"]):
+        errs.append("predicted winner is not a player")
+    if exact_win is not None:
+        if abs(exact_win - pA) > 0.000050001:
+            errs.append("exact win probability disagrees with rounded report")
+        a_fav = exact_win >= 0.5
+    elif pA == 0.5:
+        # Legacy 4dp reports lose the sign of a <0.005 percentage-point edge.
+        # Preserve their declared side; all final-score and simulation checks still apply.
+        a_fav = named_a
+        notes.append("legacy rounded 50/50: declared winner used as tie-break")
+    else:
+        a_fav = pA >= 0.5
     if (f["predicted_winner"] == f["players"]["A"]["name"]) != a_fav: errs.append("predicted winner != higher win prob")
     fs = f["final_score"]; sa, sb = fs["A_sets"], fs["B_sets"]
     if (sa > sb) != a_fav: errs.append("final score winner != predicted winner")
@@ -86,6 +100,11 @@ def check(f: dict, resim: bool = True) -> dict:
         pp = m.get("point_probs_exact") or m["point_probs"]
         var = m["variation"]
         s = summarize(simulate_match(pp["A_serve"], pp["B_serve"], bo, fr, n, m["seed"], var["sigma"], var["rho"]))
+        if pA == 0.5 and abs(s["p_a"] - 0.5) > 1e-12:
+            if (s["p_a"] > 0.5) != named_a:
+                errs.append("predicted winner disagrees with re-simulated unrounded probability")
+        if exact_win is not None and abs(s["p_a"] - exact_win) > 1e-12:
+            errs.append("exact win probability does not reproduce")
         exact = "point_probs_exact" in m
         rep = {"frozen_p_a": pA, "rerun_p_a": round(s["p_a"], 4), "frozen_games_mean": g["mean"], "rerun_games_mean": round(s["games_mean"], 2),
                "mode": "exact" if exact else "4dp-probs"}
@@ -93,7 +112,7 @@ def check(f: dict, resim: bool = True) -> dict:
         if abs(s["p_a"] - pA) > lim: errs.append(f"re-simulation p_a {s['p_a']:.4f} != frozen {pA}")
         if abs(s["games_mean"] - g["mean"]) > (0.01 if exact else 0.25): errs.append(f"re-simulation games mean {s['games_mean']:.2f} != {g['mean']}")
     return {"match": f["match"], "n_sims": n, "seed": m.get("seed"), "mc_se": round(se, 4), "max_mc_vs_exact": round(worst, 4),
-            "reproduction": rep, "ok": not errs, "errors": errs}
+            "reproduction": rep, "ok": not errs, "errors": errs, "notes": notes}
 
 
 def verify_date(day: str, resim: bool = True) -> dict:

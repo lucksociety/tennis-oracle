@@ -11,18 +11,18 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 
-def _engines(tours):
+def _engines(tours, asof=None):
     from .build import build_engine
     from .config import load_params
     p = load_params()
-    return {t: build_engine(t, p) for t in tours}
+    return {t: build_engine(t, p, asof=asof) for t in tours}
 
 
 def cmd_predict(a):
     from .build import find_player
     from .freeze import freeze
     from .report import match_report
-    eng = _engines([a.tour])[a.tour]
+    eng = _engines([a.tour], asof=a.date)[a.tour]
     ia, ib = find_player(eng, a.player_a), find_player(eng, a.player_b)
     ctx = {"a_elo_adj": a.a_adj, "b_elo_adj": a.b_adj, "injury_uncertain": a.injury_uncertain}
     if a.notes:
@@ -54,7 +54,7 @@ def cmd_slate(a):
     if lines and lines[0].split(",")[0].strip().lower() in ("a", "player_a", "player a", "player1"):
         lines = lines[1:]                      # optional header row
     tours = sorted(set((l.split(",")[4].strip() if len(l.split(",")) > 4 else a.tour) for l in lines))
-    engs = _engines(tours)
+    engs = _engines(tours, asof=a.date)
     fs = []
     for l in lines:
         parts = [x.strip() for x in l.split(",")]
