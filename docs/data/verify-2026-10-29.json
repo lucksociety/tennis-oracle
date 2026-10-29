@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
- "n": 32,
- "passed": 32,
+ "n": 33,
+ "passed": 33,
  "results": [
   {
    "match": "Valentin Vacherot vs Rafael Jodar",
@@ -427,6 +427,23 @@
    "ok": true,
    "errors": [],
    "file": "forecasts/2026-10-29/185801-nadia-podoroska-vs-miriam-bulgaru/v1.json"
+  },
+  {
+   "match": "Fiona Ferro vs Adriana Reami",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0023,
+   "reproduction": {
+    "frozen_p_a": 0.5991,
+    "rerun_p_a": 0.5991,
+    "frozen_games_mean": 22.3,
+    "rerun_games_mean": 22.3,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "file": "forecasts/2026-10-29/185806-fiona-ferro-vs-adriana-reami/v1.json"
   },
   {
    "match": "Tamara Zidansek vs Alicia Herrero Linana",

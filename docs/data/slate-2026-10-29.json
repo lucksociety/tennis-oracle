@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-29T00:02:47+00:00",
+ "generated_at_utc": "2026-10-29T05:49:26+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -11,10 +11,10 @@
    "tournament": "Guangzhou Open",
    "venue": "Guangzhou, China PR",
    "round": "Round 2",
-   "court": "Center Court",
+   "court": "",
    "start_utc": "2026-10-29T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_WALKOVER",
+   "completed": true,
    "players": [
     {
      "name": "Claire Liu",
@@ -30,7 +30,10 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": []
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T10:37:23+00:00",
@@ -141,9 +144,9 @@
    "tournament": "Guangzhou Open",
    "venue": "Guangzhou, China PR",
    "round": "Round 2",
-   "court": "Court 2",
-   "start_utc": "2026-10-29T05:00Z",
-   "status": "STATUS_SCHEDULED",
+   "court": "Center Court",
+   "start_utc": "2026-10-29T05:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -272,7 +275,7 @@
    "venue": "Tokyo, Japan",
    "round": "Round 2",
    "court": "Center",
-   "start_utc": "2026-10-29T05:30Z",
+   "start_utc": "2026-10-29T05:45Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -3772,13 +3775,143 @@
    }
   },
   {
-   "espn_id": "185794",
+   "espn_id": "185806",
    "tour": "wta",
    "tournament": "Queretaro Open",
    "venue": "Santiago de Quer\u00e9taro, Mexico",
    "round": "Round 2",
    "court": "Estadio Mexcovery",
    "start_utc": "2026-10-29T21:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Fiona Ferro",
+     "id": "wta:211539"
+    },
+    {
+     "name": "Adriana Reami",
+     "id": "wta:222299"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T05:49:19+00:00",
+    "path": "forecasts/2026-10-29/185806-fiona-ferro-vs-adriana-reami/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Fiona Ferro",
+    "win_prob": {
+     "A": 0.5991,
+     "B": 0.4009
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3997
+    },
+    "games_mean": 22.3,
+    "strongest": {
+     "selection": "Fiona Ferro to win at least one set",
+     "probability": 0.7645,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5991,
+      "B": 0.4009
+     },
+     "set_score_probs": {
+      "2-0": 0.3997,
+      "0-2": 0.2355,
+      "2-1": 0.1994,
+      "1-2": 0.1653
+     },
+     "games_pmf": {
+      "12": 0.00294,
+      "13": 0.0134,
+      "14": 0.02901,
+      "15": 0.05188,
+      "16": 0.07075,
+      "17": 0.08639,
+      "18": 0.08357,
+      "19": 0.07706,
+      "20": 0.06623,
+      "21": 0.04978,
+      "22": 0.05659,
+      "23": 0.03759,
+      "24": 0.02257,
+      "25": 0.03655,
+      "26": 0.04133,
+      "27": 0.03849,
+      "28": 0.04084,
+      "29": 0.04005,
+      "30": 0.03876,
+      "31": 0.03375,
+      "32": 0.02815,
+      "33": 0.0183,
+      "34": 0.0135,
+      "35": 0.01238,
+      "36": 0.00541,
+      "37": 0.00171,
+      "38": 0.00209,
+      "39": 0.00093
+     },
+     "games_diff_pmf": {
+      "-12": 0.00081,
+      "-11": 0.00346,
+      "-10": 0.00893,
+      "-9": 0.017,
+      "-8": 0.02787,
+      "-7": 0.04432,
+      "-6": 0.05484,
+      "-5": 0.06152,
+      "-4": 0.06175,
+      "-3": 0.04627,
+      "-2": 0.03268,
+      "-1": 0.02644,
+      "0": 0.02705,
+      "1": 0.02883,
+      "2": 0.03802,
+      "3": 0.05685,
+      "4": 0.08187,
+      "5": 0.08802,
+      "6": 0.08832,
+      "7": 0.07755,
+      "8": 0.05654,
+      "9": 0.03792,
+      "10": 0.02093,
+      "11": 0.01008,
+      "12": 0.00213
+     },
+     "p_tiebreak": 0.2422,
+     "p_decider": 0.3647
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0023
+   }
+  },
+  {
+   "espn_id": "185794",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Round 2",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-10-29T23:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [

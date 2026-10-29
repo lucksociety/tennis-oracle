@@ -1,30 +1,30 @@
 {
- "generated_at_utc": "2026-10-29T00:05:11+00:00",
+ "generated_at_utc": "2026-10-29T05:50:56+00:00",
  "summary": {
-  "n": 33,
-  "brier": 0.2303933115151515,
-  "log_loss": 0.65042322209502,
-  "accuracy": 0.5454545454545454,
-  "games_mae": 4.063030303030303,
-  "exact_sets_accuracy": 0.36363636363636365,
-  "tiebreak_brier": 0.17863167606060606
+  "n": 36,
+  "brier": 0.23976133888888887,
+  "log_loss": 0.669771944394162,
+  "accuracy": 0.5,
+  "games_mae": 4.025833333333333,
+  "exact_sets_accuracy": 0.3333333333333333,
+  "tiebreak_brier": 0.1809245608333333
  },
- "n": 33,
+ "n": 36,
  "overall": {
-  "n": 33,
-  "brier": 0.2303933115151515,
-  "log_loss": 0.65042322209502,
-  "accuracy": 0.5454545454545454
+  "n": 36,
+  "brier": 0.23976133888888887,
+  "log_loss": 0.669771944394162,
+  "accuracy": 0.5
  },
- "games_mae": 4.063030303030303,
- "exact_sets_accuracy": 0.36363636363636365,
- "tiebreak_brier": 0.17863167606060606,
+ "games_mae": 4.025833333333333,
+ "exact_sets_accuracy": 0.3333333333333333,
+ "tiebreak_brier": 0.1809245608333333,
  "by_surface": {
   "Hard": {
-   "n": 33,
-   "brier": 0.2303933115151515,
-   "log_loss": 0.65042322209502,
-   "accuracy": 0.5454545454545454
+   "n": 36,
+   "brier": 0.23976133888888887,
+   "log_loss": 0.669771944394162,
+   "accuracy": 0.5
   }
  },
  "by_tour": {
@@ -35,38 +35,38 @@
    "accuracy": 0.4166666666666667
   },
   "wta": {
-   "n": 21,
-   "brier": 0.22689329904761907,
-   "log_loss": 0.6454002010975648,
-   "accuracy": 0.6190476190476191
+   "n": 24,
+   "brier": 0.24138284166666665,
+   "log_loss": 0.6750511621709596,
+   "accuracy": 0.5416666666666666
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 20,
-   "brier": 0.2233165055,
-   "log_loss": 0.635558159238036,
-   "accuracy": 0.6
+   "n": 21,
+   "brier": 0.23239493666666672,
+   "log_loss": 0.6543954170625629,
+   "accuracy": 0.5714285714285714
   },
   "MEDIUM": {
-   "n": 13,
-   "brier": 0.24128070538461538,
-   "log_loss": 0.673292549567303,
-   "accuracy": 0.46153846153846156
+   "n": 15,
+   "brier": 0.250074302,
+   "log_loss": 0.6912990826584008,
+   "accuracy": 0.4
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 23,
-   "mean_pred": 0.5418043478260871,
-   "observed": 0.43478260869565216
+   "n": 25,
+   "mean_pred": 0.542764,
+   "observed": 0.4
   },
   {
    "bucket": "60%-70%",
-   "n": 6,
-   "mean_pred": 0.6610166666666667,
-   "observed": 0.6666666666666666
+   "n": 7,
+   "mean_pred": 0.6585,
+   "observed": 0.5714285714285714
   },
   {
    "bucket": "70%-80%",
@@ -629,6 +629,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Alycia Parks vs Kimberly Birrell",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.4694,
+   "a_won": 1,
+   "pred_winner": "Kimberly Birrell",
+   "actual_winner": "Alycia Parks",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2872,
+   "exp_games": 22.93,
+   "actual_games": 16,
+   "p_tb": 0.2964,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4249,
+     1
+    ],
+    "A -2.5": [
+     0.3854,
+     1
+    ],
+    "A -3.5": [
+     0.3277,
+     1
+    ],
+    "A -4.5": [
+     0.2503,
+     1
+    ],
+    "A -5.5": [
+     0.1767,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alexandra Eala vs Talia Gibson",
    "date": "2026-10-28",
    "tour": "wta",
@@ -706,6 +748,48 @@
     ],
     "A -5.5": [
      0.1119,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Leylah Fernandez vs Elise Mertens",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.423,
+   "a_won": 1,
+   "pred_winner": "Elise Mertens",
+   "actual_winner": "Leylah Fernandez",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2497,
+   "exp_games": 23.08,
+   "actual_games": 21,
+   "p_tb": 0.3124,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3771,
+     1
+    ],
+    "A -2.5": [
+     0.3363,
+     1
+    ],
+    "A -3.5": [
+     0.2796,
+     1
+    ],
+    "A -4.5": [
+     0.2077,
+     1
+    ],
+    "A -5.5": [
+     0.1406,
      0
     ]
    },
@@ -1168,6 +1252,48 @@
     ],
     "A -5.5": [
      0.2562,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Selena Janicijevic vs Elizabeth Mandlik",
+   "date": "2026-10-28",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Queretaro Open",
+   "p_a": 0.6434,
+   "a_won": 0,
+   "pred_winner": "Selena Janicijevic",
+   "actual_winner": "Elizabeth Mandlik",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1531,
+   "exp_games": 22.16,
+   "actual_games": 24,
+   "p_tb": 0.2404,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6042,
+     0
+    ],
+    "A -2.5": [
+     0.565,
+     0
+    ],
+    "A -3.5": [
+     0.5071,
+     0
+    ],
+    "A -4.5": [
+     0.422,
+     0
+    ],
+    "A -5.5": [
+     0.3291,
      0
     ]
    },
