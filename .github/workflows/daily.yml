@@ -3,6 +3,12 @@ name: daily-slate
 # refresh ratings with newly completed results, freeze pre-match forecasts, audit settled ones,
 # and commit docs/data + forecasts so the dashboard's Simulate button always has the newest slate.
 on:
+  push:
+    branches: [main]
+    paths:
+      - tennis_oracle/data.py
+      - tennis_oracle/cli.py
+      - .github/workflows/daily.yml
   schedule:
     - cron: "17 */4 * * *"      # every 4 hours (UTC)
   workflow_dispatch:
@@ -62,4 +68,8 @@ jobs:
           git add docs/data forecasts data/espn market_snapshots
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Daily slate $(date +%F) (model $(cat models/CURRENT)) [skip ci]"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then exit 0; fi
+            sleep 5
+          done
+          exit 1
