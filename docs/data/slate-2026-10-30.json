@@ -1,429 +1,10 @@
 {
  "date": "2026-10-30",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-29T19:43:46+00:00",
+ "generated_at_utc": "2026-10-29T21:08:59+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
-  {
-   "espn_id": "185775",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Leyre Romero Gormaz",
-     "id": "wta:220742"
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "185778",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Julia Riera",
-     "id": "wta:220699"
-    },
-    {
-     "name": "Solana Sierra",
-     "id": "wta:221333"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-29T19:43:18+00:00",
-    "path": "forecasts/2026-10-30/185778-julia-riera-vs-solana-sierra/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Julia Riera",
-    "win_prob": {
-     "A": 0.5247,
-     "B": 0.4753
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.3311
-    },
-    "games_mean": 22.79,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7204,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5247,
-      "B": 0.4753
-     },
-     "set_score_probs": {
-      "2-0": 0.3311,
-      "0-2": 0.2886,
-      "2-1": 0.1936,
-      "1-2": 0.1867
-     },
-     "games_pmf": {
-      "12": 0.00175,
-      "13": 0.00924,
-      "14": 0.02244,
-      "15": 0.04229,
-      "16": 0.06302,
-      "17": 0.082,
-      "18": 0.08124,
-      "19": 0.07905,
-      "20": 0.0691,
-      "21": 0.04994,
-      "22": 0.06138,
-      "23": 0.04207,
-      "24": 0.02037,
-      "25": 0.03692,
-      "26": 0.04179,
-      "27": 0.03762,
-      "28": 0.04173,
-      "29": 0.04061,
-      "30": 0.03987,
-      "31": 0.03781,
-      "32": 0.03282,
-      "33": 0.022,
-      "34": 0.01534,
-      "35": 0.0154,
-      "36": 0.00762,
-      "37": 0.00234,
-      "38": 0.00267,
-      "39": 0.00157
-     },
-     "games_diff_pmf": {
-      "-12": 0.00093,
-      "-11": 0.0039,
-      "-10": 0.0099,
-      "-9": 0.01983,
-      "-8": 0.03373,
-      "-7": 0.05391,
-      "-6": 0.0652,
-      "-5": 0.07236,
-      "-4": 0.07481,
-      "-3": 0.05618,
-      "-2": 0.03893,
-      "-1": 0.02983,
-      "0": 0.02886,
-      "1": 0.03096,
-      "2": 0.0405,
-      "3": 0.05872,
-      "4": 0.08077,
-      "5": 0.0814,
-      "6": 0.07337,
-      "7": 0.06116,
-      "8": 0.04013,
-      "9": 0.02521,
-      "10": 0.01319,
-      "11": 0.0054,
-      "12": 0.00082
-     },
-     "p_tiebreak": 0.2796,
-     "p_decider": 0.3804
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
-   "espn_id": "185777",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Alice Tubello",
-     "id": "wta:220554"
-    },
-    {
-     "name": "Jazmin Ortenzi",
-     "id": "wta:220446"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-29T05:49:35+00:00",
-    "path": "forecasts/2026-10-30/185777-alice-tubello-vs-jazmin-ortenzi/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Jazmin Ortenzi",
-    "win_prob": {
-     "A": 0.4655,
-     "B": 0.5345
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3405
-    },
-    "games_mean": 22.63,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7332,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4655,
-      "B": 0.5345
-     },
-     "set_score_probs": {
-      "0-2": 0.3405,
-      "2-0": 0.2844,
-      "1-2": 0.194,
-      "2-1": 0.1811
-     },
-     "games_pmf": {
-      "12": 0.00214,
-      "13": 0.01048,
-      "14": 0.0246,
-      "15": 0.04589,
-      "16": 0.06565,
-      "17": 0.08222,
-      "18": 0.08337,
-      "19": 0.0783,
-      "20": 0.06796,
-      "21": 0.04839,
-      "22": 0.06026,
-      "23": 0.04048,
-      "24": 0.02125,
-      "25": 0.03784,
-      "26": 0.04158,
-      "27": 0.03745,
-      "28": 0.04125,
-      "29": 0.04228,
-      "30": 0.03929,
-      "31": 0.03583,
-      "32": 0.0313,
-      "33": 0.02037,
-      "34": 0.01482,
-      "35": 0.01452,
-      "36": 0.00652,
-      "37": 0.00209,
-      "38": 0.00256,
-      "39": 0.00131
-     },
-     "games_diff_pmf": {
-      "-12": 0.00133,
-      "-11": 0.0062,
-      "-10": 0.01444,
-      "-9": 0.027,
-      "-8": 0.04405,
-      "-7": 0.06371,
-      "-6": 0.07602,
-      "-5": 0.08123,
-      "-4": 0.0803,
-      "-3": 0.05891,
-      "-2": 0.03895,
-      "-1": 0.02938,
-      "0": 0.02751,
-      "1": 0.02887,
-      "2": 0.03784,
-      "3": 0.05367,
-      "4": 0.07202,
-      "5": 0.07058,
-      "6": 0.06417,
-      "7": 0.05193,
-      "8": 0.0342,
-      "9": 0.02163,
-      "10": 0.01091,
-      "11": 0.00434,
-      "12": 0.00081
-     },
-     "p_tiebreak": 0.2668,
-     "p_decider": 0.3751
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
-   "espn_id": "185776",
-   "tour": "wta",
-   "tournament": "Curitiba Open",
-   "venue": "Curitiba, Brazil",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Francesca Jones",
-     "id": "wta:215936"
-    },
-    {
-     "name": "Nauhany Vitoria Leme Da Silva",
-     "id": "wta:267382"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-29T19:43:20+00:00",
-    "path": "forecasts/2026-10-30/185776-francesca-jones-vs-nauhany-vitoria-leme-da-silva/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Francesca Jones",
-    "win_prob": {
-     "A": 0.5396,
-     "B": 0.4604
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.3446
-    },
-    "games_mean": 22.62,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7335,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5396,
-      "B": 0.4604
-     },
-     "set_score_probs": {
-      "2-0": 0.3446,
-      "0-2": 0.28,
-      "2-1": 0.195,
-      "1-2": 0.1804
-     },
-     "games_pmf": {
-      "12": 0.00208,
-      "13": 0.01047,
-      "14": 0.02433,
-      "15": 0.04558,
-      "16": 0.06669,
-      "17": 0.08226,
-      "18": 0.083,
-      "19": 0.07753,
-      "20": 0.06815,
-      "21": 0.04947,
-      "22": 0.06016,
-      "23": 0.04085,
-      "24": 0.02107,
-      "25": 0.03788,
-      "26": 0.04038,
-      "27": 0.03819,
-      "28": 0.0409,
-      "29": 0.04288,
-      "30": 0.03979,
-      "31": 0.03685,
-      "32": 0.0307,
-      "33": 0.01989,
-      "34": 0.01474,
-      "35": 0.0141,
-      "36": 0.00658,
-      "37": 0.00192,
-      "38": 0.00234,
-      "39": 0.00122
-     },
-     "games_diff_pmf": {
-      "-12": 0.00084,
-      "-11": 0.00421,
-      "-10": 0.01022,
-      "-9": 0.02022,
-      "-8": 0.03452,
-      "-7": 0.05027,
-      "-6": 0.06266,
-      "-5": 0.07024,
-      "-4": 0.07085,
-      "-3": 0.05394,
-      "-2": 0.03787,
-      "-1": 0.02968,
-      "0": 0.02807,
-      "1": 0.02976,
-      "2": 0.03911,
-      "3": 0.05838,
-      "4": 0.08013,
-      "5": 0.08242,
-      "6": 0.07674,
-      "7": 0.06508,
-      "8": 0.04389,
-      "9": 0.02856,
-      "10": 0.01477,
-      "11": 0.00633,
-      "12": 0.00124
-     },
-     "p_tiebreak": 0.2665,
-     "p_decider": 0.3754
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.003
-   }
-  },
   {
    "espn_id": "185816",
    "tour": "wta",
@@ -2242,8 +1823,8 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Anna Blinkova",
+     "id": "wta:215020"
     },
     {
      "name": "TBD",
@@ -2258,6 +1839,266 @@
    "result": null,
    "forecast": null,
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  },
+  {
+   "espn_id": "185775",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Quarterfinal",
+   "court": "Quadra 1",
+   "start_utc": "2026-10-30T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Leyre Romero Gormaz",
+     "id": "wta:220742"
+    },
+    {
+     "name": "Julia Grabher",
+     "id": "wta:211814"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T21:08:55+00:00",
+    "path": "forecasts/2026-10-30/185775-leyre-romero-gormaz-vs-julia-grabher/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Leyre Romero Gormaz",
+    "win_prob": {
+     "A": 0.5548,
+     "B": 0.4452
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3588
+    },
+    "games_mean": 22.77,
+    "strongest": {
+     "selection": "Leyre Romero Gormaz to win at least one set",
+     "probability": 0.7342,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5548,
+      "B": 0.4452
+     },
+     "set_score_probs": {
+      "2-0": 0.3588,
+      "0-2": 0.2658,
+      "2-1": 0.1959,
+      "1-2": 0.1795
+     },
+     "games_pmf": {
+      "12": 0.00203,
+      "13": 0.00918,
+      "14": 0.02214,
+      "15": 0.0424,
+      "16": 0.06239,
+      "17": 0.08042,
+      "18": 0.08226,
+      "19": 0.08021,
+      "20": 0.07045,
+      "21": 0.05118,
+      "22": 0.06222,
+      "23": 0.04177,
+      "24": 0.0198,
+      "25": 0.03772,
+      "26": 0.04127,
+      "27": 0.03621,
+      "28": 0.03954,
+      "29": 0.04249,
+      "30": 0.03908,
+      "31": 0.03844,
+      "32": 0.03317,
+      "33": 0.02154,
+      "34": 0.01542,
+      "35": 0.01519,
+      "36": 0.00733,
+      "37": 0.00184,
+      "38": 0.00265,
+      "39": 0.00166
+     },
+     "games_diff_pmf": {
+      "-12": 0.00075,
+      "-11": 0.00305,
+      "-10": 0.00833,
+      "-9": 0.01691,
+      "-8": 0.02943,
+      "-7": 0.0473,
+      "-6": 0.06019,
+      "-5": 0.06977,
+      "-4": 0.07157,
+      "-3": 0.05538,
+      "-2": 0.03746,
+      "-1": 0.03007,
+      "0": 0.02809,
+      "1": 0.03076,
+      "2": 0.04017,
+      "3": 0.06041,
+      "4": 0.08529,
+      "5": 0.08679,
+      "6": 0.07907,
+      "7": 0.06549,
+      "8": 0.04366,
+      "9": 0.02811,
+      "10": 0.01446,
+      "11": 0.00621,
+      "12": 0.00128
+     },
+     "p_tiebreak": 0.2832,
+     "p_decider": 0.3754
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0042
+   }
+  },
+  {
+   "espn_id": "185778",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Quarterfinal",
+   "court": "Quadra Central",
+   "start_utc": "2026-10-30T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Julia Riera",
+     "id": "wta:220699"
+    },
+    {
+     "name": "Solana Sierra",
+     "id": "wta:221333"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T19:43:18+00:00",
+    "path": "forecasts/2026-10-30/185778-julia-riera-vs-solana-sierra/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Julia Riera",
+    "win_prob": {
+     "A": 0.5247,
+     "B": 0.4753
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3311
+    },
+    "games_mean": 22.79,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7204,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5247,
+      "B": 0.4753
+     },
+     "set_score_probs": {
+      "2-0": 0.3311,
+      "0-2": 0.2886,
+      "2-1": 0.1936,
+      "1-2": 0.1867
+     },
+     "games_pmf": {
+      "12": 0.00175,
+      "13": 0.00924,
+      "14": 0.02244,
+      "15": 0.04229,
+      "16": 0.06302,
+      "17": 0.082,
+      "18": 0.08124,
+      "19": 0.07905,
+      "20": 0.0691,
+      "21": 0.04994,
+      "22": 0.06138,
+      "23": 0.04207,
+      "24": 0.02037,
+      "25": 0.03692,
+      "26": 0.04179,
+      "27": 0.03762,
+      "28": 0.04173,
+      "29": 0.04061,
+      "30": 0.03987,
+      "31": 0.03781,
+      "32": 0.03282,
+      "33": 0.022,
+      "34": 0.01534,
+      "35": 0.0154,
+      "36": 0.00762,
+      "37": 0.00234,
+      "38": 0.00267,
+      "39": 0.00157
+     },
+     "games_diff_pmf": {
+      "-12": 0.00093,
+      "-11": 0.0039,
+      "-10": 0.0099,
+      "-9": 0.01983,
+      "-8": 0.03373,
+      "-7": 0.05391,
+      "-6": 0.0652,
+      "-5": 0.07236,
+      "-4": 0.07481,
+      "-3": 0.05618,
+      "-2": 0.03893,
+      "-1": 0.02983,
+      "0": 0.02886,
+      "1": 0.03096,
+      "2": 0.0405,
+      "3": 0.05872,
+      "4": 0.08077,
+      "5": 0.0814,
+      "6": 0.07337,
+      "7": 0.06116,
+      "8": 0.04013,
+      "9": 0.02521,
+      "10": 0.01319,
+      "11": 0.0054,
+      "12": 0.00082
+     },
+     "p_tiebreak": 0.2796,
+     "p_decider": 0.3804
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0029
+   }
   },
   {
    "espn_id": "185199",
@@ -2389,6 +2230,136 @@
    }
   },
   {
+   "espn_id": "185776",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Quarterfinal",
+   "court": "Quadra Central",
+   "start_utc": "2026-10-30T16:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Francesca Jones",
+     "id": "wta:215936"
+    },
+    {
+     "name": "Nauhany Vitoria Leme Da Silva",
+     "id": "wta:267382"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T19:43:20+00:00",
+    "path": "forecasts/2026-10-30/185776-francesca-jones-vs-nauhany-vitoria-leme-da-silva/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Francesca Jones",
+    "win_prob": {
+     "A": 0.5396,
+     "B": 0.4604
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3446
+    },
+    "games_mean": 22.62,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7335,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5396,
+      "B": 0.4604
+     },
+     "set_score_probs": {
+      "2-0": 0.3446,
+      "0-2": 0.28,
+      "2-1": 0.195,
+      "1-2": 0.1804
+     },
+     "games_pmf": {
+      "12": 0.00208,
+      "13": 0.01047,
+      "14": 0.02433,
+      "15": 0.04558,
+      "16": 0.06669,
+      "17": 0.08226,
+      "18": 0.083,
+      "19": 0.07753,
+      "20": 0.06815,
+      "21": 0.04947,
+      "22": 0.06016,
+      "23": 0.04085,
+      "24": 0.02107,
+      "25": 0.03788,
+      "26": 0.04038,
+      "27": 0.03819,
+      "28": 0.0409,
+      "29": 0.04288,
+      "30": 0.03979,
+      "31": 0.03685,
+      "32": 0.0307,
+      "33": 0.01989,
+      "34": 0.01474,
+      "35": 0.0141,
+      "36": 0.00658,
+      "37": 0.00192,
+      "38": 0.00234,
+      "39": 0.00122
+     },
+     "games_diff_pmf": {
+      "-12": 0.00084,
+      "-11": 0.00421,
+      "-10": 0.01022,
+      "-9": 0.02022,
+      "-8": 0.03452,
+      "-7": 0.05027,
+      "-6": 0.06266,
+      "-5": 0.07024,
+      "-4": 0.07085,
+      "-3": 0.05394,
+      "-2": 0.03787,
+      "-1": 0.02968,
+      "0": 0.02807,
+      "1": 0.02976,
+      "2": 0.03911,
+      "3": 0.05838,
+      "4": 0.08013,
+      "5": 0.08242,
+      "6": 0.07674,
+      "7": 0.06508,
+      "8": 0.04389,
+      "9": 0.02856,
+      "10": 0.01477,
+      "11": 0.00633,
+      "12": 0.00124
+     },
+     "p_tiebreak": 0.2665,
+     "p_decider": 0.3754
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.003
+   }
+  },
+  {
    "espn_id": "185156",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
@@ -2400,8 +2371,8 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Jan-Lennard Struff",
+     "id": "atp:105526"
     },
     {
      "name": "Nuno Borges",
@@ -2414,8 +2385,239 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T21:08:57+00:00",
+    "path": "forecasts/2026-10-30/185156-jan-lennard-struff-vs-nuno-borges/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Nuno Borges",
+    "win_prob": {
+     "A": 0.4792,
+     "B": 0.5208
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3164
+    },
+    "games_mean": 24.72,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.83,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4792,
+      "B": 0.5208
+     },
+     "set_score_probs": {
+      "0-2": 0.3164,
+      "2-0": 0.2817,
+      "1-2": 0.2044,
+      "2-1": 0.1975
+     },
+     "games_pmf": {
+      "12": 0.00028,
+      "13": 0.00216,
+      "14": 0.00603,
+      "15": 0.01638,
+      "16": 0.02814,
+      "17": 0.05344,
+      "18": 0.06355,
+      "19": 0.07972,
+      "20": 0.07458,
+      "21": 0.05079,
+      "22": 0.08841,
+      "23": 0.07095,
+      "24": 0.00919,
+      "25": 0.03509,
+      "26": 0.05604,
+      "27": 0.02531,
+      "28": 0.03277,
+      "29": 0.03461,
+      "30": 0.03519,
+      "31": 0.046,
+      "32": 0.05018,
+      "33": 0.03156,
+      "34": 0.02282,
+      "35": 0.03696,
+      "36": 0.02658,
+      "37": 0.0027,
+      "38": 0.00921,
+      "39": 0.01136
+     },
+     "games_diff_pmf": {
+      "-12": 0.00014,
+      "-11": 0.00122,
+      "-10": 0.0039,
+      "-9": 0.00956,
+      "-8": 0.01754,
+      "-7": 0.03832,
+      "-6": 0.0545,
+      "-5": 0.08178,
+      "-4": 0.10104,
+      "-3": 0.08768,
+      "-2": 0.06628,
+      "-1": 0.03973,
+      "0": 0.03879,
+      "1": 0.04007,
+      "2": 0.06242,
+      "3": 0.0839,
+      "4": 0.09309,
+      "5": 0.07423,
+      "6": 0.04798,
+      "7": 0.03186,
+      "8": 0.01481,
+      "9": 0.00769,
+      "10": 0.00234,
+      "11": 0.00099,
+      "12": 0.00014
+     },
+     "p_tiebreak": 0.4812,
+     "p_decider": 0.402
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0016
+   }
+  },
+  {
+   "espn_id": "185777",
+   "tour": "wta",
+   "tournament": "Curitiba Open",
+   "venue": "Curitiba, Brazil",
+   "round": "Quarterfinal",
+   "court": "Quadra Central",
+   "start_utc": "2026-10-30T18:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alice Tubello",
+     "id": "wta:220554"
+    },
+    {
+     "name": "Jazmin Ortenzi",
+     "id": "wta:220446"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T05:49:35+00:00",
+    "path": "forecasts/2026-10-30/185777-alice-tubello-vs-jazmin-ortenzi/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Jazmin Ortenzi",
+    "win_prob": {
+     "A": 0.4655,
+     "B": 0.5345
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3405
+    },
+    "games_mean": 22.63,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7332,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4655,
+      "B": 0.5345
+     },
+     "set_score_probs": {
+      "0-2": 0.3405,
+      "2-0": 0.2844,
+      "1-2": 0.194,
+      "2-1": 0.1811
+     },
+     "games_pmf": {
+      "12": 0.00214,
+      "13": 0.01048,
+      "14": 0.0246,
+      "15": 0.04589,
+      "16": 0.06565,
+      "17": 0.08222,
+      "18": 0.08337,
+      "19": 0.0783,
+      "20": 0.06796,
+      "21": 0.04839,
+      "22": 0.06026,
+      "23": 0.04048,
+      "24": 0.02125,
+      "25": 0.03784,
+      "26": 0.04158,
+      "27": 0.03745,
+      "28": 0.04125,
+      "29": 0.04228,
+      "30": 0.03929,
+      "31": 0.03583,
+      "32": 0.0313,
+      "33": 0.02037,
+      "34": 0.01482,
+      "35": 0.01452,
+      "36": 0.00652,
+      "37": 0.00209,
+      "38": 0.00256,
+      "39": 0.00131
+     },
+     "games_diff_pmf": {
+      "-12": 0.00133,
+      "-11": 0.0062,
+      "-10": 0.01444,
+      "-9": 0.027,
+      "-8": 0.04405,
+      "-7": 0.06371,
+      "-6": 0.07602,
+      "-5": 0.08123,
+      "-4": 0.0803,
+      "-3": 0.05891,
+      "-2": 0.03895,
+      "-1": 0.02938,
+      "0": 0.02751,
+      "1": 0.02887,
+      "2": 0.03784,
+      "3": 0.05367,
+      "4": 0.07202,
+      "5": 0.07058,
+      "6": 0.06417,
+      "7": 0.05193,
+      "8": 0.0342,
+      "9": 0.02163,
+      "10": 0.01091,
+      "11": 0.00434,
+      "12": 0.00081
+     },
+     "p_tiebreak": 0.2668,
+     "p_decider": 0.3751
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0029
+   }
   },
   {
    "espn_id": "185155",
@@ -2458,8 +2660,8 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Matteo Berrettini",
+     "id": "atp:126610"
     },
     {
      "name": "Alex de Minaur",
@@ -2472,8 +2674,109 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T21:08:59+00:00",
+    "path": "forecasts/2026-10-30/185200-matteo-berrettini-vs-alex-de-minaur/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alex De Minaur",
+    "win_prob": {
+     "A": 0.3415,
+     "B": 0.6585
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.4361
+    },
+    "games_mean": 24.21,
+    "strongest": {
+     "selection": "Alex De Minaur to win at least one set",
+     "probability": 0.8147,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3415,
+      "B": 0.6585
+     },
+     "set_score_probs": {
+      "0-2": 0.4361,
+      "1-2": 0.2224,
+      "2-0": 0.1853,
+      "2-1": 0.1562
+     },
+     "games_pmf": {
+      "12": 0.00055,
+      "13": 0.00331,
+      "14": 0.00875,
+      "15": 0.022,
+      "16": 0.03612,
+      "17": 0.06105,
+      "18": 0.06914,
+      "19": 0.08158,
+      "20": 0.07737,
+      "21": 0.05064,
+      "22": 0.08518,
+      "23": 0.06741,
+      "24": 0.01061,
+      "25": 0.03398,
+      "26": 0.05213,
+      "27": 0.02567,
+      "28": 0.03145,
+      "29": 0.03424,
+      "30": 0.03482,
+      "31": 0.04431,
+      "32": 0.04438,
+      "33": 0.02847,
+      "34": 0.02143,
+      "35": 0.03278,
+      "36": 0.02329,
+      "37": 0.00223,
+      "38": 0.00755,
+      "39": 0.00956
+     },
+     "games_diff_pmf": {
+      "-12": 0.0005,
+      "-11": 0.00306,
+      "-10": 0.0077,
+      "-9": 0.01942,
+      "-8": 0.0329,
+      "-7": 0.06129,
+      "-6": 0.08098,
+      "-5": 0.10741,
+      "-4": 0.12422,
+      "-3": 0.09949,
+      "-2": 0.06744,
+      "-1": 0.03933,
+      "0": 0.03457,
+      "1": 0.0334,
+      "2": 0.04964,
+      "3": 0.06148,
+      "4": 0.0652,
+      "5": 0.04907,
+      "6": 0.03022,
+      "7": 0.01914,
+      "8": 0.00806,
+      "9": 0.00385,
+      "10": 0.00129,
+      "11": 0.00029,
+      "12": 5e-05
+     },
+     "p_tiebreak": 0.4476,
+     "p_decider": 0.3786
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0026
+   }
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-29T19:43:14+00:00",
+ "generated_at_utc": "2026-10-29T21:08:53+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -2875,8 +2875,8 @@
    "round": "Round 2",
    "court": "Grandstand",
    "start_utc": "2026-10-29T17:30Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Anna Blinkova",
@@ -2892,7 +2892,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T18:23:33+00:00",
@@ -3146,8 +3162,8 @@
    "round": "Round 2",
    "court": "Center Court",
    "start_utc": "2026-10-29T18:20Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Novak Djokovic",
@@ -3163,7 +3179,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T18:23:25+00:00",
@@ -3275,8 +3307,8 @@
    "round": "Round 2",
    "court": "Quadra Central",
    "start_utc": "2026-10-29T18:25Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Maria Lourdes Carle",
@@ -3292,7 +3324,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      5,
+      7
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T10:37:11+00:00",
@@ -3405,8 +3449,8 @@
    "round": "Round 2",
    "court": "Centre Court",
    "start_utc": "2026-10-29T19:45Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_RETIRED",
+   "completed": true,
    "players": [
     {
      "name": "Flavio Cobolli",
@@ -3422,7 +3466,15 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-28T10:36:55+00:00",
@@ -3528,273 +3580,14 @@
    }
   },
   {
-   "espn_id": "185847",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Round 2",
-   "court": "Grandstand",
-   "start_utc": "2026-10-29T19:55Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Martyna Kubka",
-     "id": "wta:221243"
-    },
-    {
-     "name": "Lisa Pigato",
-     "id": "wta:221354"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T18:23:35+00:00",
-    "path": "forecasts/2026-10-29/185847-martyna-kubka-vs-lisa-pigato/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Lisa Pigato",
-    "win_prob": {
-     "A": 0.4798,
-     "B": 0.5202
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3273
-    },
-    "games_mean": 22.63,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7346,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4798,
-      "B": 0.5202
-     },
-     "set_score_probs": {
-      "0-2": 0.3273,
-      "2-0": 0.2975,
-      "1-2": 0.1929,
-      "2-1": 0.1823
-     },
-     "games_pmf": {
-      "12": 0.00216,
-      "13": 0.01006,
-      "14": 0.02374,
-      "15": 0.04503,
-      "16": 0.06683,
-      "17": 0.08393,
-      "18": 0.08379,
-      "19": 0.07811,
-      "20": 0.06868,
-      "21": 0.04952,
-      "22": 0.05911,
-      "23": 0.03953,
-      "24": 0.02025,
-      "25": 0.0373,
-      "26": 0.04112,
-      "27": 0.03861,
-      "28": 0.04161,
-      "29": 0.04126,
-      "30": 0.0394,
-      "31": 0.03627,
-      "32": 0.03183,
-      "33": 0.02033,
-      "34": 0.01497,
-      "35": 0.01429,
-      "36": 0.00638,
-      "37": 0.00193,
-      "38": 0.00278,
-      "39": 0.00118
-     },
-     "games_diff_pmf": {
-      "-12": 0.0013,
-      "-11": 0.00573,
-      "-10": 0.01344,
-      "-9": 0.0251,
-      "-8": 0.04211,
-      "-7": 0.0624,
-      "-6": 0.07334,
-      "-5": 0.07756,
-      "-4": 0.07891,
-      "-3": 0.05627,
-      "-2": 0.04014,
-      "-1": 0.02969,
-      "0": 0.02776,
-      "1": 0.02991,
-      "2": 0.03762,
-      "3": 0.05385,
-      "4": 0.07178,
-      "5": 0.07402,
-      "6": 0.06714,
-      "7": 0.0556,
-      "8": 0.03723,
-      "9": 0.0228,
-      "10": 0.01102,
-      "11": 0.00442,
-      "12": 0.00086
-     },
-     "p_tiebreak": 0.2654,
-     "p_decider": 0.3752
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
-   "espn_id": "185149",
-   "tour": "atp",
-   "tournament": "Swiss Indoors Basel",
-   "venue": "Basel, Switzerland",
-   "round": "Round 2",
-   "court": "Center Court",
-   "start_utc": "2026-10-29T20:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Ben Shelton",
-     "id": "atp:210097"
-    },
-    {
-     "name": "Jerome Kym",
-     "id": "atp:208843"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-28T10:37:02+00:00",
-    "path": "forecasts/2026-10-29/185149-ben-shelton-vs-jerome-kym/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Ben Shelton",
-    "win_prob": {
-     "A": 0.7643,
-     "B": 0.2357
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-4",
-      "6-4"
-     ],
-     "prob": 0.542
-    },
-    "games_mean": 24.51,
-    "strongest": {
-     "selection": "Ben Shelton to win at least one set",
-     "probability": 0.8834,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.7643,
-      "B": 0.2357
-     },
-     "set_score_probs": {
-      "2-0": 0.542,
-      "2-1": 0.2223,
-      "1-2": 0.1192,
-      "0-2": 0.1166
-     },
-     "games_pmf": {
-      "12": 0.00034,
-      "13": 0.00243,
-      "14": 0.00657,
-      "15": 0.01809,
-      "16": 0.02939,
-      "17": 0.05774,
-      "18": 0.06378,
-      "19": 0.08119,
-      "20": 0.07923,
-      "21": 0.0509,
-      "22": 0.09827,
-      "23": 0.08519,
-      "24": 0.00631,
-      "25": 0.03219,
-      "26": 0.06692,
-      "27": 0.01571,
-      "28": 0.02119,
-      "29": 0.02354,
-      "30": 0.02577,
-      "31": 0.03827,
-      "32": 0.04339,
-      "33": 0.02725,
-      "34": 0.02015,
-      "35": 0.04053,
-      "36": 0.03382,
-      "37": 0.002,
-      "38": 0.01038,
-      "39": 0.01946
-     },
-     "games_diff_pmf": {
-      "-11": 3e-05,
-      "-10": 0.00019,
-      "-9": 0.00085,
-      "-8": 0.00186,
-      "-7": 0.00661,
-      "-6": 0.01134,
-      "-5": 0.02606,
-      "-4": 0.04278,
-      "-3": 0.04899,
-      "-2": 0.04637,
-      "-1": 0.0321,
-      "0": 0.03348,
-      "1": 0.04185,
-      "2": 0.08863,
-      "3": 0.12695,
-      "4": 0.15559,
-      "5": 0.12577,
-      "6": 0.08785,
-      "7": 0.065,
-      "8": 0.03057,
-      "9": 0.01787,
-      "10": 0.00651,
-      "11": 0.00241,
-      "12": 0.00034
-     },
-     "p_tiebreak": 0.5298,
-     "p_decider": 0.3415
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0033
-   }
-  },
-  {
    "espn_id": "185796",
    "tour": "wta",
    "tournament": "Queretaro Open",
    "venue": "Santiago de Quer\u00e9taro, Mexico",
    "round": "Round 2",
    "court": "Court 2",
-   "start_utc": "2026-10-29T20:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-29T20:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -3923,8 +3716,8 @@
    "venue": "Santiago de Quer\u00e9taro, Mexico",
    "round": "Round 2",
    "court": "Estadio Mexcovery",
-   "start_utc": "2026-10-29T20:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-29T20:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -4044,6 +3837,265 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.002
+   }
+  },
+  {
+   "espn_id": "185847",
+   "tour": "wta",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "venue": "Courmayeur, Italy",
+   "round": "Round 2",
+   "court": "Grandstand",
+   "start_utc": "2026-10-29T20:15Z",
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "players": [
+    {
+     "name": "Martyna Kubka",
+     "id": "wta:221243"
+    },
+    {
+     "name": "Lisa Pigato",
+     "id": "wta:221354"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T18:23:35+00:00",
+    "path": "forecasts/2026-10-29/185847-martyna-kubka-vs-lisa-pigato/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Lisa Pigato",
+    "win_prob": {
+     "A": 0.4798,
+     "B": 0.5202
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3273
+    },
+    "games_mean": 22.63,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7346,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4798,
+      "B": 0.5202
+     },
+     "set_score_probs": {
+      "0-2": 0.3273,
+      "2-0": 0.2975,
+      "1-2": 0.1929,
+      "2-1": 0.1823
+     },
+     "games_pmf": {
+      "12": 0.00216,
+      "13": 0.01006,
+      "14": 0.02374,
+      "15": 0.04503,
+      "16": 0.06683,
+      "17": 0.08393,
+      "18": 0.08379,
+      "19": 0.07811,
+      "20": 0.06868,
+      "21": 0.04952,
+      "22": 0.05911,
+      "23": 0.03953,
+      "24": 0.02025,
+      "25": 0.0373,
+      "26": 0.04112,
+      "27": 0.03861,
+      "28": 0.04161,
+      "29": 0.04126,
+      "30": 0.0394,
+      "31": 0.03627,
+      "32": 0.03183,
+      "33": 0.02033,
+      "34": 0.01497,
+      "35": 0.01429,
+      "36": 0.00638,
+      "37": 0.00193,
+      "38": 0.00278,
+      "39": 0.00118
+     },
+     "games_diff_pmf": {
+      "-12": 0.0013,
+      "-11": 0.00573,
+      "-10": 0.01344,
+      "-9": 0.0251,
+      "-8": 0.04211,
+      "-7": 0.0624,
+      "-6": 0.07334,
+      "-5": 0.07756,
+      "-4": 0.07891,
+      "-3": 0.05627,
+      "-2": 0.04014,
+      "-1": 0.02969,
+      "0": 0.02776,
+      "1": 0.02991,
+      "2": 0.03762,
+      "3": 0.05385,
+      "4": 0.07178,
+      "5": 0.07402,
+      "6": 0.06714,
+      "7": 0.0556,
+      "8": 0.03723,
+      "9": 0.0228,
+      "10": 0.01102,
+      "11": 0.00442,
+      "12": 0.00086
+     },
+     "p_tiebreak": 0.2654,
+     "p_decider": 0.3752
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0029
+   }
+  },
+  {
+   "espn_id": "185149",
+   "tour": "atp",
+   "tournament": "Swiss Indoors Basel",
+   "venue": "Basel, Switzerland",
+   "round": "Round 2",
+   "court": "Center Court",
+   "start_utc": "2026-10-29T21:10Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Ben Shelton",
+     "id": "atp:210097"
+    },
+    {
+     "name": "Jerome Kym",
+     "id": "atp:208843"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-28T10:37:02+00:00",
+    "path": "forecasts/2026-10-29/185149-ben-shelton-vs-jerome-kym/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Ben Shelton",
+    "win_prob": {
+     "A": 0.7643,
+     "B": 0.2357
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.542
+    },
+    "games_mean": 24.51,
+    "strongest": {
+     "selection": "Ben Shelton to win at least one set",
+     "probability": 0.8834,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.7643,
+      "B": 0.2357
+     },
+     "set_score_probs": {
+      "2-0": 0.542,
+      "2-1": 0.2223,
+      "1-2": 0.1192,
+      "0-2": 0.1166
+     },
+     "games_pmf": {
+      "12": 0.00034,
+      "13": 0.00243,
+      "14": 0.00657,
+      "15": 0.01809,
+      "16": 0.02939,
+      "17": 0.05774,
+      "18": 0.06378,
+      "19": 0.08119,
+      "20": 0.07923,
+      "21": 0.0509,
+      "22": 0.09827,
+      "23": 0.08519,
+      "24": 0.00631,
+      "25": 0.03219,
+      "26": 0.06692,
+      "27": 0.01571,
+      "28": 0.02119,
+      "29": 0.02354,
+      "30": 0.02577,
+      "31": 0.03827,
+      "32": 0.04339,
+      "33": 0.02725,
+      "34": 0.02015,
+      "35": 0.04053,
+      "36": 0.03382,
+      "37": 0.002,
+      "38": 0.01038,
+      "39": 0.01946
+     },
+     "games_diff_pmf": {
+      "-11": 3e-05,
+      "-10": 0.00019,
+      "-9": 0.00085,
+      "-8": 0.00186,
+      "-7": 0.00661,
+      "-6": 0.01134,
+      "-5": 0.02606,
+      "-4": 0.04278,
+      "-3": 0.04899,
+      "-2": 0.04637,
+      "-1": 0.0321,
+      "0": 0.03348,
+      "1": 0.04185,
+      "2": 0.08863,
+      "3": 0.12695,
+      "4": 0.15559,
+      "5": 0.12577,
+      "6": 0.08785,
+      "7": 0.065,
+      "8": 0.03057,
+      "9": 0.01787,
+      "10": 0.00651,
+      "11": 0.00241,
+      "12": 0.00034
+     },
+     "p_tiebreak": 0.5298,
+     "p_decider": 0.3415
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0033
    }
   },
   {

@@ -1,72 +1,72 @@
 {
- "generated_at_utc": "2026-10-29T19:45:39+00:00",
+ "generated_at_utc": "2026-10-29T21:10:33+00:00",
  "summary": {
-  "n": 57,
-  "brier": 0.2392100352631579,
-  "log_loss": 0.669010052647907,
-  "accuracy": 0.5087719298245614,
-  "games_mae": 4.387719298245614,
-  "exact_sets_accuracy": 0.3684210526315789,
-  "tiebreak_brier": 0.1959669247368421
+  "n": 60,
+  "brier": 0.244433357,
+  "log_loss": 0.6823169601834441,
+  "accuracy": 0.5166666666666667,
+  "games_mae": 4.537,
+  "exact_sets_accuracy": 0.36666666666666664,
+  "tiebreak_brier": 0.19422651416666667
  },
- "n": 57,
+ "n": 60,
  "overall": {
-  "n": 57,
-  "brier": 0.2392100352631579,
-  "log_loss": 0.669010052647907,
-  "accuracy": 0.5087719298245614
+  "n": 60,
+  "brier": 0.244433357,
+  "log_loss": 0.6823169601834441,
+  "accuracy": 0.5166666666666667
  },
- "games_mae": 4.387719298245614,
- "exact_sets_accuracy": 0.3684210526315789,
- "tiebreak_brier": 0.1959669247368421,
+ "games_mae": 4.537,
+ "exact_sets_accuracy": 0.36666666666666664,
+ "tiebreak_brier": 0.19422651416666667,
  "by_surface": {
   "Hard": {
-   "n": 57,
-   "brier": 0.2392100352631579,
-   "log_loss": 0.669010052647907,
-   "accuracy": 0.5087719298245614
+   "n": 60,
+   "brier": 0.244433357,
+   "log_loss": 0.6823169601834441,
+   "accuracy": 0.5166666666666667
   }
  },
  "by_tour": {
   "atp": {
-   "n": 21,
-   "brier": 0.20281238333333335,
-   "log_loss": 0.5855977334607979,
-   "accuracy": 0.5714285714285714
+   "n": 22,
+   "brier": 0.22387465863636366,
+   "log_loss": 0.6359754305335139,
+   "accuracy": 0.5454545454545454
   },
   "wta": {
-   "n": 36,
-   "brier": 0.2604419988888889,
-   "log_loss": 0.7176672388403875,
-   "accuracy": 0.4722222222222222
+   "n": 38,
+   "brier": 0.2563357613157895,
+   "log_loss": 0.7091462668228777,
+   "accuracy": 0.5
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 28,
-   "brier": 0.2621276417857143,
-   "log_loss": 0.7232884484354022,
-   "accuracy": 0.4642857142857143
+   "n": 30,
+   "brier": 0.25681403133333336,
+   "log_loss": 0.7121204699068888,
+   "accuracy": 0.5
   },
   "MEDIUM": {
-   "n": 29,
-   "brier": 0.21708269103448274,
-   "log_loss": 0.6166033256806707,
-   "accuracy": 0.5517241379310345
+   "n": 30,
+   "brier": 0.23205268266666665,
+   "log_loss": 0.6525134504600001,
+   "accuracy": 0.5333333333333333
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 35,
-   "mean_pred": 0.5428971428571427,
-   "observed": 0.4
+   "n": 36,
+   "mean_pred": 0.5424388888888888,
+   "observed": 0.4166666666666667
   },
   {
    "bucket": "60%-70%",
-   "n": 10,
-   "mean_pred": 0.6475500000000001,
-   "observed": 0.5
+   "n": 11,
+   "mean_pred": 0.6455090909090909,
+   "observed": 0.5454545454545454
   },
   {
    "bucket": "70%-80%",
@@ -76,9 +76,9 @@
   },
   {
    "bucket": "80%-90%",
-   "n": 3,
-   "mean_pred": 0.8427000000000001,
-   "observed": 0.6666666666666666
+   "n": 4,
+   "mean_pred": 0.836075,
+   "observed": 0.5
   },
   {
    "bucket": "90%-100%",
@@ -1769,6 +1769,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Novak Djokovic vs Jan Lennard Struff",
+   "date": "2026-10-29",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.8162,
+   "a_won": 0,
+   "pred_winner": "Novak Djokovic",
+   "actual_winner": "Jan Lennard Struff",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.095,
+   "exp_games": 23.04,
+   "actual_games": 38,
+   "p_tb": 0.4042,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.7724,
+     0
+    ],
+    "A -2.5": [
+     0.7086,
+     0
+    ],
+    "A -3.5": [
+     0.6045,
+     0
+    ],
+    "A -4.5": [
+     0.4591,
+     0
+    ],
+    "A -5.5": [
+     0.3228,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alex Michelsen vs Arthur Fils",
    "date": "2026-10-29",
    "tour": "atp",
@@ -2357,6 +2399,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Maria Lourdes Carle vs Julia Grabher",
+   "date": "2026-10-29",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.4736,
+   "a_won": 0,
+   "pred_winner": "Julia Grabher",
+   "actual_winner": "Julia Grabher",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3321,
+   "exp_games": 22.6,
+   "actual_games": 24,
+   "p_tb": 0.2627,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4297,
+     0
+    ],
+    "A -2.5": [
+     0.3931,
+     0
+    ],
+    "A -3.5": [
+     0.3395,
+     0
+    ],
+    "A -4.5": [
+     0.2668,
+     0
+    ],
+    "A -5.5": [
+     0.1957,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Marina Bassols Ribera vs Erika Andreeva",
    "date": "2026-10-29",
    "tour": "wta",
@@ -2476,6 +2560,48 @@
     ],
     "A -5.5": [
      0.2378,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anna Blinkova vs Katarina Zavatska",
+   "date": "2026-10-29",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.6251,
+   "a_won": 1,
+   "pred_winner": "Anna Blinkova",
+   "actual_winner": "Anna Blinkova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2008,
+   "exp_games": 22.24,
+   "actual_games": 28,
+   "p_tb": 0.2439,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5845,
+     1
+    ],
+    "A -2.5": [
+     0.5469,
+     1
+    ],
+    "A -3.5": [
+     0.4898,
+     1
+    ],
+    "A -4.5": [
+     0.4048,
+     0
+    ],
+    "A -5.5": [
+     0.3114,
      0
     ]
    },
