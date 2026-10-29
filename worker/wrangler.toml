@@ -7,6 +7,11 @@ workers_dev = true
 command = "node build.mjs"
 
 [vars]
+GITHUB_REPO = "lucksociety/tennis-oracle"
+GITHUB_REF = "main"
+RUN_MODE = "workflow"
+# Secrets: GITHUB_TOKEN (Actions:write), RELAY_KEY (same value in Actions secrets).
+# Set RUN_MODE = "snapshot" only for explicitly cached-report operation.
 DISCORD_APPLICATION_ID = "1564848519913930784"
 DISCORD_PUBLIC_KEY = "5abe89a0d1d28b6bb8c374b0d344e524442dedc40aab10d881865959b0c1fb32"
 DASHBOARD_URL = "https://lucksociety.github.io/tennis-oracle/"

@@ -44,9 +44,12 @@ def combined_frame(tour: str, use_espn: bool = True):
     return df, info
 
 
-def build_engine(tour: str, params: dict | None = None, use_espn: bool = True, on_match=None):
+def build_engine(tour: str, params: dict | None = None, use_espn: bool = True, on_match=None, asof=None):
     params = params or load_params()
     df, info = combined_frame(tour, use_espn)
+    if asof is not None:
+        df = df[df["date"] < pd.Timestamp(asof)].copy()
+        info["results_cutoff"] = str(df["date"].max().date()) if len(df) else None
     eng = RatingEngine(params)
     run_history(eng, df, on_match)
     eng.info = info

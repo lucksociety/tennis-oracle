@@ -1,3 +1,35 @@
+// Encrypt short-lived interaction credentials before putting them in public workflow inputs.
+export async function dispatchModel(env, interaction, date, workflow, repo) {
+  const app = env.DISCORD_APPLICATION_ID || interaction.application_id;
+  const edit = async content => {
+    const r = await fetch(`https://discord.com/api/v10/webhooks/${app}/${interaction.token}/messages/@original`, {
+      method: 'PATCH', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
+    });
+    if (!r.ok) throw new Error(`Discord reply HTTP ${r.status}`);
+  };
+  try {
+    if (!env.GITHUB_TOKEN || !env.RELAY_KEY) throw new Error('configure GITHUB_TOKEN and RELAY_KEY on the Worker, plus the same RELAY_KEY in Actions');
+    const keyBytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(env.RELAY_KEY));
+    const key = await crypto.subtle.importKey('raw', keyBytes, 'AES-GCM', false, ['encrypt']);
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const msg = { token: interaction.token, app, ts: Date.now(), date,
+      only_bets: (interaction.data?.options || []).some(o => o.name === 'only_bets' && o.value === true) };
+    const ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(JSON.stringify(msg))));
+    const bytes = new Uint8Array(iv.length + ct.length); bytes.set(iv); bytes.set(ct, iv.length);
+    const relay = btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    const r = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO || repo}/actions/workflows/${workflow}/dispatches`, {
+      method: 'POST', headers: { authorization: `Bearer ${env.GITHUB_TOKEN}`, accept: 'application/vnd.github+json',
+        'content-type': 'application/json', 'user-agent': 'oracle-discord', 'x-github-api-version': '2022-11-28' },
+      body: JSON.stringify({ ref: env.GITHUB_REF || 'main', inputs: { date, relay } }),
+    });
+    if (r.status !== 204) throw new Error(`GitHub dispatch HTTP ${r.status}`);
+    // The workflow owns the deferred reply from here. A progress PATCH here could race its result.
+  } catch (e) {
+    await edit(`⚠️ Could not start the model for ${date}: ${e.message}.`);
+  }
+}
+
 /* Luck Society Tennis Oracle - Discord /tennis interactions endpoint + live best-bet API (Cloudflare Worker).
  * Built by worker/build.mjs, which prepends docs/engine.js (TennisOracle) and docs/markets.js (TOMarkets).
  * Forecasts come from the FROZEN pre-match slate on GitHub Pages; Jupiter prices are fetched live at
@@ -132,12 +164,14 @@ function chunk(blocks, max = 1900) {
 async function discordSend(method, url, content) {
   for (let i = 0; i < 4; i++) {
     const r = await fetch(url, { method, headers: { 'content-type': 'application/json' }, body: JSON.stringify({ content, flags: 4, allowed_mentions: { parse: [] } }) });
-    if (r.status !== 429) return r;
+    if (r.ok) return r;
+    if (r.status !== 429) throw new Error(`Discord delivery HTTP ${r.status}`);
     const j = await r.json().catch(() => ({})); await new Promise(res => setTimeout(res, 1000 * (j.retry_after || 1) + 100));
   }
+  throw new Error('Discord rate limit exhausted');
 }
 
-async function buildReport(env, day, tour) {
+export async function buildReport(env, day, tour) {
   const dash = env.DASHBOARD_URL;
   let slate;
   try { slate = await getJSON(`${dash}data/slate-${day}.json?t=${Date.now()}`); }
@@ -204,7 +238,7 @@ export default {
         const opts = Object.fromEntries((it.data.options || []).map(o => [o.name, o.value]));
         const day = parseDay(opts.date);
         if (!day) return json({ type: 4, data: { content: 'Pick a date from the list, or type today / tomorrow / yesterday / YYYY-MM-DD / MM-DD.', flags: 64 } });
-        ctx.waitUntil(followUp(env, it, day, 'all'));
+        ctx.waitUntil(env.RUN_MODE === 'snapshot' ? followUp(env, it, day, 'all') : dispatchModel(env, it, day, 'discord-tennis.yml', 'lucksociety/tennis-oracle'));
         return json({ type: 5 });
       }
       return json({ type: 4, data: { content: 'Unknown command', flags: 64 } });
