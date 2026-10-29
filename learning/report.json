@@ -1,0 +1,23 @@
+{
+  "calibration_proposals": {
+    "v1.1": {
+      "minimum_days": 30,
+      "minimum_games": 500,
+      "status": "insufficient_forward_sample"
+    }
+  },
+  "forecast_policy": "Last pre-game freeze per event per model version. No retrospectively generated forecast is graded.",
+  "forecasts": 75,
+  "generated_at": "2026-10-29T19:41:04.460536+00:00",
+  "last_successful_refresh": "2026-10-29T05:51:01+00:00",
+  "project": "tennis-oracle",
+  "settled_by_version": {
+    "v1.1": {
+      "brier_multiclass_sum": 0.47912200875,
+      "log_loss": 0.6690268815019427,
+      "n": 32,
+      "winner_accuracy": 0.5
+    }
+  },
+  "warnings": []
+}
