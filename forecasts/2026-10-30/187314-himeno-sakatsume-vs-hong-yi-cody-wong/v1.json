@@ -1,0 +1,631 @@
+{
+ "predicted_winner": "Himeno Sakatsume",
+ "win_prob": {
+  "A": 0.7096,
+  "B": 0.2904
+ },
+ "win_prob_exact": {
+  "A": 0.70963,
+  "B": 0.29037
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.41,
+   "american": "-244"
+  },
+  "B": {
+   "decimal": 3.44,
+   "american": "+244"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.5036,
+  "2-1": 0.206,
+  "0-2": 0.1574,
+  "1-2": 0.133
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0245,
+ "games": {
+  "mean": 22.11,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00347,
+   "13": 0.01468,
+   "14": 0.03121,
+   "15": 0.05473,
+   "16": 0.07554,
+   "17": 0.08914,
+   "18": 0.08514,
+   "19": 0.07842,
+   "20": 0.06811,
+   "21": 0.04851,
+   "22": 0.05978,
+   "23": 0.03848,
+   "24": 0.01859,
+   "25": 0.0341,
+   "26": 0.03692,
+   "27": 0.03344,
+   "28": 0.03657,
+   "29": 0.0373,
+   "30": 0.03553,
+   "31": 0.03362,
+   "32": 0.02933,
+   "33": 0.01934,
+   "34": 0.01375,
+   "35": 0.01296,
+   "36": 0.00581,
+   "37": 0.00169,
+   "38": 0.00246,
+   "39": 0.00138
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00024,
+  "-11": 0.00123,
+  "-10": 0.00384,
+  "-9": 0.00834,
+  "-8": 0.01508,
+  "-7": 0.02616,
+  "-6": 0.03503,
+  "-5": 0.04386,
+  "-4": 0.04989,
+  "-3": 0.03866,
+  "-2": 0.03017,
+  "-1": 0.02396,
+  "0": 0.02396,
+  "1": 0.02886,
+  "2": 0.04006,
+  "3": 0.06381,
+  "4": 0.09422,
+  "5": 0.10436,
+  "6": 0.10577,
+  "7": 0.09565,
+  "8": 0.07266,
+  "9": 0.04934,
+  "10": 0.02806,
+  "11": 0.01356,
+  "12": 0.00323
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7312,
+   "under": 0.2688
+  },
+  {
+   "line": 18.5,
+   "over": 0.6461,
+   "under": 0.3539
+  },
+  {
+   "line": 19.5,
+   "over": 0.5677,
+   "under": 0.4323
+  },
+  {
+   "line": 20.5,
+   "over": 0.4996,
+   "under": 0.5004
+  },
+  {
+   "line": 21.5,
+   "over": 0.4511,
+   "under": 0.549
+  },
+  {
+   "line": 22.5,
+   "over": 0.3913,
+   "under": 0.6087
+  },
+  {
+   "line": 23.5,
+   "over": 0.3528,
+   "under": 0.6472
+  },
+  {
+   "line": 24.5,
+   "over": 0.3342,
+   "under": 0.6658
+  },
+  {
+   "line": 25.5,
+   "over": 0.3001,
+   "under": 0.6999
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6707,
+   "B +1.5": 0.3293,
+   "B -1.5": 0.2525,
+   "A +1.5": 0.7475
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6307,
+   "B +2.5": 0.3693,
+   "B -2.5": 0.2223,
+   "A +2.5": 0.7777
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5668,
+   "B +3.5": 0.4332,
+   "B -3.5": 0.1837,
+   "A +3.5": 0.8163
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4726,
+   "B +4.5": 0.5274,
+   "B -4.5": 0.1338,
+   "A +4.5": 0.8662
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3683,
+   "B +5.5": 0.6317,
+   "B -5.5": 0.0899,
+   "A +5.5": 0.9101
+  }
+ ],
+ "p_tiebreak": 0.2567,
+ "p_a_wins_set": 0.8426,
+ "p_b_wins_set": 0.4964,
+ "p_decider": 0.339,
+ "expected_breaks": {
+  "total": 7.18,
+  "by_A": 4.26,
+  "by_B": 2.93
+ },
+ "expected_break_points": {
+  "A_creates": 9.12,
+  "B_creates": 7.08
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.5036
+ },
+ "match": "Himeno Sakatsume vs Hong Yi Cody Wong",
+ "players": {
+  "A": {
+   "id": "wta:221124",
+   "name": "Himeno Sakatsume",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 133.0,
+   "age": 25.15578370978782,
+   "elo": 1629.3,
+   "surface_elo": {
+    "Hard": 1610.6,
+    "Clay": 1500.0,
+    "Grass": 1490.5
+   },
+   "matches_total": 35,
+   "matches_surface": {
+    "Hard": 31,
+    "Clay": 0,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    13,
+    13
+   ],
+   "last52w_surface": [
+    11,
+    11
+   ],
+   "career_surface_wl": [
+    16,
+    15
+   ],
+   "games_won_lost_52w": [
+    279,
+    281
+   ],
+   "sets_won_lost_52w": [
+    30,
+    29
+   ],
+   "avg_opp_elo_last20": 1612.6,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.0957,
+   "return_rating": 0.0246,
+   "form_elo": -14.8,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-03-04",
+   "stats_52w": {
+    "first_in": 0.674,
+    "first_won": 0.623,
+    "second_won": 0.4915,
+    "serve_pts_won": 0.5801,
+    "hold": 0.6667,
+    "aces_per_svgm": 0.0741,
+    "df_per_svgm": 0.1111,
+    "bp_saved": 0.5714,
+    "ret_pts_won": 0.3438,
+    "ret_1st_won": 0.2596,
+    "ret_2nd_won": 0.5,
+    "ret_games_won": 0.1538,
+    "bp_conv": 0.3077,
+    "bp_chances_per_retgm": 0.5,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2022-08-22",
+     359.0
+    ],
+    [
+     "2023-04-13",
+     216.0
+    ],
+    [
+     "2023-09-11",
+     184.0
+    ],
+    [
+     "2023-09-25",
+     181.0
+    ],
+    [
+     "2025-10-27",
+     228.0
+    ],
+    [
+     "2026-01-19",
+     140.0
+    ],
+    [
+     "2026-03-04",
+     136.0
+    ],
+    [
+     "2026-04-10",
+     133.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:216587",
+   "name": "Hong Yi Cody Wong",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 498.0,
+   "age": 24.607529089664613,
+   "elo": 1410.8,
+   "surface_elo": {
+    "Hard": 1400.4,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 8,
+   "matches_surface": {
+    "Hard": 8,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    2,
+    6
+   ],
+   "last20": [
+    2,
+    6
+   ],
+   "last52w": [
+    2,
+    3
+   ],
+   "last52w_surface": [
+    2,
+    3
+   ],
+   "career_surface_wl": [
+    2,
+    6
+   ],
+   "games_won_lost_52w": [
+    58,
+    62
+   ],
+   "sets_won_lost_52w": [
+    6,
+    7
+   ],
+   "avg_opp_elo_last20": 1562.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0607,
+   "return_rating": -0.0724,
+   "form_elo": -16.9,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-10-09",
+     342.0
+    ],
+    [
+     "2024-10-28",
+     412.0
+    ],
+    [
+     "2025-10-27",
+     498.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Himeno Sakatsume: limited recent/surface sample (26 matches 52w, 31 career on Hard, 3 with stats)",
+  "Himeno Sakatsume: latest point-level stats are 240 days old (2026-03-04)",
+  "Hong Yi Cody Wong: sparse record (8 tour matches, 0 with serve stats in 52w)",
+  "Hong Yi Cody Wong: latest point-level stats are 368 days old (2025-10-27)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 158.1,
+  "components_elo": {
+   "surface_elo": 210.2,
+   "overall_elo": 218.5,
+   "serve_return": 231.7,
+   "form": 2.2
+  },
+  "weighted_contributions": {
+   "surface_elo": 25.7,
+   "overall_elo": 51.6,
+   "serve_return": 80.8,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.7131,
+  "serve_return_implied_spw": {
+   "A": 0.6065,
+   "B": 0.5447
+  },
+  "point_probs": {
+   "A_serve": 0.6083,
+   "B_serve": 0.5428
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6082906436830458,
+   "B_serve": 0.5428139691936943
+  },
+  "hold_probs": {
+   "A": 0.7528,
+   "B": 0.6059
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7096,
+   0.7106
+  ],
+  "p_tb": [
+   0.2567,
+   0.2547
+  ],
+  "p_decider": [
+   0.339,
+   0.3383
+  ],
+  "games_mean": [
+   22.11,
+   22.086
+  ],
+  "exp_breaks": [
+   7.185,
+   7.167
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1574,
+    0.1579
+   ],
+   "1-2": [
+    0.133,
+    0.1314
+   ],
+   "2-0": [
+    0.5036,
+    0.5037
+   ],
+   "2-1": [
+    0.206,
+    0.2069
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.002
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Himeno Sakatsume",
+   "elo_points": 80.8,
+   "raw_diff": 231.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Himeno Sakatsume",
+   "elo_points": 51.6,
+   "raw_diff": 218.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Himeno Sakatsume",
+   "elo_points": 25.7,
+   "raw_diff": 210.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6083,
+   "B": 0.5428,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Himeno Sakatsume to win at least one set",
+  "probability": 0.8426,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-535"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Himeno Sakatsume: limited recent/surface sample (26 matches 52w, 31 career on Hard, 3 with stats); Himeno Sakatsume: latest point-level stats are 240 days old (2026-03-04)",
+  "candidates": [
+   {
+    "selection": "Himeno Sakatsume to win at least one set",
+    "probability": 0.8426,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7433,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Himeno Sakatsume to win",
+    "probability": 0.7096,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6658,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.661,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6461,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Himeno Sakatsume -2.5 games",
+    "probability": 0.6307,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6087,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Hong Yi Cody Wong +4.5 games",
+    "probability": 0.5274,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Exact sets Himeno Sakatsume 2-0 Hong Yi Cody Wong",
+    "probability": 0.5036,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5004,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4996,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Hong Yi Cody Wong to win at least one set",
+    "probability": 0.4964,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Himeno Sakatsume -4.5 games",
+    "probability": 0.4726,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3913,
+    "fair_decimal": 2.56
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T15:05:22+00:00",
+  "version": 1,
+  "input_hash": "6db5918e7ae7089f",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187314",
+  "scheduled_start_utc": "2026-10-31T02:00Z"
+ }
+}

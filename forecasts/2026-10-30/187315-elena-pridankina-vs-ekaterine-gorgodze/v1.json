@@ -1,0 +1,651 @@
+{
+ "predicted_winner": "Elena Pridankina",
+ "win_prob": {
+  "A": 0.523,
+  "B": 0.477
+ },
+ "win_prob_exact": {
+  "A": 0.52302,
+  "B": 0.47697999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.91,
+   "american": "-110"
+  },
+  "B": {
+   "decimal": 2.1,
+   "american": "+110"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3347,
+  "0-2": 0.2949,
+  "2-1": 0.1883,
+  "1-2": 0.1821
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0165,
+ "games": {
+  "mean": 22.4,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.89,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00281,
+   "13": 0.01203,
+   "14": 0.02799,
+   "15": 0.04856,
+   "16": 0.07031,
+   "17": 0.08462,
+   "18": 0.08371,
+   "19": 0.07612,
+   "20": 0.06719,
+   "21": 0.04965,
+   "22": 0.05809,
+   "23": 0.03779,
+   "24": 0.02206,
+   "25": 0.0384,
+   "26": 0.04125,
+   "27": 0.03948,
+   "28": 0.04079,
+   "29": 0.04107,
+   "30": 0.03964,
+   "31": 0.03434,
+   "32": 0.03002,
+   "33": 0.01828,
+   "34": 0.01338,
+   "35": 0.01234,
+   "36": 0.00536,
+   "37": 0.00173,
+   "38": 0.00215,
+   "39": 0.00084
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00132,
+  "-11": 0.00511,
+  "-10": 0.0128,
+  "-9": 0.02341,
+  "-8": 0.03915,
+  "-7": 0.05628,
+  "-6": 0.06826,
+  "-5": 0.0719,
+  "-4": 0.06941,
+  "-3": 0.05113,
+  "-2": 0.03558,
+  "-1": 0.02752,
+  "0": 0.02731,
+  "1": 0.02898,
+  "2": 0.03788,
+  "3": 0.05412,
+  "4": 0.07638,
+  "5": 0.07772,
+  "6": 0.07465,
+  "7": 0.06396,
+  "8": 0.04448,
+  "9": 0.02813,
+  "10": 0.01604,
+  "11": 0.00699,
+  "12": 0.00149
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7537,
+   "under": 0.2463
+  },
+  {
+   "line": 18.5,
+   "over": 0.67,
+   "under": 0.33
+  },
+  {
+   "line": 19.5,
+   "over": 0.5938,
+   "under": 0.4062
+  },
+  {
+   "line": 20.5,
+   "over": 0.5267,
+   "under": 0.4733
+  },
+  {
+   "line": 21.5,
+   "over": 0.477,
+   "under": 0.523
+  },
+  {
+   "line": 22.5,
+   "over": 0.4189,
+   "under": 0.5811
+  },
+  {
+   "line": 23.5,
+   "over": 0.3811,
+   "under": 0.6189
+  },
+  {
+   "line": 24.5,
+   "over": 0.3591,
+   "under": 0.6409
+  },
+  {
+   "line": 25.5,
+   "over": 0.3207,
+   "under": 0.6793
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4818,
+   "B +1.5": 0.5182,
+   "B -1.5": 0.4343,
+   "A +1.5": 0.5656
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.444,
+   "B +2.5": 0.556,
+   "B -2.5": 0.3988,
+   "A +2.5": 0.6012
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3898,
+   "B +3.5": 0.6102,
+   "B -3.5": 0.3476,
+   "A +3.5": 0.6524
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3135,
+   "B +4.5": 0.6865,
+   "B -4.5": 0.2782,
+   "A +4.5": 0.7218
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2357,
+   "B +5.5": 0.7643,
+   "B -5.5": 0.2063,
+   "A +5.5": 0.7937
+  }
+ ],
+ "p_tiebreak": 0.245,
+ "p_a_wins_set": 0.7051,
+ "p_b_wins_set": 0.6653,
+ "p_decider": 0.3704,
+ "expected_breaks": {
+  "total": 8.8,
+  "by_A": 4.47,
+  "by_B": 4.33
+ },
+ "expected_break_points": {
+  "A_creates": 9.47,
+  "B_creates": 9.27
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3347
+ },
+ "match": "Elena Pridankina vs Ekaterine Gorgodze",
+ "players": {
+  "A": {
+   "id": "wta:239389",
+   "name": "Elena Pridankina",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 218.0,
+   "age": 21.13258042436687,
+   "elo": 1584.4,
+   "surface_elo": {
+    "Hard": 1515.7,
+    "Clay": 1593.2,
+    "Grass": 1561.4
+   },
+   "matches_total": 29,
+   "matches_surface": {
+    "Hard": 18,
+    "Clay": 8,
+    "Grass": 3
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    13,
+    10
+   ],
+   "last52w_surface": [
+    6,
+    6
+   ],
+   "career_surface_wl": [
+    8,
+    10
+   ],
+   "games_won_lost_52w": [
+    249,
+    229
+   ],
+   "sets_won_lost_52w": [
+    31,
+    23
+   ],
+   "avg_opp_elo_last20": 1571.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.054,
+   "return_rating": 0.024,
+   "form_elo": -16.3,
+   "last_match": "2026-10-25",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-10-21",
+     179.0
+    ],
+    [
+     "2025-09-08",
+     209.0
+    ],
+    [
+     "2025-10-27",
+     205.0
+    ],
+    [
+     "2026-05-25",
+     218.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:202493",
+   "name": "Ekaterine Gorgodze",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 164.0,
+   "age": 34.88590006844627,
+   "elo": 1538.7,
+   "surface_elo": {
+    "Hard": 1550.6,
+    "Clay": 1495.0,
+    "Grass": 1381.3
+   },
+   "matches_total": 60,
+   "matches_surface": {
+    "Hard": 37,
+    "Clay": 19,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    10,
+    9
+   ],
+   "last52w_surface": [
+    8,
+    5
+   ],
+   "career_surface_wl": [
+    18,
+    19
+   ],
+   "games_won_lost_52w": [
+    230,
+    256
+   ],
+   "sets_won_lost_52w": [
+    24,
+    25
+   ],
+   "avg_opp_elo_last20": 1558.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0803,
+   "return_rating": 0.0169,
+   "form_elo": -18.1,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.7867,
+    "first_won": 0.4237,
+    "second_won": 0.5,
+    "serve_pts_won": 0.44,
+    "hold": 0.4167,
+    "aces_per_svgm": 0.0833,
+    "df_per_svgm": 0.1667,
+    "bp_saved": 0.5,
+    "ret_pts_won": 0.4189,
+    "ret_1st_won": 0.3922,
+    "ret_2nd_won": 0.4783,
+    "ret_games_won": 0.3333,
+    "bp_conv": 0.2857,
+    "bp_chances_per_retgm": 1.1667,
+    "matches_with_stats": 1
+   },
+   "rank_history": [
+    [
+     "2021-05-31",
+     223.0
+    ],
+    [
+     "2021-07-12",
+     215.0
+    ],
+    [
+     "2021-07-19",
+     208.0
+    ],
+    [
+     "2021-09-27",
+     162.0
+    ],
+    [
+     "2022-03-21",
+     123.0
+    ],
+    [
+     "2022-04-04",
+     120.0
+    ],
+    [
+     "2022-06-27",
+     114.0
+    ],
+    [
+     "2022-07-11",
+     112.0
+    ],
+    [
+     "2022-07-25",
+     126.0
+    ],
+    [
+     "2023-04-10",
+     295.0
+    ],
+    [
+     "2025-08-04",
+     228.0
+    ],
+    [
+     "2026-03-30",
+     164.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Elena Pridankina: sparse record (29 tour matches, 0 with serve stats in 52w)",
+  "Elena Pridankina: latest point-level stats are 368 days old (2025-10-27)",
+  "Ekaterine Gorgodze: sparse record (60 tour matches, 1 with serve stats in 52w)",
+  "Ekaterine Gorgodze: latest point-level stats are 214 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 17.2,
+  "components_elo": {
+   "surface_elo": -35.0,
+   "overall_elo": 45.7,
+   "serve_return": 30.7,
+   "form": 1.8
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.3,
+   "overall_elo": 10.8,
+   "serve_return": 10.7,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5247,
+  "serve_return_implied_spw": {
+   "A": 0.5482,
+   "B": 0.54
+  },
+  "point_probs": {
+   "A_serve": 0.5477,
+   "B_serve": 0.5405
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5476827013362845,
+   "B_serve": 0.5405261097656757
+  },
+  "hold_probs": {
+   "A": 0.6176,
+   "B": 0.6003
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.523,
+   0.5241
+  ],
+  "p_tb": [
+   0.245,
+   0.2462
+  ],
+  "p_decider": [
+   0.3704,
+   0.374
+  ],
+  "games_mean": [
+   22.397,
+   22.429
+  ],
+  "exp_breaks": [
+   8.799,
+   8.797
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2949,
+    0.2934
+   ],
+   "1-2": [
+    0.1821,
+    0.1824
+   ],
+   "2-0": [
+    0.3347,
+    0.3326
+   ],
+   "2-1": [
+    0.1883,
+    0.1916
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0036
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Elena Pridankina",
+   "elo_points": 10.8,
+   "raw_diff": 45.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Elena Pridankina",
+   "elo_points": 10.7,
+   "raw_diff": 30.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Ekaterine Gorgodze",
+   "elo_points": -4.3,
+   "raw_diff": -35.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5477,
+   "B": 0.5405,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.755,
+  "fair_odds": {
+   "decimal": 1.32,
+   "american": "-308"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Elena Pridankina: sparse record (29 tour matches, 0 with serve stats in 52w); Elena Pridankina: latest point-level stats are 368 days old (2025-10-27)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.755,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Elena Pridankina to win at least one set",
+    "probability": 0.7051,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Ekaterine Gorgodze +4.5 games",
+    "probability": 0.6865,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.67,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Ekaterine Gorgodze to win at least one set",
+    "probability": 0.6653,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6409,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6296,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5811,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Ekaterine Gorgodze +2.5 games",
+    "probability": 0.556,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5267,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Elena Pridankina to win",
+    "probability": 0.523,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Ekaterine Gorgodze to win",
+    "probability": 0.477,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4733,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Elena Pridankina -2.5 games",
+    "probability": 0.444,
+    "fair_decimal": 2.25
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4189,
+    "fair_decimal": 2.39
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T15:05:31+00:00",
+  "version": 1,
+  "input_hash": "1059f3c17cf54817",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187315",
+  "scheduled_start_utc": "2026-10-31T03:30Z"
+ }
+}

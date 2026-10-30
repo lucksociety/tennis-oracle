@@ -1,0 +1,591 @@
+{
+ "predicted_winner": "Aliona Falei",
+ "win_prob": {
+  "A": 0.6531,
+  "B": 0.3469
+ },
+ "win_prob_exact": {
+  "A": 0.65314,
+  "B": 0.34685999999999995
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.53,
+   "american": "-188"
+  },
+  "B": {
+   "decimal": 2.88,
+   "american": "+188"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4475,
+  "2-1": 0.2057,
+  "0-2": 0.1962,
+  "1-2": 0.1506
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.021,
+ "games": {
+  "mean": 22.33,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00292,
+   "13": 0.01333,
+   "14": 0.0289,
+   "15": 0.05153,
+   "16": 0.07091,
+   "17": 0.08486,
+   "18": 0.08454,
+   "19": 0.07731,
+   "20": 0.0681,
+   "21": 0.05018,
+   "22": 0.0585,
+   "23": 0.03921,
+   "24": 0.02001,
+   "25": 0.03553,
+   "26": 0.03852,
+   "27": 0.03674,
+   "28": 0.03943,
+   "29": 0.03957,
+   "30": 0.03722,
+   "31": 0.03509,
+   "32": 0.02961,
+   "33": 0.01894,
+   "34": 0.01303,
+   "35": 0.01373,
+   "36": 0.0067,
+   "37": 0.002,
+   "38": 0.00243,
+   "39": 0.00116
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00048,
+  "-11": 0.00202,
+  "-10": 0.00544,
+  "-9": 0.0115,
+  "-8": 0.02085,
+  "-7": 0.03447,
+  "-6": 0.04463,
+  "-5": 0.05311,
+  "-4": 0.05619,
+  "-3": 0.0441,
+  "-2": 0.03249,
+  "-1": 0.02742,
+  "0": 0.026,
+  "1": 0.02971,
+  "2": 0.03962,
+  "3": 0.06206,
+  "4": 0.08967,
+  "5": 0.0964,
+  "6": 0.09693,
+  "7": 0.0839,
+  "8": 0.06191,
+  "9": 0.04307,
+  "10": 0.02417,
+  "11": 0.01142,
+  "12": 0.00244
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7476,
+   "under": 0.2525
+  },
+  {
+   "line": 18.5,
+   "over": 0.663,
+   "under": 0.337
+  },
+  {
+   "line": 19.5,
+   "over": 0.5857,
+   "under": 0.4143
+  },
+  {
+   "line": 20.5,
+   "over": 0.5176,
+   "under": 0.4824
+  },
+  {
+   "line": 21.5,
+   "over": 0.4674,
+   "under": 0.5326
+  },
+  {
+   "line": 22.5,
+   "over": 0.4089,
+   "under": 0.5911
+  },
+  {
+   "line": 23.5,
+   "over": 0.3697,
+   "under": 0.6303
+  },
+  {
+   "line": 24.5,
+   "over": 0.3497,
+   "under": 0.6503
+  },
+  {
+   "line": 25.5,
+   "over": 0.3142,
+   "under": 0.6858
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6116,
+   "B +1.5": 0.3884,
+   "B -1.5": 0.3053,
+   "A +1.5": 0.6947
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.572,
+   "B +2.5": 0.428,
+   "B -2.5": 0.2728,
+   "A +2.5": 0.7272
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5099,
+   "B +3.5": 0.4901,
+   "B -3.5": 0.2287,
+   "A +3.5": 0.7713
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4202,
+   "B +4.5": 0.5798,
+   "B -4.5": 0.1725,
+   "A +4.5": 0.8275
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3238,
+   "B +5.5": 0.6762,
+   "B -5.5": 0.1194,
+   "A +5.5": 0.8806
+  }
+ ],
+ "p_tiebreak": 0.2591,
+ "p_a_wins_set": 0.8038,
+ "p_b_wins_set": 0.5525,
+ "p_decider": 0.3563,
+ "expected_breaks": {
+  "total": 7.64,
+  "by_A": 4.31,
+  "by_B": 3.33
+ },
+ "expected_break_points": {
+  "A_creates": 9.23,
+  "B_creates": 7.77
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4475
+ },
+ "match": "Aliona Falei vs Ekaterina Yashina",
+ "players": {
+  "A": {
+   "id": "wta:221434",
+   "name": "Aliona Falei",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 340.0,
+   "age": 22.510266940451746,
+   "elo": 1567.7,
+   "surface_elo": {
+    "Hard": 1505.1,
+    "Clay": 1570.7,
+    "Grass": 1500.0
+   },
+   "matches_total": 15,
+   "matches_surface": {
+    "Hard": 12,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    7,
+    8
+   ],
+   "last52w": [
+    7,
+    6
+   ],
+   "last52w_surface": [
+    5,
+    5
+   ],
+   "career_surface_wl": [
+    5,
+    7
+   ],
+   "games_won_lost_52w": [
+    146,
+    151
+   ],
+   "sets_won_lost_52w": [
+    16,
+    16
+   ],
+   "avg_opp_elo_last20": 1588.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0054,
+   "return_rating": -0.0082,
+   "form_elo": 17.9,
+   "last_match": "2026-10-09",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-09-09",
+     207.0
+    ],
+    [
+     "2025-10-27",
+     340.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:202672",
+   "name": "Ekaterina Yashina",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 492.0,
+   "age": 33.15523613963039,
+   "elo": 1282.5,
+   "surface_elo": {
+    "Hard": 1322.8,
+    "Clay": 1420.9,
+    "Grass": 1486.9
+   },
+   "matches_total": 12,
+   "matches_surface": {
+    "Hard": 10,
+    "Clay": 1,
+    "Grass": 1
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    2,
+    10
+   ],
+   "last52w": [
+    2,
+    7
+   ],
+   "last52w_surface": [
+    2,
+    6
+   ],
+   "career_surface_wl": [
+    2,
+    8
+   ],
+   "games_won_lost_52w": [
+    68,
+    109
+   ],
+   "sets_won_lost_52w": [
+    6,
+    15
+   ],
+   "avg_opp_elo_last20": 1523.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0395,
+   "return_rating": -0.0484,
+   "form_elo": -53.4,
+   "last_match": "2026-10-04",
+   "last_stats_match": "2025-06-23",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2021-06-21",
+     478.0
+    ],
+    [
+     "2025-06-16",
+     491.0
+    ],
+    [
+     "2025-06-23",
+     492.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Aliona Falei: sparse record (15 tour matches, 0 with serve stats in 52w)",
+  "Aliona Falei: latest point-level stats are 369 days old (2025-10-27)",
+  "Ekaterina Yashina: sparse record (12 tour matches, 0 with serve stats in 52w)",
+  "Ekaterina Yashina: latest point-level stats are 495 days old (2025-06-23)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 112.9,
+  "components_elo": {
+   "surface_elo": 182.3,
+   "overall_elo": 285.3,
+   "serve_return": 67.0,
+   "form": 71.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 22.3,
+   "overall_elo": 67.4,
+   "serve_return": 23.4,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.657,
+  "serve_return_implied_spw": {
+   "A": 0.5763,
+   "B": 0.558
+  },
+  "point_probs": {
+   "A_serve": 0.5905,
+   "B_serve": 0.5436
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5905025069098063,
+   "B_serve": 0.5435676300425675
+  },
+  "hold_probs": {
+   "A": 0.7156,
+   "B": 0.6077
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6531,
+   0.6545
+  ],
+  "p_tb": [
+   0.2591,
+   0.2562
+  ],
+  "p_decider": [
+   0.3563,
+   0.3562
+  ],
+  "games_mean": [
+   22.325,
+   22.307
+  ],
+  "exp_breaks": [
+   7.644,
+   7.627
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1962,
+    0.1959
+   ],
+   "1-2": [
+    0.1506,
+    0.1495
+   ],
+   "2-0": [
+    0.4475,
+    0.4479
+   ],
+   "2-1": [
+    0.2057,
+    0.2066
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Aliona Falei",
+   "elo_points": 67.4,
+   "raw_diff": 285.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Aliona Falei",
+   "elo_points": 23.4,
+   "raw_diff": 67.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Aliona Falei",
+   "elo_points": 22.3,
+   "raw_diff": 182.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5905,
+   "B": 0.5436,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Aliona Falei to win at least one set",
+  "probability": 0.8038,
+  "fair_odds": {
+   "decimal": 1.24,
+   "american": "-410"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Aliona Falei: sparse record (15 tour matches, 0 with serve stats in 52w); Aliona Falei: latest point-level stats are 369 days old (2025-10-27)",
+  "candidates": [
+   {
+    "selection": "Aliona Falei to win at least one set",
+    "probability": 0.8038,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7409,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.663,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Aliona Falei to win",
+    "probability": 0.6531,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6503,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6437,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5911,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Ekaterina Yashina +4.5 games",
+    "probability": 0.5798,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Aliona Falei -2.5 games",
+    "probability": 0.572,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Ekaterina Yashina to win at least one set",
+    "probability": 0.5525,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5176,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4824,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Exact sets Aliona Falei 2-0 Ekaterina Yashina",
+    "probability": 0.4475,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Ekaterina Yashina +2.5 games",
+    "probability": 0.428,
+    "fair_decimal": 2.34
+   },
+   {
+    "selection": "Aliona Falei -4.5 games",
+    "probability": 0.4202,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T15:05:41+00:00",
+  "version": 1,
+  "input_hash": "faf8bdcd52b82f6c",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187323",
+  "scheduled_start_utc": "2026-10-31T09:30Z"
+ }
+}
