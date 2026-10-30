@@ -1,0 +1,643 @@
+{
+ "predicted_winner": "Anna Blinkova",
+ "win_prob": {
+  "A": 0.5368,
+  "B": 0.4632
+ },
+ "win_prob_exact": {
+  "A": 0.53682,
+  "B": 0.46318000000000004
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.86,
+   "american": "-116"
+  },
+  "B": {
+   "decimal": 2.16,
+   "american": "+116"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3415,
+  "0-2": 0.2823,
+  "2-1": 0.1953,
+  "1-2": 0.1809
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0175,
+ "games": {
+  "mean": 22.54,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00235,
+   "13": 0.01178,
+   "14": 0.02657,
+   "15": 0.04709,
+   "16": 0.06903,
+   "17": 0.0822,
+   "18": 0.08269,
+   "19": 0.07691,
+   "20": 0.06761,
+   "21": 0.04816,
+   "22": 0.05869,
+   "23": 0.03842,
+   "24": 0.02138,
+   "25": 0.03775,
+   "26": 0.04246,
+   "27": 0.03789,
+   "28": 0.04139,
+   "29": 0.042,
+   "30": 0.03996,
+   "31": 0.03568,
+   "32": 0.03068,
+   "33": 0.01903,
+   "34": 0.0146,
+   "35": 0.01388,
+   "36": 0.00653,
+   "37": 0.00188,
+   "38": 0.0023,
+   "39": 0.00109
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00104,
+  "-11": 0.00463,
+  "-10": 0.01142,
+  "-9": 0.02152,
+  "-8": 0.03523,
+  "-7": 0.05194,
+  "-6": 0.06398,
+  "-5": 0.06985,
+  "-4": 0.07128,
+  "-3": 0.05281,
+  "-2": 0.03758,
+  "-1": 0.02795,
+  "0": 0.02767,
+  "1": 0.02911,
+  "2": 0.03947,
+  "3": 0.05586,
+  "4": 0.07776,
+  "5": 0.07969,
+  "6": 0.07719,
+  "7": 0.06447,
+  "8": 0.0463,
+  "9": 0.02871,
+  "10": 0.01601,
+  "11": 0.00722,
+  "12": 0.00131
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.761,
+   "under": 0.239
+  },
+  {
+   "line": 18.5,
+   "over": 0.6783,
+   "under": 0.3217
+  },
+  {
+   "line": 19.5,
+   "over": 0.6014,
+   "under": 0.3986
+  },
+  {
+   "line": 20.5,
+   "over": 0.5338,
+   "under": 0.4662
+  },
+  {
+   "line": 21.5,
+   "over": 0.4856,
+   "under": 0.5144
+  },
+  {
+   "line": 22.5,
+   "over": 0.4269,
+   "under": 0.5731
+  },
+  {
+   "line": 23.5,
+   "over": 0.3885,
+   "under": 0.6115
+  },
+  {
+   "line": 24.5,
+   "over": 0.3671,
+   "under": 0.6329
+  },
+  {
+   "line": 25.5,
+   "over": 0.3294,
+   "under": 0.6706
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.494,
+   "B +1.5": 0.506,
+   "B -1.5": 0.4213,
+   "A +1.5": 0.5787
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4545,
+   "B +2.5": 0.5455,
+   "B -2.5": 0.3837,
+   "A +2.5": 0.6163
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3987,
+   "B +3.5": 0.6013,
+   "B -3.5": 0.3309,
+   "A +3.5": 0.6691
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3209,
+   "B +4.5": 0.6791,
+   "B -4.5": 0.2596,
+   "A +4.5": 0.7404
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2412,
+   "B +5.5": 0.7588,
+   "B -5.5": 0.1898,
+   "A +5.5": 0.8102
+  }
+ ],
+ "p_tiebreak": 0.2568,
+ "p_a_wins_set": 0.7177,
+ "p_b_wins_set": 0.6585,
+ "p_decider": 0.3762,
+ "expected_breaks": {
+  "total": 8.28,
+  "by_A": 4.26,
+  "by_B": 4.02
+ },
+ "expected_break_points": {
+  "A_creates": 9.18,
+  "B_creates": 8.85
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3415
+ },
+ "match": "Anna Blinkova vs Martyna Kubka",
+ "players": {
+  "A": {
+   "id": "wta:215020",
+   "name": "Anna Blinkova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 103.0,
+   "age": 28.13258042436687,
+   "elo": 1737.1,
+   "surface_elo": {
+    "Hard": 1714.9,
+    "Clay": 1460.9,
+    "Grass": 1573.4
+   },
+   "matches_total": 284,
+   "matches_surface": {
+    "Hard": 192,
+    "Clay": 54,
+    "Grass": 38
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    27,
+    25
+   ],
+   "last52w_surface": [
+    22,
+    18
+   ],
+   "career_surface_wl": [
+    84,
+    108
+   ],
+   "games_won_lost_52w": [
+    560,
+    543
+   ],
+   "sets_won_lost_52w": [
+    64,
+    57
+   ],
+   "avg_opp_elo_last20": 1622.3,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": -0.0348,
+   "return_rating": 0.076,
+   "form_elo": 71.0,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-04-21",
+   "stats_52w": {
+    "first_in": 0.6146,
+    "first_won": 0.5548,
+    "second_won": 0.4161,
+    "serve_pts_won": 0.5013,
+    "hold": 0.513,
+    "aces_per_svgm": 0.087,
+    "df_per_svgm": 0.3217,
+    "bp_saved": 0.4667,
+    "ret_pts_won": 0.4047,
+    "ret_1st_won": 0.345,
+    "ret_2nd_won": 0.509,
+    "ret_games_won": 0.2966,
+    "bp_conv": 0.407,
+    "bp_chances_per_retgm": 0.7288,
+    "matches_with_stats": 12
+   },
+   "rank_history": [
+    [
+     "2025-09-24",
+     71.0
+    ],
+    [
+     "2025-10-27",
+     95.0
+    ],
+    [
+     "2026-01-04",
+     61.0
+    ],
+    [
+     "2026-01-19",
+     64.0
+    ],
+    [
+     "2026-02-01",
+     75.0
+    ],
+    [
+     "2026-02-23",
+     84.0
+    ],
+    [
+     "2026-03-04",
+     94.0
+    ],
+    [
+     "2026-03-17",
+     92.0
+    ],
+    [
+     "2026-03-30",
+     99.0
+    ],
+    [
+     "2026-04-13",
+     91.0
+    ],
+    [
+     "2026-04-21",
+     89.0
+    ],
+    [
+     "2026-05-25",
+     103.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221243",
+   "name": "Martyna Kubka",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 387.0,
+   "age": 25.471663244353184,
+   "elo": 1678.4,
+   "surface_elo": {
+    "Hard": 1671.7,
+    "Clay": 1444.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    8
+   ],
+   "last52w": [
+    9,
+    6
+   ],
+   "last52w_surface": [
+    9,
+    6
+   ],
+   "career_surface_wl": [
+    10,
+    7
+   ],
+   "games_won_lost_52w": [
+    177,
+    161
+   ],
+   "sets_won_lost_52w": [
+    20,
+    16
+   ],
+   "avg_opp_elo_last20": 1583.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0219,
+   "return_rating": -0.0061,
+   "form_elo": 67.6,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2025-06-16",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2022-07-25",
+     472.0
+    ],
+    [
+     "2025-06-16",
+     387.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Valle D'Aosta Ladies Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Anna Blinkova: limited recent/surface sample (52 matches 52w, 192 career on Hard, 12 with stats)",
+  "Anna Blinkova: latest point-level stats are 192 days old (2026-04-21)",
+  "Martyna Kubka: sparse record (18 tour matches, 0 with serve stats in 52w)",
+  "Martyna Kubka: latest point-level stats are 501 days old (2025-06-16)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 27.2,
+  "components_elo": {
+   "surface_elo": 43.1,
+   "overall_elo": 58.7,
+   "serve_return": 23.1,
+   "form": 3.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 5.3,
+   "overall_elo": 13.9,
+   "serve_return": 8.1,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5391,
+  "serve_return_implied_spw": {
+   "A": 0.5587,
+   "B": 0.5524
+  },
+  "point_probs": {
+   "A_serve": 0.5612,
+   "B_serve": 0.5499
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5611915654146669,
+   "B_serve": 0.5498780231343743
+  },
+  "hold_probs": {
+   "A": 0.6496,
+   "B": 0.6229
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5368,
+   0.5381
+  ],
+  "p_tb": [
+   0.2568,
+   0.2558
+  ],
+  "p_decider": [
+   0.3762,
+   0.3746
+  ],
+  "games_mean": [
+   22.542,
+   22.522
+  ],
+  "exp_breaks": [
+   8.276,
+   8.254
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2823,
+    0.2818
+   ],
+   "1-2": [
+    0.1809,
+    0.1801
+   ],
+   "2-0": [
+    0.3415,
+    0.3436
+   ],
+   "2-1": [
+    0.1953,
+    0.1946
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Anna Blinkova",
+   "elo_points": 13.9,
+   "raw_diff": 58.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Anna Blinkova",
+   "elo_points": 8.1,
+   "raw_diff": 23.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Anna Blinkova",
+   "elo_points": 5.3,
+   "raw_diff": 43.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5612,
+   "B": 0.5499,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7432,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-289"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Anna Blinkova: limited recent/surface sample (52 matches 52w, 192 career on Hard, 12 with stats); Anna Blinkova: latest point-level stats are 192 days old (2026-04-21)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7432,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Anna Blinkova to win at least one set",
+    "probability": 0.7177,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Martyna Kubka +4.5 games",
+    "probability": 0.6791,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6783,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Martyna Kubka to win at least one set",
+    "probability": 0.6585,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6329,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6238,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5731,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Martyna Kubka +2.5 games",
+    "probability": 0.5455,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Anna Blinkova to win",
+    "probability": 0.5368,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5338,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4662,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Martyna Kubka to win",
+    "probability": 0.4632,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Anna Blinkova -2.5 games",
+    "probability": 0.4545,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4269,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T05:49:50+00:00",
+  "version": 1,
+  "input_hash": "0690dd36cb92b104",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185852",
+  "scheduled_start_utc": "2026-10-30T14:00Z"
+ }
+}

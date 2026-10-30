@@ -1,0 +1,646 @@
+{
+ "predicted_winner": "Tatjana Maria",
+ "win_prob": {
+  "A": 0.5652,
+  "B": 0.4348
+ },
+ "win_prob_exact": {
+  "A": 0.56519,
+  "B": 0.43481000000000003
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.77,
+   "american": "-130"
+  },
+  "B": {
+   "decimal": 2.3,
+   "american": "+130"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3665,
+  "0-2": 0.26,
+  "2-1": 0.1987,
+  "1-2": 0.1748
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0197,
+ "games": {
+  "mean": 22.65,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00226,
+   "13": 0.00973,
+   "14": 0.02446,
+   "15": 0.0458,
+   "16": 0.06512,
+   "17": 0.08224,
+   "18": 0.08296,
+   "19": 0.07788,
+   "20": 0.06864,
+   "21": 0.05037,
+   "22": 0.06063,
+   "23": 0.0395,
+   "24": 0.02104,
+   "25": 0.03708,
+   "26": 0.04101,
+   "27": 0.03668,
+   "28": 0.0411,
+   "29": 0.0422,
+   "30": 0.03957,
+   "31": 0.03757,
+   "32": 0.03184,
+   "33": 0.02055,
+   "34": 0.01504,
+   "35": 0.01443,
+   "36": 0.00671,
+   "37": 0.00195,
+   "38": 0.00247,
+   "39": 0.00117
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00081,
+  "-11": 0.00305,
+  "-10": 0.00829,
+  "-9": 0.01793,
+  "-8": 0.02963,
+  "-7": 0.04689,
+  "-6": 0.05941,
+  "-5": 0.06664,
+  "-4": 0.06852,
+  "-3": 0.05283,
+  "-2": 0.03745,
+  "-1": 0.02924,
+  "0": 0.02791,
+  "1": 0.02967,
+  "2": 0.04009,
+  "3": 0.05965,
+  "4": 0.08496,
+  "5": 0.08583,
+  "6": 0.08032,
+  "7": 0.06819,
+  "8": 0.04722,
+  "9": 0.03049,
+  "10": 0.01679,
+  "11": 0.00674,
+  "12": 0.00145
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7704,
+   "under": 0.2296
+  },
+  {
+   "line": 18.5,
+   "over": 0.6874,
+   "under": 0.3126
+  },
+  {
+   "line": 19.5,
+   "over": 0.6096,
+   "under": 0.3905
+  },
+  {
+   "line": 20.5,
+   "over": 0.5409,
+   "under": 0.4591
+  },
+  {
+   "line": 21.5,
+   "over": 0.4905,
+   "under": 0.5095
+  },
+  {
+   "line": 22.5,
+   "over": 0.4299,
+   "under": 0.5701
+  },
+  {
+   "line": 23.5,
+   "over": 0.3904,
+   "under": 0.6096
+  },
+  {
+   "line": 24.5,
+   "over": 0.3694,
+   "under": 0.6306
+  },
+  {
+   "line": 25.5,
+   "over": 0.3323,
+   "under": 0.6677
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5217,
+   "B +1.5": 0.4783,
+   "B -1.5": 0.3914,
+   "A +1.5": 0.6086
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4816,
+   "B +2.5": 0.5184,
+   "B -2.5": 0.354,
+   "A +2.5": 0.646
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.422,
+   "B +3.5": 0.578,
+   "B -3.5": 0.3012,
+   "A +3.5": 0.6988
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.337,
+   "B +4.5": 0.663,
+   "B -4.5": 0.2326,
+   "A +4.5": 0.7673
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2512,
+   "B +5.5": 0.7488,
+   "B -5.5": 0.166,
+   "A +5.5": 0.834
+  }
+ ],
+ "p_tiebreak": 0.2692,
+ "p_a_wins_set": 0.74,
+ "p_b_wins_set": 0.6335,
+ "p_decider": 0.3735,
+ "expected_breaks": {
+  "total": 7.57,
+  "by_A": 3.99,
+  "by_B": 3.58
+ },
+ "expected_break_points": {
+  "A_creates": 8.82,
+  "B_creates": 8.19
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3665
+ },
+ "match": "Tatjana Maria vs Valeriya Strakhova",
+ "players": {
+  "A": {
+   "id": "wta:213583",
+   "name": "Tatjana Maria",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 54.0,
+   "age": 39.13258042436687,
+   "elo": 1722.4,
+   "surface_elo": {
+    "Hard": 1610.7,
+    "Clay": 1542.7,
+    "Grass": 1697.9
+   },
+   "matches_total": 369,
+   "matches_surface": {
+    "Hard": 210,
+    "Clay": 103,
+    "Grass": 56
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    25,
+    25
+   ],
+   "last52w_surface": [
+    13,
+    15
+   ],
+   "career_surface_wl": [
+    77,
+    133
+   ],
+   "games_won_lost_52w": [
+    513,
+    472
+   ],
+   "sets_won_lost_52w": [
+    57,
+    51
+   ],
+   "avg_opp_elo_last20": 1706.6,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.0376,
+   "return_rating": -0.059,
+   "form_elo": 102.8,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.5754,
+    "first_won": 0.6487,
+    "second_won": 0.4345,
+    "serve_pts_won": 0.5577,
+    "hold": 0.6438,
+    "aces_per_svgm": 0.4064,
+    "df_per_svgm": 0.2192,
+    "bp_saved": 0.5155,
+    "ret_pts_won": 0.4023,
+    "ret_1st_won": 0.3326,
+    "ret_2nd_won": 0.5293,
+    "ret_games_won": 0.289,
+    "bp_conv": 0.4701,
+    "bp_chances_per_retgm": 0.6147,
+    "matches_with_stats": 22
+   },
+   "rank_history": [
+    [
+     "2025-09-15",
+     44.0
+    ],
+    [
+     "2025-10-20",
+     43.0
+    ],
+    [
+     "2026-01-12",
+     42.0
+    ],
+    [
+     "2026-02-01",
+     54.0
+    ],
+    [
+     "2026-02-23",
+     55.0
+    ],
+    [
+     "2026-03-04",
+     59.0
+    ],
+    [
+     "2026-03-30",
+     60.0
+    ],
+    [
+     "2026-04-06",
+     61.0
+    ],
+    [
+     "2026-04-13",
+     63.0
+    ],
+    [
+     "2026-04-21",
+     54.0
+    ],
+    [
+     "2026-05-18",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     54.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:211063",
+   "name": "Valeriya Strakhova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 303.0,
+   "age": 31.341683778234085,
+   "elo": 1545.2,
+   "surface_elo": {
+    "Hard": 1612.0,
+    "Clay": 1367.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 9,
+   "matches_surface": {
+    "Hard": 6,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    4,
+    5
+   ],
+   "last20": [
+    4,
+    5
+   ],
+   "last52w": [
+    4,
+    2
+   ],
+   "last52w_surface": [
+    4,
+    0
+   ],
+   "career_surface_wl": [
+    4,
+    2
+   ],
+   "games_won_lost_52w": [
+    70,
+    57
+   ],
+   "sets_won_lost_52w": [
+    9,
+    6
+   ],
+   "avg_opp_elo_last20": 1507.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0505,
+   "return_rating": 0.0084,
+   "form_elo": 43.2,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2025-09-08",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2016-04-04",
+     236.0
+    ],
+    [
+     "2024-11-25",
+     253.0
+    ],
+    [
+     "2025-09-08",
+     303.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Queretaro Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Tatjana Maria: latest point-level stats are 165 days old (2026-05-18)",
+  "Valeriya Strakhova: sparse record (9 tour matches, 0 with serve stats in 52w)",
+  "Valeriya Strakhova: latest point-level stats are 417 days old (2025-09-08)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 48.1,
+  "components_elo": {
+   "surface_elo": -1.4,
+   "overall_elo": 177.2,
+   "serve_return": 18.5,
+   "form": 59.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -0.2,
+   "overall_elo": 41.9,
+   "serve_return": 6.5,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5687,
+  "serve_return_implied_spw": {
+   "A": 0.5729,
+   "B": 0.5678
+  },
+  "point_probs": {
+   "A_serve": 0.5803,
+   "B_serve": 0.5603
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5803356946675936,
+   "B_serve": 0.5603335067546951
+  },
+  "hold_probs": {
+   "A": 0.6933,
+   "B": 0.6476
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5652,
+   0.5673
+  ],
+  "p_tb": [
+   0.2692,
+   0.2708
+  ],
+  "p_decider": [
+   0.3735,
+   0.3741
+  ],
+  "games_mean": [
+   22.651,
+   22.649
+  ],
+  "exp_breaks": [
+   7.571,
+   7.563
+  ],
+  "set_scores": {
+   "0-2": [
+    0.26,
+    0.2585
+   ],
+   "1-2": [
+    0.1748,
+    0.1742
+   ],
+   "2-0": [
+    0.3665,
+    0.3673
+   ],
+   "2-1": [
+    0.1987,
+    0.2
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tatjana Maria",
+   "elo_points": 41.9,
+   "raw_diff": 177.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tatjana Maria",
+   "elo_points": 6.5,
+   "raw_diff": 18.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Valeriya Strakhova",
+   "elo_points": -0.2,
+   "raw_diff": -1.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5803,
+   "B": 0.5603,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Tatjana Maria to win at least one set",
+  "probability": 0.74,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-285"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Tatjana Maria: latest point-level stats are 165 days old (2026-05-18); Valeriya Strakhova: sparse record (9 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Tatjana Maria to win at least one set",
+    "probability": 0.74,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7308,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6874,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Valeriya Strakhova +4.5 games",
+    "probability": 0.663,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Valeriya Strakhova to win at least one set",
+    "probability": 0.6335,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6306,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6265,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5701,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Tatjana Maria to win",
+    "probability": 0.5652,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5409,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Valeriya Strakhova +2.5 games",
+    "probability": 0.5184,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Tatjana Maria -2.5 games",
+    "probability": 0.4816,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4591,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Valeriya Strakhova to win",
+    "probability": 0.4348,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4299,
+    "fair_decimal": 2.33
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T05:50:02+00:00",
+  "version": 1,
+  "input_hash": "e4630123882b6d0a",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185816",
+  "scheduled_start_utc": "2026-10-30T20:00Z"
+ }
+}

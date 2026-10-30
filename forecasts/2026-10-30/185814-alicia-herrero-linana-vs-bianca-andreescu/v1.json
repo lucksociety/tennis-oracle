@@ -1,0 +1,639 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.4047,
+  "B": 0.5953
+ },
+ "win_prob_exact": {
+  "A": 0.40467,
+  "B": 0.59533
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.47,
+   "american": "+147"
+  },
+  "B": {
+   "decimal": 1.68,
+   "american": "-147"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3907,
+  "2-0": 0.2376,
+  "1-2": 0.2046,
+  "2-1": 0.167
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.021,
+ "games": {
+  "mean": 22.71,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00205,
+   "13": 0.00954,
+   "14": 0.0234,
+   "15": 0.04447,
+   "16": 0.06465,
+   "17": 0.08116,
+   "18": 0.08107,
+   "19": 0.07858,
+   "20": 0.07142,
+   "21": 0.04868,
+   "22": 0.06248,
+   "23": 0.0426,
+   "24": 0.019,
+   "25": 0.03745,
+   "26": 0.04142,
+   "27": 0.03648,
+   "28": 0.04007,
+   "29": 0.04227,
+   "30": 0.0395,
+   "31": 0.03607,
+   "32": 0.0322,
+   "33": 0.02076,
+   "34": 0.01543,
+   "35": 0.01512,
+   "36": 0.0073,
+   "37": 0.00187,
+   "38": 0.00328,
+   "39": 0.00168
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00168,
+  "-11": 0.00712,
+  "-10": 0.01679,
+  "-9": 0.03246,
+  "-8": 0.05019,
+  "-7": 0.07154,
+  "-6": 0.08499,
+  "-5": 0.08885,
+  "-4": 0.08989,
+  "-3": 0.06538,
+  "-2": 0.043,
+  "-1": 0.03138,
+  "0": 0.02707,
+  "1": 0.02797,
+  "2": 0.03763,
+  "3": 0.0513,
+  "4": 0.06666,
+  "5": 0.06251,
+  "6": 0.0525,
+  "7": 0.04112,
+  "8": 0.02521,
+  "9": 0.01455,
+  "10": 0.00729,
+  "11": 0.00255,
+  "12": 0.00037
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7747,
+   "under": 0.2253
+  },
+  {
+   "line": 18.5,
+   "over": 0.6937,
+   "under": 0.3063
+  },
+  {
+   "line": 19.5,
+   "over": 0.6151,
+   "under": 0.3849
+  },
+  {
+   "line": 20.5,
+   "over": 0.5437,
+   "under": 0.4563
+  },
+  {
+   "line": 21.5,
+   "over": 0.495,
+   "under": 0.505
+  },
+  {
+   "line": 22.5,
+   "over": 0.4325,
+   "under": 0.5675
+  },
+  {
+   "line": 23.5,
+   "over": 0.3899,
+   "under": 0.6101
+  },
+  {
+   "line": 24.5,
+   "over": 0.3709,
+   "under": 0.6291
+  },
+  {
+   "line": 25.5,
+   "over": 0.3334,
+   "under": 0.6665
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3617,
+   "B +1.5": 0.6383,
+   "B -1.5": 0.5519,
+   "A +1.5": 0.4481
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3241,
+   "B +2.5": 0.6759,
+   "B -2.5": 0.5089,
+   "A +2.5": 0.4911
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2728,
+   "B +3.5": 0.7272,
+   "B -3.5": 0.4435,
+   "A +3.5": 0.5565
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2061,
+   "B +4.5": 0.7939,
+   "B -4.5": 0.3536,
+   "A +4.5": 0.6464
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1436,
+   "B +5.5": 0.8564,
+   "B -5.5": 0.2648,
+   "A +5.5": 0.7352
+  }
+ ],
+ "p_tiebreak": 0.2789,
+ "p_a_wins_set": 0.6093,
+ "p_b_wins_set": 0.7624,
+ "p_decider": 0.3717,
+ "expected_breaks": {
+  "total": 7.15,
+  "by_A": 3.28,
+  "by_B": 3.86
+ },
+ "expected_break_points": {
+  "A_creates": 7.72,
+  "B_creates": 8.64
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3907
+ },
+ "match": "Alicia Herrero Linana vs Bianca Andreescu",
+ "players": {
+  "A": {
+   "id": "wta:214189",
+   "name": "Alicia Herrero Linana",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 358.0,
+   "age": 27.795003422313485,
+   "elo": 1725.2,
+   "surface_elo": {
+    "Hard": 1717.0,
+    "Clay": 1442.9,
+    "Grass": 1500.0
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    5
+   ],
+   "last52w": [
+    13,
+    4
+   ],
+   "last52w_surface": [
+    13,
+    4
+   ],
+   "career_surface_wl": [
+    13,
+    4
+   ],
+   "games_won_lost_52w": [
+    214,
+    150
+   ],
+   "sets_won_lost_52w": [
+    29,
+    12
+   ],
+   "avg_opp_elo_last20": 1571.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0004,
+   "return_rating": -0.0176,
+   "form_elo": 29.5,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2025-07-14",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-07-14",
+     358.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.287337440109514,
+   "elo": 1771.0,
+   "surface_elo": {
+    "Hard": 1721.3,
+    "Clay": 1753.1,
+    "Grass": 1620.5
+   },
+   "matches_total": 206,
+   "matches_surface": {
+    "Hard": 131,
+    "Clay": 37,
+    "Grass": 38
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    17,
+    11
+   ],
+   "last52w_surface": [
+    12,
+    8
+   ],
+   "career_surface_wl": [
+    85,
+    46
+   ],
+   "games_won_lost_52w": [
+    326,
+    272
+   ],
+   "sets_won_lost_52w": [
+    38,
+    25
+   ],
+   "avg_opp_elo_last20": 1641.6,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.1283,
+   "return_rating": 0.0319,
+   "form_elo": 80.2,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6381,
+    "first_won": 0.6255,
+    "second_won": 0.4231,
+    "serve_pts_won": 0.5522,
+    "hold": 0.6,
+    "aces_per_svgm": 0.4,
+    "df_per_svgm": 0.4,
+    "bp_saved": 0.4717,
+    "ret_pts_won": 0.4004,
+    "ret_1st_won": 0.3596,
+    "ret_2nd_won": 0.4774,
+    "ret_games_won": 0.2609,
+    "bp_conv": 0.4,
+    "bp_chances_per_retgm": 0.6522,
+    "matches_with_stats": 6
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Queretaro Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Alicia Herrero Linana: sparse record (18 tour matches, 0 with serve stats in 52w)",
+  "Alicia Herrero Linana: latest point-level stats are 473 days old (2025-07-14)",
+  "Bianca Andreescu: limited recent/surface sample (28 matches 52w, 131 career on Hard, 6 with stats)",
+  "Bianca Andreescu: latest point-level stats are 178 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -67.1,
+  "components_elo": {
+   "surface_elo": -4.3,
+   "overall_elo": -45.8,
+   "serve_return": -159.9,
+   "form": -50.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -0.5,
+   "overall_elo": -10.8,
+   "serve_return": -55.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4047,
+  "serve_return_implied_spw": {
+   "A": 0.5578,
+   "B": 0.6012
+  },
+  "point_probs": {
+   "A_serve": 0.5656,
+   "B_serve": 0.5936
+  },
+  "point_probs_exact": {
+   "A_serve": 0.565598528120089,
+   "B_serve": 0.5935678025703783
+  },
+  "hold_probs": {
+   "A": 0.6599,
+   "B": 0.7222
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4047,
+   0.4063
+  ],
+  "p_tb": [
+   0.2789,
+   0.2809
+  ],
+  "p_decider": [
+   0.3717,
+   0.372
+  ],
+  "games_mean": [
+   22.711,
+   22.713
+  ],
+  "exp_breaks": [
+   7.145,
+   7.138
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3907,
+    0.3898
+   ],
+   "1-2": [
+    0.2046,
+    0.204
+   ],
+   "2-0": [
+    0.2376,
+    0.2382
+   ],
+   "2-1": [
+    0.167,
+    0.1681
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.002
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": -55.8,
+   "raw_diff": -159.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -10.8,
+   "raw_diff": -45.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -0.5,
+   "raw_diff": -4.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5656,
+   "B": 0.5936,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win at least one set",
+  "probability": 0.7624,
+  "fair_odds": {
+   "decimal": 1.31,
+   "american": "-321"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Alicia Herrero Linana: sparse record (18 tour matches, 0 with serve stats in 52w); Alicia Herrero Linana: latest point-level stats are 473 days old (2025-07-14)",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.7624,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7211,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6937,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Alicia Herrero Linana +4.5 games",
+    "probability": 0.6464,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6291,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6283,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Alicia Herrero Linana to win at least one set",
+    "probability": 0.6093,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.5953,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5675,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5437,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.5089,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Alicia Herrero Linana +2.5 games",
+    "probability": 0.4911,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4563,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4325,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Alicia Herrero Linana to win",
+    "probability": 0.4047,
+    "fair_decimal": 2.47
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T05:50:07+00:00",
+  "version": 1,
+  "input_hash": "0d5f0d0777380a60",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185814",
+  "scheduled_start_utc": "2026-10-31T01:30Z"
+ }
+}

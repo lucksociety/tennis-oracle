@@ -1,0 +1,666 @@
+{
+ "predicted_winner": "Jiri Lehecka",
+ "win_prob": {
+  "A": 0.3047,
+  "B": 0.6953
+ },
+ "win_prob_exact": {
+  "A": 0.30473,
+  "B": 0.69527
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.28,
+   "american": "+228"
+  },
+  "B": {
+   "decimal": 1.44,
+   "american": "-228"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4726,
+  "1-2": 0.2227,
+  "2-0": 0.1606,
+  "2-1": 0.1441
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0365,
+ "games": {
+  "mean": 24.22,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.28,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00052,
+   "13": 0.00327,
+   "14": 0.00878,
+   "15": 0.02169,
+   "16": 0.036,
+   "17": 0.05964,
+   "18": 0.0679,
+   "19": 0.08296,
+   "20": 0.0777,
+   "21": 0.05234,
+   "22": 0.08829,
+   "23": 0.07134,
+   "24": 0.00871,
+   "25": 0.03311,
+   "26": 0.05443,
+   "27": 0.02307,
+   "28": 0.02932,
+   "29": 0.03176,
+   "30": 0.03249,
+   "31": 0.04209,
+   "32": 0.04361,
+   "33": 0.02844,
+   "34": 0.02119,
+   "35": 0.03507,
+   "36": 0.02474,
+   "37": 0.0023,
+   "38": 0.00801,
+   "39": 0.01123
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0005,
+  "-11": 0.00307,
+  "-10": 0.00821,
+  "-9": 0.02005,
+  "-8": 0.03465,
+  "-7": 0.06306,
+  "-6": 0.0854,
+  "-5": 0.11621,
+  "-4": 0.13162,
+  "-3": 0.10663,
+  "-2": 0.0712,
+  "-1": 0.03899,
+  "0": 0.03407,
+  "1": 0.03364,
+  "2": 0.04696,
+  "3": 0.05758,
+  "4": 0.05964,
+  "5": 0.04173,
+  "6": 0.02287,
+  "7": 0.01455,
+  "8": 0.00573,
+  "9": 0.0026,
+  "10": 0.00082,
+  "11": 0.0002,
+  "12": 2e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8701,
+   "under": 0.1299
+  },
+  {
+   "line": 18.5,
+   "over": 0.8022,
+   "under": 0.1978
+  },
+  {
+   "line": 19.5,
+   "over": 0.7192,
+   "under": 0.2808
+  },
+  {
+   "line": 20.5,
+   "over": 0.6415,
+   "under": 0.3585
+  },
+  {
+   "line": 21.5,
+   "over": 0.5892,
+   "under": 0.4108
+  },
+  {
+   "line": 22.5,
+   "over": 0.5009,
+   "under": 0.4991
+  },
+  {
+   "line": 23.5,
+   "over": 0.4296,
+   "under": 0.5704
+  },
+  {
+   "line": 24.5,
+   "over": 0.4209,
+   "under": 0.5791
+  },
+  {
+   "line": 25.5,
+   "over": 0.3877,
+   "under": 0.6122
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2527,
+   "B +1.5": 0.7473,
+   "B -1.5": 0.6406,
+   "A +1.5": 0.3594
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2057,
+   "B +2.5": 0.7943,
+   "B -2.5": 0.5694,
+   "A +2.5": 0.4306
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1482,
+   "B +3.5": 0.8518,
+   "B -3.5": 0.4628,
+   "A +3.5": 0.5372
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0885,
+   "B +4.5": 0.9115,
+   "B -4.5": 0.3312,
+   "A +4.5": 0.6688
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0468,
+   "B +5.5": 0.9532,
+   "B -5.5": 0.2149,
+   "A +5.5": 0.7851
+  }
+ ],
+ "p_tiebreak": 0.4618,
+ "p_a_wins_set": 0.5274,
+ "p_b_wins_set": 0.8394,
+ "p_decider": 0.3668,
+ "expected_breaks": {
+  "total": 3.81,
+  "by_A": 1.43,
+  "by_B": 2.38
+ },
+ "expected_break_points": {
+  "A_creates": 4.34,
+  "B_creates": 6.28
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4726
+ },
+ "match": "Jerome Kym vs Jiri Lehecka",
+ "players": {
+  "A": {
+   "id": "atp:208843",
+   "name": "Jerome Kym",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 192.0,
+   "age": 23.628268309377138,
+   "elo": 1762.1,
+   "surface_elo": {
+    "Hard": 1731.0,
+    "Clay": 1596.8,
+    "Grass": 1573.3
+   },
+   "matches_total": 21,
+   "matches_surface": {
+    "Hard": 13,
+    "Clay": 5,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    7,
+    3
+   ],
+   "last52w_surface": [
+    4,
+    1
+   ],
+   "career_surface_wl": [
+    8,
+    5
+   ],
+   "games_won_lost_52w": [
+    163,
+    137
+   ],
+   "sets_won_lost_52w": [
+    18,
+    10
+   ],
+   "avg_opp_elo_last20": 1663.9,
+   "vs_top_opp_52w": [
+    1,
+    0
+   ],
+   "serve_rating": 0.0488,
+   "return_rating": 0.0142,
+   "form_elo": 63.7,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2025-08-25",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2021-09-17",
+     1113.0
+    ],
+    [
+     "2024-09-13",
+     151.0
+    ],
+    [
+     "2024-10-21",
+     140.0
+    ],
+    [
+     "2025-02-01",
+     136.0
+    ],
+    [
+     "2025-07-14",
+     154.0
+    ],
+    [
+     "2025-08-25",
+     175.0
+    ],
+    [
+     "2025-09-12",
+     155.0
+    ],
+    [
+     "2026-02-06",
+     192.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:208103",
+   "name": "Jiri Lehecka",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 12.0,
+   "age": 24.932580424366872,
+   "elo": 1929.9,
+   "surface_elo": {
+    "Hard": 1877.3,
+    "Clay": 1793.4,
+    "Grass": 1780.3
+   },
+   "matches_total": 252,
+   "matches_surface": {
+    "Hard": 177,
+    "Clay": 49,
+    "Grass": 26
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    36,
+    20
+   ],
+   "last52w_surface": [
+    25,
+    14
+   ],
+   "career_surface_wl": [
+    105,
+    72
+   ],
+   "games_won_lost_52w": [
+    766,
+    672
+   ],
+   "sets_won_lost_52w": [
+    85,
+    57
+   ],
+   "avg_opp_elo_last20": 1820.5,
+   "vs_top_opp_52w": [
+    3,
+    12
+   ],
+   "serve_rating": 0.2371,
+   "return_rating": 0.1411,
+   "form_elo": 13.0,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6591,
+    "first_won": 0.7312,
+    "second_won": 0.5364,
+    "serve_pts_won": 0.6648,
+    "hold": 0.865,
+    "aces_per_svgm": 0.6204,
+    "df_per_svgm": 0.073,
+    "bp_saved": 0.7016,
+    "ret_pts_won": 0.3609,
+    "ret_1st_won": 0.2959,
+    "ret_2nd_won": 0.4852,
+    "ret_games_won": 0.1882,
+    "bp_conv": 0.3493,
+    "bp_chances_per_retgm": 0.5387,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     18.0
+    ],
+    [
+     "2025-11-20",
+     17.0
+    ],
+    [
+     "2026-01-04",
+     19.0
+    ],
+    [
+     "2026-02-07",
+     21.0
+    ],
+    [
+     "2026-02-16",
+     22.0
+    ],
+    [
+     "2026-02-23",
+     24.0
+    ],
+    [
+     "2026-03-04",
+     23.0
+    ],
+    [
+     "2026-03-18",
+     22.0
+    ],
+    [
+     "2026-04-05",
+     13.0
+    ],
+    [
+     "2026-04-22",
+     14.0
+    ],
+    [
+     "2026-05-06",
+     13.0
+    ],
+    [
+     "2026-05-25",
+     12.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Swiss Indoors Basel",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Jerome Kym: sparse record (21 tour matches, 0 with serve stats in 52w)",
+  "Jerome Kym: latest point-level stats are 431 days old (2025-08-25)",
+  "Jiri Lehecka: latest point-level stats are 177 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -142.3,
+  "components_elo": {
+   "surface_elo": -146.3,
+   "overall_elo": -167.7,
+   "serve_return": -242.9,
+   "form": 50.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -17.9,
+   "overall_elo": -39.6,
+   "serve_return": -84.7,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3059,
+  "serve_return_implied_spw": {
+   "A": 0.6306,
+   "B": 0.7006
+  },
+  "point_probs": {
+   "A_serve": 0.6365,
+   "B_serve": 0.6952
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6365147881177201,
+   "B_serve": 0.695225852900378
+  },
+  "hold_probs": {
+   "A": 0.8065,
+   "B": 0.895
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3047,
+   0.3068
+  ],
+  "p_tb": [
+   0.4618,
+   0.4641
+  ],
+  "p_decider": [
+   0.3668,
+   0.3687
+  ],
+  "games_mean": [
+   24.218,
+   24.232
+  ],
+  "exp_breaks": [
+   3.813,
+   3.813
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4726,
+    0.4693
+   ],
+   "1-2": [
+    0.2227,
+    0.2239
+   ],
+   "2-0": [
+    0.1606,
+    0.1621
+   ],
+   "2-1": [
+    0.1441,
+    0.1448
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0033
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jiri Lehecka",
+   "elo_points": -84.7,
+   "raw_diff": -242.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Jiri Lehecka",
+   "elo_points": -39.6,
+   "raw_diff": -167.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Jiri Lehecka",
+   "elo_points": -17.9,
+   "raw_diff": -146.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6365,
+   "B": 0.6952,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Jiri Lehecka to win at least one set",
+  "probability": 0.8394,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-523"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Jerome Kym: sparse record (21 tour matches, 0 with serve stats in 52w); Jerome Kym: latest point-level stats are 431 days old (2025-08-25)",
+  "candidates": [
+   {
+    "selection": "Jiri Lehecka to win at least one set",
+    "probability": 0.8394,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8022,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Jiri Lehecka to win",
+    "probability": 0.6953,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Jerome Kym +4.5 games",
+    "probability": 0.6688,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6415,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6332,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5791,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Jiri Lehecka -2.5 games",
+    "probability": 0.5694,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5382,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Jerome Kym to win at least one set",
+    "probability": 0.5274,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5009,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4991,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Exact sets Jerome Kym 0-2 Jiri Lehecka",
+    "probability": 0.4726,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4618,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Jerome Kym +2.5 games",
+    "probability": 0.4306,
+    "fair_decimal": 2.32
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-29",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T05:49:59+00:00",
+  "version": 1,
+  "input_hash": "5eeabbe92388ef25",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185155",
+  "scheduled_start_utc": "2026-10-30T17:00Z"
+ }
+}

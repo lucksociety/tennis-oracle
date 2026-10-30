@@ -1,125 +1,37 @@
 {
  "date": "2026-10-30",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-29T21:08:59+00:00",
+ "generated_at_utc": "2026-10-30T05:50:07+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
   {
-   "espn_id": "185816",
+   "espn_id": "185686",
    "tour": "wta",
-   "tournament": "Queretaro Open",
-   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "tournament": "Toray Pan Pacific Open Tennis",
+   "venue": "Tokyo, Japan",
    "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
+   "court": "Center",
+   "start_utc": "2026-10-30T04:20Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Mia Pohankova",
+     "id": "wta:266376"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Alycia Parks",
+     "id": "wta:219917"
     }
    ],
    "surface": "Hard",
-   "surface_source": "assumed",
+   "surface_source": "venue-history",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "185815",
-   "tour": "wta",
-   "tournament": "Queretaro Open",
-   "venue": "Santiago de Quer\u00e9taro, Mexico",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "Carole Monnet",
-     "id": "wta:220733"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "185814",
-   "tour": "wta",
-   "tournament": "Queretaro Open",
-   "venue": "Santiago de Quer\u00e9taro, Mexico",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "185813",
-   "tour": "wta",
-   "tournament": "Queretaro Open",
-   "venue": "Santiago de Quer\u00e9taro, Mexico",
-   "round": "Quarterfinal",
-   "court": "",
-   "start_utc": "2026-10-30T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "Elizabeth Mandlik",
-     "id": "wta:216097"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": null
   },
   {
    "espn_id": "185729",
@@ -128,8 +40,8 @@
    "venue": "Guangzhou, China PR",
    "round": "Quarterfinal",
    "court": "Center Court",
-   "start_utc": "2026-10-30T05:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-10-30T05:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -249,136 +161,6 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0011
-   }
-  },
-  {
-   "espn_id": "185683",
-   "tour": "wta",
-   "tournament": "Toray Pan Pacific Open Tennis",
-   "venue": "Tokyo, Japan",
-   "round": "Quarterfinal",
-   "court": "Center",
-   "start_utc": "2026-10-30T05:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Elena Rybakina",
-     "id": "wta:214981"
-    },
-    {
-     "name": "Leylah Fernandez",
-     "id": "wta:220367"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-29T19:43:22+00:00",
-    "path": "forecasts/2026-10-30/185683-elena-rybakina-vs-leylah-fernandez/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Elena Rybakina",
-    "win_prob": {
-     "A": 0.7899,
-     "B": 0.2101
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.5871
-    },
-    "games_mean": 22.1,
-    "strongest": {
-     "selection": "Elena Rybakina to win at least one set",
-     "probability": 0.8938,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 20.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.7899,
-      "B": 0.2101
-     },
-     "set_score_probs": {
-      "2-0": 0.5871,
-      "2-1": 0.2028,
-      "0-2": 0.1062,
-      "1-2": 0.1039
-     },
-     "games_pmf": {
-      "12": 0.00321,
-      "13": 0.01403,
-      "14": 0.03067,
-      "15": 0.05326,
-      "16": 0.073,
-      "17": 0.09128,
-      "18": 0.08829,
-      "19": 0.08184,
-      "20": 0.0729,
-      "21": 0.04949,
-      "22": 0.06511,
-      "23": 0.04467,
-      "24": 0.01393,
-      "25": 0.02905,
-      "26": 0.03618,
-      "27": 0.02727,
-      "28": 0.03122,
-      "29": 0.03267,
-      "30": 0.03106,
-      "31": 0.03269,
-      "32": 0.02972,
-      "33": 0.01899,
-      "34": 0.01449,
-      "35": 0.017,
-      "36": 0.00991,
-      "37": 0.00168,
-      "38": 0.00324,
-      "39": 0.00315
-     },
-     "games_diff_pmf": {
-      "-12": 4e-05,
-      "-11": 0.00029,
-      "-10": 0.00102,
-      "-9": 0.00295,
-      "-8": 0.00619,
-      "-7": 0.01377,
-      "-6": 0.02056,
-      "-5": 0.03013,
-      "-4": 0.03869,
-      "-3": 0.03395,
-      "-2": 0.02744,
-      "-1": 0.02186,
-      "0": 0.02229,
-      "1": 0.0282,
-      "2": 0.0456,
-      "3": 0.07506,
-      "4": 0.11322,
-      "5": 0.11957,
-      "6": 0.11818,
-      "7": 0.10492,
-      "8": 0.07629,
-      "9": 0.05256,
-      "10": 0.03024,
-      "11": 0.01381,
-      "12": 0.00317
-     },
-     "p_tiebreak": 0.2946,
-     "p_decider": 0.3067
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.002
    }
   },
   {
@@ -509,6 +291,136 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0031
+   }
+  },
+  {
+   "espn_id": "185683",
+   "tour": "wta",
+   "tournament": "Toray Pan Pacific Open Tennis",
+   "venue": "Tokyo, Japan",
+   "round": "Quarterfinal",
+   "court": "Center",
+   "start_utc": "2026-10-30T06:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Elena Rybakina",
+     "id": "wta:214981"
+    },
+    {
+     "name": "Leylah Fernandez",
+     "id": "wta:220367"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T19:43:22+00:00",
+    "path": "forecasts/2026-10-30/185683-elena-rybakina-vs-leylah-fernandez/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Elena Rybakina",
+    "win_prob": {
+     "A": 0.7899,
+     "B": 0.2101
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.5871
+    },
+    "games_mean": 22.1,
+    "strongest": {
+     "selection": "Elena Rybakina to win at least one set",
+     "probability": 0.8938,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 20.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.7899,
+      "B": 0.2101
+     },
+     "set_score_probs": {
+      "2-0": 0.5871,
+      "2-1": 0.2028,
+      "0-2": 0.1062,
+      "1-2": 0.1039
+     },
+     "games_pmf": {
+      "12": 0.00321,
+      "13": 0.01403,
+      "14": 0.03067,
+      "15": 0.05326,
+      "16": 0.073,
+      "17": 0.09128,
+      "18": 0.08829,
+      "19": 0.08184,
+      "20": 0.0729,
+      "21": 0.04949,
+      "22": 0.06511,
+      "23": 0.04467,
+      "24": 0.01393,
+      "25": 0.02905,
+      "26": 0.03618,
+      "27": 0.02727,
+      "28": 0.03122,
+      "29": 0.03267,
+      "30": 0.03106,
+      "31": 0.03269,
+      "32": 0.02972,
+      "33": 0.01899,
+      "34": 0.01449,
+      "35": 0.017,
+      "36": 0.00991,
+      "37": 0.00168,
+      "38": 0.00324,
+      "39": 0.00315
+     },
+     "games_diff_pmf": {
+      "-12": 4e-05,
+      "-11": 0.00029,
+      "-10": 0.00102,
+      "-9": 0.00295,
+      "-8": 0.00619,
+      "-7": 0.01377,
+      "-6": 0.02056,
+      "-5": 0.03013,
+      "-4": 0.03869,
+      "-3": 0.03395,
+      "-2": 0.02744,
+      "-1": 0.02186,
+      "0": 0.02229,
+      "1": 0.0282,
+      "2": 0.0456,
+      "3": 0.07506,
+      "4": 0.11322,
+      "5": 0.11957,
+      "6": 0.11818,
+      "7": 0.10492,
+      "8": 0.07629,
+      "9": 0.05256,
+      "10": 0.03024,
+      "11": 0.01381,
+      "12": 0.00317
+     },
+     "p_tiebreak": 0.2946,
+     "p_decider": 0.3067
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.002
    }
   },
   {
@@ -1552,6 +1464,136 @@
    }
   },
   {
+   "espn_id": "185852",
+   "tour": "wta",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "venue": "Courmayeur, Italy",
+   "round": "Quarterfinal",
+   "court": "Centre Court",
+   "start_utc": "2026-10-30T14:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Anna Blinkova",
+     "id": "wta:215020"
+    },
+    {
+     "name": "Martyna Kubka",
+     "id": "wta:221243"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-30T05:49:50+00:00",
+    "path": "forecasts/2026-10-30/185852-anna-blinkova-vs-martyna-kubka/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Anna Blinkova",
+    "win_prob": {
+     "A": 0.5368,
+     "B": 0.4632
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3415
+    },
+    "games_mean": 22.54,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7432,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5368,
+      "B": 0.4632
+     },
+     "set_score_probs": {
+      "2-0": 0.3415,
+      "0-2": 0.2823,
+      "2-1": 0.1953,
+      "1-2": 0.1809
+     },
+     "games_pmf": {
+      "12": 0.00235,
+      "13": 0.01178,
+      "14": 0.02657,
+      "15": 0.04709,
+      "16": 0.06903,
+      "17": 0.0822,
+      "18": 0.08269,
+      "19": 0.07691,
+      "20": 0.06761,
+      "21": 0.04816,
+      "22": 0.05869,
+      "23": 0.03842,
+      "24": 0.02138,
+      "25": 0.03775,
+      "26": 0.04246,
+      "27": 0.03789,
+      "28": 0.04139,
+      "29": 0.042,
+      "30": 0.03996,
+      "31": 0.03568,
+      "32": 0.03068,
+      "33": 0.01903,
+      "34": 0.0146,
+      "35": 0.01388,
+      "36": 0.00653,
+      "37": 0.00188,
+      "38": 0.0023,
+      "39": 0.00109
+     },
+     "games_diff_pmf": {
+      "-12": 0.00104,
+      "-11": 0.00463,
+      "-10": 0.01142,
+      "-9": 0.02152,
+      "-8": 0.03523,
+      "-7": 0.05194,
+      "-6": 0.06398,
+      "-5": 0.06985,
+      "-4": 0.07128,
+      "-3": 0.05281,
+      "-2": 0.03758,
+      "-1": 0.02795,
+      "0": 0.02767,
+      "1": 0.02911,
+      "2": 0.03947,
+      "3": 0.05586,
+      "4": 0.07776,
+      "5": 0.07969,
+      "6": 0.07719,
+      "7": 0.06447,
+      "8": 0.0463,
+      "9": 0.02871,
+      "10": 0.01601,
+      "11": 0.00722,
+      "12": 0.00131
+     },
+     "p_tiebreak": 0.2568,
+     "p_decider": 0.3762
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0021
+   }
+  },
+  {
    "espn_id": "185154",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
@@ -1810,35 +1852,6 @@
     "seed": 20261027,
     "cross_check_max_diff": 0.0023
    }
-  },
-  {
-   "espn_id": "185852",
-   "tour": "wta",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "venue": "Courmayeur, Italy",
-   "round": "Quarterfinal",
-   "court": "Centre Court",
-   "start_utc": "2026-10-30T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Anna Blinkova",
-     "id": "wta:215020"
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
    "espn_id": "185775",
@@ -2360,7 +2373,7 @@
    }
   },
   {
-   "espn_id": "185156",
+   "espn_id": "185155",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
    "venue": "Basel, Switzerland",
@@ -2371,12 +2384,12 @@
    "completed": false,
    "players": [
     {
-     "name": "Jan-Lennard Struff",
-     "id": "atp:105526"
+     "name": "Jerome Kym",
+     "id": "atp:208843"
     },
     {
-     "name": "Nuno Borges",
-     "id": "atp:132686"
+     "name": "Jiri Lehecka",
+     "id": "atp:208103"
     }
    ],
    "surface": "Hard",
@@ -2387,13 +2400,13 @@
    "result": null,
    "forecast": {
     "frozen_version": 1,
-    "frozen_at_utc": "2026-10-29T21:08:57+00:00",
-    "path": "forecasts/2026-10-30/185156-jan-lennard-struff-vs-nuno-borges/v1.json",
+    "frozen_at_utc": "2026-10-30T05:49:59+00:00",
+    "path": "forecasts/2026-10-30/185155-jerome-kym-vs-jiri-lehecka/v1.json",
     "model_version": "v1.1",
-    "predicted_winner": "Nuno Borges",
+    "predicted_winner": "Jiri Lehecka",
     "win_prob": {
-     "A": 0.4792,
-     "B": 0.5208
+     "A": 0.3047,
+     "B": 0.6953
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -2403,90 +2416,90 @@
       "4-6",
       "4-6"
      ],
-     "prob": 0.3164
+     "prob": 0.4726
     },
-    "games_mean": 24.72,
+    "games_mean": 24.22,
     "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.83,
-     "confidence": "Medium"
+     "selection": "Jiri Lehecka to win at least one set",
+     "probability": 0.8394,
+     "confidence": "Low"
     },
-    "data_quality": "MEDIUM",
+    "data_quality": "LOW",
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.4792,
-      "B": 0.5208
+      "A": 0.3047,
+      "B": 0.6953
      },
      "set_score_probs": {
-      "0-2": 0.3164,
-      "2-0": 0.2817,
-      "1-2": 0.2044,
-      "2-1": 0.1975
+      "0-2": 0.4726,
+      "1-2": 0.2227,
+      "2-0": 0.1606,
+      "2-1": 0.1441
      },
      "games_pmf": {
-      "12": 0.00028,
-      "13": 0.00216,
-      "14": 0.00603,
-      "15": 0.01638,
-      "16": 0.02814,
-      "17": 0.05344,
-      "18": 0.06355,
-      "19": 0.07972,
-      "20": 0.07458,
-      "21": 0.05079,
-      "22": 0.08841,
-      "23": 0.07095,
-      "24": 0.00919,
-      "25": 0.03509,
-      "26": 0.05604,
-      "27": 0.02531,
-      "28": 0.03277,
-      "29": 0.03461,
-      "30": 0.03519,
-      "31": 0.046,
-      "32": 0.05018,
-      "33": 0.03156,
-      "34": 0.02282,
-      "35": 0.03696,
-      "36": 0.02658,
-      "37": 0.0027,
-      "38": 0.00921,
-      "39": 0.01136
+      "12": 0.00052,
+      "13": 0.00327,
+      "14": 0.00878,
+      "15": 0.02169,
+      "16": 0.036,
+      "17": 0.05964,
+      "18": 0.0679,
+      "19": 0.08296,
+      "20": 0.0777,
+      "21": 0.05234,
+      "22": 0.08829,
+      "23": 0.07134,
+      "24": 0.00871,
+      "25": 0.03311,
+      "26": 0.05443,
+      "27": 0.02307,
+      "28": 0.02932,
+      "29": 0.03176,
+      "30": 0.03249,
+      "31": 0.04209,
+      "32": 0.04361,
+      "33": 0.02844,
+      "34": 0.02119,
+      "35": 0.03507,
+      "36": 0.02474,
+      "37": 0.0023,
+      "38": 0.00801,
+      "39": 0.01123
      },
      "games_diff_pmf": {
-      "-12": 0.00014,
-      "-11": 0.00122,
-      "-10": 0.0039,
-      "-9": 0.00956,
-      "-8": 0.01754,
-      "-7": 0.03832,
-      "-6": 0.0545,
-      "-5": 0.08178,
-      "-4": 0.10104,
-      "-3": 0.08768,
-      "-2": 0.06628,
-      "-1": 0.03973,
-      "0": 0.03879,
-      "1": 0.04007,
-      "2": 0.06242,
-      "3": 0.0839,
-      "4": 0.09309,
-      "5": 0.07423,
-      "6": 0.04798,
-      "7": 0.03186,
-      "8": 0.01481,
-      "9": 0.00769,
-      "10": 0.00234,
-      "11": 0.00099,
-      "12": 0.00014
+      "-12": 0.0005,
+      "-11": 0.00307,
+      "-10": 0.00821,
+      "-9": 0.02005,
+      "-8": 0.03465,
+      "-7": 0.06306,
+      "-6": 0.0854,
+      "-5": 0.11621,
+      "-4": 0.13162,
+      "-3": 0.10663,
+      "-2": 0.0712,
+      "-1": 0.03899,
+      "0": 0.03407,
+      "1": 0.03364,
+      "2": 0.04696,
+      "3": 0.05758,
+      "4": 0.05964,
+      "5": 0.04173,
+      "6": 0.02287,
+      "7": 0.01455,
+      "8": 0.00573,
+      "9": 0.0026,
+      "10": 0.00082,
+      "11": 0.0002,
+      "12": 2e-05
      },
-     "p_tiebreak": 0.4812,
-     "p_decider": 0.402
+     "p_tiebreak": 0.4618,
+     "p_decider": 0.3668
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0016
+    "cross_check_max_diff": 0.0033
    }
   },
   {
@@ -2620,7 +2633,7 @@
    }
   },
   {
-   "espn_id": "185155",
+   "espn_id": "185156",
    "tour": "atp",
    "tournament": "Swiss Indoors Basel",
    "venue": "Basel, Switzerland",
@@ -2631,12 +2644,12 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Jan-Lennard Struff",
+     "id": "atp:105526"
     },
     {
-     "name": "Jiri Lehecka",
-     "id": "atp:208103"
+     "name": "Nuno Borges",
+     "id": "atp:132686"
     }
    ],
    "surface": "Hard",
@@ -2645,8 +2658,109 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-29T21:08:57+00:00",
+    "path": "forecasts/2026-10-30/185156-jan-lennard-struff-vs-nuno-borges/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Nuno Borges",
+    "win_prob": {
+     "A": 0.4792,
+     "B": 0.5208
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3164
+    },
+    "games_mean": 24.72,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.83,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4792,
+      "B": 0.5208
+     },
+     "set_score_probs": {
+      "0-2": 0.3164,
+      "2-0": 0.2817,
+      "1-2": 0.2044,
+      "2-1": 0.1975
+     },
+     "games_pmf": {
+      "12": 0.00028,
+      "13": 0.00216,
+      "14": 0.00603,
+      "15": 0.01638,
+      "16": 0.02814,
+      "17": 0.05344,
+      "18": 0.06355,
+      "19": 0.07972,
+      "20": 0.07458,
+      "21": 0.05079,
+      "22": 0.08841,
+      "23": 0.07095,
+      "24": 0.00919,
+      "25": 0.03509,
+      "26": 0.05604,
+      "27": 0.02531,
+      "28": 0.03277,
+      "29": 0.03461,
+      "30": 0.03519,
+      "31": 0.046,
+      "32": 0.05018,
+      "33": 0.03156,
+      "34": 0.02282,
+      "35": 0.03696,
+      "36": 0.02658,
+      "37": 0.0027,
+      "38": 0.00921,
+      "39": 0.01136
+     },
+     "games_diff_pmf": {
+      "-12": 0.00014,
+      "-11": 0.00122,
+      "-10": 0.0039,
+      "-9": 0.00956,
+      "-8": 0.01754,
+      "-7": 0.03832,
+      "-6": 0.0545,
+      "-5": 0.08178,
+      "-4": 0.10104,
+      "-3": 0.08768,
+      "-2": 0.06628,
+      "-1": 0.03973,
+      "0": 0.03879,
+      "1": 0.04007,
+      "2": 0.06242,
+      "3": 0.0839,
+      "4": 0.09309,
+      "5": 0.07423,
+      "6": 0.04798,
+      "7": 0.03186,
+      "8": 0.01481,
+      "9": 0.00769,
+      "10": 0.00234,
+      "11": 0.00099,
+      "12": 0.00014
+     },
+     "p_tiebreak": 0.4812,
+     "p_decider": 0.402
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0016
+   }
   },
   {
    "espn_id": "185200",
@@ -2776,6 +2890,526 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0026
+   }
+  },
+  {
+   "espn_id": "185816",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Quarterfinal",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-10-30T20:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Tatjana Maria",
+     "id": "wta:213583"
+    },
+    {
+     "name": "Valeriya Strakhova",
+     "id": "wta:211063"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-30T05:50:02+00:00",
+    "path": "forecasts/2026-10-30/185816-tatjana-maria-vs-valeriya-strakhova/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Tatjana Maria",
+    "win_prob": {
+     "A": 0.5652,
+     "B": 0.4348
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3665
+    },
+    "games_mean": 22.65,
+    "strongest": {
+     "selection": "Tatjana Maria to win at least one set",
+     "probability": 0.74,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5652,
+      "B": 0.4348
+     },
+     "set_score_probs": {
+      "2-0": 0.3665,
+      "0-2": 0.26,
+      "2-1": 0.1987,
+      "1-2": 0.1748
+     },
+     "games_pmf": {
+      "12": 0.00226,
+      "13": 0.00973,
+      "14": 0.02446,
+      "15": 0.0458,
+      "16": 0.06512,
+      "17": 0.08224,
+      "18": 0.08296,
+      "19": 0.07788,
+      "20": 0.06864,
+      "21": 0.05037,
+      "22": 0.06063,
+      "23": 0.0395,
+      "24": 0.02104,
+      "25": 0.03708,
+      "26": 0.04101,
+      "27": 0.03668,
+      "28": 0.0411,
+      "29": 0.0422,
+      "30": 0.03957,
+      "31": 0.03757,
+      "32": 0.03184,
+      "33": 0.02055,
+      "34": 0.01504,
+      "35": 0.01443,
+      "36": 0.00671,
+      "37": 0.00195,
+      "38": 0.00247,
+      "39": 0.00117
+     },
+     "games_diff_pmf": {
+      "-12": 0.00081,
+      "-11": 0.00305,
+      "-10": 0.00829,
+      "-9": 0.01793,
+      "-8": 0.02963,
+      "-7": 0.04689,
+      "-6": 0.05941,
+      "-5": 0.06664,
+      "-4": 0.06852,
+      "-3": 0.05283,
+      "-2": 0.03745,
+      "-1": 0.02924,
+      "0": 0.02791,
+      "1": 0.02967,
+      "2": 0.04009,
+      "3": 0.05965,
+      "4": 0.08496,
+      "5": 0.08583,
+      "6": 0.08032,
+      "7": 0.06819,
+      "8": 0.04722,
+      "9": 0.03049,
+      "10": 0.01679,
+      "11": 0.00674,
+      "12": 0.00145
+     },
+     "p_tiebreak": 0.2692,
+     "p_decider": 0.3735
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0021
+   }
+  },
+  {
+   "espn_id": "185815",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Quarterfinal",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-10-30T21:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Nadia Podoroska",
+     "id": "wta:206408"
+    },
+    {
+     "name": "Carole Monnet",
+     "id": "wta:220733"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-30T05:50:03+00:00",
+    "path": "forecasts/2026-10-30/185815-nadia-podoroska-vs-carole-monnet/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Nadia Podoroska",
+    "win_prob": {
+     "A": 0.5501,
+     "B": 0.4499
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3547
+    },
+    "games_mean": 22.7,
+    "strongest": {
+     "selection": "Nadia Podoroska to win at least one set",
+     "probability": 0.7318,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5501,
+      "B": 0.4499
+     },
+     "set_score_probs": {
+      "2-0": 0.3547,
+      "0-2": 0.2682,
+      "2-1": 0.1954,
+      "1-2": 0.1816
+     },
+     "games_pmf": {
+      "12": 0.00192,
+      "13": 0.01014,
+      "14": 0.02312,
+      "15": 0.04452,
+      "16": 0.06603,
+      "17": 0.08042,
+      "18": 0.08241,
+      "19": 0.07763,
+      "20": 0.06956,
+      "21": 0.05065,
+      "22": 0.06066,
+      "23": 0.04086,
+      "24": 0.02023,
+      "25": 0.03705,
+      "26": 0.04108,
+      "27": 0.03756,
+      "28": 0.04018,
+      "29": 0.04272,
+      "30": 0.03991,
+      "31": 0.03668,
+      "32": 0.03277,
+      "33": 0.0204,
+      "34": 0.0162,
+      "35": 0.01444,
+      "36": 0.00688,
+      "37": 0.00174,
+      "38": 0.00283,
+      "39": 0.00141
+     },
+     "games_diff_pmf": {
+      "-12": 0.00074,
+      "-11": 0.00389,
+      "-10": 0.00888,
+      "-9": 0.01937,
+      "-8": 0.03189,
+      "-7": 0.04719,
+      "-6": 0.06153,
+      "-5": 0.06855,
+      "-4": 0.07167,
+      "-3": 0.05403,
+      "-2": 0.0385,
+      "-1": 0.02965,
+      "0": 0.02763,
+      "1": 0.02921,
+      "2": 0.04074,
+      "3": 0.05931,
+      "4": 0.08307,
+      "5": 0.08477,
+      "6": 0.0775,
+      "7": 0.06594,
+      "8": 0.04573,
+      "9": 0.02798,
+      "10": 0.01472,
+      "11": 0.00633,
+      "12": 0.00118
+     },
+     "p_tiebreak": 0.2714,
+     "p_decider": 0.3771
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0038
+   }
+  },
+  {
+   "espn_id": "185813",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Quarterfinal",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-10-31T00:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Fiona Ferro",
+     "id": "wta:211539"
+    },
+    {
+     "name": "Elizabeth Mandlik",
+     "id": "wta:216097"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-30T05:50:05+00:00",
+    "path": "forecasts/2026-10-30/185813-fiona-ferro-vs-elizabeth-mandlik/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Fiona Ferro",
+    "win_prob": {
+     "A": 0.6203,
+     "B": 0.3797
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.419
+    },
+    "games_mean": 22.17,
+    "strongest": {
+     "selection": "Fiona Ferro to win at least one set",
+     "probability": 0.7796,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6203,
+      "B": 0.3797
+     },
+     "set_score_probs": {
+      "2-0": 0.419,
+      "0-2": 0.2204,
+      "2-1": 0.2014,
+      "1-2": 0.1593
+     },
+     "games_pmf": {
+      "12": 0.00332,
+      "13": 0.01453,
+      "14": 0.03235,
+      "15": 0.05397,
+      "16": 0.07601,
+      "17": 0.08541,
+      "18": 0.08373,
+      "19": 0.07673,
+      "20": 0.06507,
+      "21": 0.04806,
+      "22": 0.05507,
+      "23": 0.03625,
+      "24": 0.02242,
+      "25": 0.03737,
+      "26": 0.04046,
+      "27": 0.03856,
+      "28": 0.03976,
+      "29": 0.04042,
+      "30": 0.0373,
+      "31": 0.0329,
+      "32": 0.02781,
+      "33": 0.01834,
+      "34": 0.01289,
+      "35": 0.01178,
+      "36": 0.005,
+      "37": 0.00174,
+      "38": 0.00206,
+      "39": 0.00069
+     },
+     "games_diff_pmf": {
+      "-12": 0.0007,
+      "-11": 0.00315,
+      "-10": 0.008,
+      "-9": 0.01601,
+      "-8": 0.02727,
+      "-7": 0.0426,
+      "-6": 0.05095,
+      "-5": 0.05655,
+      "-4": 0.05822,
+      "-3": 0.04365,
+      "-2": 0.03176,
+      "-1": 0.02718,
+      "0": 0.02524,
+      "1": 0.02813,
+      "2": 0.03709,
+      "3": 0.05691,
+      "4": 0.0828,
+      "5": 0.08955,
+      "6": 0.09107,
+      "7": 0.0802,
+      "8": 0.06217,
+      "9": 0.0413,
+      "10": 0.02536,
+      "11": 0.01152,
+      "12": 0.00262
+     },
+     "p_tiebreak": 0.2361,
+     "p_decider": 0.3607
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0026
+   }
+  },
+  {
+   "espn_id": "185814",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Quarterfinal",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-10-31T01:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alicia Herrero Linana",
+     "id": "wta:214189"
+    },
+    {
+     "name": "Bianca Andreescu",
+     "id": "wta:215370"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-30T05:50:07+00:00",
+    "path": "forecasts/2026-10-30/185814-alicia-herrero-linana-vs-bianca-andreescu/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Bianca Andreescu",
+    "win_prob": {
+     "A": 0.4047,
+     "B": 0.5953
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3907
+    },
+    "games_mean": 22.71,
+    "strongest": {
+     "selection": "Bianca Andreescu to win at least one set",
+     "probability": 0.7624,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4047,
+      "B": 0.5953
+     },
+     "set_score_probs": {
+      "0-2": 0.3907,
+      "2-0": 0.2376,
+      "1-2": 0.2046,
+      "2-1": 0.167
+     },
+     "games_pmf": {
+      "12": 0.00205,
+      "13": 0.00954,
+      "14": 0.0234,
+      "15": 0.04447,
+      "16": 0.06465,
+      "17": 0.08116,
+      "18": 0.08107,
+      "19": 0.07858,
+      "20": 0.07142,
+      "21": 0.04868,
+      "22": 0.06248,
+      "23": 0.0426,
+      "24": 0.019,
+      "25": 0.03745,
+      "26": 0.04142,
+      "27": 0.03648,
+      "28": 0.04007,
+      "29": 0.04227,
+      "30": 0.0395,
+      "31": 0.03607,
+      "32": 0.0322,
+      "33": 0.02076,
+      "34": 0.01543,
+      "35": 0.01512,
+      "36": 0.0073,
+      "37": 0.00187,
+      "38": 0.00328,
+      "39": 0.00168
+     },
+     "games_diff_pmf": {
+      "-12": 0.00168,
+      "-11": 0.00712,
+      "-10": 0.01679,
+      "-9": 0.03246,
+      "-8": 0.05019,
+      "-7": 0.07154,
+      "-6": 0.08499,
+      "-5": 0.08885,
+      "-4": 0.08989,
+      "-3": 0.06538,
+      "-2": 0.043,
+      "-1": 0.03138,
+      "0": 0.02707,
+      "1": 0.02797,
+      "2": 0.03763,
+      "3": 0.0513,
+      "4": 0.06666,
+      "5": 0.06251,
+      "6": 0.0525,
+      "7": 0.04112,
+      "8": 0.02521,
+      "9": 0.01455,
+      "10": 0.00729,
+      "11": 0.00255,
+      "12": 0.00037
+     },
+     "p_tiebreak": 0.2789,
+     "p_decider": 0.3717
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.002
    }
   }
  ]

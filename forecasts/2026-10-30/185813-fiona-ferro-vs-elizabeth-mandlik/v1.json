@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Fiona Ferro",
+ "win_prob": {
+  "A": 0.6203,
+  "B": 0.3797
+ },
+ "win_prob_exact": {
+  "A": 0.62031,
+  "B": 0.37968999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.61,
+   "american": "-163"
+  },
+  "B": {
+   "decimal": 2.63,
+   "american": "+163"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.419,
+  "0-2": 0.2204,
+  "2-1": 0.2014,
+  "1-2": 0.1593
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0188,
+ "games": {
+  "mean": 22.17,
+  "median": 21.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00332,
+   "13": 0.01453,
+   "14": 0.03235,
+   "15": 0.05397,
+   "16": 0.07601,
+   "17": 0.08541,
+   "18": 0.08373,
+   "19": 0.07673,
+   "20": 0.06507,
+   "21": 0.04806,
+   "22": 0.05507,
+   "23": 0.03625,
+   "24": 0.02242,
+   "25": 0.03737,
+   "26": 0.04046,
+   "27": 0.03856,
+   "28": 0.03976,
+   "29": 0.04042,
+   "30": 0.0373,
+   "31": 0.0329,
+   "32": 0.02781,
+   "33": 0.01834,
+   "34": 0.01289,
+   "35": 0.01178,
+   "36": 0.005,
+   "37": 0.00174,
+   "38": 0.00206,
+   "39": 0.00069
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0007,
+  "-11": 0.00315,
+  "-10": 0.008,
+  "-9": 0.01601,
+  "-8": 0.02727,
+  "-7": 0.0426,
+  "-6": 0.05095,
+  "-5": 0.05655,
+  "-4": 0.05822,
+  "-3": 0.04365,
+  "-2": 0.03176,
+  "-1": 0.02718,
+  "0": 0.02524,
+  "1": 0.02813,
+  "2": 0.03709,
+  "3": 0.05691,
+  "4": 0.0828,
+  "5": 0.08955,
+  "6": 0.09107,
+  "7": 0.0802,
+  "8": 0.06217,
+  "9": 0.0413,
+  "10": 0.02536,
+  "11": 0.01152,
+  "12": 0.00262
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7344,
+   "under": 0.2656
+  },
+  {
+   "line": 18.5,
+   "over": 0.6507,
+   "under": 0.3493
+  },
+  {
+   "line": 19.5,
+   "over": 0.5739,
+   "under": 0.426
+  },
+  {
+   "line": 20.5,
+   "over": 0.5089,
+   "under": 0.4911
+  },
+  {
+   "line": 21.5,
+   "over": 0.4608,
+   "under": 0.5392
+  },
+  {
+   "line": 22.5,
+   "over": 0.4057,
+   "under": 0.5942
+  },
+  {
+   "line": 23.5,
+   "over": 0.3695,
+   "under": 0.6305
+  },
+  {
+   "line": 24.5,
+   "over": 0.3471,
+   "under": 0.6529
+  },
+  {
+   "line": 25.5,
+   "over": 0.3097,
+   "under": 0.6903
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5806,
+   "B +1.5": 0.4194,
+   "B -1.5": 0.3389,
+   "A +1.5": 0.6611
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5435,
+   "B +2.5": 0.4565,
+   "B -2.5": 0.3071,
+   "A +2.5": 0.6929
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4866,
+   "B +3.5": 0.5134,
+   "B -3.5": 0.2635,
+   "A +3.5": 0.7366
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4038,
+   "B +4.5": 0.5962,
+   "B -4.5": 0.2052,
+   "A +4.5": 0.7948
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3142,
+   "B +5.5": 0.6858,
+   "B -5.5": 0.1487,
+   "A +5.5": 0.8513
+  }
+ ],
+ "p_tiebreak": 0.2361,
+ "p_a_wins_set": 0.7796,
+ "p_b_wins_set": 0.581,
+ "p_decider": 0.3607,
+ "expected_breaks": {
+  "total": 9.12,
+  "by_A": 4.96,
+  "by_B": 4.16
+ },
+ "expected_break_points": {
+  "A_creates": 10.08,
+  "B_creates": 9.01
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.419
+ },
+ "match": "Fiona Ferro vs Elizabeth Mandlik",
+ "players": {
+  "A": {
+   "id": "wta:211539",
+   "name": "Fiona Ferro",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 181.0,
+   "age": 29.63258042436687,
+   "elo": 1653.5,
+   "surface_elo": {
+    "Hard": 1629.8,
+    "Clay": 1604.8,
+    "Grass": 1302.2
+   },
+   "matches_total": 144,
+   "matches_surface": {
+    "Hard": 73,
+    "Clay": 65,
+    "Grass": 6
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    17,
+    11
+   ],
+   "last52w_surface": [
+    12,
+    5
+   ],
+   "career_surface_wl": [
+    31,
+    42
+   ],
+   "games_won_lost_52w": [
+    323,
+    259
+   ],
+   "sets_won_lost_52w": [
+    40,
+    26
+   ],
+   "avg_opp_elo_last20": 1550.6,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0392,
+   "return_rating": 0.0903,
+   "form_elo": 88.2,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.6753,
+    "first_won": 0.5962,
+    "second_won": 0.416,
+    "serve_pts_won": 0.5377,
+    "hold": 0.6034,
+    "aces_per_svgm": 0.0517,
+    "df_per_svgm": 0.1897,
+    "bp_saved": 0.439,
+    "ret_pts_won": 0.4715,
+    "ret_1st_won": 0.392,
+    "ret_2nd_won": 0.6013,
+    "ret_games_won": 0.4918,
+    "bp_conv": 0.5357,
+    "bp_chances_per_retgm": 0.918,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2023-07-24",
+     257.0
+    ],
+    [
+     "2023-08-28",
+     190.0
+    ],
+    [
+     "2024-01-15",
+     153.0
+    ],
+    [
+     "2024-04-15",
+     144.0
+    ],
+    [
+     "2024-05-20",
+     142.0
+    ],
+    [
+     "2024-05-27",
+     126.0
+    ],
+    [
+     "2025-02-24",
+     366.0
+    ],
+    [
+     "2025-04-14",
+     376.0
+    ],
+    [
+     "2026-02-01",
+     281.0
+    ],
+    [
+     "2026-04-13",
+     218.0
+    ],
+    [
+     "2026-05-18",
+     200.0
+    ],
+    [
+     "2026-05-25",
+     181.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:216097",
+   "name": "Elizabeth Mandlik",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 174.0,
+   "age": 25.38590006844627,
+   "elo": 1494.3,
+   "surface_elo": {
+    "Hard": 1506.2,
+    "Clay": 1364.8,
+    "Grass": 1473.3
+   },
+   "matches_total": 36,
+   "matches_surface": {
+    "Hard": 28,
+    "Clay": 3,
+    "Grass": 5
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    6,
+    14
+   ],
+   "last52w": [
+    6,
+    8
+   ],
+   "last52w_surface": [
+    6,
+    6
+   ],
+   "career_surface_wl": [
+    11,
+    17
+   ],
+   "games_won_lost_52w": [
+    158,
+    168
+   ],
+   "sets_won_lost_52w": [
+    16,
+    19
+   ],
+   "avg_opp_elo_last20": 1552.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0843,
+   "return_rating": 0.027,
+   "form_elo": 22.4,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.6256,
+    "first_won": 0.6142,
+    "second_won": 0.3421,
+    "serve_pts_won": 0.5123,
+    "hold": 0.4828,
+    "aces_per_svgm": 0.069,
+    "df_per_svgm": 0.4138,
+    "bp_saved": 0.4828,
+    "ret_pts_won": 0.3971,
+    "ret_1st_won": 0.3651,
+    "ret_2nd_won": 0.4458,
+    "ret_games_won": 0.2069,
+    "bp_conv": 0.2609,
+    "bp_chances_per_retgm": 0.7931,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2023-03-06",
+     155.0
+    ],
+    [
+     "2023-05-29",
+     119.0
+    ],
+    [
+     "2023-06-12",
+     110.0
+    ],
+    [
+     "2023-09-11",
+     167.0
+    ],
+    [
+     "2023-09-25",
+     142.0
+    ],
+    [
+     "2024-06-10",
+     150.0
+    ],
+    [
+     "2024-10-28",
+     177.0
+    ],
+    [
+     "2025-05-19",
+     271.0
+    ],
+    [
+     "2025-07-27",
+     205.0
+    ],
+    [
+     "2025-09-08",
+     257.0
+    ],
+    [
+     "2026-01-19",
+     182.0
+    ],
+    [
+     "2026-02-23",
+     174.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Queretaro Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-30",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Fiona Ferro: limited recent/surface sample (28 matches 52w, 73 career on Hard, 5 with stats)",
+  "Fiona Ferro: latest point-level stats are 165 days old (2026-05-18)",
+  "Elizabeth Mandlik: limited recent/surface sample (14 matches 52w, 28 career on Hard, 3 with stats)",
+  "Elizabeth Mandlik: latest point-level stats are 214 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 144 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 87.7,
+  "components_elo": {
+   "surface_elo": 123.6,
+   "overall_elo": 159.2,
+   "serve_return": 100.5,
+   "form": 65.8
+  },
+  "weighted_contributions": {
+   "surface_elo": 15.1,
+   "overall_elo": 37.6,
+   "serve_return": 35.1,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6236,
+  "serve_return_implied_spw": {
+   "A": 0.5494,
+   "B": 0.5225
+  },
+  "point_probs": {
+   "A_serve": 0.5542,
+   "B_serve": 0.5177
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5541654551083156,
+   "B_serve": 0.5176710861499493
+  },
+  "hold_probs": {
+   "A": 0.6331,
+   "B": 0.5441
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6203,
+   0.6211
+  ],
+  "p_tb": [
+   0.2361,
+   0.2335
+  ],
+  "p_decider": [
+   0.3607,
+   0.3607
+  ],
+  "games_mean": [
+   22.165,
+   22.153
+  ],
+  "exp_breaks": [
+   9.121,
+   9.112
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2204,
+    0.2208
+   ],
+   "1-2": [
+    0.1593,
+    0.1581
+   ],
+   "2-0": [
+    0.419,
+    0.4185
+   ],
+   "2-1": [
+    0.2014,
+    0.2026
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0026
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Fiona Ferro",
+   "elo_points": 37.6,
+   "raw_diff": 159.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Fiona Ferro",
+   "elo_points": 35.1,
+   "raw_diff": 100.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Fiona Ferro",
+   "elo_points": 15.1,
+   "raw_diff": 123.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.416,
+   "B": 0.3421,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4715,
+   "B": 0.3971,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5542,
+   "B": 0.5177,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Fiona Ferro to win at least one set",
+  "probability": 0.7796,
+  "fair_odds": {
+   "decimal": 1.28,
+   "american": "-354"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Fiona Ferro: limited recent/surface sample (28 matches 52w, 73 career on Hard, 5 with stats); Fiona Ferro: latest point-level stats are 165 days old (2026-05-18)",
+  "candidates": [
+   {
+    "selection": "Fiona Ferro to win at least one set",
+    "probability": 0.7796,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7639,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6529,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6507,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6393,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Fiona Ferro to win",
+    "probability": 0.6203,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Elizabeth Mandlik +4.5 games",
+    "probability": 0.5962,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5942,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Elizabeth Mandlik to win at least one set",
+    "probability": 0.581,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Fiona Ferro -2.5 games",
+    "probability": 0.5435,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5089,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4911,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Elizabeth Mandlik +2.5 games",
+    "probability": 0.4565,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Exact sets Fiona Ferro 2-0 Elizabeth Mandlik",
+    "probability": 0.419,
+    "fair_decimal": 2.39
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4057,
+    "fair_decimal": 2.46
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T05:50:05+00:00",
+  "version": 1,
+  "input_hash": "88fcad7d25c5da4f",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185813",
+  "scheduled_start_utc": "2026-10-31T00:00Z"
+ }
+}
