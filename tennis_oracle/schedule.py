@@ -67,11 +67,12 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         if all(ids):
             f = latest(str(day), key)
             cur_v = eng.p["version"]
-            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"])
-            if (f is None or stale) and r["status"] == "STATUS_SCHEDULED":
+            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf)
+            if (f is None or stale) and r["status"] == "STATUS_SCHEDULED" and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
                 # new version only before play; earlier versions stay untouched
                 reason = "initial pre-match forecast" if f is None else (
                     f"model updated to {cur_v}" if f["model"]["version"] != cur_v else
+                    f"surface corrected from {f.get('surface')} to {surf}" if f.get("surface") != surf else
                     f"ratings refreshed with results through {eng.info['results_cutoff']}")
                 f = forecast(eng, ids[0], ids[1], surf, bo, fr, tour, asof=pd.Timestamp(day),
                              meta={"tournament": r["event"], "round": r["round"]}, n_sims=n_sims,

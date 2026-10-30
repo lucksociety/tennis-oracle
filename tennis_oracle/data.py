@@ -226,6 +226,11 @@ def surface_lookup(sackmann: pd.DataFrame):
 
 def infer_surface(event: str, venue: str, lookup: dict) -> tuple[str, str]:
     e = norm_name(event)
+    # Official WTA tournament metadata, checked 2026-10-30. The historical venue
+    # lookup can collide with a different event at the same city.
+    # https://www.wtatennis.com/tournaments/1145/queretaro-125/2026
+    if "queretaro" in e.split():
+        return "Clay", "official-wta-1145"
     for k, v in MAJOR_SURFACE.items():
         if k in e:
             return v, "major"
