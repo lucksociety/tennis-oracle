@@ -1,38 +1,38 @@
 {
- "generated_at_utc": "2026-10-30T15:07:21+00:00",
+ "generated_at_utc": "2026-10-30T15:29:52+00:00",
  "summary": {
-  "n": 80,
-  "brier": 0.241325279875,
-  "log_loss": 0.6764787812454027,
-  "accuracy": 0.5375,
-  "games_mae": 4.95525,
-  "exact_sets_accuracy": 0.4,
-  "tiebreak_brier": 0.199224127125
+  "n": 81,
+  "brier": 0.2409810665432099,
+  "log_loss": 0.6757802372648465,
+  "accuracy": 0.5432098765432098,
+  "games_mae": 4.919753086419754,
+  "exact_sets_accuracy": 0.3950617283950617,
+  "tiebreak_brier": 0.19988813790123458
  },
- "n": 80,
+ "n": 81,
  "overall": {
-  "n": 80,
-  "brier": 0.241325279875,
-  "log_loss": 0.6764787812454027,
-  "accuracy": 0.5375
+  "n": 81,
+  "brier": 0.2409810665432099,
+  "log_loss": 0.6757802372648465,
+  "accuracy": 0.5432098765432098
  },
- "games_mae": 4.95525,
- "exact_sets_accuracy": 0.4,
- "tiebreak_brier": 0.199224127125,
+ "games_mae": 4.919753086419754,
+ "exact_sets_accuracy": 0.3950617283950617,
+ "tiebreak_brier": 0.19988813790123458,
  "by_surface": {
   "Hard": {
-   "n": 80,
-   "brier": 0.241325279875,
-   "log_loss": 0.6764787812454027,
-   "accuracy": 0.5375
+   "n": 81,
+   "brier": 0.2409810665432099,
+   "log_loss": 0.6757802372648465,
+   "accuracy": 0.5432098765432098
   }
  },
  "by_tour": {
   "atp": {
-   "n": 24,
-   "brier": 0.23146102791666667,
-   "log_loss": 0.6532113258650843,
-   "accuracy": 0.5416666666666666
+   "n": 25,
+   "brier": 0.2307403468,
+   "log_loss": 0.6518787415832951,
+   "accuracy": 0.56
   },
   "wta": {
    "n": 56,
@@ -43,10 +43,10 @@
  },
  "by_quality": {
   "LOW": {
-   "n": 45,
-   "brier": 0.25301656533333333,
-   "log_loss": 0.7045770921813185,
-   "accuracy": 0.5555555555555556
+   "n": 46,
+   "brier": 0.25215629217391305,
+   "log_loss": 0.7027362144995584,
+   "accuracy": 0.5652173913043478
   },
   "MEDIUM": {
    "n": 35,
@@ -58,9 +58,9 @@
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 52,
-   "mean_pred": 0.5439692307692308,
-   "observed": 0.5
+   "n": 53,
+   "mean_pred": 0.543856603773585,
+   "observed": 0.5094339622641509
   },
   {
    "bucket": "60%-70%",
@@ -3064,6 +3064,48 @@
     ],
     "A -5.5": [
      0.3114,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Holger Rune vs Valentin Vacherot",
+   "date": "2026-10-30",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.462,
+   "a_won": 0,
+   "pred_winner": "Valentin Vacherot",
+   "actual_winner": "Valentin Vacherot",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2105,
+   "exp_games": 24.92,
+   "actual_games": 27,
+   "p_tb": 0.503,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4009,
+     0
+    ],
+    "A -2.5": [
+     0.336,
+     0
+    ],
+    "A -3.5": [
+     0.2541,
+     0
+    ],
+    "A -4.5": [
+     0.1632,
+     0
+    ],
+    "A -5.5": [
+     0.0925,
      0
     ]
    },
