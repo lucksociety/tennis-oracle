@@ -1,0 +1,632 @@
+{
+ "predicted_winner": "Yannick Hanfmann",
+ "win_prob": {
+  "A": 0.3396,
+  "B": 0.6604
+ },
+ "win_prob_exact": {
+  "A": 0.33961,
+  "B": 0.66039
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.94,
+   "american": "+194"
+  },
+  "B": {
+   "decimal": 1.51,
+   "american": "-194"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4332,
+  "1-2": 0.2272,
+  "2-0": 0.1816,
+  "2-1": 0.158
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0349,
+ "games": {
+  "mean": 24.67,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.33,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00036,
+   "13": 0.00233,
+   "14": 0.00714,
+   "15": 0.01729,
+   "16": 0.02999,
+   "17": 0.054,
+   "18": 0.06219,
+   "19": 0.08048,
+   "20": 0.07487,
+   "21": 0.0501,
+   "22": 0.09139,
+   "23": 0.07601,
+   "24": 0.00888,
+   "25": 0.03266,
+   "26": 0.05747,
+   "27": 0.02262,
+   "28": 0.02945,
+   "29": 0.03032,
+   "30": 0.03295,
+   "31": 0.04389,
+   "32": 0.04928,
+   "33": 0.03095,
+   "34": 0.02274,
+   "35": 0.03811,
+   "36": 0.02879,
+   "37": 0.00253,
+   "38": 0.00902,
+   "39": 0.01419
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00033,
+  "-11": 0.00207,
+  "-10": 0.00644,
+  "-9": 0.01525,
+  "-8": 0.02773,
+  "-7": 0.05383,
+  "-6": 0.07506,
+  "-5": 0.1067,
+  "-4": 0.1306,
+  "-3": 0.10719,
+  "-2": 0.07542,
+  "-1": 0.04238,
+  "0": 0.03782,
+  "1": 0.03683,
+  "2": 0.05353,
+  "3": 0.06527,
+  "4": 0.06552,
+  "5": 0.04653,
+  "6": 0.0252,
+  "7": 0.01623,
+  "8": 0.00595,
+  "9": 0.00293,
+  "10": 0.00089,
+  "11": 0.00027,
+  "12": 3e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8889,
+   "under": 0.1111
+  },
+  {
+   "line": 18.5,
+   "over": 0.8267,
+   "under": 0.1733
+  },
+  {
+   "line": 19.5,
+   "over": 0.7462,
+   "under": 0.2538
+  },
+  {
+   "line": 20.5,
+   "over": 0.6714,
+   "under": 0.3286
+  },
+  {
+   "line": 21.5,
+   "over": 0.6213,
+   "under": 0.3787
+  },
+  {
+   "line": 22.5,
+   "over": 0.5299,
+   "under": 0.4701
+  },
+  {
+   "line": 23.5,
+   "over": 0.4538,
+   "under": 0.5461
+  },
+  {
+   "line": 24.5,
+   "over": 0.445,
+   "under": 0.555
+  },
+  {
+   "line": 25.5,
+   "over": 0.4123,
+   "under": 0.5877
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2823,
+   "B +1.5": 0.7177,
+   "B -1.5": 0.6006,
+   "A +1.5": 0.3994
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2288,
+   "B +2.5": 0.7712,
+   "B -2.5": 0.5252,
+   "A +2.5": 0.4748
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1636,
+   "B +3.5": 0.8365,
+   "B -3.5": 0.418,
+   "A +3.5": 0.582
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.098,
+   "B +4.5": 0.902,
+   "B -4.5": 0.2874,
+   "A +4.5": 0.7126
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0515,
+   "B +5.5": 0.9485,
+   "B -5.5": 0.1807,
+   "A +5.5": 0.8193
+  }
+ ],
+ "p_tiebreak": 0.4959,
+ "p_a_wins_set": 0.5668,
+ "p_b_wins_set": 0.8184,
+ "p_decider": 0.3852,
+ "expected_breaks": {
+  "total": 3.62,
+  "by_A": 1.43,
+  "by_B": 2.19
+ },
+ "expected_break_points": {
+  "A_creates": 4.38,
+  "B_creates": 5.94
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4332
+ },
+ "match": "Felix Balshaw vs Yannick Hanfmann",
+ "players": {
+  "A": {
+   "id": "atp:espn16102",
+   "name": "Felix Balshaw",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1600.5,
+   "surface_elo": {
+    "Hard": 1559.0,
+    "Clay": 1545.1,
+    "Grass": 1500.0
+   },
+   "matches_total": 5,
+   "matches_surface": {
+    "Hard": 3,
+    "Clay": 2,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    3,
+    2
+   ],
+   "last20": [
+    3,
+    2
+   ],
+   "last52w": [
+    3,
+    2
+   ],
+   "last52w_surface": [
+    2,
+    1
+   ],
+   "career_surface_wl": [
+    2,
+    1
+   ],
+   "games_won_lost_52w": [
+    63,
+    57
+   ],
+   "sets_won_lost_52w": [
+    6,
+    6
+   ],
+   "avg_opp_elo_last20": 1595.0,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 14.0,
+   "last_match": "2026-10-21",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "atp:105870",
+   "name": "Yannick Hanfmann",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 53.0,
+   "age": 34.935318275154,
+   "elo": 1755.5,
+   "surface_elo": {
+    "Hard": 1700.4,
+    "Clay": 1733.7,
+    "Grass": 1541.9
+   },
+   "matches_total": 222,
+   "matches_surface": {
+    "Hard": 71,
+    "Clay": 124,
+    "Grass": 27
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    29,
+    23
+   ],
+   "last52w_surface": [
+    11,
+    10
+   ],
+   "career_surface_wl": [
+    31,
+    40
+   ],
+   "games_won_lost_52w": [
+    677,
+    665
+   ],
+   "sets_won_lost_52w": [
+    67,
+    62
+   ],
+   "avg_opp_elo_last20": 1753.2,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.2078,
+   "return_rating": 0.0224,
+   "form_elo": -29.2,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6323,
+    "first_won": 0.743,
+    "second_won": 0.5643,
+    "serve_pts_won": 0.6773,
+    "hold": 0.8438,
+    "aces_per_svgm": 0.5903,
+    "df_per_svgm": 0.1493,
+    "bp_saved": 0.6018,
+    "ret_pts_won": 0.3589,
+    "ret_1st_won": 0.2993,
+    "ret_2nd_won": 0.4749,
+    "ret_games_won": 0.1959,
+    "bp_conv": 0.3775,
+    "bp_chances_per_retgm": 0.5189,
+    "matches_with_stats": 23
+   },
+   "rank_history": [
+    [
+     "2025-11-02",
+     117.0
+    ],
+    [
+     "2026-01-19",
+     102.0
+    ],
+    [
+     "2026-02-06",
+     93.0
+    ],
+    [
+     "2026-02-16",
+     90.0
+    ],
+    [
+     "2026-02-23",
+     81.0
+    ],
+    [
+     "2026-03-18",
+     64.0
+    ],
+    [
+     "2026-03-30",
+     61.0
+    ],
+    [
+     "2026-04-13",
+     51.0
+    ],
+    [
+     "2026-04-22",
+     60.0
+    ],
+    [
+     "2026-05-06",
+     59.0
+    ],
+    [
+     "2026-05-17",
+     55.0
+    ],
+    [
+     "2026-05-25",
+     53.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Felix Balshaw: sparse record (5 tour matches, 0 with serve stats in 52w)",
+  "Yannick Hanfmann: latest point-level stats are 167 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -114.0,
+  "components_elo": {
+   "surface_elo": -141.4,
+   "overall_elo": -155.0,
+   "serve_return": -171.9,
+   "form": 43.2
+  },
+  "weighted_contributions": {
+   "surface_elo": -17.3,
+   "overall_elo": -36.6,
+   "serve_return": -60.0,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3416,
+  "serve_return_implied_spw": {
+   "A": 0.6467,
+   "B": 0.6974
+  },
+  "point_probs": {
+   "A_serve": 0.6486,
+   "B_serve": 0.6957
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6485659643406957,
+   "B_serve": 0.6957321693460262
+  },
+  "hold_probs": {
+   "A": 0.8273,
+   "B": 0.8956
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3396,
+   0.3424
+  ],
+  "p_tb": [
+   0.4959,
+   0.495
+  ],
+  "p_decider": [
+   0.3852,
+   0.3827
+  ],
+  "games_mean": [
+   24.668,
+   24.633
+  ],
+  "exp_breaks": [
+   3.625,
+   3.624
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4332,
+    0.433
+   ],
+   "1-2": [
+    0.2272,
+    0.2246
+   ],
+   "2-0": [
+    0.1816,
+    0.1844
+   ],
+   "2-1": [
+    0.158,
+    0.158
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Yannick Hanfmann",
+   "elo_points": -60.0,
+   "raw_diff": -171.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Yannick Hanfmann",
+   "elo_points": -36.6,
+   "raw_diff": -155.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Yannick Hanfmann",
+   "elo_points": -17.3,
+   "raw_diff": -141.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6486,
+   "B": 0.6957,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8267,
+  "fair_odds": {
+   "decimal": 1.21,
+   "american": "-477"
+  },
+  "confidence": "Low",
+  "main_risk": "Total-games distribution is wide (sd 6.33 games; p10-p90 17-34); a single tiebreak or deciding set swings it. Data quality LOW: Felix Balshaw: sparse record (5 tour matches, 0 with serve stats in 52w); Yannick Hanfmann: latest point-level stats are 167 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8267,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "Yannick Hanfmann to win at least one set",
+    "probability": 0.8184,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "Felix Balshaw +4.5 games",
+    "probability": 0.7126,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6714,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Yannick Hanfmann to win",
+    "probability": 0.6604,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6148,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Felix Balshaw to win at least one set",
+    "probability": 0.5668,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.555,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5299,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Yannick Hanfmann -2.5 games",
+    "probability": 0.5252,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5041,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4959,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Felix Balshaw +2.5 games",
+    "probability": 0.4748,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4701,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.445,
+    "fair_decimal": 2.25
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:50:13+00:00",
+  "version": 1,
+  "input_hash": "91f4b7f26514e516",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187346",
+  "scheduled_start_utc": "2026-10-31T13:00Z"
+ }
+}

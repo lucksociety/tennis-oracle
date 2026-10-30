@@ -1,0 +1,679 @@
+{
+ "predicted_winner": "Grigor Dimitrov",
+ "win_prob": {
+  "A": 0.3385,
+  "B": 0.6615
+ },
+ "win_prob_exact": {
+  "A": 0.33849,
+  "B": 0.66151
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.95,
+   "american": "+195"
+  },
+  "B": {
+   "decimal": 1.51,
+   "american": "-195"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4395,
+  "1-2": 0.222,
+  "2-0": 0.1821,
+  "2-1": 0.1564
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0337,
+ "games": {
+  "mean": 24.21,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.24,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00045,
+   "13": 0.0035,
+   "14": 0.00869,
+   "15": 0.02195,
+   "16": 0.03599,
+   "17": 0.06196,
+   "18": 0.06794,
+   "19": 0.08319,
+   "20": 0.07626,
+   "21": 0.05142,
+   "22": 0.08602,
+   "23": 0.06768,
+   "24": 0.01008,
+   "25": 0.03284,
+   "26": 0.05208,
+   "27": 0.02536,
+   "28": 0.03132,
+   "29": 0.03373,
+   "30": 0.03385,
+   "31": 0.04432,
+   "32": 0.04532,
+   "33": 0.02907,
+   "34": 0.02135,
+   "35": 0.03325,
+   "36": 0.02301,
+   "37": 0.00246,
+   "38": 0.00765,
+   "39": 0.00926
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0004,
+  "-11": 0.00313,
+  "-10": 0.00769,
+  "-9": 0.01916,
+  "-8": 0.0333,
+  "-7": 0.06196,
+  "-6": 0.0812,
+  "-5": 0.10868,
+  "-4": 0.12516,
+  "-3": 0.09881,
+  "-2": 0.0669,
+  "-1": 0.03933,
+  "0": 0.03413,
+  "1": 0.03373,
+  "2": 0.0491,
+  "3": 0.06225,
+  "4": 0.06433,
+  "5": 0.04967,
+  "6": 0.02876,
+  "7": 0.01897,
+  "8": 0.00761,
+  "9": 0.00391,
+  "10": 0.00138,
+  "11": 0.00039,
+  "12": 5e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8675,
+   "under": 0.1325
+  },
+  {
+   "line": 18.5,
+   "over": 0.7995,
+   "under": 0.2005
+  },
+  {
+   "line": 19.5,
+   "over": 0.7163,
+   "under": 0.2837
+  },
+  {
+   "line": 20.5,
+   "over": 0.6401,
+   "under": 0.3599
+  },
+  {
+   "line": 21.5,
+   "over": 0.5887,
+   "under": 0.4113
+  },
+  {
+   "line": 22.5,
+   "over": 0.5026,
+   "under": 0.4974
+  },
+  {
+   "line": 23.5,
+   "over": 0.4349,
+   "under": 0.565
+  },
+  {
+   "line": 24.5,
+   "over": 0.4249,
+   "under": 0.5751
+  },
+  {
+   "line": 25.5,
+   "over": 0.392,
+   "under": 0.608
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2864,
+   "B +1.5": 0.7136,
+   "B -1.5": 0.6064,
+   "A +1.5": 0.3936
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2373,
+   "B +2.5": 0.7627,
+   "B -2.5": 0.5395,
+   "A +2.5": 0.4605
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1751,
+   "B +3.5": 0.8249,
+   "B -3.5": 0.4407,
+   "A +3.5": 0.5593
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1107,
+   "B +4.5": 0.8893,
+   "B -4.5": 0.3155,
+   "A +4.5": 0.6845
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0611,
+   "B +5.5": 0.9389,
+   "B -5.5": 0.2068,
+   "A +5.5": 0.7932
+  }
+ ],
+ "p_tiebreak": 0.4464,
+ "p_a_wins_set": 0.5605,
+ "p_b_wins_set": 0.8179,
+ "p_decider": 0.3784,
+ "expected_breaks": {
+  "total": 4.09,
+  "by_A": 1.64,
+  "by_B": 2.45
+ },
+ "expected_break_points": {
+  "A_creates": 4.8,
+  "B_creates": 6.39
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4395
+ },
+ "match": "Adolfo Daniel Vallejo vs Grigor Dimitrov",
+ "players": {
+  "A": {
+   "id": "atp:209226",
+   "name": "Adolfo Daniel Vallejo",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 71.0,
+   "age": 22.435318275154003,
+   "elo": 1723.2,
+   "surface_elo": {
+    "Hard": 1698.3,
+    "Clay": 1614.4,
+    "Grass": 1413.9
+   },
+   "matches_total": 34,
+   "matches_surface": {
+    "Hard": 16,
+    "Clay": 16,
+    "Grass": 2
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    14,
+    16
+   ],
+   "last52w_surface": [
+    8,
+    8
+   ],
+   "career_surface_wl": [
+    8,
+    8
+   ],
+   "games_won_lost_52w": [
+    356,
+    358
+   ],
+   "sets_won_lost_52w": [
+    37,
+    38
+   ],
+   "avg_opp_elo_last20": 1742.0,
+   "vs_top_opp_52w": [
+    2,
+    4
+   ],
+   "serve_rating": -0.01,
+   "return_rating": 0.0195,
+   "form_elo": 39.5,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.6675,
+    "first_won": 0.6615,
+    "second_won": 0.5156,
+    "serve_pts_won": 0.613,
+    "hold": 0.7667,
+    "aces_per_svgm": 0.3167,
+    "df_per_svgm": 0.1,
+    "bp_saved": 0.5882,
+    "ret_pts_won": 0.3783,
+    "ret_1st_won": 0.2965,
+    "ret_2nd_won": 0.5,
+    "ret_games_won": 0.2698,
+    "bp_conv": 0.4474,
+    "bp_chances_per_retgm": 0.6032,
+    "matches_with_stats": 6
+   },
+   "rank_history": [
+    [
+     "2026-02-23",
+     106.0
+    ],
+    [
+     "2026-03-30",
+     101.0
+    ],
+    [
+     "2026-04-22",
+     96.0
+    ],
+    [
+     "2026-05-25",
+     71.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:105777",
+   "name": "Grigor Dimitrov",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 35.42566735112936,
+   "elo": 1867.9,
+   "surface_elo": {
+    "Hard": 1863.6,
+    "Clay": 1752.5,
+    "Grass": 1799.8
+   },
+   "matches_total": 718,
+   "matches_surface": {
+    "Hard": 481,
+    "Clay": 166,
+    "Grass": 71
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    10,
+    14
+   ],
+   "last52w_surface": [
+    4,
+    9
+   ],
+   "career_surface_wl": [
+    303,
+    178
+   ],
+   "games_won_lost_52w": [
+    328,
+    335
+   ],
+   "sets_won_lost_52w": [
+    31,
+    36
+   ],
+   "avg_opp_elo_last20": 1739.2,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": 0.1594,
+   "return_rating": 0.0718,
+   "form_elo": -187.6,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.627,
+    "first_won": 0.7474,
+    "second_won": 0.4561,
+    "serve_pts_won": 0.6387,
+    "hold": 0.8033,
+    "aces_per_svgm": 0.6557,
+    "df_per_svgm": 0.2623,
+    "bp_saved": 0.5472,
+    "ret_pts_won": 0.3073,
+    "ret_1st_won": 0.215,
+    "ret_2nd_won": 0.49,
+    "ret_games_won": 0.12,
+    "bp_conv": 0.3261,
+    "bp_chances_per_retgm": 0.368,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2025-04-23",
+     16.0
+    ],
+    [
+     "2025-05-07",
+     15.0
+    ],
+    [
+     "2025-06-30",
+     21.0
+    ],
+    [
+     "2025-10-27",
+     38.0
+    ],
+    [
+     "2026-01-04",
+     47.0
+    ],
+    [
+     "2026-01-19",
+     45.0
+    ],
+    [
+     "2026-02-09",
+     43.0
+    ],
+    [
+     "2026-02-23",
+     44.0
+    ],
+    [
+     "2026-03-04",
+     42.0
+    ],
+    [
+     "2026-03-18",
+     44.0
+    ],
+    [
+     "2026-04-05",
+     93.0
+    ],
+    [
+     "2026-04-22",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Adolfo Daniel Vallejo: limited recent/surface sample (30 matches 52w, 16 career on Hard, 6 with stats)",
+  "Adolfo Daniel Vallejo: latest point-level stats are 192 days old (2026-04-22)",
+  "Grigor Dimitrov: limited recent/surface sample (24 matches 52w, 481 career on Hard, 10 with stats)",
+  "Grigor Dimitrov: latest point-level stats are 192 days old (2026-04-22)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -114.7,
+  "components_elo": {
+   "surface_elo": -165.3,
+   "overall_elo": -144.7,
+   "serve_return": -171.7,
+   "form": 227.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -20.2,
+   "overall_elo": -34.2,
+   "serve_return": -59.9,
+   "form": -0.4
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3407,
+  "serve_return_implied_spw": {
+   "A": 0.6331,
+   "B": 0.6829
+  },
+  "point_probs": {
+   "A_serve": 0.6342,
+   "B_serve": 0.6818
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6342480733397852,
+   "B_serve": 0.6817735793498158
+  },
+  "hold_probs": {
+   "A": 0.8024,
+   "B": 0.8776
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3385,
+   0.3417
+  ],
+  "p_tb": [
+   0.4464,
+   0.4484
+  ],
+  "p_decider": [
+   0.3784,
+   0.3777
+  ],
+  "games_mean": [
+   24.205,
+   24.195
+  ],
+  "exp_breaks": [
+   4.088,
+   4.079
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4395,
+    0.4368
+   ],
+   "1-2": [
+    0.222,
+    0.2215
+   ],
+   "2-0": [
+    0.1821,
+    0.1855
+   ],
+   "2-1": [
+    0.1564,
+    0.1562
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0034
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Grigor Dimitrov",
+   "elo_points": -59.9,
+   "raw_diff": -171.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Grigor Dimitrov",
+   "elo_points": -34.2,
+   "raw_diff": -144.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Grigor Dimitrov",
+   "elo_points": -20.2,
+   "raw_diff": -165.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5156,
+   "B": 0.4561,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3783,
+   "B": 0.3073,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6342,
+   "B": 0.6818,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Grigor Dimitrov to win at least one set",
+  "probability": 0.8179,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-449"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Adolfo Daniel Vallejo: limited recent/surface sample (30 matches 52w, 16 career on Hard, 6 with stats); Adolfo Daniel Vallejo: latest point-level stats are 192 days old (2026-04-22)",
+  "candidates": [
+   {
+    "selection": "Grigor Dimitrov to win at least one set",
+    "probability": 0.8179,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7995,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Adolfo Daniel Vallejo +4.5 games",
+    "probability": 0.6845,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Grigor Dimitrov to win",
+    "probability": 0.6615,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6401,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6216,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5751,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Adolfo Daniel Vallejo to win at least one set",
+    "probability": 0.5605,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5536,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Grigor Dimitrov -2.5 games",
+    "probability": 0.5395,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5026,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4974,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Adolfo Daniel Vallejo +2.5 games",
+    "probability": 0.4605,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4464,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Exact sets Adolfo Daniel Vallejo 0-2 Grigor Dimitrov",
+    "probability": 0.4395,
+    "fair_decimal": 2.28
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:50:22+00:00",
+  "version": 1,
+  "input_hash": "ccac0505d9622a57",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187337",
+  "scheduled_start_utc": "2026-10-31T14:30Z"
+ }
+}

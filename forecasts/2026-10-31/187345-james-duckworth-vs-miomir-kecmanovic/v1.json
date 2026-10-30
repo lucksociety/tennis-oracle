@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Miomir Kecmanovic",
+ "win_prob": {
+  "A": 0.4313,
+  "B": 0.5687
+ },
+ "win_prob_exact": {
+  "A": 0.43127,
+  "B": 0.56873
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.32,
+   "american": "+132"
+  },
+  "B": {
+   "decimal": 1.76,
+   "american": "-132"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3543,
+  "2-0": 0.2469,
+  "1-2": 0.2145,
+  "2-1": 0.1843
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.029,
+ "games": {
+  "mean": 24.77,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.26,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00025,
+   "13": 0.0022,
+   "14": 0.00592,
+   "15": 0.01585,
+   "16": 0.0282,
+   "17": 0.05175,
+   "18": 0.06105,
+   "19": 0.0793,
+   "20": 0.07518,
+   "21": 0.05033,
+   "22": 0.09037,
+   "23": 0.07524,
+   "24": 0.00898,
+   "25": 0.03354,
+   "26": 0.05819,
+   "27": 0.02462,
+   "28": 0.03033,
+   "29": 0.03311,
+   "30": 0.03546,
+   "31": 0.04633,
+   "32": 0.04917,
+   "33": 0.03092,
+   "34": 0.0233,
+   "35": 0.03874,
+   "36": 0.02775,
+   "37": 0.00234,
+   "38": 0.00909,
+   "39": 0.01249
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00017,
+  "-11": 0.00159,
+  "-10": 0.00401,
+  "-9": 0.01101,
+  "-8": 0.02107,
+  "-7": 0.04274,
+  "-6": 0.06097,
+  "-5": 0.09087,
+  "-4": 0.10997,
+  "-3": 0.09586,
+  "-2": 0.07016,
+  "-1": 0.04116,
+  "0": 0.0381,
+  "1": 0.03888,
+  "2": 0.06114,
+  "3": 0.07985,
+  "4": 0.08539,
+  "5": 0.06271,
+  "6": 0.03903,
+  "7": 0.02566,
+  "8": 0.01108,
+  "9": 0.00582,
+  "10": 0.00207,
+  "11": 0.00061,
+  "12": 8e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8958,
+   "under": 0.1042
+  },
+  {
+   "line": 18.5,
+   "over": 0.8348,
+   "under": 0.1652
+  },
+  {
+   "line": 19.5,
+   "over": 0.7555,
+   "under": 0.2445
+  },
+  {
+   "line": 20.5,
+   "over": 0.6803,
+   "under": 0.3197
+  },
+  {
+   "line": 21.5,
+   "over": 0.63,
+   "under": 0.37
+  },
+  {
+   "line": 22.5,
+   "over": 0.5396,
+   "under": 0.4604
+  },
+  {
+   "line": 23.5,
+   "over": 0.4644,
+   "under": 0.5356
+  },
+  {
+   "line": 24.5,
+   "over": 0.4554,
+   "under": 0.5446
+  },
+  {
+   "line": 25.5,
+   "over": 0.4218,
+   "under": 0.5782
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3734,
+   "B +1.5": 0.6266,
+   "B -1.5": 0.5084,
+   "A +1.5": 0.4916
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3123,
+   "B +2.5": 0.6877,
+   "B -2.5": 0.4383,
+   "A +2.5": 0.5617
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2324,
+   "B +3.5": 0.7675,
+   "B -3.5": 0.3424,
+   "A +3.5": 0.6576
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1471,
+   "B +4.5": 0.8529,
+   "B -4.5": 0.2324,
+   "A +4.5": 0.7676
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0844,
+   "B +5.5": 0.9156,
+   "B -5.5": 0.1416,
+   "A +5.5": 0.8584
+  }
+ ],
+ "p_tiebreak": 0.4912,
+ "p_a_wins_set": 0.6457,
+ "p_b_wins_set": 0.7531,
+ "p_decider": 0.3988,
+ "expected_breaks": {
+  "total": 3.81,
+  "by_A": 1.74,
+  "by_B": 2.07
+ },
+ "expected_break_points": {
+  "A_creates": 5.04,
+  "B_creates": 5.71
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3543
+ },
+ "match": "James Duckworth vs Miomir Kecmanovic",
+ "players": {
+  "A": {
+   "id": "atp:105902",
+   "name": "James Duckworth",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 82.0,
+   "age": 34.735318275154,
+   "elo": 1658.4,
+   "surface_elo": {
+    "Hard": 1624.4,
+    "Clay": 1338.4,
+    "Grass": 1518.5
+   },
+   "matches_total": 226,
+   "matches_surface": {
+    "Hard": 169,
+    "Clay": 19,
+    "Grass": 38
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    13,
+    22
+   ],
+   "last52w_surface": [
+    11,
+    16
+   ],
+   "career_surface_wl": [
+    67,
+    102
+   ],
+   "games_won_lost_52w": [
+    432,
+    479
+   ],
+   "sets_won_lost_52w": [
+    36,
+    54
+   ],
+   "avg_opp_elo_last20": 1733.6,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.0805,
+   "return_rating": -0.0178,
+   "form_elo": 60.7,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.585,
+    "first_won": 0.6838,
+    "second_won": 0.4849,
+    "serve_pts_won": 0.6012,
+    "hold": 0.7217,
+    "aces_per_svgm": 0.7391,
+    "df_per_svgm": 0.2696,
+    "bp_saved": 0.6444,
+    "ret_pts_won": 0.3119,
+    "ret_1st_won": 0.2229,
+    "ret_2nd_won": 0.4719,
+    "ret_games_won": 0.087,
+    "bp_conv": 0.1852,
+    "bp_chances_per_retgm": 0.4696,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2025-06-23",
+     106.0
+    ],
+    [
+     "2025-06-30",
+     103.0
+    ],
+    [
+     "2025-07-14",
+     113.0
+    ],
+    [
+     "2025-07-27",
+     106.0
+    ],
+    [
+     "2025-10-13",
+     138.0
+    ],
+    [
+     "2026-01-04",
+     86.0
+    ],
+    [
+     "2026-01-19",
+     88.0
+    ],
+    [
+     "2026-02-07",
+     86.0
+    ],
+    [
+     "2026-02-09",
+     83.0
+    ],
+    [
+     "2026-03-18",
+     80.0
+    ],
+    [
+     "2026-05-17",
+     83.0
+    ],
+    [
+     "2026-05-25",
+     82.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200175",
+   "name": "Miomir Kecmanovic",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 48.0,
+   "age": 27.135318275154003,
+   "elo": 1627.2,
+   "surface_elo": {
+    "Hard": 1600.3,
+    "Clay": 1578.2,
+    "Grass": 1575.1
+   },
+   "matches_total": 378,
+   "matches_surface": {
+    "Hard": 244,
+    "Clay": 93,
+    "Grass": 41
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    17,
+    29
+   ],
+   "last52w_surface": [
+    12,
+    19
+   ],
+   "career_surface_wl": [
+    115,
+    129
+   ],
+   "games_won_lost_52w": [
+    600,
+    642
+   ],
+   "sets_won_lost_52w": [
+    55,
+    70
+   ],
+   "avg_opp_elo_last20": 1723.7,
+   "vs_top_opp_52w": [
+    2,
+    6
+   ],
+   "serve_rating": 0.1569,
+   "return_rating": 0.1221,
+   "form_elo": -111.5,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6271,
+    "first_won": 0.7375,
+    "second_won": 0.52,
+    "serve_pts_won": 0.6564,
+    "hold": 0.8,
+    "aces_per_svgm": 0.4426,
+    "df_per_svgm": 0.1475,
+    "bp_saved": 0.6065,
+    "ret_pts_won": 0.3483,
+    "ret_1st_won": 0.2477,
+    "ret_2nd_won": 0.525,
+    "ret_games_won": 0.1987,
+    "bp_conv": 0.438,
+    "bp_chances_per_retgm": 0.4536,
+    "matches_with_stats": 23
+   },
+   "rank_history": [
+    [
+     "2026-01-12",
+     59.0
+    ],
+    [
+     "2026-01-19",
+     60.0
+    ],
+    [
+     "2026-02-02",
+     69.0
+    ],
+    [
+     "2026-02-09",
+     66.0
+    ],
+    [
+     "2026-02-16",
+     83.0
+    ],
+    [
+     "2026-02-23",
+     84.0
+    ],
+    [
+     "2026-03-04",
+     58.0
+    ],
+    [
+     "2026-04-05",
+     59.0
+    ],
+    [
+     "2026-04-13",
+     58.0
+    ],
+    [
+     "2026-04-22",
+     65.0
+    ],
+    [
+     "2026-05-06",
+     70.0
+    ],
+    [
+     "2026-05-25",
+     48.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "James Duckworth: limited recent/surface sample (35 matches 52w, 169 career on Hard, 9 with stats)",
+  "James Duckworth: latest point-level stats are 167 days old (2026-05-17)",
+  "Miomir Kecmanovic: latest point-level stats are 178 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -47.1,
+  "components_elo": {
+   "surface_elo": 24.1,
+   "overall_elo": 31.2,
+   "serve_return": -163.8,
+   "form": 172.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 3.0,
+   "overall_elo": 7.4,
+   "serve_return": -57.2,
+   "form": -0.3
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4326,
+  "serve_return_implied_spw": {
+   "A": 0.6424,
+   "B": 0.6904
+  },
+  "point_probs": {
+   "A_serve": 0.6569,
+   "B_serve": 0.6766
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6568967695304614,
+   "B_serve": 0.6765611929138914
+  },
+  "hold_probs": {
+   "A": 0.8409,
+   "B": 0.8704
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4313,
+   0.4329
+  ],
+  "p_tb": [
+   0.4912,
+   0.492
+  ],
+  "p_decider": [
+   0.3988,
+   0.3995
+  ],
+  "games_mean": [
+   24.769,
+   24.782
+  ],
+  "exp_breaks": [
+   3.807,
+   3.81
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3543,
+    0.3528
+   ],
+   "1-2": [
+    0.2145,
+    0.2142
+   ],
+   "2-0": [
+    0.2469,
+    0.2476
+   ],
+   "2-1": [
+    0.1843,
+    0.1853
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Miomir Kecmanovic",
+   "elo_points": -57.2,
+   "raw_diff": -163.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "James Duckworth",
+   "elo_points": 7.4,
+   "raw_diff": 31.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "James Duckworth",
+   "elo_points": 3.0,
+   "raw_diff": 24.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4849,
+   "B": 0.52,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3119,
+   "B": 0.3483,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6569,
+   "B": 0.6766,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8348,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-505"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.26 games; p10-p90 17-34); a single tiebreak or deciding set swings it. Data quality MEDIUM: James Duckworth: limited recent/surface sample (35 matches 52w, 169 career on Hard, 9 with stats); James Duckworth: latest point-level stats are 167 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8348,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "James Duckworth +4.5 games",
+    "probability": 0.7676,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Miomir Kecmanovic to win at least one set",
+    "probability": 0.7531,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6803,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "James Duckworth to win at least one set",
+    "probability": 0.6457,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6012,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Miomir Kecmanovic to win",
+    "probability": 0.5687,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "James Duckworth +2.5 games",
+    "probability": 0.5617,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5446,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5396,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5088,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4912,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4604,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4554,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Miomir Kecmanovic -2.5 games",
+    "probability": 0.4383,
+    "fair_decimal": 2.28
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:50:02+00:00",
+  "version": 1,
+  "input_hash": "fd78bacc60649589",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187345",
+  "scheduled_start_utc": "2026-10-31T11:30Z"
+ }
+}

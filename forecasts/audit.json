@@ -1,84 +1,84 @@
 {
- "generated_at_utc": "2026-10-30T15:29:52+00:00",
+ "generated_at_utc": "2026-10-30T20:52:47+00:00",
  "summary": {
-  "n": 81,
-  "brier": 0.2409810665432099,
-  "log_loss": 0.6757802372648465,
-  "accuracy": 0.5432098765432098,
-  "games_mae": 4.919753086419754,
-  "exact_sets_accuracy": 0.3950617283950617,
-  "tiebreak_brier": 0.19988813790123458
+  "n": 89,
+  "brier": 0.2379019211235955,
+  "log_loss": 0.6684756074113577,
+  "accuracy": 0.550561797752809,
+  "games_mae": 5.0401123595505615,
+  "exact_sets_accuracy": 0.4044943820224719,
+  "tiebreak_brier": 0.2016725529213483
  },
- "n": 81,
+ "n": 89,
  "overall": {
-  "n": 81,
-  "brier": 0.2409810665432099,
-  "log_loss": 0.6757802372648465,
-  "accuracy": 0.5432098765432098
+  "n": 89,
+  "brier": 0.2379019211235955,
+  "log_loss": 0.6684756074113577,
+  "accuracy": 0.550561797752809
  },
- "games_mae": 4.919753086419754,
- "exact_sets_accuracy": 0.3950617283950617,
- "tiebreak_brier": 0.19988813790123458,
+ "games_mae": 5.0401123595505615,
+ "exact_sets_accuracy": 0.4044943820224719,
+ "tiebreak_brier": 0.2016725529213483,
  "by_surface": {
   "Hard": {
-   "n": 81,
-   "brier": 0.2409810665432099,
-   "log_loss": 0.6757802372648465,
-   "accuracy": 0.5432098765432098
+   "n": 89,
+   "brier": 0.2379019211235955,
+   "log_loss": 0.6684756074113577,
+   "accuracy": 0.550561797752809
   }
  },
  "by_tour": {
   "atp": {
-   "n": 25,
-   "brier": 0.2307403468,
-   "log_loss": 0.6518787415832951,
-   "accuracy": 0.56
+   "n": 29,
+   "brier": 0.2150778303448276,
+   "log_loss": 0.6170809720584561,
+   "accuracy": 0.5862068965517241
   },
   "wta": {
-   "n": 56,
-   "brier": 0.2455528164285714,
-   "log_loss": 0.6864505478369676,
-   "accuracy": 0.5357142857142857
+   "n": 60,
+   "brier": 0.248933565,
+   "log_loss": 0.6933163478319269,
+   "accuracy": 0.5333333333333333
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 46,
-   "brier": 0.25215629217391305,
-   "log_loss": 0.7027362144995584,
-   "accuracy": 0.5652173913043478
+   "n": 50,
+   "brier": 0.2530235524,
+   "log_loss": 0.704041986432256,
+   "accuracy": 0.56
   },
   "MEDIUM": {
-   "n": 35,
-   "brier": 0.22629362714285714,
-   "log_loss": 0.6403523814706537,
-   "accuracy": 0.5142857142857142
+   "n": 39,
+   "brier": 0.21851521435897434,
+   "log_loss": 0.6228776855896933,
+   "accuracy": 0.5384615384615384
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 53,
-   "mean_pred": 0.543856603773585,
-   "observed": 0.5094339622641509
+   "n": 57,
+   "mean_pred": 0.5431842105263158,
+   "observed": 0.5087719298245614
   },
   {
    "bucket": "60%-70%",
-   "n": 13,
-   "mean_pred": 0.6510692307692307,
-   "observed": 0.5384615384615384
+   "n": 15,
+   "mean_pred": 0.6546733333333332,
+   "observed": 0.5333333333333333
   },
   {
    "bucket": "70%-80%",
-   "n": 10,
-   "mean_pred": 0.74146,
-   "observed": 0.8
+   "n": 11,
+   "mean_pred": 0.7387999999999999,
+   "observed": 0.8181818181818182
   },
   {
    "bucket": "80%-90%",
-   "n": 4,
-   "mean_pred": 0.836075,
-   "observed": 0.5
+   "n": 5,
+   "mean_pred": 0.8393,
+   "observed": 0.6
   },
   {
    "bucket": "90%-100%",
@@ -3113,6 +3113,132 @@
    "version": "v1.1"
   },
   {
+   "match": "Jerome Kym vs Jiri Lehecka",
+   "date": "2026-10-30",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.3047,
+   "a_won": 0,
+   "pred_winner": "Jiri Lehecka",
+   "actual_winner": "Jiri Lehecka",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4726,
+   "exp_games": 24.22,
+   "actual_games": 18,
+   "p_tb": 0.4618,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2527,
+     0
+    ],
+    "A -2.5": [
+     0.2057,
+     0
+    ],
+    "A -3.5": [
+     0.1482,
+     0
+    ],
+    "A -4.5": [
+     0.0885,
+     0
+    ],
+    "A -5.5": [
+     0.0468,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jan Lennard Struff vs Nuno Borges",
+   "date": "2026-10-30",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.4792,
+   "a_won": 1,
+   "pred_winner": "Nuno Borges",
+   "actual_winner": "Jan Lennard Struff",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2817,
+   "exp_games": 24.72,
+   "actual_games": 17,
+   "p_tb": 0.4812,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4194,
+     1
+    ],
+    "A -2.5": [
+     0.357,
+     1
+    ],
+    "A -3.5": [
+     0.2731,
+     1
+    ],
+    "A -4.5": [
+     0.18,
+     1
+    ],
+    "A -5.5": [
+     0.1058,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alexander Zverev vs Arthur Fery",
+   "date": "2026-10-30",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Erste Bank Open",
+   "p_a": 0.8522,
+   "a_won": 1,
+   "pred_winner": "Alexander Zverev",
+   "actual_winner": "Alexander Zverev",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.6584,
+   "exp_games": 22.29,
+   "actual_games": 14,
+   "p_tb": 0.355,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.8154,
+     1
+    ],
+    "A -2.5": [
+     0.7607,
+     1
+    ],
+    "A -3.5": [
+     0.6664,
+     1
+    ],
+    "A -4.5": [
+     0.5277,
+     1
+    ],
+    "A -5.5": [
+     0.3896,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Adrian Mannarino vs Daniil Medvedev",
    "date": "2026-10-30",
    "tour": "atp",
@@ -3148,6 +3274,48 @@
     ],
     "A -5.5": [
      0.042,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tommy Paul vs Carlos Alcaraz",
+   "date": "2026-10-30",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Erste Bank Open",
+   "p_a": 0.2878,
+   "a_won": 0,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4941,
+   "exp_games": 23.18,
+   "actual_games": 23,
+   "p_tb": 0.3596,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2443,
+     0
+    ],
+    "A -2.5": [
+     0.2071,
+     0
+    ],
+    "A -3.5": [
+     0.1601,
+     0
+    ],
+    "A -4.5": [
+     0.1059,
+     0
+    ],
+    "A -5.5": [
+     0.0618,
      0
     ]
    },
@@ -3407,6 +3575,132 @@
    "version": "v1.1"
   },
   {
+   "match": "Leyre Romero Gormaz vs Julia Grabher",
+   "date": "2026-10-30",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.5548,
+   "a_won": 0,
+   "pred_winner": "Leyre Romero Gormaz",
+   "actual_winner": "Julia Grabher",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1795,
+   "exp_games": 22.77,
+   "actual_games": 29,
+   "p_tb": 0.2832,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5109,
+     0
+    ],
+    "A -2.5": [
+     0.4708,
+     0
+    ],
+    "A -3.5": [
+     0.4104,
+     0
+    ],
+    "A -4.5": [
+     0.3251,
+     0
+    ],
+    "A -5.5": [
+     0.2383,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Julia Riera vs Solana Sierra",
+   "date": "2026-10-30",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.5247,
+   "a_won": 1,
+   "pred_winner": "Julia Riera",
+   "actual_winner": "Julia Riera",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1936,
+   "exp_games": 22.79,
+   "actual_games": 29,
+   "p_tb": 0.2796,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4807,
+     0
+    ],
+    "A -2.5": [
+     0.4402,
+     0
+    ],
+    "A -3.5": [
+     0.3814,
+     0
+    ],
+    "A -4.5": [
+     0.3007,
+     0
+    ],
+    "A -5.5": [
+     0.2193,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anna Blinkova vs Martyna Kubka",
+   "date": "2026-10-30",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.5368,
+   "a_won": 1,
+   "pred_winner": "Anna Blinkova",
+   "actual_winner": "Anna Blinkova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3415,
+   "exp_games": 22.54,
+   "actual_games": 17,
+   "p_tb": 0.2568,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.494,
+     1
+    ],
+    "A -2.5": [
+     0.4545,
+     1
+    ],
+    "A -3.5": [
+     0.3987,
+     1
+    ],
+    "A -4.5": [
+     0.3209,
+     1
+    ],
+    "A -5.5": [
+     0.2412,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Ayla Aksu vs Noma Noha Akugue",
    "date": "2026-10-30",
    "tour": "wta",
@@ -3442,6 +3736,48 @@
     ],
     "A -5.5": [
      0.2223,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Elsa Jacquemot vs Elizara Yaneva",
+   "date": "2026-10-30",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.3391,
+   "a_won": 1,
+   "pred_winner": "Elizara Yaneva",
+   "actual_winner": "Elsa Jacquemot",
+   "pred_sets": "0-2",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1471,
+   "exp_games": 22.32,
+   "actual_games": 32,
+   "p_tb": 0.2566,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2992,
+     1
+    ],
+    "A -2.5": [
+     0.268,
+     1
+    ],
+    "A -3.5": [
+     0.2238,
+     1
+    ],
+    "A -4.5": [
+     0.1679,
+     0
+    ],
+    "A -5.5": [
+     0.1158,
      0
     ]
    },

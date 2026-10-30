@@ -1,0 +1,679 @@
+{
+ "predicted_winner": "Alina Charaeva",
+ "win_prob": {
+  "A": 0.4398,
+  "B": 0.5602
+ },
+ "win_prob_exact": {
+  "A": 0.43984,
+  "B": 0.56016
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.27,
+   "american": "+127"
+  },
+  "B": {
+   "decimal": 1.79,
+   "american": "-127"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3615,
+  "2-0": 0.2645,
+  "1-2": 0.1987,
+  "2-1": 0.1753
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0186,
+ "games": {
+  "mean": 22.58,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00224,
+   "13": 0.01091,
+   "14": 0.02531,
+   "15": 0.04529,
+   "16": 0.06672,
+   "17": 0.0849,
+   "18": 0.0829,
+   "19": 0.07699,
+   "20": 0.06818,
+   "21": 0.04944,
+   "22": 0.06001,
+   "23": 0.03986,
+   "24": 0.02156,
+   "25": 0.03653,
+   "26": 0.04082,
+   "27": 0.03834,
+   "28": 0.04062,
+   "29": 0.0416,
+   "30": 0.04022,
+   "31": 0.03636,
+   "32": 0.03151,
+   "33": 0.01925,
+   "34": 0.01403,
+   "35": 0.0139,
+   "36": 0.00676,
+   "37": 0.00171,
+   "38": 0.00258,
+   "39": 0.00146
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0015,
+  "-11": 0.00737,
+  "-10": 0.01669,
+  "-9": 0.0298,
+  "-8": 0.04789,
+  "-7": 0.06916,
+  "-6": 0.0797,
+  "-5": 0.08413,
+  "-4": 0.08281,
+  "-3": 0.05874,
+  "-2": 0.03932,
+  "-1": 0.03008,
+  "0": 0.02815,
+  "1": 0.02806,
+  "2": 0.03701,
+  "3": 0.0518,
+  "4": 0.06872,
+  "5": 0.06602,
+  "6": 0.0607,
+  "7": 0.04962,
+  "8": 0.03084,
+  "9": 0.01816,
+  "10": 0.00939,
+  "11": 0.0036,
+  "12": 0.00074
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7646,
+   "under": 0.2354
+  },
+  {
+   "line": 18.5,
+   "over": 0.6817,
+   "under": 0.3183
+  },
+  {
+   "line": 19.5,
+   "over": 0.6047,
+   "under": 0.3953
+  },
+  {
+   "line": 20.5,
+   "over": 0.5366,
+   "under": 0.4634
+  },
+  {
+   "line": 21.5,
+   "over": 0.4871,
+   "under": 0.5129
+  },
+  {
+   "line": 22.5,
+   "over": 0.4271,
+   "under": 0.5729
+  },
+  {
+   "line": 23.5,
+   "over": 0.3872,
+   "under": 0.6128
+  },
+  {
+   "line": 24.5,
+   "over": 0.3657,
+   "under": 0.6343
+  },
+  {
+   "line": 25.5,
+   "over": 0.3292,
+   "under": 0.6708
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3966,
+   "B +1.5": 0.6034,
+   "B -1.5": 0.5171,
+   "A +1.5": 0.4829
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3596,
+   "B +2.5": 0.6404,
+   "B -2.5": 0.4778,
+   "A +2.5": 0.5222
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3078,
+   "B +3.5": 0.6922,
+   "B -3.5": 0.419,
+   "A +3.5": 0.581
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2391,
+   "B +4.5": 0.7609,
+   "B -4.5": 0.3362,
+   "A +4.5": 0.6638
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1731,
+   "B +5.5": 0.8269,
+   "B -5.5": 0.2521,
+   "A +5.5": 0.7479
+  }
+ ],
+ "p_tiebreak": 0.262,
+ "p_a_wins_set": 0.6385,
+ "p_b_wins_set": 0.7355,
+ "p_decider": 0.374,
+ "expected_breaks": {
+  "total": 7.86,
+  "by_A": 3.74,
+  "by_B": 4.12
+ },
+ "expected_break_points": {
+  "A_creates": 8.42,
+  "B_creates": 9.01
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3615
+ },
+ "match": "Elsa Jacquemot vs Alina Charaeva",
+ "players": {
+  "A": {
+   "id": "wta:221039",
+   "name": "Elsa Jacquemot",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 67.0,
+   "age": 23.435318275154003,
+   "elo": 1614.4,
+   "surface_elo": {
+    "Hard": 1597.7,
+    "Clay": 1510.3,
+    "Grass": 1473.4
+   },
+   "matches_total": 75,
+   "matches_surface": {
+    "Hard": 46,
+    "Clay": 23,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    16,
+    25
+   ],
+   "last52w_surface": [
+    12,
+    17
+   ],
+   "career_surface_wl": [
+    19,
+    27
+   ],
+   "games_won_lost_52w": [
+    401,
+    472
+   ],
+   "sets_won_lost_52w": [
+    34,
+    58
+   ],
+   "avg_opp_elo_last20": 1594.8,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": -0.0086,
+   "return_rating": -0.0325,
+   "form_elo": 62.0,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6517,
+    "first_won": 0.6169,
+    "second_won": 0.362,
+    "serve_pts_won": 0.5281,
+    "hold": 0.5614,
+    "aces_per_svgm": 0.2281,
+    "df_per_svgm": 0.5351,
+    "bp_saved": 0.4949,
+    "ret_pts_won": 0.3759,
+    "ret_1st_won": 0.3055,
+    "ret_2nd_won": 0.5129,
+    "ret_games_won": 0.2051,
+    "bp_conv": 0.3117,
+    "bp_chances_per_retgm": 0.6581,
+    "matches_with_stats": 11
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     91.0
+    ],
+    [
+     "2025-09-08",
+     83.0
+    ],
+    [
+     "2025-09-24",
+     65.0
+    ],
+    [
+     "2026-01-04",
+     56.0
+    ],
+    [
+     "2026-01-12",
+     58.0
+    ],
+    [
+     "2026-01-19",
+     60.0
+    ],
+    [
+     "2026-03-04",
+     63.0
+    ],
+    [
+     "2026-03-17",
+     62.0
+    ],
+    [
+     "2026-04-13",
+     60.0
+    ],
+    [
+     "2026-04-21",
+     62.0
+    ],
+    [
+     "2026-05-05",
+     64.0
+    ],
+    [
+     "2026-05-25",
+     67.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221406",
+   "name": "Alina Charaeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 129.0,
+   "age": 24.428405201916494,
+   "elo": 1779.4,
+   "surface_elo": {
+    "Hard": 1758.9,
+    "Clay": 1546.7,
+    "Grass": 1567.5
+   },
+   "matches_total": 32,
+   "matches_surface": {
+    "Hard": 22,
+    "Clay": 7,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    18,
+    12
+   ],
+   "last52w_surface": [
+    13,
+    7
+   ],
+   "career_surface_wl": [
+    13,
+    9
+   ],
+   "games_won_lost_52w": [
+    374,
+    337
+   ],
+   "sets_won_lost_52w": [
+    42,
+    33
+   ],
+   "avg_opp_elo_last20": 1691.7,
+   "vs_top_opp_52w": [
+    1,
+    1
+   ],
+   "serve_rating": -0.0651,
+   "return_rating": -0.0268,
+   "form_elo": 89.5,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-04-21",
+   "stats_52w": {
+    "first_in": 0.5809,
+    "first_won": 0.5696,
+    "second_won": 0.3509,
+    "serve_pts_won": 0.4779,
+    "hold": 0.4783,
+    "aces_per_svgm": 0.1739,
+    "df_per_svgm": 0.5652,
+    "bp_saved": 0.4,
+    "ret_pts_won": 0.3944,
+    "ret_1st_won": 0.3579,
+    "ret_2nd_won": 0.4681,
+    "ret_games_won": 0.2727,
+    "bp_conv": 0.5,
+    "bp_chances_per_retgm": 0.5455,
+    "matches_with_stats": 2
+   },
+   "rank_history": [
+    [
+     "2025-02-24",
+     285.0
+    ],
+    [
+     "2025-10-20",
+     150.0
+    ],
+    [
+     "2026-04-13",
+     130.0
+    ],
+    [
+     "2026-04-21",
+     129.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Valle D'Aosta Ladies Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Elsa Jacquemot: limited recent/surface sample (41 matches 52w, 46 career on Hard, 11 with stats)",
+  "Elsa Jacquemot: latest point-level stats are 179 days old (2026-05-05)",
+  "Alina Charaeva: sparse record (32 tour matches, 2 with serve stats in 52w)",
+  "Alina Charaeva: latest point-level stats are 193 days old (2026-04-21)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -42.6,
+  "components_elo": {
+   "surface_elo": -161.1,
+   "overall_elo": -165.0,
+   "serve_return": 45.9,
+   "form": -27.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -19.7,
+   "overall_elo": -39.0,
+   "serve_return": 16.0,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.439,
+  "serve_return_implied_spw": {
+   "A": 0.5702,
+   "B": 0.5577
+  },
+  "point_probs": {
+   "A_serve": 0.5551,
+   "B_serve": 0.5729
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5550703312433081,
+   "B_serve": 0.57286302937204
+  },
+  "hold_probs": {
+   "A": 0.6352,
+   "B": 0.6765
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4398,
+   0.4401
+  ],
+  "p_tb": [
+   0.262,
+   0.2636
+  ],
+  "p_decider": [
+   0.374,
+   0.374
+  ],
+  "games_mean": [
+   22.58,
+   22.584
+  ],
+  "exp_breaks": [
+   7.858,
+   7.855
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3615,
+    0.3615
+   ],
+   "1-2": [
+    0.1987,
+    0.1984
+   ],
+   "2-0": [
+    0.2645,
+    0.2646
+   ],
+   "2-1": [
+    0.1753,
+    0.1756
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -39.0,
+   "raw_diff": -165.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -19.7,
+   "raw_diff": -161.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Elsa Jacquemot",
+   "elo_points": 16.0,
+   "raw_diff": 45.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.362,
+   "B": 0.3509,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3759,
+   "B": 0.3944,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5551,
+   "B": 0.5729,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.738,
+  "fair_odds": {
+   "decimal": 1.36,
+   "american": "-282"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Elsa Jacquemot: limited recent/surface sample (41 matches 52w, 46 career on Hard, 11 with stats); Elsa Jacquemot: latest point-level stats are 179 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.738,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Alina Charaeva to win at least one set",
+    "probability": 0.7355,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6817,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Elsa Jacquemot +4.5 games",
+    "probability": 0.6638,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Elsa Jacquemot to win at least one set",
+    "probability": 0.6385,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6343,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.626,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5729,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Alina Charaeva to win",
+    "probability": 0.5602,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5366,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Elsa Jacquemot +2.5 games",
+    "probability": 0.5222,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Alina Charaeva -2.5 games",
+    "probability": 0.4778,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4634,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Elsa Jacquemot to win",
+    "probability": 0.4398,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4271,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:50:29+00:00",
+  "version": 1,
+  "input_hash": "1ace99d4b86e2d7e",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185854",
+  "scheduled_start_utc": "2026-10-31T15:00Z"
+ }
+}

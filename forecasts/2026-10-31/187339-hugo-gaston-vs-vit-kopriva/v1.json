@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Vit Kopriva",
+ "win_prob": {
+  "A": 0.4427,
+  "B": 0.5573
+ },
+ "win_prob_exact": {
+  "A": 0.44266,
+  "B": 0.55734
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.26,
+   "american": "+126"
+  },
+  "B": {
+   "decimal": 1.79,
+   "american": "-126"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3496,
+  "2-0": 0.2619,
+  "1-2": 0.2077,
+  "2-1": 0.1808
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.025,
+ "games": {
+  "mean": 23.65,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 32.0,
+  "sd": 6.1,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00086,
+   "13": 0.00492,
+   "14": 0.01298,
+   "15": 0.0282,
+   "16": 0.04513,
+   "17": 0.07006,
+   "18": 0.07597,
+   "19": 0.0836,
+   "20": 0.07603,
+   "21": 0.05106,
+   "22": 0.0737,
+   "23": 0.05388,
+   "24": 0.0137,
+   "25": 0.03434,
+   "26": 0.04494,
+   "27": 0.03242,
+   "28": 0.03746,
+   "29": 0.04042,
+   "30": 0.03965,
+   "31": 0.04353,
+   "32": 0.04045,
+   "33": 0.02618,
+   "34": 0.0199,
+   "35": 0.0239,
+   "36": 0.01479,
+   "37": 0.00229,
+   "38": 0.00484,
+   "39": 0.0048
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00064,
+  "-11": 0.00323,
+  "-10": 0.00858,
+  "-9": 0.01852,
+  "-8": 0.03192,
+  "-7": 0.05599,
+  "-6": 0.07313,
+  "-5": 0.09062,
+  "-4": 0.09639,
+  "-3": 0.07508,
+  "-2": 0.05151,
+  "-1": 0.03502,
+  "0": 0.03265,
+  "1": 0.03361,
+  "2": 0.0474,
+  "3": 0.06539,
+  "4": 0.07983,
+  "5": 0.07075,
+  "6": 0.0532,
+  "7": 0.03844,
+  "8": 0.02016,
+  "9": 0.01126,
+  "10": 0.00477,
+  "11": 0.00169,
+  "12": 0.00022
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8378,
+   "under": 0.1622
+  },
+  {
+   "line": 18.5,
+   "over": 0.7619,
+   "under": 0.2381
+  },
+  {
+   "line": 19.5,
+   "over": 0.6783,
+   "under": 0.3217
+  },
+  {
+   "line": 20.5,
+   "over": 0.6022,
+   "under": 0.3977
+  },
+  {
+   "line": 21.5,
+   "over": 0.5512,
+   "under": 0.4488
+  },
+  {
+   "line": 22.5,
+   "over": 0.4775,
+   "under": 0.5225
+  },
+  {
+   "line": 23.5,
+   "over": 0.4236,
+   "under": 0.5764
+  },
+  {
+   "line": 24.5,
+   "over": 0.4099,
+   "under": 0.5901
+  },
+  {
+   "line": 25.5,
+   "over": 0.3756,
+   "under": 0.6244
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3931,
+   "B +1.5": 0.6069,
+   "B -1.5": 0.5056,
+   "A +1.5": 0.4944
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3457,
+   "B +2.5": 0.6543,
+   "B -2.5": 0.4541,
+   "A +2.5": 0.5459
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2803,
+   "B +3.5": 0.7197,
+   "B -3.5": 0.379,
+   "A +3.5": 0.621
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2005,
+   "B +4.5": 0.7995,
+   "B -4.5": 0.2826,
+   "A +4.5": 0.7174
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1297,
+   "B +5.5": 0.8703,
+   "B -5.5": 0.192,
+   "A +5.5": 0.808
+  }
+ ],
+ "p_tiebreak": 0.3689,
+ "p_a_wins_set": 0.6504,
+ "p_b_wins_set": 0.7381,
+ "p_decider": 0.3885,
+ "expected_breaks": {
+  "total": 5.3,
+  "by_A": 2.49,
+  "by_B": 2.81
+ },
+ "expected_break_points": {
+  "A_creates": 6.44,
+  "B_creates": 7.01
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3496
+ },
+ "match": "Hugo Gaston vs Vit Kopriva",
+ "players": {
+  "A": {
+   "id": "atp:200384",
+   "name": "Hugo Gaston",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 118.0,
+   "age": 26.035318275154005,
+   "elo": 1603.2,
+   "surface_elo": {
+    "Hard": 1536.9,
+    "Clay": 1573.1,
+    "Grass": 1586.4
+   },
+   "matches_total": 139,
+   "matches_surface": {
+    "Hard": 71,
+    "Clay": 57,
+    "Grass": 11
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    12,
+    13
+   ],
+   "last52w_surface": [
+    6,
+    7
+   ],
+   "career_surface_wl": [
+    25,
+    46
+   ],
+   "games_won_lost_52w": [
+    308,
+    313
+   ],
+   "sets_won_lost_52w": [
+    31,
+    35
+   ],
+   "avg_opp_elo_last20": 1648.5,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0602,
+   "return_rating": 0.0403,
+   "form_elo": 11.9,
+   "last_match": "2026-10-20",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.551,
+    "first_won": 0.6763,
+    "second_won": 0.5035,
+    "serve_pts_won": 0.5987,
+    "hold": 0.75,
+    "aces_per_svgm": 0.3636,
+    "df_per_svgm": 0.2727,
+    "bp_saved": 0.6452,
+    "ret_pts_won": 0.37,
+    "ret_1st_won": 0.2682,
+    "ret_2nd_won": 0.5638,
+    "ret_games_won": 0.25,
+    "bp_conv": 0.4074,
+    "bp_chances_per_retgm": 0.6136,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2025-05-26",
+     83.0
+    ],
+    [
+     "2025-06-30",
+     86.0
+    ],
+    [
+     "2025-07-14",
+     91.0
+    ],
+    [
+     "2025-07-21",
+     99.0
+    ],
+    [
+     "2025-07-27",
+     126.0
+    ],
+    [
+     "2025-08-07",
+     123.0
+    ],
+    [
+     "2025-08-17",
+     125.0
+    ],
+    [
+     "2025-11-02",
+     98.0
+    ],
+    [
+     "2026-01-12",
+     94.0
+    ],
+    [
+     "2026-03-30",
+     116.0
+    ],
+    [
+     "2026-05-17",
+     120.0
+    ],
+    [
+     "2026-05-25",
+     118.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200240",
+   "name": "Vit Kopriva",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 66.0,
+   "age": 29.335318275154002,
+   "elo": 1592.1,
+   "surface_elo": {
+    "Hard": 1502.9,
+    "Clay": 1650.9,
+    "Grass": 1483.6
+   },
+   "matches_total": 78,
+   "matches_surface": {
+    "Hard": 26,
+    "Clay": 45,
+    "Grass": 7
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    5,
+    15
+   ],
+   "last52w": [
+    19,
+    23
+   ],
+   "last52w_surface": [
+    5,
+    10
+   ],
+   "career_surface_wl": [
+    8,
+    18
+   ],
+   "games_won_lost_52w": [
+    501,
+    529
+   ],
+   "sets_won_lost_52w": [
+    49,
+    58
+   ],
+   "avg_opp_elo_last20": 1751.4,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.0014,
+   "return_rating": 0.1354,
+   "form_elo": -122.6,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6358,
+    "first_won": 0.6962,
+    "second_won": 0.4918,
+    "serve_pts_won": 0.6218,
+    "hold": 0.7885,
+    "aces_per_svgm": 0.3548,
+    "df_per_svgm": 0.2652,
+    "bp_saved": 0.655,
+    "ret_pts_won": 0.3823,
+    "ret_1st_won": 0.3181,
+    "ret_2nd_won": 0.4962,
+    "ret_games_won": 0.2553,
+    "bp_conv": 0.4235,
+    "bp_chances_per_retgm": 0.6028,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     89.0
+    ],
+    [
+     "2025-11-02",
+     92.0
+    ],
+    [
+     "2026-01-19",
+     101.0
+    ],
+    [
+     "2026-02-09",
+     95.0
+    ],
+    [
+     "2026-02-16",
+     87.0
+    ],
+    [
+     "2026-03-04",
+     62.0
+    ],
+    [
+     "2026-03-30",
+     70.0
+    ],
+    [
+     "2026-04-13",
+     77.0
+    ],
+    [
+     "2026-04-22",
+     66.0
+    ],
+    [
+     "2026-05-06",
+     55.0
+    ],
+    [
+     "2026-05-17",
+     63.0
+    ],
+    [
+     "2026-05-25",
+     66.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Hugo Gaston: limited recent/surface sample (25 matches 52w, 71 career on Hard, 4 with stats)",
+  "Hugo Gaston: latest point-level stats are 167 days old (2026-05-17)",
+  "Vit Kopriva: latest point-level stats are 167 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -38.8,
+  "components_elo": {
+   "surface_elo": 34.0,
+   "overall_elo": 11.2,
+   "serve_return": -129.9,
+   "form": 134.6
+  },
+  "weighted_contributions": {
+   "surface_elo": 4.2,
+   "overall_elo": 2.6,
+   "serve_return": -45.3,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4445,
+  "serve_return_implied_spw": {
+   "A": 0.6063,
+   "B": 0.643
+  },
+  "point_probs": {
+   "A_serve": 0.6167,
+   "B_serve": 0.6329
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6166614727985433,
+   "B_serve": 0.632866460180047
+  },
+  "hold_probs": {
+   "A": 0.7694,
+   "B": 0.7999
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4427,
+   0.445
+  ],
+  "p_tb": [
+   0.3689,
+   0.3711
+  ],
+  "p_decider": [
+   0.3885,
+   0.3878
+  ],
+  "games_mean": [
+   23.652,
+   23.661
+  ],
+  "exp_breaks": [
+   5.295,
+   5.3
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3496,
+    0.3499
+   ],
+   "1-2": [
+    0.2077,
+    0.205
+   ],
+   "2-0": [
+    0.2619,
+    0.2623
+   ],
+   "2-1": [
+    0.1808,
+    0.1827
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0027
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Vit Kopriva",
+   "elo_points": -45.3,
+   "raw_diff": -129.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Hugo Gaston",
+   "elo_points": 4.2,
+   "raw_diff": 34.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Hugo Gaston",
+   "elo_points": 2.6,
+   "raw_diff": 11.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5035,
+   "B": 0.4918,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.37,
+   "B": 0.3823,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6167,
+   "B": 0.6329,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.7619,
+  "fair_odds": {
+   "decimal": 1.31,
+   "american": "-320"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.1 games; p10-p90 17-32); a single tiebreak or deciding set swings it. Data quality MEDIUM: Hugo Gaston: limited recent/surface sample (25 matches 52w, 71 career on Hard, 4 with stats); Hugo Gaston: latest point-level stats are 167 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7619,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Vit Kopriva to win at least one set",
+    "probability": 0.7381,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Hugo Gaston +4.5 games",
+    "probability": 0.7174,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Hugo Gaston to win at least one set",
+    "probability": 0.6504,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6311,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6115,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6022,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5901,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Vit Kopriva to win",
+    "probability": 0.5573,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Hugo Gaston +2.5 games",
+    "probability": 0.5459,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5225,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4775,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Vit Kopriva -2.5 games",
+    "probability": 0.4541,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Hugo Gaston to win",
+    "probability": 0.4427,
+    "fair_decimal": 2.26
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4099,
+    "fair_decimal": 2.44
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:49:58+00:00",
+  "version": 1,
+  "input_hash": "f2d78da2d1f10a5d",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187339",
+  "scheduled_start_utc": "2026-10-31T11:00Z"
+ }
+}

@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Benjamin Bonzi",
+ "win_prob": {
+  "A": 0.4854,
+  "B": 0.5146
+ },
+ "win_prob_exact": {
+  "A": 0.48539,
+  "B": 0.51461
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.06,
+   "american": "+106"
+  },
+  "B": {
+   "decimal": 1.94,
+   "american": "-106"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3063,
+  "2-0": 0.2854,
+  "1-2": 0.2083,
+  "2-1": 0.1999
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "6-7",
+  "6-7"
+ ],
+ "representative_sets_prob": 0.0267,
+ "games": {
+  "mean": 25.34,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.33,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00018,
+   "13": 0.00141,
+   "14": 0.00419,
+   "15": 0.01127,
+   "16": 0.02091,
+   "17": 0.04189,
+   "18": 0.053,
+   "19": 0.07508,
+   "20": 0.07394,
+   "21": 0.04842,
+   "22": 0.09688,
+   "23": 0.08313,
+   "24": 0.00722,
+   "25": 0.03455,
+   "26": 0.06629,
+   "27": 0.02096,
+   "28": 0.02877,
+   "29": 0.03103,
+   "30": 0.03302,
+   "31": 0.04532,
+   "32": 0.05196,
+   "33": 0.03228,
+   "34": 0.02433,
+   "35": 0.04426,
+   "36": 0.03645,
+   "37": 0.00251,
+   "38": 0.01144,
+   "39": 0.01931
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00011,
+  "-11": 0.00075,
+  "-10": 0.00219,
+  "-9": 0.00652,
+  "-8": 0.01273,
+  "-7": 0.02884,
+  "-6": 0.04633,
+  "-5": 0.07693,
+  "-4": 0.10342,
+  "-3": 0.09711,
+  "-2": 0.07528,
+  "-1": 0.04409,
+  "0": 0.04114,
+  "1": 0.04361,
+  "2": 0.07471,
+  "3": 0.09086,
+  "4": 0.09874,
+  "5": 0.07048,
+  "6": 0.04057,
+  "7": 0.02627,
+  "8": 0.01111,
+  "9": 0.0053,
+  "10": 0.00218,
+  "11": 0.00066,
+  "12": 7e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9201,
+   "under": 0.0799
+  },
+  {
+   "line": 18.5,
+   "over": 0.8671,
+   "under": 0.1328
+  },
+  {
+   "line": 19.5,
+   "over": 0.7921,
+   "under": 0.2079
+  },
+  {
+   "line": 20.5,
+   "over": 0.7181,
+   "under": 0.2819
+  },
+  {
+   "line": 21.5,
+   "over": 0.6697,
+   "under": 0.3303
+  },
+  {
+   "line": 22.5,
+   "over": 0.5728,
+   "under": 0.4272
+  },
+  {
+   "line": 23.5,
+   "over": 0.4897,
+   "under": 0.5103
+  },
+  {
+   "line": 24.5,
+   "over": 0.4825,
+   "under": 0.5175
+  },
+  {
+   "line": 25.5,
+   "over": 0.4479,
+   "under": 0.5521
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4209,
+   "B +1.5": 0.5791,
+   "B -1.5": 0.4502,
+   "A +1.5": 0.5498
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3462,
+   "B +2.5": 0.6538,
+   "B -2.5": 0.3749,
+   "A +2.5": 0.6251
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2554,
+   "B +3.5": 0.7446,
+   "B -3.5": 0.2778,
+   "A +3.5": 0.7222
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1566,
+   "B +4.5": 0.8434,
+   "B -4.5": 0.1744,
+   "A +4.5": 0.8256
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0862,
+   "B +5.5": 0.9138,
+   "B -5.5": 0.0975,
+   "A +5.5": 0.9025
+  }
+ ],
+ "p_tiebreak": 0.5474,
+ "p_a_wins_set": 0.6937,
+ "p_b_wins_set": 0.7146,
+ "p_decider": 0.4082,
+ "expected_breaks": {
+  "total": 3.33,
+  "by_A": 1.63,
+  "by_B": 1.7
+ },
+ "expected_break_points": {
+  "A_creates": 4.83,
+  "B_creates": 4.97
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "6-7",
+   "6-7"
+  ],
+  "prob": 0.3063
+ },
+ "match": "Tallon Griekspoor vs Benjamin Bonzi",
+ "players": {
+  "A": {
+   "id": "atp:134868",
+   "name": "Tallon Griekspoor",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 33.0,
+   "age": 30.235318275154004,
+   "elo": 1780.7,
+   "surface_elo": {
+    "Hard": 1812.7,
+    "Clay": 1649.2,
+    "Grass": 1635.7
+   },
+   "matches_total": 271,
+   "matches_surface": {
+    "Hard": 174,
+    "Clay": 61,
+    "Grass": 36
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    18,
+    22
+   ],
+   "last52w_surface": [
+    16,
+    13
+   ],
+   "career_surface_wl": [
+    86,
+    88
+   ],
+   "games_won_lost_52w": [
+    516,
+    547
+   ],
+   "sets_won_lost_52w": [
+    46,
+    57
+   ],
+   "avg_opp_elo_last20": 1787.2,
+   "vs_top_opp_52w": [
+    4,
+    7
+   ],
+   "serve_rating": 0.2241,
+   "return_rating": -0.0077,
+   "form_elo": 88.2,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6399,
+    "first_won": 0.7339,
+    "second_won": 0.5125,
+    "serve_pts_won": 0.6542,
+    "hold": 0.8186,
+    "aces_per_svgm": 0.6605,
+    "df_per_svgm": 0.2605,
+    "bp_saved": 0.602,
+    "ret_pts_won": 0.3088,
+    "ret_1st_won": 0.2154,
+    "ret_2nd_won": 0.4726,
+    "ret_games_won": 0.133,
+    "bp_conv": 0.3867,
+    "bp_chances_per_retgm": 0.344,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2025-10-13",
+     27.0
+    ],
+    [
+     "2025-10-20",
+     28.0
+    ],
+    [
+     "2025-10-27",
+     25.0
+    ],
+    [
+     "2026-01-19",
+     26.0
+    ],
+    [
+     "2026-02-02",
+     29.0
+    ],
+    [
+     "2026-02-09",
+     27.0
+    ],
+    [
+     "2026-02-23",
+     25.0
+    ],
+    [
+     "2026-03-30",
+     30.0
+    ],
+    [
+     "2026-04-05",
+     32.0
+    ],
+    [
+     "2026-04-22",
+     33.0
+    ],
+    [
+     "2026-05-06",
+     31.0
+    ],
+    [
+     "2026-05-25",
+     33.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:126127",
+   "name": "Benjamin Bonzi",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 95.0,
+   "age": 30.335318275154002,
+   "elo": 1805.1,
+   "surface_elo": {
+    "Hard": 1746.1,
+    "Clay": 1631.0,
+    "Grass": 1545.2
+   },
+   "matches_total": 154,
+   "matches_surface": {
+    "Hard": 108,
+    "Clay": 23,
+    "Grass": 23
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    11,
+    10
+   ],
+   "last52w_surface": [
+    8,
+    6
+   ],
+   "career_surface_wl": [
+    52,
+    56
+   ],
+   "games_won_lost_52w": [
+    290,
+    294
+   ],
+   "sets_won_lost_52w": [
+    32,
+    28
+   ],
+   "avg_opp_elo_last20": 1811.9,
+   "vs_top_opp_52w": [
+    0,
+    4
+   ],
+   "serve_rating": 0.1512,
+   "return_rating": 0.1112,
+   "form_elo": 69.1,
+   "last_match": "2026-10-21",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.6844,
+    "first_won": 0.7096,
+    "second_won": 0.5519,
+    "serve_pts_won": 0.6598,
+    "hold": 0.825,
+    "aces_per_svgm": 0.25,
+    "df_per_svgm": 0.1125,
+    "bp_saved": 0.6667,
+    "ret_pts_won": 0.3394,
+    "ret_1st_won": 0.2849,
+    "ret_2nd_won": 0.4279,
+    "ret_games_won": 0.1325,
+    "bp_conv": 0.2444,
+    "bp_chances_per_retgm": 0.5422,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2025-06-22",
+     64.0
+    ],
+    [
+     "2025-07-21",
+     69.0
+    ],
+    [
+     "2025-07-27",
+     66.0
+    ],
+    [
+     "2025-08-07",
+     63.0
+    ],
+    [
+     "2025-08-25",
+     51.0
+    ],
+    [
+     "2025-09-25",
+     47.0
+    ],
+    [
+     "2025-10-01",
+     48.0
+    ],
+    [
+     "2025-10-13",
+     53.0
+    ],
+    [
+     "2026-01-19",
+     106.0
+    ],
+    [
+     "2026-03-04",
+     111.0
+    ],
+    [
+     "2026-04-22",
+     104.0
+    ],
+    [
+     "2026-05-25",
+     95.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Tallon Griekspoor: latest point-level stats are 178 days old (2026-05-06)",
+  "Benjamin Bonzi: limited recent/surface sample (21 matches 52w, 108 career on Hard, 5 with stats)",
+  "Benjamin Bonzi: latest point-level stats are 192 days old (2026-04-22)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -9.2,
+  "components_elo": {
+   "surface_elo": 66.6,
+   "overall_elo": -24.5,
+   "serve_return": -32.9,
+   "form": 19.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 8.1,
+   "overall_elo": -5.8,
+   "serve_return": -11.5,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4868,
+  "serve_return_implied_spw": {
+   "A": 0.677,
+   "B": 0.687
+  },
+  "point_probs": {
+   "A_serve": 0.6801,
+   "B_serve": 0.684
+  },
+  "point_probs_exact": {
+   "A_serve": 0.680091209914258,
+   "B_serve": 0.6839517006879705
+  },
+  "hold_probs": {
+   "A": 0.8753,
+   "B": 0.8805
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4854,
+   0.4867
+  ],
+  "p_tb": [
+   0.5474,
+   0.5487
+  ],
+  "p_decider": [
+   0.4082,
+   0.4088
+  ],
+  "games_mean": [
+   25.339,
+   25.344
+  ],
+  "exp_breaks": [
+   3.328,
+   3.331
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3063,
+    0.3059
+   ],
+   "1-2": [
+    0.2083,
+    0.2073
+   ],
+   "2-0": [
+    0.2854,
+    0.2853
+   ],
+   "2-1": [
+    0.1999,
+    0.2014
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0015
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Benjamin Bonzi",
+   "elo_points": -11.5,
+   "raw_diff": -32.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Tallon Griekspoor",
+   "elo_points": 8.1,
+   "raw_diff": 66.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Benjamin Bonzi",
+   "elo_points": -5.8,
+   "raw_diff": -24.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5125,
+   "B": 0.5519,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3088,
+   "B": 0.3394,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6801,
+   "B": 0.684,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8671,
+  "fair_odds": {
+   "decimal": 1.15,
+   "american": "-652"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.33 games; p10-p90 18-35); a single tiebreak or deciding set swings it. Data quality MEDIUM: Tallon Griekspoor: latest point-level stats are 178 days old (2026-05-06); Benjamin Bonzi: limited recent/surface sample (21 matches 52w, 108 career on Hard, 5 with stats)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8671,
+    "fair_decimal": 1.15
+   },
+   {
+    "selection": "Tallon Griekspoor +4.5 games",
+    "probability": 0.8256,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7181,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Benjamin Bonzi to win at least one set",
+    "probability": 0.7146,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Tallon Griekspoor to win at least one set",
+    "probability": 0.6937,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Tallon Griekspoor +2.5 games",
+    "probability": 0.6251,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5918,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5728,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5474,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5175,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Benjamin Bonzi to win",
+    "probability": 0.5146,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Tallon Griekspoor to win",
+    "probability": 0.4854,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4825,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4526,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4272,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-30",
+ "freeze": {
+  "frozen_at_utc": "2026-10-30T20:50:07+00:00",
+  "version": 1,
+  "input_hash": "c59170fc5cc028cb",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187341",
+  "scheduled_start_utc": "2026-10-31T12:30Z"
+ }
+}
