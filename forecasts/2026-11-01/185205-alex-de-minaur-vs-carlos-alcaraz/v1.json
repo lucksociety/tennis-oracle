@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Carlos Alcaraz",
+ "win_prob": {
+  "A": 0.2768,
+  "B": 0.7232
+ },
+ "win_prob_exact": {
+  "A": 0.27682,
+  "B": 0.7231799999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.61,
+   "american": "+261"
+  },
+  "B": {
+   "decimal": 1.38,
+   "american": "-261"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5089,
+  "1-2": 0.2142,
+  "2-0": 0.1451,
+  "2-1": 0.1318
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0322,
+ "games": {
+  "mean": 22.98,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.1,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00176,
+   "13": 0.00782,
+   "14": 0.01892,
+   "15": 0.03815,
+   "16": 0.05769,
+   "17": 0.0783,
+   "18": 0.08183,
+   "19": 0.08522,
+   "20": 0.07618,
+   "21": 0.05158,
+   "22": 0.07136,
+   "23": 0.05175,
+   "24": 0.01327,
+   "25": 0.03102,
+   "26": 0.04224,
+   "27": 0.02984,
+   "28": 0.03461,
+   "29": 0.03519,
+   "30": 0.03564,
+   "31": 0.03677,
+   "32": 0.03635,
+   "33": 0.02259,
+   "34": 0.01623,
+   "35": 0.02171,
+   "36": 0.01303,
+   "37": 0.00197,
+   "38": 0.00438,
+   "39": 0.0046
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0017,
+  "-11": 0.00745,
+  "-10": 0.01772,
+  "-9": 0.03556,
+  "-8": 0.05664,
+  "-7": 0.08618,
+  "-6": 0.10379,
+  "-5": 0.11635,
+  "-4": 0.11844,
+  "-3": 0.08327,
+  "-2": 0.05174,
+  "-1": 0.03176,
+  "0": 0.02864,
+  "1": 0.02726,
+  "2": 0.03564,
+  "3": 0.04412,
+  "4": 0.05122,
+  "5": 0.04168,
+  "6": 0.02737,
+  "7": 0.01799,
+  "8": 0.00889,
+  "9": 0.00444,
+  "10": 0.00164,
+  "11": 0.00045,
+  "12": 6e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7974,
+   "under": 0.2026
+  },
+  {
+   "line": 18.5,
+   "over": 0.7155,
+   "under": 0.2845
+  },
+  {
+   "line": 19.5,
+   "over": 0.6303,
+   "under": 0.3697
+  },
+  {
+   "line": 20.5,
+   "over": 0.5541,
+   "under": 0.4459
+  },
+  {
+   "line": 21.5,
+   "over": 0.5025,
+   "under": 0.4975
+  },
+  {
+   "line": 22.5,
+   "over": 0.4312,
+   "under": 0.5688
+  },
+  {
+   "line": 23.5,
+   "over": 0.3794,
+   "under": 0.6206
+  },
+  {
+   "line": 24.5,
+   "over": 0.3662,
+   "under": 0.6338
+  },
+  {
+   "line": 25.5,
+   "over": 0.3352,
+   "under": 0.6649
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2335,
+   "B +1.5": 0.7665,
+   "B -1.5": 0.6788,
+   "A +1.5": 0.3212
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.1979,
+   "B +2.5": 0.8021,
+   "B -2.5": 0.6271,
+   "A +2.5": 0.3729
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1537,
+   "B +3.5": 0.8463,
+   "B -3.5": 0.5438,
+   "A +3.5": 0.4562
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1025,
+   "B +4.5": 0.8975,
+   "B -4.5": 0.4254,
+   "A +4.5": 0.5746
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0608,
+   "B +5.5": 0.9392,
+   "B -5.5": 0.309,
+   "A +5.5": 0.691
+  }
+ ],
+ "p_tiebreak": 0.3436,
+ "p_a_wins_set": 0.4911,
+ "p_b_wins_set": 0.8549,
+ "p_decider": 0.346,
+ "expected_breaks": {
+  "total": 5.13,
+  "by_A": 1.94,
+  "by_B": 3.19
+ },
+ "expected_break_points": {
+  "A_creates": 5.35,
+  "B_creates": 7.57
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.5089
+ },
+ "match": "Alex De Minaur vs Carlos Alcaraz",
+ "players": {
+  "A": {
+   "id": "atp:200282",
+   "name": "Alex De Minaur",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 7.0,
+   "age": 27.638056125941134,
+   "elo": 1982.5,
+   "surface_elo": {
+    "Hard": 1969.7,
+    "Clay": 1831.3,
+    "Grass": 1823.1
+   },
+   "matches_total": 533,
+   "matches_surface": {
+    "Hard": 385,
+    "Clay": 86,
+    "Grass": 62
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    43,
+    22
+   ],
+   "last52w_surface": [
+    30,
+    14
+   ],
+   "career_surface_wl": [
+    252,
+    133
+   ],
+   "games_won_lost_52w": [
+    862,
+    743
+   ],
+   "sets_won_lost_52w": [
+    103,
+    62
+   ],
+   "avg_opp_elo_last20": 1826.3,
+   "vs_top_opp_52w": [
+    6,
+    12
+   ],
+   "serve_rating": 0.1643,
+   "return_rating": 0.2819,
+   "form_elo": 103.4,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.5757,
+    "first_won": 0.7043,
+    "second_won": 0.5385,
+    "serve_pts_won": 0.634,
+    "hold": 0.8144,
+    "aces_per_svgm": 0.3402,
+    "df_per_svgm": 0.2165,
+    "bp_saved": 0.691,
+    "ret_pts_won": 0.384,
+    "ret_1st_won": 0.311,
+    "ret_2nd_won": 0.5053,
+    "ret_games_won": 0.2397,
+    "bp_conv": 0.417,
+    "bp_chances_per_retgm": 0.5747,
+    "matches_with_stats": 32
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     13.0
+    ],
+    [
+     "2025-07-27",
+     8.0
+    ],
+    [
+     "2025-10-01",
+     7.0
+    ],
+    [
+     "2025-10-27",
+     6.0
+    ],
+    [
+     "2025-11-09",
+     7.0
+    ],
+    [
+     "2026-01-05",
+     6.0
+    ],
+    [
+     "2026-02-09",
+     8.0
+    ],
+    [
+     "2026-02-23",
+     6.0
+    ],
+    [
+     "2026-04-13",
+     7.0
+    ],
+    [
+     "2026-04-22",
+     8.0
+    ],
+    [
+     "2026-05-17",
+     9.0
+    ],
+    [
+     "2026-05-25",
+     7.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:207989",
+   "name": "Carlos Alcaraz",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 2.0,
+   "age": 23.45304585900068,
+   "elo": 2251.7,
+   "surface_elo": {
+    "Hard": 2174.4,
+    "Clay": 2214.3,
+    "Grass": 2131.9
+   },
+   "matches_total": 373,
+   "matches_surface": {
+    "Hard": 208,
+    "Clay": 126,
+    "Grass": 39
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    17,
+    3
+   ],
+   "last52w": [
+    39,
+    6
+   ],
+   "last52w_surface": [
+    34,
+    5
+   ],
+   "career_surface_wl": [
+    164,
+    44
+   ],
+   "games_won_lost_52w": [
+    681,
+    468
+   ],
+   "sets_won_lost_52w": [
+    92,
+    23
+   ],
+   "avg_opp_elo_last20": 1865.4,
+   "vs_top_opp_52w": [
+    17,
+    5
+   ],
+   "serve_rating": 0.31,
+   "return_rating": 0.4018,
+   "form_elo": -21.6,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-04-13",
+   "stats_52w": {
+    "first_in": 0.6763,
+    "first_won": 0.7377,
+    "second_won": 0.5668,
+    "serve_pts_won": 0.6824,
+    "hold": 0.8967,
+    "aces_per_svgm": 0.4022,
+    "df_per_svgm": 0.1685,
+    "bp_saved": 0.686,
+    "ret_pts_won": 0.4144,
+    "ret_1st_won": 0.3468,
+    "ret_2nd_won": 0.5358,
+    "ret_games_won": 0.3041,
+    "bp_conv": 0.4269,
+    "bp_chances_per_retgm": 0.7123,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2023-07-03",
+     1.0
+    ],
+    [
+     "2023-09-27",
+     2.0
+    ],
+    [
+     "2024-04-22",
+     3.0
+    ],
+    [
+     "2024-06-17",
+     2.0
+    ],
+    [
+     "2024-07-01",
+     3.0
+    ],
+    [
+     "2024-10-02",
+     2.0
+    ],
+    [
+     "2024-11-11",
+     3.0
+    ],
+    [
+     "2025-04-14",
+     2.0
+    ],
+    [
+     "2025-05-07",
+     3.0
+    ],
+    [
+     "2025-05-26",
+     2.0
+    ],
+    [
+     "2025-09-19",
+     1.0
+    ],
+    [
+     "2026-04-13",
+     2.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Erste Bank Open",
+ "round": "Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Alex De Minaur: latest point-level stats are 168 days old (2026-05-17)",
+  "Carlos Alcaraz: latest point-level stats are 202 days old (2026-04-13)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -166.5,
+  "components_elo": {
+   "surface_elo": -204.7,
+   "overall_elo": -269.2,
+   "serve_return": -222.8,
+   "form": 125.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -25.0,
+   "overall_elo": -63.6,
+   "serve_return": -77.7,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.2771,
+  "serve_return_implied_spw": {
+   "A": 0.5962,
+   "B": 0.6582
+  },
+  "point_probs": {
+   "A_serve": 0.5928,
+   "B_serve": 0.6614
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5927527549018407,
+   "B_serve": 0.661425924146341
+  },
+  "hold_probs": {
+   "A": 0.7204,
+   "B": 0.848
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2768,
+   0.2788
+  ],
+  "p_tb": [
+   0.3436,
+   0.3453
+  ],
+  "p_decider": [
+   0.346,
+   0.3456
+  ],
+  "games_mean": [
+   22.978,
+   22.979
+  ],
+  "exp_breaks": [
+   5.127,
+   5.118
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5089,
+    0.5067
+   ],
+   "1-2": [
+    0.2142,
+    0.2146
+   ],
+   "2-0": [
+    0.1451,
+    0.1478
+   ],
+   "2-1": [
+    0.1318,
+    0.131
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0027
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Carlos Alcaraz",
+   "elo_points": -77.7,
+   "raw_diff": -222.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Carlos Alcaraz",
+   "elo_points": -63.6,
+   "raw_diff": -269.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Carlos Alcaraz",
+   "elo_points": -25.0,
+   "raw_diff": -204.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5385,
+   "B": 0.5668,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.384,
+   "B": 0.4144,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5928,
+   "B": 0.6614,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Carlos Alcaraz to win at least one set",
+  "probability": 0.8549,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-589"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Alex De Minaur: latest point-level stats are 168 days old (2026-05-17); Carlos Alcaraz: latest point-level stats are 202 days old (2026-04-13)",
+  "candidates": [
+   {
+    "selection": "Carlos Alcaraz to win at least one set",
+    "probability": 0.8549,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "Carlos Alcaraz to win",
+    "probability": 0.7232,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7155,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6564,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.654,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6338,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Carlos Alcaraz -2.5 games",
+    "probability": 0.6271,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Alex De Minaur +4.5 games",
+    "probability": 0.5746,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5688,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5541,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Exact sets Alex De Minaur 0-2 Carlos Alcaraz",
+    "probability": 0.5089,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Alex De Minaur to win at least one set",
+    "probability": 0.4911,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4459,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4312,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Carlos Alcaraz -4.5 games",
+    "probability": 0.4254,
+    "fair_decimal": 2.35
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T20:00:50+00:00",
+  "version": 1,
+  "input_hash": "723040b47740e909",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185205",
+  "scheduled_start_utc": "2026-11-01T13:00Z"
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "predicted_winner": "Alice Tubello",
+ "win_prob": {
+  "A": 0.5313,
+  "B": 0.4687
+ },
+ "win_prob_exact": {
+  "A": 0.5313,
+  "B": 0.4687
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.88,
+   "american": "-113"
+  },
+  "B": {
+   "decimal": 2.13,
+   "american": "+113"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3378,
+  "0-2": 0.284,
+  "2-1": 0.1935,
+  "1-2": 0.1847
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0191,
+ "games": {
+  "mean": 22.86,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 5.96,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.0017,
+   "13": 0.00881,
+   "14": 0.0205,
+   "15": 0.04114,
+   "16": 0.06227,
+   "17": 0.07988,
+   "18": 0.08114,
+   "19": 0.07961,
+   "20": 0.06892,
+   "21": 0.05143,
+   "22": 0.06314,
+   "23": 0.04432,
+   "24": 0.0199,
+   "25": 0.03619,
+   "26": 0.04225,
+   "27": 0.0375,
+   "28": 0.04023,
+   "29": 0.04152,
+   "30": 0.03938,
+   "31": 0.03827,
+   "32": 0.0333,
+   "33": 0.02191,
+   "34": 0.0158,
+   "35": 0.01551,
+   "36": 0.00866,
+   "37": 0.00194,
+   "38": 0.00312,
+   "39": 0.00166
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00068,
+  "-11": 0.00365,
+  "-10": 0.00919,
+  "-9": 0.01881,
+  "-8": 0.03228,
+  "-7": 0.04912,
+  "-6": 0.06261,
+  "-5": 0.07355,
+  "-4": 0.07557,
+  "-3": 0.05779,
+  "-2": 0.04004,
+  "-1": 0.03054,
+  "0": 0.029,
+  "1": 0.03047,
+  "2": 0.04105,
+  "3": 0.06114,
+  "4": 0.08247,
+  "5": 0.08195,
+  "6": 0.07369,
+  "7": 0.06249,
+  "8": 0.04093,
+  "9": 0.0249,
+  "10": 0.01178,
+  "11": 0.00528,
+  "12": 0.00102
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7857,
+   "under": 0.2143
+  },
+  {
+   "line": 18.5,
+   "over": 0.7046,
+   "under": 0.2954
+  },
+  {
+   "line": 19.5,
+   "over": 0.625,
+   "under": 0.375
+  },
+  {
+   "line": 20.5,
+   "over": 0.556,
+   "under": 0.444
+  },
+  {
+   "line": 21.5,
+   "over": 0.5046,
+   "under": 0.4954
+  },
+  {
+   "line": 22.5,
+   "over": 0.4415,
+   "under": 0.5585
+  },
+  {
+   "line": 23.5,
+   "over": 0.3971,
+   "under": 0.6029
+  },
+  {
+   "line": 24.5,
+   "over": 0.3772,
+   "under": 0.6228
+  },
+  {
+   "line": 25.5,
+   "over": 0.3411,
+   "under": 0.6589
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4867,
+   "B +1.5": 0.5133,
+   "B -1.5": 0.4233,
+   "A +1.5": 0.5767
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4457,
+   "B +2.5": 0.5543,
+   "B -2.5": 0.3832,
+   "A +2.5": 0.6168
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3845,
+   "B +3.5": 0.6155,
+   "B -3.5": 0.3255,
+   "A +3.5": 0.6745
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.302,
+   "B +4.5": 0.698,
+   "B -4.5": 0.2499,
+   "A +4.5": 0.7501
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2201,
+   "B +5.5": 0.7799,
+   "B -5.5": 0.1763,
+   "A +5.5": 0.8237
+  }
+ ],
+ "p_tiebreak": 0.2884,
+ "p_a_wins_set": 0.716,
+ "p_b_wins_set": 0.6622,
+ "p_decider": 0.3782,
+ "expected_breaks": {
+  "total": 7.03,
+  "by_A": 3.62,
+  "by_B": 3.42
+ },
+ "expected_break_points": {
+  "A_creates": 8.28,
+  "B_creates": 7.94
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3378
+ },
+ "match": "Alice Tubello vs Julia Grabher",
+ "players": {
+  "A": {
+   "id": "wta:220554",
+   "name": "Alice Tubello",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 226.0,
+   "age": 25.738056125941135,
+   "elo": 1657.5,
+   "surface_elo": {
+    "Hard": 1662.9,
+    "Clay": 1489.2,
+    "Grass": 1427.8
+   },
+   "matches_total": 19,
+   "matches_surface": {
+    "Hard": 15,
+    "Clay": 3,
+    "Grass": 1
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    10,
+    9
+   ],
+   "last52w": [
+    9,
+    8
+   ],
+   "last52w_surface": [
+    9,
+    6
+   ],
+   "career_surface_wl": [
+    9,
+    6
+   ],
+   "games_won_lost_52w": [
+    196,
+    179
+   ],
+   "sets_won_lost_52w": [
+    24,
+    18
+   ],
+   "avg_opp_elo_last20": 1551.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0087,
+   "return_rating": -0.0034,
+   "form_elo": 97.2,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2025-08-04",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-08-04",
+     527.0
+    ],
+    [
+     "2026-05-25",
+     226.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:211814",
+   "name": "Julia Grabher",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 121.0,
+   "age": 30.238056125941135,
+   "elo": 1723.9,
+   "surface_elo": {
+    "Hard": 1708.5,
+    "Clay": 1574.6,
+    "Grass": 1450.6
+   },
+   "matches_total": 107,
+   "matches_surface": {
+    "Hard": 63,
+    "Clay": 38,
+    "Grass": 6
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    23,
+    16
+   ],
+   "last52w_surface": [
+    19,
+    11
+   ],
+   "career_surface_wl": [
+    26,
+    37
+   ],
+   "games_won_lost_52w": [
+    457,
+    447
+   ],
+   "sets_won_lost_52w": [
+    49,
+    42
+   ],
+   "avg_opp_elo_last20": 1607.5,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": -0.0091,
+   "return_rating": -0.1325,
+   "form_elo": 116.3,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.6112,
+    "first_won": 0.5731,
+    "second_won": 0.4189,
+    "serve_pts_won": 0.5131,
+    "hold": 0.5647,
+    "aces_per_svgm": 0.2588,
+    "df_per_svgm": 0.4471,
+    "bp_saved": 0.5316,
+    "ret_pts_won": 0.4011,
+    "ret_1st_won": 0.3143,
+    "ret_2nd_won": 0.5385,
+    "ret_games_won": 0.2874,
+    "bp_conv": 0.4386,
+    "bp_chances_per_retgm": 0.6552,
+    "matches_with_stats": 8
+   },
+   "rank_history": [
+    [
+     "2025-02-24",
+     387.0
+    ],
+    [
+     "2025-03-05",
+     388.0
+    ],
+    [
+     "2025-03-18",
+     373.0
+    ],
+    [
+     "2025-05-19",
+     160.0
+    ],
+    [
+     "2025-07-14",
+     138.0
+    ],
+    [
+     "2026-01-05",
+     92.0
+    ],
+    [
+     "2026-01-19",
+     95.0
+    ],
+    [
+     "2026-02-01",
+     78.0
+    ],
+    [
+     "2026-04-06",
+     89.0
+    ],
+    [
+     "2026-04-21",
+     107.0
+    ],
+    [
+     "2026-05-18",
+     123.0
+    ],
+    [
+     "2026-05-25",
+     121.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Curitiba Open",
+ "round": "Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Alice Tubello: sparse record (19 tour matches, 0 with serve stats in 52w)",
+  "Alice Tubello: latest point-level stats are 454 days old (2025-08-04)",
+  "Julia Grabher: limited recent/surface sample (39 matches 52w, 63 career on Hard, 8 with stats)",
+  "Julia Grabher: latest point-level stats are 167 days old (2026-05-18)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 24.4,
+  "components_elo": {
+   "surface_elo": -45.5,
+   "overall_elo": -66.5,
+   "serve_return": 130.8,
+   "form": -19.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -5.6,
+   "overall_elo": -15.7,
+   "serve_return": 45.6,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5351,
+  "serve_return_implied_spw": {
+   "A": 0.6001,
+   "B": 0.5644
+  },
+  "point_probs": {
+   "A_serve": 0.5874,
+   "B_serve": 0.5772
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5873778875677257,
+   "B_serve": 0.5772374075037802
+  },
+  "hold_probs": {
+   "A": 0.7088,
+   "B": 0.6864
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5313,
+   0.5343
+  ],
+  "p_tb": [
+   0.2884,
+   0.2891
+  ],
+  "p_decider": [
+   0.3782,
+   0.3793
+  ],
+  "games_mean": [
+   22.86,
+   22.87
+  ],
+  "exp_breaks": [
+   7.035,
+   7.047
+  ],
+  "set_scores": {
+   "0-2": [
+    0.284,
+    0.2827
+   ],
+   "1-2": [
+    0.1847,
+    0.183
+   ],
+   "2-0": [
+    0.3378,
+    0.338
+   ],
+   "2-1": [
+    0.1935,
+    0.1963
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.003
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alice Tubello",
+   "elo_points": 45.6,
+   "raw_diff": 130.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Julia Grabher",
+   "elo_points": -15.7,
+   "raw_diff": -66.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Julia Grabher",
+   "elo_points": -5.6,
+   "raw_diff": -45.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5874,
+   "B": 0.5772,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alice Tubello to win at least one set",
+  "probability": 0.716,
+  "fair_odds": {
+   "decimal": 1.4,
+   "american": "-252"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Alice Tubello: sparse record (19 tour matches, 0 with serve stats in 52w); Alice Tubello: latest point-level stats are 454 days old (2025-08-04)",
+  "candidates": [
+   {
+    "selection": "Alice Tubello to win at least one set",
+    "probability": 0.716,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7116,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7046,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Julia Grabher +4.5 games",
+    "probability": 0.698,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Julia Grabher to win at least one set",
+    "probability": 0.6622,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6228,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6218,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5585,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.556,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Julia Grabher +2.5 games",
+    "probability": 0.5543,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Alice Tubello to win",
+    "probability": 0.5313,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "Julia Grabher to win",
+    "probability": 0.4687,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Alice Tubello -2.5 games",
+    "probability": 0.4457,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.444,
+    "fair_decimal": 2.25
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4415,
+    "fair_decimal": 2.27
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T20:00:56+00:00",
+  "version": 1,
+  "input_hash": "1856b53adc58b864",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185781",
+  "scheduled_start_utc": "2026-11-01T14:00Z"
+ }
+}
