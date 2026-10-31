@@ -1,0 +1,643 @@
+{
+ "predicted_winner": "Katrina Scott",
+ "win_prob": {
+  "A": 0.4884,
+  "B": 0.5116
+ },
+ "win_prob_exact": {
+  "A": 0.48842,
+  "B": 0.5115799999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.05,
+   "american": "+105"
+  },
+  "B": {
+   "decimal": 1.95,
+   "american": "-105"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3223,
+  "2-0": 0.3058,
+  "1-2": 0.1893,
+  "2-1": 0.1826
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0171,
+ "games": {
+  "mean": 22.54,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00238,
+   "13": 0.0107,
+   "14": 0.0248,
+   "15": 0.04749,
+   "16": 0.06932,
+   "17": 0.08318,
+   "18": 0.08299,
+   "19": 0.07574,
+   "20": 0.06824,
+   "21": 0.05067,
+   "22": 0.0594,
+   "23": 0.04041,
+   "24": 0.02096,
+   "25": 0.03665,
+   "26": 0.04066,
+   "27": 0.03792,
+   "28": 0.04104,
+   "29": 0.04158,
+   "30": 0.03915,
+   "31": 0.03676,
+   "32": 0.03055,
+   "33": 0.01961,
+   "34": 0.01439,
+   "35": 0.01412,
+   "36": 0.00608,
+   "37": 0.00181,
+   "38": 0.00235,
+   "39": 0.00105
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00138,
+  "-11": 0.0058,
+  "-10": 0.01319,
+  "-9": 0.02621,
+  "-8": 0.04243,
+  "-7": 0.05919,
+  "-6": 0.07158,
+  "-5": 0.07646,
+  "-4": 0.07701,
+  "-3": 0.05609,
+  "-2": 0.03805,
+  "-1": 0.03082,
+  "0": 0.02688,
+  "1": 0.02953,
+  "2": 0.03721,
+  "3": 0.05402,
+  "4": 0.07437,
+  "5": 0.07334,
+  "6": 0.06809,
+  "7": 0.05704,
+  "8": 0.03882,
+  "9": 0.02422,
+  "10": 0.0123,
+  "11": 0.00497,
+  "12": 0.001
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7621,
+   "under": 0.2379
+  },
+  {
+   "line": 18.5,
+   "over": 0.6791,
+   "under": 0.3209
+  },
+  {
+   "line": 19.5,
+   "over": 0.6034,
+   "under": 0.3966
+  },
+  {
+   "line": 20.5,
+   "over": 0.5352,
+   "under": 0.4648
+  },
+  {
+   "line": 21.5,
+   "over": 0.4845,
+   "under": 0.5155
+  },
+  {
+   "line": 22.5,
+   "over": 0.4251,
+   "under": 0.5749
+  },
+  {
+   "line": 23.5,
+   "over": 0.3847,
+   "under": 0.6153
+  },
+  {
+   "line": 24.5,
+   "over": 0.3637,
+   "under": 0.6363
+  },
+  {
+   "line": 25.5,
+   "over": 0.3271,
+   "under": 0.6729
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4454,
+   "B +1.5": 0.5546,
+   "B -1.5": 0.4674,
+   "A +1.5": 0.5326
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4082,
+   "B +2.5": 0.5918,
+   "B -2.5": 0.4293,
+   "A +2.5": 0.5707
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3541,
+   "B +3.5": 0.6459,
+   "B -3.5": 0.3732,
+   "A +3.5": 0.6268
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2798,
+   "B +4.5": 0.7202,
+   "B -4.5": 0.2962,
+   "A +4.5": 0.7038
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2064,
+   "B +5.5": 0.7936,
+   "B -5.5": 0.2198,
+   "A +5.5": 0.7802
+  }
+ ],
+ "p_tiebreak": 0.2599,
+ "p_a_wins_set": 0.6777,
+ "p_b_wins_set": 0.6942,
+ "p_decider": 0.3719,
+ "expected_breaks": {
+  "total": 8.1,
+  "by_A": 4.02,
+  "by_B": 4.08
+ },
+ "expected_break_points": {
+  "A_creates": 8.83,
+  "B_creates": 8.95
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3223
+ },
+ "match": "Laura Pigossi vs Katrina Scott",
+ "players": {
+  "A": {
+   "id": "wta:206007",
+   "name": "Laura Pigossi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 193.0,
+   "age": 32.24715947980835,
+   "elo": 1341.5,
+   "surface_elo": {
+    "Hard": 1252.0,
+    "Clay": 1502.8,
+    "Grass": 1289.3
+   },
+   "matches_total": 61,
+   "matches_surface": {
+    "Hard": 28,
+    "Clay": 30,
+    "Grass": 3
+   },
+   "last5": [
+    0,
+    5
+   ],
+   "last10": [
+    1,
+    9
+   ],
+   "last20": [
+    3,
+    17
+   ],
+   "last52w": [
+    0,
+    8
+   ],
+   "last52w_surface": [
+    0,
+    6
+   ],
+   "career_surface_wl": [
+    6,
+    22
+   ],
+   "games_won_lost_52w": [
+    64,
+    112
+   ],
+   "sets_won_lost_52w": [
+    3,
+    16
+   ],
+   "avg_opp_elo_last20": 1629.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0437,
+   "return_rating": 0.0218,
+   "form_elo": -97.5,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2025-09-08",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-10-16",
+     120.0
+    ],
+    [
+     "2023-11-10",
+     134.0
+    ],
+    [
+     "2024-01-29",
+     114.0
+    ],
+    [
+     "2024-04-01",
+     119.0
+    ],
+    [
+     "2024-04-12",
+     125.0
+    ],
+    [
+     "2024-05-27",
+     119.0
+    ],
+    [
+     "2024-07-29",
+     110.0
+    ],
+    [
+     "2024-11-15",
+     129.0
+    ],
+    [
+     "2024-11-25",
+     131.0
+    ],
+    [
+     "2025-03-31",
+     180.0
+    ],
+    [
+     "2025-04-10",
+     182.0
+    ],
+    [
+     "2025-09-08",
+     193.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221512",
+   "name": "Katrina Scott",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 565.0,
+   "age": 22.307392197125257,
+   "elo": 1364.7,
+   "surface_elo": {
+    "Hard": 1383.5,
+    "Clay": 1420.5,
+    "Grass": 1500.0
+   },
+   "matches_total": 15,
+   "matches_surface": {
+    "Hard": 13,
+    "Clay": 2,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    3,
+    12
+   ],
+   "last52w": [
+    2,
+    6
+   ],
+   "last52w_surface": [
+    2,
+    5
+   ],
+   "career_surface_wl": [
+    3,
+    10
+   ],
+   "games_won_lost_52w": [
+    69,
+    90
+   ],
+   "sets_won_lost_52w": [
+    5,
+    12
+   ],
+   "avg_opp_elo_last20": 1599.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0307,
+   "return_rating": -0.0386,
+   "form_elo": -37.2,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2025-08-17",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2020-08-31",
+     637.0
+    ],
+    [
+     "2021-03-22",
+     443.0
+    ],
+    [
+     "2021-10-06",
+     439.0
+    ],
+    [
+     "2023-04-03",
+     161.0
+    ],
+    [
+     "2024-08-19",
+     299.0
+    ],
+    [
+     "2025-08-17",
+     565.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Laura Pigossi: sparse record (61 tour matches, 0 with serve stats in 52w)",
+  "Laura Pigossi: latest point-level stats are 419 days old (2025-09-08)",
+  "Katrina Scott: sparse record (15 tour matches, 0 with serve stats in 52w)",
+  "Katrina Scott: latest point-level stats are 441 days old (2025-08-17)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -6.4,
+  "components_elo": {
+   "surface_elo": -131.5,
+   "overall_elo": -23.2,
+   "serve_return": 43.0,
+   "form": -60.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -16.1,
+   "overall_elo": -5.5,
+   "serve_return": 15.0,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4907,
+  "serve_return_implied_spw": {
+   "A": 0.5645,
+   "B": 0.5528
+  },
+  "point_probs": {
+   "A_serve": 0.5573,
+   "B_serve": 0.56
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5572981867055604,
+   "B_serve": 0.5600145476905593
+  },
+  "hold_probs": {
+   "A": 0.6405,
+   "B": 0.6469
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4884,
+   0.4908
+  ],
+  "p_tb": [
+   0.2599,
+   0.2597
+  ],
+  "p_decider": [
+   0.3719,
+   0.3763
+  ],
+  "games_mean": [
+   22.542,
+   22.576
+  ],
+  "exp_breaks": [
+   8.102,
+   8.115
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3223,
+    0.3193
+   ],
+   "1-2": [
+    0.1893,
+    0.1899
+   ],
+   "2-0": [
+    0.3058,
+    0.3045
+   ],
+   "2-1": [
+    0.1826,
+    0.1864
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0044
+ },
+ "drivers": [
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Katrina Scott",
+   "elo_points": -16.1,
+   "raw_diff": -131.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Laura Pigossi",
+   "elo_points": 15.0,
+   "raw_diff": 43.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Katrina Scott",
+   "elo_points": -5.5,
+   "raw_diff": -23.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5573,
+   "B": 0.56,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7401,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-285"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Laura Pigossi: sparse record (61 tour matches, 0 with serve stats in 52w); Laura Pigossi: latest point-level stats are 419 days old (2025-09-08)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7401,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Laura Pigossi +4.5 games",
+    "probability": 0.7038,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Katrina Scott to win at least one set",
+    "probability": 0.6942,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6791,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Laura Pigossi to win at least one set",
+    "probability": 0.6777,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6363,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6281,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5749,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Laura Pigossi +2.5 games",
+    "probability": 0.5707,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5352,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Katrina Scott to win",
+    "probability": 0.5116,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Laura Pigossi to win",
+    "probability": 0.4884,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4648,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Katrina Scott -2.5 games",
+    "probability": 0.4293,
+    "fair_decimal": 2.33
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4251,
+    "fair_decimal": 2.35
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T23:25:48+00:00",
+  "version": 1,
+  "input_hash": "94f4c074cfc516c9",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187367",
+  "scheduled_start_utc": "2026-11-01T19:00Z"
+ }
+}

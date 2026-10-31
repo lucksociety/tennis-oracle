@@ -1,0 +1,695 @@
+{
+ "predicted_winner": "Selena Janicijevic",
+ "win_prob": {
+  "A": 0.3726,
+  "B": 0.6274
+ },
+ "win_prob_exact": {
+  "A": 0.37262,
+  "B": 0.62738
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.68,
+   "american": "+168"
+  },
+  "B": {
+   "decimal": 1.59,
+   "american": "-168"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4245,
+  "2-0": 0.2163,
+  "1-2": 0.2029,
+  "2-1": 0.1563
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0197,
+ "games": {
+  "mean": 22.24,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00344,
+   "13": 0.01407,
+   "14": 0.02948,
+   "15": 0.05242,
+   "16": 0.07248,
+   "17": 0.08714,
+   "18": 0.08362,
+   "19": 0.07757,
+   "20": 0.06647,
+   "21": 0.04907,
+   "22": 0.05671,
+   "23": 0.03683,
+   "24": 0.02259,
+   "25": 0.03649,
+   "26": 0.03947,
+   "27": 0.03732,
+   "28": 0.04033,
+   "29": 0.04033,
+   "30": 0.03786,
+   "31": 0.03402,
+   "32": 0.02856,
+   "33": 0.01831,
+   "34": 0.01349,
+   "35": 0.01201,
+   "36": 0.00534,
+   "37": 0.00148,
+   "38": 0.00223,
+   "39": 0.00087
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00297,
+  "-11": 0.01141,
+  "-10": 0.02317,
+  "-9": 0.04079,
+  "-8": 0.0609,
+  "-7": 0.08282,
+  "-6": 0.09121,
+  "-5": 0.09234,
+  "-4": 0.08475,
+  "-3": 0.05792,
+  "-2": 0.03862,
+  "-1": 0.02886,
+  "0": 0.02551,
+  "1": 0.02661,
+  "2": 0.03339,
+  "3": 0.04399,
+  "4": 0.05835,
+  "5": 0.05575,
+  "6": 0.05022,
+  "7": 0.04004,
+  "8": 0.0253,
+  "9": 0.0146,
+  "10": 0.00721,
+  "11": 0.0028,
+  "12": 0.00047
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.741,
+   "under": 0.259
+  },
+  {
+   "line": 18.5,
+   "over": 0.6573,
+   "under": 0.3427
+  },
+  {
+   "line": 19.5,
+   "over": 0.5798,
+   "under": 0.4202
+  },
+  {
+   "line": 20.5,
+   "over": 0.5133,
+   "under": 0.4867
+  },
+  {
+   "line": 21.5,
+   "over": 0.4642,
+   "under": 0.5358
+  },
+  {
+   "line": 22.5,
+   "over": 0.4075,
+   "under": 0.5925
+  },
+  {
+   "line": 23.5,
+   "over": 0.3707,
+   "under": 0.6293
+  },
+  {
+   "line": 24.5,
+   "over": 0.3481,
+   "under": 0.6519
+  },
+  {
+   "line": 25.5,
+   "over": 0.3116,
+   "under": 0.6884
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3321,
+   "B +1.5": 0.6679,
+   "B -1.5": 0.5869,
+   "A +1.5": 0.4131
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2987,
+   "B +2.5": 0.7013,
+   "B -2.5": 0.5483,
+   "A +2.5": 0.4517
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2547,
+   "B +3.5": 0.7453,
+   "B -3.5": 0.4904,
+   "A +3.5": 0.5096
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1964,
+   "B +4.5": 0.8036,
+   "B -4.5": 0.4056,
+   "A +4.5": 0.5944
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1406,
+   "B +5.5": 0.8594,
+   "B -5.5": 0.3133,
+   "A +5.5": 0.6867
+  }
+ ],
+ "p_tiebreak": 0.2425,
+ "p_a_wins_set": 0.5755,
+ "p_b_wins_set": 0.7837,
+ "p_decider": 0.3593,
+ "expected_breaks": {
+  "total": 8.37,
+  "by_A": 3.77,
+  "by_B": 4.6
+ },
+ "expected_break_points": {
+  "A_creates": 8.44,
+  "B_creates": 9.59
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4245
+ },
+ "match": "Elizabeth Mandlik vs Selena Janicijevic",
+ "players": {
+  "A": {
+   "id": "wta:216097",
+   "name": "Elizabeth Mandlik",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 174.0,
+   "age": 25.391375770020534,
+   "elo": 1478.1,
+   "surface_elo": {
+    "Hard": 1426.6,
+    "Clay": 1478.1,
+    "Grass": 1473.3
+   },
+   "matches_total": 37,
+   "matches_surface": {
+    "Hard": 26,
+    "Clay": 6,
+    "Grass": 5
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    6,
+    14
+   ],
+   "last52w": [
+    6,
+    9
+   ],
+   "last52w_surface": [
+    4,
+    6
+   ],
+   "career_surface_wl": [
+    9,
+    17
+   ],
+   "games_won_lost_52w": [
+    171,
+    186
+   ],
+   "sets_won_lost_52w": [
+    17,
+    21
+   ],
+   "avg_opp_elo_last20": 1548.0,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0839,
+   "return_rating": 0.0268,
+   "form_elo": 6.4,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.6256,
+    "first_won": 0.6142,
+    "second_won": 0.3421,
+    "serve_pts_won": 0.5123,
+    "hold": 0.4828,
+    "aces_per_svgm": 0.069,
+    "df_per_svgm": 0.4138,
+    "bp_saved": 0.4828,
+    "ret_pts_won": 0.3971,
+    "ret_1st_won": 0.3651,
+    "ret_2nd_won": 0.4458,
+    "ret_games_won": 0.2069,
+    "bp_conv": 0.2609,
+    "bp_chances_per_retgm": 0.7931,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2023-03-06",
+     155.0
+    ],
+    [
+     "2023-05-29",
+     119.0
+    ],
+    [
+     "2023-06-12",
+     110.0
+    ],
+    [
+     "2023-09-11",
+     167.0
+    ],
+    [
+     "2023-09-25",
+     142.0
+    ],
+    [
+     "2024-06-10",
+     150.0
+    ],
+    [
+     "2024-10-28",
+     177.0
+    ],
+    [
+     "2025-05-19",
+     271.0
+    ],
+    [
+     "2025-07-27",
+     205.0
+    ],
+    [
+     "2025-09-08",
+     257.0
+    ],
+    [
+     "2026-01-19",
+     182.0
+    ],
+    [
+     "2026-02-23",
+     174.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221911",
+   "name": "Selena Janicijevic",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 245.0,
+   "age": 24.191375770020535,
+   "elo": 1533.3,
+   "surface_elo": {
+    "Hard": 1586.5,
+    "Clay": 1487.6,
+    "Grass": 1500.0
+   },
+   "matches_total": 23,
+   "matches_surface": {
+    "Hard": 9,
+    "Clay": 14,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    2,
+    4
+   ],
+   "last52w_surface": [
+    1,
+    2
+   ],
+   "career_surface_wl": [
+    5,
+    4
+   ],
+   "games_won_lost_52w": [
+    53,
+    61
+   ],
+   "sets_won_lost_52w": [
+    5,
+    8
+   ],
+   "avg_opp_elo_last20": 1561.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0609,
+   "return_rating": 0.0645,
+   "form_elo": -22.2,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.5439,
+    "first_won": 0.5161,
+    "second_won": 0.3846,
+    "serve_pts_won": 0.4561,
+    "hold": 0.3333,
+    "aces_per_svgm": 0.2222,
+    "df_per_svgm": 0.5556,
+    "bp_saved": 0.25,
+    "ret_pts_won": 0.4143,
+    "ret_1st_won": 0.3158,
+    "ret_2nd_won": 0.5312,
+    "ret_games_won": 0.4,
+    "bp_conv": 0.3077,
+    "bp_chances_per_retgm": 1.3,
+    "matches_with_stats": 1
+   },
+   "rank_history": [
+    [
+     "2023-01-16",
+     185.0
+    ],
+    [
+     "2023-05-22",
+     188.0
+    ],
+    [
+     "2023-05-29",
+     179.0
+    ],
+    [
+     "2024-07-22",
+     188.0
+    ],
+    [
+     "2025-03-31",
+     178.0
+    ],
+    [
+     "2025-09-15",
+     307.0
+    ],
+    [
+     "2025-09-22",
+     272.0
+    ],
+    [
+     "2026-03-30",
+     245.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Elizabeth Mandlik: limited recent/surface sample (15 matches 52w, 26 career on Hard, 3 with stats)",
+  "Elizabeth Mandlik: latest point-level stats are 216 days old (2026-03-30)",
+  "Selena Janicijevic: sparse record (23 tour matches, 1 with serve stats in 52w)",
+  "Selena Janicijevic: latest point-level stats are 216 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -91.5,
+  "components_elo": {
+   "surface_elo": -159.9,
+   "overall_elo": -55.2,
+   "serve_return": -168.9,
+   "form": 28.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -19.5,
+   "overall_elo": -13.0,
+   "serve_return": -58.9,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3712,
+  "serve_return_implied_spw": {
+   "A": 0.529,
+   "B": 0.5741
+  },
+  "point_probs": {
+   "A_serve": 0.5325,
+   "B_serve": 0.5706
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5325275687189737,
+   "B_serve": 0.5706474703282811
+  },
+  "hold_probs": {
+   "A": 0.5808,
+   "B": 0.6715
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3726,
+   0.3736
+  ],
+  "p_tb": [
+   0.2425,
+   0.2446
+  ],
+  "p_decider": [
+   0.3593,
+   0.3612
+  ],
+  "games_mean": [
+   22.238,
+   22.261
+  ],
+  "exp_breaks": [
+   8.368,
+   8.366
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4245,
+    0.4224
+   ],
+   "1-2": [
+    0.2029,
+    0.204
+   ],
+   "2-0": [
+    0.2163,
+    0.2164
+   ],
+   "2-1": [
+    0.1563,
+    0.1572
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Selena Janicijevic",
+   "elo_points": -58.9,
+   "raw_diff": -168.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Selena Janicijevic",
+   "elo_points": -19.5,
+   "raw_diff": -159.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Selena Janicijevic",
+   "elo_points": -13.0,
+   "raw_diff": -55.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3421,
+   "B": 0.3846,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3971,
+   "B": 0.4143,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5325,
+   "B": 0.5706,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Selena Janicijevic to win at least one set",
+  "probability": 0.7837,
+  "fair_odds": {
+   "decimal": 1.28,
+   "american": "-362"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Elizabeth Mandlik: limited recent/surface sample (15 matches 52w, 26 career on Hard, 3 with stats); Elizabeth Mandlik: latest point-level stats are 216 days old (2026-03-30)",
+  "candidates": [
+   {
+    "selection": "Selena Janicijevic to win at least one set",
+    "probability": 0.7837,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7575,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6573,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6519,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6407,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Selena Janicijevic to win",
+    "probability": 0.6274,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Elizabeth Mandlik +4.5 games",
+    "probability": 0.5944,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5925,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Elizabeth Mandlik to win at least one set",
+    "probability": 0.5755,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Selena Janicijevic -2.5 games",
+    "probability": 0.5483,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5133,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4867,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Elizabeth Mandlik +2.5 games",
+    "probability": 0.4517,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Exact sets Elizabeth Mandlik 0-2 Selena Janicijevic",
+    "probability": 0.4245,
+    "fair_decimal": 2.36
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4075,
+    "fair_decimal": 2.45
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T23:25:46+00:00",
+  "version": 1,
+  "input_hash": "ae96b222236b43fb",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187370",
+  "scheduled_start_utc": "2026-11-01T19:00Z"
+ }
+}

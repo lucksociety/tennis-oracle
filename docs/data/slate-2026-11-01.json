@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-31T20:01:01+00:00",
+ "generated_at_utc": "2026-10-31T23:25:48+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -2199,6 +2199,425 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0019
+   }
+  },
+  {
+   "espn_id": "187369",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Qualifying Final",
+   "court": "Campo 3",
+   "start_utc": "2026-11-01T17:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Polona Hercog",
+     "id": "wta:201555"
+    },
+    {
+     "name": "Maria Jose Rico Sanchez",
+     "id": null
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  },
+  {
+   "espn_id": "187368",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Qualifying Final",
+   "court": "Campo 1",
+   "start_utc": "2026-11-01T17:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Carolina Alves",
+     "id": "wta:206430"
+    },
+    {
+     "name": "Maria Paulina Perez Garcia",
+     "id": "wta:211043"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T23:25:44+00:00",
+    "path": "forecasts/2026-11-01/187368-carolina-alves-vs-maria-paulina-perez-garcia/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Carolina Alves",
+    "win_prob": {
+     "A": 0.5415,
+     "B": 0.4585
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.3457
+    },
+    "games_mean": 22.68,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7303,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5415,
+      "B": 0.4585
+     },
+     "set_score_probs": {
+      "2-0": 0.3457,
+      "0-2": 0.2784,
+      "2-1": 0.1959,
+      "1-2": 0.18
+     },
+     "games_pmf": {
+      "12": 0.00206,
+      "13": 0.00985,
+      "14": 0.02331,
+      "15": 0.04443,
+      "16": 0.06653,
+      "17": 0.08234,
+      "18": 0.08213,
+      "19": 0.07771,
+      "20": 0.06866,
+      "21": 0.04881,
+      "22": 0.06226,
+      "23": 0.04042,
+      "24": 0.02007,
+      "25": 0.03734,
+      "26": 0.04035,
+      "27": 0.03833,
+      "28": 0.04142,
+      "29": 0.04226,
+      "30": 0.04005,
+      "31": 0.03735,
+      "32": 0.03112,
+      "33": 0.02132,
+      "34": 0.01511,
+      "35": 0.01441,
+      "36": 0.00677,
+      "37": 0.00184,
+      "38": 0.00243,
+      "39": 0.00132
+     },
+     "games_diff_pmf": {
+      "-12": 0.00088,
+      "-11": 0.00393,
+      "-10": 0.00933,
+      "-9": 0.01943,
+      "-8": 0.03345,
+      "-7": 0.04999,
+      "-6": 0.06333,
+      "-5": 0.06922,
+      "-4": 0.07233,
+      "-3": 0.05507,
+      "-2": 0.03744,
+      "-1": 0.02992,
+      "0": 0.02808,
+      "1": 0.03046,
+      "2": 0.03919,
+      "3": 0.05923,
+      "4": 0.08238,
+      "5": 0.08274,
+      "6": 0.07571,
+      "7": 0.06422,
+      "8": 0.04434,
+      "9": 0.02755,
+      "10": 0.01463,
+      "11": 0.00597,
+      "12": 0.00118
+     },
+     "p_tiebreak": 0.2697,
+     "p_decider": 0.3759
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0024
+   }
+  },
+  {
+   "espn_id": "187370",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Qualifying Final",
+   "court": "Campo 1",
+   "start_utc": "2026-11-01T19:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Elizabeth Mandlik",
+     "id": "wta:216097"
+    },
+    {
+     "name": "Selena Janicijevic",
+     "id": "wta:221911"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T23:25:46+00:00",
+    "path": "forecasts/2026-11-01/187370-elizabeth-mandlik-vs-selena-janicijevic/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Selena Janicijevic",
+    "win_prob": {
+     "A": 0.3726,
+     "B": 0.6274
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4245
+    },
+    "games_mean": 22.24,
+    "strongest": {
+     "selection": "Selena Janicijevic to win at least one set",
+     "probability": 0.7837,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3726,
+      "B": 0.6274
+     },
+     "set_score_probs": {
+      "0-2": 0.4245,
+      "2-0": 0.2163,
+      "1-2": 0.2029,
+      "2-1": 0.1563
+     },
+     "games_pmf": {
+      "12": 0.00344,
+      "13": 0.01407,
+      "14": 0.02948,
+      "15": 0.05242,
+      "16": 0.07248,
+      "17": 0.08714,
+      "18": 0.08362,
+      "19": 0.07757,
+      "20": 0.06647,
+      "21": 0.04907,
+      "22": 0.05671,
+      "23": 0.03683,
+      "24": 0.02259,
+      "25": 0.03649,
+      "26": 0.03947,
+      "27": 0.03732,
+      "28": 0.04033,
+      "29": 0.04033,
+      "30": 0.03786,
+      "31": 0.03402,
+      "32": 0.02856,
+      "33": 0.01831,
+      "34": 0.01349,
+      "35": 0.01201,
+      "36": 0.00534,
+      "37": 0.00148,
+      "38": 0.00223,
+      "39": 0.00087
+     },
+     "games_diff_pmf": {
+      "-12": 0.00297,
+      "-11": 0.01141,
+      "-10": 0.02317,
+      "-9": 0.04079,
+      "-8": 0.0609,
+      "-7": 0.08282,
+      "-6": 0.09121,
+      "-5": 0.09234,
+      "-4": 0.08475,
+      "-3": 0.05792,
+      "-2": 0.03862,
+      "-1": 0.02886,
+      "0": 0.02551,
+      "1": 0.02661,
+      "2": 0.03339,
+      "3": 0.04399,
+      "4": 0.05835,
+      "5": 0.05575,
+      "6": 0.05022,
+      "7": 0.04004,
+      "8": 0.0253,
+      "9": 0.0146,
+      "10": 0.00721,
+      "11": 0.0028,
+      "12": 0.00047
+     },
+     "p_tiebreak": 0.2425,
+     "p_decider": 0.3593
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0021
+   }
+  },
+  {
+   "espn_id": "187367",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Qualifying Final",
+   "court": "Campo 3",
+   "start_utc": "2026-11-01T19:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Laura Pigossi",
+     "id": "wta:206007"
+    },
+    {
+     "name": "Katrina Scott",
+     "id": "wta:221512"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T23:25:48+00:00",
+    "path": "forecasts/2026-11-01/187367-laura-pigossi-vs-katrina-scott/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Katrina Scott",
+    "win_prob": {
+     "A": 0.4884,
+     "B": 0.5116
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3223
+    },
+    "games_mean": 22.54,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7401,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4884,
+      "B": 0.5116
+     },
+     "set_score_probs": {
+      "0-2": 0.3223,
+      "2-0": 0.3058,
+      "1-2": 0.1893,
+      "2-1": 0.1826
+     },
+     "games_pmf": {
+      "12": 0.00238,
+      "13": 0.0107,
+      "14": 0.0248,
+      "15": 0.04749,
+      "16": 0.06932,
+      "17": 0.08318,
+      "18": 0.08299,
+      "19": 0.07574,
+      "20": 0.06824,
+      "21": 0.05067,
+      "22": 0.0594,
+      "23": 0.04041,
+      "24": 0.02096,
+      "25": 0.03665,
+      "26": 0.04066,
+      "27": 0.03792,
+      "28": 0.04104,
+      "29": 0.04158,
+      "30": 0.03915,
+      "31": 0.03676,
+      "32": 0.03055,
+      "33": 0.01961,
+      "34": 0.01439,
+      "35": 0.01412,
+      "36": 0.00608,
+      "37": 0.00181,
+      "38": 0.00235,
+      "39": 0.00105
+     },
+     "games_diff_pmf": {
+      "-12": 0.00138,
+      "-11": 0.0058,
+      "-10": 0.01319,
+      "-9": 0.02621,
+      "-8": 0.04243,
+      "-7": 0.05919,
+      "-6": 0.07158,
+      "-5": 0.07646,
+      "-4": 0.07701,
+      "-3": 0.05609,
+      "-2": 0.03805,
+      "-1": 0.03082,
+      "0": 0.02688,
+      "1": 0.02953,
+      "2": 0.03721,
+      "3": 0.05402,
+      "4": 0.07437,
+      "5": 0.07334,
+      "6": 0.06809,
+      "7": 0.05704,
+      "8": 0.03882,
+      "9": 0.02422,
+      "10": 0.0123,
+      "11": 0.00497,
+      "12": 0.001
+     },
+     "p_tiebreak": 0.2599,
+     "p_decider": 0.3719
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0044
    }
   }
  ]

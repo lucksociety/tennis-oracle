@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
- "snapshot_at_utc": "2026-10-31T20:02:53Z",
- "snapshot_path": "market_snapshots/2026-10-31/20261031T200253Z.json",
+ "snapshot_at_utc": "2026-10-31T23:27:47Z",
+ "snapshot_path": "market_snapshots/2026-10-31/20261031T232747Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -343,13 +343,13 @@
     "status": "open",
     "selection": "Fiona Ferro to win",
     "model_p": 0.5341,
-    "price": 0.48,
-    "implied": 0.4975,
-    "edge": 0.0366,
-    "ev_per_1": 0.0736,
+    "price": 0.49,
+    "implied": 0.5075,
+    "edge": 0.0266,
+    "ev_per_1": 0.0524,
     "eligible": true
    },
-   "verdict": "Fiona Ferro to win @ 0.48 (model 53.4%, edge 3.7 pts, EV +7.4%)",
+   "verdict": "Fiona Ferro to win @ 0.49 (model 53.4%, edge 2.7 pts, EV +5.2%)",
    "outcomes": [
     {
      "market_id": "POLY-6444102",
@@ -365,10 +365,10 @@
      "status": "open",
      "selection": "Tatjana Maria to win",
      "model_p": 0.4659,
-     "price": 0.53,
-     "implied": 0.5474,
-     "edge": -0.0815,
-     "ev_per_1": -0.1489,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.0716,
+     "ev_per_1": -0.1332,
      "eligible": false
     },
     {
@@ -378,10 +378,10 @@
      "status": "open",
      "selection": "Fiona Ferro to win",
      "model_p": 0.5341,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": 0.0366,
-     "ev_per_1": 0.0736,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": 0.0266,
+     "ev_per_1": 0.0524,
      "eligible": true
     },
     {
@@ -404,10 +404,10 @@
      "status": "open",
      "selection": "Under 2.5 sets",
      "model_p": 0.627,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.0291,
-     "ev_per_1": -0.0444,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0193,
+     "ev_per_1": -0.0299,
      "eligible": false
     },
     {
@@ -443,10 +443,10 @@
      "status": "open",
      "selection": "Over 22.5 games",
      "model_p": 0.422,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.1055,
-     "ev_per_1": -0.2,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0251,
+     "ev_per_1": -0.0562,
      "eligible": false
     },
     {
@@ -495,10 +495,10 @@
      "status": "open",
      "selection": "Tatjana Maria -1.5 sets",
      "model_p": 0.2874,
-     "price": 0.36,
-     "implied": 0.3761,
-     "edge": -0.0887,
-     "ev_per_1": -0.2359,
+     "price": 0.34,
+     "implied": 0.3557,
+     "edge": -0.0683,
+     "ev_per_1": -0.192,
      "eligible": false
     },
     {
@@ -508,10 +508,10 @@
      "status": "open",
      "selection": "Fiona Ferro +1.5 sets",
      "model_p": 0.7126,
-     "price": 0.66,
-     "implied": 0.6757,
-     "edge": 0.0369,
-     "ev_per_1": 0.0546,
+     "price": 0.68,
+     "implied": 0.6952,
+     "edge": 0.0174,
+     "ev_per_1": 0.025,
      "eligible": true
     },
     {
@@ -521,10 +521,10 @@
      "status": "open",
      "selection": "Tatjana Maria -1.5 games",
      "model_p": 0.4221,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.0854,
-     "ev_per_1": -0.1682,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0754,
+     "ev_per_1": -0.1515,
      "eligible": false
     },
     {
@@ -534,10 +534,10 @@
      "status": "open",
      "selection": "Fiona Ferro +1.5 games",
      "model_p": 0.5779,
-     "price": 0.53,
-     "implied": 0.5474,
-     "edge": 0.0304,
-     "ev_per_1": 0.0556,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": 0.0205,
+     "ev_per_1": 0.0368,
      "eligible": true
     }
    ],
@@ -556,13 +556,13 @@
     "status": "open",
     "selection": "Carole Monnet +5.5 games",
     "model_p": 0.6424,
-    "price": 0.51,
-    "implied": 0.5275,
-    "edge": 0.1149,
-    "ev_per_1": 0.2178,
+    "price": 0.5,
+    "implied": 0.5175,
+    "edge": 0.1249,
+    "ev_per_1": 0.2413,
     "eligible": true
    },
-   "verdict": "Carole Monnet +5.5 games @ 0.51 (model 64.2%, edge 11.5 pts, EV +21.8%)",
+   "verdict": "Carole Monnet +5.5 games @ 0.50 (model 64.2%, edge 12.5 pts, EV +24.1%)",
    "outcomes": [
     {
      "market_id": "POLY-6452334",
@@ -643,7 +643,11 @@
      "status": "open",
      "selection": "Under 21.5 games",
      "model_p": 0.5489,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.4325,
+     "ev_per_1": -0.4407,
+     "eligible": false
     },
     {
      "market_id": "POLY-6453389-0",
@@ -665,7 +669,11 @@
      "status": "open",
      "selection": "Under 22.5 games",
      "model_p": 0.6073,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.3741,
+     "ev_per_1": -0.3812,
+     "eligible": false
     },
     {
      "market_id": "POLY-6453395-0",
@@ -687,7 +695,11 @@
      "status": "open",
      "selection": "Under 23.5 games",
      "model_p": 0.6441,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.3373,
+     "ev_per_1": -0.3437,
+     "eligible": false
     },
     {
      "market_id": "POLY-6453401-0",
@@ -722,10 +734,10 @@
      "status": "open",
      "selection": "Bianca Andreescu -5.5 games",
      "model_p": 0.3576,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.1699,
-     "ev_per_1": -0.3221,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.1799,
+     "ev_per_1": -0.3346,
      "eligible": false
     },
     {
@@ -735,14 +747,14 @@
      "status": "open",
      "selection": "Carole Monnet +5.5 games",
      "model_p": 0.6424,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": 0.1149,
-     "ev_per_1": 0.2178,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": 0.1249,
+     "ev_per_1": 0.2413,
      "eligible": true
     }
    ],
-   "n_priced": 11,
+   "n_priced": 14,
    "n_eligible": 2
   },
   {
@@ -914,10 +926,10 @@
      "status": "open",
      "selection": "Mika Stojsavljevic +1.5 sets",
      "model_p": 0.6253,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": 0.1278,
-     "ev_per_1": 0.257,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": 0.1379,
+     "ev_per_1": 0.2828,
      "eligible": true
     },
     {
@@ -988,13 +1000,13 @@
     "status": "open",
     "selection": "Carol Young Suh Lee +1.5 sets",
     "model_p": 0.5941,
-    "price": 0.49,
-    "implied": 0.5075,
-    "edge": 0.0866,
-    "ev_per_1": 0.1707,
+    "price": 0.47,
+    "implied": 0.4874,
+    "edge": 0.1067,
+    "ev_per_1": 0.2188,
     "eligible": true
    },
-   "verdict": "Carol Young Suh Lee +1.5 sets @ 0.49 (model 59.4%, edge 8.7 pts, EV +17.1%)",
+   "verdict": "Carol Young Suh Lee +1.5 sets @ 0.47 (model 59.4%, edge 10.7 pts, EV +21.9%)",
    "outcomes": [
     {
      "market_id": "POLY-6452336",
@@ -1010,10 +1022,10 @@
      "status": "open",
      "selection": "Aliaksandra Sasnovich to win",
      "model_p": 0.611,
-     "price": 0.72,
-     "implied": 0.7341,
-     "edge": -0.1231,
-     "ev_per_1": -0.1677,
+     "price": 0.74,
+     "implied": 0.7535,
+     "edge": -0.1425,
+     "ev_per_1": -0.1891,
      "eligible": false
     },
     {
@@ -1023,10 +1035,10 @@
      "status": "open",
      "selection": "Carol Young Suh Lee to win",
      "model_p": 0.389,
-     "price": 0.29,
-     "implied": 0.3044,
-     "edge": 0.0846,
-     "ev_per_1": 0.2779,
+     "price": 0.27,
+     "implied": 0.2838,
+     "edge": 0.1052,
+     "ev_per_1": 0.3707,
      "eligible": false
     },
     {
@@ -1036,10 +1048,10 @@
      "status": "open",
      "selection": "Over 2.5 sets",
      "model_p": 0.3681,
-     "price": 0.34,
-     "implied": 0.3557,
-     "edge": 0.0124,
-     "ev_per_1": 0.0348,
+     "price": 0.33,
+     "implied": 0.3455,
+     "edge": 0.0226,
+     "ev_per_1": 0.0655,
      "eligible": false
     },
     {
@@ -1049,10 +1061,10 @@
      "status": "open",
      "selection": "Under 2.5 sets",
      "model_p": 0.6319,
-     "price": 0.68,
-     "implied": 0.6952,
-     "edge": -0.0633,
-     "ev_per_1": -0.0911,
+     "price": 0.69,
+     "implied": 0.705,
+     "edge": -0.0731,
+     "ev_per_1": -0.1037,
      "eligible": false
     },
     {
@@ -1088,10 +1100,10 @@
      "status": "open",
      "selection": "Over 22.5 games",
      "model_p": 0.421,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.5135,
-     "ev_per_1": -0.5495,
+     "price": 0.92,
+     "implied": 0.9252,
+     "edge": -0.5041,
+     "ev_per_1": -0.5449,
      "eligible": false
     },
     {
@@ -1110,10 +1122,10 @@
      "status": "open",
      "selection": "Over 23.5 games",
      "model_p": 0.3811,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.5535,
-     "ev_per_1": -0.5922,
+     "price": 0.92,
+     "implied": 0.9252,
+     "edge": -0.5441,
+     "ev_per_1": -0.5881,
      "eligible": false
     },
     {
@@ -1132,10 +1144,10 @@
      "status": "open",
      "selection": "Aliaksandra Sasnovich -1.5 sets",
      "model_p": 0.4059,
-     "price": 0.52,
-     "implied": 0.5375,
-     "edge": -0.1316,
-     "ev_per_1": -0.2448,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.1515,
+     "ev_per_1": -0.2718,
      "eligible": false
     },
     {
@@ -1145,10 +1157,10 @@
      "status": "open",
      "selection": "Carol Young Suh Lee +1.5 sets",
      "model_p": 0.5941,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": 0.0866,
-     "ev_per_1": 0.1707,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": 0.1067,
+     "ev_per_1": 0.2188,
      "eligible": true
     },
     {
@@ -1158,10 +1170,10 @@
      "status": "open",
      "selection": "Carol Young Suh Lee -1.5 sets",
      "model_p": 0.226,
-     "price": 0.18,
-     "implied": 0.1903,
-     "edge": 0.0357,
-     "ev_per_1": 0.1874,
+     "price": 0.17,
+     "implied": 0.1799,
+     "edge": 0.0461,
+     "ev_per_1": 0.2564,
      "eligible": false
     },
     {
@@ -1184,10 +1196,10 @@
      "status": "open",
      "selection": "Aliaksandra Sasnovich -4.5 games",
      "model_p": 0.3805,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.127,
-     "ev_per_1": -0.2503,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.157,
+     "ev_per_1": -0.2921,
      "eligible": false
     },
     {
@@ -1197,10 +1209,10 @@
      "status": "open",
      "selection": "Carol Young Suh Lee +4.5 games",
      "model_p": 0.6195,
-     "price": 0.53,
-     "implied": 0.5474,
-     "edge": 0.0721,
-     "ev_per_1": 0.1317,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": 0.102,
+     "ev_per_1": 0.1972,
      "eligible": true
     }
    ],
@@ -1219,13 +1231,13 @@
     "status": "open",
     "selection": "Leylah Fernandez +2.5 games",
     "model_p": 0.5525,
-    "price": 0.52,
-    "implied": 0.5375,
-    "edge": 0.015,
-    "ev_per_1": 0.0279,
+    "price": 0.51,
+    "implied": 0.5275,
+    "edge": 0.025,
+    "ev_per_1": 0.0474,
     "eligible": true
    },
-   "verdict": "Leylah Fernandez +2.5 games @ 0.52 (model 55.2%, edge 1.5 pts, EV +2.8%)",
+   "verdict": "Leylah Fernandez +2.5 games @ 0.51 (model 55.2%, edge 2.5 pts, EV +4.7%)",
    "outcomes": [
     {
      "market_id": "POLY-6452340",
@@ -1241,10 +1253,10 @@
      "status": "open",
      "selection": "Leylah Fernandez to win",
      "model_p": 0.4589,
-     "price": 0.41,
-     "implied": 0.4269,
-     "edge": 0.032,
-     "ev_per_1": 0.0749,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": 0.0421,
+     "ev_per_1": 0.101,
      "eligible": false
     },
     {
@@ -1254,10 +1266,10 @@
      "status": "open",
      "selection": "Diana Shnaider to win",
      "model_p": 0.5411,
-     "price": 0.6,
-     "implied": 0.6168,
-     "edge": -0.0757,
-     "ev_per_1": -0.1227,
+     "price": 0.61,
+     "implied": 0.6267,
+     "edge": -0.0856,
+     "ev_per_1": -0.1365,
      "eligible": false
     },
     {
@@ -1332,10 +1344,10 @@
      "status": "open",
      "selection": "Under 22.5 games",
      "model_p": 0.5442,
-     "price": 0.57,
-     "implied": 0.5872,
-     "edge": -0.043,
-     "ev_per_1": -0.0732,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0331,
+     "ev_per_1": -0.0573,
      "eligible": false
     },
     {
@@ -1345,10 +1357,10 @@
      "status": "open",
      "selection": "Over 23.5 games",
      "model_p": 0.409,
-     "price": 0.44,
-     "implied": 0.4572,
-     "edge": -0.0483,
-     "ev_per_1": -0.1055,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0382,
+     "ev_per_1": -0.0854,
      "eligible": false
     },
     {
@@ -1358,10 +1370,10 @@
      "status": "open",
      "selection": "Under 23.5 games",
      "model_p": 0.591,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.0651,
-     "ev_per_1": -0.0992,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0553,
+     "ev_per_1": -0.0856,
      "eligible": false
     },
     {
@@ -1371,10 +1383,10 @@
      "status": "open",
      "selection": "Diana Shnaider -1.5 sets",
      "model_p": 0.34,
-     "price": 0.38,
-     "implied": 0.3965,
-     "edge": -0.0565,
-     "ev_per_1": -0.1425,
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0667,
+     "ev_per_1": -0.1639,
      "eligible": false
     },
     {
@@ -1384,10 +1396,10 @@
      "status": "open",
      "selection": "Leylah Fernandez +1.5 sets",
      "model_p": 0.66,
-     "price": 0.63,
-     "implied": 0.6463,
-     "edge": 0.0137,
-     "ev_per_1": 0.0212,
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": 0.0235,
+     "ev_per_1": 0.0369,
      "eligible": true
     },
     {
@@ -1397,10 +1409,10 @@
      "status": "open",
      "selection": "Diana Shnaider -2.5 games",
      "model_p": 0.4475,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.06,
-     "ev_per_1": -0.1182,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.07,
+     "ev_per_1": -0.1352,
      "eligible": false
     },
     {
@@ -1410,10 +1422,10 @@
      "status": "open",
      "selection": "Leylah Fernandez +2.5 games",
      "model_p": 0.5525,
-     "price": 0.52,
-     "implied": 0.5375,
-     "edge": 0.015,
-     "ev_per_1": 0.0279,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": 0.025,
+     "ev_per_1": 0.0474,
      "eligible": true
     }
    ],
@@ -1480,10 +1492,10 @@
      "status": "open",
      "selection": "Over 2.5 sets",
      "model_p": 0.3768,
-     "price": 0.38,
-     "implied": 0.3965,
-     "edge": -0.0197,
-     "ev_per_1": -0.0497,
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0299,
+     "ev_per_1": -0.0734,
      "eligible": false
     },
     {
@@ -1506,10 +1518,10 @@
      "status": "open",
      "selection": "Over 21.5 games",
      "model_p": 0.4879,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.0196,
-     "ev_per_1": -0.0386,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0096,
+     "ev_per_1": -0.0193,
      "eligible": false
     },
     {
@@ -1519,10 +1531,10 @@
      "status": "open",
      "selection": "Under 21.5 games",
      "model_p": 0.5121,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.0453,
-     "ev_per_1": -0.0812,
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.0353,
+     "ev_per_1": -0.0645,
      "eligible": false
     },
     {
@@ -1532,10 +1544,10 @@
      "status": "open",
      "selection": "Over 22.5 games",
      "model_p": 0.4282,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.5345,
-     "ev_per_1": -0.5553,
+     "price": 0.93,
+     "implied": 0.9346,
+     "edge": -0.5064,
+     "ev_per_1": -0.5419,
      "eligible": false
     },
     {
@@ -1545,7 +1557,11 @@
      "status": "open",
      "selection": "Under 22.5 games",
      "model_p": 0.5719,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": -0.0351,
+     "ev_per_1": -0.0578,
+     "eligible": false
     },
     {
      "market_id": "POLY-6453399-0",
@@ -1554,10 +1570,10 @@
      "status": "open",
      "selection": "Over 23.5 games",
      "model_p": 0.3892,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.5735,
-     "ev_per_1": -0.5957,
+     "price": 0.95,
+     "implied": 0.9533,
+     "edge": -0.5641,
+     "ev_per_1": -0.5917,
      "eligible": false
     },
     {
@@ -1615,10 +1631,10 @@
      "status": "open",
      "selection": "Emerson Jones +1.5 sets",
      "model_p": 0.6868,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": 0.0209,
-     "ev_per_1": 0.0313,
+     "price": 0.66,
+     "implied": 0.6757,
+     "edge": 0.0111,
+     "ev_per_1": 0.0164,
      "eligible": true
     },
     {
@@ -1648,7 +1664,7 @@
      "eligible": true
     }
    ],
-   "n_priced": 14,
+   "n_priced": 15,
    "n_eligible": 2
   },
   {
@@ -1698,10 +1714,10 @@
      "status": "open",
      "selection": "Elena Pridankina to win",
      "model_p": 0.4124,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.1151,
-     "ev_per_1": -0.2182,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.1051,
+     "ev_per_1": -0.2031,
      "eligible": false
     },
     {
@@ -1811,10 +1827,10 @@
      "status": "open",
      "selection": "Himeno Sakatsume -1.5 sets",
      "model_p": 0.3867,
-     "price": 0.34,
-     "implied": 0.3557,
-     "edge": 0.031,
-     "ev_per_1": 0.0871,
+     "price": 0.32,
+     "implied": 0.3352,
+     "edge": 0.0515,
+     "ev_per_1": 0.1535,
      "eligible": false
     },
     {
@@ -1824,10 +1840,10 @@
      "status": "open",
      "selection": "Elena Pridankina +1.5 sets",
      "model_p": 0.6133,
-     "price": 0.69,
-     "implied": 0.705,
-     "edge": -0.0917,
-     "ev_per_1": -0.13,
+     "price": 0.71,
+     "implied": 0.7244,
+     "edge": -0.1111,
+     "ev_per_1": -0.1534,
      "eligible": false
     },
     {
@@ -1863,10 +1879,10 @@
      "status": "open",
      "selection": "Elena Pridankina -0.5 games",
      "model_p": 0.3983,
-     "price": 0.5,
-     "implied": 0.5175,
-     "edge": -0.1192,
-     "ev_per_1": -0.2304,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.1092,
+     "ev_per_1": -0.2152,
      "eligible": false
     },
     {
