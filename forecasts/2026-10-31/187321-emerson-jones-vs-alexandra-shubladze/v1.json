@@ -1,0 +1,617 @@
+{
+ "predicted_winner": "Alexandra Shubladze",
+ "win_prob": {
+  "A": 0.4962,
+  "B": 0.5038
+ },
+ "win_prob_exact": {
+  "A": 0.49618,
+  "B": 0.5038199999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.02,
+   "american": "+102"
+  },
+  "B": {
+   "decimal": 1.98,
+   "american": "-102"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3132,
+  "2-0": 0.31,
+  "1-2": 0.1906,
+  "2-1": 0.1862
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0161,
+ "games": {
+  "mean": 22.57,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00231,
+   "13": 0.01037,
+   "14": 0.02607,
+   "15": 0.04646,
+   "16": 0.06813,
+   "17": 0.08305,
+   "18": 0.08375,
+   "19": 0.07601,
+   "20": 0.06646,
+   "21": 0.04951,
+   "22": 0.05973,
+   "23": 0.03894,
+   "24": 0.0205,
+   "25": 0.03843,
+   "26": 0.04141,
+   "27": 0.03889,
+   "28": 0.04123,
+   "29": 0.04337,
+   "30": 0.03992,
+   "31": 0.03566,
+   "32": 0.03044,
+   "33": 0.01963,
+   "34": 0.01477,
+   "35": 0.01355,
+   "36": 0.00595,
+   "37": 0.00188,
+   "38": 0.00251,
+   "39": 0.00107
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00127,
+  "-11": 0.00526,
+  "-10": 0.01377,
+  "-9": 0.02535,
+  "-8": 0.0407,
+  "-7": 0.05934,
+  "-6": 0.07082,
+  "-5": 0.07644,
+  "-4": 0.0734,
+  "-3": 0.05561,
+  "-2": 0.03738,
+  "-1": 0.02983,
+  "0": 0.02816,
+  "1": 0.02889,
+  "2": 0.03785,
+  "3": 0.0546,
+  "4": 0.07521,
+  "5": 0.07305,
+  "6": 0.07014,
+  "7": 0.05889,
+  "8": 0.04025,
+  "9": 0.02429,
+  "10": 0.01319,
+  "11": 0.00527,
+  "12": 0.00104
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7636,
+   "under": 0.2364
+  },
+  {
+   "line": 18.5,
+   "over": 0.6799,
+   "under": 0.3201
+  },
+  {
+   "line": 19.5,
+   "over": 0.6038,
+   "under": 0.3962
+  },
+  {
+   "line": 20.5,
+   "over": 0.5374,
+   "under": 0.4626
+  },
+  {
+   "line": 21.5,
+   "over": 0.4879,
+   "under": 0.5121
+  },
+  {
+   "line": 22.5,
+   "over": 0.4282,
+   "under": 0.5718
+  },
+  {
+   "line": 23.5,
+   "over": 0.3892,
+   "under": 0.6108
+  },
+  {
+   "line": 24.5,
+   "over": 0.3687,
+   "under": 0.6313
+  },
+  {
+   "line": 25.5,
+   "over": 0.3303,
+   "under": 0.6697
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4538,
+   "B +1.5": 0.5462,
+   "B -1.5": 0.4593,
+   "A +1.5": 0.5407
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4159,
+   "B +2.5": 0.5841,
+   "B -2.5": 0.422,
+   "A +2.5": 0.578
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3613,
+   "B +3.5": 0.6387,
+   "B -3.5": 0.3664,
+   "A +3.5": 0.6337
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2861,
+   "B +4.5": 0.7139,
+   "B -4.5": 0.2929,
+   "A +4.5": 0.707
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2131,
+   "B +5.5": 0.7869,
+   "B -5.5": 0.2165,
+   "A +5.5": 0.7835
+  }
+ ],
+ "p_tiebreak": 0.2601,
+ "p_a_wins_set": 0.6868,
+ "p_b_wins_set": 0.69,
+ "p_decider": 0.3768,
+ "expected_breaks": {
+  "total": 8.13,
+  "by_A": 4.06,
+  "by_B": 4.07
+ },
+ "expected_break_points": {
+  "A_creates": 8.9,
+  "B_creates": 8.93
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3132
+ },
+ "match": "Emerson Jones vs Alexandra Shubladze",
+ "players": {
+  "A": {
+   "id": "wta:263644",
+   "name": "Emerson Jones",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 136.0,
+   "age": 18.235318275154004,
+   "elo": 1621.6,
+   "surface_elo": {
+    "Hard": 1597.9,
+    "Clay": 1495.8,
+    "Grass": 1486.2
+   },
+   "matches_total": 33,
+   "matches_surface": {
+    "Hard": 30,
+    "Clay": 1,
+    "Grass": 2
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    14,
+    16
+   ],
+   "last52w_surface": [
+    13,
+    14
+   ],
+   "career_surface_wl": [
+    14,
+    16
+   ],
+   "games_won_lost_52w": [
+    336,
+    342
+   ],
+   "sets_won_lost_52w": [
+    34,
+    37
+   ],
+   "avg_opp_elo_last20": 1603.3,
+   "vs_top_opp_52w": [
+    0,
+    3
+   ],
+   "serve_rating": -0.0016,
+   "return_rating": 0.0582,
+   "form_elo": 21.3,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-03-17",
+   "stats_52w": {
+    "first_in": 0.629,
+    "first_won": 0.5934,
+    "second_won": 0.3789,
+    "serve_pts_won": 0.5138,
+    "hold": 0.5333,
+    "aces_per_svgm": 0.1667,
+    "df_per_svgm": 0.3,
+    "bp_saved": 0.541,
+    "ret_pts_won": 0.4241,
+    "ret_1st_won": 0.3524,
+    "ret_2nd_won": 0.529,
+    "ret_games_won": 0.2623,
+    "bp_conv": 0.64,
+    "bp_chances_per_retgm": 0.4098,
+    "matches_with_stats": 6
+   },
+   "rank_history": [
+    [
+     "2025-01-06",
+     371.0
+    ],
+    [
+     "2025-01-13",
+     293.0
+    ],
+    [
+     "2026-01-04",
+     147.0
+    ],
+    [
+     "2026-01-12",
+     155.0
+    ],
+    [
+     "2026-01-19",
+     153.0
+    ],
+    [
+     "2026-03-17",
+     147.0
+    ],
+    [
+     "2026-04-10",
+     134.0
+    ],
+    [
+     "2026-05-25",
+     136.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn10858",
+   "name": "Alexandra Shubladze",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1668.2,
+   "surface_elo": {
+    "Hard": 1665.5,
+    "Clay": 1489.4,
+    "Grass": 1427.8
+   },
+   "matches_total": 14,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 2,
+    "Grass": 1
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    9,
+    5
+   ],
+   "last52w": [
+    9,
+    5
+   ],
+   "last52w_surface": [
+    8,
+    3
+   ],
+   "career_surface_wl": [
+    8,
+    3
+   ],
+   "games_won_lost_52w": [
+    182,
+    135
+   ],
+   "sets_won_lost_52w": [
+    20,
+    12
+   ],
+   "avg_opp_elo_last20": 1530.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 57.0,
+   "last_match": "2026-10-31",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Emerson Jones: limited recent/surface sample (30 matches 52w, 30 career on Hard, 6 with stats)",
+  "Emerson Jones: latest point-level stats are 228 days old (2026-03-17)",
+  "Alexandra Shubladze: sparse record (14 tour matches, 0 with serve stats in 52w)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -1.3,
+  "components_elo": {
+   "surface_elo": -67.6,
+   "overall_elo": -46.6,
+   "serve_return": 51.3,
+   "form": -35.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -8.3,
+   "overall_elo": -11.0,
+   "serve_return": 17.9,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4981,
+  "serve_return_implied_spw": {
+   "A": 0.5653,
+   "B": 0.5514
+  },
+  "point_probs": {
+   "A_serve": 0.5581,
+   "B_serve": 0.5587
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5581017013572698,
+   "B_serve": 0.5586718290615168
+  },
+  "hold_probs": {
+   "A": 0.6424,
+   "B": 0.6437
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4962,
+   0.4981
+  ],
+  "p_tb": [
+   0.2601,
+   0.2594
+  ],
+  "p_decider": [
+   0.3768,
+   0.3763
+  ],
+  "games_mean": [
+   22.57,
+   22.574
+  ],
+  "exp_breaks": [
+   8.13,
+   8.128
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3132,
+    0.3134
+   ],
+   "1-2": [
+    0.1906,
+    0.1885
+   ],
+   "2-0": [
+    0.31,
+    0.3103
+   ],
+   "2-1": [
+    0.1862,
+    0.1878
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Emerson Jones",
+   "elo_points": 17.9,
+   "raw_diff": 51.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexandra Shubladze",
+   "elo_points": -11.0,
+   "raw_diff": -46.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexandra Shubladze",
+   "elo_points": -8.3,
+   "raw_diff": -67.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5581,
+   "B": 0.5587,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7399,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-284"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Emerson Jones: limited recent/surface sample (30 matches 52w, 30 career on Hard, 6 with stats); Emerson Jones: latest point-level stats are 228 days old (2026-03-17)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7399,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Emerson Jones +4.5 games",
+    "probability": 0.707,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Alexandra Shubladze to win at least one set",
+    "probability": 0.69,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Emerson Jones to win at least one set",
+    "probability": 0.6868,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6799,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6313,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6232,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Emerson Jones +2.5 games",
+    "probability": 0.578,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5718,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5374,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Alexandra Shubladze to win",
+    "probability": 0.5038,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Emerson Jones to win",
+    "probability": 0.4962,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4626,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4282,
+    "fair_decimal": 2.34
+   },
+   {
+    "selection": "Alexandra Shubladze -2.5 games",
+    "probability": 0.422,
+    "fair_decimal": 2.37
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T14:34:10+00:00",
+  "version": 1,
+  "input_hash": "97d55d3f009505f7",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187321",
+  "scheduled_start_utc": "2026-11-01T03:30Z"
+ }
+}

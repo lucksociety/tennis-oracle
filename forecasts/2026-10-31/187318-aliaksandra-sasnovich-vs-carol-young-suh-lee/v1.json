@@ -1,0 +1,634 @@
+{
+ "predicted_winner": "Aliaksandra Sasnovich",
+ "win_prob": {
+  "A": 0.611,
+  "B": 0.389
+ },
+ "win_prob_exact": {
+  "A": 0.61105,
+  "B": 0.38895
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.64,
+   "american": "-157"
+  },
+  "B": {
+   "decimal": 2.57,
+   "american": "+157"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4059,
+  "0-2": 0.226,
+  "2-1": 0.2051,
+  "1-2": 0.163
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0198,
+ "games": {
+  "mean": 22.5,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00274,
+   "13": 0.0116,
+   "14": 0.02631,
+   "15": 0.04884,
+   "16": 0.06806,
+   "17": 0.08436,
+   "18": 0.08451,
+   "19": 0.07738,
+   "20": 0.06718,
+   "21": 0.04863,
+   "22": 0.05937,
+   "23": 0.03992,
+   "24": 0.02181,
+   "25": 0.03571,
+   "26": 0.03835,
+   "27": 0.03614,
+   "28": 0.04054,
+   "29": 0.04129,
+   "30": 0.0397,
+   "31": 0.03567,
+   "32": 0.03096,
+   "33": 0.02037,
+   "34": 0.01451,
+   "35": 0.01381,
+   "36": 0.00679,
+   "37": 0.00161,
+   "38": 0.00249,
+   "39": 0.00135
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00063,
+  "-11": 0.00279,
+  "-10": 0.00697,
+  "-9": 0.01489,
+  "-8": 0.02469,
+  "-7": 0.0404,
+  "-6": 0.0524,
+  "-5": 0.05954,
+  "-4": 0.06282,
+  "-3": 0.0472,
+  "-2": 0.03502,
+  "-1": 0.02768,
+  "0": 0.02675,
+  "1": 0.02908,
+  "2": 0.04147,
+  "3": 0.06135,
+  "4": 0.08586,
+  "5": 0.09033,
+  "6": 0.08874,
+  "7": 0.07729,
+  "8": 0.05592,
+  "9": 0.03717,
+  "10": 0.01994,
+  "11": 0.00896,
+  "12": 0.00211
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7581,
+   "under": 0.2419
+  },
+  {
+   "line": 18.5,
+   "over": 0.6736,
+   "under": 0.3264
+  },
+  {
+   "line": 19.5,
+   "over": 0.5962,
+   "under": 0.4038
+  },
+  {
+   "line": 20.5,
+   "over": 0.529,
+   "under": 0.471
+  },
+  {
+   "line": 21.5,
+   "over": 0.4804,
+   "under": 0.5196
+  },
+  {
+   "line": 22.5,
+   "over": 0.421,
+   "under": 0.579
+  },
+  {
+   "line": 23.5,
+   "over": 0.3811,
+   "under": 0.6189
+  },
+  {
+   "line": 24.5,
+   "over": 0.3593,
+   "under": 0.6407
+  },
+  {
+   "line": 25.5,
+   "over": 0.3236,
+   "under": 0.6764
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5691,
+   "B +1.5": 0.4309,
+   "B -1.5": 0.3474,
+   "A +1.5": 0.6526
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5277,
+   "B +2.5": 0.4723,
+   "B -2.5": 0.3123,
+   "A +2.5": 0.6877
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4663,
+   "B +3.5": 0.5337,
+   "B -3.5": 0.2651,
+   "A +3.5": 0.7349
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3805,
+   "B +4.5": 0.6195,
+   "B -4.5": 0.2023,
+   "A +4.5": 0.7977
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2901,
+   "B +5.5": 0.7099,
+   "B -5.5": 0.1428,
+   "A +5.5": 0.8572
+  }
+ ],
+ "p_tiebreak": 0.2619,
+ "p_a_wins_set": 0.774,
+ "p_b_wins_set": 0.5941,
+ "p_decider": 0.3681,
+ "expected_breaks": {
+  "total": 7.72,
+  "by_A": 4.21,
+  "by_B": 3.51
+ },
+ "expected_break_points": {
+  "A_creates": 9.12,
+  "B_creates": 8.06
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4059
+ },
+ "match": "Aliaksandra Sasnovich vs Carol Young Suh Lee",
+ "players": {
+  "A": {
+   "id": "wta:205925",
+   "name": "Aliaksandra Sasnovich",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 111.0,
+   "age": 32.550308008213555,
+   "elo": 1735.2,
+   "surface_elo": {
+    "Hard": 1718.8,
+    "Clay": 1603.7,
+    "Grass": 1524.2
+   },
+   "matches_total": 375,
+   "matches_surface": {
+    "Hard": 256,
+    "Clay": 81,
+    "Grass": 38
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    19,
+    18
+   ],
+   "last52w_surface": [
+    17,
+    14
+   ],
+   "career_surface_wl": [
+    131,
+    125
+   ],
+   "games_won_lost_52w": [
+    420,
+    389
+   ],
+   "sets_won_lost_52w": [
+    44,
+    41
+   ],
+   "avg_opp_elo_last20": 1673.3,
+   "vs_top_opp_52w": [
+    1,
+    4
+   ],
+   "serve_rating": 0.1033,
+   "return_rating": 0.0967,
+   "form_elo": 93.7,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-04-13",
+   "stats_52w": {
+    "first_in": 0.6179,
+    "first_won": 0.63,
+    "second_won": 0.4356,
+    "serve_pts_won": 0.5557,
+    "hold": 0.6238,
+    "aces_per_svgm": 0.1584,
+    "df_per_svgm": 0.3465,
+    "bp_saved": 0.5581,
+    "ret_pts_won": 0.4224,
+    "ret_1st_won": 0.3596,
+    "ret_2nd_won": 0.5451,
+    "ret_games_won": 0.3302,
+    "bp_conv": 0.4487,
+    "bp_chances_per_retgm": 0.7358,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2025-06-30",
+     107.0
+    ],
+    [
+     "2025-08-25",
+     119.0
+    ],
+    [
+     "2025-09-24",
+     130.0
+    ],
+    [
+     "2025-10-13",
+     114.0
+    ],
+    [
+     "2025-10-27",
+     111.0
+    ],
+    [
+     "2026-01-04",
+     113.0
+    ],
+    [
+     "2026-01-19",
+     104.0
+    ],
+    [
+     "2026-02-01",
+     109.0
+    ],
+    [
+     "2026-02-15",
+     113.0
+    ],
+    [
+     "2026-03-17",
+     116.0
+    ],
+    [
+     "2026-04-06",
+     115.0
+    ],
+    [
+     "2026-04-13",
+     111.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221803",
+   "name": "Carol Young Suh Lee",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": 24.82621492128679,
+   "elo": 1689.8,
+   "surface_elo": {
+    "Hard": 1662.6,
+    "Clay": 1434.0,
+    "Grass": 1427.8
+   },
+   "matches_total": 26,
+   "matches_surface": {
+    "Hard": 24,
+    "Clay": 1,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    13,
+    9
+   ],
+   "last52w_surface": [
+    13,
+    7
+   ],
+   "career_surface_wl": [
+    16,
+    8
+   ],
+   "games_won_lost_52w": [
+    256,
+    237
+   ],
+   "sets_won_lost_52w": [
+    29,
+    22
+   ],
+   "avg_opp_elo_last20": 1628.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0001,
+   "return_rating": 0.0001,
+   "form_elo": 23.2,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2019-02-08",
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Aliaksandra Sasnovich: limited recent/surface sample (37 matches 52w, 256 career on Hard, 10 with stats)",
+  "Aliaksandra Sasnovich: latest point-level stats are 201 days old (2026-04-13)",
+  "Carol Young Suh Lee: sparse record (26 tour matches, 0 with serve stats in 52w)",
+  "Carol Young Suh Lee: latest point-level stats are 2822 days old (2019-02-08)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 81.2,
+  "components_elo": {
+   "surface_elo": 56.1,
+   "overall_elo": 45.3,
+   "serve_return": 182.8,
+   "form": 70.5
+  },
+  "weighted_contributions": {
+   "surface_elo": 6.9,
+   "overall_elo": 10.7,
+   "serve_return": 63.8,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6148,
+  "serve_return_implied_spw": {
+   "A": 0.5909,
+   "B": 0.5419
+  },
+  "point_probs": {
+   "A_serve": 0.5834,
+   "B_serve": 0.5496
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5833740054121446,
+   "B_serve": 0.5495719394121144
+  },
+  "hold_probs": {
+   "A": 0.7,
+   "B": 0.6221
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.611,
+   0.6127
+  ],
+  "p_tb": [
+   0.2619,
+   0.2616
+  ],
+  "p_decider": [
+   0.3681,
+   0.3662
+  ],
+  "games_mean": [
+   22.497,
+   22.475
+  ],
+  "exp_breaks": [
+   7.724,
+   7.702
+  ],
+  "set_scores": {
+   "0-2": [
+    0.226,
+    0.2254
+   ],
+   "1-2": [
+    0.163,
+    0.1619
+   ],
+   "2-0": [
+    0.4059,
+    0.4084
+   ],
+   "2-1": [
+    0.2051,
+    0.2043
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Aliaksandra Sasnovich",
+   "elo_points": 63.8,
+   "raw_diff": 182.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Aliaksandra Sasnovich",
+   "elo_points": 10.7,
+   "raw_diff": 45.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Aliaksandra Sasnovich",
+   "elo_points": 6.9,
+   "raw_diff": 56.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5834,
+   "B": 0.5496,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Aliaksandra Sasnovich to win at least one set",
+  "probability": 0.774,
+  "fair_odds": {
+   "decimal": 1.29,
+   "american": "-342"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Aliaksandra Sasnovich: limited recent/surface sample (37 matches 52w, 256 career on Hard, 10 with stats); Aliaksandra Sasnovich: latest point-level stats are 201 days old (2026-04-13)",
+  "candidates": [
+   {
+    "selection": "Aliaksandra Sasnovich to win at least one set",
+    "probability": 0.774,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7381,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6736,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6407,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6319,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Carol Young Suh Lee +4.5 games",
+    "probability": 0.6195,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Aliaksandra Sasnovich to win",
+    "probability": 0.611,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Carol Young Suh Lee to win at least one set",
+    "probability": 0.5941,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.579,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.529,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Aliaksandra Sasnovich -2.5 games",
+    "probability": 0.5277,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Carol Young Suh Lee +2.5 games",
+    "probability": 0.4723,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.471,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.421,
+    "fair_decimal": 2.38
+   },
+   {
+    "selection": "Exact sets Aliaksandra Sasnovich 2-0 Carol Young Suh Lee",
+    "probability": 0.4059,
+    "fair_decimal": 2.46
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T14:34:06+00:00",
+  "version": 1,
+  "input_hash": "b15c34b3e6c7d8e3",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187318",
+  "scheduled_start_utc": "2026-11-01T02:00Z"
+ }
+}

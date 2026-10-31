@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-10-31T05:43:23+00:00",
+ "generated_at_utc": "2026-10-31T14:36:07+00:00",
  "summary": {
-  "n": 101,
-  "brier": 0.2308118037623762,
-  "log_loss": 0.6536193725720242,
-  "accuracy": 0.5742574257425742,
-  "games_mae": 4.9347524752475245,
-  "exact_sets_accuracy": 0.43564356435643564,
-  "tiebreak_brier": 0.198259991980198
+  "n": 116,
+  "brier": 0.22906785017241382,
+  "log_loss": 0.6499058838388968,
+  "accuracy": 0.5775862068965517,
+  "games_mae": 4.848534482758621,
+  "exact_sets_accuracy": 0.43103448275862066,
+  "tiebreak_brier": 0.2009523729310345
  },
- "n": 101,
+ "n": 116,
  "overall": {
-  "n": 101,
-  "brier": 0.2308118037623762,
-  "log_loss": 0.6536193725720242,
-  "accuracy": 0.5742574257425742
+  "n": 116,
+  "brier": 0.22906785017241382,
+  "log_loss": 0.6499058838388968,
+  "accuracy": 0.5775862068965517
  },
- "games_mae": 4.9347524752475245,
- "exact_sets_accuracy": 0.43564356435643564,
- "tiebreak_brier": 0.198259991980198,
+ "games_mae": 4.848534482758621,
+ "exact_sets_accuracy": 0.43103448275862066,
+ "tiebreak_brier": 0.2009523729310345,
  "by_surface": {
   "Clay": {
    "n": 4,
@@ -27,58 +27,58 @@
    "accuracy": 0.75
   },
   "Hard": {
-   "n": 97,
-   "brier": 0.2326588417525773,
-   "log_loss": 0.6574004850560017,
-   "accuracy": 0.5670103092783505
+   "n": 112,
+   "brier": 0.2306052329464286,
+   "log_loss": 0.6530479727318729,
+   "accuracy": 0.5714285714285714
   }
  },
  "by_tour": {
   "atp": {
-   "n": 30,
-   "brier": 0.2117959776666667,
-   "log_loss": 0.6104379649164676,
-   "accuracy": 0.6
+   "n": 37,
+   "brier": 0.21094433756756756,
+   "log_loss": 0.6093678830461452,
+   "accuracy": 0.6216216216216216
   },
   "wta": {
-   "n": 71,
-   "brier": 0.23884665985915488,
-   "log_loss": 0.6718650377785972,
-   "accuracy": 0.5633802816901409
+   "n": 79,
+   "brier": 0.23755607759493674,
+   "log_loss": 0.6688920361089198,
+   "accuracy": 0.5569620253164557
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 59,
-   "brier": 0.24442987406779662,
-   "log_loss": 0.6852367556805325,
-   "accuracy": 0.576271186440678
+   "n": 66,
+   "brier": 0.2435704884848485,
+   "log_loss": 0.6828731895353841,
+   "accuracy": 0.5606060606060606
   },
   "MEDIUM": {
-   "n": 42,
-   "brier": 0.21168165738095238,
-   "log_loss": 0.6092044772529287,
-   "accuracy": 0.5714285714285714
+   "n": 50,
+   "brier": 0.2099243676,
+   "log_loss": 0.6063890403195336,
+   "accuracy": 0.6
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 62,
-   "mean_pred": 0.5439580645161292,
-   "observed": 0.5
+   "n": 71,
+   "mean_pred": 0.5432154929577464,
+   "observed": 0.49295774647887325
   },
   {
    "bucket": "60%-70%",
-   "n": 20,
-   "mean_pred": 0.6536099999999999,
-   "observed": 0.65
+   "n": 25,
+   "mean_pred": 0.65074,
+   "observed": 0.68
   },
   {
    "bucket": "70%-80%",
-   "n": 13,
-   "mean_pred": 0.7342461538461538,
-   "observed": 0.8461538461538461
+   "n": 14,
+   "mean_pred": 0.7318142857142858,
+   "observed": 0.8571428571428571
   },
   {
    "bucket": "80%-90%",
@@ -4253,6 +4253,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Elena Pridankina vs Ekaterine Gorgodze",
+   "date": "2026-10-30",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.523,
+   "a_won": 1,
+   "pred_winner": "Elena Pridankina",
+   "actual_winner": "Elena Pridankina",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1883,
+   "exp_games": 22.4,
+   "actual_games": 24,
+   "p_tb": 0.245,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4818,
+     1
+    ],
+    "A -2.5": [
+     0.444,
+     1
+    ],
+    "A -3.5": [
+     0.3898,
+     1
+    ],
+    "A -4.5": [
+     0.3135,
+     1
+    ],
+    "A -5.5": [
+     0.2357,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Tatiana Prozorova vs Hayu Kinoshita",
    "date": "2026-10-30",
    "tour": "wta",
@@ -4334,6 +4376,594 @@
     ]
    },
    "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Diana Shnaider vs Mia Pohankova",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.7002,
+   "a_won": 1,
+   "pred_winner": "Diana Shnaider",
+   "actual_winner": "Diana Shnaider",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4925,
+   "exp_games": 22.12,
+   "actual_games": 23,
+   "p_tb": 0.2544,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6611,
+     1
+    ],
+    "A -2.5": [
+     0.6212,
+     1
+    ],
+    "A -3.5": [
+     0.5585,
+     0
+    ],
+    "A -4.5": [
+     0.4643,
+     0
+    ],
+    "A -5.5": [
+     0.3627,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Xinran Sun vs Harriet Dart",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Guangzhou Open",
+   "p_a": 0.5198,
+   "a_won": 0,
+   "pred_winner": "Xinran Sun",
+   "actual_winner": "Harriet Dart",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1854,
+   "exp_games": 22.58,
+   "actual_games": 31,
+   "p_tb": 0.2602,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4774,
+     0
+    ],
+    "A -2.5": [
+     0.4388,
+     0
+    ],
+    "A -3.5": [
+     0.3817,
+     0
+    ],
+    "A -4.5": [
+     0.3045,
+     0
+    ],
+    "A -5.5": [
+     0.2257,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Kaitlin Quevedo vs Lilli Tagger",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Guangzhou Open",
+   "p_a": 0.3931,
+   "a_won": 0,
+   "pred_winner": "Lilli Tagger",
+   "actual_winner": "Lilli Tagger",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4005,
+   "exp_games": 22.75,
+   "actual_games": 14,
+   "p_tb": 0.2884,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3508,
+     0
+    ],
+    "A -2.5": [
+     0.3141,
+     0
+    ],
+    "A -3.5": [
+     0.262,
+     0
+    ],
+    "A -4.5": [
+     0.1967,
+     0
+    ],
+    "A -5.5": [
+     0.1342,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Ying Zhang vs Alexandra Shubladze",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3956,
+   "a_won": 1,
+   "pred_winner": "Alexandra Shubladze",
+   "actual_winner": "Ying Zhang",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2331,
+   "exp_games": 22.45,
+   "actual_games": 19,
+   "p_tb": 0.2592,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3533,
+     1
+    ],
+    "A -2.5": [
+     0.3189,
+     1
+    ],
+    "A -3.5": [
+     0.2703,
+     1
+    ],
+    "A -4.5": [
+     0.2064,
+     1
+    ],
+    "A -5.5": [
+     0.1466,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Aliona Falei vs Ekaterina Yashina",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.6531,
+   "a_won": 1,
+   "pred_winner": "Aliona Falei",
+   "actual_winner": "Aliona Falei",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4475,
+   "exp_games": 22.33,
+   "actual_games": 17,
+   "p_tb": 0.2591,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6116,
+     1
+    ],
+    "A -2.5": [
+     0.572,
+     1
+    ],
+    "A -3.5": [
+     0.5099,
+     1
+    ],
+    "A -4.5": [
+     0.4202,
+     1
+    ],
+    "A -5.5": [
+     0.3238,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Rinko Matsuda vs Momoko Kobori",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5129,
+   "a_won": 0,
+   "pred_winner": "Rinko Matsuda",
+   "actual_winner": "Momoko Kobori",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3008,
+   "exp_games": 22.69,
+   "actual_games": 16,
+   "p_tb": 0.2717,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4684,
+     0
+    ],
+    "A -2.5": [
+     0.4303,
+     0
+    ],
+    "A -3.5": [
+     0.373,
+     0
+    ],
+    "A -4.5": [
+     0.294,
+     0
+    ],
+    "A -5.5": [
+     0.217,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Zhibek Kulambayeva vs Yelyzaveta Kotliar",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4361,
+   "a_won": 1,
+   "pred_winner": "Yelyzaveta Kotliar",
+   "actual_winner": "Zhibek Kulambayeva",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2619,
+   "exp_games": 22.5,
+   "actual_games": 17,
+   "p_tb": 0.2539,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3939,
+     1
+    ],
+    "A -2.5": [
+     0.3585,
+     1
+    ],
+    "A -3.5": [
+     0.3083,
+     1
+    ],
+    "A -4.5": [
+     0.2417,
+     1
+    ],
+    "A -5.5": [
+     0.1756,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Pablo Carreno Busta vs Mattia Bellucci",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5836,
+   "a_won": 0,
+   "pred_winner": "Pablo Carreno Busta",
+   "actual_winner": "Mattia Bellucci",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2369,
+   "exp_games": 24.39,
+   "actual_games": 20,
+   "p_tb": 0.4529,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5269,
+     0
+    ],
+    "A -2.5": [
+     0.4637,
+     0
+    ],
+    "A -3.5": [
+     0.3718,
+     0
+    ],
+    "A -4.5": [
+     0.2607,
+     0
+    ],
+    "A -5.5": [
+     0.1662,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Thiago Agustin Tirante vs Zachary Svajda",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.6352,
+   "a_won": 1,
+   "pred_winner": "Thiago Agustin Tirante",
+   "actual_winner": "Thiago Agustin Tirante",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2214,
+   "exp_games": 24.47,
+   "actual_games": 26,
+   "p_tb": 0.4727,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5773,
+     1
+    ],
+    "A -2.5": [
+     0.5078,
+     1
+    ],
+    "A -3.5": [
+     0.4082,
+     1
+    ],
+    "A -4.5": [
+     0.2857,
+     0
+    ],
+    "A -5.5": [
+     0.1806,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Hugo Gaston vs Vit Kopriva",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4427,
+   "a_won": 0,
+   "pred_winner": "Vit Kopriva",
+   "actual_winner": "Vit Kopriva",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3496,
+   "exp_games": 23.65,
+   "actual_games": 23,
+   "p_tb": 0.3689,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3931,
+     0
+    ],
+    "A -2.5": [
+     0.3457,
+     0
+    ],
+    "A -3.5": [
+     0.2803,
+     0
+    ],
+    "A -4.5": [
+     0.2005,
+     0
+    ],
+    "A -5.5": [
+     0.1297,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Juan Manuel Cerundolo vs Aleksandar Kovacevic",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5052,
+   "a_won": 1,
+   "pred_winner": "Juan Manuel Cerundolo",
+   "actual_winner": "Juan Manuel Cerundolo",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2994,
+   "exp_games": 25.23,
+   "actual_games": 22,
+   "p_tb": 0.5362,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4414,
+     1
+    ],
+    "A -2.5": [
+     0.3681,
+     1
+    ],
+    "A -3.5": [
+     0.2752,
+     1
+    ],
+    "A -4.5": [
+     0.1726,
+     0
+    ],
+    "A -5.5": [
+     0.0968,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jaime Faria vs Rinky Hijikata",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5085,
+   "a_won": 0,
+   "pred_winner": "Jaime Faria",
+   "actual_winner": "Rinky Hijikata",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2938,
+   "exp_games": 24.26,
+   "actual_games": 19,
+   "p_tb": 0.4321,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4532,
+     0
+    ],
+    "A -2.5": [
+     0.3966,
+     0
+    ],
+    "A -3.5": [
+     0.3167,
+     0
+    ],
+    "A -4.5": [
+     0.2202,
+     0
+    ],
+    "A -5.5": [
+     0.1378,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "James Duckworth vs Miomir Kecmanovic",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4313,
+   "a_won": 0,
+   "pred_winner": "Miomir Kecmanovic",
+   "actual_winner": "Miomir Kecmanovic",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2145,
+   "exp_games": 24.77,
+   "actual_games": 28,
+   "p_tb": 0.4912,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3734,
+     0
+    ],
+    "A -2.5": [
+     0.3123,
+     0
+    ],
+    "A -3.5": [
+     0.2324,
+     0
+    ],
+    "A -4.5": [
+     0.1471,
+     0
+    ],
+    "A -5.5": [
+     0.0844,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tomas Machac vs Martin Landaluce",
+   "date": "2026-10-31",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.6967,
+   "a_won": 1,
+   "pred_winner": "Tomas Machac",
+   "actual_winner": "Tomas Machac",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4737,
+   "exp_games": 24.11,
+   "actual_games": 19,
+   "p_tb": 0.4506,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6415,
+     1
+    ],
+    "A -2.5": [
+     0.5718,
+     1
+    ],
+    "A -3.5": [
+     0.4702,
+     1
+    ],
+    "A -4.5": [
+     0.3387,
+     1
+    ],
+    "A -5.5": [
+     0.2237,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   }
  ]

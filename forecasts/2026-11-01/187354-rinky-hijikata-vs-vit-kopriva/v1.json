@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Rinky Hijikata",
+ "win_prob": {
+  "A": 0.511,
+  "B": 0.489
+ },
+ "win_prob_exact": {
+  "A": 0.51097,
+  "B": 0.48902999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.96,
+   "american": "-104"
+  },
+  "B": {
+   "decimal": 2.04,
+   "american": "+104"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3145,
+  "0-2": 0.2939,
+  "2-1": 0.1965,
+  "1-2": 0.1952
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.023,
+ "games": {
+  "mean": 23.78,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.12,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00073,
+   "13": 0.00439,
+   "14": 0.01203,
+   "15": 0.02682,
+   "16": 0.04328,
+   "17": 0.06881,
+   "18": 0.07565,
+   "19": 0.08021,
+   "20": 0.0746,
+   "21": 0.05312,
+   "22": 0.07616,
+   "23": 0.05529,
+   "24": 0.01393,
+   "25": 0.03412,
+   "26": 0.04472,
+   "27": 0.03143,
+   "28": 0.03735,
+   "29": 0.04024,
+   "30": 0.04003,
+   "31": 0.0434,
+   "32": 0.04238,
+   "33": 0.02726,
+   "34": 0.02007,
+   "35": 0.02565,
+   "36": 0.01559,
+   "37": 0.00206,
+   "38": 0.00556,
+   "39": 0.00512
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0003,
+  "-11": 0.00217,
+  "-10": 0.00583,
+  "-9": 0.01342,
+  "-8": 0.02385,
+  "-7": 0.04562,
+  "-6": 0.06085,
+  "-5": 0.07709,
+  "-4": 0.0873,
+  "-3": 0.07,
+  "-2": 0.05029,
+  "-1": 0.03452,
+  "0": 0.03471,
+  "1": 0.03555,
+  "2": 0.05019,
+  "3": 0.07298,
+  "4": 0.09183,
+  "5": 0.08269,
+  "6": 0.06344,
+  "7": 0.04674,
+  "8": 0.0265,
+  "9": 0.01489,
+  "10": 0.00656,
+  "11": 0.00225,
+  "12": 0.00043
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8439,
+   "under": 0.1561
+  },
+  {
+   "line": 18.5,
+   "over": 0.7683,
+   "under": 0.2317
+  },
+  {
+   "line": 19.5,
+   "over": 0.6881,
+   "under": 0.3119
+  },
+  {
+   "line": 20.5,
+   "over": 0.6135,
+   "under": 0.3865
+  },
+  {
+   "line": 21.5,
+   "over": 0.5604,
+   "under": 0.4396
+  },
+  {
+   "line": 22.5,
+   "over": 0.4842,
+   "under": 0.5158
+  },
+  {
+   "line": 23.5,
+   "over": 0.4289,
+   "under": 0.5711
+  },
+  {
+   "line": 24.5,
+   "over": 0.415,
+   "under": 0.585
+  },
+  {
+   "line": 25.5,
+   "over": 0.3809,
+   "under": 0.6191
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4585,
+   "B +1.5": 0.5415,
+   "B -1.5": 0.4367,
+   "A +1.5": 0.5633
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4083,
+   "B +2.5": 0.5917,
+   "B -2.5": 0.3864,
+   "A +2.5": 0.6136
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3353,
+   "B +3.5": 0.6647,
+   "B -3.5": 0.3164,
+   "A +3.5": 0.6836
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2435,
+   "B +4.5": 0.7565,
+   "B -4.5": 0.2291,
+   "A +4.5": 0.7709
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1608,
+   "B +5.5": 0.8392,
+   "B -5.5": 0.152,
+   "A +5.5": 0.848
+  }
+ ],
+ "p_tiebreak": 0.3805,
+ "p_a_wins_set": 0.7061,
+ "p_b_wins_set": 0.6855,
+ "p_decider": 0.3916,
+ "expected_breaks": {
+  "total": 5.21,
+  "by_A": 2.64,
+  "by_B": 2.58
+ },
+ "expected_break_points": {
+  "A_creates": 6.73,
+  "B_creates": 6.62
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3145
+ },
+ "match": "Rinky Hijikata vs Vit Kopriva",
+ "players": {
+  "A": {
+   "id": "atp:208014",
+   "name": "Rinky Hijikata",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 98.0,
+   "age": 25.638056125941134,
+   "elo": 1700.6,
+   "surface_elo": {
+    "Hard": 1686.6,
+    "Clay": 1327.1,
+    "Grass": 1421.0
+   },
+   "matches_total": 131,
+   "matches_surface": {
+    "Hard": 96,
+    "Clay": 15,
+    "Grass": 20
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    20,
+    24
+   ],
+   "last52w_surface": [
+    18,
+    18
+   ],
+   "career_surface_wl": [
+    43,
+    53
+   ],
+   "games_won_lost_52w": [
+    540,
+    566
+   ],
+   "sets_won_lost_52w": [
+    51,
+    60
+   ],
+   "avg_opp_elo_last20": 1761.0,
+   "vs_top_opp_52w": [
+    1,
+    5
+   ],
+   "serve_rating": -0.0237,
+   "return_rating": 0.0561,
+   "form_elo": 4.1,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6067,
+    "first_won": 0.7123,
+    "second_won": 0.5165,
+    "serve_pts_won": 0.6353,
+    "hold": 0.7944,
+    "aces_per_svgm": 0.4,
+    "df_per_svgm": 0.2056,
+    "bp_saved": 0.5889,
+    "ret_pts_won": 0.346,
+    "ret_1st_won": 0.2571,
+    "ret_2nd_won": 0.4903,
+    "ret_games_won": 0.1954,
+    "bp_conv": 0.3908,
+    "bp_chances_per_retgm": 0.5,
+    "matches_with_stats": 15
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     103.0
+    ],
+    [
+     "2025-09-17",
+     111.0
+    ],
+    [
+     "2025-10-13",
+     114.0
+    ],
+    [
+     "2026-01-04",
+     111.0
+    ],
+    [
+     "2026-01-12",
+     115.0
+    ],
+    [
+     "2026-01-19",
+     114.0
+    ],
+    [
+     "2026-02-07",
+     103.0
+    ],
+    [
+     "2026-02-16",
+     113.0
+    ],
+    [
+     "2026-02-23",
+     115.0
+    ],
+    [
+     "2026-03-04",
+     117.0
+    ],
+    [
+     "2026-03-30",
+     102.0
+    ],
+    [
+     "2026-05-25",
+     98.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200240",
+   "name": "Vit Kopriva",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 66.0,
+   "age": 29.338056125941137,
+   "elo": 1614.1,
+   "surface_elo": {
+    "Hard": 1537.6,
+    "Clay": 1650.9,
+    "Grass": 1483.6
+   },
+   "matches_total": 79,
+   "matches_surface": {
+    "Hard": 27,
+    "Clay": 45,
+    "Grass": 7
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    6,
+    14
+   ],
+   "last52w": [
+    20,
+    23
+   ],
+   "last52w_surface": [
+    6,
+    10
+   ],
+   "career_surface_wl": [
+    9,
+    18
+   ],
+   "games_won_lost_52w": [
+    514,
+    539
+   ],
+   "sets_won_lost_52w": [
+    51,
+    58
+   ],
+   "avg_opp_elo_last20": 1738.6,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.0014,
+   "return_rating": 0.135,
+   "form_elo": -81.9,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6358,
+    "first_won": 0.6962,
+    "second_won": 0.4918,
+    "serve_pts_won": 0.6218,
+    "hold": 0.7885,
+    "aces_per_svgm": 0.3548,
+    "df_per_svgm": 0.2652,
+    "bp_saved": 0.655,
+    "ret_pts_won": 0.3823,
+    "ret_1st_won": 0.3181,
+    "ret_2nd_won": 0.4962,
+    "ret_games_won": 0.2553,
+    "bp_conv": 0.4235,
+    "bp_chances_per_retgm": 0.6028,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     89.0
+    ],
+    [
+     "2025-11-02",
+     92.0
+    ],
+    [
+     "2026-01-19",
+     101.0
+    ],
+    [
+     "2026-02-09",
+     95.0
+    ],
+    [
+     "2026-02-16",
+     87.0
+    ],
+    [
+     "2026-03-04",
+     62.0
+    ],
+    [
+     "2026-03-30",
+     70.0
+    ],
+    [
+     "2026-04-13",
+     77.0
+    ],
+    [
+     "2026-04-22",
+     66.0
+    ],
+    [
+     "2026-05-06",
+     55.0
+    ],
+    [
+     "2026-05-17",
+     63.0
+    ],
+    [
+     "2026-05-25",
+     66.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Rinky Hijikata: latest point-level stats are 168 days old (2026-05-17)",
+  "Vit Kopriva: latest point-level stats are 168 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 8.7,
+  "components_elo": {
+   "surface_elo": 149.0,
+   "overall_elo": 86.5,
+   "serve_return": -85.5,
+   "form": 86.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 18.2,
+   "overall_elo": 20.4,
+   "serve_return": -29.8,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5125,
+  "serve_return_implied_spw": {
+   "A": 0.615,
+   "B": 0.6393
+  },
+  "point_probs": {
+   "A_serve": 0.6291,
+   "B_serve": 0.6255
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6290518574151693,
+   "B_serve": 0.625473754409675
+  },
+  "hold_probs": {
+   "A": 0.7929,
+   "B": 0.7863
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.511,
+   0.5122
+  ],
+  "p_tb": [
+   0.3805,
+   0.3791
+  ],
+  "p_decider": [
+   0.3916,
+   0.391
+  ],
+  "games_mean": [
+   23.781,
+   23.763
+  ],
+  "exp_breaks": [
+   5.214,
+   5.211
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2939,
+    0.2948
+   ],
+   "1-2": [
+    0.1952,
+    0.193
+   ],
+   "2-0": [
+    0.3145,
+    0.3142
+   ],
+   "2-1": [
+    0.1965,
+    0.198
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Vit Kopriva",
+   "elo_points": -29.8,
+   "raw_diff": -85.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Rinky Hijikata",
+   "elo_points": 20.4,
+   "raw_diff": 86.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Rinky Hijikata",
+   "elo_points": 18.2,
+   "raw_diff": 149.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5165,
+   "B": 0.4918,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.346,
+   "B": 0.3823,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6291,
+   "B": 0.6255,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.7683,
+  "fair_odds": {
+   "decimal": 1.3,
+   "american": "-332"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.12 games; p10-p90 17-33); a single tiebreak or deciding set swings it. Data quality MEDIUM: Rinky Hijikata: latest point-level stats are 168 days old (2026-05-17); Vit Kopriva: latest point-level stats are 168 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7683,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Vit Kopriva +4.5 games",
+    "probability": 0.7565,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Rinky Hijikata to win at least one set",
+    "probability": 0.7061,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Vit Kopriva to win at least one set",
+    "probability": 0.6855,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6195,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6135,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6084,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Vit Kopriva +2.5 games",
+    "probability": 0.5917,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.585,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5158,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Rinky Hijikata to win",
+    "probability": 0.511,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Vit Kopriva to win",
+    "probability": 0.489,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4842,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.415,
+    "fair_decimal": 2.41
+   },
+   {
+    "selection": "Rinky Hijikata -2.5 games",
+    "probability": 0.4083,
+    "fair_decimal": 2.45
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T14:34:21+00:00",
+  "version": 1,
+  "input_hash": "106bdc1c37046c5a",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187354",
+  "scheduled_start_utc": "2026-11-01T04:00Z"
+ }
+}

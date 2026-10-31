@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Diana Shnaider",
+ "win_prob": {
+  "A": 0.4589,
+  "B": 0.5411
+ },
+ "win_prob_exact": {
+  "A": 0.45889,
+  "B": 0.54111
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.18,
+   "american": "+118"
+  },
+  "B": {
+   "decimal": 1.85,
+   "american": "-118"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.34,
+  "2-0": 0.2758,
+  "1-2": 0.2011,
+  "2-1": 0.1831
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0216,
+ "games": {
+  "mean": 23.16,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.02,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00145,
+   "13": 0.0073,
+   "14": 0.01758,
+   "15": 0.03595,
+   "16": 0.05586,
+   "17": 0.07783,
+   "18": 0.07982,
+   "19": 0.0801,
+   "20": 0.07161,
+   "21": 0.05053,
+   "22": 0.06613,
+   "23": 0.04685,
+   "24": 0.0176,
+   "25": 0.03637,
+   "26": 0.04287,
+   "27": 0.03581,
+   "28": 0.03869,
+   "29": 0.04184,
+   "30": 0.04072,
+   "31": 0.04022,
+   "32": 0.03761,
+   "33": 0.02304,
+   "34": 0.01741,
+   "35": 0.01834,
+   "36": 0.01019,
+   "37": 0.00205,
+   "38": 0.00376,
+   "39": 0.00247
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00094,
+  "-11": 0.00442,
+  "-10": 0.01123,
+  "-9": 0.02168,
+  "-8": 0.03699,
+  "-7": 0.05968,
+  "-6": 0.07293,
+  "-5": 0.08456,
+  "-4": 0.08932,
+  "-3": 0.06578,
+  "-2": 0.04527,
+  "-1": 0.03261,
+  "0": 0.03042,
+  "1": 0.03134,
+  "2": 0.04276,
+  "3": 0.06011,
+  "4": 0.07586,
+  "5": 0.07212,
+  "6": 0.0606,
+  "7": 0.04702,
+  "8": 0.02753,
+  "9": 0.01645,
+  "10": 0.00694,
+  "11": 0.00293,
+  "12": 0.00051
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.804,
+   "under": 0.196
+  },
+  {
+   "line": 18.5,
+   "over": 0.7242,
+   "under": 0.2758
+  },
+  {
+   "line": 19.5,
+   "over": 0.6441,
+   "under": 0.3559
+  },
+  {
+   "line": 20.5,
+   "over": 0.5725,
+   "under": 0.4275
+  },
+  {
+   "line": 21.5,
+   "over": 0.522,
+   "under": 0.478
+  },
+  {
+   "line": 22.5,
+   "over": 0.4558,
+   "under": 0.5442
+  },
+  {
+   "line": 23.5,
+   "over": 0.409,
+   "under": 0.591
+  },
+  {
+   "line": 24.5,
+   "over": 0.3914,
+   "under": 0.6086
+  },
+  {
+   "line": 25.5,
+   "over": 0.355,
+   "under": 0.645
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4128,
+   "B +1.5": 0.5872,
+   "B -1.5": 0.4928,
+   "A +1.5": 0.5072
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3701,
+   "B +2.5": 0.6299,
+   "B -2.5": 0.4475,
+   "A +2.5": 0.5525
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.31,
+   "B +3.5": 0.69,
+   "B -3.5": 0.3817,
+   "A +3.5": 0.6182
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2341,
+   "B +4.5": 0.7659,
+   "B -4.5": 0.2924,
+   "A +4.5": 0.7076
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.162,
+   "B +5.5": 0.838,
+   "B -5.5": 0.2079,
+   "A +5.5": 0.7921
+  }
+ ],
+ "p_tiebreak": 0.3167,
+ "p_a_wins_set": 0.66,
+ "p_b_wins_set": 0.7242,
+ "p_decider": 0.3842,
+ "expected_breaks": {
+  "total": 6.38,
+  "by_A": 3.07,
+  "by_B": 3.31
+ },
+ "expected_break_points": {
+  "A_creates": 7.42,
+  "B_creates": 7.81
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.34
+ },
+ "match": "Leylah Fernandez vs Diana Shnaider",
+ "players": {
+  "A": {
+   "id": "wta:220367",
+   "name": "Leylah Fernandez",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 22.0,
+   "age": 24.135318275154003,
+   "elo": 1897.9,
+   "surface_elo": {
+    "Hard": 1885.6,
+    "Clay": 1666.6,
+    "Grass": 1549.1
+   },
+   "matches_total": 311,
+   "matches_surface": {
+    "Hard": 223,
+    "Clay": 59,
+    "Grass": 29
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    16,
+    4
+   ],
+   "last52w": [
+    31,
+    25
+   ],
+   "last52w_surface": [
+    22,
+    16
+   ],
+   "career_surface_wl": [
+    134,
+    89
+   ],
+   "games_won_lost_52w": [
+    652,
+    593
+   ],
+   "sets_won_lost_52w": [
+    70,
+    61
+   ],
+   "avg_opp_elo_last20": 1794.2,
+   "vs_top_opp_52w": [
+    2,
+    7
+   ],
+   "serve_rating": 0.2588,
+   "return_rating": 0.0754,
+   "form_elo": 150.9,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6156,
+    "first_won": 0.6528,
+    "second_won": 0.4823,
+    "serve_pts_won": 0.5873,
+    "hold": 0.7191,
+    "aces_per_svgm": 0.2172,
+    "df_per_svgm": 0.4307,
+    "bp_saved": 0.6512,
+    "ret_pts_won": 0.4019,
+    "ret_1st_won": 0.3184,
+    "ret_2nd_won": 0.533,
+    "ret_games_won": 0.2803,
+    "bp_conv": 0.4111,
+    "bp_chances_per_retgm": 0.6818,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-10-20",
+     22.0
+    ],
+    [
+     "2026-01-19",
+     23.0
+    ],
+    [
+     "2026-02-01",
+     25.0
+    ],
+    [
+     "2026-02-08",
+     27.0
+    ],
+    [
+     "2026-02-15",
+     29.0
+    ],
+    [
+     "2026-03-04",
+     27.0
+    ],
+    [
+     "2026-03-17",
+     25.0
+    ],
+    [
+     "2026-03-30",
+     24.0
+    ],
+    [
+     "2026-04-13",
+     25.0
+    ],
+    [
+     "2026-05-05",
+     23.0
+    ],
+    [
+     "2026-05-17",
+     24.0
+    ],
+    [
+     "2026-05-25",
+     22.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:223670",
+   "name": "Diana Shnaider",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 23.0,
+   "age": 22.535318275154005,
+   "elo": 1988.2,
+   "surface_elo": {
+    "Hard": 1952.8,
+    "Clay": 1845.0,
+    "Grass": 1602.1
+   },
+   "matches_total": 200,
+   "matches_surface": {
+    "Hard": 124,
+    "Clay": 52,
+    "Grass": 24
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    38,
+    22
+   ],
+   "last52w_surface": [
+    27,
+    14
+   ],
+   "career_surface_wl": [
+    74,
+    50
+   ],
+   "games_won_lost_52w": [
+    717,
+    605
+   ],
+   "sets_won_lost_52w": [
+    84,
+    55
+   ],
+   "avg_opp_elo_last20": 1860.0,
+   "vs_top_opp_52w": [
+    6,
+    14
+   ],
+   "serve_rating": 0.2034,
+   "return_rating": 0.1207,
+   "form_elo": 100.9,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6504,
+    "first_won": 0.6526,
+    "second_won": 0.4413,
+    "serve_pts_won": 0.5788,
+    "hold": 0.7079,
+    "aces_per_svgm": 0.1311,
+    "df_per_svgm": 0.3521,
+    "bp_saved": 0.5979,
+    "ret_pts_won": 0.4301,
+    "ret_1st_won": 0.3686,
+    "ret_2nd_won": 0.5373,
+    "ret_games_won": 0.3358,
+    "bp_conv": 0.4611,
+    "bp_chances_per_retgm": 0.7283,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     17.0
+    ],
+    [
+     "2025-09-15",
+     19.0
+    ],
+    [
+     "2025-10-06",
+     18.0
+    ],
+    [
+     "2025-10-13",
+     19.0
+    ],
+    [
+     "2026-01-04",
+     21.0
+    ],
+    [
+     "2026-01-12",
+     23.0
+    ],
+    [
+     "2026-01-19",
+     22.0
+    ],
+    [
+     "2026-02-08",
+     21.0
+    ],
+    [
+     "2026-03-04",
+     20.0
+    ],
+    [
+     "2026-03-30",
+     19.0
+    ],
+    [
+     "2026-05-05",
+     20.0
+    ],
+    [
+     "2026-05-25",
+     23.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Toray Pan Pacific Open Tennis",
+ "round": "Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Leylah Fernandez: latest point-level stats are 167 days old (2026-05-17)",
+  "Diana Shnaider: latest point-level stats are 179 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -26.6,
+  "components_elo": {
+   "surface_elo": -67.3,
+   "overall_elo": -90.3,
+   "serve_return": 8.7,
+   "form": 50.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -8.2,
+   "overall_elo": -21.3,
+   "serve_return": 3.1,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4618,
+  "serve_return_implied_spw": {
+   "A": 0.5993,
+   "B": 0.5969
+  },
+  "point_probs": {
+   "A_serve": 0.5925,
+   "B_serve": 0.6037
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5925219943634031,
+   "B_serve": 0.6036545231944616
+  },
+  "hold_probs": {
+   "A": 0.7199,
+   "B": 0.7433
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4589,
+   0.4623
+  ],
+  "p_tb": [
+   0.3167,
+   0.3153
+  ],
+  "p_decider": [
+   0.3842,
+   0.3824
+  ],
+  "games_mean": [
+   23.157,
+   23.131
+  ],
+  "exp_breaks": [
+   6.38,
+   6.372
+  ],
+  "set_scores": {
+   "0-2": [
+    0.34,
+    0.339
+   ],
+   "1-2": [
+    0.2011,
+    0.1986
+   ],
+   "2-0": [
+    0.2758,
+    0.2786
+   ],
+   "2-1": [
+    0.1831,
+    0.1838
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0034
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Diana Shnaider",
+   "elo_points": -21.3,
+   "raw_diff": -90.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Diana Shnaider",
+   "elo_points": -8.2,
+   "raw_diff": -67.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Leylah Fernandez",
+   "elo_points": 3.1,
+   "raw_diff": 8.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4823,
+   "B": 0.4413,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4019,
+   "B": 0.4301,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5925,
+   "B": 0.6037,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Diana Shnaider to win at least one set",
+  "probability": 0.7242,
+  "fair_odds": {
+   "decimal": 1.38,
+   "american": "-263"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Leylah Fernandez: latest point-level stats are 167 days old (2026-05-17); Diana Shnaider: latest point-level stats are 179 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "Diana Shnaider to win at least one set",
+    "probability": 0.7242,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7242,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Leylah Fernandez +4.5 games",
+    "probability": 0.7076,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6833,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Leylah Fernandez to win at least one set",
+    "probability": 0.66,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6158,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6086,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5725,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Leylah Fernandez +2.5 games",
+    "probability": 0.5525,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5442,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Diana Shnaider to win",
+    "probability": 0.5411,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Leylah Fernandez to win",
+    "probability": 0.4589,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4558,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Diana Shnaider -2.5 games",
+    "probability": 0.4475,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4275,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T14:34:08+00:00",
+  "version": 1,
+  "input_hash": "a95e2aa05fb6c19c",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185689",
+  "scheduled_start_utc": "2026-11-01T03:00Z"
+ }
+}

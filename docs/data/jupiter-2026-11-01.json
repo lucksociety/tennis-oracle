@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
- "snapshot_at_utc": "2026-10-31T05:43:22Z",
- "snapshot_path": "market_snapshots/2026-11-01/20261031T054322Z.json",
+ "snapshot_at_utc": "2026-10-31T14:36:06Z",
+ "snapshot_path": "market_snapshots/2026-11-01/20261031T143606Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -89,24 +89,6 @@
    "outcomes": []
   },
   {
-   "espn_id": "185735",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "185689",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
    "espn_id": "185781",
    "event_id": null,
    "event_title": null,
@@ -134,7 +116,7 @@
    "outcomes": []
   },
   {
-   "espn_id": "187321",
+   "espn_id": "185735",
    "event_id": null,
    "event_title": null,
    "status": "no_market",
@@ -143,223 +125,7 @@
    "outcomes": []
   },
   {
-   "espn_id": "187318",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "187319",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "187320",
-   "event_id": "POLY-1286788",
-   "event_title": "Prudential Hong Kong Tennis Open, Qualification: Tatiana Prozorova vs Mika Stojsavljevic",
-   "status": "no_bet",
-   "best": null,
-   "verdict": "NO BET (no positive edge)",
-   "outcomes": [
-    {
-     "market_id": "POLY-6444104",
-     "type": "tennis_completed_match",
-     "label": "Yes",
-     "status": "open",
-     "skip": "market type tennis_completed_match not modelled"
-    },
-    {
-     "market_id": "POLY-6444103-0",
-     "type": "moneyline",
-     "label": "Tatiana Prozorova",
-     "status": "open",
-     "selection": "Tatiana Prozorova to win",
-     "model_p": 0.5751,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.3969,
-     "ev_per_1": -0.4084,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444103-1",
-     "type": "moneyline",
-     "label": "Mika Stojsavljevic",
-     "status": "open",
-     "selection": "Mika Stojsavljevic to win",
-     "model_p": 0.4249,
-     "price": 0.59,
-     "implied": 0.6069,
-     "edge": -0.182,
-     "ev_per_1": -0.2999,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444445-0",
-     "type": "tennis_set_totals",
-     "label": "Over 2.5",
-     "status": "open",
-     "selection": "Over 2.5 sets",
-     "model_p": 0.3714,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.6006,
-     "ev_per_1": -0.6179,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444445-1",
-     "type": "tennis_set_totals",
-     "label": "Under 2.5",
-     "status": "open",
-     "selection": "Under 2.5 sets",
-     "model_p": 0.6286,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.3434,
-     "ev_per_1": -0.3533,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444481-0",
-     "type": "tennis_match_totals",
-     "label": "Over 21.5",
-     "status": "open",
-     "selection": "Over 21.5 games",
-     "model_p": 0.4838,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.4882,
-     "ev_per_1": -0.5023,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444481-1",
-     "type": "tennis_match_totals",
-     "label": "Under 21.5",
-     "status": "open",
-     "selection": "Under 21.5 games",
-     "model_p": 0.5162,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
-    },
-    {
-     "market_id": "POLY-6444486-0",
-     "type": "tennis_match_totals",
-     "label": "Over 22.5",
-     "status": "open",
-     "selection": "Over 22.5 games",
-     "model_p": 0.4254,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5466,
-     "ev_per_1": -0.5623,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444486-1",
-     "type": "tennis_match_totals",
-     "label": "Under 22.5",
-     "status": "open",
-     "selection": "Under 22.5 games",
-     "model_p": 0.5746,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
-    },
-    {
-     "market_id": "POLY-6444491-0",
-     "type": "tennis_match_totals",
-     "label": "Over 23.5",
-     "status": "open",
-     "selection": "Over 23.5 games",
-     "model_p": 0.3846,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5875,
-     "ev_per_1": -0.6044,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444491-1",
-     "type": "tennis_match_totals",
-     "label": "Under 23.5",
-     "status": "open",
-     "selection": "Under 23.5 games",
-     "model_p": 0.6154,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
-    },
-    {
-     "market_id": "POLY-6444496-0",
-     "type": "handicap",
-     "label": "Tatiana Prozorova -1.5",
-     "status": "open",
-     "selection": "Tatiana Prozorova -1.5 sets",
-     "model_p": 0.3753,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5967,
-     "ev_per_1": -0.6139,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444496-1",
-     "type": "handicap",
-     "label": "Mika Stojsavljevic +1.5",
-     "status": "open",
-     "selection": "Mika Stojsavljevic +1.5 sets",
-     "model_p": 0.6248,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.3566,
-     "ev_per_1": -0.3633,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444501-0",
-     "type": "handicap",
-     "label": "Mika Stojsavljevic -1.5",
-     "status": "open",
-     "selection": "Mika Stojsavljevic -1.5 sets",
-     "model_p": 0.2534,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.7186,
-     "ev_per_1": -0.7393,
-     "eligible": false
-    },
-    {
-     "market_id": "POLY-6444501-1",
-     "type": "handicap",
-     "label": "Tatiana Prozorova +1.5",
-     "status": "open",
-     "selection": "Tatiana Prozorova +1.5 sets",
-     "model_p": 0.7467,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.2347,
-     "ev_per_1": -0.2391,
-     "eligible": false
-    }
-   ],
-   "n_priced": 11,
-   "n_eligible": 0
-  },
-  {
-   "espn_id": "187333",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "187330",
+   "espn_id": "187332",
    "event_id": null,
    "event_title": null,
    "status": "no_market",
@@ -377,7 +143,16 @@
    "outcomes": []
   },
   {
-   "espn_id": "187332",
+   "espn_id": "187330",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "187333",
    "event_id": null,
    "event_title": null,
    "status": "no_market",
