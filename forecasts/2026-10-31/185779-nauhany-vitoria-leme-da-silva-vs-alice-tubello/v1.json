@@ -1,0 +1,583 @@
+{
+ "predicted_winner": "Alice Tubello",
+ "win_prob": {
+  "A": 0.491,
+  "B": 0.509
+ },
+ "win_prob_exact": {
+  "A": 0.491,
+  "B": 0.509
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.04,
+   "american": "+104"
+  },
+  "B": {
+   "decimal": 1.96,
+   "american": "-104"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3189,
+  "2-0": 0.3045,
+  "1-2": 0.1901,
+  "2-1": 0.1865
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0171,
+ "games": {
+  "mean": 22.65,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00205,
+   "13": 0.00995,
+   "14": 0.02441,
+   "15": 0.04464,
+   "16": 0.06478,
+   "17": 0.08203,
+   "18": 0.08298,
+   "19": 0.07916,
+   "20": 0.06726,
+   "21": 0.04966,
+   "22": 0.05978,
+   "23": 0.04122,
+   "24": 0.0207,
+   "25": 0.03864,
+   "26": 0.0422,
+   "27": 0.03866,
+   "28": 0.04181,
+   "29": 0.04161,
+   "30": 0.03998,
+   "31": 0.03596,
+   "32": 0.03131,
+   "33": 0.02043,
+   "34": 0.01476,
+   "35": 0.01426,
+   "36": 0.00624,
+   "37": 0.00179,
+   "38": 0.00238,
+   "39": 0.00135
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00115,
+  "-11": 0.00521,
+  "-10": 0.01298,
+  "-9": 0.02459,
+  "-8": 0.03922,
+  "-7": 0.05953,
+  "-6": 0.07095,
+  "-5": 0.07879,
+  "-4": 0.0771,
+  "-3": 0.05697,
+  "-2": 0.03826,
+  "-1": 0.0294,
+  "0": 0.02818,
+  "1": 0.02955,
+  "2": 0.03849,
+  "3": 0.0563,
+  "4": 0.07426,
+  "5": 0.07436,
+  "6": 0.06957,
+  "7": 0.0567,
+  "8": 0.03746,
+  "9": 0.0231,
+  "10": 0.01212,
+  "11": 0.00486,
+  "12": 0.0009
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7721,
+   "under": 0.2279
+  },
+  {
+   "line": 18.5,
+   "over": 0.6892,
+   "under": 0.3108
+  },
+  {
+   "line": 19.5,
+   "over": 0.61,
+   "under": 0.39
+  },
+  {
+   "line": 20.5,
+   "over": 0.5427,
+   "under": 0.4573
+  },
+  {
+   "line": 21.5,
+   "over": 0.4931,
+   "under": 0.5069
+  },
+  {
+   "line": 22.5,
+   "over": 0.4333,
+   "under": 0.5667
+  },
+  {
+   "line": 23.5,
+   "over": 0.3921,
+   "under": 0.6079
+  },
+  {
+   "line": 24.5,
+   "over": 0.3714,
+   "under": 0.6286
+  },
+  {
+   "line": 25.5,
+   "over": 0.3327,
+   "under": 0.6673
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4481,
+   "B +1.5": 0.5519,
+   "B -1.5": 0.4648,
+   "A +1.5": 0.5353
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4096,
+   "B +2.5": 0.5904,
+   "B -2.5": 0.4265,
+   "A +2.5": 0.5735
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3533,
+   "B +3.5": 0.6467,
+   "B -3.5": 0.3695,
+   "A +3.5": 0.6305
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2791,
+   "B +4.5": 0.7209,
+   "B -4.5": 0.2924,
+   "A +4.5": 0.7076
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2047,
+   "B +5.5": 0.7953,
+   "B -5.5": 0.2136,
+   "A +5.5": 0.7864
+  }
+ ],
+ "p_tiebreak": 0.2676,
+ "p_a_wins_set": 0.6811,
+ "p_b_wins_set": 0.6955,
+ "p_decider": 0.3766,
+ "expected_breaks": {
+  "total": 7.79,
+  "by_A": 3.87,
+  "by_B": 3.92
+ },
+ "expected_break_points": {
+  "A_creates": 8.64,
+  "B_creates": 8.72
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3189
+ },
+ "match": "Nauhany Vitoria Leme Da Silva vs Alice Tubello",
+ "players": {
+  "A": {
+   "id": "wta:267382",
+   "name": "Nauhany Vitoria Leme Da Silva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 1206.0,
+   "age": 16.54442162902122,
+   "elo": 1622.3,
+   "surface_elo": {
+    "Hard": 1608.7,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 6,
+   "matches_surface": {
+    "Hard": 6,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    2
+   ],
+   "last20": [
+    4,
+    2
+   ],
+   "last52w": [
+    3,
+    1
+   ],
+   "last52w_surface": [
+    3,
+    1
+   ],
+   "career_surface_wl": [
+    4,
+    2
+   ],
+   "games_won_lost_52w": [
+    47,
+    50
+   ],
+   "sets_won_lost_52w": [
+    6,
+    4
+   ],
+   "avg_opp_elo_last20": 1545.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0082,
+   "return_rating": 0.0051,
+   "form_elo": 27.2,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2025-09-08",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-09-08",
+     1206.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220554",
+   "name": "Alice Tubello",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 226.0,
+   "age": 25.735318275154004,
+   "elo": 1621.7,
+   "surface_elo": {
+    "Hard": 1626.4,
+    "Clay": 1489.2,
+    "Grass": 1427.8
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 14,
+    "Clay": 3,
+    "Grass": 1
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    9,
+    9
+   ],
+   "last52w": [
+    8,
+    8
+   ],
+   "last52w_surface": [
+    8,
+    6
+   ],
+   "career_surface_wl": [
+    8,
+    6
+   ],
+   "games_won_lost_52w": [
+    184,
+    178
+   ],
+   "sets_won_lost_52w": [
+    22,
+    18
+   ],
+   "avg_opp_elo_last20": 1550.1,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0087,
+   "return_rating": -0.0034,
+   "form_elo": 79.7,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2025-08-04",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-08-04",
+     527.0
+    ],
+    [
+     "2026-05-25",
+     226.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Curitiba Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-10-31",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Nauhany Vitoria Leme Da Silva: sparse record (6 tour matches, 0 with serve stats in 52w)",
+  "Nauhany Vitoria Leme Da Silva: latest point-level stats are 418 days old (2025-09-08)",
+  "Alice Tubello: sparse record (18 tour matches, 0 with serve stats in 52w)",
+  "Alice Tubello: latest point-level stats are 453 days old (2025-08-04)",
+  "Point-level dataset cutoff 2026-06-08 is 145 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -4.6,
+  "components_elo": {
+   "surface_elo": -17.7,
+   "overall_elo": 0.5,
+   "serve_return": -7.5,
+   "form": -52.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -2.2,
+   "overall_elo": 0.1,
+   "serve_return": -2.6,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4934,
+  "serve_return_implied_spw": {
+   "A": 0.5646,
+   "B": 0.5666
+  },
+  "point_probs": {
+   "A_serve": 0.5646,
+   "B_serve": 0.5666
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5646408818590464,
+   "B_serve": 0.5665775526775936
+  },
+  "hold_probs": {
+   "A": 0.6576,
+   "B": 0.6621
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.491,
+   0.4935
+  ],
+  "p_tb": [
+   0.2676,
+   0.2674
+  ],
+  "p_decider": [
+   0.3766,
+   0.3773
+  ],
+  "games_mean": [
+   22.652,
+   22.657
+  ],
+  "exp_breaks": [
+   7.792,
+   7.796
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3189,
+    0.3166
+   ],
+   "1-2": [
+    0.1901,
+    0.1899
+   ],
+   "2-0": [
+    0.3045,
+    0.306
+   ],
+   "2-1": [
+    0.1865,
+    0.1874
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alice Tubello",
+   "elo_points": -2.6,
+   "raw_diff": -7.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alice Tubello",
+   "elo_points": -2.2,
+   "raw_diff": -17.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Nauhany Vitoria Leme Da Silva",
+   "elo_points": 0.1,
+   "raw_diff": 0.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5646,
+   "B": 0.5666,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7324,
+  "fair_odds": {
+   "decimal": 1.37,
+   "american": "-274"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Nauhany Vitoria Leme Da Silva: sparse record (6 tour matches, 0 with serve stats in 52w); Nauhany Vitoria Leme Da Silva: latest point-level stats are 418 days old (2025-09-08)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7324,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Nauhany Vitoria Leme Da Silva +4.5 games",
+    "probability": 0.7076,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Alice Tubello to win at least one set",
+    "probability": 0.6955,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6892,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Nauhany Vitoria Leme Da Silva to win at least one set",
+    "probability": 0.6811,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6286,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6234,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Nauhany Vitoria Leme Da Silva +2.5 games",
+    "probability": 0.5735,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5667,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5427,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Alice Tubello to win",
+    "probability": 0.509,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Nauhany Vitoria Leme Da Silva to win",
+    "probability": 0.491,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4573,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4333,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Alice Tubello -2.5 games",
+    "probability": 0.4265,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-10-31T05:41:59+00:00",
+  "version": 1,
+  "input_hash": "41268b4d8cf199e3",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185779",
+  "scheduled_start_utc": "2026-10-31T15:30Z"
+ }
+}
