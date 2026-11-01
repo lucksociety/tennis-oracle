@@ -120,7 +120,8 @@
     }
     const priced = outs.filter(o => o.implied != null);
     const elig = priced.filter(o => o.eligible).sort((x, y) => y.ev_per_1 - x.ev_per_1 || y.model_p - x.model_p);
-    const live = m.status && m.status !== 'STATUS_SCHEDULED';
+    const start = Date.parse(m.start_utc);
+    const live = (m.status && m.status !== 'STATUS_SCHEDULED') || ev.isLive || !Number.isFinite(start) || snapAt >= start;
     let best = elig[0] || null, verdict, status;
     if (live) { best = null; status = 'not_prematch'; verdict = m.completed ? 'NO BET (match finished)' : 'NO BET (match in progress - pre-match model not valid in-play)'; }
     else if (!priced.length) { status = 'no_prices'; verdict = 'NO BET (no priced outcomes)'; }
@@ -158,7 +159,7 @@
     n = n || 10; const all = [];
     for (const r of rows || []) {
       if (!r || r.status === 'not_prematch' || r.status === 'invalid_order' || r.status === 'no_forecast') continue;
-      for (const o of r.outcomes || []) if (o.implied != null) all.push(Object.assign({ espn_id: r.espn_id, event_title: r.event_title, is_best: !!(r.best && r.best.market_id === o.market_id) }, o));
+      for (const o of r.outcomes || []) if (o.implied != null && o.eligible && o.model_p > .5 && o.ev_per_1 > 0) all.push(Object.assign({ espn_id: r.espn_id, event_title: r.event_title, is_best: !!(r.best && r.best.market_id === o.market_id) }, o));
     }
     const prob = [...all].sort((a, b) => b.model_p - a.model_p || b.ev_per_1 - a.ev_per_1).slice(0, n);
     const ev = all.filter(o => o.ev_per_1 > 0).sort((a, b) => b.ev_per_1 - a.ev_per_1 || b.model_p - a.model_p).slice(0, n);

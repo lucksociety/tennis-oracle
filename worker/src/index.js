@@ -178,6 +178,16 @@ export async function buildReport(env, day, tour) {
   catch (e) { return [`🍀 **Luck Society Tennis Oracle** — no frozen slate published for ${day} yet. Dashboard: ${dash}`]; }
   if (tour && tour !== 'all') slate = Object.assign({}, slate, { matches: slate.matches.filter(m => m.tour === tour) });
   const bb = await bestBets(env, day, slate);
+  // A saved comparison is historical evidence, not a fresh pre-match recommendation.
+  const publicationNow = Date.now();
+  bb.rows = bb.rows.map(r => {
+    const m = slate.matches.find(m => String(m.espn_id) === String(r.espn_id));
+    const start = Date.parse(m?.start_utc);
+    return !Number.isFinite(start) || publicationNow >= start
+      ? { ...r, status: 'not_prematch', best: null, n_eligible: 0,
+          verdict: 'NO BET (scheduled start passed or unavailable)',
+          outcomes: (r.outcomes || []).map(o => ({ ...o, eligible: false })) } : r;
+  });
   const byId = new Map(bb.rows.map(r => [String(r.espn_id), r]));
   const extras = await engineExtras(env, day, slate, bb.events).catch(e => [{ err: String(e.message) }]);
   const ms = [...slate.matches].sort((a, b) => String(a.start_utc).localeCompare(String(b.start_utc)));
@@ -195,7 +205,7 @@ export async function buildReport(env, day, tour) {
   const lbl = o => { const m = slate.matches.find(x => String(x.espn_id) === String(o.espn_id)); const who = m ? `${m.players[0].name.split(' ').slice(-1)[0]} v ${m.players[1].name.split(' ').slice(-1)[0]}` : ''; return `${o.selection} (${who}) @ ${o.price.toFixed(2)} · impl ${pct(o.implied)} · model ${pct(o.model_p)} · edge ${o.edge > 0 ? '+' : ''}${(100 * o.edge).toFixed(1)} · EV ${o.ev_per_1 > 0 ? '+' : ''}${(100 * o.ev_per_1).toFixed(1)}%${o.eligible ? ' ✅' : ''}`; };
   if (LB.n_outcomes) {
     blocks.push('🏆 **Top probability bets**\n' + LB.top_probability.map((o, i) => `${i + 1}. ${lbl(o)}`).join('\n'));
-    blocks.push('📈 **Top EV bets** (+EV only; ✅ = also >50%)\n' + (LB.top_ev.length ? LB.top_ev.map((o, i) => `${i + 1}. ${lbl(o)}`).join('\n') : '_none_'));
+    blocks.push('📈 **Top EV bets** (model >50% and positive EV only)\n' + (LB.top_ev.length ? LB.top_ev.map((o, i) => `${i + 1}. ${lbl(o)}`).join('\n') : '_none_'));
   }
   blocks.push(`📊 Full reports & distributions: ${dash}`);
   return chunk(blocks);
