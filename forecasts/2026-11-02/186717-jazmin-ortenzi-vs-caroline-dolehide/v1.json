@@ -1,0 +1,683 @@
+{
+ "predicted_winner": "Caroline Dolehide",
+ "win_prob": {
+  "A": 0.4532,
+  "B": 0.5468
+ },
+ "win_prob_exact": {
+  "A": 0.45316,
+  "B": 0.54684
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.21,
+   "american": "+121"
+  },
+  "B": {
+   "decimal": 1.83,
+   "american": "-121"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3498,
+  "2-0": 0.2746,
+  "1-2": 0.1971,
+  "2-1": 0.1786
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0191,
+ "games": {
+  "mean": 22.68,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00198,
+   "13": 0.01024,
+   "14": 0.02408,
+   "15": 0.0443,
+   "16": 0.06434,
+   "17": 0.08112,
+   "18": 0.08391,
+   "19": 0.07836,
+   "20": 0.06873,
+   "21": 0.05033,
+   "22": 0.06039,
+   "23": 0.04137,
+   "24": 0.0207,
+   "25": 0.03631,
+   "26": 0.04137,
+   "27": 0.03769,
+   "28": 0.04141,
+   "29": 0.04252,
+   "30": 0.03908,
+   "31": 0.03628,
+   "32": 0.03243,
+   "33": 0.0203,
+   "34": 0.01523,
+   "35": 0.01466,
+   "36": 0.00705,
+   "37": 0.00176,
+   "38": 0.00265,
+   "39": 0.00141
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00133,
+  "-11": 0.00641,
+  "-10": 0.01534,
+  "-9": 0.02809,
+  "-8": 0.04398,
+  "-7": 0.06429,
+  "-6": 0.07808,
+  "-5": 0.08443,
+  "-4": 0.08127,
+  "-3": 0.05905,
+  "-2": 0.04039,
+  "-1": 0.03047,
+  "0": 0.02808,
+  "1": 0.02944,
+  "2": 0.0392,
+  "3": 0.05347,
+  "4": 0.07124,
+  "5": 0.06865,
+  "6": 0.06279,
+  "7": 0.04961,
+  "8": 0.03167,
+  "9": 0.01882,
+  "10": 0.00933,
+  "11": 0.00392,
+  "12": 0.00065
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7739,
+   "under": 0.2261
+  },
+  {
+   "line": 18.5,
+   "over": 0.69,
+   "under": 0.31
+  },
+  {
+   "line": 19.5,
+   "over": 0.6117,
+   "under": 0.3883
+  },
+  {
+   "line": 20.5,
+   "over": 0.5429,
+   "under": 0.4571
+  },
+  {
+   "line": 21.5,
+   "over": 0.4926,
+   "under": 0.5074
+  },
+  {
+   "line": 22.5,
+   "over": 0.4322,
+   "under": 0.5678
+  },
+  {
+   "line": 23.5,
+   "over": 0.3908,
+   "under": 0.6091
+  },
+  {
+   "line": 24.5,
+   "over": 0.3701,
+   "under": 0.6299
+  },
+  {
+   "line": 25.5,
+   "over": 0.3338,
+   "under": 0.6662
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4093,
+   "B +1.5": 0.5907,
+   "B -1.5": 0.5027,
+   "A +1.5": 0.4973
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3701,
+   "B +2.5": 0.6299,
+   "B -2.5": 0.4623,
+   "A +2.5": 0.5377
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3167,
+   "B +3.5": 0.6833,
+   "B -3.5": 0.4032,
+   "A +3.5": 0.5968
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2454,
+   "B +4.5": 0.7546,
+   "B -4.5": 0.322,
+   "A +4.5": 0.6781
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1768,
+   "B +5.5": 0.8232,
+   "B -5.5": 0.2375,
+   "A +5.5": 0.7625
+  }
+ ],
+ "p_tiebreak": 0.2711,
+ "p_a_wins_set": 0.6502,
+ "p_b_wins_set": 0.7254,
+ "p_decider": 0.3757,
+ "expected_breaks": {
+  "total": 7.57,
+  "by_A": 3.64,
+  "by_B": 3.93
+ },
+ "expected_break_points": {
+  "A_creates": 8.29,
+  "B_creates": 8.74
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3498
+ },
+ "match": "Jazmin Ortenzi vs Caroline Dolehide",
+ "players": {
+  "A": {
+   "id": "wta:220446",
+   "name": "Jazmin Ortenzi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 206.0,
+   "age": 24.894113620807666,
+   "elo": 1558.9,
+   "surface_elo": {
+    "Hard": 1525.2,
+    "Clay": 1696.8,
+    "Grass": 1427.8
+   },
+   "matches_total": 23,
+   "matches_surface": {
+    "Hard": 15,
+    "Clay": 7,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    8,
+    8
+   ],
+   "last52w_surface": [
+    5,
+    6
+   ],
+   "career_surface_wl": [
+    7,
+    8
+   ],
+   "games_won_lost_52w": [
+    170,
+    169
+   ],
+   "sets_won_lost_52w": [
+    20,
+    17
+   ],
+   "avg_opp_elo_last20": 1579.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0365,
+   "return_rating": 0.0451,
+   "form_elo": -5.7,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.6877,
+    "first_won": 0.5826,
+    "second_won": 0.3737,
+    "serve_pts_won": 0.5174,
+    "hold": 0.5556,
+    "aces_per_svgm": 0.1556,
+    "df_per_svgm": 0.3111,
+    "bp_saved": 0.4444,
+    "ret_pts_won": 0.5139,
+    "ret_1st_won": 0.4046,
+    "ret_2nd_won": 0.6783,
+    "ret_games_won": 0.5556,
+    "bp_conv": 0.6757,
+    "bp_chances_per_retgm": 0.8222,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2022-04-15",
+     468.0
+    ],
+    [
+     "2024-11-15",
+     274.0
+    ],
+    [
+     "2024-11-25",
+     273.0
+    ],
+    [
+     "2025-09-08",
+     289.0
+    ],
+    [
+     "2026-03-30",
+     206.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:214452",
+   "name": "Caroline Dolehide",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 135.0,
+   "age": 28.094113620807665,
+   "elo": 1598.1,
+   "surface_elo": {
+    "Hard": 1570.4,
+    "Clay": 1587.9,
+    "Grass": 1408.0
+   },
+   "matches_total": 132,
+   "matches_surface": {
+    "Hard": 95,
+    "Clay": 25,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    5,
+    15
+   ],
+   "last52w": [
+    4,
+    8
+   ],
+   "last52w_surface": [
+    4,
+    6
+   ],
+   "career_surface_wl": [
+    37,
+    58
+   ],
+   "games_won_lost_52w": [
+    126,
+    139
+   ],
+   "sets_won_lost_52w": [
+    10,
+    18
+   ],
+   "avg_opp_elo_last20": 1723.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0937,
+   "return_rating": 0.0462,
+   "form_elo": -61.8,
+   "last_match": "2026-09-16",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.6991,
+    "first_won": 0.6203,
+    "second_won": 0.3235,
+    "serve_pts_won": 0.531,
+    "hold": 0.6129,
+    "aces_per_svgm": 0.0645,
+    "df_per_svgm": 0.6774,
+    "bp_saved": 0.52,
+    "ret_pts_won": 0.4048,
+    "ret_1st_won": 0.2782,
+    "ret_2nd_won": 0.6234,
+    "ret_games_won": 0.2581,
+    "bp_conv": 0.3478,
+    "bp_chances_per_retgm": 0.7419,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2025-05-18",
+     66.0
+    ],
+    [
+     "2025-05-26",
+     67.0
+    ],
+    [
+     "2025-06-16",
+     64.0
+    ],
+    [
+     "2025-06-30",
+     67.0
+    ],
+    [
+     "2025-07-21",
+     57.0
+    ],
+    [
+     "2025-07-27",
+     55.0
+    ],
+    [
+     "2025-08-07",
+     76.0
+    ],
+    [
+     "2025-08-17",
+     74.0
+    ],
+    [
+     "2025-08-25",
+     78.0
+    ],
+    [
+     "2025-09-24",
+     88.0
+    ],
+    [
+     "2026-02-23",
+     126.0
+    ],
+    [
+     "2026-03-30",
+     135.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Jazmin Ortenzi: limited recent/surface sample (16 matches 52w, 15 career on Hard, 4 with stats)",
+  "Jazmin Ortenzi: latest point-level stats are 217 days old (2026-03-30)",
+  "Caroline Dolehide: limited recent/surface sample (12 matches 52w, 95 career on Hard, 3 with stats)",
+  "Caroline Dolehide: latest point-level stats are 217 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -33.1,
+  "components_elo": {
+   "surface_elo": -45.2,
+   "overall_elo": -39.2,
+   "serve_return": -52.3,
+   "form": 56.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -5.5,
+   "overall_elo": -9.3,
+   "serve_return": -18.2,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4525,
+  "serve_return_implied_spw": {
+   "A": 0.5634,
+   "B": 0.5776
+  },
+  "point_probs": {
+   "A_serve": 0.5636,
+   "B_serve": 0.5774
+  },
+  "point_probs_exact": {
+   "A_serve": 0.563585985373276,
+   "B_serve": 0.5774203584253566
+  },
+  "hold_probs": {
+   "A": 0.6552,
+   "B": 0.6868
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4532,
+   0.4534
+  ],
+  "p_tb": [
+   0.2711,
+   0.2722
+  ],
+  "p_decider": [
+   0.3757,
+   0.3763
+  ],
+  "games_mean": [
+   22.678,
+   22.687
+  ],
+  "exp_breaks": [
+   7.568,
+   7.566
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3498,
+    0.3496
+   ],
+   "1-2": [
+    0.1971,
+    0.1971
+   ],
+   "2-0": [
+    0.2746,
+    0.2742
+   ],
+   "2-1": [
+    0.1786,
+    0.1792
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0011
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Caroline Dolehide",
+   "elo_points": -18.2,
+   "raw_diff": -52.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Caroline Dolehide",
+   "elo_points": -9.3,
+   "raw_diff": -39.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Caroline Dolehide",
+   "elo_points": -5.5,
+   "raw_diff": -45.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3737,
+   "B": 0.3235,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.5139,
+   "B": 0.4048,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5636,
+   "B": 0.5774,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7289,
+  "fair_odds": {
+   "decimal": 1.37,
+   "american": "-269"
+  },
+  "confidence": "Medium",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality MEDIUM: Jazmin Ortenzi: limited recent/surface sample (16 matches 52w, 15 career on Hard, 4 with stats); Jazmin Ortenzi: latest point-level stats are 217 days old (2026-03-30)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7289,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Caroline Dolehide to win at least one set",
+    "probability": 0.7254,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.69,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Jazmin Ortenzi +4.5 games",
+    "probability": 0.6781,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Jazmin Ortenzi to win at least one set",
+    "probability": 0.6502,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6299,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6243,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5678,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Caroline Dolehide to win",
+    "probability": 0.5468,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5429,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Jazmin Ortenzi +2.5 games",
+    "probability": 0.5377,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Caroline Dolehide -2.5 games",
+    "probability": 0.4623,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4571,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Jazmin Ortenzi to win",
+    "probability": 0.4532,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4322,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T20:31:50+00:00",
+  "version": 1,
+  "input_hash": "fbb43fd1e42609f6",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186717",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

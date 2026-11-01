@@ -1,0 +1,651 @@
+{
+ "predicted_winner": "Sofia Costoulas",
+ "win_prob": {
+  "A": 0.5001,
+  "B": 0.4999
+ },
+ "win_prob_exact": {
+  "A": 0.50009,
+  "B": 0.49990999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.0,
+   "american": "-100"
+  },
+  "B": {
+   "decimal": 2.0,
+   "american": "+100"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3114,
+  "2-0": 0.3109,
+  "2-1": 0.1892,
+  "1-2": 0.1885
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0172,
+ "games": {
+  "mean": 22.66,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00207,
+   "13": 0.01015,
+   "14": 0.02356,
+   "15": 0.04464,
+   "16": 0.06635,
+   "17": 0.08174,
+   "18": 0.08222,
+   "19": 0.07772,
+   "20": 0.06772,
+   "21": 0.05182,
+   "22": 0.06076,
+   "23": 0.04052,
+   "24": 0.02096,
+   "25": 0.03768,
+   "26": 0.04115,
+   "27": 0.03811,
+   "28": 0.04049,
+   "29": 0.04232,
+   "30": 0.03983,
+   "31": 0.03739,
+   "32": 0.03057,
+   "33": 0.02069,
+   "34": 0.01453,
+   "35": 0.01451,
+   "36": 0.00666,
+   "37": 0.0018,
+   "38": 0.00268,
+   "39": 0.00136
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00108,
+  "-11": 0.00527,
+  "-10": 0.01223,
+  "-9": 0.02354,
+  "-8": 0.03889,
+  "-7": 0.05752,
+  "-6": 0.06879,
+  "-5": 0.07752,
+  "-4": 0.07523,
+  "-3": 0.05637,
+  "-2": 0.03792,
+  "-1": 0.03052,
+  "0": 0.02814,
+  "1": 0.03109,
+  "2": 0.03898,
+  "3": 0.05585,
+  "4": 0.07667,
+  "5": 0.07679,
+  "6": 0.06936,
+  "7": 0.05715,
+  "8": 0.03909,
+  "9": 0.02385,
+  "10": 0.01218,
+  "11": 0.00498,
+  "12": 0.00099
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7715,
+   "under": 0.2285
+  },
+  {
+   "line": 18.5,
+   "over": 0.6893,
+   "under": 0.3107
+  },
+  {
+   "line": 19.5,
+   "over": 0.6116,
+   "under": 0.3885
+  },
+  {
+   "line": 20.5,
+   "over": 0.5438,
+   "under": 0.4562
+  },
+  {
+   "line": 21.5,
+   "over": 0.492,
+   "under": 0.508
+  },
+  {
+   "line": 22.5,
+   "over": 0.4313,
+   "under": 0.5688
+  },
+  {
+   "line": 23.5,
+   "over": 0.3907,
+   "under": 0.6093
+  },
+  {
+   "line": 24.5,
+   "over": 0.3698,
+   "under": 0.6302
+  },
+  {
+   "line": 25.5,
+   "over": 0.3321,
+   "under": 0.6679
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4559,
+   "B +1.5": 0.5441,
+   "B -1.5": 0.4544,
+   "A +1.5": 0.5456
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4169,
+   "B +2.5": 0.5831,
+   "B -2.5": 0.4164,
+   "A +2.5": 0.5836
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3611,
+   "B +3.5": 0.6389,
+   "B -3.5": 0.3601,
+   "A +3.5": 0.6399
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2844,
+   "B +4.5": 0.7156,
+   "B -4.5": 0.2848,
+   "A +4.5": 0.7152
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2076,
+   "B +5.5": 0.7924,
+   "B -5.5": 0.2073,
+   "A +5.5": 0.7927
+  }
+ ],
+ "p_tiebreak": 0.2659,
+ "p_a_wins_set": 0.6886,
+ "p_b_wins_set": 0.6892,
+ "p_decider": 0.3778,
+ "expected_breaks": {
+  "total": 7.77,
+  "by_A": 3.89,
+  "by_B": 3.89
+ },
+ "expected_break_points": {
+  "A_creates": 8.67,
+  "B_creates": 8.66
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3109
+ },
+ "match": "Sofia Costoulas vs Marina Bassols Ribera",
+ "players": {
+  "A": {
+   "id": "wta:223321",
+   "name": "Sofia Costoulas",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 134.0,
+   "age": 21.494113620807664,
+   "elo": 1421.8,
+   "surface_elo": {
+    "Hard": 1492.1,
+    "Clay": 1385.1,
+    "Grass": 1401.8
+   },
+   "matches_total": 20,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 2,
+    "Grass": 1
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    7,
+    11
+   ],
+   "last52w_surface": [
+    7,
+    8
+   ],
+   "career_surface_wl": [
+    8,
+    9
+   ],
+   "games_won_lost_52w": [
+    196,
+    203
+   ],
+   "sets_won_lost_52w": [
+    18,
+    24
+   ],
+   "avg_opp_elo_last20": 1570.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0436,
+   "return_rating": 0.0475,
+   "form_elo": -57.8,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.5235,
+    "first_won": 0.7172,
+    "second_won": 0.4242,
+    "serve_pts_won": 0.5776,
+    "hold": 0.6744,
+    "aces_per_svgm": 0.3023,
+    "df_per_svgm": 0.3256,
+    "bp_saved": 0.5172,
+    "ret_pts_won": 0.4596,
+    "ret_1st_won": 0.4,
+    "ret_2nd_won": 0.5882,
+    "ret_games_won": 0.4186,
+    "bp_conv": 0.4286,
+    "bp_chances_per_retgm": 0.9767,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2024-04-12",
+     279.0
+    ],
+    [
+     "2024-11-15",
+     290.0
+    ],
+    [
+     "2026-01-05",
+     159.0
+    ],
+    [
+     "2026-03-30",
+     134.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215453",
+   "name": "Marina Bassols Ribera",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 175.0,
+   "age": 26.840793976728268,
+   "elo": 1549.5,
+   "surface_elo": {
+    "Hard": 1525.9,
+    "Clay": 1450.0,
+    "Grass": 1549.5
+   },
+   "matches_total": 42,
+   "matches_surface": {
+    "Hard": 27,
+    "Clay": 11,
+    "Grass": 4
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    12,
+    14
+   ],
+   "last52w_surface": [
+    9,
+    10
+   ],
+   "career_surface_wl": [
+    9,
+    18
+   ],
+   "games_won_lost_52w": [
+    282,
+    279
+   ],
+   "sets_won_lost_52w": [
+    32,
+    31
+   ],
+   "avg_opp_elo_last20": 1565.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0076,
+   "return_rating": -0.0137,
+   "form_elo": 70.1,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2024-09-09",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-01-30",
+     124.0
+    ],
+    [
+     "2023-02-06",
+     128.0
+    ],
+    [
+     "2023-02-27",
+     124.0
+    ],
+    [
+     "2023-04-03",
+     122.0
+    ],
+    [
+     "2023-04-24",
+     119.0
+    ],
+    [
+     "2023-10-16",
+     110.0
+    ],
+    [
+     "2024-02-05",
+     105.0
+    ],
+    [
+     "2024-07-15",
+     121.0
+    ],
+    [
+     "2024-07-22",
+     122.0
+    ],
+    [
+     "2024-08-26",
+     114.0
+    ],
+    [
+     "2024-09-09",
+     113.0
+    ],
+    [
+     "2026-05-25",
+     175.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Sofia Costoulas: limited recent/surface sample (18 matches 52w, 17 career on Hard, 4 with stats)",
+  "Sofia Costoulas: latest point-level stats are 217 days old (2026-03-30)",
+  "Marina Bassols Ribera: sparse record (42 tour matches, 0 with serve stats in 52w)",
+  "Marina Bassols Ribera: latest point-level stats are 784 days old (2024-09-09)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 1.4,
+  "components_elo": {
+   "surface_elo": -33.9,
+   "overall_elo": -127.6,
+   "serve_return": 101.7,
+   "form": -127.8
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.1,
+   "overall_elo": -30.2,
+   "serve_return": 35.5,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.502,
+  "serve_return_implied_spw": {
+   "A": 0.5798,
+   "B": 0.5522
+  },
+  "point_probs": {
+   "A_serve": 0.5663,
+   "B_serve": 0.5657
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5663007978534024,
+   "B_serve": 0.5657427343860189
+  },
+  "hold_probs": {
+   "A": 0.6615,
+   "B": 0.6602
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5001,
+   0.5019
+  ],
+  "p_tb": [
+   0.2659,
+   0.2679
+  ],
+  "p_decider": [
+   0.3778,
+   0.3774
+  ],
+  "games_mean": [
+   22.658,
+   22.662
+  ],
+  "exp_breaks": [
+   7.772,
+   7.777
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3114,
+    0.3098
+   ],
+   "1-2": [
+    0.1885,
+    0.1883
+   ],
+   "2-0": [
+    0.3109,
+    0.3128
+   ],
+   "2-1": [
+    0.1892,
+    0.1891
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.002
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Sofia Costoulas",
+   "elo_points": 35.5,
+   "raw_diff": 101.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Marina Bassols Ribera",
+   "elo_points": -30.2,
+   "raw_diff": -127.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Marina Bassols Ribera",
+   "elo_points": -4.1,
+   "raw_diff": -33.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5663,
+   "B": 0.5657,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7341,
+  "fair_odds": {
+   "decimal": 1.36,
+   "american": "-276"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Sofia Costoulas: limited recent/surface sample (18 matches 52w, 17 career on Hard, 4 with stats); Sofia Costoulas: latest point-level stats are 217 days old (2026-03-30)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7341,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Marina Bassols Ribera +4.5 games",
+    "probability": 0.7156,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6893,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Marina Bassols Ribera to win at least one set",
+    "probability": 0.6892,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Sofia Costoulas to win at least one set",
+    "probability": 0.6886,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6302,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6222,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Marina Bassols Ribera +2.5 games",
+    "probability": 0.5831,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5688,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5438,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Sofia Costoulas to win",
+    "probability": 0.5001,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Marina Bassols Ribera to win",
+    "probability": 0.4999,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4562,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4313,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Sofia Costoulas -2.5 games",
+    "probability": 0.4169,
+    "fair_decimal": 2.4
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T20:31:53+00:00",
+  "version": 1,
+  "input_hash": "0caadae392077537",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186706",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,625 @@
+{
+ "predicted_winner": "Irene Burillo",
+ "win_prob": {
+  "A": 0.4301,
+  "B": 0.5699
+ },
+ "win_prob_exact": {
+  "A": 0.43007,
+  "B": 0.56993
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.33,
+   "american": "+133"
+  },
+  "B": {
+   "decimal": 1.75,
+   "american": "-133"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3689,
+  "2-0": 0.2567,
+  "1-2": 0.2011,
+  "2-1": 0.1733
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0195,
+ "games": {
+  "mean": 22.67,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00223,
+   "13": 0.00968,
+   "14": 0.02404,
+   "15": 0.04468,
+   "16": 0.06439,
+   "17": 0.08241,
+   "18": 0.08381,
+   "19": 0.07812,
+   "20": 0.0686,
+   "21": 0.05111,
+   "22": 0.06073,
+   "23": 0.04153,
+   "24": 0.0193,
+   "25": 0.03677,
+   "26": 0.04003,
+   "27": 0.03791,
+   "28": 0.04124,
+   "29": 0.04114,
+   "30": 0.03967,
+   "31": 0.03772,
+   "32": 0.03092,
+   "33": 0.02034,
+   "34": 0.01502,
+   "35": 0.01553,
+   "36": 0.00718,
+   "37": 0.00196,
+   "38": 0.00254,
+   "39": 0.0014
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0016,
+  "-11": 0.00658,
+  "-10": 0.0166,
+  "-9": 0.03061,
+  "-8": 0.04649,
+  "-7": 0.06876,
+  "-6": 0.08241,
+  "-5": 0.08774,
+  "-4": 0.08345,
+  "-3": 0.06143,
+  "-2": 0.04031,
+  "-1": 0.03078,
+  "0": 0.02749,
+  "1": 0.03011,
+  "2": 0.03743,
+  "3": 0.05212,
+  "4": 0.06818,
+  "5": 0.06632,
+  "6": 0.05823,
+  "7": 0.04583,
+  "8": 0.02872,
+  "9": 0.01682,
+  "10": 0.00816,
+  "11": 0.0032,
+  "12": 0.00063
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7726,
+   "under": 0.2274
+  },
+  {
+   "line": 18.5,
+   "over": 0.6888,
+   "under": 0.3112
+  },
+  {
+   "line": 19.5,
+   "over": 0.6106,
+   "under": 0.3894
+  },
+  {
+   "line": 20.5,
+   "over": 0.542,
+   "under": 0.458
+  },
+  {
+   "line": 21.5,
+   "over": 0.4909,
+   "under": 0.5091
+  },
+  {
+   "line": 22.5,
+   "over": 0.4302,
+   "under": 0.5698
+  },
+  {
+   "line": 23.5,
+   "over": 0.3887,
+   "under": 0.6113
+  },
+  {
+   "line": 24.5,
+   "over": 0.3694,
+   "under": 0.6306
+  },
+  {
+   "line": 25.5,
+   "over": 0.3326,
+   "under": 0.6674
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3856,
+   "B +1.5": 0.6144,
+   "B -1.5": 0.526,
+   "A +1.5": 0.474
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3482,
+   "B +2.5": 0.6518,
+   "B -2.5": 0.4857,
+   "A +2.5": 0.5143
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2961,
+   "B +3.5": 0.7039,
+   "B -3.5": 0.4242,
+   "A +3.5": 0.5758
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2279,
+   "B +4.5": 0.7721,
+   "B -4.5": 0.3408,
+   "A +4.5": 0.6592
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1616,
+   "B +5.5": 0.8384,
+   "B -5.5": 0.253,
+   "A +5.5": 0.747
+  }
+ ],
+ "p_tiebreak": 0.2727,
+ "p_a_wins_set": 0.6311,
+ "p_b_wins_set": 0.7433,
+ "p_decider": 0.3744,
+ "expected_breaks": {
+  "total": 7.48,
+  "by_A": 3.52,
+  "by_B": 3.96
+ },
+ "expected_break_points": {
+  "A_creates": 8.09,
+  "B_creates": 8.77
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3689
+ },
+ "match": "Elvina Kalieva vs Irene Burillo",
+ "players": {
+  "A": {
+   "id": "wta:220722",
+   "name": "Elvina Kalieva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 134.0,
+   "age": 23.23388090349076,
+   "elo": 1615.9,
+   "surface_elo": {
+    "Hard": 1594.0,
+    "Clay": 1332.6,
+    "Grass": 1538.5
+   },
+   "matches_total": 32,
+   "matches_surface": {
+    "Hard": 26,
+    "Clay": 4,
+    "Grass": 2
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    12,
+    14
+   ],
+   "last52w_surface": [
+    11,
+    10
+   ],
+   "career_surface_wl": [
+    11,
+    15
+   ],
+   "games_won_lost_52w": [
+    275,
+    324
+   ],
+   "sets_won_lost_52w": [
+    27,
+    36
+   ],
+   "avg_opp_elo_last20": 1623.3,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0489,
+   "return_rating": -0.1042,
+   "form_elo": 43.2,
+   "last_match": "2026-10-10",
+   "last_stats_match": "2026-04-21",
+   "stats_52w": {
+    "first_in": 0.5827,
+    "first_won": 0.6463,
+    "second_won": 0.439,
+    "serve_pts_won": 0.5598,
+    "hold": 0.6667,
+    "aces_per_svgm": 0.3333,
+    "df_per_svgm": 0.4912,
+    "bp_saved": 0.5778,
+    "ret_pts_won": 0.3657,
+    "ret_1st_won": 0.3164,
+    "ret_2nd_won": 0.4593,
+    "ret_games_won": 0.1724,
+    "bp_conv": 0.3125,
+    "bp_chances_per_retgm": 0.5517,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2022-03-07",
+     317.0
+    ],
+    [
+     "2023-07-23",
+     173.0
+    ],
+    [
+     "2023-07-31",
+     178.0
+    ],
+    [
+     "2023-09-18",
+     182.0
+    ],
+    [
+     "2024-08-19",
+     302.0
+    ],
+    [
+     "2025-02-24",
+     259.0
+    ],
+    [
+     "2026-03-17",
+     154.0
+    ],
+    [
+     "2026-03-30",
+     143.0
+    ],
+    [
+     "2026-04-13",
+     137.0
+    ],
+    [
+     "2026-04-21",
+     134.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn4546",
+   "name": "Irene Burillo",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1612.3,
+   "surface_elo": {
+    "Hard": 1604.0,
+    "Clay": 1585.8,
+    "Grass": 1500.0
+   },
+   "matches_total": 15,
+   "matches_surface": {
+    "Hard": 12,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    9,
+    6
+   ],
+   "last52w": [
+    9,
+    6
+   ],
+   "last52w_surface": [
+    7,
+    5
+   ],
+   "career_surface_wl": [
+    7,
+    5
+   ],
+   "games_won_lost_52w": [
+    188,
+    181
+   ],
+   "sets_won_lost_52w": [
+    21,
+    18
+   ],
+   "avg_opp_elo_last20": 1588.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -6.4,
+   "last_match": "2026-10-14",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Elvina Kalieva: limited recent/surface sample (26 matches 52w, 26 career on Hard, 5 with stats)",
+  "Elvina Kalieva: latest point-level stats are 195 days old (2026-04-21)",
+  "Irene Burillo: sparse record (15 tour matches, 0 with serve stats in 52w)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -48.6,
+  "components_elo": {
+   "surface_elo": -9.9,
+   "overall_elo": 3.5,
+   "serve_return": -138.1,
+   "form": 49.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -1.2,
+   "overall_elo": 0.8,
+   "serve_return": -48.2,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4305,
+  "serve_return_implied_spw": {
+   "A": 0.5537,
+   "B": 0.5911
+  },
+  "point_probs": {
+   "A_serve": 0.5623,
+   "B_serve": 0.5827
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5623430873726848,
+   "B_serve": 0.5826528525192286
+  },
+  "hold_probs": {
+   "A": 0.6523,
+   "B": 0.6984
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4301,
+   0.4317
+  ],
+  "p_tb": [
+   0.2727,
+   0.2735
+  ],
+  "p_decider": [
+   0.3744,
+   0.3744
+  ],
+  "games_mean": [
+   22.671,
+   22.676
+  ],
+  "exp_breaks": [
+   7.477,
+   7.466
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3689,
+    0.368
+   ],
+   "1-2": [
+    0.2011,
+    0.2003
+   ],
+   "2-0": [
+    0.2567,
+    0.2576
+   ],
+   "2-1": [
+    0.1733,
+    0.1741
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Irene Burillo",
+   "elo_points": -48.2,
+   "raw_diff": -138.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Irene Burillo",
+   "elo_points": -1.2,
+   "raw_diff": -9.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Elvina Kalieva",
+   "elo_points": 0.8,
+   "raw_diff": 3.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5623,
+   "B": 0.5827,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Irene Burillo to win at least one set",
+  "probability": 0.7433,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-290"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Elvina Kalieva: limited recent/surface sample (26 matches 52w, 26 career on Hard, 5 with stats); Elvina Kalieva: latest point-level stats are 195 days old (2026-04-21)",
+  "candidates": [
+   {
+    "selection": "Irene Burillo to win at least one set",
+    "probability": 0.7433,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7273,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6888,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Elvina Kalieva +4.5 games",
+    "probability": 0.6592,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Elvina Kalieva to win at least one set",
+    "probability": 0.6311,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6306,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6256,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Irene Burillo to win",
+    "probability": 0.5699,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5698,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.542,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Elvina Kalieva +2.5 games",
+    "probability": 0.5143,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Irene Burillo -2.5 games",
+    "probability": 0.4857,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.458,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4302,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Elvina Kalieva to win",
+    "probability": 0.4301,
+    "fair_decimal": 2.33
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T20:31:47+00:00",
+  "version": 1,
+  "input_hash": "a64abfcd5148c5c8",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186719",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

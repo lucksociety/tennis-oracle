@@ -1,0 +1,682 @@
+{
+ "predicted_winner": "Tomas Machac",
+ "win_prob": {
+  "A": 0.3793,
+  "B": 0.6207
+ },
+ "win_prob_exact": {
+  "A": 0.37934,
+  "B": 0.62066
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.64,
+   "american": "+164"
+  },
+  "B": {
+   "decimal": 1.61,
+   "american": "-164"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.401,
+  "1-2": 0.2197,
+  "2-0": 0.2121,
+  "2-1": 0.1672
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0308,
+ "games": {
+  "mean": 24.17,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.21,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00053,
+   "13": 0.00329,
+   "14": 0.0096,
+   "15": 0.02209,
+   "16": 0.03694,
+   "17": 0.06059,
+   "18": 0.07101,
+   "19": 0.08137,
+   "20": 0.07537,
+   "21": 0.0516,
+   "22": 0.08462,
+   "23": 0.06566,
+   "24": 0.01044,
+   "25": 0.03328,
+   "26": 0.05009,
+   "27": 0.02681,
+   "28": 0.03306,
+   "29": 0.03621,
+   "30": 0.03703,
+   "31": 0.04457,
+   "32": 0.0449,
+   "33": 0.02845,
+   "34": 0.02075,
+   "35": 0.03224,
+   "36": 0.02178,
+   "37": 0.0023,
+   "38": 0.00739,
+   "39": 0.00803
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00045,
+  "-11": 0.00274,
+  "-10": 0.00773,
+  "-9": 0.01787,
+  "-8": 0.03102,
+  "-7": 0.05527,
+  "-6": 0.07738,
+  "-5": 0.10137,
+  "-4": 0.11467,
+  "-3": 0.09243,
+  "-2": 0.06391,
+  "-1": 0.03868,
+  "0": 0.03473,
+  "1": 0.03482,
+  "2": 0.04992,
+  "3": 0.06566,
+  "4": 0.07315,
+  "5": 0.0572,
+  "6": 0.03738,
+  "7": 0.02435,
+  "8": 0.01105,
+  "9": 0.00551,
+  "10": 0.00204,
+  "11": 0.00059,
+  "12": 8e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.867,
+   "under": 0.133
+  },
+  {
+   "line": 18.5,
+   "over": 0.796,
+   "under": 0.2041
+  },
+  {
+   "line": 19.5,
+   "over": 0.7146,
+   "under": 0.2854
+  },
+  {
+   "line": 20.5,
+   "over": 0.6392,
+   "under": 0.3608
+  },
+  {
+   "line": 21.5,
+   "over": 0.5876,
+   "under": 0.4124
+  },
+  {
+   "line": 22.5,
+   "over": 0.503,
+   "under": 0.497
+  },
+  {
+   "line": 23.5,
+   "over": 0.4373,
+   "under": 0.5627
+  },
+  {
+   "line": 24.5,
+   "over": 0.4269,
+   "under": 0.5731
+  },
+  {
+   "line": 25.5,
+   "over": 0.3936,
+   "under": 0.6064
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3269,
+   "B +1.5": 0.6731,
+   "B -1.5": 0.5648,
+   "A +1.5": 0.4352
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.277,
+   "B +2.5": 0.723,
+   "B -2.5": 0.5009,
+   "A +2.5": 0.4991
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2114,
+   "B +3.5": 0.7886,
+   "B -3.5": 0.4085,
+   "A +3.5": 0.5915
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1382,
+   "B +4.5": 0.8618,
+   "B -4.5": 0.2938,
+   "A +4.5": 0.7062
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.081,
+   "B +5.5": 0.919,
+   "B -5.5": 0.1925,
+   "A +5.5": 0.8075
+  }
+ ],
+ "p_tiebreak": 0.4349,
+ "p_a_wins_set": 0.599,
+ "p_b_wins_set": 0.7879,
+ "p_decider": 0.3869,
+ "expected_breaks": {
+  "total": 4.34,
+  "by_A": 1.87,
+  "by_B": 2.47
+ },
+ "expected_break_points": {
+  "A_creates": 5.28,
+  "B_creates": 6.45
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.401
+ },
+ "match": "Kyrian Jacquet vs Tomas Machac",
+ "players": {
+  "A": {
+   "id": "atp:208021",
+   "name": "Kyrian Jacquet",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 147.0,
+   "age": 25.44079397672827,
+   "elo": 1762.0,
+   "surface_elo": {
+    "Hard": 1683.4,
+    "Clay": 1580.7,
+    "Grass": 1705.2
+   },
+   "matches_total": 36,
+   "matches_surface": {
+    "Hard": 21,
+    "Clay": 10,
+    "Grass": 5
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    20,
+    14
+   ],
+   "last52w_surface": [
+    12,
+    8
+   ],
+   "career_surface_wl": [
+    12,
+    9
+   ],
+   "games_won_lost_52w": [
+    444,
+    404
+   ],
+   "sets_won_lost_52w": [
+    50,
+    35
+   ],
+   "avg_opp_elo_last20": 1682.6,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0188,
+   "return_rating": 0.052,
+   "form_elo": 50.4,
+   "last_match": "2026-10-22",
+   "last_stats_match": "2026-01-19",
+   "stats_52w": {
+    "first_in": 0.5822,
+    "first_won": 0.7742,
+    "second_won": 0.5225,
+    "serve_pts_won": 0.669,
+    "hold": 0.8769,
+    "aces_per_svgm": 0.8,
+    "df_per_svgm": 0.2615,
+    "bp_saved": 0.6667,
+    "ret_pts_won": 0.3407,
+    "ret_1st_won": 0.278,
+    "ret_2nd_won": 0.4733,
+    "ret_games_won": 0.1875,
+    "bp_conv": 0.4,
+    "bp_chances_per_retgm": 0.4688,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2024-08-26",
+     209.0
+    ],
+    [
+     "2025-05-26",
+     150.0
+    ],
+    [
+     "2025-11-02",
+     156.0
+    ],
+    [
+     "2026-01-19",
+     128.0
+    ],
+    [
+     "2026-05-25",
+     147.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:207830",
+   "name": "Tomas Machac",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 43.0,
+   "age": 26.04079397672827,
+   "elo": 1795.3,
+   "surface_elo": {
+    "Hard": 1776.0,
+    "Clay": 1783.7,
+    "Grass": 1555.3
+   },
+   "matches_total": 157,
+   "matches_surface": {
+    "Hard": 112,
+    "Clay": 36,
+    "Grass": 9
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    20,
+    17
+   ],
+   "last52w_surface": [
+    14,
+    12
+   ],
+   "career_surface_wl": [
+    67,
+    45
+   ],
+   "games_won_lost_52w": [
+    464,
+    476
+   ],
+   "sets_won_lost_52w": [
+    52,
+    46
+   ],
+   "avg_opp_elo_last20": 1755.9,
+   "vs_top_opp_52w": [
+    2,
+    6
+   ],
+   "serve_rating": 0.1656,
+   "return_rating": 0.141,
+   "form_elo": -46.6,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.633,
+    "first_won": 0.6956,
+    "second_won": 0.5083,
+    "serve_pts_won": 0.6269,
+    "hold": 0.7929,
+    "aces_per_svgm": 0.3893,
+    "df_per_svgm": 0.2,
+    "bp_saved": 0.5857,
+    "ret_pts_won": 0.3697,
+    "ret_1st_won": 0.297,
+    "ret_2nd_won": 0.491,
+    "ret_games_won": 0.2135,
+    "bp_conv": 0.411,
+    "bp_chances_per_retgm": 0.5196,
+    "matches_with_stats": 21
+   },
+   "rank_history": [
+    [
+     "2025-10-01",
+     23.0
+    ],
+    [
+     "2025-10-20",
+     31.0
+    ],
+    [
+     "2025-10-27",
+     34.0
+    ],
+    [
+     "2026-01-04",
+     35.0
+    ],
+    [
+     "2026-01-19",
+     24.0
+    ],
+    [
+     "2026-02-16",
+     31.0
+    ],
+    [
+     "2026-03-18",
+     48.0
+    ],
+    [
+     "2026-03-30",
+     55.0
+    ],
+    [
+     "2026-04-05",
+     53.0
+    ],
+    [
+     "2026-04-13",
+     47.0
+    ],
+    [
+     "2026-04-22",
+     41.0
+    ],
+    [
+     "2026-05-25",
+     43.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Kyrian Jacquet: limited recent/surface sample (34 matches 52w, 21 career on Hard, 4 with stats)",
+  "Kyrian Jacquet: latest point-level stats are 287 days old (2026-01-19)",
+  "Tomas Machac: latest point-level stats are 180 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -84.4,
+  "components_elo": {
+   "surface_elo": -92.6,
+   "overall_elo": -33.3,
+   "serve_return": -186.6,
+   "form": 97.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -11.3,
+   "overall_elo": -7.9,
+   "serve_return": -65.1,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3808,
+  "serve_return_implied_spw": {
+   "A": 0.6236,
+   "B": 0.6772
+  },
+  "point_probs": {
+   "A_serve": 0.6331,
+   "B_serve": 0.6682
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6331158315710154,
+   "B_serve": 0.6682463969344586
+  },
+  "hold_probs": {
+   "A": 0.8004,
+   "B": 0.8583
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3793,
+   0.3817
+  ],
+  "p_tb": [
+   0.4349,
+   0.434
+  ],
+  "p_decider": [
+   0.3869,
+   0.3856
+  ],
+  "games_mean": [
+   24.173,
+   24.159
+  ],
+  "exp_breaks": [
+   4.343,
+   4.339
+  ],
+  "set_scores": {
+   "0-2": [
+    0.401,
+    0.4009
+   ],
+   "1-2": [
+    0.2197,
+    0.2174
+   ],
+   "2-0": [
+    0.2121,
+    0.2135
+   ],
+   "2-1": [
+    0.1672,
+    0.1682
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0024
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tomas Machac",
+   "elo_points": -65.1,
+   "raw_diff": -186.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Tomas Machac",
+   "elo_points": -11.3,
+   "raw_diff": -92.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tomas Machac",
+   "elo_points": -7.9,
+   "raw_diff": -33.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5225,
+   "B": 0.5083,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3407,
+   "B": 0.3697,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6331,
+   "B": 0.6682,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.796,
+  "fair_odds": {
+   "decimal": 1.26,
+   "american": "-390"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.21 games; p10-p90 17-33); a single tiebreak or deciding set swings it. Data quality MEDIUM: Kyrian Jacquet: limited recent/surface sample (34 matches 52w, 21 career on Hard, 4 with stats); Kyrian Jacquet: latest point-level stats are 287 days old (2026-01-19)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.796,
+    "fair_decimal": 1.26
+   },
+   {
+    "selection": "Tomas Machac to win at least one set",
+    "probability": 0.7879,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Kyrian Jacquet +4.5 games",
+    "probability": 0.7062,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6392,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Tomas Machac to win",
+    "probability": 0.6207,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6131,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Kyrian Jacquet to win at least one set",
+    "probability": 0.599,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5731,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5651,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.503,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Tomas Machac -2.5 games",
+    "probability": 0.5009,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Kyrian Jacquet +2.5 games",
+    "probability": 0.4991,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.497,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4349,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4269,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T20:32:15+00:00",
+  "version": 1,
+  "input_hash": "888104bb21c6606b",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186460",
+  "scheduled_start_utc": "2026-11-02T14:30Z"
+ }
+}

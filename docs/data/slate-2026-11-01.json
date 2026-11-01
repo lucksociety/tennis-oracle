@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-01T15:09:18+00:00",
+ "generated_at_utc": "2026-11-01T20:30:50+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1683,8 +1683,8 @@
    "round": "Qualifying Final",
    "court": "Lwena Court",
    "start_utc": "2026-11-01T13:30Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Darja Suvirdjonkova",
@@ -1692,7 +1692,7 @@
     },
     {
      "name": "Emma Van Poppel",
-     "id": null
+     "id": "wta:espn19306"
     }
    ],
    "surface": "Hard",
@@ -1700,9 +1700,24 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187353",
@@ -1712,8 +1727,8 @@
    "round": "Qualifying Final",
    "court": "Court 1",
    "start_utc": "2026-11-01T13:40Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Adolfo Daniel Vallejo",
@@ -1729,7 +1744,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:52+00:00",
@@ -1842,8 +1873,8 @@
    "round": "Qualifying Final",
    "court": "Court 2",
    "start_utc": "2026-11-01T13:55Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Nuno Borges",
@@ -1859,7 +1890,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:54+00:00",
@@ -1972,8 +2015,8 @@
    "round": "Final",
    "court": "Quadra Central",
    "start_utc": "2026-11-01T14:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alice Tubello",
@@ -1989,7 +2032,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      6
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:56+00:00",
@@ -2102,8 +2161,8 @@
    "round": "Final",
    "court": "Centre Court",
    "start_utc": "2026-11-01T14:15Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Noma Noha Akugue",
@@ -2119,7 +2178,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:58+00:00",
@@ -2232,8 +2303,8 @@
    "round": "Final",
    "court": "Center Court",
    "start_utc": "2026-11-01T14:40Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jiri Lehecka",
@@ -2249,7 +2320,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:01:01+00:00",
@@ -2360,10 +2447,10 @@
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Qualifying Final",
-   "court": "Campo 3",
+   "court": "Campo 1",
    "start_utc": "2026-11-01T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Polona Hercog",
@@ -2371,7 +2458,7 @@
     },
     {
      "name": "Maria Jose Rico Sanchez",
-     "id": null
+     "id": "wta:espn19317"
     }
    ],
    "surface": "Hard",
@@ -2379,9 +2466,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      0
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187368",
@@ -2389,10 +2487,10 @@
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Qualifying Final",
-   "court": "Campo 1",
+   "court": "",
    "start_utc": "2026-11-01T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_WALKOVER",
+   "completed": true,
    "players": [
     {
      "name": "Carolina Alves",
@@ -2408,7 +2506,10 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": []
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T23:25:44+00:00",
@@ -2521,7 +2622,7 @@
    "round": "Qualifying Final",
    "court": "Campo 1",
    "start_utc": "2026-11-01T19:00Z",
-   "status": "STATUS_SCHEDULED",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2650,13 +2751,13 @@
    "venue": "Cali, Colombia",
    "round": "Qualifying Final",
    "court": "Campo 3",
-   "start_utc": "2026-11-01T19:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T19:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
-     "name": "Laura Pigossi",
-     "id": "wta:206007"
+     "name": "Maria Herazo Gonzalez",
+     "id": "wta:espn2670"
     },
     {
      "name": "Katrina Scott",
@@ -2669,109 +2770,7 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-31T23:25:48+00:00",
-    "path": "forecasts/2026-11-01/187367-laura-pigossi-vs-katrina-scott/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Katrina Scott",
-    "win_prob": {
-     "A": 0.4884,
-     "B": 0.5116
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3223
-    },
-    "games_mean": 22.54,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7401,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4884,
-      "B": 0.5116
-     },
-     "set_score_probs": {
-      "0-2": 0.3223,
-      "2-0": 0.3058,
-      "1-2": 0.1893,
-      "2-1": 0.1826
-     },
-     "games_pmf": {
-      "12": 0.00238,
-      "13": 0.0107,
-      "14": 0.0248,
-      "15": 0.04749,
-      "16": 0.06932,
-      "17": 0.08318,
-      "18": 0.08299,
-      "19": 0.07574,
-      "20": 0.06824,
-      "21": 0.05067,
-      "22": 0.0594,
-      "23": 0.04041,
-      "24": 0.02096,
-      "25": 0.03665,
-      "26": 0.04066,
-      "27": 0.03792,
-      "28": 0.04104,
-      "29": 0.04158,
-      "30": 0.03915,
-      "31": 0.03676,
-      "32": 0.03055,
-      "33": 0.01961,
-      "34": 0.01439,
-      "35": 0.01412,
-      "36": 0.00608,
-      "37": 0.00181,
-      "38": 0.00235,
-      "39": 0.00105
-     },
-     "games_diff_pmf": {
-      "-12": 0.00138,
-      "-11": 0.0058,
-      "-10": 0.01319,
-      "-9": 0.02621,
-      "-8": 0.04243,
-      "-7": 0.05919,
-      "-6": 0.07158,
-      "-5": 0.07646,
-      "-4": 0.07701,
-      "-3": 0.05609,
-      "-2": 0.03805,
-      "-1": 0.03082,
-      "0": 0.02688,
-      "1": 0.02953,
-      "2": 0.03721,
-      "3": 0.05402,
-      "4": 0.07437,
-      "5": 0.07334,
-      "6": 0.06809,
-      "7": 0.05704,
-      "8": 0.03882,
-      "9": 0.02422,
-      "10": 0.0123,
-      "11": 0.00497,
-      "12": 0.001
-     },
-     "p_tiebreak": 0.2599,
-     "p_decider": 0.3719
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0044
-   }
+   "forecast": null
   },
   {
    "espn_id": "185819",

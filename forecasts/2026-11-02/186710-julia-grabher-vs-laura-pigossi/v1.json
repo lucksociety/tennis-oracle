@@ -1,0 +1,683 @@
+{
+ "predicted_winner": "Julia Grabher",
+ "win_prob": {
+  "A": 0.6361,
+  "B": 0.3639
+ },
+ "win_prob_exact": {
+  "A": 0.63606,
+  "B": 0.36394000000000004
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.57,
+   "american": "-175"
+  },
+  "B": {
+   "decimal": 2.75,
+   "american": "+175"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4303,
+  "0-2": 0.2087,
+  "2-1": 0.2057,
+  "1-2": 0.1552
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0221,
+ "games": {
+  "mean": 22.46,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00249,
+   "13": 0.01172,
+   "14": 0.02664,
+   "15": 0.04879,
+   "16": 0.06971,
+   "17": 0.08383,
+   "18": 0.08401,
+   "19": 0.07905,
+   "20": 0.06751,
+   "21": 0.04936,
+   "22": 0.06038,
+   "23": 0.04032,
+   "24": 0.01967,
+   "25": 0.0359,
+   "26": 0.03937,
+   "27": 0.0367,
+   "28": 0.04007,
+   "29": 0.03979,
+   "30": 0.03738,
+   "31": 0.03463,
+   "32": 0.03074,
+   "33": 0.02038,
+   "34": 0.01399,
+   "35": 0.01409,
+   "36": 0.00748,
+   "37": 0.00188,
+   "38": 0.00258,
+   "39": 0.00154
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00045,
+  "-11": 0.00231,
+  "-10": 0.0059,
+  "-9": 0.01267,
+  "-8": 0.02231,
+  "-7": 0.03541,
+  "-6": 0.04668,
+  "-5": 0.0564,
+  "-4": 0.05918,
+  "-3": 0.04684,
+  "-2": 0.03313,
+  "-1": 0.02772,
+  "0": 0.02746,
+  "1": 0.02957,
+  "2": 0.04137,
+  "3": 0.06294,
+  "4": 0.08991,
+  "5": 0.09387,
+  "6": 0.09316,
+  "7": 0.08189,
+  "8": 0.05879,
+  "9": 0.03891,
+  "10": 0.02164,
+  "11": 0.00945,
+  "12": 0.00204
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7568,
+   "under": 0.2432
+  },
+  {
+   "line": 18.5,
+   "over": 0.6728,
+   "under": 0.3272
+  },
+  {
+   "line": 19.5,
+   "over": 0.5938,
+   "under": 0.4062
+  },
+  {
+   "line": 20.5,
+   "over": 0.5263,
+   "under": 0.4738
+  },
+  {
+   "line": 21.5,
+   "over": 0.4769,
+   "under": 0.5231
+  },
+  {
+   "line": 22.5,
+   "over": 0.4165,
+   "under": 0.5835
+  },
+  {
+   "line": 23.5,
+   "over": 0.3762,
+   "under": 0.6238
+  },
+  {
+   "line": 24.5,
+   "over": 0.3565,
+   "under": 0.6435
+  },
+  {
+   "line": 25.5,
+   "over": 0.3206,
+   "under": 0.6794
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.594,
+   "B +1.5": 0.406,
+   "B -1.5": 0.3213,
+   "A +1.5": 0.6787
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5526,
+   "B +2.5": 0.4474,
+   "B -2.5": 0.2882,
+   "A +2.5": 0.7118
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4897,
+   "B +3.5": 0.5103,
+   "B -3.5": 0.2413,
+   "A +3.5": 0.7587
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3997,
+   "B +4.5": 0.6002,
+   "B -4.5": 0.1821,
+   "A +4.5": 0.8179
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3059,
+   "B +5.5": 0.6941,
+   "B -5.5": 0.1257,
+   "A +5.5": 0.8743
+  }
+ ],
+ "p_tiebreak": 0.2657,
+ "p_a_wins_set": 0.7913,
+ "p_b_wins_set": 0.5697,
+ "p_decider": 0.3609,
+ "expected_breaks": {
+  "total": 7.4,
+  "by_A": 4.13,
+  "by_B": 3.27
+ },
+ "expected_break_points": {
+  "A_creates": 8.98,
+  "B_creates": 7.68
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4303
+ },
+ "match": "Julia Grabher vs Laura Pigossi",
+ "players": {
+  "A": {
+   "id": "wta:211814",
+   "name": "Julia Grabher",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 121.0,
+   "age": 30.24079397672827,
+   "elo": 1701.4,
+   "surface_elo": {
+    "Hard": 1682.3,
+    "Clay": 1574.6,
+    "Grass": 1450.6
+   },
+   "matches_total": 108,
+   "matches_surface": {
+    "Hard": 64,
+    "Clay": 38,
+    "Grass": 6
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    23,
+    17
+   ],
+   "last52w_surface": [
+    19,
+    12
+   ],
+   "career_surface_wl": [
+    26,
+    38
+   ],
+   "games_won_lost_52w": [
+    475,
+    464
+   ],
+   "sets_won_lost_52w": [
+    50,
+    44
+   ],
+   "avg_opp_elo_last20": 1608.7,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": -0.0091,
+   "return_rating": -0.1321,
+   "form_elo": 71.4,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.6112,
+    "first_won": 0.5731,
+    "second_won": 0.4189,
+    "serve_pts_won": 0.5131,
+    "hold": 0.5647,
+    "aces_per_svgm": 0.2588,
+    "df_per_svgm": 0.4471,
+    "bp_saved": 0.5316,
+    "ret_pts_won": 0.4011,
+    "ret_1st_won": 0.3143,
+    "ret_2nd_won": 0.5385,
+    "ret_games_won": 0.2874,
+    "bp_conv": 0.4386,
+    "bp_chances_per_retgm": 0.6552,
+    "matches_with_stats": 8
+   },
+   "rank_history": [
+    [
+     "2025-02-24",
+     387.0
+    ],
+    [
+     "2025-03-05",
+     388.0
+    ],
+    [
+     "2025-03-18",
+     373.0
+    ],
+    [
+     "2025-05-19",
+     160.0
+    ],
+    [
+     "2025-07-14",
+     138.0
+    ],
+    [
+     "2026-01-05",
+     92.0
+    ],
+    [
+     "2026-01-19",
+     95.0
+    ],
+    [
+     "2026-02-01",
+     78.0
+    ],
+    [
+     "2026-04-06",
+     89.0
+    ],
+    [
+     "2026-04-21",
+     107.0
+    ],
+    [
+     "2026-05-18",
+     123.0
+    ],
+    [
+     "2026-05-25",
+     121.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:206007",
+   "name": "Laura Pigossi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 193.0,
+   "age": 32.24989733059548,
+   "elo": 1341.5,
+   "surface_elo": {
+    "Hard": 1252.0,
+    "Clay": 1502.8,
+    "Grass": 1289.3
+   },
+   "matches_total": 61,
+   "matches_surface": {
+    "Hard": 28,
+    "Clay": 30,
+    "Grass": 3
+   },
+   "last5": [
+    0,
+    5
+   ],
+   "last10": [
+    1,
+    9
+   ],
+   "last20": [
+    3,
+    17
+   ],
+   "last52w": [
+    0,
+    8
+   ],
+   "last52w_surface": [
+    0,
+    6
+   ],
+   "career_surface_wl": [
+    6,
+    22
+   ],
+   "games_won_lost_52w": [
+    64,
+    112
+   ],
+   "sets_won_lost_52w": [
+    3,
+    16
+   ],
+   "avg_opp_elo_last20": 1629.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0436,
+   "return_rating": 0.0218,
+   "form_elo": -97.5,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2025-09-08",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-10-16",
+     120.0
+    ],
+    [
+     "2023-11-10",
+     134.0
+    ],
+    [
+     "2024-01-29",
+     114.0
+    ],
+    [
+     "2024-04-01",
+     119.0
+    ],
+    [
+     "2024-04-12",
+     125.0
+    ],
+    [
+     "2024-05-27",
+     119.0
+    ],
+    [
+     "2024-07-29",
+     110.0
+    ],
+    [
+     "2024-11-15",
+     129.0
+    ],
+    [
+     "2024-11-25",
+     131.0
+    ],
+    [
+     "2025-03-31",
+     180.0
+    ],
+    [
+     "2025-04-10",
+     182.0
+    ],
+    [
+     "2025-09-08",
+     193.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Julia Grabher: limited recent/surface sample (40 matches 52w, 64 career on Hard, 8 with stats)",
+  "Julia Grabher: latest point-level stats are 168 days old (2026-05-18)",
+  "Laura Pigossi: sparse record (61 tour matches, 0 with serve stats in 52w)",
+  "Laura Pigossi: latest point-level stats are 420 days old (2025-09-08)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 99.9,
+  "components_elo": {
+   "surface_elo": 430.3,
+   "overall_elo": 359.9,
+   "serve_return": -107.2,
+   "form": 168.9
+  },
+  "weighted_contributions": {
+   "surface_elo": 52.6,
+   "overall_elo": 85.0,
+   "serve_return": -37.4,
+   "form": -0.3
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.64,
+  "serve_return_implied_spw": {
+   "A": 0.5582,
+   "B": 0.5874
+  },
+  "point_probs": {
+   "A_serve": 0.5935,
+   "B_serve": 0.5519
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5934728243503212,
+   "B_serve": 0.5519129457165046
+  },
+  "hold_probs": {
+   "A": 0.722,
+   "B": 0.6277
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6361,
+   0.6377
+  ],
+  "p_tb": [
+   0.2657,
+   0.2658
+  ],
+  "p_decider": [
+   0.3609,
+   0.3616
+  ],
+  "games_mean": [
+   22.461,
+   22.458
+  ],
+  "exp_breaks": [
+   7.396,
+   7.399
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2087,
+    0.2073
+   ],
+   "1-2": [
+    0.1552,
+    0.155
+   ],
+   "2-0": [
+    0.4303,
+    0.4311
+   ],
+   "2-1": [
+    0.2057,
+    0.2066
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Julia Grabher",
+   "elo_points": 85.0,
+   "raw_diff": 359.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Julia Grabher",
+   "elo_points": 52.6,
+   "raw_diff": 430.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Laura Pigossi",
+   "elo_points": -37.4,
+   "raw_diff": -107.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5935,
+   "B": 0.5519,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Julia Grabher to win at least one set",
+  "probability": 0.7913,
+  "fair_odds": {
+   "decimal": 1.26,
+   "american": "-379"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Julia Grabher: limited recent/surface sample (40 matches 52w, 64 career on Hard, 8 with stats); Julia Grabher: latest point-level stats are 168 days old (2026-05-18)",
+  "candidates": [
+   {
+    "selection": "Julia Grabher to win at least one set",
+    "probability": 0.7913,
+    "fair_decimal": 1.26
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7343,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6728,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6435,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6391,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Julia Grabher to win",
+    "probability": 0.6361,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Laura Pigossi +4.5 games",
+    "probability": 0.6002,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5835,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Laura Pigossi to win at least one set",
+    "probability": 0.5697,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Julia Grabher -2.5 games",
+    "probability": 0.5526,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5263,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4738,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Laura Pigossi +2.5 games",
+    "probability": 0.4474,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Exact sets Julia Grabher 2-0 Laura Pigossi",
+    "probability": 0.4303,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4165,
+    "fair_decimal": 2.4
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T20:31:56+00:00",
+  "version": 1,
+  "input_hash": "d4d2a8d317c5ab25",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186710",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

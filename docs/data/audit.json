@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-01T15:12:57+00:00",
+ "generated_at_utc": "2026-11-01T20:34:35+00:00",
  "summary": {
-  "n": 150,
-  "brier": 0.22897613126666666,
-  "log_loss": 0.6497329008281745,
-  "accuracy": 0.6066666666666667,
-  "games_mae": 4.9736666666666665,
-  "exact_sets_accuracy": 0.42,
-  "tiebreak_brier": 0.197440553
+  "n": 155,
+  "brier": 0.22952726451612904,
+  "log_loss": 0.6508782786259372,
+  "accuracy": 0.6,
+  "games_mae": 4.991612903225807,
+  "exact_sets_accuracy": 0.4064516129032258,
+  "tiebreak_brier": 0.20042098193548388
  },
- "n": 150,
+ "n": 155,
  "overall": {
-  "n": 150,
-  "brier": 0.22897613126666666,
-  "log_loss": 0.6497329008281745,
-  "accuracy": 0.6066666666666667
+  "n": 155,
+  "brier": 0.22952726451612904,
+  "log_loss": 0.6508782786259372,
+  "accuracy": 0.6
  },
- "games_mae": 4.9736666666666665,
- "exact_sets_accuracy": 0.42,
- "tiebreak_brier": 0.197440553,
+ "games_mae": 4.991612903225807,
+ "exact_sets_accuracy": 0.4064516129032258,
+ "tiebreak_brier": 0.20042098193548388,
  "by_surface": {
   "Clay": {
    "n": 6,
@@ -27,46 +27,46 @@
    "accuracy": 0.6666666666666666
   },
   "Hard": {
-   "n": 144,
-   "brier": 0.23068691291666665,
-   "log_loss": 0.653281830009507,
-   "accuracy": 0.6041666666666666
+   "n": 149,
+   "brier": 0.2312028306711409,
+   "log_loss": 0.6543542388198864,
+   "accuracy": 0.5973154362416108
   }
  },
  "by_tour": {
   "atp": {
-   "n": 54,
-   "brier": 0.21955103166666667,
-   "log_loss": 0.6279150825684415,
-   "accuracy": 0.6296296296296297
+   "n": 57,
+   "brier": 0.2211538961403509,
+   "log_loss": 0.6313476010342649,
+   "accuracy": 0.6140350877192983
   },
   "wta": {
-   "n": 96,
-   "brier": 0.23427774979166663,
-   "log_loss": 0.6620054235992743,
-   "accuracy": 0.59375
+   "n": 98,
+   "brier": 0.23439748897959184,
+   "log_loss": 0.6622379584496647,
+   "accuracy": 0.5918367346938775
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 81,
-   "brier": 0.2358660520987654,
-   "log_loss": 0.6666104519021839,
-   "accuracy": 0.6172839506172839
+   "n": 83,
+   "brier": 0.23596915855421682,
+   "log_loss": 0.6667740465857074,
+   "accuracy": 0.6144578313253012
   },
   "MEDIUM": {
-   "n": 69,
-   "brier": 0.22088796333333338,
-   "log_loss": 0.6299201234804243,
-   "accuracy": 0.5942028985507246
+   "n": 72,
+   "brier": 0.22210119222222222,
+   "log_loss": 0.632553990561202,
+   "accuracy": 0.5833333333333334
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 94,
-   "mean_pred": 0.5446819148936171,
-   "observed": 0.5425531914893617
+   "n": 99,
+   "mean_pred": 0.5435212121212122,
+   "observed": 0.5353535353535354
   },
   {
    "bucket": "60%-70%",
@@ -5891,6 +5891,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Jiri Lehecka vs Valentin Vacherot",
+   "date": "2026-11-01",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Swiss Indoors Basel",
+   "p_a": 0.5193,
+   "a_won": 0,
+   "pred_winner": "Jiri Lehecka",
+   "actual_winner": "Valentin Vacherot",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2006,
+   "exp_games": 25.26,
+   "actual_games": 26,
+   "p_tb": 0.5384,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4563,
+     0
+    ],
+    "A -2.5": [
+     0.3815,
+     0
+    ],
+    "A -3.5": [
+     0.2854,
+     0
+    ],
+    "A -4.5": [
+     0.1803,
+     0
+    ],
+    "A -5.5": [
+     0.1026,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alex De Minaur vs Carlos Alcaraz",
    "date": "2026-11-01",
    "tour": "atp",
@@ -5968,6 +6010,90 @@
     ],
     "A -5.5": [
      0.2773,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alice Tubello vs Julia Grabher",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Curitiba Open",
+   "p_a": 0.5313,
+   "a_won": 1,
+   "pred_winner": "Alice Tubello",
+   "actual_winner": "Alice Tubello",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1935,
+   "exp_games": 22.86,
+   "actual_games": 35,
+   "p_tb": 0.2884,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4867,
+     0
+    ],
+    "A -2.5": [
+     0.4457,
+     0
+    ],
+    "A -3.5": [
+     0.3845,
+     0
+    ],
+    "A -4.5": [
+     0.302,
+     0
+    ],
+    "A -5.5": [
+     0.2201,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Noma Noha Akugue vs Alina Charaeva",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Valle D'Aosta Ladies Open",
+   "p_a": 0.5105,
+   "a_won": 0,
+   "pred_winner": "Noma Noha Akugue",
+   "actual_winner": "Alina Charaeva",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.303,
+   "exp_games": 22.55,
+   "actual_games": 19,
+   "p_tb": 0.2589,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4669,
+     0
+    ],
+    "A -2.5": [
+     0.4292,
+     0
+    ],
+    "A -3.5": [
+     0.3744,
+     0
+    ],
+    "A -4.5": [
+     0.2985,
+     0
+    ],
+    "A -5.5": [
+     0.2202,
      0
     ]
    },
@@ -6346,6 +6472,90 @@
     ],
     "A -5.5": [
      0.0874,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Nuno Borges vs Alex Molcan",
+   "date": "2026-11-01",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5132,
+   "a_won": 0,
+   "pred_winner": "Nuno Borges",
+   "actual_winner": "Alex Molcan",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2876,
+   "exp_games": 24.62,
+   "actual_games": 21,
+   "p_tb": 0.4714,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4551,
+     0
+    ],
+    "A -2.5": [
+     0.3922,
+     0
+    ],
+    "A -3.5": [
+     0.3058,
+     0
+    ],
+    "A -4.5": [
+     0.2063,
+     0
+    ],
+    "A -5.5": [
+     0.126,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Adolfo Daniel Vallejo vs Lorenzo Sonego",
+   "date": "2026-11-01",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4658,
+   "a_won": 0,
+   "pred_winner": "Lorenzo Sonego",
+   "actual_winner": "Lorenzo Sonego",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2078,
+   "exp_games": 24.4,
+   "actual_games": 32,
+   "p_tb": 0.4464,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4093,
+     0
+    ],
+    "A -2.5": [
+     0.3521,
+     0
+    ],
+    "A -3.5": [
+     0.275,
+     0
+    ],
+    "A -4.5": [
+     0.1861,
+     0
+    ],
+    "A -5.5": [
+     0.1139,
      0
     ]
    },
