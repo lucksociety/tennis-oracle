@@ -131,6 +131,10 @@ async function engineExtras(env, day, slate, events) {
 }
 
 function matchLines(m, row) {
+  const start = Date.parse(m.start_utc);
+  if (row?.status === 'bet' && (!Number.isFinite(start) || Date.now() >= start || !(row.best?.model_p > .5) || !(row.best?.ev_per_1 > 0))) {
+    row = { ...row, status: 'not_prematch', best: null, verdict: 'NO BET (pregame eligibility no longer satisfied)' };
+  }
   const [A, B] = [m.players[0].name, m.players[1].name], f = m.forecast;
   const head = `**${m.tour ? m.tour.toUpperCase() + ' ' : ''}${m.tournament || ''}${m.round ? ' · ' + m.round : ''}**${m.start_utc ? ' · ' + nyTime(m.start_utc) : ''}${m.engine ? ' · _live engine run, surface assumed Hard_' : ''}`;
   const lines = [head, `🎾 ${A} vs ${B}`];
@@ -178,6 +182,7 @@ export async function buildReport(env, day, tour) {
   catch (e) { return [`🍀 **Luck Society Tennis Oracle** — no frozen slate published for ${day} yet. Dashboard: ${dash}`]; }
   if (tour && tour !== 'all') slate = Object.assign({}, slate, { matches: slate.matches.filter(m => m.tour === tour) });
   const bb = await bestBets(env, day, slate);
+  const extras = await engineExtras(env, day, slate, bb.events).catch(e => [{ err: String(e.message) }]);
   // A saved comparison is historical evidence, not a fresh pre-match recommendation.
   const publicationNow = Date.now();
   bb.rows = bb.rows.map(r => {
@@ -189,7 +194,6 @@ export async function buildReport(env, day, tour) {
           outcomes: (r.outcomes || []).map(o => ({ ...o, eligible: false })) } : r;
   });
   const byId = new Map(bb.rows.map(r => [String(r.espn_id), r]));
-  const extras = await engineExtras(env, day, slate, bb.events).catch(e => [{ err: String(e.message) }]);
   const ms = [...slate.matches].sort((a, b) => String(a.start_utc).localeCompare(String(b.start_utc)));
   const nF = ms.filter(m => m.forecast).length, nBet = ms.filter(m => (byId.get(String(m.espn_id)) || {}).status === 'bet').length;
   const n0 = (ms.find(m => m.forecast) || {}).forecast;
