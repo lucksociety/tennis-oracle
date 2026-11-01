@@ -1,140 +1,10 @@
 {
  "date": "2026-11-01",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-01T06:05:36+00:00",
+ "generated_at_utc": "2026-11-01T15:09:18+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
-  {
-   "espn_id": "185735",
-   "tour": "wta",
-   "tournament": "Guangzhou Open",
-   "venue": "Guangzhou, China PR",
-   "round": "Final",
-   "court": "Center Court",
-   "start_utc": "2026-11-01T08:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Lilli Tagger",
-     "id": "wta:260172"
-    },
-    {
-     "name": "Harriet Dart",
-     "id": "wta:211279"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-31T14:34:23+00:00",
-    "path": "forecasts/2026-11-01/185735-lilli-tagger-vs-harriet-dart/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Lilli Tagger",
-    "win_prob": {
-     "A": 0.5992,
-     "B": 0.4008
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-4",
-      "6-4"
-     ],
-     "prob": 0.3979
-    },
-    "games_mean": 22.59,
-    "strongest": {
-     "selection": "Lilli Tagger to win at least one set",
-     "probability": 0.767,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5992,
-      "B": 0.4008
-     },
-     "set_score_probs": {
-      "2-0": 0.3979,
-      "0-2": 0.233,
-      "2-1": 0.2013,
-      "1-2": 0.1678
-     },
-     "games_pmf": {
-      "12": 0.00226,
-      "13": 0.01077,
-      "14": 0.02485,
-      "15": 0.04537,
-      "16": 0.06687,
-      "17": 0.08338,
-      "18": 0.08467,
-      "19": 0.07777,
-      "20": 0.06827,
-      "21": 0.05028,
-      "22": 0.06051,
-      "23": 0.04007,
-      "24": 0.01977,
-      "25": 0.03675,
-      "26": 0.04113,
-      "27": 0.03618,
-      "28": 0.04108,
-      "29": 0.04146,
-      "30": 0.03964,
-      "31": 0.03553,
-      "32": 0.03127,
-      "33": 0.02044,
-      "34": 0.01468,
-      "35": 0.01417,
-      "36": 0.00667,
-      "37": 0.00187,
-      "38": 0.0027,
-      "39": 0.00159
-     },
-     "games_diff_pmf": {
-      "-12": 0.00054,
-      "-11": 0.00278,
-      "-10": 0.00695,
-      "-9": 0.01492,
-      "-8": 0.02606,
-      "-7": 0.04183,
-      "-6": 0.0534,
-      "-5": 0.06094,
-      "-4": 0.064,
-      "-3": 0.04926,
-      "-2": 0.03651,
-      "-1": 0.02903,
-      "0": 0.02814,
-      "1": 0.02969,
-      "2": 0.04079,
-      "3": 0.06135,
-      "4": 0.08689,
-      "5": 0.08959,
-      "6": 0.08784,
-      "7": 0.07498,
-      "8": 0.05298,
-      "9": 0.03319,
-      "10": 0.01855,
-      "11": 0.00807,
-      "12": 0.00172
-     },
-     "p_tiebreak": 0.2697,
-     "p_decider": 0.3691
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0027
-   }
-  },
   {
    "espn_id": "187332",
    "tour": "wta",
@@ -143,8 +13,8 @@
    "round": "Qualifying Final",
    "court": "Centre Court",
    "start_utc": "2026-11-01T08:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Kyoka Okamura",
@@ -160,7 +30,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:26+00:00",
@@ -266,15 +152,161 @@
    }
   },
   {
+   "espn_id": "185735",
+   "tour": "wta",
+   "tournament": "Guangzhou Open",
+   "venue": "Guangzhou, China PR",
+   "round": "Final",
+   "court": "Center Court",
+   "start_utc": "2026-11-01T08:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Lilli Tagger",
+     "id": "wta:260172"
+    },
+    {
+     "name": "Harriet Dart",
+     "id": "wta:211279"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T14:34:23+00:00",
+    "path": "forecasts/2026-11-01/185735-lilli-tagger-vs-harriet-dart/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Lilli Tagger",
+    "win_prob": {
+     "A": 0.5992,
+     "B": 0.4008
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3979
+    },
+    "games_mean": 22.59,
+    "strongest": {
+     "selection": "Lilli Tagger to win at least one set",
+     "probability": 0.767,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5992,
+      "B": 0.4008
+     },
+     "set_score_probs": {
+      "2-0": 0.3979,
+      "0-2": 0.233,
+      "2-1": 0.2013,
+      "1-2": 0.1678
+     },
+     "games_pmf": {
+      "12": 0.00226,
+      "13": 0.01077,
+      "14": 0.02485,
+      "15": 0.04537,
+      "16": 0.06687,
+      "17": 0.08338,
+      "18": 0.08467,
+      "19": 0.07777,
+      "20": 0.06827,
+      "21": 0.05028,
+      "22": 0.06051,
+      "23": 0.04007,
+      "24": 0.01977,
+      "25": 0.03675,
+      "26": 0.04113,
+      "27": 0.03618,
+      "28": 0.04108,
+      "29": 0.04146,
+      "30": 0.03964,
+      "31": 0.03553,
+      "32": 0.03127,
+      "33": 0.02044,
+      "34": 0.01468,
+      "35": 0.01417,
+      "36": 0.00667,
+      "37": 0.00187,
+      "38": 0.0027,
+      "39": 0.00159
+     },
+     "games_diff_pmf": {
+      "-12": 0.00054,
+      "-11": 0.00278,
+      "-10": 0.00695,
+      "-9": 0.01492,
+      "-8": 0.02606,
+      "-7": 0.04183,
+      "-6": 0.0534,
+      "-5": 0.06094,
+      "-4": 0.064,
+      "-3": 0.04926,
+      "-2": 0.03651,
+      "-1": 0.02903,
+      "0": 0.02814,
+      "1": 0.02969,
+      "2": 0.04079,
+      "3": 0.06135,
+      "4": 0.08689,
+      "5": 0.08959,
+      "6": 0.08784,
+      "7": 0.07498,
+      "8": 0.05298,
+      "9": 0.03319,
+      "10": 0.01855,
+      "11": 0.00807,
+      "12": 0.00172
+     },
+     "p_tiebreak": 0.2697,
+     "p_decider": 0.3691
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0027
+   }
+  },
+  {
    "espn_id": "187331",
    "tour": "wta",
    "tournament": "Chennai Open",
    "venue": "Chennai, India",
    "round": "Qualifying Final",
    "court": "Court 2",
-   "start_utc": "2026-11-01T08:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T08:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Aliona Falei",
@@ -290,7 +322,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:28+00:00",
@@ -402,9 +450,9 @@
    "venue": "Chennai, India",
    "round": "Qualifying Final",
    "court": "Court 1",
-   "start_utc": "2026-11-01T08:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T08:45Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Viktoria Morvayova",
@@ -420,7 +468,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:30+00:00",
@@ -526,145 +590,15 @@
    }
   },
   {
-   "espn_id": "187333",
-   "tour": "wta",
-   "tournament": "Chennai Open",
-   "venue": "Chennai, India",
-   "round": "Qualifying Final",
-   "court": "Centre Court",
-   "start_utc": "2026-11-01T09:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Mei Yamaguchi",
-     "id": "wta:215614"
-    },
-    {
-     "name": "Zhibek Kulambayeva",
-     "id": "wta:214992"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-31T20:00:43+00:00",
-    "path": "forecasts/2026-11-01/187333-mei-yamaguchi-vs-zhibek-kulambayeva/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Zhibek Kulambayeva",
-    "win_prob": {
-     "A": 0.4765,
-     "B": 0.5235
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.3308
-    },
-    "games_mean": 22.65,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7333,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4765,
-      "B": 0.5235
-     },
-     "set_score_probs": {
-      "0-2": 0.3308,
-      "2-0": 0.2924,
-      "1-2": 0.1927,
-      "2-1": 0.1841
-     },
-     "games_pmf": {
-      "12": 0.00208,
-      "13": 0.01039,
-      "14": 0.02346,
-      "15": 0.04448,
-      "16": 0.066,
-      "17": 0.08232,
-      "18": 0.08423,
-      "19": 0.07713,
-      "20": 0.06832,
-      "21": 0.04896,
-      "22": 0.06146,
-      "23": 0.03993,
-      "24": 0.02047,
-      "25": 0.03728,
-      "26": 0.04153,
-      "27": 0.03785,
-      "28": 0.04262,
-      "29": 0.04236,
-      "30": 0.03949,
-      "31": 0.03622,
-      "32": 0.03325,
-      "33": 0.01894,
-      "34": 0.01513,
-      "35": 0.01393,
-      "36": 0.00635,
-      "37": 0.00167,
-      "38": 0.00281,
-      "39": 0.00134
-     },
-     "games_diff_pmf": {
-      "-12": 0.00135,
-      "-11": 0.00578,
-      "-10": 0.01359,
-      "-9": 0.02617,
-      "-8": 0.04239,
-      "-7": 0.06153,
-      "-6": 0.07511,
-      "-5": 0.07873,
-      "-4": 0.07919,
-      "-3": 0.05597,
-      "-2": 0.04072,
-      "-1": 0.02941,
-      "0": 0.02786,
-      "1": 0.02978,
-      "2": 0.03875,
-      "3": 0.05308,
-      "4": 0.07445,
-      "5": 0.07272,
-      "6": 0.06665,
-      "7": 0.05364,
-      "8": 0.03579,
-      "9": 0.02129,
-      "10": 0.01062,
-      "11": 0.0047,
-      "12": 0.00073
-     },
-     "p_tiebreak": 0.2667,
-     "p_decider": 0.3768
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0019
-   }
-  },
-  {
    "espn_id": "187349",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court Central",
-   "start_utc": "2026-11-01T10:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T10:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Thiago Agustin Tirante",
@@ -680,7 +614,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:19+00:00",
@@ -792,9 +738,9 @@
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court 1",
-   "start_utc": "2026-11-01T10:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T10:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Rinky Hijikata",
@@ -810,7 +756,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:21+00:00",
@@ -919,16 +877,16 @@
    "espn_id": "187355",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
-   "venue": "Lwena Court, Luanda, Angola",
+   "venue": "Luanda, Angola",
    "round": "Qualifying 1st Round",
    "court": "Lwena Court",
-   "start_utc": "2026-11-01T10:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T10:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Prathyusha Rachapudi",
-     "id": null
+     "id": "wta:espn19307"
     },
     {
      "name": "Ashmitha Easwaramurthi",
@@ -940,9 +898,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187348",
@@ -951,9 +920,9 @@
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court 2",
-   "start_utc": "2026-11-01T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T11:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Juan Manuel Cerundolo",
@@ -969,7 +938,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T14:34:17+00:00",
@@ -1075,15 +1060,161 @@
    }
   },
   {
+   "espn_id": "187333",
+   "tour": "wta",
+   "tournament": "Chennai Open",
+   "venue": "Chennai, India",
+   "round": "Qualifying Final",
+   "court": "Centre Court",
+   "start_utc": "2026-11-01T11:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Mei Yamaguchi",
+     "id": "wta:215614"
+    },
+    {
+     "name": "Zhibek Kulambayeva",
+     "id": "wta:214992"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T20:00:43+00:00",
+    "path": "forecasts/2026-11-01/187333-mei-yamaguchi-vs-zhibek-kulambayeva/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Zhibek Kulambayeva",
+    "win_prob": {
+     "A": 0.4765,
+     "B": 0.5235
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3308
+    },
+    "games_mean": 22.65,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7333,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4765,
+      "B": 0.5235
+     },
+     "set_score_probs": {
+      "0-2": 0.3308,
+      "2-0": 0.2924,
+      "1-2": 0.1927,
+      "2-1": 0.1841
+     },
+     "games_pmf": {
+      "12": 0.00208,
+      "13": 0.01039,
+      "14": 0.02346,
+      "15": 0.04448,
+      "16": 0.066,
+      "17": 0.08232,
+      "18": 0.08423,
+      "19": 0.07713,
+      "20": 0.06832,
+      "21": 0.04896,
+      "22": 0.06146,
+      "23": 0.03993,
+      "24": 0.02047,
+      "25": 0.03728,
+      "26": 0.04153,
+      "27": 0.03785,
+      "28": 0.04262,
+      "29": 0.04236,
+      "30": 0.03949,
+      "31": 0.03622,
+      "32": 0.03325,
+      "33": 0.01894,
+      "34": 0.01513,
+      "35": 0.01393,
+      "36": 0.00635,
+      "37": 0.00167,
+      "38": 0.00281,
+      "39": 0.00134
+     },
+     "games_diff_pmf": {
+      "-12": 0.00135,
+      "-11": 0.00578,
+      "-10": 0.01359,
+      "-9": 0.02617,
+      "-8": 0.04239,
+      "-7": 0.06153,
+      "-6": 0.07511,
+      "-5": 0.07873,
+      "-4": 0.07919,
+      "-3": 0.05597,
+      "-2": 0.04072,
+      "-1": 0.02941,
+      "0": 0.02786,
+      "1": 0.02978,
+      "2": 0.03875,
+      "3": 0.05308,
+      "4": 0.07445,
+      "5": 0.07272,
+      "6": 0.06665,
+      "7": 0.05364,
+      "8": 0.03579,
+      "9": 0.02129,
+      "10": 0.01062,
+      "11": 0.0047,
+      "12": 0.00073
+     },
+     "p_tiebreak": 0.2667,
+     "p_decider": 0.3768
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0019
+   }
+  },
+  {
    "espn_id": "187350",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court Central",
-   "start_utc": "2026-11-01T11:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T11:50Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Benjamin Bonzi",
@@ -1099,7 +1230,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:45+00:00",
@@ -1211,9 +1358,9 @@
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court 1",
-   "start_utc": "2026-11-01T11:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T11:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sebastian Baez",
@@ -1229,7 +1376,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:47+00:00",
@@ -1338,16 +1497,16 @@
    "espn_id": "187357",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
-   "venue": "Lwena Court, Luanda, Angola",
+   "venue": "Luanda, Angola",
    "round": "Qualifying 1st Round",
    "court": "Lwena Court",
-   "start_utc": "2026-11-01T11:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T12:00Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Abigayel Vosloo",
-     "id": null
+     "id": "wta:espn19305"
     },
     {
      "name": "Saumya Vig",
@@ -1359,9 +1518,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "185205",
@@ -1370,9 +1540,9 @@
    "venue": "Vienna, Austria",
    "round": "Final",
    "court": "Centre Court",
-   "start_utc": "2026-11-01T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-01T13:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alex de Minaur",
@@ -1388,7 +1558,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-10-31T20:00:50+00:00",
@@ -1497,11 +1679,11 @@
    "espn_id": "187363",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
-   "venue": "Lwena Court, Luanda, Angola",
+   "venue": "Luanda, Angola",
    "round": "Qualifying Final",
    "court": "Lwena Court",
-   "start_utc": "2026-11-01T13:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T13:30Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1523,144 +1705,14 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
-   "espn_id": "187352",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Qualifying Final",
-   "court": "Court 2",
-   "start_utc": "2026-11-01T13:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Nuno Borges",
-     "id": "atp:132686"
-    },
-    {
-     "name": "Alex Molcan",
-     "id": "atp:144684"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-31T20:00:54+00:00",
-    "path": "forecasts/2026-11-01/187352-nuno-borges-vs-alex-molcan/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Nuno Borges",
-    "win_prob": {
-     "A": 0.5132,
-     "B": 0.4868
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-4",
-      "6-4"
-     ],
-     "prob": 0.312
-    },
-    "games_mean": 24.62,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8251,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.5132,
-      "B": 0.4868
-     },
-     "set_score_probs": {
-      "2-0": 0.312,
-      "0-2": 0.2876,
-      "2-1": 0.2012,
-      "1-2": 0.1992
-     },
-     "games_pmf": {
-      "12": 0.00032,
-      "13": 0.00227,
-      "14": 0.00635,
-      "15": 0.01738,
-      "16": 0.03007,
-      "17": 0.05438,
-      "18": 0.0641,
-      "19": 0.07949,
-      "20": 0.07486,
-      "21": 0.04971,
-      "22": 0.08907,
-      "23": 0.07192,
-      "24": 0.00991,
-      "25": 0.03387,
-      "26": 0.05403,
-      "27": 0.02638,
-      "28": 0.0336,
-      "29": 0.03522,
-      "30": 0.03589,
-      "31": 0.04662,
-      "32": 0.0482,
-      "33": 0.03048,
-      "34": 0.02316,
-      "35": 0.03584,
-      "36": 0.0263,
-      "37": 0.00239,
-      "38": 0.00828,
-      "39": 0.00991
-     },
-     "games_diff_pmf": {
-      "-12": 0.00017,
-      "-11": 0.0009,
-      "-10": 0.00289,
-      "-9": 0.00876,
-      "-8": 0.01625,
-      "-7": 0.03459,
-      "-6": 0.04986,
-      "-5": 0.07453,
-      "-4": 0.0946,
-      "-3": 0.08414,
-      "-2": 0.06227,
-      "-1": 0.03911,
-      "0": 0.03828,
-      "1": 0.03859,
-      "2": 0.06288,
-      "3": 0.08642,
-      "4": 0.09946,
-      "5": 0.08025,
-      "6": 0.05554,
-      "7": 0.03772,
-      "8": 0.0181,
-      "9": 0.00946,
-      "10": 0.00369,
-      "11": 0.00139,
-      "12": 0.00015
-     },
-     "p_tiebreak": 0.4714,
-     "p_decider": 0.4004
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0031
-   }
-  },
-  {
    "espn_id": "187353",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Qualifying Final",
    "court": "Court 1",
-   "start_utc": "2026-11-01T13:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T13:40Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1783,14 +1835,144 @@
    }
   },
   {
+   "espn_id": "187352",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Qualifying Final",
+   "court": "Court 2",
+   "start_utc": "2026-11-01T13:55Z",
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "players": [
+    {
+     "name": "Nuno Borges",
+     "id": "atp:132686"
+    },
+    {
+     "name": "Alex Molcan",
+     "id": "atp:144684"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T20:00:54+00:00",
+    "path": "forecasts/2026-11-01/187352-nuno-borges-vs-alex-molcan/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Nuno Borges",
+    "win_prob": {
+     "A": 0.5132,
+     "B": 0.4868
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.312
+    },
+    "games_mean": 24.62,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8251,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5132,
+      "B": 0.4868
+     },
+     "set_score_probs": {
+      "2-0": 0.312,
+      "0-2": 0.2876,
+      "2-1": 0.2012,
+      "1-2": 0.1992
+     },
+     "games_pmf": {
+      "12": 0.00032,
+      "13": 0.00227,
+      "14": 0.00635,
+      "15": 0.01738,
+      "16": 0.03007,
+      "17": 0.05438,
+      "18": 0.0641,
+      "19": 0.07949,
+      "20": 0.07486,
+      "21": 0.04971,
+      "22": 0.08907,
+      "23": 0.07192,
+      "24": 0.00991,
+      "25": 0.03387,
+      "26": 0.05403,
+      "27": 0.02638,
+      "28": 0.0336,
+      "29": 0.03522,
+      "30": 0.03589,
+      "31": 0.04662,
+      "32": 0.0482,
+      "33": 0.03048,
+      "34": 0.02316,
+      "35": 0.03584,
+      "36": 0.0263,
+      "37": 0.00239,
+      "38": 0.00828,
+      "39": 0.00991
+     },
+     "games_diff_pmf": {
+      "-12": 0.00017,
+      "-11": 0.0009,
+      "-10": 0.00289,
+      "-9": 0.00876,
+      "-8": 0.01625,
+      "-7": 0.03459,
+      "-6": 0.04986,
+      "-5": 0.07453,
+      "-4": 0.0946,
+      "-3": 0.08414,
+      "-2": 0.06227,
+      "-1": 0.03911,
+      "0": 0.03828,
+      "1": 0.03859,
+      "2": 0.06288,
+      "3": 0.08642,
+      "4": 0.09946,
+      "5": 0.08025,
+      "6": 0.05554,
+      "7": 0.03772,
+      "8": 0.0181,
+      "9": 0.00946,
+      "10": 0.00369,
+      "11": 0.00139,
+      "12": 0.00015
+     },
+     "p_tiebreak": 0.4714,
+     "p_decider": 0.4004
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0031
+   }
+  },
+  {
    "espn_id": "185781",
    "tour": "wta",
    "tournament": "Curitiba Open",
    "venue": "Curitiba, Brazil",
    "round": "Final",
    "court": "Quadra Central",
-   "start_utc": "2026-11-01T14:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T14:10Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1919,8 +2101,8 @@
    "venue": "Courmayeur, Italy",
    "round": "Final",
    "court": "Centre Court",
-   "start_utc": "2026-11-01T14:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T14:15Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2049,8 +2231,8 @@
    "venue": "Basel, Switzerland",
    "round": "Final",
    "court": "Center Court",
-   "start_utc": "2026-11-01T14:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-01T14:40Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {

@@ -1,0 +1,585 @@
+{
+ "predicted_winner": "Kyoka Okamura",
+ "win_prob": {
+  "A": 0.4947,
+  "B": 0.5053
+ },
+ "win_prob_exact": {
+  "A": 0.49472,
+  "B": 0.50528
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.02,
+   "american": "+102"
+  },
+  "B": {
+   "decimal": 1.98,
+   "american": "-102"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3126,
+  "2-0": 0.3062,
+  "1-2": 0.1926,
+  "2-1": 0.1886
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0171,
+ "games": {
+  "mean": 22.75,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00208,
+   "13": 0.00995,
+   "14": 0.0226,
+   "15": 0.04355,
+   "16": 0.06475,
+   "17": 0.08149,
+   "18": 0.08186,
+   "19": 0.07737,
+   "20": 0.0678,
+   "21": 0.05037,
+   "22": 0.06032,
+   "23": 0.04178,
+   "24": 0.02095,
+   "25": 0.03672,
+   "26": 0.04103,
+   "27": 0.03804,
+   "28": 0.04129,
+   "29": 0.04272,
+   "30": 0.0409,
+   "31": 0.03832,
+   "32": 0.03185,
+   "33": 0.02108,
+   "34": 0.01552,
+   "35": 0.01455,
+   "36": 0.00695,
+   "37": 0.00196,
+   "38": 0.00274,
+   "39": 0.00146
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00104,
+  "-11": 0.005,
+  "-10": 0.01191,
+  "-9": 0.02398,
+  "-8": 0.03854,
+  "-7": 0.05786,
+  "-6": 0.06918,
+  "-5": 0.07696,
+  "-4": 0.07796,
+  "-3": 0.05792,
+  "-2": 0.03912,
+  "-1": 0.03026,
+  "0": 0.02845,
+  "1": 0.03062,
+  "2": 0.03941,
+  "3": 0.05739,
+  "4": 0.07513,
+  "5": 0.07572,
+  "6": 0.06943,
+  "7": 0.05629,
+  "8": 0.03813,
+  "9": 0.02227,
+  "10": 0.0113,
+  "11": 0.00509,
+  "12": 0.00104
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7756,
+   "under": 0.2244
+  },
+  {
+   "line": 18.5,
+   "over": 0.6937,
+   "under": 0.3063
+  },
+  {
+   "line": 19.5,
+   "over": 0.6163,
+   "under": 0.3837
+  },
+  {
+   "line": 20.5,
+   "over": 0.5485,
+   "under": 0.4515
+  },
+  {
+   "line": 21.5,
+   "over": 0.4982,
+   "under": 0.5018
+  },
+  {
+   "line": 22.5,
+   "over": 0.4379,
+   "under": 0.5621
+  },
+  {
+   "line": 23.5,
+   "over": 0.3961,
+   "under": 0.6039
+  },
+  {
+   "line": 24.5,
+   "over": 0.3751,
+   "under": 0.6249
+  },
+  {
+   "line": 25.5,
+   "over": 0.3384,
+   "under": 0.6616
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4512,
+   "B +1.5": 0.5488,
+   "B -1.5": 0.4595,
+   "A +1.5": 0.5405
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4118,
+   "B +2.5": 0.5882,
+   "B -2.5": 0.4204,
+   "A +2.5": 0.5796
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3544,
+   "B +3.5": 0.6456,
+   "B -3.5": 0.3624,
+   "A +3.5": 0.6376
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2793,
+   "B +4.5": 0.7207,
+   "B -4.5": 0.2845,
+   "A +4.5": 0.7155
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2036,
+   "B +5.5": 0.7964,
+   "B -5.5": 0.2075,
+   "A +5.5": 0.7925
+  }
+ ],
+ "p_tiebreak": 0.2753,
+ "p_a_wins_set": 0.6874,
+ "p_b_wins_set": 0.6938,
+ "p_decider": 0.3812,
+ "expected_breaks": {
+  "total": 7.55,
+  "by_A": 3.76,
+  "by_B": 3.79
+ },
+ "expected_break_points": {
+  "A_creates": 8.48,
+  "B_creates": 8.52
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3126
+ },
+ "match": "Jeline Vandromme vs Kyoka Okamura",
+ "players": {
+  "A": {
+   "id": "wta:espn15755",
+   "name": "Jeline Vandromme",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1635.8,
+   "surface_elo": {
+    "Hard": 1604.0,
+    "Clay": 1500.0,
+    "Grass": 1535.7
+   },
+   "matches_total": 21,
+   "matches_surface": {
+    "Hard": 18,
+    "Clay": 0,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    13,
+    8
+   ],
+   "last52w_surface": [
+    11,
+    7
+   ],
+   "career_surface_wl": [
+    11,
+    7
+   ],
+   "games_won_lost_52w": [
+    283,
+    222
+   ],
+   "sets_won_lost_52w": [
+    31,
+    21
+   ],
+   "avg_opp_elo_last20": 1580.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -18.0,
+   "last_match": "2026-10-24",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:211846",
+   "name": "Kyoka Okamura",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 183.0,
+   "age": 30.99069130732375,
+   "elo": 1645.3,
+   "surface_elo": {
+    "Hard": 1639.5,
+    "Clay": 1398.8,
+    "Grass": 1500.0
+   },
+   "matches_total": 25,
+   "matches_surface": {
+    "Hard": 23,
+    "Clay": 2,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    12,
+    8
+   ],
+   "last52w_surface": [
+    12,
+    7
+   ],
+   "career_surface_wl": [
+    13,
+    10
+   ],
+   "games_won_lost_52w": [
+    215,
+    199
+   ],
+   "sets_won_lost_52w": [
+    24,
+    20
+   ],
+   "avg_opp_elo_last20": 1549.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0149,
+   "return_rating": -0.0315,
+   "form_elo": 39.4,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2025-03-31",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2022-09-12",
+     297.0
+    ],
+    [
+     "2024-10-21",
+     271.0
+    ],
+    [
+     "2024-10-28",
+     237.0
+    ],
+    [
+     "2025-03-31",
+     183.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Jeline Vandromme: sparse record (21 tour matches, 0 with serve stats in 52w)",
+  "Kyoka Okamura: sparse record (25 tour matches, 0 with serve stats in 52w)",
+  "Kyoka Okamura: latest point-level stats are 581 days old (2025-03-31)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -1.3,
+  "components_elo": {
+   "surface_elo": -35.5,
+   "overall_elo": -9.5,
+   "serve_return": 14.8,
+   "form": -57.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.3,
+   "overall_elo": -2.2,
+   "serve_return": 5.2,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4981,
+  "serve_return_implied_spw": {
+   "A": 0.5735,
+   "B": 0.5694
+  },
+  "point_probs": {
+   "A_serve": 0.5711,
+   "B_serve": 0.5717
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5711414482573092,
+   "B_serve": 0.5717290448664188
+  },
+  "hold_probs": {
+   "A": 0.6726,
+   "B": 0.6739
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4947,
+   0.498
+  ],
+  "p_tb": [
+   0.2753,
+   0.2746
+  ],
+  "p_decider": [
+   0.3812,
+   0.3783
+  ],
+  "games_mean": [
+   22.751,
+   22.732
+  ],
+  "exp_breaks": [
+   7.548,
+   7.533
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3126,
+    0.3124
+   ],
+   "1-2": [
+    0.1926,
+    0.1895
+   ],
+   "2-0": [
+    0.3062,
+    0.3092
+   ],
+   "2-1": [
+    0.1886,
+    0.1888
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0033
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jeline Vandromme",
+   "elo_points": 5.2,
+   "raw_diff": 14.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Kyoka Okamura",
+   "elo_points": -4.3,
+   "raw_diff": -35.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Kyoka Okamura",
+   "elo_points": -2.2,
+   "raw_diff": -9.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5711,
+   "B": 0.5717,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7247,
+  "fair_odds": {
+   "decimal": 1.38,
+   "american": "-263"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Jeline Vandromme: sparse record (21 tour matches, 0 with serve stats in 52w); Kyoka Okamura: sparse record (25 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7247,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Jeline Vandromme +4.5 games",
+    "probability": 0.7155,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Kyoka Okamura to win at least one set",
+    "probability": 0.6938,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6937,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Jeline Vandromme to win at least one set",
+    "probability": 0.6874,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6249,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6188,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Jeline Vandromme +2.5 games",
+    "probability": 0.5796,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5621,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5485,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Kyoka Okamura to win",
+    "probability": 0.5053,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Jeline Vandromme to win",
+    "probability": 0.4947,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4515,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4379,
+    "fair_decimal": 2.28
+   },
+   {
+    "selection": "Kyoka Okamura -2.5 games",
+    "probability": 0.4204,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T15:10:12+00:00",
+  "version": 1,
+  "input_hash": "d19c8e5871e5d766",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186575",
+  "scheduled_start_utc": "2026-11-02T09:30Z"
+ }
+}

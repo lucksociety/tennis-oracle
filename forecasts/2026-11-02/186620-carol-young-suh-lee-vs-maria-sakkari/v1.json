@@ -1,0 +1,633 @@
+{
+ "predicted_winner": "Maria Sakkari",
+ "win_prob": {
+  "A": 0.3209,
+  "B": 0.6791
+ },
+ "win_prob_exact": {
+  "A": 0.32089,
+  "B": 0.67911
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.12,
+   "american": "+212"
+  },
+  "B": {
+   "decimal": 1.47,
+   "american": "-212"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4695,
+  "1-2": 0.2096,
+  "2-0": 0.1805,
+  "2-1": 0.1404
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0226,
+ "games": {
+  "mean": 22.21,
+  "median": 21.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00334,
+   "13": 0.01411,
+   "14": 0.03109,
+   "15": 0.05304,
+   "16": 0.07276,
+   "17": 0.08514,
+   "18": 0.08616,
+   "19": 0.07806,
+   "20": 0.06772,
+   "21": 0.04851,
+   "22": 0.05843,
+   "23": 0.03839,
+   "24": 0.01967,
+   "25": 0.03495,
+   "26": 0.03901,
+   "27": 0.03554,
+   "28": 0.0396,
+   "29": 0.03893,
+   "30": 0.0361,
+   "31": 0.03346,
+   "32": 0.0289,
+   "33": 0.01878,
+   "34": 0.01374,
+   "35": 0.01262,
+   "36": 0.00658,
+   "37": 0.00182,
+   "38": 0.00228,
+   "39": 0.00127
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00312,
+  "-11": 0.01252,
+  "-10": 0.02722,
+  "-9": 0.04605,
+  "-8": 0.06611,
+  "-7": 0.08884,
+  "-6": 0.10104,
+  "-5": 0.09834,
+  "-4": 0.0925,
+  "-3": 0.06206,
+  "-2": 0.04036,
+  "-1": 0.02826,
+  "0": 0.02564,
+  "1": 0.02491,
+  "2": 0.03063,
+  "3": 0.04231,
+  "4": 0.05284,
+  "5": 0.04926,
+  "6": 0.04176,
+  "7": 0.03035,
+  "8": 0.01926,
+  "9": 0.01003,
+  "10": 0.00468,
+  "11": 0.00169,
+  "12": 0.00022
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7405,
+   "under": 0.2595
+  },
+  {
+   "line": 18.5,
+   "over": 0.6544,
+   "under": 0.3456
+  },
+  {
+   "line": 19.5,
+   "over": 0.5763,
+   "under": 0.4237
+  },
+  {
+   "line": 20.5,
+   "over": 0.5086,
+   "under": 0.4914
+  },
+  {
+   "line": 21.5,
+   "over": 0.4601,
+   "under": 0.5399
+  },
+  {
+   "line": 22.5,
+   "over": 0.4016,
+   "under": 0.5984
+  },
+  {
+   "line": 23.5,
+   "over": 0.3633,
+   "under": 0.6368
+  },
+  {
+   "line": 24.5,
+   "over": 0.3436,
+   "under": 0.6564
+  },
+  {
+   "line": 25.5,
+   "over": 0.3086,
+   "under": 0.6914
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.283,
+   "B +1.5": 0.717,
+   "B -1.5": 0.6382,
+   "A +1.5": 0.3618
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2524,
+   "B +2.5": 0.7476,
+   "B -2.5": 0.5978,
+   "A +2.5": 0.4022
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2101,
+   "B +3.5": 0.7899,
+   "B -3.5": 0.5357,
+   "A +3.5": 0.4643
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1572,
+   "B +4.5": 0.8427,
+   "B -4.5": 0.4432,
+   "A +4.5": 0.5568
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.108,
+   "B +5.5": 0.892,
+   "B -5.5": 0.3449,
+   "A +5.5": 0.6551
+  }
+ ],
+ "p_tiebreak": 0.2527,
+ "p_a_wins_set": 0.5305,
+ "p_b_wins_set": 0.8195,
+ "p_decider": 0.35,
+ "expected_breaks": {
+  "total": 7.54,
+  "by_A": 3.21,
+  "by_B": 4.34
+ },
+ "expected_break_points": {
+  "A_creates": 7.58,
+  "B_creates": 9.26
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4695
+ },
+ "match": "Carol Young Suh Lee vs Maria Sakkari",
+ "players": {
+  "A": {
+   "id": "wta:221803",
+   "name": "Carol Young Suh Lee",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": 24.831690622861053,
+   "elo": 1662.3,
+   "surface_elo": {
+    "Hard": 1635.3,
+    "Clay": 1434.0,
+    "Grass": 1427.8
+   },
+   "matches_total": 27,
+   "matches_surface": {
+    "Hard": 25,
+    "Clay": 1,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    13,
+    10
+   ],
+   "last52w_surface": [
+    13,
+    8
+   ],
+   "career_surface_wl": [
+    16,
+    9
+   ],
+   "games_won_lost_52w": [
+    259,
+    249
+   ],
+   "sets_won_lost_52w": [
+    29,
+    24
+   ],
+   "avg_opp_elo_last20": 1646.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0001,
+   "return_rating": 0.0001,
+   "form_elo": 0.8,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2019-02-08",
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:206289",
+   "name": "Maria Sakkari",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 49.0,
+   "age": 31.24079397672827,
+   "elo": 1805.3,
+   "surface_elo": {
+    "Hard": 1779.2,
+    "Clay": 1714.1,
+    "Grass": 1619.9
+   },
+   "matches_total": 503,
+   "matches_surface": {
+    "Hard": 328,
+    "Clay": 120,
+    "Grass": 55
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    26,
+    22
+   ],
+   "last52w_surface": [
+    21,
+    15
+   ],
+   "career_surface_wl": [
+    181,
+    147
+   ],
+   "games_won_lost_52w": [
+    528,
+    493
+   ],
+   "sets_won_lost_52w": [
+    60,
+    52
+   ],
+   "avg_opp_elo_last20": 1769.2,
+   "vs_top_opp_52w": [
+    4,
+    10
+   ],
+   "serve_rating": 0.1331,
+   "return_rating": 0.1101,
+   "form_elo": 8.3,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6739,
+    "first_won": 0.6017,
+    "second_won": 0.4812,
+    "serve_pts_won": 0.5624,
+    "hold": 0.6415,
+    "aces_per_svgm": 0.1887,
+    "df_per_svgm": 0.1572,
+    "bp_saved": 0.5899,
+    "ret_pts_won": 0.4245,
+    "ret_1st_won": 0.3656,
+    "ret_2nd_won": 0.5187,
+    "ret_games_won": 0.3333,
+    "bp_conv": 0.4953,
+    "bp_chances_per_retgm": 0.673,
+    "matches_with_stats": 16
+   },
+   "rank_history": [
+    [
+     "2025-10-20",
+     54.0
+    ],
+    [
+     "2026-01-05",
+     51.0
+    ],
+    [
+     "2026-01-12",
+     52.0
+    ],
+    [
+     "2026-01-19",
+     53.0
+    ],
+    [
+     "2026-02-08",
+     52.0
+    ],
+    [
+     "2026-03-04",
+     34.0
+    ],
+    [
+     "2026-03-17",
+     33.0
+    ],
+    [
+     "2026-03-30",
+     36.0
+    ],
+    [
+     "2026-04-21",
+     37.0
+    ],
+    [
+     "2026-05-05",
+     47.0
+    ],
+    [
+     "2026-05-17",
+     48.0
+    ],
+    [
+     "2026-05-25",
+     49.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Carol Young Suh Lee: sparse record (27 tour matches, 0 with serve stats in 52w)",
+  "Carol Young Suh Lee: latest point-level stats are 2824 days old (2019-02-08)",
+  "Maria Sakkari: latest point-level stats are 169 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -129.4,
+  "components_elo": {
+   "surface_elo": -143.9,
+   "overall_elo": -143.0,
+   "serve_return": -223.6,
+   "form": -7.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -17.6,
+   "overall_elo": -33.8,
+   "serve_return": -78.0,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.322,
+  "serve_return_implied_spw": {
+   "A": 0.5385,
+   "B": 0.5981
+  },
+  "point_probs": {
+   "A_serve": 0.5415,
+   "B_serve": 0.5952
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5414904684561237,
+   "B_serve": 0.5952193841845871
+  },
+  "hold_probs": {
+   "A": 0.6027,
+   "B": 0.7257
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3209,
+   0.3245
+  ],
+  "p_tb": [
+   0.2527,
+   0.2538
+  ],
+  "p_decider": [
+   0.35,
+   0.35
+  ],
+  "games_mean": [
+   22.213,
+   22.213
+  ],
+  "exp_breaks": [
+   7.542,
+   7.538
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4695,
+    0.4685
+   ],
+   "1-2": [
+    0.2096,
+    0.207
+   ],
+   "2-0": [
+    0.1805,
+    0.1815
+   ],
+   "2-1": [
+    0.1404,
+    0.1429
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0036
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Maria Sakkari",
+   "elo_points": -78.0,
+   "raw_diff": -223.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Maria Sakkari",
+   "elo_points": -33.8,
+   "raw_diff": -143.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Maria Sakkari",
+   "elo_points": -17.6,
+   "raw_diff": -143.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5415,
+   "B": 0.5952,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Maria Sakkari to win at least one set",
+  "probability": 0.8195,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-454"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Carol Young Suh Lee: sparse record (27 tour matches, 0 with serve stats in 52w); Carol Young Suh Lee: latest point-level stats are 2824 days old (2019-02-08)",
+  "candidates": [
+   {
+    "selection": "Maria Sakkari to win at least one set",
+    "probability": 0.8195,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7473,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Maria Sakkari to win",
+    "probability": 0.6791,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6564,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6544,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.65,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5984,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Maria Sakkari -2.5 games",
+    "probability": 0.5978,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Carol Young Suh Lee +4.5 games",
+    "probability": 0.5568,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Carol Young Suh Lee to win at least one set",
+    "probability": 0.5305,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5086,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4914,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Exact sets Carol Young Suh Lee 0-2 Maria Sakkari",
+    "probability": 0.4695,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Maria Sakkari -4.5 games",
+    "probability": 0.4432,
+    "fair_decimal": 2.26
+   },
+   {
+    "selection": "Carol Young Suh Lee +2.5 games",
+    "probability": 0.4022,
+    "fair_decimal": 2.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T15:10:06+00:00",
+  "version": 1,
+  "input_hash": "8ba02859a7c8c089",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186620",
+  "scheduled_start_utc": "2026-11-02T07:30Z"
+ }
+}
