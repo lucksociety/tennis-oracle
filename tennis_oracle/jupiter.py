@@ -154,7 +154,11 @@ def evaluate(m, ev, snapshot_at_utc=None):
         outs.append(o)
     priced = [o for o in outs if o.get("implied") is not None]
     elig = sorted([o for o in priced if o["eligible"]], key=lambda o: (-o["ev_per_1"], -o["model_p"]))
-    live = m.get("status") and m["status"] != "STATUS_SCHEDULED"
+    try:
+        start = _iso(m.get("start_utc") or "")
+    except (ValueError, TypeError):
+        start = 0
+    live = (m.get("status") and m["status"] != "STATUS_SCHEDULED") or ev.get("isLive") or not start or snap >= start
     best = elig[0] if elig else None
     if live:
         best = None; status = "not_prematch"
