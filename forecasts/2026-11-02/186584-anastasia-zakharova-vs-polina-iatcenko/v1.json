@@ -1,0 +1,642 @@
+{
+ "predicted_winner": "Anastasia Zakharova",
+ "win_prob": {
+  "A": 0.513,
+  "B": 0.487
+ },
+ "win_prob_exact": {
+  "A": 0.513,
+  "B": 0.487
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.95,
+   "american": "-105"
+  },
+  "B": {
+   "decimal": 2.05,
+   "american": "+105"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3238,
+  "0-2": 0.2998,
+  "2-1": 0.1892,
+  "1-2": 0.1872
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0178,
+ "games": {
+  "mean": 22.6,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00224,
+   "13": 0.0101,
+   "14": 0.02478,
+   "15": 0.04612,
+   "16": 0.06624,
+   "17": 0.0828,
+   "18": 0.0816,
+   "19": 0.07828,
+   "20": 0.06935,
+   "21": 0.04842,
+   "22": 0.06063,
+   "23": 0.03999,
+   "24": 0.02151,
+   "25": 0.03873,
+   "26": 0.04061,
+   "27": 0.03831,
+   "28": 0.04134,
+   "29": 0.04281,
+   "30": 0.03912,
+   "31": 0.03633,
+   "32": 0.03067,
+   "33": 0.01938,
+   "34": 0.01441,
+   "35": 0.01425,
+   "36": 0.00623,
+   "37": 0.00215,
+   "38": 0.00243,
+   "39": 0.00117
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00112,
+  "-11": 0.00465,
+  "-10": 0.01188,
+  "-9": 0.02348,
+  "-8": 0.03734,
+  "-7": 0.05633,
+  "-6": 0.06812,
+  "-5": 0.07187,
+  "-4": 0.07526,
+  "-3": 0.05631,
+  "-2": 0.03711,
+  "-1": 0.03027,
+  "0": 0.02773,
+  "1": 0.02966,
+  "2": 0.03781,
+  "3": 0.05511,
+  "4": 0.07726,
+  "5": 0.07939,
+  "6": 0.07191,
+  "7": 0.06066,
+  "8": 0.04089,
+  "9": 0.02553,
+  "10": 0.01361,
+  "11": 0.00558,
+  "12": 0.00112
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7677,
+   "under": 0.2323
+  },
+  {
+   "line": 18.5,
+   "over": 0.6861,
+   "under": 0.3139
+  },
+  {
+   "line": 19.5,
+   "over": 0.6078,
+   "under": 0.3922
+  },
+  {
+   "line": 20.5,
+   "over": 0.5385,
+   "under": 0.4615
+  },
+  {
+   "line": 21.5,
+   "over": 0.4901,
+   "under": 0.5099
+  },
+  {
+   "line": 22.5,
+   "over": 0.4294,
+   "under": 0.5706
+  },
+  {
+   "line": 23.5,
+   "over": 0.3895,
+   "under": 0.6106
+  },
+  {
+   "line": 24.5,
+   "over": 0.3679,
+   "under": 0.6321
+  },
+  {
+   "line": 25.5,
+   "over": 0.3292,
+   "under": 0.6708
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4689,
+   "B +1.5": 0.5311,
+   "B -1.5": 0.4435,
+   "A +1.5": 0.5565
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4311,
+   "B +2.5": 0.5689,
+   "B -2.5": 0.4064,
+   "A +2.5": 0.5936
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.376,
+   "B +3.5": 0.624,
+   "B -3.5": 0.35,
+   "A +3.5": 0.65
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2987,
+   "B +4.5": 0.7013,
+   "B -4.5": 0.2748,
+   "A +4.5": 0.7252
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2193,
+   "B +5.5": 0.7807,
+   "B -5.5": 0.2029,
+   "A +5.5": 0.7971
+  }
+ ],
+ "p_tiebreak": 0.2611,
+ "p_a_wins_set": 0.7002,
+ "p_b_wins_set": 0.6762,
+ "p_decider": 0.3764,
+ "expected_breaks": {
+  "total": 7.94,
+  "by_A": 4.01,
+  "by_B": 3.93
+ },
+ "expected_break_points": {
+  "A_creates": 8.83,
+  "B_creates": 8.73
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3238
+ },
+ "match": "Anastasia Zakharova vs Polina Iatcenko",
+ "players": {
+  "A": {
+   "id": "wta:220435",
+   "name": "Anastasia Zakharova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 80.0,
+   "age": 24.74079397672827,
+   "elo": 1590.3,
+   "surface_elo": {
+    "Hard": 1539.6,
+    "Clay": 1562.7,
+    "Grass": 1577.9
+   },
+   "matches_total": 78,
+   "matches_surface": {
+    "Hard": 58,
+    "Clay": 10,
+    "Grass": 10
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    19,
+    26
+   ],
+   "last52w_surface": [
+    12,
+    18
+   ],
+   "career_surface_wl": [
+    21,
+    37
+   ],
+   "games_won_lost_52w": [
+    446,
+    519
+   ],
+   "sets_won_lost_52w": [
+    41,
+    61
+   ],
+   "avg_opp_elo_last20": 1670.4,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.0827,
+   "return_rating": 0.0467,
+   "form_elo": -69.8,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6742,
+    "first_won": 0.6055,
+    "second_won": 0.4491,
+    "serve_pts_won": 0.5546,
+    "hold": 0.6096,
+    "aces_per_svgm": 0.0909,
+    "df_per_svgm": 0.2834,
+    "bp_saved": 0.4823,
+    "ret_pts_won": 0.4179,
+    "ret_1st_won": 0.3283,
+    "ret_2nd_won": 0.5504,
+    "ret_games_won": 0.3061,
+    "bp_conv": 0.4478,
+    "bp_chances_per_retgm": 0.6837,
+    "matches_with_stats": 17
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     99.0
+    ],
+    [
+     "2026-01-19",
+     105.0
+    ],
+    [
+     "2026-02-01",
+     107.0
+    ],
+    [
+     "2026-02-08",
+     105.0
+    ],
+    [
+     "2026-02-15",
+     104.0
+    ],
+    [
+     "2026-02-23",
+     88.0
+    ],
+    [
+     "2026-03-04",
+     86.0
+    ],
+    [
+     "2026-03-17",
+     74.0
+    ],
+    [
+     "2026-03-30",
+     66.0
+    ],
+    [
+     "2026-04-21",
+     79.0
+    ],
+    [
+     "2026-05-05",
+     81.0
+    ],
+    [
+     "2026-05-25",
+     80.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:223325",
+   "name": "Polina Iatcenko",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 181.0,
+   "age": 22.81574264202601,
+   "elo": 1642.9,
+   "surface_elo": {
+    "Hard": 1604.3,
+    "Clay": 1428.5,
+    "Grass": 1556.1
+   },
+   "matches_total": 27,
+   "matches_surface": {
+    "Hard": 23,
+    "Clay": 1,
+    "Grass": 3
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    12,
+    10
+   ],
+   "last52w_surface": [
+    10,
+    8
+   ],
+   "career_surface_wl": [
+    13,
+    10
+   ],
+   "games_won_lost_52w": [
+    229,
+    225
+   ],
+   "sets_won_lost_52w": [
+    25,
+    24
+   ],
+   "avg_opp_elo_last20": 1646.7,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0152,
+   "return_rating": 0.048,
+   "form_elo": -12.4,
+   "last_match": "2026-10-25",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-06-16",
+     337.0
+    ],
+    [
+     "2025-10-27",
+     181.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Anastasia Zakharova: latest point-level stats are 181 days old (2026-05-05)",
+  "Polina Iatcenko: sparse record (27 tour matches, 0 with serve stats in 52w)",
+  "Polina Iatcenko: latest point-level stats are 371 days old (2025-10-27)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 10.3,
+  "components_elo": {
+   "surface_elo": -64.6,
+   "overall_elo": -52.7,
+   "serve_return": 87.6,
+   "form": -57.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -7.9,
+   "overall_elo": -12.4,
+   "serve_return": 30.5,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5148,
+  "serve_return_implied_spw": {
+   "A": 0.5743,
+   "B": 0.5505
+  },
+  "point_probs": {
+   "A_serve": 0.5645,
+   "B_serve": 0.5603
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5645465614096249,
+   "B_serve": 0.5602797619154429
+  },
+  "hold_probs": {
+   "A": 0.6574,
+   "B": 0.6475
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.513,
+   0.5144
+  ],
+  "p_tb": [
+   0.2611,
+   0.2637
+  ],
+  "p_decider": [
+   0.3764,
+   0.3767
+  ],
+  "games_mean": [
+   22.603,
+   22.616
+  ],
+  "exp_breaks": [
+   7.939,
+   7.941
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2998,
+    0.3
+   ],
+   "1-2": [
+    0.1872,
+    0.1856
+   ],
+   "2-0": [
+    0.3238,
+    0.3233
+   ],
+   "2-1": [
+    0.1892,
+    0.1911
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0026
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Anastasia Zakharova",
+   "elo_points": 30.5,
+   "raw_diff": 87.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Polina Iatcenko",
+   "elo_points": -12.4,
+   "raw_diff": -52.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Polina Iatcenko",
+   "elo_points": -7.9,
+   "raw_diff": -64.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5645,
+   "B": 0.5603,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7389,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-283"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Anastasia Zakharova: latest point-level stats are 181 days old (2026-05-05); Polina Iatcenko: sparse record (27 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7389,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Polina Iatcenko +4.5 games",
+    "probability": 0.7013,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Anastasia Zakharova to win at least one set",
+    "probability": 0.7002,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6861,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Polina Iatcenko to win at least one set",
+    "probability": 0.6762,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6321,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6236,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5706,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Polina Iatcenko +2.5 games",
+    "probability": 0.5689,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5385,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Anastasia Zakharova to win",
+    "probability": 0.513,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Polina Iatcenko to win",
+    "probability": 0.487,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4615,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Anastasia Zakharova -2.5 games",
+    "probability": 0.4311,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4294,
+    "fair_decimal": 2.33
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:48+00:00",
+  "version": 1,
+  "input_hash": "5d9b53518c41bd8d",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186584",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

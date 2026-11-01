@@ -1,0 +1,647 @@
+{
+ "predicted_winner": "Jil Teichmann",
+ "win_prob": {
+  "A": 0.5178,
+  "B": 0.4822
+ },
+ "win_prob_exact": {
+  "A": 0.51775,
+  "B": 0.48224999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.93,
+   "american": "-107"
+  },
+  "B": {
+   "decimal": 2.07,
+   "american": "+107"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3252,
+  "0-2": 0.2963,
+  "2-1": 0.1926,
+  "1-2": 0.186
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0182,
+ "games": {
+  "mean": 22.8,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00198,
+   "13": 0.00898,
+   "14": 0.02248,
+   "15": 0.04116,
+   "16": 0.06276,
+   "17": 0.08074,
+   "18": 0.08302,
+   "19": 0.07882,
+   "20": 0.06955,
+   "21": 0.05045,
+   "22": 0.06206,
+   "23": 0.0424,
+   "24": 0.02,
+   "25": 0.03649,
+   "26": 0.04185,
+   "27": 0.03704,
+   "28": 0.041,
+   "29": 0.0423,
+   "30": 0.04066,
+   "31": 0.03736,
+   "32": 0.03302,
+   "33": 0.02058,
+   "34": 0.01559,
+   "35": 0.01523,
+   "36": 0.00756,
+   "37": 0.00199,
+   "38": 0.00312,
+   "39": 0.00181
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00094,
+  "-11": 0.00413,
+  "-10": 0.01086,
+  "-9": 0.02012,
+  "-8": 0.03457,
+  "-7": 0.05282,
+  "-6": 0.06609,
+  "-5": 0.07339,
+  "-4": 0.07619,
+  "-3": 0.05722,
+  "-2": 0.04108,
+  "-1": 0.02981,
+  "0": 0.02907,
+  "1": 0.02892,
+  "2": 0.0408,
+  "3": 0.05903,
+  "4": 0.08006,
+  "5": 0.08041,
+  "6": 0.07282,
+  "7": 0.06103,
+  "8": 0.03889,
+  "9": 0.02357,
+  "10": 0.01224,
+  "11": 0.0049,
+  "12": 0.00104
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7819,
+   "under": 0.2181
+  },
+  {
+   "line": 18.5,
+   "over": 0.6989,
+   "under": 0.3011
+  },
+  {
+   "line": 19.5,
+   "over": 0.6201,
+   "under": 0.3799
+  },
+  {
+   "line": 20.5,
+   "over": 0.5505,
+   "under": 0.4495
+  },
+  {
+   "line": 21.5,
+   "over": 0.5001,
+   "under": 0.4999
+  },
+  {
+   "line": 22.5,
+   "over": 0.438,
+   "under": 0.562
+  },
+  {
+   "line": 23.5,
+   "over": 0.3956,
+   "under": 0.6044
+  },
+  {
+   "line": 24.5,
+   "over": 0.3756,
+   "under": 0.6244
+  },
+  {
+   "line": 25.5,
+   "over": 0.3391,
+   "under": 0.6609
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4748,
+   "B +1.5": 0.5252,
+   "B -1.5": 0.4374,
+   "A +1.5": 0.5626
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.434,
+   "B +2.5": 0.566,
+   "B -2.5": 0.3963,
+   "A +2.5": 0.6037
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.375,
+   "B +3.5": 0.625,
+   "B -3.5": 0.3391,
+   "A +3.5": 0.6609
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2949,
+   "B +4.5": 0.7051,
+   "B -4.5": 0.2629,
+   "A +4.5": 0.7371
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2145,
+   "B +5.5": 0.7855,
+   "B -5.5": 0.1895,
+   "A +5.5": 0.8105
+  }
+ ],
+ "p_tiebreak": 0.2802,
+ "p_a_wins_set": 0.7037,
+ "p_b_wins_set": 0.6748,
+ "p_decider": 0.3785,
+ "expected_breaks": {
+  "total": 7.31,
+  "by_A": 3.71,
+  "by_B": 3.6
+ },
+ "expected_break_points": {
+  "A_creates": 8.4,
+  "B_creates": 8.23
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3252
+ },
+ "match": "Jil Teichmann vs Joanna Garland",
+ "players": {
+  "A": {
+   "id": "wta:213525",
+   "name": "Jil Teichmann",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 170.0,
+   "age": 29.24079397672827,
+   "elo": 1717.1,
+   "surface_elo": {
+    "Hard": 1629.6,
+    "Clay": 1740.1,
+    "Grass": 1348.7
+   },
+   "matches_total": 213,
+   "matches_surface": {
+    "Hard": 128,
+    "Clay": 73,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    13,
+    6
+   ],
+   "last52w_surface": [
+    6,
+    3
+   ],
+   "career_surface_wl": [
+    61,
+    67
+   ],
+   "games_won_lost_52w": [
+    230,
+    201
+   ],
+   "sets_won_lost_52w": [
+    28,
+    15
+   ],
+   "avg_opp_elo_last20": 1670.1,
+   "vs_top_opp_52w": [
+    1,
+    1
+   ],
+   "serve_rating": 0.0189,
+   "return_rating": -0.0141,
+   "form_elo": 56.7,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.6798,
+    "first_won": 0.5822,
+    "second_won": 0.5094,
+    "serve_pts_won": 0.5589,
+    "hold": 0.6383,
+    "aces_per_svgm": 0.0213,
+    "df_per_svgm": 0.2979,
+    "bp_saved": 0.5143,
+    "ret_pts_won": 0.4804,
+    "ret_1st_won": 0.4319,
+    "ret_2nd_won": 0.5678,
+    "ret_games_won": 0.4348,
+    "bp_conv": 0.4255,
+    "bp_chances_per_retgm": 1.0217,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2024-10-28",
+     153.0
+    ],
+    [
+     "2025-01-27",
+     128.0
+    ],
+    [
+     "2025-04-10",
+     96.0
+    ],
+    [
+     "2025-05-06",
+     94.0
+    ],
+    [
+     "2025-05-19",
+     98.0
+    ],
+    [
+     "2025-05-26",
+     97.0
+    ],
+    [
+     "2025-06-30",
+     93.0
+    ],
+    [
+     "2025-07-14",
+     102.0
+    ],
+    [
+     "2025-08-17",
+     85.0
+    ],
+    [
+     "2025-08-25",
+     87.0
+    ],
+    [
+     "2026-05-18",
+     207.0
+    ],
+    [
+     "2026-05-25",
+     170.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220466",
+   "name": "Joanna Garland",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 132.0,
+   "age": 25.215742642026008,
+   "elo": 1674.6,
+   "surface_elo": {
+    "Hard": 1644.7,
+    "Clay": 1539.6,
+    "Grass": 1483.0
+   },
+   "matches_total": 19,
+   "matches_surface": {
+    "Hard": 14,
+    "Clay": 2,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    8
+   ],
+   "last52w": [
+    7,
+    4
+   ],
+   "last52w_surface": [
+    6,
+    3
+   ],
+   "career_surface_wl": [
+    9,
+    5
+   ],
+   "games_won_lost_52w": [
+    133,
+    114
+   ],
+   "sets_won_lost_52w": [
+    15,
+    11
+   ],
+   "avg_opp_elo_last20": 1609.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.018,
+   "return_rating": -0.0362,
+   "form_elo": 28.5,
+   "last_match": "2026-10-25",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-05-26",
+     175.0
+    ],
+    [
+     "2025-06-09",
+     147.0
+    ],
+    [
+     "2025-10-13",
+     132.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Jil Teichmann: limited recent/surface sample (19 matches 52w, 128 career on Hard, 4 with stats)",
+  "Jil Teichmann: latest point-level stats are 168 days old (2026-05-18)",
+  "Joanna Garland: sparse record (19 tour matches, 0 with serve stats in 52w)",
+  "Joanna Garland: latest point-level stats are 371 days old (2025-10-27)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 15.3,
+  "components_elo": {
+   "surface_elo": -15.0,
+   "overall_elo": 42.5,
+   "serve_return": 20.4,
+   "form": 28.2
+  },
+  "weighted_contributions": {
+   "surface_elo": -1.8,
+   "overall_elo": 10.0,
+   "serve_return": 7.1,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5219,
+  "serve_return_implied_spw": {
+   "A": 0.5792,
+   "B": 0.5736
+  },
+  "point_probs": {
+   "A_serve": 0.5796,
+   "B_serve": 0.5733
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5795846717177268,
+   "B_serve": 0.5732546755502084
+  },
+  "hold_probs": {
+   "A": 0.6916,
+   "B": 0.6774
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5178,
+   0.5214
+  ],
+  "p_tb": [
+   0.2802,
+   0.281
+  ],
+  "p_decider": [
+   0.3785,
+   0.3788
+  ],
+  "games_mean": [
+   22.799,
+   22.793
+  ],
+  "exp_breaks": [
+   7.307,
+   7.308
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2963,
+    0.2933
+   ],
+   "1-2": [
+    0.186,
+    0.1852
+   ],
+   "2-0": [
+    0.3252,
+    0.3279
+   ],
+   "2-1": [
+    0.1926,
+    0.1936
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0036
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Jil Teichmann",
+   "elo_points": 10.0,
+   "raw_diff": 42.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jil Teichmann",
+   "elo_points": 7.1,
+   "raw_diff": 20.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Joanna Garland",
+   "elo_points": -1.8,
+   "raw_diff": -15.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5796,
+   "B": 0.5733,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7198,
+  "fair_odds": {
+   "decimal": 1.39,
+   "american": "-257"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Jil Teichmann: limited recent/surface sample (19 matches 52w, 128 career on Hard, 4 with stats); Jil Teichmann: latest point-level stats are 168 days old (2026-05-18)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7198,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Joanna Garland +4.5 games",
+    "probability": 0.7051,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Jil Teichmann to win at least one set",
+    "probability": 0.7037,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6989,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Joanna Garland to win at least one set",
+    "probability": 0.6748,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6244,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6215,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Joanna Garland +2.5 games",
+    "probability": 0.566,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.562,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5505,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Jil Teichmann to win",
+    "probability": 0.5178,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Joanna Garland to win",
+    "probability": 0.4822,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4495,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.438,
+    "fair_decimal": 2.28
+   },
+   {
+    "selection": "Jil Teichmann -2.5 games",
+    "probability": 0.434,
+    "fair_decimal": 2.3
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:50+00:00",
+  "version": 1,
+  "input_hash": "794f958d3e00ded2",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186583",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

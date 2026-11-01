@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Rafael Jodar",
+ "win_prob": {
+  "A": 0.3935,
+  "B": 0.6065
+ },
+ "win_prob_exact": {
+  "A": 0.39346,
+  "B": 0.6065400000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.54,
+   "american": "+154"
+  },
+  "B": {
+   "decimal": 1.65,
+   "american": "-154"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3881,
+  "2-0": 0.221,
+  "1-2": 0.2184,
+  "2-1": 0.1725
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0296,
+ "games": {
+  "mean": 24.34,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.21,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.0005,
+   "13": 0.00307,
+   "14": 0.00816,
+   "15": 0.01975,
+   "16": 0.03449,
+   "17": 0.05904,
+   "18": 0.06714,
+   "19": 0.08096,
+   "20": 0.07479,
+   "21": 0.0514,
+   "22": 0.08605,
+   "23": 0.06823,
+   "24": 0.01054,
+   "25": 0.03375,
+   "26": 0.05251,
+   "27": 0.02732,
+   "28": 0.03353,
+   "29": 0.035,
+   "30": 0.03741,
+   "31": 0.04343,
+   "32": 0.04635,
+   "33": 0.02879,
+   "34": 0.02188,
+   "35": 0.03352,
+   "36": 0.02313,
+   "37": 0.00244,
+   "38": 0.00754,
+   "39": 0.00928
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00043,
+  "-11": 0.0024,
+  "-10": 0.00635,
+  "-9": 0.01549,
+  "-8": 0.02769,
+  "-7": 0.05324,
+  "-6": 0.07201,
+  "-5": 0.09787,
+  "-4": 0.1154,
+  "-3": 0.09345,
+  "-2": 0.06527,
+  "-1": 0.03896,
+  "0": 0.03725,
+  "1": 0.03518,
+  "2": 0.05264,
+  "3": 0.06947,
+  "4": 0.07584,
+  "5": 0.05887,
+  "6": 0.0376,
+  "7": 0.02495,
+  "8": 0.01147,
+  "9": 0.00538,
+  "10": 0.002,
+  "11": 0.00072,
+  "12": 7e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.875,
+   "under": 0.125
+  },
+  {
+   "line": 18.5,
+   "over": 0.8078,
+   "under": 0.1922
+  },
+  {
+   "line": 19.5,
+   "over": 0.7269,
+   "under": 0.2731
+  },
+  {
+   "line": 20.5,
+   "over": 0.6521,
+   "under": 0.3479
+  },
+  {
+   "line": 21.5,
+   "over": 0.6007,
+   "under": 0.3993
+  },
+  {
+   "line": 22.5,
+   "over": 0.5146,
+   "under": 0.4854
+  },
+  {
+   "line": 23.5,
+   "over": 0.4464,
+   "under": 0.5536
+  },
+  {
+   "line": 24.5,
+   "over": 0.4359,
+   "under": 0.5641
+  },
+  {
+   "line": 25.5,
+   "over": 0.4021,
+   "under": 0.5979
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.339,
+   "B +1.5": 0.661,
+   "B -1.5": 0.5496,
+   "A +1.5": 0.4504
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2864,
+   "B +2.5": 0.7136,
+   "B -2.5": 0.4843,
+   "A +2.5": 0.5157
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2169,
+   "B +3.5": 0.7831,
+   "B -3.5": 0.3909,
+   "A +3.5": 0.6091
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1411,
+   "B +4.5": 0.8589,
+   "B -4.5": 0.2755,
+   "A +4.5": 0.7245
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0822,
+   "B +5.5": 0.9178,
+   "B -5.5": 0.1776,
+   "A +5.5": 0.8224
+  }
+ ],
+ "p_tiebreak": 0.4484,
+ "p_a_wins_set": 0.6119,
+ "p_b_wins_set": 0.779,
+ "p_decider": 0.3909,
+ "expected_breaks": {
+  "total": 4.2,
+  "by_A": 1.84,
+  "by_B": 2.37
+ },
+ "expected_break_points": {
+  "A_creates": 5.23,
+  "B_creates": 6.25
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3881
+ },
+ "match": "Alejandro Tabilo vs Rafael Jodar",
+ "players": {
+  "A": {
+   "id": "atp:126214",
+   "name": "Alejandro Tabilo",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 36.0,
+   "age": 29.340793976728268,
+   "elo": 1756.1,
+   "surface_elo": {
+    "Hard": 1713.0,
+    "Clay": 1689.9,
+    "Grass": 1616.3
+   },
+   "matches_total": 191,
+   "matches_surface": {
+    "Hard": 97,
+    "Clay": 79,
+    "Grass": 15
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    27,
+    27
+   ],
+   "last52w_surface": [
+    12,
+    15
+   ],
+   "career_surface_wl": [
+    44,
+    53
+   ],
+   "games_won_lost_52w": [
+    697,
+    681
+   ],
+   "sets_won_lost_52w": [
+    68,
+    71
+   ],
+   "avg_opp_elo_last20": 1824.6,
+   "vs_top_opp_52w": [
+    2,
+    11
+   ],
+   "serve_rating": 0.2356,
+   "return_rating": 0.0748,
+   "form_elo": -28.5,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.656,
+    "first_won": 0.7433,
+    "second_won": 0.5402,
+    "serve_pts_won": 0.6735,
+    "hold": 0.8547,
+    "aces_per_svgm": 0.4797,
+    "df_per_svgm": 0.1221,
+    "bp_saved": 0.6,
+    "ret_pts_won": 0.3548,
+    "ret_1st_won": 0.2815,
+    "ret_2nd_won": 0.4845,
+    "ret_games_won": 0.1982,
+    "bp_conv": 0.4085,
+    "bp_chances_per_retgm": 0.4852,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2026-01-19",
+     79.0
+    ],
+    [
+     "2026-02-06",
+     73.0
+    ],
+    [
+     "2026-02-09",
+     71.0
+    ],
+    [
+     "2026-02-16",
+     68.0
+    ],
+    [
+     "2026-02-23",
+     42.0
+    ],
+    [
+     "2026-03-04",
+     40.0
+    ],
+    [
+     "2026-03-18",
+     41.0
+    ],
+    [
+     "2026-04-05",
+     39.0
+    ],
+    [
+     "2026-04-13",
+     45.0
+    ],
+    [
+     "2026-04-22",
+     43.0
+    ],
+    [
+     "2026-05-06",
+     35.0
+    ],
+    [
+     "2026-05-25",
+     36.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:212588",
+   "name": "Rafael Jodar",
+   "tour": "atp",
+   "hand": "U",
+   "rank": 29.0,
+   "age": 20.04079397672827,
+   "elo": 1974.7,
+   "surface_elo": {
+    "Hard": 1895.0,
+    "Clay": 1941.5,
+    "Grass": 1560.6
+   },
+   "matches_total": 62,
+   "matches_surface": {
+    "Hard": 37,
+    "Clay": 22,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    43,
+    19
+   ],
+   "last52w_surface": [
+    23,
+    14
+   ],
+   "career_surface_wl": [
+    23,
+    14
+   ],
+   "games_won_lost_52w": [
+    853,
+    713
+   ],
+   "sets_won_lost_52w": [
+    103,
+    67
+   ],
+   "avg_opp_elo_last20": 1856.2,
+   "vs_top_opp_52w": [
+    10,
+    8
+   ],
+   "serve_rating": 0.0864,
+   "return_rating": 0.2222,
+   "form_elo": -19.3,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6352,
+    "first_won": 0.6811,
+    "second_won": 0.5477,
+    "serve_pts_won": 0.6324,
+    "hold": 0.7781,
+    "aces_per_svgm": 0.3429,
+    "df_per_svgm": 0.1182,
+    "bp_saved": 0.5969,
+    "ret_pts_won": 0.4024,
+    "ret_1st_won": 0.3348,
+    "ret_2nd_won": 0.5115,
+    "ret_games_won": 0.2967,
+    "bp_conv": 0.4525,
+    "bp_chances_per_retgm": 0.6558,
+    "matches_with_stats": 31
+   },
+   "rank_history": [
+    [
+     "2025-12-17",
+     168.0
+    ],
+    [
+     "2026-01-19",
+     150.0
+    ],
+    [
+     "2026-02-09",
+     124.0
+    ],
+    [
+     "2026-02-16",
+     118.0
+    ],
+    [
+     "2026-02-23",
+     114.0
+    ],
+    [
+     "2026-03-04",
+     103.0
+    ],
+    [
+     "2026-03-18",
+     109.0
+    ],
+    [
+     "2026-03-30",
+     89.0
+    ],
+    [
+     "2026-04-13",
+     55.0
+    ],
+    [
+     "2026-04-22",
+     42.0
+    ],
+    [
+     "2026-05-06",
+     34.0
+    ],
+    [
+     "2026-05-25",
+     29.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Alejandro Tabilo: latest point-level stats are 180 days old (2026-05-06)",
+  "Rafael Jodar: latest point-level stats are 180 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -73.4,
+  "components_elo": {
+   "surface_elo": -181.9,
+   "overall_elo": -218.6,
+   "serve_return": 1.4,
+   "form": -9.2
+  },
+  "weighted_contributions": {
+   "surface_elo": -22.2,
+   "overall_elo": -51.6,
+   "serve_return": 0.5,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3959,
+  "serve_return_implied_spw": {
+   "A": 0.6549,
+   "B": 0.6545
+  },
+  "point_probs": {
+   "A_serve": 0.6392,
+   "B_serve": 0.6698
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6392304293611977,
+   "B_serve": 0.669787668111562
+  },
+  "hold_probs": {
+   "A": 0.8113,
+   "B": 0.8606
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3935,
+   0.3967
+  ],
+  "p_tb": [
+   0.4484,
+   0.4481
+  ],
+  "p_decider": [
+   0.3909,
+   0.3899
+  ],
+  "games_mean": [
+   24.34,
+   24.32
+  ],
+  "exp_breaks": [
+   4.205,
+   4.212
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3881,
+    0.3867
+   ],
+   "1-2": [
+    0.2184,
+    0.2166
+   ],
+   "2-0": [
+    0.221,
+    0.2234
+   ],
+   "2-1": [
+    0.1725,
+    0.1732
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0032
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Rafael Jodar",
+   "elo_points": -51.6,
+   "raw_diff": -218.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Rafael Jodar",
+   "elo_points": -22.2,
+   "raw_diff": -181.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alejandro Tabilo",
+   "elo_points": 0.5,
+   "raw_diff": 1.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5402,
+   "B": 0.5477,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3548,
+   "B": 0.4024,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6392,
+   "B": 0.6698,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8078,
+  "fair_odds": {
+   "decimal": 1.24,
+   "american": "-420"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.21 games; p10-p90 17-33); a single tiebreak or deciding set swings it. Data quality MEDIUM: Alejandro Tabilo: latest point-level stats are 180 days old (2026-05-06); Rafael Jodar: latest point-level stats are 180 days old (2026-05-06)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8078,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Rafael Jodar to win at least one set",
+    "probability": 0.779,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "Alejandro Tabilo +4.5 games",
+    "probability": 0.7245,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6521,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Alejandro Tabilo to win at least one set",
+    "probability": 0.6119,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6091,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Rafael Jodar to win",
+    "probability": 0.6065,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5641,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5516,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Alejandro Tabilo +2.5 games",
+    "probability": 0.5157,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5146,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4854,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Rafael Jodar -2.5 games",
+    "probability": 0.4843,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4484,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4359,
+    "fair_decimal": 2.29
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:10+00:00",
+  "version": 1,
+  "input_hash": "25b3f31659b1bd77",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186468",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

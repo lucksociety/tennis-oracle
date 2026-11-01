@@ -1,0 +1,633 @@
+{
+ "predicted_winner": "Tereza Valentova",
+ "win_prob": {
+  "A": 0.3531,
+  "B": 0.6469
+ },
+ "win_prob_exact": {
+  "A": 0.35307,
+  "B": 0.64693
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.83,
+   "american": "+183"
+  },
+  "B": {
+   "decimal": 1.55,
+   "american": "-183"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4413,
+  "1-2": 0.2056,
+  "2-0": 0.2021,
+  "2-1": 0.151
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0204,
+ "games": {
+  "mean": 22.29,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00328,
+   "13": 0.01346,
+   "14": 0.02988,
+   "15": 0.0511,
+   "16": 0.0724,
+   "17": 0.08499,
+   "18": 0.0847,
+   "19": 0.07669,
+   "20": 0.06709,
+   "21": 0.04988,
+   "22": 0.05889,
+   "23": 0.03847,
+   "24": 0.02083,
+   "25": 0.03629,
+   "26": 0.03929,
+   "27": 0.03636,
+   "28": 0.03973,
+   "29": 0.03852,
+   "30": 0.03728,
+   "31": 0.03412,
+   "32": 0.02972,
+   "33": 0.01868,
+   "34": 0.01355,
+   "35": 0.01328,
+   "36": 0.00626,
+   "37": 0.00165,
+   "38": 0.0024,
+   "39": 0.00121
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0029,
+  "-11": 0.01125,
+  "-10": 0.02477,
+  "-9": 0.04145,
+  "-8": 0.06324,
+  "-7": 0.08389,
+  "-6": 0.09613,
+  "-5": 0.09332,
+  "-4": 0.089,
+  "-3": 0.06188,
+  "-2": 0.03969,
+  "-1": 0.02838,
+  "0": 0.02515,
+  "1": 0.0258,
+  "2": 0.03277,
+  "3": 0.04326,
+  "4": 0.05708,
+  "5": 0.05475,
+  "6": 0.04644,
+  "7": 0.0359,
+  "8": 0.02181,
+  "9": 0.01256,
+  "10": 0.00594,
+  "11": 0.00226,
+  "12": 0.00038
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7449,
+   "under": 0.2551
+  },
+  {
+   "line": 18.5,
+   "over": 0.6602,
+   "under": 0.3398
+  },
+  {
+   "line": 19.5,
+   "over": 0.5835,
+   "under": 0.4165
+  },
+  {
+   "line": 20.5,
+   "over": 0.5164,
+   "under": 0.4836
+  },
+  {
+   "line": 21.5,
+   "over": 0.4665,
+   "under": 0.5335
+  },
+  {
+   "line": 22.5,
+   "over": 0.4076,
+   "under": 0.5924
+  },
+  {
+   "line": 23.5,
+   "over": 0.3692,
+   "under": 0.6308
+  },
+  {
+   "line": 24.5,
+   "over": 0.3483,
+   "under": 0.6517
+  },
+  {
+   "line": 25.5,
+   "over": 0.312,
+   "under": 0.688
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3131,
+   "B +1.5": 0.6868,
+   "B -1.5": 0.6075,
+   "A +1.5": 0.3925
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2804,
+   "B +2.5": 0.7196,
+   "B -2.5": 0.5678,
+   "A +2.5": 0.4322
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2371,
+   "B +3.5": 0.7629,
+   "B -3.5": 0.506,
+   "A +3.5": 0.494
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.18,
+   "B +4.5": 0.82,
+   "B -4.5": 0.4169,
+   "A +4.5": 0.5831
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1253,
+   "B +5.5": 0.8747,
+   "B -5.5": 0.3236,
+   "A +5.5": 0.6764
+  }
+ ],
+ "p_tiebreak": 0.2532,
+ "p_a_wins_set": 0.5587,
+ "p_b_wins_set": 0.7979,
+ "p_decider": 0.3566,
+ "expected_breaks": {
+  "total": 7.89,
+  "by_A": 3.47,
+  "by_B": 4.42
+ },
+ "expected_break_points": {
+  "A_creates": 7.98,
+  "B_creates": 9.37
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4413
+ },
+ "match": "Xinran Sun vs Tereza Valentova",
+ "players": {
+  "A": {
+   "id": "wta:espn17886",
+   "name": "Xinran Sun",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1736.7,
+   "surface_elo": {
+    "Hard": 1724.2,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 6,
+   "matches_surface": {
+    "Hard": 6,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    2
+   ],
+   "last20": [
+    4,
+    2
+   ],
+   "last52w": [
+    4,
+    2
+   ],
+   "last52w_surface": [
+    4,
+    2
+   ],
+   "career_surface_wl": [
+    4,
+    2
+   ],
+   "games_won_lost_52w": [
+    75,
+    73
+   ],
+   "sets_won_lost_52w": [
+    9,
+    5
+   ],
+   "avg_opp_elo_last20": 1792.8,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 39.9,
+   "last_match": "2026-10-31",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:238184",
+   "name": "Tereza Valentova",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 42.0,
+   "age": 19.64079397672827,
+   "elo": 1752.8,
+   "surface_elo": {
+    "Hard": 1741.5,
+    "Clay": 1567.3,
+    "Grass": 1535.3
+   },
+   "matches_total": 52,
+   "matches_surface": {
+    "Hard": 41,
+    "Clay": 6,
+    "Grass": 5
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    19
+   ],
+   "last52w_surface": [
+    17,
+    13
+   ],
+   "career_surface_wl": [
+    25,
+    16
+   ],
+   "games_won_lost_52w": [
+    431,
+    414
+   ],
+   "sets_won_lost_52w": [
+    43,
+    45
+   ],
+   "avg_opp_elo_last20": 1673.0,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.1372,
+   "return_rating": 0.1699,
+   "form_elo": -7.7,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6211,
+    "first_won": 0.6326,
+    "second_won": 0.4119,
+    "serve_pts_won": 0.549,
+    "hold": 0.6296,
+    "aces_per_svgm": 0.237,
+    "df_per_svgm": 0.4,
+    "bp_saved": 0.5,
+    "ret_pts_won": 0.4381,
+    "ret_1st_won": 0.359,
+    "ret_2nd_won": 0.5688,
+    "ret_games_won": 0.3407,
+    "bp_conv": 0.3898,
+    "bp_chances_per_retgm": 0.8741,
+    "matches_with_stats": 13
+   },
+   "rank_history": [
+    [
+     "2025-05-26",
+     172.0
+    ],
+    [
+     "2025-07-21",
+     106.0
+    ],
+    [
+     "2025-08-25",
+     96.0
+    ],
+    [
+     "2025-10-13",
+     78.0
+    ],
+    [
+     "2026-01-04",
+     60.0
+    ],
+    [
+     "2026-01-19",
+     54.0
+    ],
+    [
+     "2026-02-08",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     47.0
+    ],
+    [
+     "2026-03-17",
+     49.0
+    ],
+    [
+     "2026-04-21",
+     51.0
+    ],
+    [
+     "2026-05-05",
+     48.0
+    ],
+    [
+     "2026-05-25",
+     42.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Xinran Sun: sparse record (6 tour matches, 0 with serve stats in 52w)",
+  "Tereza Valentova: limited recent/surface sample (39 matches 52w, 41 career on Hard, 13 with stats)",
+  "Tereza Valentova: latest point-level stats are 181 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -106.8,
+  "components_elo": {
+   "surface_elo": -17.2,
+   "overall_elo": -16.1,
+   "serve_return": -289.0,
+   "form": 47.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -2.1,
+   "overall_elo": -3.8,
+   "serve_return": -100.9,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3509,
+  "serve_return_implied_spw": {
+   "A": 0.5236,
+   "B": 0.5991
+  },
+  "point_probs": {
+   "A_serve": 0.5394,
+   "B_serve": 0.5838
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5393829619980968,
+   "B_serve": 0.5838331383931844
+  },
+  "hold_probs": {
+   "A": 0.5975,
+   "B": 0.7011
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3531,
+   0.3533
+  ],
+  "p_tb": [
+   0.2532,
+   0.2514
+  ],
+  "p_decider": [
+   0.3566,
+   0.3575
+  ],
+  "games_mean": [
+   22.288,
+   22.28
+  ],
+  "exp_breaks": [
+   7.89,
+   7.881
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4413,
+    0.4408
+   ],
+   "1-2": [
+    0.2056,
+    0.2058
+   ],
+   "2-0": [
+    0.2021,
+    0.2017
+   ],
+   "2-1": [
+    0.151,
+    0.1517
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0018
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tereza Valentova",
+   "elo_points": -100.9,
+   "raw_diff": -289.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tereza Valentova",
+   "elo_points": -3.8,
+   "raw_diff": -16.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Tereza Valentova",
+   "elo_points": -2.1,
+   "raw_diff": -17.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5394,
+   "B": 0.5838,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Tereza Valentova to win at least one set",
+  "probability": 0.7979,
+  "fair_odds": {
+   "decimal": 1.25,
+   "american": "-395"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Xinran Sun: sparse record (6 tour matches, 0 with serve stats in 52w); Tereza Valentova: limited recent/surface sample (39 matches 52w, 41 career on Hard, 13 with stats)",
+  "candidates": [
+   {
+    "selection": "Tereza Valentova to win at least one set",
+    "probability": 0.7979,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7468,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6602,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6517,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Tereza Valentova to win",
+    "probability": 0.6469,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6434,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5924,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Xinran Sun +4.5 games",
+    "probability": 0.5831,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Tereza Valentova -2.5 games",
+    "probability": 0.5678,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Xinran Sun to win at least one set",
+    "probability": 0.5587,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5164,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4836,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Exact sets Xinran Sun 0-2 Tereza Valentova",
+    "probability": 0.4413,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Xinran Sun +2.5 games",
+    "probability": 0.4322,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Tereza Valentova -4.5 games",
+    "probability": 0.4169,
+    "fair_decimal": 2.4
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:22+00:00",
+  "version": 1,
+  "input_hash": "349c92973273ad3e",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186629",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.3925,
+  "B": 0.6075
+ },
+ "win_prob_exact": {
+  "A": 0.39252,
+  "B": 0.60748
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.55,
+   "american": "+155"
+  },
+  "B": {
+   "decimal": 1.65,
+   "american": "-155"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4034,
+  "2-0": 0.23,
+  "1-2": 0.2041,
+  "2-1": 0.1625
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0207,
+ "games": {
+  "mean": 22.51,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00266,
+   "13": 0.01123,
+   "14": 0.02674,
+   "15": 0.04673,
+   "16": 0.06783,
+   "17": 0.08449,
+   "18": 0.08325,
+   "19": 0.07868,
+   "20": 0.06833,
+   "21": 0.04942,
+   "22": 0.0595,
+   "23": 0.0386,
+   "24": 0.02065,
+   "25": 0.03776,
+   "26": 0.04094,
+   "27": 0.03649,
+   "28": 0.04032,
+   "29": 0.04058,
+   "30": 0.03869,
+   "31": 0.03524,
+   "32": 0.03136,
+   "33": 0.02042,
+   "34": 0.01418,
+   "35": 0.014,
+   "36": 0.00667,
+   "37": 0.00171,
+   "38": 0.0024,
+   "39": 0.00113
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00218,
+  "-11": 0.00857,
+  "-10": 0.02034,
+  "-9": 0.0347,
+  "-8": 0.05418,
+  "-7": 0.07646,
+  "-6": 0.08836,
+  "-5": 0.09191,
+  "-4": 0.08752,
+  "-3": 0.06187,
+  "-2": 0.0404,
+  "-1": 0.02913,
+  "0": 0.0262,
+  "1": 0.02753,
+  "2": 0.03536,
+  "3": 0.04691,
+  "4": 0.0637,
+  "5": 0.06011,
+  "6": 0.05218,
+  "7": 0.04176,
+  "8": 0.02546,
+  "9": 0.01479,
+  "10": 0.00716,
+  "11": 0.00274,
+  "12": 0.00048
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7603,
+   "under": 0.2397
+  },
+  {
+   "line": 18.5,
+   "over": 0.6771,
+   "under": 0.3229
+  },
+  {
+   "line": 19.5,
+   "over": 0.5984,
+   "under": 0.4016
+  },
+  {
+   "line": 20.5,
+   "over": 0.5301,
+   "under": 0.4699
+  },
+  {
+   "line": 21.5,
+   "over": 0.4806,
+   "under": 0.5194
+  },
+  {
+   "line": 22.5,
+   "over": 0.4211,
+   "under": 0.5789
+  },
+  {
+   "line": 23.5,
+   "over": 0.3825,
+   "under": 0.6175
+  },
+  {
+   "line": 24.5,
+   "over": 0.3619,
+   "under": 0.6381
+  },
+  {
+   "line": 25.5,
+   "over": 0.3241,
+   "under": 0.6759
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3507,
+   "B +1.5": 0.6493,
+   "B -1.5": 0.5665,
+   "A +1.5": 0.4335
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3153,
+   "B +2.5": 0.6847,
+   "B -2.5": 0.5261,
+   "A +2.5": 0.4739
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2684,
+   "B +3.5": 0.7316,
+   "B -3.5": 0.4642,
+   "A +3.5": 0.5358
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2047,
+   "B +4.5": 0.7953,
+   "B -4.5": 0.3767,
+   "A +4.5": 0.6233
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1446,
+   "B +5.5": 0.8554,
+   "B -5.5": 0.2848,
+   "A +5.5": 0.7152
+  }
+ ],
+ "p_tiebreak": 0.2633,
+ "p_a_wins_set": 0.5966,
+ "p_b_wins_set": 0.77,
+ "p_decider": 0.3666,
+ "expected_breaks": {
+  "total": 7.66,
+  "by_A": 3.49,
+  "by_B": 4.17
+ },
+ "expected_break_points": {
+  "A_creates": 8.05,
+  "B_creates": 9.04
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4034
+ },
+ "match": "Tatjana Maria vs Bianca Andreescu",
+ "players": {
+  "A": {
+   "id": "wta:213583",
+   "name": "Tatjana Maria",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 54.0,
+   "age": 39.13805612594114,
+   "elo": 1738.1,
+   "surface_elo": {
+    "Hard": 1589.5,
+    "Clay": 1621.5,
+    "Grass": 1697.9
+   },
+   "matches_total": 371,
+   "matches_surface": {
+    "Hard": 208,
+    "Clay": 107,
+    "Grass": 56
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    27,
+    25
+   ],
+   "last52w_surface": [
+    10,
+    7
+   ],
+   "career_surface_wl": [
+    47,
+    60
+   ],
+   "games_won_lost_52w": [
+    542,
+    493
+   ],
+   "sets_won_lost_52w": [
+    61,
+    52
+   ],
+   "avg_opp_elo_last20": 1680.6,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.0519,
+   "return_rating": -0.0265,
+   "form_elo": 126.2,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-05-18",
+   "stats_52w": {
+    "first_in": 0.5754,
+    "first_won": 0.6487,
+    "second_won": 0.4345,
+    "serve_pts_won": 0.5577,
+    "hold": 0.6438,
+    "aces_per_svgm": 0.4064,
+    "df_per_svgm": 0.2192,
+    "bp_saved": 0.5155,
+    "ret_pts_won": 0.4023,
+    "ret_1st_won": 0.3326,
+    "ret_2nd_won": 0.5293,
+    "ret_games_won": 0.289,
+    "bp_conv": 0.4701,
+    "bp_chances_per_retgm": 0.6147,
+    "matches_with_stats": 22
+   },
+   "rank_history": [
+    [
+     "2025-09-15",
+     44.0
+    ],
+    [
+     "2025-10-20",
+     43.0
+    ],
+    [
+     "2026-01-12",
+     42.0
+    ],
+    [
+     "2026-02-01",
+     54.0
+    ],
+    [
+     "2026-02-23",
+     55.0
+    ],
+    [
+     "2026-03-04",
+     59.0
+    ],
+    [
+     "2026-03-30",
+     60.0
+    ],
+    [
+     "2026-04-06",
+     61.0
+    ],
+    [
+     "2026-04-13",
+     63.0
+    ],
+    [
+     "2026-04-21",
+     54.0
+    ],
+    [
+     "2026-05-18",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     54.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.29281314168378,
+   "elo": 1792.5,
+   "surface_elo": {
+    "Hard": 1705.3,
+    "Clay": 1799.9,
+    "Grass": 1620.5
+   },
+   "matches_total": 208,
+   "matches_surface": {
+    "Hard": 129,
+    "Clay": 41,
+    "Grass": 38
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    19,
+    11
+   ],
+   "last52w_surface": [
+    6,
+    2
+   ],
+   "career_surface_wl": [
+    26,
+    15
+   ],
+   "games_won_lost_52w": [
+    351,
+    282
+   ],
+   "sets_won_lost_52w": [
+    42,
+    25
+   ],
+   "avg_opp_elo_last20": 1641.9,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.1318,
+   "return_rating": 0.0234,
+   "form_elo": 108.7,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6381,
+    "first_won": 0.6255,
+    "second_won": 0.4231,
+    "serve_pts_won": 0.5522,
+    "hold": 0.6,
+    "aces_per_svgm": 0.4,
+    "df_per_svgm": 0.4,
+    "bp_saved": 0.4717,
+    "ret_pts_won": 0.4004,
+    "ret_1st_won": 0.3596,
+    "ret_2nd_won": 0.4774,
+    "ret_games_won": 0.2609,
+    "bp_conv": 0.4,
+    "bp_chances_per_retgm": 0.6522,
+    "matches_with_stats": 6
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Queretaro Open",
+ "round": "Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-01",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Tatjana Maria: latest point-level stats are 167 days old (2026-05-18)",
+  "Bianca Andreescu: limited recent/surface sample (30 matches 52w, 41 career on Clay, 6 with stats)",
+  "Bianca Andreescu: latest point-level stats are 180 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 146 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -75.6,
+  "components_elo": {
+   "surface_elo": -178.4,
+   "overall_elo": -54.4,
+   "serve_return": -117.4,
+   "form": 17.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -21.8,
+   "overall_elo": -12.8,
+   "serve_return": -40.9,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3928,
+  "serve_return_implied_spw": {
+   "A": 0.5514,
+   "B": 0.5833
+  },
+  "point_probs": {
+   "A_serve": 0.5516,
+   "B_serve": 0.5831
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5515790688726867,
+   "B_serve": 0.583104452348613
+  },
+  "hold_probs": {
+   "A": 0.6269,
+   "B": 0.6994
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3925,
+   0.3947
+  ],
+  "p_tb": [
+   0.2633,
+   0.2636
+  ],
+  "p_decider": [
+   0.3666,
+   0.3678
+  ],
+  "games_mean": [
+   22.506,
+   22.511
+  ],
+  "exp_breaks": [
+   7.665,
+   7.67
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4034,
+    0.4015
+   ],
+   "1-2": [
+    0.2041,
+    0.2038
+   ],
+   "2-0": [
+    0.23,
+    0.2307
+   ],
+   "2-1": [
+    0.1625,
+    0.1641
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": -40.9,
+   "raw_diff": -117.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -21.8,
+   "raw_diff": -178.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -12.8,
+   "raw_diff": -54.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4345,
+   "B": 0.4231,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4023,
+   "B": 0.4004,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5516,
+   "B": 0.5831,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win at least one set",
+  "probability": 0.77,
+  "fair_odds": {
+   "decimal": 1.3,
+   "american": "-335"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Tatjana Maria: latest point-level stats are 167 days old (2026-05-18); Bianca Andreescu: limited recent/surface sample (30 matches 52w, 41 career on Clay, 6 with stats)",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.77,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7367,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6771,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6381,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6334,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Tatjana Maria +4.5 games",
+    "probability": 0.6233,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.6075,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Tatjana Maria to win at least one set",
+    "probability": 0.5966,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5789,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5301,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.5261,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Tatjana Maria +2.5 games",
+    "probability": 0.4739,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4699,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4211,
+    "fair_decimal": 2.37
+   },
+   {
+    "selection": "Exact sets Tatjana Maria 0-2 Bianca Andreescu",
+    "probability": 0.4034,
+    "fair_decimal": 2.48
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:05:36+00:00",
+  "version": 1,
+  "input_hash": "b8a4f604c47e40b4",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "185819",
+  "scheduled_start_utc": "2026-11-01T22:00Z"
+ }
+}

@@ -1,36 +1,36 @@
 {
- "generated_at_utc": "2026-10-31T23:27:48+00:00",
+ "generated_at_utc": "2026-11-01T06:09:39+00:00",
  "summary": {
-  "n": 131,
-  "brier": 0.23157699969465648,
-  "log_loss": 0.6551031321611022,
-  "accuracy": 0.5801526717557252,
-  "games_mae": 4.813129770992367,
-  "exact_sets_accuracy": 0.4198473282442748,
-  "tiebreak_brier": 0.2041870354961832
+  "n": 139,
+  "brier": 0.22921144978417266,
+  "log_loss": 0.6502944769511265,
+  "accuracy": 0.5971223021582733,
+  "games_mae": 4.839352517985612,
+  "exact_sets_accuracy": 0.4316546762589928,
+  "tiebreak_brier": 0.19653012258992805
  },
- "n": 131,
+ "n": 139,
  "overall": {
-  "n": 131,
-  "brier": 0.23157699969465648,
-  "log_loss": 0.6551031321611022,
-  "accuracy": 0.5801526717557252
+  "n": 139,
+  "brier": 0.22921144978417266,
+  "log_loss": 0.6502944769511265,
+  "accuracy": 0.5971223021582733
  },
- "games_mae": 4.813129770992367,
- "exact_sets_accuracy": 0.4198473282442748,
- "tiebreak_brier": 0.2041870354961832,
+ "games_mae": 4.839352517985612,
+ "exact_sets_accuracy": 0.4316546762589928,
+ "tiebreak_brier": 0.19653012258992805,
  "by_surface": {
   "Clay": {
-   "n": 4,
-   "brier": 0.1860211325,
-   "log_loss": 0.5619273948355678,
-   "accuracy": 0.75
+   "n": 6,
+   "brier": 0.18791737166666667,
+   "log_loss": 0.5645586004761939,
+   "accuracy": 0.6666666666666666
   },
   "Hard": {
-   "n": 127,
-   "brier": 0.2330118301574803,
-   "log_loss": 0.6580378010532447,
-   "accuracy": 0.5748031496062992
+   "n": 133,
+   "brier": 0.23107434052631579,
+   "log_loss": 0.6541622608522513,
+   "accuracy": 0.5939849624060151
   }
  },
  "by_tour": {
@@ -41,38 +41,38 @@
    "accuracy": 0.625
   },
   "wta": {
-   "n": 83,
-   "brier": 0.2386082360240964,
-   "log_loss": 0.6709689318424794,
-   "accuracy": 0.5542168674698795
+   "n": 91,
+   "brier": 0.23437679285714288,
+   "log_loss": 0.6622290475387693,
+   "accuracy": 0.5824175824175825
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 70,
-   "brier": 0.2416403121428572,
-   "log_loss": 0.678732610228074,
-   "accuracy": 0.5714285714285714
+   "n": 76,
+   "brier": 0.23608913671052636,
+   "log_loss": 0.6671811745338759,
+   "accuracy": 0.6052631578947368
   },
   "MEDIUM": {
-   "n": 61,
-   "brier": 0.2200289362295082,
-   "log_loss": 0.6279873376580194,
-   "accuracy": 0.5901639344262295
+   "n": 63,
+   "brier": 0.22091455761904763,
+   "log_loss": 0.6299232227243177,
+   "accuracy": 0.5873015873015873
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 80,
-   "mean_pred": 0.54347625,
-   "observed": 0.5125
+   "n": 86,
+   "mean_pred": 0.5441116279069768,
+   "observed": 0.5348837209302325
   },
   {
    "bucket": "60%-70%",
-   "n": 31,
-   "mean_pred": 0.6502032258064515,
-   "observed": 0.6451612903225806
+   "n": 33,
+   "mean_pred": 0.6501212121212121,
+   "observed": 0.6666666666666666
   },
   {
    "bucket": "70%-80%",
@@ -4589,6 +4589,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Leylah Fernandez vs Diana Shnaider",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Toray Pan Pacific Open Tennis",
+   "p_a": 0.4589,
+   "a_won": 0,
+   "pred_winner": "Diana Shnaider",
+   "actual_winner": "Diana Shnaider",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2011,
+   "exp_games": 23.16,
+   "actual_games": 30,
+   "p_tb": 0.3167,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4128,
+     0
+    ],
+    "A -2.5": [
+     0.3701,
+     0
+    ],
+    "A -3.5": [
+     0.31,
+     0
+    ],
+    "A -4.5": [
+     0.2341,
+     0
+    ],
+    "A -5.5": [
+     0.162,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Xinran Sun vs Harriet Dart",
    "date": "2026-10-31",
    "tour": "wta",
@@ -4757,6 +4799,90 @@
    "version": "v1.1"
   },
   {
+   "match": "Tatjana Maria vs Fiona Ferro",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Queretaro Open",
+   "p_a": 0.4659,
+   "a_won": 1,
+   "pred_winner": "Fiona Ferro",
+   "actual_winner": "Tatjana Maria",
+   "pred_sets": "0-2",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1785,
+   "exp_games": 22.47,
+   "actual_games": 28,
+   "p_tb": 0.2486,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4221,
+     1
+    ],
+    "A -2.5": [
+     0.3875,
+     1
+    ],
+    "A -3.5": [
+     0.3372,
+     1
+    ],
+    "A -4.5": [
+     0.267,
+     0
+    ],
+    "A -5.5": [
+     0.1963,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Bianca Andreescu vs Carole Monnet",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Queretaro Open",
+   "p_a": 0.6867,
+   "a_won": 1,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4811,
+   "exp_games": 22.09,
+   "actual_games": 21,
+   "p_tb": 0.2469,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6484,
+     1
+    ],
+    "A -2.5": [
+     0.6093,
+     1
+    ],
+    "A -3.5": [
+     0.5493,
+     1
+    ],
+    "A -4.5": [
+     0.4577,
+     1
+    ],
+    "A -5.5": [
+     0.3576,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Anna Blinkova vs Noma Noha Akugue",
    "date": "2026-10-31",
    "tour": "wta",
@@ -4876,6 +5002,174 @@
     ],
     "A -5.5": [
      0.1466,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Aliaksandra Sasnovich vs Carol Young Suh Lee",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.611,
+   "a_won": 1,
+   "pred_winner": "Aliaksandra Sasnovich",
+   "actual_winner": "Aliaksandra Sasnovich",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4059,
+   "exp_games": 22.5,
+   "actual_games": 15,
+   "p_tb": 0.2619,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5691,
+     1
+    ],
+    "A -2.5": [
+     0.5277,
+     1
+    ],
+    "A -3.5": [
+     0.4663,
+     1
+    ],
+    "A -4.5": [
+     0.3805,
+     1
+    ],
+    "A -5.5": [
+     0.2901,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Himeno Sakatsume vs Elena Pridankina",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.5876,
+   "a_won": 1,
+   "pred_winner": "Himeno Sakatsume",
+   "actual_winner": "Himeno Sakatsume",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2009,
+   "exp_games": 22.53,
+   "actual_games": 28,
+   "p_tb": 0.2649,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5439,
+     1
+    ],
+    "A -2.5": [
+     0.5038,
+     1
+    ],
+    "A -3.5": [
+     0.4442,
+     1
+    ],
+    "A -4.5": [
+     0.3589,
+     1
+    ],
+    "A -5.5": [
+     0.2705,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tatiana Prozorova vs Mika Stojsavljevic",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.5738,
+   "a_won": 1,
+   "pred_winner": "Tatiana Prozorova",
+   "actual_winner": "Tatiana Prozorova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3747,
+   "exp_games": 22.58,
+   "actual_games": 17,
+   "p_tb": 0.2639,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.53,
+     1
+    ],
+    "A -2.5": [
+     0.4911,
+     1
+    ],
+    "A -3.5": [
+     0.4312,
+     1
+    ],
+    "A -4.5": [
+     0.3485,
+     1
+    ],
+    "A -5.5": [
+     0.2617,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Emerson Jones vs Alexandra Shubladze",
+   "date": "2026-10-31",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.4962,
+   "a_won": 0,
+   "pred_winner": "Alexandra Shubladze",
+   "actual_winner": "Alexandra Shubladze",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3132,
+   "exp_games": 22.57,
+   "actual_games": 18,
+   "p_tb": 0.2601,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4538,
+     0
+    ],
+    "A -2.5": [
+     0.4159,
+     0
+    ],
+    "A -3.5": [
+     0.3613,
+     0
+    ],
+    "A -4.5": [
+     0.2861,
+     0
+    ],
+    "A -5.5": [
+     0.2131,
      0
     ]
    },
@@ -5594,6 +5888,48 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tatiana Prozorova vs Mika Stojsavljevic",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.5751,
+   "a_won": 1,
+   "pred_winner": "Tatiana Prozorova",
+   "actual_winner": "Tatiana Prozorova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3753,
+   "exp_games": 22.57,
+   "actual_games": 17,
+   "p_tb": 0.2647,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5324,
+     1
+    ],
+    "A -2.5": [
+     0.492,
+     1
+    ],
+    "A -3.5": [
+     0.4327,
+     1
+    ],
+    "A -4.5": [
+     0.3498,
+     1
+    ],
+    "A -5.5": [
+     0.2614,
+     1
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   }
  ]

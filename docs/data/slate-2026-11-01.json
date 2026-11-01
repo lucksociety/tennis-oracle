@@ -1,39 +1,10 @@
 {
  "date": "2026-11-01",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-10-31T23:25:48+00:00",
+ "generated_at_utc": "2026-11-01T06:05:36+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
-  {
-   "espn_id": "185819",
-   "tour": "wta",
-   "tournament": "Queretaro Open",
-   "venue": "Santiago de Quer\u00e9taro, Mexico",
-   "round": "Final",
-   "court": "",
-   "start_utc": "2026-11-01T04:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-1145",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
   {
    "espn_id": "185735",
    "tour": "wta",
@@ -1523,136 +1494,6 @@
    }
   },
   {
-   "espn_id": "187353",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Qualifying Final",
-   "court": "Court 1",
-   "start_utc": "2026-11-01T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Adolfo Daniel Vallejo",
-     "id": "atp:209226"
-    },
-    {
-     "name": "Lorenzo Sonego",
-     "id": "atp:132283"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-10-31T20:00:52+00:00",
-    "path": "forecasts/2026-11-01/187353-adolfo-daniel-vallejo-vs-lorenzo-sonego/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Lorenzo Sonego",
-    "win_prob": {
-     "A": 0.4658,
-     "B": 0.5342
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3264
-    },
-    "games_mean": 24.4,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8102,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4658,
-      "B": 0.5342
-     },
-     "set_score_probs": {
-      "0-2": 0.3264,
-      "2-0": 0.2755,
-      "1-2": 0.2078,
-      "2-1": 0.1903
-     },
-     "games_pmf": {
-      "12": 0.00039,
-      "13": 0.00276,
-      "14": 0.00794,
-      "15": 0.02009,
-      "16": 0.03261,
-      "17": 0.05795,
-      "18": 0.06807,
-      "19": 0.08002,
-      "20": 0.07686,
-      "21": 0.05014,
-      "22": 0.08414,
-      "23": 0.06579,
-      "24": 0.01118,
-      "25": 0.03394,
-      "26": 0.05258,
-      "27": 0.02707,
-      "28": 0.03599,
-      "29": 0.03677,
-      "30": 0.03741,
-      "31": 0.04482,
-      "32": 0.04708,
-      "33": 0.02947,
-      "34": 0.02161,
-      "35": 0.03403,
-      "36": 0.02251,
-      "37": 0.00263,
-      "38": 0.00746,
-      "39": 0.00869
-     },
-     "games_diff_pmf": {
-      "-12": 0.00024,
-      "-11": 0.00175,
-      "-10": 0.0049,
-      "-9": 0.01234,
-      "-8": 0.02138,
-      "-7": 0.04279,
-      "-6": 0.06066,
-      "-5": 0.08369,
-      "-4": 0.10263,
-      "-3": 0.08511,
-      "-2": 0.06242,
-      "-1": 0.03861,
-      "0": 0.03733,
-      "1": 0.03682,
-      "2": 0.05722,
-      "3": 0.07713,
-      "4": 0.08887,
-      "5": 0.07222,
-      "6": 0.05069,
-      "7": 0.03382,
-      "8": 0.01602,
-      "9": 0.00886,
-      "10": 0.00332,
-      "11": 0.00103,
-      "12": 0.00015
-     },
-     "p_tiebreak": 0.4464,
-     "p_decider": 0.3981
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0027
-   }
-  },
-  {
    "espn_id": "187363",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
@@ -1809,6 +1650,136 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0031
+   }
+  },
+  {
+   "espn_id": "187353",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Qualifying Final",
+   "court": "Court 1",
+   "start_utc": "2026-11-01T13:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Adolfo Daniel Vallejo",
+     "id": "atp:209226"
+    },
+    {
+     "name": "Lorenzo Sonego",
+     "id": "atp:132283"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-10-31T20:00:52+00:00",
+    "path": "forecasts/2026-11-01/187353-adolfo-daniel-vallejo-vs-lorenzo-sonego/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Lorenzo Sonego",
+    "win_prob": {
+     "A": 0.4658,
+     "B": 0.5342
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3264
+    },
+    "games_mean": 24.4,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8102,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4658,
+      "B": 0.5342
+     },
+     "set_score_probs": {
+      "0-2": 0.3264,
+      "2-0": 0.2755,
+      "1-2": 0.2078,
+      "2-1": 0.1903
+     },
+     "games_pmf": {
+      "12": 0.00039,
+      "13": 0.00276,
+      "14": 0.00794,
+      "15": 0.02009,
+      "16": 0.03261,
+      "17": 0.05795,
+      "18": 0.06807,
+      "19": 0.08002,
+      "20": 0.07686,
+      "21": 0.05014,
+      "22": 0.08414,
+      "23": 0.06579,
+      "24": 0.01118,
+      "25": 0.03394,
+      "26": 0.05258,
+      "27": 0.02707,
+      "28": 0.03599,
+      "29": 0.03677,
+      "30": 0.03741,
+      "31": 0.04482,
+      "32": 0.04708,
+      "33": 0.02947,
+      "34": 0.02161,
+      "35": 0.03403,
+      "36": 0.02251,
+      "37": 0.00263,
+      "38": 0.00746,
+      "39": 0.00869
+     },
+     "games_diff_pmf": {
+      "-12": 0.00024,
+      "-11": 0.00175,
+      "-10": 0.0049,
+      "-9": 0.01234,
+      "-8": 0.02138,
+      "-7": 0.04279,
+      "-6": 0.06066,
+      "-5": 0.08369,
+      "-4": 0.10263,
+      "-3": 0.08511,
+      "-2": 0.06242,
+      "-1": 0.03861,
+      "0": 0.03733,
+      "1": 0.03682,
+      "2": 0.05722,
+      "3": 0.07713,
+      "4": 0.08887,
+      "5": 0.07222,
+      "6": 0.05069,
+      "7": 0.03382,
+      "8": 0.01602,
+      "9": 0.00886,
+      "10": 0.00332,
+      "11": 0.00103,
+      "12": 0.00015
+     },
+     "p_tiebreak": 0.4464,
+     "p_decider": 0.3981
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0027
    }
   },
   {
@@ -2618,6 +2589,136 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0044
+   }
+  },
+  {
+   "espn_id": "185819",
+   "tour": "wta",
+   "tournament": "Queretaro Open",
+   "venue": "Santiago de Quer\u00e9taro, Mexico",
+   "round": "Final",
+   "court": "Estadio Mexcovery",
+   "start_utc": "2026-11-01T22:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Tatjana Maria",
+     "id": "wta:213583"
+    },
+    {
+     "name": "Bianca Andreescu",
+     "id": "wta:215370"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-1145",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-01T06:05:36+00:00",
+    "path": "forecasts/2026-11-01/185819-tatjana-maria-vs-bianca-andreescu/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Bianca Andreescu",
+    "win_prob": {
+     "A": 0.3925,
+     "B": 0.6075
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4034
+    },
+    "games_mean": 22.51,
+    "strongest": {
+     "selection": "Bianca Andreescu to win at least one set",
+     "probability": 0.77,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3925,
+      "B": 0.6075
+     },
+     "set_score_probs": {
+      "0-2": 0.4034,
+      "2-0": 0.23,
+      "1-2": 0.2041,
+      "2-1": 0.1625
+     },
+     "games_pmf": {
+      "12": 0.00266,
+      "13": 0.01123,
+      "14": 0.02674,
+      "15": 0.04673,
+      "16": 0.06783,
+      "17": 0.08449,
+      "18": 0.08325,
+      "19": 0.07868,
+      "20": 0.06833,
+      "21": 0.04942,
+      "22": 0.0595,
+      "23": 0.0386,
+      "24": 0.02065,
+      "25": 0.03776,
+      "26": 0.04094,
+      "27": 0.03649,
+      "28": 0.04032,
+      "29": 0.04058,
+      "30": 0.03869,
+      "31": 0.03524,
+      "32": 0.03136,
+      "33": 0.02042,
+      "34": 0.01418,
+      "35": 0.014,
+      "36": 0.00667,
+      "37": 0.00171,
+      "38": 0.0024,
+      "39": 0.00113
+     },
+     "games_diff_pmf": {
+      "-12": 0.00218,
+      "-11": 0.00857,
+      "-10": 0.02034,
+      "-9": 0.0347,
+      "-8": 0.05418,
+      "-7": 0.07646,
+      "-6": 0.08836,
+      "-5": 0.09191,
+      "-4": 0.08752,
+      "-3": 0.06187,
+      "-2": 0.0404,
+      "-1": 0.02913,
+      "0": 0.0262,
+      "1": 0.02753,
+      "2": 0.03536,
+      "3": 0.04691,
+      "4": 0.0637,
+      "5": 0.06011,
+      "6": 0.05218,
+      "7": 0.04176,
+      "8": 0.02546,
+      "9": 0.01479,
+      "10": 0.00716,
+      "11": 0.00274,
+      "12": 0.00048
+     },
+     "p_tiebreak": 0.2633,
+     "p_decider": 0.3666
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0022
    }
   }
  ]

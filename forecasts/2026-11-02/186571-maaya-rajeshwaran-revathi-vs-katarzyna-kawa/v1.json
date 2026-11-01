@@ -1,0 +1,640 @@
+{
+ "predicted_winner": "Katarzyna Kawa",
+ "win_prob": {
+  "A": 0.378,
+  "B": 0.622
+ },
+ "win_prob_exact": {
+  "A": 0.378,
+  "B": 0.622
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.65,
+   "american": "+165"
+  },
+  "B": {
+   "decimal": 1.61,
+   "american": "-165"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4183,
+  "2-0": 0.2219,
+  "1-2": 0.2037,
+  "2-1": 0.1561
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0194,
+ "games": {
+  "mean": 22.27,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00327,
+   "13": 0.01347,
+   "14": 0.02912,
+   "15": 0.05189,
+   "16": 0.07197,
+   "17": 0.08679,
+   "18": 0.0832,
+   "19": 0.07577,
+   "20": 0.06704,
+   "21": 0.05032,
+   "22": 0.05784,
+   "23": 0.03797,
+   "24": 0.02152,
+   "25": 0.03801,
+   "26": 0.04003,
+   "27": 0.03764,
+   "28": 0.03951,
+   "29": 0.04039,
+   "30": 0.03683,
+   "31": 0.03435,
+   "32": 0.02846,
+   "33": 0.01829,
+   "34": 0.01332,
+   "35": 0.0122,
+   "36": 0.00578,
+   "37": 0.00164,
+   "38": 0.00242,
+   "39": 0.00096
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00276,
+  "-11": 0.01043,
+  "-10": 0.02284,
+  "-9": 0.03978,
+  "-8": 0.05967,
+  "-7": 0.08131,
+  "-6": 0.0898,
+  "-5": 0.09054,
+  "-4": 0.08436,
+  "-3": 0.05892,
+  "-2": 0.03896,
+  "-1": 0.03066,
+  "0": 0.02613,
+  "1": 0.0257,
+  "2": 0.03226,
+  "3": 0.04554,
+  "4": 0.05993,
+  "5": 0.05776,
+  "6": 0.05046,
+  "7": 0.04044,
+  "8": 0.02555,
+  "9": 0.01543,
+  "10": 0.00708,
+  "11": 0.00318,
+  "12": 0.00051
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7435,
+   "under": 0.2565
+  },
+  {
+   "line": 18.5,
+   "over": 0.6603,
+   "under": 0.3397
+  },
+  {
+   "line": 19.5,
+   "over": 0.5845,
+   "under": 0.4155
+  },
+  {
+   "line": 20.5,
+   "over": 0.5175,
+   "under": 0.4825
+  },
+  {
+   "line": 21.5,
+   "over": 0.4672,
+   "under": 0.5328
+  },
+  {
+   "line": 22.5,
+   "over": 0.4093,
+   "under": 0.5907
+  },
+  {
+   "line": 23.5,
+   "over": 0.3714,
+   "under": 0.6286
+  },
+  {
+   "line": 24.5,
+   "over": 0.3498,
+   "under": 0.6502
+  },
+  {
+   "line": 25.5,
+   "over": 0.3118,
+   "under": 0.6882
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3381,
+   "B +1.5": 0.6619,
+   "B -1.5": 0.5794,
+   "A +1.5": 0.4206
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3059,
+   "B +2.5": 0.6941,
+   "B -2.5": 0.5404,
+   "A +2.5": 0.4596
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2603,
+   "B +3.5": 0.7397,
+   "B -3.5": 0.4815,
+   "A +3.5": 0.5185
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2004,
+   "B +4.5": 0.7996,
+   "B -4.5": 0.3971,
+   "A +4.5": 0.6029
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1426,
+   "B +5.5": 0.8574,
+   "B -5.5": 0.3066,
+   "A +5.5": 0.6934
+  }
+ ],
+ "p_tiebreak": 0.2461,
+ "p_a_wins_set": 0.5817,
+ "p_b_wins_set": 0.7781,
+ "p_decider": 0.3599,
+ "expected_breaks": {
+  "total": 8.38,
+  "by_A": 3.8,
+  "by_B": 4.58
+ },
+ "expected_break_points": {
+  "A_creates": 8.49,
+  "B_creates": 9.59
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4183
+ },
+ "match": "Maaya Rajeshwaran Revathi vs Katarzyna Kawa",
+ "players": {
+  "A": {
+   "id": "wta:266722",
+   "name": "Maaya Rajeshwaran Revathi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 658.0,
+   "age": 17.31574264202601,
+   "elo": 1434.3,
+   "surface_elo": {
+    "Hard": 1434.3,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    1
+   ],
+   "last10": [
+    0,
+    1
+   ],
+   "last20": [
+    0,
+    1
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1565.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.022,
+   "return_rating": -0.0106,
+   "form_elo": -4.1,
+   "last_match": "2025-10-27",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-10-27",
+     658.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:203514",
+   "name": "Katarzyna Kawa",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 160.0,
+   "age": 33.86399726214921,
+   "elo": 1622.7,
+   "surface_elo": {
+    "Hard": 1609.3,
+    "Clay": 1624.6,
+    "Grass": 1536.7
+   },
+   "matches_total": 74,
+   "matches_surface": {
+    "Hard": 39,
+    "Clay": 29,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    14,
+    13
+   ],
+   "last52w_surface": [
+    9,
+    8
+   ],
+   "career_surface_wl": [
+    15,
+    24
+   ],
+   "games_won_lost_52w": [
+    307,
+    302
+   ],
+   "sets_won_lost_52w": [
+    34,
+    32
+   ],
+   "avg_opp_elo_last20": 1648.4,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": -0.0369,
+   "return_rating": 0.0666,
+   "form_elo": 25.4,
+   "last_match": "2026-10-23",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.5789,
+    "first_won": 0.6566,
+    "second_won": 0.5556,
+    "serve_pts_won": 0.614,
+    "hold": 0.7308,
+    "aces_per_svgm": 0.1154,
+    "df_per_svgm": 0.3462,
+    "bp_saved": 0.5882,
+    "ret_pts_won": 0.4783,
+    "ret_1st_won": 0.4429,
+    "ret_2nd_won": 0.5147,
+    "ret_games_won": 0.5,
+    "bp_conv": 0.6667,
+    "bp_chances_per_retgm": 0.75,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2022-09-12",
+     166.0
+    ],
+    [
+     "2023-10-16",
+     217.0
+    ],
+    [
+     "2023-11-07",
+     207.0
+    ],
+    [
+     "2024-11-25",
+     296.0
+    ],
+    [
+     "2025-03-31",
+     223.0
+    ],
+    [
+     "2025-04-10",
+     156.0
+    ],
+    [
+     "2025-07-14",
+     115.0
+    ],
+    [
+     "2025-09-08",
+     120.0
+    ],
+    [
+     "2025-10-20",
+     127.0
+    ],
+    [
+     "2025-10-27",
+     126.0
+    ],
+    [
+     "2026-03-30",
+     132.0
+    ],
+    [
+     "2026-04-10",
+     160.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Maaya Rajeshwaran Revathi: sparse record (1 tour matches, 0 with serve stats in 52w)",
+  "Maaya Rajeshwaran Revathi: latest point-level stats are 371 days old (2025-10-27)",
+  "Maaya Rajeshwaran Revathi: no recorded match since 2025-10-27 (layoff/injury status unverified)",
+  "Katarzyna Kawa: limited recent/surface sample (27 matches 52w, 39 career on Hard, 3 with stats)",
+  "Katarzyna Kawa: latest point-level stats are 217 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -85.7,
+  "components_elo": {
+   "surface_elo": -174.9,
+   "overall_elo": -188.3,
+   "serve_return": -57.0,
+   "form": -29.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -21.4,
+   "overall_elo": -44.5,
+   "serve_return": -19.9,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3791,
+  "serve_return_implied_spw": {
+   "A": 0.5438,
+   "B": 0.5593
+  },
+  "point_probs": {
+   "A_serve": 0.5337,
+   "B_serve": 0.5694
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5336550640672735,
+   "B_serve": 0.5693674538584306
+  },
+  "hold_probs": {
+   "A": 0.5836,
+   "B": 0.6685
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.378,
+   0.3813
+  ],
+  "p_tb": [
+   0.2461,
+   0.2455
+  ],
+  "p_decider": [
+   0.3599,
+   0.3629
+  ],
+  "games_mean": [
+   22.271,
+   22.289
+  ],
+  "exp_breaks": [
+   8.379,
+   8.379
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4183,
+    0.4152
+   ],
+   "1-2": [
+    0.2037,
+    0.2035
+   ],
+   "2-0": [
+    0.2219,
+    0.2219
+   ],
+   "2-1": [
+    0.1561,
+    0.1594
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0033
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Katarzyna Kawa",
+   "elo_points": -44.5,
+   "raw_diff": -188.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Katarzyna Kawa",
+   "elo_points": -21.4,
+   "raw_diff": -174.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Katarzyna Kawa",
+   "elo_points": -19.9,
+   "raw_diff": -57.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5337,
+   "B": 0.5694,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Katarzyna Kawa to win at least one set",
+  "probability": 0.7781,
+  "fair_odds": {
+   "decimal": 1.29,
+   "american": "-351"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Maaya Rajeshwaran Revathi: sparse record (1 tour matches, 0 with serve stats in 52w); Maaya Rajeshwaran Revathi: latest point-level stats are 371 days old (2025-10-27)",
+  "candidates": [
+   {
+    "selection": "Katarzyna Kawa to win at least one set",
+    "probability": 0.7781,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7539,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6603,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6502,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6401,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Katarzyna Kawa to win",
+    "probability": 0.622,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Maaya Rajeshwaran Revathi +4.5 games",
+    "probability": 0.6029,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5907,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Maaya Rajeshwaran Revathi to win at least one set",
+    "probability": 0.5817,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Katarzyna Kawa -2.5 games",
+    "probability": 0.5404,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5175,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4825,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Maaya Rajeshwaran Revathi +2.5 games",
+    "probability": 0.4596,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Exact sets Maaya Rajeshwaran Revathi 0-2 Katarzyna Kawa",
+    "probability": 0.4183,
+    "fair_decimal": 2.39
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4093,
+    "fair_decimal": 2.44
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:07:05+00:00",
+  "version": 1,
+  "input_hash": "aaa0561566764c39",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186571",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Hubert Hurkacz",
+ "win_prob": {
+  "A": 0.4857,
+  "B": 0.5143
+ },
+ "win_prob_exact": {
+  "A": 0.48569,
+  "B": 0.51431
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.06,
+   "american": "+106"
+  },
+  "B": {
+   "decimal": 1.94,
+   "american": "-106"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3078,
+  "2-0": 0.2873,
+  "1-2": 0.2065,
+  "2-1": 0.1984
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0258,
+ "games": {
+  "mean": 25.02,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 34.0,
+  "sd": 6.28,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00026,
+   "13": 0.00162,
+   "14": 0.00514,
+   "15": 0.01375,
+   "16": 0.02524,
+   "17": 0.04629,
+   "18": 0.05852,
+   "19": 0.07885,
+   "20": 0.07299,
+   "21": 0.04871,
+   "22": 0.09323,
+   "23": 0.07746,
+   "24": 0.00817,
+   "25": 0.03413,
+   "26": 0.06201,
+   "27": 0.0244,
+   "28": 0.03032,
+   "29": 0.03261,
+   "30": 0.03425,
+   "31": 0.04731,
+   "32": 0.05195,
+   "33": 0.03017,
+   "34": 0.02394,
+   "35": 0.04074,
+   "36": 0.03083,
+   "37": 0.0027,
+   "38": 0.00933,
+   "39": 0.01508
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00015,
+  "-11": 0.00099,
+  "-10": 0.00293,
+  "-9": 0.00748,
+  "-8": 0.01511,
+  "-7": 0.0332,
+  "-6": 0.04961,
+  "-5": 0.07861,
+  "-4": 0.10191,
+  "-3": 0.09202,
+  "-2": 0.07072,
+  "-1": 0.04192,
+  "0": 0.04081,
+  "1": 0.04172,
+  "2": 0.06757,
+  "3": 0.08744,
+  "4": 0.09622,
+  "5": 0.07389,
+  "6": 0.04524,
+  "7": 0.0289,
+  "8": 0.01349,
+  "9": 0.00701,
+  "10": 0.00231,
+  "11": 0.00064,
+  "12": 0.00011
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9077,
+   "under": 0.0923
+  },
+  {
+   "line": 18.5,
+   "over": 0.8492,
+   "under": 0.1508
+  },
+  {
+   "line": 19.5,
+   "over": 0.7703,
+   "under": 0.2297
+  },
+  {
+   "line": 20.5,
+   "over": 0.6973,
+   "under": 0.3027
+  },
+  {
+   "line": 21.5,
+   "over": 0.6486,
+   "under": 0.3514
+  },
+  {
+   "line": 22.5,
+   "over": 0.5554,
+   "under": 0.4446
+  },
+  {
+   "line": 23.5,
+   "over": 0.4779,
+   "under": 0.5221
+  },
+  {
+   "line": 24.5,
+   "over": 0.4698,
+   "under": 0.5302
+  },
+  {
+   "line": 25.5,
+   "over": 0.4356,
+   "under": 0.5644
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4228,
+   "B +1.5": 0.5772,
+   "B -1.5": 0.4527,
+   "A +1.5": 0.5473
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3552,
+   "B +2.5": 0.6448,
+   "B -2.5": 0.382,
+   "A +2.5": 0.618
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2678,
+   "B +3.5": 0.7322,
+   "B -3.5": 0.29,
+   "A +3.5": 0.71
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1716,
+   "B +4.5": 0.8284,
+   "B -4.5": 0.1881,
+   "A +4.5": 0.8119
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0977,
+   "B +5.5": 0.9023,
+   "B -5.5": 0.1095,
+   "A +5.5": 0.8905
+  }
+ ],
+ "p_tiebreak": 0.5139,
+ "p_a_wins_set": 0.6922,
+ "p_b_wins_set": 0.7127,
+ "p_decider": 0.4049,
+ "expected_breaks": {
+  "total": 3.63,
+  "by_A": 1.78,
+  "by_B": 1.85
+ },
+ "expected_break_points": {
+  "A_creates": 5.13,
+  "B_creates": 5.27
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3078
+ },
+ "match": "Lorenzo Musetti vs Hubert Hurkacz",
+ "players": {
+  "A": {
+   "id": "atp:207518",
+   "name": "Lorenzo Musetti",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 10.0,
+   "age": 24.59281314168378,
+   "elo": 1944.5,
+   "surface_elo": {
+    "Hard": 1815.8,
+    "Clay": 2033.8,
+    "Grass": 1780.1
+   },
+   "matches_total": 335,
+   "matches_surface": {
+    "Hard": 182,
+    "Clay": 126,
+    "Grass": 27
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    28,
+    15
+   ],
+   "last52w_surface": [
+    17,
+    11
+   ],
+   "career_surface_wl": [
+    94,
+    88
+   ],
+   "games_won_lost_52w": [
+    568,
+    502
+   ],
+   "sets_won_lost_52w": [
+    65,
+    41
+   ],
+   "avg_opp_elo_last20": 1803.0,
+   "vs_top_opp_52w": [
+    5,
+    11
+   ],
+   "serve_rating": 0.1282,
+   "return_rating": 0.1607,
+   "form_elo": -2.2,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6642,
+    "first_won": 0.686,
+    "second_won": 0.5418,
+    "serve_pts_won": 0.6376,
+    "hold": 0.823,
+    "aces_per_svgm": 0.3869,
+    "df_per_svgm": 0.1738,
+    "bp_saved": 0.6625,
+    "ret_pts_won": 0.3732,
+    "ret_1st_won": 0.3038,
+    "ret_2nd_won": 0.4972,
+    "ret_games_won": 0.2233,
+    "bp_conv": 0.3613,
+    "bp_chances_per_retgm": 0.6181,
+    "matches_with_stats": 25
+   },
+   "rank_history": [
+    [
+     "2025-02-10",
+     16.0
+    ],
+    [
+     "2025-04-23",
+     11.0
+    ],
+    [
+     "2025-05-07",
+     9.0
+    ],
+    [
+     "2025-05-26",
+     7.0
+    ],
+    [
+     "2025-07-27",
+     10.0
+    ],
+    [
+     "2025-09-17",
+     9.0
+    ],
+    [
+     "2025-10-13",
+     8.0
+    ],
+    [
+     "2025-11-02",
+     9.0
+    ],
+    [
+     "2026-01-05",
+     7.0
+    ],
+    [
+     "2026-01-19",
+     5.0
+    ],
+    [
+     "2026-04-13",
+     9.0
+    ],
+    [
+     "2026-05-06",
+     10.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:128034",
+   "name": "Hubert Hurkacz",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 99.0,
+   "age": 29.64079397672827,
+   "elo": 1910.2,
+   "surface_elo": {
+    "Hard": 1857.4,
+    "Clay": 1794.4,
+    "Grass": 1851.9
+   },
+   "matches_total": 416,
+   "matches_surface": {
+    "Hard": 287,
+    "Clay": 84,
+    "Grass": 45
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    28,
+    19
+   ],
+   "last52w_surface": [
+    20,
+    13
+   ],
+   "career_surface_wl": [
+    172,
+    115
+   ],
+   "games_won_lost_52w": [
+    715,
+    636
+   ],
+   "sets_won_lost_52w": [
+    75,
+    54
+   ],
+   "avg_opp_elo_last20": 1793.4,
+   "vs_top_opp_52w": [
+    5,
+    9
+   ],
+   "serve_rating": 0.2764,
+   "return_rating": 0.0598,
+   "form_elo": 55.5,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6399,
+    "first_won": 0.7917,
+    "second_won": 0.5155,
+    "serve_pts_won": 0.6923,
+    "hold": 0.8884,
+    "aces_per_svgm": 1.0644,
+    "df_per_svgm": 0.1373,
+    "bp_saved": 0.6867,
+    "ret_pts_won": 0.3277,
+    "ret_1st_won": 0.2665,
+    "ret_2nd_won": 0.4293,
+    "ret_games_won": 0.1121,
+    "bp_conv": 0.2574,
+    "bp_chances_per_retgm": 0.4353,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2025-06-09",
+     32.0
+    ],
+    [
+     "2026-01-05",
+     83.0
+    ],
+    [
+     "2026-01-19",
+     55.0
+    ],
+    [
+     "2026-02-02",
+     52.0
+    ],
+    [
+     "2026-02-09",
+     70.0
+    ],
+    [
+     "2026-02-23",
+     73.0
+    ],
+    [
+     "2026-03-04",
+     71.0
+    ],
+    [
+     "2026-03-18",
+     75.0
+    ],
+    [
+     "2026-04-05",
+     74.0
+    ],
+    [
+     "2026-04-22",
+     63.0
+    ],
+    [
+     "2026-05-06",
+     53.0
+    ],
+    [
+     "2026-05-25",
+     99.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Lorenzo Musetti: latest point-level stats are 180 days old (2026-05-06)",
+  "Hubert Hurkacz: latest point-level stats are 180 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -9.0,
+  "components_elo": {
+   "surface_elo": -41.6,
+   "overall_elo": 34.3,
+   "serve_return": -34.7,
+   "form": -57.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -5.1,
+   "overall_elo": 8.1,
+   "serve_return": -12.1,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.487,
+  "serve_return_implied_spw": {
+   "A": 0.6672,
+   "B": 0.6776
+  },
+  "point_probs": {
+   "A_serve": 0.6705,
+   "B_serve": 0.6743
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6705407465871465,
+   "B_serve": 0.6743432809396688
+  },
+  "hold_probs": {
+   "A": 0.8617,
+   "B": 0.8672
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4857,
+   0.487
+  ],
+  "p_tb": [
+   0.5139,
+   0.5147
+  ],
+  "p_decider": [
+   0.4049,
+   0.4054
+  ],
+  "games_mean": [
+   25.019,
+   25.028
+  ],
+  "exp_breaks": [
+   3.631,
+   3.629
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3078,
+    0.3075
+   ],
+   "1-2": [
+    0.2065,
+    0.2055
+   ],
+   "2-0": [
+    0.2873,
+    0.2871
+   ],
+   "2-1": [
+    0.1984,
+    0.1998
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0014
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Hubert Hurkacz",
+   "elo_points": -12.1,
+   "raw_diff": -34.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Lorenzo Musetti",
+   "elo_points": 8.1,
+   "raw_diff": 34.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Hubert Hurkacz",
+   "elo_points": -5.1,
+   "raw_diff": -41.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5418,
+   "B": 0.5155,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3732,
+   "B": 0.3277,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6705,
+   "B": 0.6743,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8492,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-563"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.28 games; p10-p90 18-34); a single tiebreak or deciding set swings it. Data quality MEDIUM: Lorenzo Musetti: latest point-level stats are 180 days old (2026-05-06); Hubert Hurkacz: latest point-level stats are 180 days old (2026-05-06)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8492,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "Lorenzo Musetti +4.5 games",
+    "probability": 0.8119,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "Hubert Hurkacz to win at least one set",
+    "probability": 0.7127,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6973,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Lorenzo Musetti to win at least one set",
+    "probability": 0.6922,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Lorenzo Musetti +2.5 games",
+    "probability": 0.618,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5951,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5554,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5302,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Hubert Hurkacz to win",
+    "probability": 0.5143,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5139,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4861,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Lorenzo Musetti to win",
+    "probability": 0.4857,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4698,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4446,
+    "fair_decimal": 2.25
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:02+00:00",
+  "version": 1,
+  "input_hash": "0856a84a9d523c76",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186462",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

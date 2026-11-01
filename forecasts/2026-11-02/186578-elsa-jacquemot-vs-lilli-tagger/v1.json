@@ -1,0 +1,691 @@
+{
+ "predicted_winner": "Lilli Tagger",
+ "win_prob": {
+  "A": 0.3019,
+  "B": 0.6981
+ },
+ "win_prob_exact": {
+  "A": 0.30192,
+  "B": 0.69808
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.31,
+   "american": "+231"
+  },
+  "B": {
+   "decimal": 1.43,
+   "american": "-231"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4903,
+  "1-2": 0.2078,
+  "2-0": 0.1683,
+  "2-1": 0.1336
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0245,
+ "games": {
+  "mean": 22.24,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00311,
+   "13": 0.01349,
+   "14": 0.02876,
+   "15": 0.05133,
+   "16": 0.07241,
+   "17": 0.08803,
+   "18": 0.0861,
+   "19": 0.07996,
+   "20": 0.06854,
+   "21": 0.05028,
+   "22": 0.05997,
+   "23": 0.03877,
+   "24": 0.01868,
+   "25": 0.03368,
+   "26": 0.03884,
+   "27": 0.03501,
+   "28": 0.03616,
+   "29": 0.03813,
+   "30": 0.03553,
+   "31": 0.03401,
+   "32": 0.02985,
+   "33": 0.01858,
+   "34": 0.01353,
+   "35": 0.01441,
+   "36": 0.00695,
+   "37": 0.0017,
+   "38": 0.00289,
+   "39": 0.0013
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00294,
+  "-11": 0.01227,
+  "-10": 0.02593,
+  "-9": 0.04633,
+  "-8": 0.06826,
+  "-7": 0.09298,
+  "-6": 0.10295,
+  "-5": 0.10332,
+  "-4": 0.09668,
+  "-3": 0.06402,
+  "-2": 0.04155,
+  "-1": 0.0293,
+  "0": 0.02523,
+  "1": 0.02443,
+  "2": 0.03106,
+  "3": 0.04179,
+  "4": 0.05098,
+  "5": 0.04714,
+  "6": 0.0367,
+  "7": 0.02772,
+  "8": 0.0154,
+  "9": 0.00809,
+  "10": 0.00347,
+  "11": 0.00129,
+  "12": 0.00017
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7429,
+   "under": 0.2571
+  },
+  {
+   "line": 18.5,
+   "over": 0.6568,
+   "under": 0.3432
+  },
+  {
+   "line": 19.5,
+   "over": 0.5768,
+   "under": 0.4232
+  },
+  {
+   "line": 20.5,
+   "over": 0.5083,
+   "under": 0.4917
+  },
+  {
+   "line": 21.5,
+   "over": 0.458,
+   "under": 0.542
+  },
+  {
+   "line": 22.5,
+   "over": 0.398,
+   "under": 0.602
+  },
+  {
+   "line": 23.5,
+   "over": 0.3592,
+   "under": 0.6407
+  },
+  {
+   "line": 24.5,
+   "over": 0.3406,
+   "under": 0.6594
+  },
+  {
+   "line": 25.5,
+   "over": 0.3069,
+   "under": 0.6931
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2638,
+   "B +1.5": 0.7362,
+   "B -1.5": 0.6572,
+   "A +1.5": 0.3428
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2328,
+   "B +2.5": 0.7672,
+   "B -2.5": 0.6157,
+   "A +2.5": 0.3843
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.191,
+   "B +3.5": 0.809,
+   "B -3.5": 0.5517,
+   "A +3.5": 0.4483
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.14,
+   "B +4.5": 0.86,
+   "B -4.5": 0.455,
+   "A +4.5": 0.545
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0928,
+   "B +5.5": 0.9072,
+   "B -5.5": 0.3517,
+   "A +5.5": 0.6483
+  }
+ ],
+ "p_tiebreak": 0.2653,
+ "p_a_wins_set": 0.5097,
+ "p_b_wins_set": 0.8317,
+ "p_decider": 0.3414,
+ "expected_breaks": {
+  "total": 6.89,
+  "by_A": 2.83,
+  "by_B": 4.06
+ },
+ "expected_break_points": {
+  "A_creates": 6.93,
+  "B_creates": 8.87
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4903
+ },
+ "match": "Elsa Jacquemot vs Lilli Tagger",
+ "players": {
+  "A": {
+   "id": "wta:221039",
+   "name": "Elsa Jacquemot",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 67.0,
+   "age": 23.44079397672827,
+   "elo": 1602.3,
+   "surface_elo": {
+    "Hard": 1583.0,
+    "Clay": 1510.3,
+    "Grass": 1473.4
+   },
+   "matches_total": 76,
+   "matches_surface": {
+    "Hard": 47,
+    "Clay": 23,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    16,
+    26
+   ],
+   "last52w_surface": [
+    12,
+    18
+   ],
+   "career_surface_wl": [
+    19,
+    28
+   ],
+   "games_won_lost_52w": [
+    410,
+    488
+   ],
+   "sets_won_lost_52w": [
+    35,
+    60
+   ],
+   "avg_opp_elo_last20": 1602.6,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": -0.0085,
+   "return_rating": -0.0323,
+   "form_elo": 41.6,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6517,
+    "first_won": 0.6169,
+    "second_won": 0.362,
+    "serve_pts_won": 0.5281,
+    "hold": 0.5614,
+    "aces_per_svgm": 0.2281,
+    "df_per_svgm": 0.5351,
+    "bp_saved": 0.4949,
+    "ret_pts_won": 0.3759,
+    "ret_1st_won": 0.3055,
+    "ret_2nd_won": 0.5129,
+    "ret_games_won": 0.2051,
+    "bp_conv": 0.3117,
+    "bp_chances_per_retgm": 0.6581,
+    "matches_with_stats": 11
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     91.0
+    ],
+    [
+     "2025-09-08",
+     83.0
+    ],
+    [
+     "2025-09-24",
+     65.0
+    ],
+    [
+     "2026-01-04",
+     56.0
+    ],
+    [
+     "2026-01-12",
+     58.0
+    ],
+    [
+     "2026-01-19",
+     60.0
+    ],
+    [
+     "2026-03-04",
+     63.0
+    ],
+    [
+     "2026-03-17",
+     62.0
+    ],
+    [
+     "2026-04-13",
+     60.0
+    ],
+    [
+     "2026-04-21",
+     62.0
+    ],
+    [
+     "2026-05-05",
+     64.0
+    ],
+    [
+     "2026-05-25",
+     67.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:260172",
+   "name": "Lilli Tagger",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 90.0,
+   "age": 18.64079397672827,
+   "elo": 1850.5,
+   "surface_elo": {
+    "Hard": 1840.7,
+    "Clay": 1489.5,
+    "Grass": 1361.5
+   },
+   "matches_total": 40,
+   "matches_surface": {
+    "Hard": 32,
+    "Clay": 6,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    20,
+    15
+   ],
+   "last52w_surface": [
+    18,
+    9
+   ],
+   "career_surface_wl": [
+    22,
+    10
+   ],
+   "games_won_lost_52w": [
+    421,
+    368
+   ],
+   "sets_won_lost_52w": [
+    49,
+    34
+   ],
+   "avg_opp_elo_last20": 1744.6,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": 0.1281,
+   "return_rating": 0.0128,
+   "form_elo": 94.2,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6755,
+    "first_won": 0.6636,
+    "second_won": 0.43,
+    "serve_pts_won": 0.5878,
+    "hold": 0.6634,
+    "aces_per_svgm": 0.2772,
+    "df_per_svgm": 0.2277,
+    "bp_saved": 0.5278,
+    "ret_pts_won": 0.3968,
+    "ret_1st_won": 0.3149,
+    "ret_2nd_won": 0.5267,
+    "ret_games_won": 0.2718,
+    "bp_conv": 0.4667,
+    "bp_chances_per_retgm": 0.5825,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     235.0
+    ],
+    [
+     "2026-03-04",
+     119.0
+    ],
+    [
+     "2026-03-17",
+     115.0
+    ],
+    [
+     "2026-04-06",
+     117.0
+    ],
+    [
+     "2026-04-13",
+     97.0
+    ],
+    [
+     "2026-05-05",
+     92.0
+    ],
+    [
+     "2026-05-25",
+     90.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Elsa Jacquemot: limited recent/surface sample (42 matches 52w, 47 career on Hard, 11 with stats)",
+  "Elsa Jacquemot: latest point-level stats are 181 days old (2026-05-05)",
+  "Lilli Tagger: limited recent/surface sample (35 matches 52w, 32 career on Hard, 9 with stats)",
+  "Lilli Tagger: latest point-level stats are 181 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -146.8,
+  "components_elo": {
+   "surface_elo": -257.7,
+   "overall_elo": -248.2,
+   "serve_return": -162.5,
+   "form": -52.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -31.5,
+   "overall_elo": -58.6,
+   "serve_return": -56.7,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3005,
+  "serve_return_implied_spw": {
+   "A": 0.5605,
+   "B": 0.6047
+  },
+  "point_probs": {
+   "A_serve": 0.552,
+   "B_serve": 0.6129
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5520253701519954,
+   "B_serve": 0.6128526269020991
+  },
+  "hold_probs": {
+   "A": 0.628,
+   "B": 0.7619
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3019,
+   0.3028
+  ],
+  "p_tb": [
+   0.2653,
+   0.2675
+  ],
+  "p_decider": [
+   0.3414,
+   0.3449
+  ],
+  "games_mean": [
+   22.237,
+   22.279
+  ],
+  "exp_breaks": [
+   6.892,
+   6.899
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4903,
+    0.4888
+   ],
+   "1-2": [
+    0.2078,
+    0.2084
+   ],
+   "2-0": [
+    0.1683,
+    0.1664
+   ],
+   "2-1": [
+    0.1336,
+    0.1365
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0035
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Lilli Tagger",
+   "elo_points": -58.6,
+   "raw_diff": -248.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lilli Tagger",
+   "elo_points": -56.7,
+   "raw_diff": -162.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lilli Tagger",
+   "elo_points": -31.5,
+   "raw_diff": -257.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.362,
+   "B": 0.43,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3759,
+   "B": 0.3968,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.552,
+   "B": 0.6129,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Lilli Tagger to win at least one set",
+  "probability": 0.8317,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-494"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Elsa Jacquemot: limited recent/surface sample (42 matches 52w, 47 career on Hard, 11 with stats); Elsa Jacquemot: latest point-level stats are 181 days old (2026-05-05)",
+  "candidates": [
+   {
+    "selection": "Lilli Tagger to win at least one set",
+    "probability": 0.8317,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7347,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Lilli Tagger to win",
+    "probability": 0.6981,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6594,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6586,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6568,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Lilli Tagger -2.5 games",
+    "probability": 0.6157,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.602,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Elsa Jacquemot +4.5 games",
+    "probability": 0.545,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Elsa Jacquemot to win at least one set",
+    "probability": 0.5097,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5083,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4917,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Exact sets Elsa Jacquemot 0-2 Lilli Tagger",
+    "probability": 0.4903,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Lilli Tagger -4.5 games",
+    "probability": 0.455,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.398,
+    "fair_decimal": 2.51
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:07:01+00:00",
+  "version": 1,
+  "input_hash": "a4030b5f63594444",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186578",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,597 @@
+{
+ "predicted_winner": "Gina Feistel",
+ "win_prob": {
+  "A": 0.5656,
+  "B": 0.4344
+ },
+ "win_prob_exact": {
+  "A": 0.56564,
+  "B": 0.43435999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.77,
+   "american": "-130"
+  },
+  "B": {
+   "decimal": 2.3,
+   "american": "+130"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3684,
+  "0-2": 0.2601,
+  "2-1": 0.1973,
+  "1-2": 0.1743
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0189,
+ "games": {
+  "mean": 22.58,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00228,
+   "13": 0.01077,
+   "14": 0.02413,
+   "15": 0.0452,
+   "16": 0.06727,
+   "17": 0.08469,
+   "18": 0.08399,
+   "19": 0.07921,
+   "20": 0.06846,
+   "21": 0.04902,
+   "22": 0.05975,
+   "23": 0.03846,
+   "24": 0.02155,
+   "25": 0.03721,
+   "26": 0.04072,
+   "27": 0.03686,
+   "28": 0.04157,
+   "29": 0.04153,
+   "30": 0.03955,
+   "31": 0.03575,
+   "32": 0.03056,
+   "33": 0.01972,
+   "34": 0.0151,
+   "35": 0.01386,
+   "36": 0.00667,
+   "37": 0.00209,
+   "38": 0.00276,
+   "39": 0.00127
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00071,
+  "-11": 0.00369,
+  "-10": 0.00876,
+  "-9": 0.01814,
+  "-8": 0.03032,
+  "-7": 0.04772,
+  "-6": 0.05926,
+  "-5": 0.0656,
+  "-4": 0.06887,
+  "-3": 0.05086,
+  "-2": 0.03635,
+  "-1": 0.02879,
+  "0": 0.02859,
+  "1": 0.02932,
+  "2": 0.0403,
+  "3": 0.05885,
+  "4": 0.0827,
+  "5": 0.0858,
+  "6": 0.082,
+  "7": 0.06992,
+  "8": 0.04885,
+  "9": 0.02979,
+  "10": 0.01608,
+  "11": 0.00716,
+  "12": 0.00157
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7657,
+   "under": 0.2343
+  },
+  {
+   "line": 18.5,
+   "over": 0.6817,
+   "under": 0.3183
+  },
+  {
+   "line": 19.5,
+   "over": 0.6025,
+   "under": 0.3975
+  },
+  {
+   "line": 20.5,
+   "over": 0.534,
+   "under": 0.466
+  },
+  {
+   "line": 21.5,
+   "over": 0.485,
+   "under": 0.515
+  },
+  {
+   "line": 22.5,
+   "over": 0.4252,
+   "under": 0.5748
+  },
+  {
+   "line": 23.5,
+   "over": 0.3868,
+   "under": 0.6132
+  },
+  {
+   "line": 24.5,
+   "over": 0.3652,
+   "under": 0.6348
+  },
+  {
+   "line": 25.5,
+   "over": 0.328,
+   "under": 0.672
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.523,
+   "B +1.5": 0.477,
+   "B -1.5": 0.3903,
+   "A +1.5": 0.6097
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4827,
+   "B +2.5": 0.5173,
+   "B -2.5": 0.3539,
+   "A +2.5": 0.6461
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4239,
+   "B +3.5": 0.5761,
+   "B -3.5": 0.3031,
+   "A +3.5": 0.6969
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3412,
+   "B +4.5": 0.6588,
+   "B -4.5": 0.2342,
+   "A +4.5": 0.7658
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2554,
+   "B +5.5": 0.7446,
+   "B -5.5": 0.1686,
+   "A +5.5": 0.8314
+  }
+ ],
+ "p_tiebreak": 0.2619,
+ "p_a_wins_set": 0.7399,
+ "p_b_wins_set": 0.6316,
+ "p_decider": 0.3715,
+ "expected_breaks": {
+  "total": 7.76,
+  "by_A": 4.09,
+  "by_B": 3.67
+ },
+ "expected_break_points": {
+  "A_creates": 8.94,
+  "B_creates": 8.32
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3684
+ },
+ "match": "Gina Feistel vs Linda Klimovicova",
+ "players": {
+  "A": {
+   "id": "wta:espn13369",
+   "name": "Gina Feistel",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1540.3,
+   "surface_elo": {
+    "Hard": 1511.9,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 9,
+   "matches_surface": {
+    "Hard": 9,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    4
+   ],
+   "last20": [
+    5,
+    4
+   ],
+   "last52w": [
+    5,
+    4
+   ],
+   "last52w_surface": [
+    5,
+    4
+   ],
+   "career_surface_wl": [
+    5,
+    4
+   ],
+   "games_won_lost_52w": [
+    99,
+    85
+   ],
+   "sets_won_lost_52w": [
+    11,
+    9
+   ],
+   "avg_opp_elo_last20": 1538.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -5.3,
+   "last_match": "2026-10-13",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:221626",
+   "name": "Linda Klimovicova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 154.0,
+   "age": 22.363997262149212,
+   "elo": 1448.4,
+   "surface_elo": {
+    "Hard": 1454.2,
+    "Clay": 1500.0,
+    "Grass": 1432.6
+   },
+   "matches_total": 12,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 0,
+    "Grass": 1
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    3,
+    9
+   ],
+   "last52w": [
+    3,
+    9
+   ],
+   "last52w_surface": [
+    3,
+    8
+   ],
+   "career_surface_wl": [
+    3,
+    8
+   ],
+   "games_won_lost_52w": [
+    106,
+    141
+   ],
+   "sets_won_lost_52w": [
+    7,
+    19
+   ],
+   "avg_opp_elo_last20": 1616.3,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0299,
+   "return_rating": -0.033,
+   "form_elo": -1.3,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-02-01",
+   "stats_52w": {
+    "first_in": 0.5102,
+    "first_won": 0.54,
+    "second_won": 0.3542,
+    "serve_pts_won": 0.449,
+    "hold": 0.4375,
+    "aces_per_svgm": 0.375,
+    "df_per_svgm": 0.3125,
+    "bp_saved": 0.4706,
+    "ret_pts_won": 0.3271,
+    "ret_1st_won": 0.2911,
+    "ret_2nd_won": 0.4286,
+    "ret_games_won": 0.1111,
+    "bp_conv": 0.25,
+    "bp_chances_per_retgm": 0.4444,
+    "matches_with_stats": 2
+   },
+   "rank_history": [
+    [
+     "2026-01-19",
+     134.0
+    ],
+    [
+     "2026-02-01",
+     131.0
+    ],
+    [
+     "2026-04-10",
+     154.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Gina Feistel: sparse record (9 tour matches, 0 with serve stats in 52w)",
+  "Linda Klimovicova: sparse record (12 tour matches, 2 with serve stats in 52w)",
+  "Linda Klimovicova: latest point-level stats are 274 days old (2026-02-01)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 48.5,
+  "components_elo": {
+   "surface_elo": 57.7,
+   "overall_elo": 91.9,
+   "serve_return": 56.7,
+   "form": -4.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 7.1,
+   "overall_elo": 21.7,
+   "serve_return": 19.8,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5694,
+  "serve_return_implied_spw": {
+   "A": 0.5738,
+   "B": 0.5584
+  },
+  "point_probs": {
+   "A_serve": 0.5762,
+   "B_serve": 0.556
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5762097178167005,
+   "B_serve": 0.5560067379691856
+  },
+  "hold_probs": {
+   "A": 0.6841,
+   "B": 0.6374
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5656,
+   0.5679
+  ],
+  "p_tb": [
+   0.2619,
+   0.2656
+  ],
+  "p_decider": [
+   0.3715,
+   0.3734
+  ],
+  "games_mean": [
+   22.577,
+   22.594
+  ],
+  "exp_breaks": [
+   7.756,
+   7.753
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2601,
+    0.2583
+   ],
+   "1-2": [
+    0.1743,
+    0.1737
+   ],
+   "2-0": [
+    0.3684,
+    0.3683
+   ],
+   "2-1": [
+    0.1973,
+    0.1996
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0037
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Gina Feistel",
+   "elo_points": 21.7,
+   "raw_diff": 91.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Gina Feistel",
+   "elo_points": 19.8,
+   "raw_diff": 56.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Gina Feistel",
+   "elo_points": 7.1,
+   "raw_diff": 57.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5762,
+   "B": 0.556,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Gina Feistel to win at least one set",
+  "probability": 0.7399,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-284"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Gina Feistel: sparse record (9 tour matches, 0 with serve stats in 52w); Linda Klimovicova: sparse record (12 tour matches, 2 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Gina Feistel to win at least one set",
+    "probability": 0.7399,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7381,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6817,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Linda Klimovicova +4.5 games",
+    "probability": 0.6588,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6348,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Linda Klimovicova to win at least one set",
+    "probability": 0.6316,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6285,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5748,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Gina Feistel to win",
+    "probability": 0.5656,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.534,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Linda Klimovicova +2.5 games",
+    "probability": 0.5173,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Gina Feistel -2.5 games",
+    "probability": 0.4827,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.466,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Linda Klimovicova to win",
+    "probability": 0.4344,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4252,
+    "fair_decimal": 2.35
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:07:19+00:00",
+  "version": 1,
+  "input_hash": "98c22e037a032acb",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186674",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Learner Tien",
+ "win_prob": {
+  "A": 0.4437,
+  "B": 0.5563
+ },
+ "win_prob_exact": {
+  "A": 0.44367,
+  "B": 0.55633
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.25,
+   "american": "+125"
+  },
+  "B": {
+   "decimal": 1.8,
+   "american": "-125"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3437,
+  "2-0": 0.2552,
+  "1-2": 0.2127,
+  "2-1": 0.1885
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0274,
+ "games": {
+  "mean": 24.79,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.26,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00023,
+   "13": 0.00204,
+   "14": 0.00645,
+   "15": 0.01572,
+   "16": 0.02695,
+   "17": 0.05203,
+   "18": 0.06165,
+   "19": 0.07909,
+   "20": 0.07498,
+   "21": 0.05004,
+   "22": 0.08889,
+   "23": 0.07445,
+   "24": 0.00985,
+   "25": 0.03455,
+   "26": 0.05773,
+   "27": 0.02442,
+   "28": 0.03206,
+   "29": 0.03321,
+   "30": 0.03571,
+   "31": 0.04565,
+   "32": 0.04977,
+   "33": 0.03041,
+   "34": 0.02394,
+   "35": 0.03781,
+   "36": 0.02771,
+   "37": 0.0027,
+   "38": 0.00887,
+   "39": 0.01309
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00015,
+  "-11": 0.00146,
+  "-10": 0.00453,
+  "-9": 0.01069,
+  "-8": 0.01964,
+  "-7": 0.04156,
+  "-6": 0.06011,
+  "-5": 0.08814,
+  "-4": 0.10689,
+  "-3": 0.09376,
+  "-2": 0.06997,
+  "-1": 0.04011,
+  "0": 0.03911,
+  "1": 0.0393,
+  "2": 0.06196,
+  "3": 0.08051,
+  "4": 0.08732,
+  "5": 0.06598,
+  "6": 0.04138,
+  "7": 0.02703,
+  "8": 0.01154,
+  "9": 0.00609,
+  "10": 0.00211,
+  "11": 0.00058,
+  "12": 8e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8966,
+   "under": 0.1034
+  },
+  {
+   "line": 18.5,
+   "over": 0.8349,
+   "under": 0.1651
+  },
+  {
+   "line": 19.5,
+   "over": 0.7558,
+   "under": 0.2442
+  },
+  {
+   "line": 20.5,
+   "over": 0.6809,
+   "under": 0.3191
+  },
+  {
+   "line": 21.5,
+   "over": 0.6308,
+   "under": 0.3692
+  },
+  {
+   "line": 22.5,
+   "over": 0.5419,
+   "under": 0.4581
+  },
+  {
+   "line": 23.5,
+   "over": 0.4675,
+   "under": 0.5325
+  },
+  {
+   "line": 24.5,
+   "over": 0.4576,
+   "under": 0.5424
+  },
+  {
+   "line": 25.5,
+   "over": 0.4231,
+   "under": 0.5769
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3846,
+   "B +1.5": 0.6154,
+   "B -1.5": 0.4969,
+   "A +1.5": 0.5031
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3226,
+   "B +2.5": 0.6774,
+   "B -2.5": 0.4269,
+   "A +2.5": 0.5731
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2421,
+   "B +3.5": 0.7579,
+   "B -3.5": 0.3332,
+   "A +3.5": 0.6668
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1548,
+   "B +4.5": 0.8452,
+   "B -4.5": 0.2263,
+   "A +4.5": 0.7737
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0888,
+   "B +5.5": 0.9112,
+   "B -5.5": 0.1381,
+   "A +5.5": 0.8619
+  }
+ ],
+ "p_tiebreak": 0.4904,
+ "p_a_wins_set": 0.6563,
+ "p_b_wins_set": 0.7448,
+ "p_decider": 0.4012,
+ "expected_breaks": {
+  "total": 3.85,
+  "by_A": 1.79,
+  "by_B": 2.06
+ },
+ "expected_break_points": {
+  "A_creates": 5.14,
+  "B_creates": 5.7
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3437
+ },
+ "match": "Stefanos Tsitsipas vs Learner Tien",
+ "players": {
+  "A": {
+   "id": "atp:126774",
+   "name": "Stefanos Tsitsipas",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 79.0,
+   "age": 28.14079397672827,
+   "elo": 1876.2,
+   "surface_elo": {
+    "Hard": 1845.3,
+    "Clay": 1906.0,
+    "Grass": 1629.7
+   },
+   "matches_total": 594,
+   "matches_surface": {
+    "Hard": 377,
+    "Clay": 173,
+    "Grass": 44
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    37,
+    23
+   ],
+   "last52w_surface": [
+    27,
+    15
+   ],
+   "career_surface_wl": [
+    242,
+    135
+   ],
+   "games_won_lost_52w": [
+    813,
+    731
+   ],
+   "sets_won_lost_52w": [
+    87,
+    63
+   ],
+   "avg_opp_elo_last20": 1767.2,
+   "vs_top_opp_52w": [
+    7,
+    10
+   ],
+   "serve_rating": 0.2432,
+   "return_rating": 0.0197,
+   "form_elo": 33.0,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6351,
+    "first_won": 0.775,
+    "second_won": 0.5171,
+    "serve_pts_won": 0.6809,
+    "hold": 0.8856,
+    "aces_per_svgm": 0.5654,
+    "df_per_svgm": 0.183,
+    "bp_saved": 0.7107,
+    "ret_pts_won": 0.3318,
+    "ret_1st_won": 0.2561,
+    "ret_2nd_won": 0.4686,
+    "ret_games_won": 0.1472,
+    "bp_conv": 0.3143,
+    "bp_chances_per_retgm": 0.4682,
+    "matches_with_stats": 25
+   },
+   "rank_history": [
+    [
+     "2026-02-07",
+     33.0
+    ],
+    [
+     "2026-02-09",
+     32.0
+    ],
+    [
+     "2026-02-16",
+     33.0
+    ],
+    [
+     "2026-02-23",
+     30.0
+    ],
+    [
+     "2026-03-04",
+     43.0
+    ],
+    [
+     "2026-03-18",
+     51.0
+    ],
+    [
+     "2026-04-05",
+     48.0
+    ],
+    [
+     "2026-04-13",
+     67.0
+    ],
+    [
+     "2026-04-22",
+     80.0
+    ],
+    [
+     "2026-05-06",
+     75.0
+    ],
+    [
+     "2026-05-17",
+     82.0
+    ],
+    [
+     "2026-05-25",
+     79.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:210530",
+   "name": "Learner Tien",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 18.0,
+   "age": 20.840793976728268,
+   "elo": 1883.4,
+   "surface_elo": {
+    "Hard": 1857.8,
+    "Clay": 1783.9,
+    "Grass": 1552.7
+   },
+   "matches_total": 119,
+   "matches_surface": {
+    "Hard": 89,
+    "Clay": 20,
+    "Grass": 10
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    40,
+    20
+   ],
+   "last52w_surface": [
+    29,
+    14
+   ],
+   "career_surface_wl": [
+    55,
+    34
+   ],
+   "games_won_lost_52w": [
+    866,
+    763
+   ],
+   "sets_won_lost_52w": [
+    105,
+    68
+   ],
+   "avg_opp_elo_last20": 1819.5,
+   "vs_top_opp_52w": [
+    6,
+    9
+   ],
+   "serve_rating": 0.1493,
+   "return_rating": 0.2483,
+   "form_elo": -37.0,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.62,
+    "first_won": 0.7331,
+    "second_won": 0.5291,
+    "serve_pts_won": 0.6556,
+    "hold": 0.8155,
+    "aces_per_svgm": 0.5,
+    "df_per_svgm": 0.2854,
+    "bp_saved": 0.5825,
+    "ret_pts_won": 0.3856,
+    "ret_1st_won": 0.3224,
+    "ret_2nd_won": 0.5074,
+    "ret_games_won": 0.2473,
+    "bp_conv": 0.4363,
+    "bp_chances_per_retgm": 0.5667,
+    "matches_with_stats": 36
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     39.0
+    ],
+    [
+     "2025-11-02",
+     38.0
+    ],
+    [
+     "2025-12-17",
+     28.0
+    ],
+    [
+     "2026-01-04",
+     26.0
+    ],
+    [
+     "2026-01-19",
+     29.0
+    ],
+    [
+     "2026-02-09",
+     23.0
+    ],
+    [
+     "2026-03-04",
+     27.0
+    ],
+    [
+     "2026-03-18",
+     21.0
+    ],
+    [
+     "2026-03-30",
+     22.0
+    ],
+    [
+     "2026-04-22",
+     21.0
+    ],
+    [
+     "2026-05-17",
+     20.0
+    ],
+    [
+     "2026-05-25",
+     18.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Stefanos Tsitsipas: latest point-level stats are 169 days old (2026-05-17)",
+  "Learner Tien: latest point-level stats are 169 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -38.7,
+  "components_elo": {
+   "surface_elo": -12.5,
+   "overall_elo": -7.2,
+   "serve_return": -101.4,
+   "form": 70.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -1.5,
+   "overall_elo": -1.7,
+   "serve_return": -35.4,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4445,
+  "serve_return_implied_spw": {
+   "A": 0.6507,
+   "B": 0.6807
+  },
+  "point_probs": {
+   "A_serve": 0.6577,
+   "B_serve": 0.6739
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6577047975853506,
+   "B_serve": 0.6738796228503946
+  },
+  "hold_probs": {
+   "A": 0.8421,
+   "B": 0.8666
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4437,
+   0.4448
+  ],
+  "p_tb": [
+   0.4904,
+   0.4899
+  ],
+  "p_decider": [
+   0.4012,
+   0.4005
+  ],
+  "games_mean": [
+   24.788,
+   24.775
+  ],
+  "exp_breaks": [
+   3.849,
+   3.842
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3437,
+    0.3431
+   ],
+   "1-2": [
+    0.2127,
+    0.2122
+   ],
+   "2-0": [
+    0.2552,
+    0.2564
+   ],
+   "2-1": [
+    0.1885,
+    0.1883
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0012
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Learner Tien",
+   "elo_points": -35.4,
+   "raw_diff": -101.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Learner Tien",
+   "elo_points": -1.7,
+   "raw_diff": -7.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Learner Tien",
+   "elo_points": -1.5,
+   "raw_diff": -12.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5171,
+   "B": 0.5291,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3318,
+   "B": 0.3856,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6577,
+   "B": 0.6739,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8349,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-506"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.26 games; p10-p90 17-34); a single tiebreak or deciding set swings it. Data quality MEDIUM: Stefanos Tsitsipas: latest point-level stats are 169 days old (2026-05-17); Learner Tien: latest point-level stats are 169 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8349,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "Stefanos Tsitsipas +4.5 games",
+    "probability": 0.7737,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Learner Tien to win at least one set",
+    "probability": 0.7448,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6809,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Stefanos Tsitsipas to win at least one set",
+    "probability": 0.6563,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5988,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Stefanos Tsitsipas +2.5 games",
+    "probability": 0.5731,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Learner Tien to win",
+    "probability": 0.5563,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5424,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5419,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5096,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4904,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4581,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4576,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Stefanos Tsitsipas to win",
+    "probability": 0.4437,
+    "fair_decimal": 2.25
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:06:15+00:00",
+  "version": 1,
+  "input_hash": "e5e4dd8cf6b0663b",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186473",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

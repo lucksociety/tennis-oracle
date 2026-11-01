@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Brandon Nakashima",
+ "win_prob": {
+  "A": 0.5642,
+  "B": 0.4358
+ },
+ "win_prob_exact": {
+  "A": 0.56419,
+  "B": 0.43581000000000003
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.77,
+   "american": "-129"
+  },
+  "B": {
+   "decimal": 2.29,
+   "american": "+129"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3474,
+  "0-2": 0.247,
+  "2-1": 0.2168,
+  "1-2": 0.1888
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "7-6",
+  "7-6"
+ ],
+ "representative_sets_prob": 0.0316,
+ "games": {
+  "mean": 25.45,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.36,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00013,
+   "13": 0.001,
+   "14": 0.00368,
+   "15": 0.01112,
+   "16": 0.01989,
+   "17": 0.04063,
+   "18": 0.05183,
+   "19": 0.07446,
+   "20": 0.07277,
+   "21": 0.04678,
+   "22": 0.09719,
+   "23": 0.08699,
+   "24": 0.00642,
+   "25": 0.03476,
+   "26": 0.07101,
+   "27": 0.01918,
+   "28": 0.02654,
+   "29": 0.02912,
+   "30": 0.03056,
+   "31": 0.04537,
+   "32": 0.05284,
+   "33": 0.0326,
+   "34": 0.02554,
+   "35": 0.04671,
+   "36": 0.03797,
+   "37": 0.00256,
+   "38": 0.01158,
+   "39": 0.02077
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 4e-05,
+  "-11": 0.00037,
+  "-10": 0.00126,
+  "-9": 0.00366,
+  "-8": 0.00853,
+  "-7": 0.01949,
+  "-6": 0.03282,
+  "-5": 0.05904,
+  "-4": 0.08598,
+  "-3": 0.0874,
+  "-2": 0.07118,
+  "-1": 0.04283,
+  "0": 0.0427,
+  "1": 0.04639,
+  "2": 0.08341,
+  "3": 0.10541,
+  "4": 0.11431,
+  "5": 0.08587,
+  "6": 0.05117,
+  "7": 0.0328,
+  "8": 0.01397,
+  "9": 0.00814,
+  "10": 0.00249,
+  "11": 0.00065,
+  "12": 9e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9235,
+   "under": 0.0765
+  },
+  {
+   "line": 18.5,
+   "over": 0.8717,
+   "under": 0.1283
+  },
+  {
+   "line": 19.5,
+   "over": 0.7973,
+   "under": 0.2027
+  },
+  {
+   "line": 20.5,
+   "over": 0.7245,
+   "under": 0.2755
+  },
+  {
+   "line": 21.5,
+   "over": 0.6777,
+   "under": 0.3223
+  },
+  {
+   "line": 22.5,
+   "over": 0.5805,
+   "under": 0.4195
+  },
+  {
+   "line": 23.5,
+   "over": 0.4935,
+   "under": 0.5065
+  },
+  {
+   "line": 24.5,
+   "over": 0.4871,
+   "under": 0.5129
+  },
+  {
+   "line": 25.5,
+   "over": 0.4523,
+   "under": 0.5476
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4983,
+   "B +1.5": 0.5017,
+   "B -1.5": 0.3698,
+   "A +1.5": 0.6302
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4149,
+   "B +2.5": 0.5851,
+   "B -2.5": 0.2986,
+   "A +2.5": 0.7014
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3095,
+   "B +3.5": 0.6905,
+   "B -3.5": 0.2112,
+   "A +3.5": 0.7888
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1952,
+   "B +4.5": 0.8048,
+   "B -4.5": 0.1252,
+   "A +4.5": 0.8748
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1093,
+   "B +5.5": 0.8907,
+   "B -5.5": 0.0662,
+   "A +5.5": 0.9338
+  }
+ ],
+ "p_tiebreak": 0.5639,
+ "p_a_wins_set": 0.753,
+ "p_b_wins_set": 0.6526,
+ "p_decider": 0.4056,
+ "expected_breaks": {
+  "total": 3.17,
+  "by_A": 1.73,
+  "by_B": 1.44
+ },
+ "expected_break_points": {
+  "A_creates": 5.04,
+  "B_creates": 4.44
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "7-6",
+   "7-6"
+  ],
+  "prob": 0.3474
+ },
+ "match": "Brandon Nakashima vs Matteo Berrettini",
+ "players": {
+  "A": {
+   "id": "atp:206909",
+   "name": "Brandon Nakashima",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 35.0,
+   "age": 25.24079397672827,
+   "elo": 1870.8,
+   "surface_elo": {
+    "Hard": 1848.8,
+    "Clay": 1673.2,
+    "Grass": 1635.2
+   },
+   "matches_total": 290,
+   "matches_surface": {
+    "Hard": 208,
+    "Clay": 47,
+    "Grass": 35
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    35,
+    23
+   ],
+   "last52w_surface": [
+    27,
+    16
+   ],
+   "career_surface_wl": [
+    118,
+    90
+   ],
+   "games_won_lost_52w": [
+    810,
+    709
+   ],
+   "sets_won_lost_52w": [
+    88,
+    60
+   ],
+   "avg_opp_elo_last20": 1829.8,
+   "vs_top_opp_52w": [
+    5,
+    9
+   ],
+   "serve_rating": 0.2369,
+   "return_rating": 0.0874,
+   "form_elo": -13.9,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6832,
+    "first_won": 0.7715,
+    "second_won": 0.5036,
+    "serve_pts_won": 0.6866,
+    "hold": 0.869,
+    "aces_per_svgm": 0.8172,
+    "df_per_svgm": 0.0586,
+    "bp_saved": 0.5581,
+    "ret_pts_won": 0.3445,
+    "ret_1st_won": 0.2575,
+    "ret_2nd_won": 0.5072,
+    "ret_games_won": 0.1748,
+    "bp_conv": 0.3597,
+    "bp_chances_per_retgm": 0.486,
+    "matches_with_stats": 25
+   },
+   "rank_history": [
+    [
+     "2025-08-07",
+     31.0
+    ],
+    [
+     "2025-09-17",
+     33.0
+    ],
+    [
+     "2025-10-01",
+     32.0
+    ],
+    [
+     "2025-10-13",
+     34.0
+    ],
+    [
+     "2025-10-20",
+     32.0
+    ],
+    [
+     "2025-10-27",
+     33.0
+    ],
+    [
+     "2026-01-19",
+     30.0
+    ],
+    [
+     "2026-02-09",
+     29.0
+    ],
+    [
+     "2026-03-04",
+     30.0
+    ],
+    [
+     "2026-03-30",
+     33.0
+    ],
+    [
+     "2026-04-22",
+     32.0
+    ],
+    [
+     "2026-05-25",
+     35.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:126610",
+   "name": "Matteo Berrettini",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 105.0,
+   "age": 30.54079397672827,
+   "elo": 1820.5,
+   "surface_elo": {
+    "Hard": 1795.0,
+    "Clay": 1840.8,
+    "Grass": 1857.6
+   },
+   "matches_total": 352,
+   "matches_surface": {
+    "Hard": 191,
+    "Clay": 104,
+    "Grass": 57
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    23,
+    18
+   ],
+   "last52w_surface": [
+    13,
+    9
+   ],
+   "career_surface_wl": [
+    109,
+    82
+   ],
+   "games_won_lost_52w": [
+    576,
+    547
+   ],
+   "sets_won_lost_52w": [
+    61,
+    48
+   ],
+   "avg_opp_elo_last20": 1786.9,
+   "vs_top_opp_52w": [
+    3,
+    7
+   ],
+   "serve_rating": 0.1927,
+   "return_rating": 0.0192,
+   "form_elo": -69.5,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6632,
+    "first_won": 0.7382,
+    "second_won": 0.5418,
+    "serve_pts_won": 0.672,
+    "hold": 0.835,
+    "aces_per_svgm": 0.6311,
+    "df_per_svgm": 0.1456,
+    "bp_saved": 0.6531,
+    "ret_pts_won": 0.3456,
+    "ret_1st_won": 0.289,
+    "ret_2nd_won": 0.4506,
+    "ret_games_won": 0.169,
+    "bp_conv": 0.3956,
+    "bp_chances_per_retgm": 0.4272,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2025-10-20",
+     59.0
+    ],
+    [
+     "2025-11-02",
+     63.0
+    ],
+    [
+     "2025-11-19",
+     56.0
+    ],
+    [
+     "2026-02-09",
+     58.0
+    ],
+    [
+     "2026-02-16",
+     57.0
+    ],
+    [
+     "2026-03-04",
+     66.0
+    ],
+    [
+     "2026-03-18",
+     68.0
+    ],
+    [
+     "2026-03-30",
+     91.0
+    ],
+    [
+     "2026-04-05",
+     90.0
+    ],
+    [
+     "2026-04-22",
+     92.0
+    ],
+    [
+     "2026-05-06",
+     100.0
+    ],
+    [
+     "2026-05-25",
+     105.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Brandon Nakashima: latest point-level stats are 180 days old (2026-05-06)",
+  "Matteo Berrettini: latest point-level stats are 180 days old (2026-05-06)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 46.1,
+  "components_elo": {
+   "surface_elo": 53.8,
+   "overall_elo": 50.3,
+   "serve_return": 79.5,
+   "form": 55.6
+  },
+  "weighted_contributions": {
+   "surface_elo": 6.6,
+   "overall_elo": 11.9,
+   "serve_return": 27.7,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.566,
+  "serve_return_implied_spw": {
+   "A": 0.6995,
+   "B": 0.6753
+  },
+  "point_probs": {
+   "A_serve": 0.697,
+   "B_serve": 0.6779
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6970205774465048,
+   "B_serve": 0.6778972056437602
+  },
+  "hold_probs": {
+   "A": 0.8972,
+   "B": 0.8722
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5642,
+   0.5656
+  ],
+  "p_tb": [
+   0.5639,
+   0.5655
+  ],
+  "p_decider": [
+   0.4056,
+   0.407
+  ],
+  "games_mean": [
+   25.446,
+   25.467
+  ],
+  "exp_breaks": [
+   3.169,
+   3.167
+  ],
+  "set_scores": {
+   "0-2": [
+    0.247,
+    0.2456
+   ],
+   "1-2": [
+    0.1888,
+    0.1889
+   ],
+   "2-0": [
+    0.3474,
+    0.3474
+   ],
+   "2-1": [
+    0.2168,
+    0.2182
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Brandon Nakashima",
+   "elo_points": 27.7,
+   "raw_diff": 79.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Brandon Nakashima",
+   "elo_points": 11.9,
+   "raw_diff": 50.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Brandon Nakashima",
+   "elo_points": 6.6,
+   "raw_diff": 53.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5036,
+   "B": 0.5418,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3445,
+   "B": 0.3456,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.697,
+   "B": 0.6779,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8717,
+  "fair_odds": {
+   "decimal": 1.15,
+   "american": "-679"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.36 games; p10-p90 18-35); a single tiebreak or deciding set swings it. Data quality MEDIUM: Brandon Nakashima: latest point-level stats are 180 days old (2026-05-06); Matteo Berrettini: latest point-level stats are 180 days old (2026-05-06)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8717,
+    "fair_decimal": 1.15
+   },
+   {
+    "selection": "Matteo Berrettini +4.5 games",
+    "probability": 0.8048,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Brandon Nakashima to win at least one set",
+    "probability": 0.753,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7245,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Matteo Berrettini to win at least one set",
+    "probability": 0.6526,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5944,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Matteo Berrettini +2.5 games",
+    "probability": 0.5851,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5805,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Brandon Nakashima to win",
+    "probability": 0.5642,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5639,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5129,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4871,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4361,
+    "fair_decimal": 2.29
+   },
+   {
+    "selection": "Matteo Berrettini to win",
+    "probability": 0.4358,
+    "fair_decimal": 2.29
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4195,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-10-31",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:05:55+00:00",
+  "version": 1,
+  "input_hash": "239c1d0920aa62c7",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186455",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}

@@ -1,0 +1,617 @@
+{
+ "predicted_winner": "Dune Vaissaud",
+ "win_prob": {
+  "A": 0.4177,
+  "B": 0.5823
+ },
+ "win_prob_exact": {
+  "A": 0.41766,
+  "B": 0.5823400000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.39,
+   "american": "+139"
+  },
+  "B": {
+   "decimal": 1.72,
+   "american": "-139"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3804,
+  "2-0": 0.2481,
+  "1-2": 0.202,
+  "2-1": 0.1696
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0191,
+ "games": {
+  "mean": 22.55,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.0023,
+   "13": 0.01097,
+   "14": 0.02581,
+   "15": 0.04714,
+   "16": 0.06732,
+   "17": 0.08281,
+   "18": 0.08396,
+   "19": 0.07783,
+   "20": 0.06713,
+   "21": 0.04995,
+   "22": 0.05963,
+   "23": 0.04015,
+   "24": 0.02108,
+   "25": 0.03648,
+   "26": 0.04143,
+   "27": 0.0384,
+   "28": 0.03959,
+   "29": 0.04159,
+   "30": 0.03893,
+   "31": 0.03624,
+   "32": 0.03043,
+   "33": 0.01963,
+   "34": 0.01459,
+   "35": 0.01393,
+   "36": 0.00652,
+   "37": 0.00207,
+   "38": 0.00255,
+   "39": 0.00154
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00174,
+  "-11": 0.0079,
+  "-10": 0.01836,
+  "-9": 0.03301,
+  "-8": 0.05071,
+  "-7": 0.07206,
+  "-6": 0.08363,
+  "-5": 0.08712,
+  "-4": 0.08383,
+  "-3": 0.06035,
+  "-2": 0.04022,
+  "-1": 0.03047,
+  "0": 0.02722,
+  "1": 0.02889,
+  "2": 0.03596,
+  "3": 0.04931,
+  "4": 0.06576,
+  "5": 0.0644,
+  "6": 0.0567,
+  "7": 0.045,
+  "8": 0.02828,
+  "9": 0.01707,
+  "10": 0.0083,
+  "11": 0.00315,
+  "12": 0.00056
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7637,
+   "under": 0.2364
+  },
+  {
+   "line": 18.5,
+   "over": 0.6797,
+   "under": 0.3203
+  },
+  {
+   "line": 19.5,
+   "over": 0.6019,
+   "under": 0.3981
+  },
+  {
+   "line": 20.5,
+   "over": 0.5347,
+   "under": 0.4653
+  },
+  {
+   "line": 21.5,
+   "over": 0.4848,
+   "under": 0.5152
+  },
+  {
+   "line": 22.5,
+   "over": 0.4252,
+   "under": 0.5748
+  },
+  {
+   "line": 23.5,
+   "over": 0.385,
+   "under": 0.615
+  },
+  {
+   "line": 24.5,
+   "over": 0.3639,
+   "under": 0.6361
+  },
+  {
+   "line": 25.5,
+   "over": 0.3274,
+   "under": 0.6726
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3745,
+   "B +1.5": 0.6255,
+   "B -1.5": 0.5389,
+   "A +1.5": 0.4611
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3385,
+   "B +2.5": 0.6615,
+   "B -2.5": 0.4987,
+   "A +2.5": 0.5013
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2892,
+   "B +3.5": 0.7108,
+   "B -3.5": 0.4384,
+   "A +3.5": 0.5616
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2235,
+   "B +4.5": 0.7765,
+   "B -4.5": 0.3545,
+   "A +4.5": 0.6455
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1591,
+   "B +5.5": 0.8409,
+   "B -5.5": 0.2674,
+   "A +5.5": 0.7326
+  }
+ ],
+ "p_tiebreak": 0.2626,
+ "p_a_wins_set": 0.6196,
+ "p_b_wins_set": 0.7519,
+ "p_decider": 0.3716,
+ "expected_breaks": {
+  "total": 7.8,
+  "by_A": 3.64,
+  "by_B": 4.16
+ },
+ "expected_break_points": {
+  "A_creates": 8.28,
+  "B_creates": 9.06
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3804
+ },
+ "match": "Isabella Shinikova vs Dune Vaissaud",
+ "players": {
+  "A": {
+   "id": "wta:202688",
+   "name": "Isabella Shinikova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 370.0,
+   "age": 34.94572210814511,
+   "elo": 1322.8,
+   "surface_elo": {
+    "Hard": 1297.8,
+    "Clay": 1461.4,
+    "Grass": 1434.3
+   },
+   "matches_total": 49,
+   "matches_surface": {
+    "Hard": 29,
+    "Clay": 19,
+    "Grass": 1
+   },
+   "last5": [
+    0,
+    5
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    6,
+    14
+   ],
+   "last52w": [
+    3,
+    7
+   ],
+   "last52w_surface": [
+    0,
+    4
+   ],
+   "career_surface_wl": [
+    8,
+    21
+   ],
+   "games_won_lost_52w": [
+    95,
+    116
+   ],
+   "sets_won_lost_52w": [
+    9,
+    14
+   ],
+   "avg_opp_elo_last20": 1511.0,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0305,
+   "return_rating": -0.0241,
+   "form_elo": -57.8,
+   "last_match": "2026-10-11",
+   "last_stats_match": "2025-08-04",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2019-02-06",
+     251.0
+    ],
+    [
+     "2019-04-29",
+     215.0
+    ],
+    [
+     "2019-07-15",
+     232.0
+    ],
+    [
+     "2019-12-16",
+     171.0
+    ],
+    [
+     "2020-02-05",
+     165.0
+    ],
+    [
+     "2021-07-12",
+     217.0
+    ],
+    [
+     "2022-04-11",
+     226.0
+    ],
+    [
+     "2022-09-19",
+     214.0
+    ],
+    [
+     "2023-01-02",
+     379.0
+    ],
+    [
+     "2023-04-10",
+     387.0
+    ],
+    [
+     "2025-06-23",
+     352.0
+    ],
+    [
+     "2025-08-04",
+     370.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn18649",
+   "name": "Dune Vaissaud",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1424.7,
+   "surface_elo": {
+    "Hard": 1434.3,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    1
+   ],
+   "last10": [
+    0,
+    1
+   ],
+   "last20": [
+    0,
+    1
+   ],
+   "last52w": [
+    0,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    8,
+    17
+   ],
+   "sets_won_lost_52w": [
+    1,
+    2
+   ],
+   "avg_opp_elo_last20": 1518.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -4.7,
+   "last_match": "2026-07-05",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-02",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Isabella Shinikova: sparse record (49 tour matches, 0 with serve stats in 52w)",
+  "Isabella Shinikova: latest point-level stats are 455 days old (2025-08-04)",
+  "Dune Vaissaud: sparse record (1 tour matches, 0 with serve stats in 52w)",
+  "Point-level dataset cutoff 2026-06-08 is 147 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -57.9,
+  "components_elo": {
+   "surface_elo": -136.6,
+   "overall_elo": -101.9,
+   "serve_return": -49.2,
+   "form": -53.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -16.7,
+   "overall_elo": -24.1,
+   "serve_return": -17.2,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4175,
+  "serve_return_implied_spw": {
+   "A": 0.5582,
+   "B": 0.5717
+  },
+  "point_probs": {
+   "A_serve": 0.5529,
+   "B_serve": 0.577
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5528570688186328,
+   "B_serve": 0.5770005773267234
+  },
+  "hold_probs": {
+   "A": 0.63,
+   "B": 0.6859
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4177,
+   0.419
+  ],
+  "p_tb": [
+   0.2626,
+   0.2632
+  ],
+  "p_decider": [
+   0.3716,
+   0.3715
+  ],
+  "games_mean": [
+   22.552,
+   22.55
+  ],
+  "exp_breaks": [
+   7.796,
+   7.799
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3804,
+    0.3799
+   ],
+   "1-2": [
+    0.202,
+    0.2011
+   ],
+   "2-0": [
+    0.2481,
+    0.2486
+   ],
+   "2-1": [
+    0.1696,
+    0.1704
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0013
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Dune Vaissaud",
+   "elo_points": -24.1,
+   "raw_diff": -101.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Dune Vaissaud",
+   "elo_points": -17.2,
+   "raw_diff": -49.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Dune Vaissaud",
+   "elo_points": -16.7,
+   "raw_diff": -136.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5529,
+   "B": 0.577,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Dune Vaissaud to win at least one set",
+  "probability": 0.7519,
+  "fair_odds": {
+   "decimal": 1.33,
+   "american": "-303"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Isabella Shinikova: sparse record (49 tour matches, 0 with serve stats in 52w); Isabella Shinikova: latest point-level stats are 455 days old (2025-08-04)",
+  "candidates": [
+   {
+    "selection": "Dune Vaissaud to win at least one set",
+    "probability": 0.7519,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7374,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6797,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Isabella Shinikova +4.5 games",
+    "probability": 0.6455,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6361,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6284,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Isabella Shinikova to win at least one set",
+    "probability": 0.6196,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Dune Vaissaud to win",
+    "probability": 0.5823,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5748,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5347,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Isabella Shinikova +2.5 games",
+    "probability": 0.5013,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Dune Vaissaud -2.5 games",
+    "probability": 0.4987,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4653,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4252,
+    "fair_decimal": 2.35
+   },
+   {
+    "selection": "Isabella Shinikova to win",
+    "probability": 0.4177,
+    "fair_decimal": 2.39
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-01T06:07:16+00:00",
+  "version": 1,
+  "input_hash": "9920c9521df13b09",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186675",
+  "scheduled_start_utc": "2026-11-02T05:00Z"
+ }
+}
