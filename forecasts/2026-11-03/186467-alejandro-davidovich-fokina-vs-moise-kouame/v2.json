@@ -1,0 +1,681 @@
+{
+ "predicted_winner": "Alejandro Davidovich Fokina",
+ "win_prob": {
+  "A": 0.8906,
+  "B": 0.1094
+ },
+ "win_prob_exact": {
+  "A": 0.89059,
+  "B": 0.10941000000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.12,
+   "american": "-814"
+  },
+  "B": {
+   "decimal": 9.14,
+   "american": "+814"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.7168,
+  "2-1": 0.1738,
+  "1-2": 0.0597,
+  "0-2": 0.0497
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0442,
+ "games": {
+  "mean": 21.45,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00348,
+   "13": 0.01542,
+   "14": 0.03383,
+   "15": 0.06124,
+   "16": 0.08093,
+   "17": 0.10206,
+   "18": 0.09572,
+   "19": 0.08952,
+   "20": 0.07958,
+   "21": 0.05222,
+   "22": 0.06897,
+   "23": 0.04916,
+   "24": 0.0086,
+   "25": 0.02395,
+   "26": 0.03369,
+   "27": 0.01682,
+   "28": 0.0218,
+   "29": 0.02222,
+   "30": 0.02355,
+   "31": 0.02553,
+   "32": 0.025,
+   "33": 0.01681,
+   "34": 0.01184,
+   "35": 0.01729,
+   "36": 0.01113,
+   "37": 0.00126,
+   "38": 0.00383,
+   "39": 0.00455
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 1e-05,
+  "-11": 4e-05,
+  "-10": 0.0002,
+  "-9": 0.00054,
+  "-8": 0.00126,
+  "-7": 0.0037,
+  "-6": 0.0068,
+  "-5": 0.01276,
+  "-4": 0.01973,
+  "-3": 0.02095,
+  "-2": 0.01865,
+  "-1": 0.01494,
+  "0": 0.01696,
+  "1": 0.0224,
+  "2": 0.04647,
+  "3": 0.08311,
+  "4": 0.1323,
+  "5": 0.13941,
+  "6": 0.13509,
+  "7": 0.12265,
+  "8": 0.08704,
+  "9": 0.06209,
+  "10": 0.03397,
+  "11": 0.01546,
+  "12": 0.00347
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.703,
+   "under": 0.297
+  },
+  {
+   "line": 18.5,
+   "over": 0.6073,
+   "under": 0.3927
+  },
+  {
+   "line": 19.5,
+   "over": 0.5178,
+   "under": 0.4822
+  },
+  {
+   "line": 20.5,
+   "over": 0.4382,
+   "under": 0.5618
+  },
+  {
+   "line": 21.5,
+   "over": 0.386,
+   "under": 0.614
+  },
+  {
+   "line": 22.5,
+   "over": 0.317,
+   "under": 0.683
+  },
+  {
+   "line": 23.5,
+   "over": 0.2679,
+   "under": 0.7321
+  },
+  {
+   "line": 24.5,
+   "over": 0.2593,
+   "under": 0.7407
+  },
+  {
+   "line": 25.5,
+   "over": 0.2353,
+   "under": 0.7647
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.8611,
+   "B +1.5": 0.1389,
+   "B -1.5": 0.0846,
+   "A +1.5": 0.9154
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.8146,
+   "B +2.5": 0.1854,
+   "B -2.5": 0.066,
+   "A +2.5": 0.934
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.7315,
+   "B +3.5": 0.2685,
+   "B -3.5": 0.045,
+   "A +3.5": 0.955
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.5992,
+   "B +4.5": 0.4008,
+   "B -4.5": 0.0253,
+   "A +4.5": 0.9747
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.4598,
+   "B +5.5": 0.5402,
+   "B -5.5": 0.0125,
+   "A +5.5": 0.9875
+  }
+ ],
+ "p_tiebreak": 0.3073,
+ "p_a_wins_set": 0.9503,
+ "p_b_wins_set": 0.2832,
+ "p_decider": 0.2335,
+ "expected_breaks": {
+  "total": 4.16,
+  "by_A": 3.19,
+  "by_B": 0.97
+ },
+ "expected_break_points": {
+  "A_creates": 7.41,
+  "B_creates": 3.17
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.7168
+ },
+ "match": "Alejandro Davidovich Fokina vs Moise Kouame",
+ "players": {
+  "A": {
+   "id": "atp:200221",
+   "name": "Alejandro Davidovich Fokina",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 23.0,
+   "age": 27.3435318275154,
+   "elo": 1965.0,
+   "surface_elo": {
+    "Hard": 1925.9,
+    "Clay": 1733.4,
+    "Grass": 1789.2
+   },
+   "matches_total": 336,
+   "matches_surface": {
+    "Hard": 204,
+    "Clay": 103,
+    "Grass": 29
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    17,
+    3
+   ],
+   "last52w": [
+    32,
+    14
+   ],
+   "last52w_surface": [
+    20,
+    8
+   ],
+   "career_surface_wl": [
+    112,
+    92
+   ],
+   "games_won_lost_52w": [
+    647,
+    561
+   ],
+   "sets_won_lost_52w": [
+    79,
+    41
+   ],
+   "avg_opp_elo_last20": 1802.7,
+   "vs_top_opp_52w": [
+    5,
+    5
+   ],
+   "serve_rating": 0.3381,
+   "return_rating": 0.25,
+   "form_elo": 168.2,
+   "last_match": "2026-10-18",
+   "last_stats_match": "2026-10-18",
+   "stats_52w": {
+    "first_in": 0.7046,
+    "first_won": 0.7171,
+    "second_won": 0.5732,
+    "serve_pts_won": 0.6746,
+    "hold": 0.866,
+    "aces_per_svgm": 0.3774,
+    "df_per_svgm": 0.1075,
+    "bp_saved": 0.6953,
+    "ret_pts_won": 0.3679,
+    "ret_1st_won": 0.2896,
+    "ret_2nd_won": 0.5108,
+    "ret_games_won": 0.2147,
+    "bp_conv": 0.4116,
+    "bp_chances_per_retgm": 0.5217,
+    "matches_with_stats": 41
+   },
+   "rank_history": [
+    [
+     "2025-07-27",
+     19.0
+    ],
+    [
+     "2025-08-25",
+     18.0
+    ],
+    [
+     "2025-09-25",
+     20.0
+    ],
+    [
+     "2025-10-20",
+     18.0
+    ],
+    [
+     "2025-10-27",
+     15.0
+    ],
+    [
+     "2026-01-04",
+     14.0
+    ],
+    [
+     "2026-01-12",
+     15.0
+    ],
+    [
+     "2026-01-19",
+     14.0
+    ],
+    [
+     "2026-03-04",
+     19.0
+    ],
+    [
+     "2026-03-18",
+     17.0
+    ],
+    [
+     "2026-04-22",
+     24.0
+    ],
+    [
+     "2026-05-06",
+     23.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:213608",
+   "name": "Moise Kouame",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 318.0,
+   "age": 17.6435318275154,
+   "elo": 1536.5,
+   "surface_elo": {
+    "Hard": 1473.6,
+    "Clay": 1536.4,
+    "Grass": 1500.0
+   },
+   "matches_total": 13,
+   "matches_surface": {
+    "Hard": 8,
+    "Clay": 5,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    4,
+    9
+   ],
+   "last52w": [
+    4,
+    9
+   ],
+   "last52w_surface": [
+    2,
+    6
+   ],
+   "career_surface_wl": [
+    2,
+    6
+   ],
+   "games_won_lost_52w": [
+    157,
+    192
+   ],
+   "sets_won_lost_52w": [
+    13,
+    22
+   ],
+   "avg_opp_elo_last20": 1714.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0883,
+   "return_rating": -0.0487,
+   "form_elo": -1.8,
+   "last_match": "2026-10-21",
+   "last_stats_match": "2026-10-21",
+   "stats_52w": {
+    "first_in": 0.592,
+    "first_won": 0.6802,
+    "second_won": 0.4771,
+    "serve_pts_won": 0.5973,
+    "hold": 0.7297,
+    "aces_per_svgm": 0.5225,
+    "df_per_svgm": 0.4865,
+    "bp_saved": 0.6429,
+    "ret_pts_won": 0.3232,
+    "ret_1st_won": 0.2473,
+    "ret_2nd_won": 0.4563,
+    "ret_games_won": 0.0965,
+    "bp_conv": 0.25,
+    "bp_chances_per_retgm": 0.386,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2026-02-02",
+     552.0
+    ],
+    [
+     "2026-03-18",
+     385.0
+    ],
+    [
+     "2026-04-05",
+     334.0
+    ],
+    [
+     "2026-05-25",
+     318.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Moise Kouame: limited recent/surface sample (13 matches 52w, 8 career on Hard, 10 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 365.6,
+  "components_elo": {
+   "surface_elo": 452.2,
+   "overall_elo": 428.6,
+   "serve_return": 600.0,
+   "form": 170.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 55.3,
+   "overall_elo": 101.3,
+   "serve_return": 209.3,
+   "form": -0.3
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.8913,
+  "serve_return_implied_spw": {
+   "A": 0.7312,
+   "B": 0.5685
+  },
+  "point_probs": {
+   "A_serve": 0.7225,
+   "B_serve": 0.5792
+  },
+  "point_probs_exact": {
+   "A_serve": 0.7225322813052393,
+   "B_serve": 0.5791526859916002
+  },
+  "hold_probs": {
+   "A": 0.9253,
+   "B": 0.6907
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.8906,
+   0.8914
+  ],
+  "p_tb": [
+   0.3073,
+   0.3068
+  ],
+  "p_decider": [
+   0.2335,
+   0.2325
+  ],
+  "games_mean": [
+   21.445,
+   21.427
+  ],
+  "exp_breaks": [
+   4.163,
+   4.161
+  ],
+  "set_scores": {
+   "0-2": [
+    0.0497,
+    0.0496
+   ],
+   "1-2": [
+    0.0597,
+    0.059
+   ],
+   "2-0": [
+    0.7168,
+    0.7179
+   ],
+   "2-1": [
+    0.1738,
+    0.1735
+   ]
+  },
+  "mc_se_p_a": 0.001,
+  "max_abs_diff_probs": 0.0011
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alejandro Davidovich Fokina",
+   "elo_points": 209.3,
+   "raw_diff": 600.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alejandro Davidovich Fokina",
+   "elo_points": 101.3,
+   "raw_diff": 428.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alejandro Davidovich Fokina",
+   "elo_points": 55.3,
+   "raw_diff": 452.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5732,
+   "B": 0.4771,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3679,
+   "B": 0.3232,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.7225,
+   "B": 0.5792,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alejandro Davidovich Fokina to win",
+  "probability": 0.8906,
+  "fair_odds": {
+   "decimal": 1.12,
+   "american": "-814"
+  },
+  "confidence": "Medium",
+  "main_risk": "Upset through serve-dominant variance: P(at least one tiebreak) = 31%; underdog wins 11% of simulations. Data quality MEDIUM: Moise Kouame: limited recent/surface sample (13 matches 52w, 8 career on Hard, 10 with stats)",
+  "candidates": [
+   {
+    "selection": "Alejandro Davidovich Fokina to win at least one set",
+    "probability": 0.9503,
+    "fair_decimal": 1.05
+   },
+   {
+    "selection": "Alejandro Davidovich Fokina to win",
+    "probability": 0.8906,
+    "fair_decimal": 1.12
+   },
+   {
+    "selection": "Alejandro Davidovich Fokina -2.5 games",
+    "probability": 0.8146,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7665,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7407,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Exact sets Alejandro Davidovich Fokina 2-0 Moise Kouame",
+    "probability": 0.7168,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6927,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.683,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6073,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Alejandro Davidovich Fokina -4.5 games",
+    "probability": 0.5992,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5618,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4382,
+    "fair_decimal": 2.28
+   },
+   {
+    "selection": "Moise Kouame +4.5 games",
+    "probability": 0.4008,
+    "fair_decimal": 2.5
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.3927,
+    "fair_decimal": 2.55
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.317,
+    "fair_decimal": 3.15
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:53:35+00:00",
+  "version": 2,
+  "input_hash": "f999b6df983c2bfd",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186467",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

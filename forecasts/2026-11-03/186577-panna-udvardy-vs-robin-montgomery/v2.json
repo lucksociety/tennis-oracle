@@ -1,0 +1,713 @@
+{
+ "predicted_winner": "Robin Montgomery",
+ "win_prob": {
+  "A": 0.388,
+  "B": 0.612
+ },
+ "win_prob_exact": {
+  "A": 0.38803,
+  "B": 0.61197
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.58,
+   "american": "+158"
+  },
+  "B": {
+   "decimal": 1.63,
+   "american": "-158"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4018,
+  "2-0": 0.2223,
+  "1-2": 0.2102,
+  "2-1": 0.1657
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0252,
+ "games": {
+  "mean": 23.24,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.05,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00125,
+   "13": 0.00682,
+   "14": 0.01628,
+   "15": 0.03472,
+   "16": 0.05307,
+   "17": 0.07621,
+   "18": 0.07956,
+   "19": 0.08113,
+   "20": 0.07268,
+   "21": 0.05154,
+   "22": 0.07153,
+   "23": 0.05014,
+   "24": 0.01601,
+   "25": 0.03437,
+   "26": 0.04279,
+   "27": 0.033,
+   "28": 0.03872,
+   "29": 0.03965,
+   "30": 0.03916,
+   "31": 0.04058,
+   "32": 0.03705,
+   "33": 0.02396,
+   "34": 0.0171,
+   "35": 0.0209,
+   "36": 0.01251,
+   "37": 0.00214,
+   "38": 0.00387,
+   "39": 0.00326
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00097,
+  "-11": 0.00531,
+  "-10": 0.01265,
+  "-9": 0.02697,
+  "-8": 0.04324,
+  "-7": 0.06855,
+  "-6": 0.0846,
+  "-5": 0.09689,
+  "-4": 0.10078,
+  "-3": 0.07417,
+  "-2": 0.05013,
+  "-1": 0.03331,
+  "0": 0.02979,
+  "1": 0.03021,
+  "2": 0.04186,
+  "3": 0.05531,
+  "4": 0.0686,
+  "5": 0.06214,
+  "6": 0.04634,
+  "7": 0.03417,
+  "8": 0.01815,
+  "9": 0.00982,
+  "10": 0.00419,
+  "11": 0.00157,
+  "12": 0.00028
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8117,
+   "under": 0.1883
+  },
+  {
+   "line": 18.5,
+   "over": 0.7321,
+   "under": 0.2679
+  },
+  {
+   "line": 19.5,
+   "over": 0.651,
+   "under": 0.349
+  },
+  {
+   "line": 20.5,
+   "over": 0.5783,
+   "under": 0.4217
+  },
+  {
+   "line": 21.5,
+   "over": 0.5267,
+   "under": 0.4733
+  },
+  {
+   "line": 22.5,
+   "over": 0.4552,
+   "under": 0.5448
+  },
+  {
+   "line": 23.5,
+   "over": 0.4051,
+   "under": 0.5949
+  },
+  {
+   "line": 24.5,
+   "over": 0.3891,
+   "under": 0.6109
+  },
+  {
+   "line": 25.5,
+   "over": 0.3547,
+   "under": 0.6453
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3424,
+   "B +1.5": 0.6576,
+   "B -1.5": 0.5643,
+   "A +1.5": 0.4357
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3006,
+   "B +2.5": 0.6994,
+   "B -2.5": 0.5141,
+   "A +2.5": 0.4859
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2453,
+   "B +3.5": 0.7547,
+   "B -3.5": 0.44,
+   "A +3.5": 0.56
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1767,
+   "B +4.5": 0.8233,
+   "B -4.5": 0.3392,
+   "A +4.5": 0.6608
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1145,
+   "B +5.5": 0.8855,
+   "B -5.5": 0.2423,
+   "A +5.5": 0.7577
+  }
+ ],
+ "p_tiebreak": 0.3361,
+ "p_a_wins_set": 0.5982,
+ "p_b_wins_set": 0.7777,
+ "p_decider": 0.3759,
+ "expected_breaks": {
+  "total": 5.79,
+  "by_A": 2.58,
+  "by_B": 3.21
+ },
+ "expected_break_points": {
+  "A_creates": 6.57,
+  "B_creates": 7.65
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4018
+ },
+ "match": "Panna Udvardy vs Robin Montgomery",
+ "players": {
+  "A": {
+   "id": "wta:215910",
+   "name": "Panna Udvardy",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 59.0,
+   "age": 28.0435318275154,
+   "elo": 1582.9,
+   "surface_elo": {
+    "Hard": 1463.4,
+    "Clay": 1680.0,
+    "Grass": 1293.6
+   },
+   "matches_total": 83,
+   "matches_surface": {
+    "Hard": 29,
+    "Clay": 45,
+    "Grass": 9
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    6,
+    14
+   ],
+   "last52w": [
+    16,
+    23
+   ],
+   "last52w_surface": [
+    4,
+    11
+   ],
+   "career_surface_wl": [
+    8,
+    21
+   ],
+   "games_won_lost_52w": [
+    389,
+    455
+   ],
+   "sets_won_lost_52w": [
+    39,
+    54
+   ],
+   "avg_opp_elo_last20": 1726.5,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.1263,
+   "return_rating": -0.0839,
+   "form_elo": -47.7,
+   "last_match": "2026-10-26",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.5755,
+    "first_won": 0.6411,
+    "second_won": 0.473,
+    "serve_pts_won": 0.5697,
+    "hold": 0.6483,
+    "aces_per_svgm": 0.2384,
+    "df_per_svgm": 0.2733,
+    "bp_saved": 0.5292,
+    "ret_pts_won": 0.417,
+    "ret_1st_won": 0.3576,
+    "ret_2nd_won": 0.5186,
+    "ret_games_won": 0.309,
+    "bp_conv": 0.4753,
+    "bp_chances_per_retgm": 0.6501,
+    "matches_with_stats": 32
+   },
+   "rank_history": [
+    [
+     "2025-04-22",
+     136.0
+    ],
+    [
+     "2025-07-14",
+     150.0
+    ],
+    [
+     "2025-09-08",
+     118.0
+    ],
+    [
+     "2026-01-05",
+     87.0
+    ],
+    [
+     "2026-01-19",
+     90.0
+    ],
+    [
+     "2026-02-01",
+     98.0
+    ],
+    [
+     "2026-03-30",
+     92.0
+    ],
+    [
+     "2026-04-06",
+     71.0
+    ],
+    [
+     "2026-04-21",
+     78.0
+    ],
+    [
+     "2026-05-05",
+     71.0
+    ],
+    [
+     "2026-05-18",
+     68.0
+    ],
+    [
+     "2026-05-25",
+     59.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221905",
+   "name": "Robin Montgomery",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 339.0,
+   "age": 22.136618754277894,
+   "elo": 1681.0,
+   "surface_elo": {
+    "Hard": 1577.9,
+    "Clay": 1503.7,
+    "Grass": 1738.9
+   },
+   "matches_total": 56,
+   "matches_surface": {
+    "Hard": 32,
+    "Clay": 12,
+    "Grass": 12
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    12,
+    8
+   ],
+   "last52w_surface": [
+    6,
+    5
+   ],
+   "career_surface_wl": [
+    12,
+    20
+   ],
+   "games_won_lost_52w": [
+    226,
+    193
+   ],
+   "sets_won_lost_52w": [
+    26,
+    19
+   ],
+   "avg_opp_elo_last20": 1634.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1699,
+   "return_rating": 0.01,
+   "form_elo": -23.9,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6044,
+    "first_won": 0.6851,
+    "second_won": 0.4315,
+    "serve_pts_won": 0.5848,
+    "hold": 0.6504,
+    "aces_per_svgm": 0.4309,
+    "df_per_svgm": 0.4472,
+    "bp_saved": 0.5981,
+    "ret_pts_won": 0.4166,
+    "ret_1st_won": 0.3562,
+    "ret_2nd_won": 0.5229,
+    "ret_games_won": 0.3826,
+    "bp_conv": 0.4783,
+    "bp_chances_per_retgm": 0.8,
+    "matches_with_stats": 13
+   },
+   "rank_history": [
+    [
+     "2024-07-01",
+     161.0
+    ],
+    [
+     "2024-07-29",
+     131.0
+    ],
+    [
+     "2024-08-12",
+     109.0
+    ],
+    [
+     "2024-10-28",
+     107.0
+    ],
+    [
+     "2024-11-25",
+     105.0
+    ],
+    [
+     "2024-12-30",
+     117.0
+    ],
+    [
+     "2025-03-05",
+     107.0
+    ],
+    [
+     "2025-03-31",
+     105.0
+    ],
+    [
+     "2025-04-22",
+     100.0
+    ],
+    [
+     "2025-05-26",
+     115.0
+    ],
+    [
+     "2026-03-30",
+     368.0
+    ],
+    [
+     "2026-04-21",
+     339.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Robin Montgomery: limited recent/surface sample (20 matches 52w, 32 career on Hard, 13 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -77.8,
+  "components_elo": {
+   "surface_elo": -114.5,
+   "overall_elo": -98.1,
+   "serve_return": -116.7,
+   "form": -23.8
+  },
+  "weighted_contributions": {
+   "surface_elo": -14.0,
+   "overall_elo": -23.2,
+   "serve_return": -40.7,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3898,
+  "serve_return_implied_spw": {
+   "A": 0.5955,
+   "B": 0.6281
+  },
+  "point_probs": {
+   "A_serve": 0.5956,
+   "B_serve": 0.628
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5955661291214793,
+   "B_serve": 0.6280124635531474
+  },
+  "hold_probs": {
+   "A": 0.7264,
+   "B": 0.791
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.388,
+   0.3912
+  ],
+  "p_tb": [
+   0.3361,
+   0.336
+  ],
+  "p_decider": [
+   0.3759,
+   0.3764
+  ],
+  "games_mean": [
+   23.24,
+   23.24
+  ],
+  "exp_breaks": [
+   5.787,
+   5.786
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4018,
+    0.3991
+   ],
+   "1-2": [
+    0.2102,
+    0.2097
+   ],
+   "2-0": [
+    0.2223,
+    0.2245
+   ],
+   "2-1": [
+    0.1657,
+    0.1667
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0032
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Robin Montgomery",
+   "elo_points": -40.7,
+   "raw_diff": -116.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Robin Montgomery",
+   "elo_points": -23.2,
+   "raw_diff": -98.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Robin Montgomery",
+   "elo_points": -14.0,
+   "raw_diff": -114.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.473,
+   "B": 0.4315,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.417,
+   "B": 0.4166,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5956,
+   "B": 0.628,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Robin Montgomery to win at least one set",
+  "probability": 0.7777,
+  "fair_odds": {
+   "decimal": 1.29,
+   "american": "-350"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Robin Montgomery: limited recent/surface sample (20 matches 52w, 32 career on Hard, 13 with stats)",
+  "candidates": [
+   {
+    "selection": "Robin Montgomery to win at least one set",
+    "probability": 0.7777,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7321,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6639,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Panna Udvardy +4.5 games",
+    "probability": 0.6608,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6241,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Robin Montgomery to win",
+    "probability": 0.612,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6109,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Panna Udvardy to win at least one set",
+    "probability": 0.5982,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5783,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5448,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Robin Montgomery -2.5 games",
+    "probability": 0.5141,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Panna Udvardy +2.5 games",
+    "probability": 0.4859,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4552,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4217,
+    "fair_decimal": 2.37
+   },
+   {
+    "selection": "Exact sets Panna Udvardy 0-2 Robin Montgomery",
+    "probability": 0.4018,
+    "fair_decimal": 2.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:54:06+00:00",
+  "version": 2,
+  "input_hash": "672c14cc7e1582f9",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186577",
+  "scheduled_start_utc": "2026-11-03T05:30Z"
+ }
+}

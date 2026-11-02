@@ -1,0 +1,606 @@
+{
+ "predicted_winner": "Tiphanie Lemaitre",
+ "win_prob": {
+  "A": 0.5125,
+  "B": 0.4875
+ },
+ "win_prob_exact": {
+  "A": 0.51251,
+  "B": 0.48749
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.95,
+   "american": "-105"
+  },
+  "B": {
+   "decimal": 2.05,
+   "american": "+105"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3219,
+  "0-2": 0.3012,
+  "2-1": 0.1906,
+  "1-2": 0.1863
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0182,
+ "games": {
+  "mean": 22.71,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00219,
+   "13": 0.00923,
+   "14": 0.02283,
+   "15": 0.04447,
+   "16": 0.06477,
+   "17": 0.08108,
+   "18": 0.08184,
+   "19": 0.07981,
+   "20": 0.06896,
+   "21": 0.04948,
+   "22": 0.06104,
+   "23": 0.04145,
+   "24": 0.02033,
+   "25": 0.03818,
+   "26": 0.04191,
+   "27": 0.03749,
+   "28": 0.03991,
+   "29": 0.04154,
+   "30": 0.03966,
+   "31": 0.03715,
+   "32": 0.03316,
+   "33": 0.02017,
+   "34": 0.01526,
+   "35": 0.01534,
+   "36": 0.00699,
+   "37": 0.00195,
+   "38": 0.00273,
+   "39": 0.00108
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00103,
+  "-11": 0.00416,
+  "-10": 0.01131,
+  "-9": 0.02234,
+  "-8": 0.03669,
+  "-7": 0.05496,
+  "-6": 0.06742,
+  "-5": 0.07518,
+  "-4": 0.07495,
+  "-3": 0.05666,
+  "-2": 0.03925,
+  "-1": 0.02975,
+  "0": 0.02889,
+  "1": 0.02948,
+  "2": 0.03917,
+  "3": 0.05827,
+  "4": 0.07783,
+  "5": 0.07846,
+  "6": 0.07215,
+  "7": 0.05908,
+  "8": 0.03962,
+  "9": 0.02495,
+  "10": 0.01211,
+  "11": 0.00513,
+  "12": 0.00116
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7754,
+   "under": 0.2246
+  },
+  {
+   "line": 18.5,
+   "over": 0.6936,
+   "under": 0.3064
+  },
+  {
+   "line": 19.5,
+   "over": 0.6138,
+   "under": 0.3862
+  },
+  {
+   "line": 20.5,
+   "over": 0.5448,
+   "under": 0.4552
+  },
+  {
+   "line": 21.5,
+   "over": 0.4953,
+   "under": 0.5047
+  },
+  {
+   "line": 22.5,
+   "over": 0.4343,
+   "under": 0.5657
+  },
+  {
+   "line": 23.5,
+   "over": 0.3928,
+   "under": 0.6071
+  },
+  {
+   "line": 24.5,
+   "over": 0.3725,
+   "under": 0.6275
+  },
+  {
+   "line": 25.5,
+   "over": 0.3343,
+   "under": 0.6657
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4679,
+   "B +1.5": 0.5321,
+   "B -1.5": 0.444,
+   "A +1.5": 0.556
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4288,
+   "B +2.5": 0.5712,
+   "B -2.5": 0.4047,
+   "A +2.5": 0.5953
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3705,
+   "B +3.5": 0.6295,
+   "B -3.5": 0.348,
+   "A +3.5": 0.652
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2927,
+   "B +4.5": 0.7073,
+   "B -4.5": 0.2731,
+   "A +4.5": 0.7269
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2142,
+   "B +5.5": 0.7858,
+   "B -5.5": 0.1979,
+   "A +5.5": 0.8021
+  }
+ ],
+ "p_tiebreak": 0.2747,
+ "p_a_wins_set": 0.6988,
+ "p_b_wins_set": 0.6781,
+ "p_decider": 0.3769,
+ "expected_breaks": {
+  "total": 7.55,
+  "by_A": 3.81,
+  "by_B": 3.74
+ },
+ "expected_break_points": {
+  "A_creates": 8.54,
+  "B_creates": 8.44
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3219
+ },
+ "match": "Tiphanie Lemaitre vs Lamis Alhussein Abdel Aziz",
+ "players": {
+  "A": {
+   "id": "wta:espn13746",
+   "name": "Tiphanie Lemaitre",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1457.6,
+   "surface_elo": {
+    "Hard": 1460.7,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    1
+   ],
+   "last10": [
+    0,
+    1
+   ],
+   "last20": [
+    0,
+    1
+   ],
+   "last52w": [
+    0,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    5,
+    12
+   ],
+   "sets_won_lost_52w": [
+    0,
+    2
+   ],
+   "avg_opp_elo_last20": 1639.3,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0131,
+   "return_rating": -0.0466,
+   "form_elo": -2.7,
+   "last_match": "2026-09-28",
+   "last_stats_match": "2026-09-28",
+   "stats_52w": {
+    "first_in": 0.5333,
+    "first_won": 0.625,
+    "second_won": 0.3333,
+    "serve_pts_won": 0.4889,
+    "hold": 0.5,
+    "aces_per_svgm": 0.25,
+    "df_per_svgm": 0.375,
+    "bp_saved": 0.3333,
+    "ret_pts_won": 0.339,
+    "ret_1st_won": 0.1818,
+    "ret_2nd_won": 0.5385,
+    "ret_games_won": 0.1111,
+    "bp_conv": 0.25,
+    "bp_chances_per_retgm": 0.4444,
+    "matches_with_stats": 1
+   },
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:213974",
+   "name": "Lamis Alhussein Abdel Aziz",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 940.0,
+   "age": 28.453730321697467,
+   "elo": 1317.3,
+   "surface_elo": {
+    "Hard": 1500.0,
+    "Clay": 1319.9,
+    "Grass": 1500.0
+   },
+   "matches_total": 7,
+   "matches_surface": {
+    "Hard": 0,
+    "Clay": 7,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    1,
+    6
+   ],
+   "last20": [
+    1,
+    6
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    0
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1495.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0,
+   "return_rating": -0.0,
+   "form_elo": -29.1,
+   "last_match": "2023-04-15",
+   "last_stats_match": "2018-04-21",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2016-04-14",
+     1114.0
+    ],
+    [
+     "2018-04-18",
+     914.0
+    ],
+    [
+     "2023-04-11",
+     940.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Tiphanie Lemaitre: sparse record (1 tour matches, 1 with serve stats in 52w)",
+  "Lamis Alhussein Abdel Aziz: sparse record (7 tour matches, 0 with serve stats in 52w)",
+  "Lamis Alhussein Abdel Aziz: latest point-level stats are 3118 days old (2018-04-21)",
+  "Lamis Alhussein Abdel Aziz: no recorded match since 2023-04-15 (layoff/injury status unverified)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Lamis Alhussein Abdel Aziz: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 9.6,
+  "components_elo": {
+   "surface_elo": -39.3,
+   "overall_elo": 140.3,
+   "serve_return": -53.5,
+   "form": 26.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -4.8,
+   "overall_elo": 33.1,
+   "serve_return": -18.7,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5139,
+  "serve_return_implied_spw": {
+   "A": 0.5639,
+   "B": 0.5786
+  },
+  "point_probs": {
+   "A_serve": 0.5733,
+   "B_serve": 0.5693
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5732639790639004,
+   "B_serve": 0.5692753632590077
+  },
+  "hold_probs": {
+   "A": 0.6774,
+   "B": 0.6683
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5125,
+   0.5135
+  ],
+  "p_tb": [
+   0.2747,
+   0.2743
+  ],
+  "p_decider": [
+   0.3769,
+   0.3781
+  ],
+  "games_mean": [
+   22.712,
+   22.727
+  ],
+  "exp_breaks": [
+   7.548,
+   7.539
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3012,
+    0.3
+   ],
+   "1-2": [
+    0.1863,
+    0.1865
+   ],
+   "2-0": [
+    0.3219,
+    0.3218
+   ],
+   "2-1": [
+    0.1906,
+    0.1917
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0012
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tiphanie Lemaitre",
+   "elo_points": 33.1,
+   "raw_diff": 140.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lamis Alhussein Abdel Aziz",
+   "elo_points": -18.7,
+   "raw_diff": -53.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lamis Alhussein Abdel Aziz",
+   "elo_points": -4.8,
+   "raw_diff": -39.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5733,
+   "B": 0.5693,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7253,
+  "fair_odds": {
+   "decimal": 1.38,
+   "american": "-264"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Tiphanie Lemaitre: sparse record (1 tour matches, 1 with serve stats in 52w); Lamis Alhussein Abdel Aziz: sparse record (7 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7253,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Lamis Alhussein Abdel Aziz +4.5 games",
+    "probability": 0.7073,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Tiphanie Lemaitre to win at least one set",
+    "probability": 0.6988,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6936,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Lamis Alhussein Abdel Aziz to win at least one set",
+    "probability": 0.6781,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6275,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6231,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Lamis Alhussein Abdel Aziz +2.5 games",
+    "probability": 0.5712,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5657,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5448,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Tiphanie Lemaitre to win",
+    "probability": 0.5125,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Lamis Alhussein Abdel Aziz to win",
+    "probability": 0.4875,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4552,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4343,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Tiphanie Lemaitre -2.5 games",
+    "probability": 0.4288,
+    "fair_decimal": 2.33
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:54:44+00:00",
+  "version": 2,
+  "input_hash": "df41a5fcbfb4ff9f",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186666",
+  "scheduled_start_utc": "2026-11-03T09:00Z"
+ }
+}

@@ -1,0 +1,638 @@
+{
+ "predicted_winner": "Zhibek Kulambayeva",
+ "win_prob": {
+  "A": 0.4617,
+  "B": 0.5383
+ },
+ "win_prob_exact": {
+  "A": 0.46172,
+  "B": 0.53828
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.17,
+   "american": "+117"
+  },
+  "B": {
+   "decimal": 1.86,
+   "american": "-117"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3442,
+  "2-0": 0.2853,
+  "1-2": 0.1941,
+  "2-1": 0.1764
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.017,
+ "games": {
+  "mean": 22.33,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.89,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.003,
+   "13": 0.01229,
+   "14": 0.02875,
+   "15": 0.05083,
+   "16": 0.0728,
+   "17": 0.08374,
+   "18": 0.0858,
+   "19": 0.07774,
+   "20": 0.06463,
+   "21": 0.04882,
+   "22": 0.05568,
+   "23": 0.03697,
+   "24": 0.02316,
+   "25": 0.03766,
+   "26": 0.04062,
+   "27": 0.03893,
+   "28": 0.0417,
+   "29": 0.04158,
+   "30": 0.03847,
+   "31": 0.03431,
+   "32": 0.02936,
+   "33": 0.0177,
+   "34": 0.01351,
+   "35": 0.01221,
+   "36": 0.00504,
+   "37": 0.00182,
+   "38": 0.00196,
+   "39": 0.00092
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00202,
+  "-11": 0.00744,
+  "-10": 0.01744,
+  "-9": 0.03067,
+  "-8": 0.04822,
+  "-7": 0.06682,
+  "-6": 0.07833,
+  "-5": 0.08002,
+  "-4": 0.07529,
+  "-3": 0.0531,
+  "-2": 0.03689,
+  "-1": 0.02846,
+  "0": 0.02636,
+  "1": 0.0284,
+  "2": 0.03505,
+  "3": 0.04871,
+  "4": 0.06759,
+  "5": 0.06958,
+  "6": 0.06631,
+  "7": 0.05393,
+  "8": 0.03796,
+  "9": 0.0234,
+  "10": 0.01204,
+  "11": 0.00499,
+  "12": 0.00098
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7486,
+   "under": 0.2514
+  },
+  {
+   "line": 18.5,
+   "over": 0.6628,
+   "under": 0.3372
+  },
+  {
+   "line": 19.5,
+   "over": 0.5851,
+   "under": 0.415
+  },
+  {
+   "line": 20.5,
+   "over": 0.5204,
+   "under": 0.4796
+  },
+  {
+   "line": 21.5,
+   "over": 0.4716,
+   "under": 0.5284
+  },
+  {
+   "line": 22.5,
+   "over": 0.4159,
+   "under": 0.5841
+  },
+  {
+   "line": 23.5,
+   "over": 0.379,
+   "under": 0.6211
+  },
+  {
+   "line": 24.5,
+   "over": 0.3558,
+   "under": 0.6442
+  },
+  {
+   "line": 25.5,
+   "over": 0.3181,
+   "under": 0.6819
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4205,
+   "B +1.5": 0.5795,
+   "B -1.5": 0.4962,
+   "A +1.5": 0.5038
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3855,
+   "B +2.5": 0.6145,
+   "B -2.5": 0.4593,
+   "A +2.5": 0.5407
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3368,
+   "B +3.5": 0.6632,
+   "B -3.5": 0.4062,
+   "A +3.5": 0.5938
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2692,
+   "B +4.5": 0.7308,
+   "B -4.5": 0.331,
+   "A +4.5": 0.669
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1996,
+   "B +5.5": 0.8004,
+   "B -5.5": 0.2509,
+   "A +5.5": 0.7491
+  }
+ ],
+ "p_tiebreak": 0.2374,
+ "p_a_wins_set": 0.6558,
+ "p_b_wins_set": 0.7147,
+ "p_decider": 0.3705,
+ "expected_breaks": {
+  "total": 9.22,
+  "by_A": 4.49,
+  "by_B": 4.73
+ },
+ "expected_break_points": {
+  "A_creates": 9.47,
+  "B_creates": 9.82
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3442
+ },
+ "match": "Mei Yamaguchi vs Zhibek Kulambayeva",
+ "players": {
+  "A": {
+   "id": "wta:215614",
+   "name": "Mei Yamaguchi",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 279.0,
+   "age": 27.318480492813144,
+   "elo": 1366.9,
+   "surface_elo": {
+    "Hard": 1366.8,
+    "Clay": 1500.0,
+    "Grass": 1434.7
+   },
+   "matches_total": 14,
+   "matches_surface": {
+    "Hard": 13,
+    "Clay": 0,
+    "Grass": 1
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    3,
+    11
+   ],
+   "last52w": [
+    3,
+    8
+   ],
+   "last52w_surface": [
+    3,
+    7
+   ],
+   "career_surface_wl": [
+    3,
+    10
+   ],
+   "games_won_lost_52w": [
+    95,
+    124
+   ],
+   "sets_won_lost_52w": [
+    8,
+    17
+   ],
+   "avg_opp_elo_last20": 1552.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.1001,
+   "return_rating": 0.0198,
+   "form_elo": -11.6,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.6667,
+    "first_won": 0.5805,
+    "second_won": 0.3621,
+    "serve_pts_won": 0.5077,
+    "hold": 0.5,
+    "aces_per_svgm": 0.1,
+    "df_per_svgm": 0.2,
+    "bp_saved": 0.3939,
+    "ret_pts_won": 0.4646,
+    "ret_1st_won": 0.372,
+    "ret_2nd_won": 0.5826,
+    "ret_games_won": 0.4286,
+    "bp_conv": 0.5156,
+    "bp_chances_per_retgm": 0.8312,
+    "matches_with_stats": 8
+   },
+   "rank_history": [
+    [
+     "2024-10-21",
+     410.0
+    ],
+    [
+     "2024-10-28",
+     362.0
+    ],
+    [
+     "2025-10-27",
+     279.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:214992",
+   "name": "Zhibek Kulambayeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 464.0,
+   "age": 26.53572895277207,
+   "elo": 1481.0,
+   "surface_elo": {
+    "Hard": 1457.2,
+    "Clay": 1507.6,
+    "Grass": 1500.0
+   },
+   "matches_total": 11,
+   "matches_surface": {
+    "Hard": 7,
+    "Clay": 4,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    4,
+    7
+   ],
+   "last52w": [
+    4,
+    4
+   ],
+   "last52w_surface": [
+    2,
+    2
+   ],
+   "career_surface_wl": [
+    2,
+    5
+   ],
+   "games_won_lost_52w": [
+    87,
+    92
+   ],
+   "sets_won_lost_52w": [
+    10,
+    9
+   ],
+   "avg_opp_elo_last20": 1551.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.128,
+   "return_rating": 0.0108,
+   "form_elo": 10.8,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.7579,
+    "first_won": 0.5351,
+    "second_won": 0.4553,
+    "serve_pts_won": 0.5157,
+    "hold": 0.5333,
+    "aces_per_svgm": 0.0,
+    "df_per_svgm": 0.2933,
+    "bp_saved": 0.4167,
+    "ret_pts_won": 0.4831,
+    "ret_1st_won": 0.429,
+    "ret_2nd_won": 0.5753,
+    "ret_games_won": 0.4533,
+    "bp_conv": 0.5574,
+    "bp_chances_per_retgm": 0.8133,
+    "matches_with_stats": 7
+   },
+   "rank_history": [
+    [
+     "2021-09-27",
+     524.0
+    ],
+    [
+     "2023-01-02",
+     464.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Mei Yamaguchi: limited recent/surface sample (11 matches 52w, 13 career on Hard, 8 with stats)",
+  "Zhibek Kulambayeva: limited recent/surface sample (8 matches 52w, 7 career on Hard, 7 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -26.1,
+  "components_elo": {
+   "surface_elo": -90.4,
+   "overall_elo": -114.2,
+   "serve_return": 34.0,
+   "form": -22.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -11.0,
+   "overall_elo": -27.0,
+   "serve_return": 11.9,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4625,
+  "serve_return_implied_spw": {
+   "A": 0.5398,
+   "B": 0.5306
+  },
+  "point_probs": {
+   "A_serve": 0.5297,
+   "B_serve": 0.5406
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5297182059073999,
+   "B_serve": 0.5406202878218085
+  },
+  "hold_probs": {
+   "A": 0.5739,
+   "B": 0.6006
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4617,
+   0.4633
+  ],
+  "p_tb": [
+   0.2374,
+   0.2397
+  ],
+  "p_decider": [
+   0.3705,
+   0.3725
+  ],
+  "games_mean": [
+   22.329,
+   22.351
+  ],
+  "exp_breaks": [
+   9.222,
+   9.224
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3442,
+    0.3436
+   ],
+   "1-2": [
+    0.1941,
+    0.1931
+   ],
+   "2-0": [
+    0.2853,
+    0.284
+   ],
+   "2-1": [
+    0.1764,
+    0.1793
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Zhibek Kulambayeva",
+   "elo_points": -27.0,
+   "raw_diff": -114.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Mei Yamaguchi",
+   "elo_points": 11.9,
+   "raw_diff": 34.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Zhibek Kulambayeva",
+   "elo_points": -11.0,
+   "raw_diff": -90.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3621,
+   "B": 0.4553,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4646,
+   "B": 0.4831,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5297,
+   "B": 0.5406,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7626,
+  "fair_odds": {
+   "decimal": 1.31,
+   "american": "-321"
+  },
+  "confidence": "Medium",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality MEDIUM: Mei Yamaguchi: limited recent/surface sample (11 matches 52w, 13 career on Hard, 8 with stats); Zhibek Kulambayeva: limited recent/surface sample (8 matches 52w, 7 career on Hard, 7 with stats)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7626,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Zhibek Kulambayeva to win at least one set",
+    "probability": 0.7147,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Mei Yamaguchi +4.5 games",
+    "probability": 0.669,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6628,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Mei Yamaguchi to win at least one set",
+    "probability": 0.6558,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6442,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6295,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5841,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Mei Yamaguchi +2.5 games",
+    "probability": 0.5407,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Zhibek Kulambayeva to win",
+    "probability": 0.5383,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5204,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4796,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Mei Yamaguchi to win",
+    "probability": 0.4617,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Zhibek Kulambayeva -2.5 games",
+    "probability": 0.4593,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4159,
+    "fair_decimal": 2.4
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:55:04+00:00",
+  "version": 1,
+  "input_hash": "68e9fe3ea0e15590",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186568",
+  "scheduled_start_utc": "2026-11-03T11:30Z"
+ }
+}

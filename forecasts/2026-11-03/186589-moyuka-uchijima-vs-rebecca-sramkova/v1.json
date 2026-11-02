@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Rebecca Sramkova",
+ "win_prob": {
+  "A": 0.3065,
+  "B": 0.6935
+ },
+ "win_prob_exact": {
+  "A": 0.30648,
+  "B": 0.69352
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.26,
+   "american": "+226"
+  },
+  "B": {
+   "decimal": 1.44,
+   "american": "-226"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4811,
+  "1-2": 0.2124,
+  "2-0": 0.1679,
+  "2-1": 0.1386
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0281,
+ "games": {
+  "mean": 22.63,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.02,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00239,
+   "13": 0.01032,
+   "14": 0.02294,
+   "15": 0.04476,
+   "16": 0.0648,
+   "17": 0.08367,
+   "18": 0.08422,
+   "19": 0.08224,
+   "20": 0.07217,
+   "21": 0.05036,
+   "22": 0.06375,
+   "23": 0.04492,
+   "24": 0.01662,
+   "25": 0.03369,
+   "26": 0.03923,
+   "27": 0.03252,
+   "28": 0.03661,
+   "29": 0.0373,
+   "30": 0.03722,
+   "31": 0.03716,
+   "32": 0.03346,
+   "33": 0.02115,
+   "34": 0.01473,
+   "35": 0.0174,
+   "36": 0.00922,
+   "37": 0.00173,
+   "38": 0.00322,
+   "39": 0.0022
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00221,
+  "-11": 0.00936,
+  "-10": 0.02075,
+  "-9": 0.04028,
+  "-8": 0.06118,
+  "-7": 0.08741,
+  "-6": 0.10218,
+  "-5": 0.10812,
+  "-4": 0.10307,
+  "-3": 0.07188,
+  "-2": 0.04494,
+  "-1": 0.0307,
+  "0": 0.02731,
+  "1": 0.02539,
+  "2": 0.03302,
+  "3": 0.04547,
+  "4": 0.05384,
+  "5": 0.04719,
+  "6": 0.03557,
+  "7": 0.02556,
+  "8": 0.01357,
+  "9": 0.00707,
+  "10": 0.00276,
+  "11": 0.00099,
+  "12": 0.00018
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7711,
+   "under": 0.2289
+  },
+  {
+   "line": 18.5,
+   "over": 0.6869,
+   "under": 0.3131
+  },
+  {
+   "line": 19.5,
+   "over": 0.6047,
+   "under": 0.3953
+  },
+  {
+   "line": 20.5,
+   "over": 0.5325,
+   "under": 0.4675
+  },
+  {
+   "line": 21.5,
+   "over": 0.4821,
+   "under": 0.5179
+  },
+  {
+   "line": 22.5,
+   "over": 0.4184,
+   "under": 0.5816
+  },
+  {
+   "line": 23.5,
+   "over": 0.3735,
+   "under": 0.6265
+  },
+  {
+   "line": 24.5,
+   "over": 0.3568,
+   "under": 0.6432
+  },
+  {
+   "line": 25.5,
+   "over": 0.3232,
+   "under": 0.6768
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2652,
+   "B +1.5": 0.7348,
+   "B -1.5": 0.6514,
+   "A +1.5": 0.3486
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2322,
+   "B +2.5": 0.7678,
+   "B -2.5": 0.6064,
+   "A +2.5": 0.3936
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1867,
+   "B +3.5": 0.8133,
+   "B -3.5": 0.5346,
+   "A +3.5": 0.4654
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1329,
+   "B +4.5": 0.8671,
+   "B -4.5": 0.4315,
+   "A +4.5": 0.5685
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0857,
+   "B +5.5": 0.9143,
+   "B -5.5": 0.3234,
+   "A +5.5": 0.6766
+  }
+ ],
+ "p_tiebreak": 0.2986,
+ "p_a_wins_set": 0.5189,
+ "p_b_wins_set": 0.8321,
+ "p_decider": 0.351,
+ "expected_breaks": {
+  "total": 6.11,
+  "by_A": 2.47,
+  "by_B": 3.63
+ },
+ "expected_break_points": {
+  "A_creates": 6.35,
+  "B_creates": 8.27
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4811
+ },
+ "match": "Moyuka Uchijima vs Rebecca Sramkova",
+ "players": {
+  "A": {
+   "id": "wta:220416",
+   "name": "Moyuka Uchijima",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 110.0,
+   "age": 25.162696783025325,
+   "elo": 1515.8,
+   "surface_elo": {
+    "Hard": 1515.3,
+    "Clay": 1526.5,
+    "Grass": 1353.5
+   },
+   "matches_total": 109,
+   "matches_surface": {
+    "Hard": 80,
+    "Clay": 24,
+    "Grass": 5
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    8,
+    19
+   ],
+   "last52w_surface": [
+    7,
+    13
+   ],
+   "career_surface_wl": [
+    25,
+    55
+   ],
+   "games_won_lost_52w": [
+    289,
+    340
+   ],
+   "sets_won_lost_52w": [
+    26,
+    41
+   ],
+   "avg_opp_elo_last20": 1646.5,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0146,
+   "return_rating": -0.0517,
+   "form_elo": -21.3,
+   "last_match": "2026-10-26",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.5635,
+    "first_won": 0.6383,
+    "second_won": 0.4071,
+    "serve_pts_won": 0.5374,
+    "hold": 0.5735,
+    "aces_per_svgm": 0.1991,
+    "df_per_svgm": 0.4787,
+    "bp_saved": 0.4545,
+    "ret_pts_won": 0.4277,
+    "ret_1st_won": 0.3789,
+    "ret_2nd_won": 0.512,
+    "ret_games_won": 0.3317,
+    "bp_conv": 0.4259,
+    "bp_chances_per_retgm": 0.7788,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     94.0
+    ],
+    [
+     "2025-09-19",
+     92.0
+    ],
+    [
+     "2025-10-06",
+     91.0
+    ],
+    [
+     "2025-10-13",
+     81.0
+    ],
+    [
+     "2025-10-27",
+     92.0
+    ],
+    [
+     "2026-01-19",
+     88.0
+    ],
+    [
+     "2026-02-01",
+     87.0
+    ],
+    [
+     "2026-02-08",
+     88.0
+    ],
+    [
+     "2026-02-15",
+     90.0
+    ],
+    [
+     "2026-04-10",
+     84.0
+    ],
+    [
+     "2026-04-21",
+     94.0
+    ],
+    [
+     "2026-05-18",
+     110.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:211685",
+   "name": "Rebecca Sramkova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 125.0,
+   "age": 29.9435318275154,
+   "elo": 1684.1,
+   "surface_elo": {
+    "Hard": 1649.5,
+    "Clay": 1541.2,
+    "Grass": 1543.8
+   },
+   "matches_total": 127,
+   "matches_surface": {
+    "Hard": 91,
+    "Clay": 24,
+    "Grass": 12
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    13,
+    14
+   ],
+   "last52w_surface": [
+    12,
+    12
+   ],
+   "career_surface_wl": [
+    49,
+    42
+   ],
+   "games_won_lost_52w": [
+    292,
+    284
+   ],
+   "sets_won_lost_52w": [
+    32,
+    30
+   ],
+   "avg_opp_elo_last20": 1632.1,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.2338,
+   "return_rating": 0.0092,
+   "form_elo": 71.4,
+   "last_match": "2026-10-11",
+   "last_stats_match": "2026-10-11",
+   "stats_52w": {
+    "first_in": 0.6112,
+    "first_won": 0.6442,
+    "second_won": 0.4661,
+    "serve_pts_won": 0.575,
+    "hold": 0.6649,
+    "aces_per_svgm": 0.4362,
+    "df_per_svgm": 0.2553,
+    "bp_saved": 0.5435,
+    "ret_pts_won": 0.4274,
+    "ret_1st_won": 0.3635,
+    "ret_2nd_won": 0.5291,
+    "ret_games_won": 0.3385,
+    "bp_conv": 0.4342,
+    "bp_chances_per_retgm": 0.7795,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2025-08-07",
+     38.0
+    ],
+    [
+     "2025-08-25",
+     35.0
+    ],
+    [
+     "2025-09-24",
+     55.0
+    ],
+    [
+     "2025-10-06",
+     68.0
+    ],
+    [
+     "2025-10-13",
+     65.0
+    ],
+    [
+     "2026-01-04",
+     71.0
+    ],
+    [
+     "2026-01-12",
+     72.0
+    ],
+    [
+     "2026-01-19",
+     73.0
+    ],
+    [
+     "2026-02-01",
+     81.0
+    ],
+    [
+     "2026-02-15",
+     103.0
+    ],
+    [
+     "2026-02-23",
+     102.0
+    ],
+    [
+     "2026-05-25",
+     125.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -142.3,
+  "components_elo": {
+   "surface_elo": -134.1,
+   "overall_elo": -168.3,
+   "serve_return": -247.4,
+   "form": -92.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -16.4,
+   "overall_elo": -39.8,
+   "serve_return": -86.3,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3059,
+  "serve_return_implied_spw": {
+   "A": 0.5685,
+   "B": 0.6355
+  },
+  "point_probs": {
+   "A_serve": 0.5726,
+   "B_serve": 0.6316
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5725971045570073,
+   "B_serve": 0.6315720013748161
+  },
+  "hold_probs": {
+   "A": 0.6759,
+   "B": 0.7976
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3065,
+   0.3079
+  ],
+  "p_tb": [
+   0.2986,
+   0.3009
+  ],
+  "p_decider": [
+   0.351,
+   0.3509
+  ],
+  "games_mean": [
+   22.627,
+   22.648
+  ],
+  "exp_breaks": [
+   6.109,
+   6.102
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4811,
+    0.4807
+   ],
+   "1-2": [
+    0.2124,
+    0.2113
+   ],
+   "2-0": [
+    0.1679,
+    0.1684
+   ],
+   "2-1": [
+    0.1386,
+    0.1395
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0023
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Rebecca Sramkova",
+   "elo_points": -86.3,
+   "raw_diff": -247.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Rebecca Sramkova",
+   "elo_points": -39.8,
+   "raw_diff": -168.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Rebecca Sramkova",
+   "elo_points": -16.4,
+   "raw_diff": -134.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4071,
+   "B": 0.4661,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4277,
+   "B": 0.4274,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5726,
+   "B": 0.6316,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Rebecca Sramkova to win at least one set",
+  "probability": 0.8321,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-496"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Rebecca Sramkova to win at least one set",
+    "probability": 0.8321,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7014,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Rebecca Sramkova to win",
+    "probability": 0.6935,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6869,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.649,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6432,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Rebecca Sramkova -2.5 games",
+    "probability": 0.6064,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5816,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Moyuka Uchijima +4.5 games",
+    "probability": 0.5685,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5325,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "Moyuka Uchijima to win at least one set",
+    "probability": 0.5189,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Exact sets Moyuka Uchijima 0-2 Rebecca Sramkova",
+    "probability": 0.4811,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4675,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Rebecca Sramkova -4.5 games",
+    "probability": 0.4315,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4184,
+    "fair_decimal": 2.39
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:54:38+00:00",
+  "version": 1,
+  "input_hash": "567cfba0bd5a306d",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186589",
+  "scheduled_start_utc": "2026-11-03T08:30Z"
+ }
+}

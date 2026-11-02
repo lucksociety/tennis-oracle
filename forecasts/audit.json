@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-02T06:06:18+00:00",
+ "generated_at_utc": "2026-11-02T15:01:20+00:00",
  "summary": {
-  "n": 158,
-  "brier": 0.22853257955696202,
-  "log_loss": 0.648866579008169,
-  "accuracy": 0.6075949367088608,
-  "games_mae": 4.951962025316456,
-  "exact_sets_accuracy": 0.4050632911392405,
-  "tiebreak_brier": 0.2008932490506329
+  "n": 171,
+  "brier": 0.23124421309941517,
+  "log_loss": 0.6548707794559776,
+  "accuracy": 0.5906432748538012,
+  "games_mae": 4.983450292397661,
+  "exact_sets_accuracy": 0.40350877192982454,
+  "tiebreak_brier": 0.1968682777777778
  },
- "n": 158,
+ "n": 171,
  "overall": {
-  "n": 158,
-  "brier": 0.22853257955696202,
-  "log_loss": 0.648866579008169,
-  "accuracy": 0.6075949367088608
+  "n": 171,
+  "brier": 0.23124421309941517,
+  "log_loss": 0.6548707794559776,
+  "accuracy": 0.5906432748538012
  },
- "games_mae": 4.951962025316456,
- "exact_sets_accuracy": 0.4050632911392405,
- "tiebreak_brier": 0.2008932490506329,
+ "games_mae": 4.983450292397661,
+ "exact_sets_accuracy": 0.40350877192982454,
+ "tiebreak_brier": 0.1968682777777778,
  "by_surface": {
   "Clay": {
    "n": 7,
@@ -27,58 +27,58 @@
    "accuracy": 0.7142857142857143
   },
   "Hard": {
-   "n": 151,
-   "brier": 0.23063964960264904,
-   "log_loss": 0.6532130117660007,
-   "accuracy": 0.6026490066225165
+   "n": 164,
+   "brier": 0.23329999975609755,
+   "log_loss": 0.659128954758217,
+   "accuracy": 0.5853658536585366
   }
  },
  "by_tour": {
   "atp": {
-   "n": 57,
-   "brier": 0.2211538961403509,
-   "log_loss": 0.6313476010342649,
-   "accuracy": 0.6140350877192983
+   "n": 62,
+   "brier": 0.2246032390322581,
+   "log_loss": 0.6385496974390792,
+   "accuracy": 0.5806451612903226
   },
   "wta": {
-   "n": 101,
-   "brier": 0.23269678702970295,
-   "log_loss": 0.6587535269736394,
-   "accuracy": 0.6039603960396039
+   "n": 109,
+   "brier": 0.2350216478899083,
+   "log_loss": 0.6641543306949476,
+   "accuracy": 0.5963302752293578
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 85,
-   "brier": 0.23485653505882353,
-   "log_loss": 0.6644544595190203,
-   "accuracy": 0.6235294117647059
+   "n": 91,
+   "brier": 0.2389284035164835,
+   "log_loss": 0.6734647565170258,
+   "accuracy": 0.6043956043956044
   },
   "MEDIUM": {
-   "n": 73,
-   "brier": 0.2211690697260274,
-   "log_loss": 0.6307163071804655,
-   "accuracy": 0.589041095890411
+   "n": 80,
+   "brier": 0.22250344650000003,
+   "log_loss": 0.6337201305490353,
+   "accuracy": 0.575
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 100,
-   "mean_pred": 0.5432020000000001,
-   "observed": 0.54
+   "n": 108,
+   "mean_pred": 0.5436435185185186,
+   "observed": 0.5092592592592593
   },
   {
    "bucket": "60%-70%",
-   "n": 37,
-   "mean_pred": 0.6475324324324325,
-   "observed": 0.7027027027027027
+   "n": 41,
+   "mean_pred": 0.6465926829268293,
+   "observed": 0.7317073170731707
   },
   {
    "bucket": "70%-80%",
-   "n": 15,
-   "mean_pred": 0.73124,
-   "observed": 0.8666666666666667
+   "n": 16,
+   "mean_pred": 0.7342375,
+   "observed": 0.8125
   },
   {
    "bucket": "80%-90%",
@@ -6725,6 +6725,552 @@
     "A -5.5": [
      0.1406,
      0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Luciano Darderi vs Rinky Hijikata",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5474,
+   "a_won": 0,
+   "pred_winner": "Luciano Darderi",
+   "actual_winner": "Rinky Hijikata",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2654,
+   "exp_games": 24.06,
+   "actual_games": 16,
+   "p_tb": 0.411,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4924,
+     0
+    ],
+    "A -2.5": [
+     0.4356,
+     0
+    ],
+    "A -3.5": [
+     0.3537,
+     0
+    ],
+    "A -4.5": [
+     0.2551,
+     0
+    ],
+    "A -5.5": [
+     0.1659,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Luca Van Assche vs Mariano Navone",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.441,
+   "a_won": 1,
+   "pred_winner": "Mariano Navone",
+   "actual_winner": "Luca Van Assche",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2581,
+   "exp_games": 23.67,
+   "actual_games": 21,
+   "p_tb": 0.3691,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.39,
+     1
+    ],
+    "A -2.5": [
+     0.3431,
+     1
+    ],
+    "A -3.5": [
+     0.2777,
+     1
+    ],
+    "A -4.5": [
+     0.1983,
+     1
+    ],
+    "A -5.5": [
+     0.1287,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Lorenzo Musetti vs Hubert Hurkacz",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4857,
+   "a_won": 1,
+   "pred_winner": "Hubert Hurkacz",
+   "actual_winner": "Lorenzo Musetti",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2873,
+   "exp_games": 25.02,
+   "actual_games": 26,
+   "p_tb": 0.5139,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4228,
+     1
+    ],
+    "A -2.5": [
+     0.3552,
+     0
+    ],
+    "A -3.5": [
+     0.2678,
+     0
+    ],
+    "A -4.5": [
+     0.1716,
+     0
+    ],
+    "A -5.5": [
+     0.0977,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Ignacio Buse vs Zizou Bergs",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4632,
+   "a_won": 1,
+   "pred_winner": "Zizou Bergs",
+   "actual_winner": "Ignacio Buse",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2748,
+   "exp_games": 24.1,
+   "actual_games": 18,
+   "p_tb": 0.4173,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4089,
+     1
+    ],
+    "A -2.5": [
+     0.3554,
+     1
+    ],
+    "A -3.5": [
+     0.2818,
+     1
+    ],
+    "A -4.5": [
+     0.1959,
+     1
+    ],
+    "A -5.5": [
+     0.1222,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alejandro Tabilo vs Rafael Jodar",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.3935,
+   "a_won": 0,
+   "pred_winner": "Rafael Jodar",
+   "actual_winner": "Rafael Jodar",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3881,
+   "exp_games": 24.34,
+   "actual_games": 17,
+   "p_tb": 0.4484,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.339,
+     0
+    ],
+    "A -2.5": [
+     0.2864,
+     0
+    ],
+    "A -3.5": [
+     0.2169,
+     0
+    ],
+    "A -4.5": [
+     0.1411,
+     0
+    ],
+    "A -5.5": [
+     0.0822,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Venus Williams vs Mary Stoiana",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3585,
+   "a_won": 0,
+   "pred_winner": "Mary Stoiana",
+   "actual_winner": "Mary Stoiana",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.437,
+   "exp_games": 22.35,
+   "actual_games": 17,
+   "p_tb": 0.2591,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3185,
+     0
+    ],
+    "A -2.5": [
+     0.2854,
+     0
+    ],
+    "A -3.5": [
+     0.2395,
+     0
+    ],
+    "A -4.5": [
+     0.1816,
+     0
+    ],
+    "A -5.5": [
+     0.1276,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Carol Young Suh Lee vs Maria Sakkari",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3209,
+   "a_won": 0,
+   "pred_winner": "Maria Sakkari",
+   "actual_winner": "Maria Sakkari",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4695,
+   "exp_games": 22.21,
+   "actual_games": 17,
+   "p_tb": 0.2527,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.283,
+     0
+    ],
+    "A -2.5": [
+     0.2524,
+     0
+    ],
+    "A -3.5": [
+     0.2101,
+     0
+    ],
+    "A -4.5": [
+     0.1572,
+     0
+    ],
+    "A -5.5": [
+     0.108,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Katie Volynets vs Aliaksandra Sasnovich",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.4408,
+   "a_won": 0,
+   "pred_winner": "Aliaksandra Sasnovich",
+   "actual_winner": "Aliaksandra Sasnovich",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3616,
+   "exp_games": 22.51,
+   "actual_games": 17,
+   "p_tb": 0.258,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3983,
+     0
+    ],
+    "A -2.5": [
+     0.3629,
+     0
+    ],
+    "A -3.5": [
+     0.3124,
+     0
+    ],
+    "A -4.5": [
+     0.2439,
+     0
+    ],
+    "A -5.5": [
+     0.1757,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Viktorija Golubic vs Katie Boulter",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3755,
+   "a_won": 0,
+   "pred_winner": "Katie Boulter",
+   "actual_winner": "Katie Boulter",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4181,
+   "exp_games": 22.4,
+   "actual_games": 21,
+   "p_tb": 0.2571,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3349,
+     0
+    ],
+    "A -2.5": [
+     0.3009,
+     0
+    ],
+    "A -3.5": [
+     0.2544,
+     0
+    ],
+    "A -4.5": [
+     0.1937,
+     0
+    ],
+    "A -5.5": [
+     0.1361,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Claire Liu vs Tatiana Prozorova",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.4929,
+   "a_won": 1,
+   "pred_winner": "Tatiana Prozorova",
+   "actual_winner": "Claire Liu",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.306,
+   "exp_games": 22.7,
+   "actual_games": 18,
+   "p_tb": 0.2696,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4488,
+     1
+    ],
+    "A -2.5": [
+     0.4102,
+     1
+    ],
+    "A -3.5": [
+     0.3547,
+     1
+    ],
+    "A -4.5": [
+     0.279,
+     1
+    ],
+    "A -5.5": [
+     0.2034,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Isabella Shinikova vs Dune Vaissaud",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.4177,
+   "a_won": 1,
+   "pred_winner": "Dune Vaissaud",
+   "actual_winner": "Isabella Shinikova",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2481,
+   "exp_games": 22.55,
+   "actual_games": 13,
+   "p_tb": 0.2626,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3745,
+     1
+    ],
+    "A -2.5": [
+     0.3385,
+     1
+    ],
+    "A -3.5": [
+     0.2892,
+     1
+    ],
+    "A -4.5": [
+     0.2235,
+     1
+    ],
+    "A -5.5": [
+     0.1591,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Laura Bohner vs Prathyusha Rachapudi",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.4128,
+   "a_won": 1,
+   "pred_winner": "Prathyusha Rachapudi",
+   "actual_winner": "Laura Bohner",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2439,
+   "exp_games": 22.56,
+   "actual_games": 17,
+   "p_tb": 0.2619,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3699,
+     1
+    ],
+    "A -2.5": [
+     0.3344,
+     1
+    ],
+    "A -3.5": [
+     0.2839,
+     1
+    ],
+    "A -4.5": [
+     0.2194,
+     1
+    ],
+    "A -5.5": [
+     0.1549,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Ana Sofia Sanchez vs Abigayel Vosloo",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.2208,
+   "a_won": 1,
+   "pred_winner": "Abigayel Vosloo",
+   "actual_winner": "Ana Sofia Sanchez",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1153,
+   "exp_games": 21.33,
+   "actual_games": 14,
+   "p_tb": 0.2168,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.1885,
+     1
+    ],
+    "A -2.5": [
+     0.1655,
+     1
+    ],
+    "A -3.5": [
+     0.1357,
+     1
+    ],
+    "A -4.5": [
+     0.0984,
+     1
+    ],
+    "A -5.5": [
+     0.0661,
+     1
     ]
    },
    "data_quality": "LOW",

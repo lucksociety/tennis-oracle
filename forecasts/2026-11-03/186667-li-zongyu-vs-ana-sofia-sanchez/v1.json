@@ -1,0 +1,640 @@
+{
+ "predicted_winner": "Li Zongyu",
+ "win_prob": {
+  "A": 0.7253,
+  "B": 0.2747
+ },
+ "win_prob_exact": {
+  "A": 0.72528,
+  "B": 0.27471999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.38,
+   "american": "-264"
+  },
+  "B": {
+   "decimal": 3.64,
+   "american": "+264"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.5247,
+  "2-1": 0.2006,
+  "0-2": 0.1492,
+  "1-2": 0.1255
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-2",
+  "6-2"
+ ],
+ "representative_sets_prob": 0.0238,
+ "games": {
+  "mean": 21.63,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00489,
+   "13": 0.02006,
+   "14": 0.03913,
+   "15": 0.06544,
+   "16": 0.08456,
+   "17": 0.09225,
+   "18": 0.08705,
+   "19": 0.07539,
+   "20": 0.06316,
+   "21": 0.04615,
+   "22": 0.05262,
+   "23": 0.03429,
+   "24": 0.02088,
+   "25": 0.03478,
+   "26": 0.03635,
+   "27": 0.03387,
+   "28": 0.03697,
+   "29": 0.03663,
+   "30": 0.03463,
+   "31": 0.02928,
+   "32": 0.02538,
+   "33": 0.01559,
+   "34": 0.01153,
+   "35": 0.01039,
+   "36": 0.00426,
+   "37": 0.00165,
+   "38": 0.00197,
+   "39": 0.00085
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00027,
+  "-11": 0.0014,
+  "-10": 0.00394,
+  "-9": 0.00937,
+  "-8": 0.01648,
+  "-7": 0.02624,
+  "-6": 0.03506,
+  "-5": 0.0402,
+  "-4": 0.04459,
+  "-3": 0.03488,
+  "-2": 0.02671,
+  "-1": 0.02261,
+  "0": 0.02315,
+  "1": 0.0253,
+  "2": 0.03555,
+  "3": 0.05756,
+  "4": 0.08794,
+  "5": 0.09913,
+  "6": 0.10617,
+  "7": 0.10178,
+  "8": 0.08271,
+  "9": 0.05933,
+  "10": 0.03619,
+  "11": 0.01882,
+  "12": 0.00462
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6937,
+   "under": 0.3063
+  },
+  {
+   "line": 18.5,
+   "over": 0.6066,
+   "under": 0.3934
+  },
+  {
+   "line": 19.5,
+   "over": 0.5312,
+   "under": 0.4688
+  },
+  {
+   "line": 20.5,
+   "over": 0.4681,
+   "under": 0.5319
+  },
+  {
+   "line": 21.5,
+   "over": 0.4219,
+   "under": 0.5781
+  },
+  {
+   "line": 22.5,
+   "over": 0.3693,
+   "under": 0.6307
+  },
+  {
+   "line": 23.5,
+   "over": 0.335,
+   "under": 0.665
+  },
+  {
+   "line": 24.5,
+   "over": 0.3141,
+   "under": 0.6859
+  },
+  {
+   "line": 25.5,
+   "over": 0.2794,
+   "under": 0.7207
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6898,
+   "B +1.5": 0.3102,
+   "B -1.5": 0.2391,
+   "A +1.5": 0.7609
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6542,
+   "B +2.5": 0.3458,
+   "B -2.5": 0.2124,
+   "A +2.5": 0.7876
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5967,
+   "B +3.5": 0.4033,
+   "B -3.5": 0.1775,
+   "A +3.5": 0.8225
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.5087,
+   "B +4.5": 0.4913,
+   "B -4.5": 0.133,
+   "A +4.5": 0.867
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.4096,
+   "B +5.5": 0.5904,
+   "B -5.5": 0.0928,
+   "A +5.5": 0.9072
+  }
+ ],
+ "p_tiebreak": 0.2207,
+ "p_a_wins_set": 0.8508,
+ "p_b_wins_set": 0.4753,
+ "p_decider": 0.326,
+ "expected_breaks": {
+  "total": 8.43,
+  "by_A": 4.97,
+  "by_B": 3.47
+ },
+ "expected_break_points": {
+  "A_creates": 9.99,
+  "B_creates": 7.92
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-2",
+   "6-2"
+  ],
+  "prob": 0.5247
+ },
+ "match": "Li Zongyu vs Ana Sofia Sanchez",
+ "players": {
+  "A": {
+   "id": "wta:espn13680",
+   "name": "Li Zongyu",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1422.8,
+   "surface_elo": {
+    "Hard": 1417.3,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 4,
+   "matches_surface": {
+    "Hard": 4,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    3
+   ],
+   "last10": [
+    1,
+    3
+   ],
+   "last20": [
+    1,
+    3
+   ],
+   "last52w": [
+    1,
+    3
+   ],
+   "last52w_surface": [
+    1,
+    3
+   ],
+   "career_surface_wl": [
+    1,
+    3
+   ],
+   "games_won_lost_52w": [
+    37,
+    46
+   ],
+   "sets_won_lost_52w": [
+    3,
+    6
+   ],
+   "avg_opp_elo_last20": 1530.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -11.5,
+   "last_match": "2026-10-26",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:204419",
+   "name": "Ana Sofia Sanchez",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 231.0,
+   "age": 32.496851471594795,
+   "elo": 1348.6,
+   "surface_elo": {
+    "Hard": 1286.3,
+    "Clay": 1521.6,
+    "Grass": 1425.6
+   },
+   "matches_total": 31,
+   "matches_surface": {
+    "Hard": 15,
+    "Clay": 15,
+    "Grass": 1
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    1,
+    9
+   ],
+   "last20": [
+    5,
+    15
+   ],
+   "last52w": [
+    1,
+    4
+   ],
+   "last52w_surface": [
+    1,
+    2
+   ],
+   "career_surface_wl": [
+    2,
+    13
+   ],
+   "games_won_lost_52w": [
+    33,
+    52
+   ],
+   "sets_won_lost_52w": [
+    2,
+    8
+   ],
+   "avg_opp_elo_last20": 1536.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.289,
+   "return_rating": -0.1159,
+   "form_elo": -27.4,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-11-02",
+   "stats_52w": {
+    "first_in": 0.7341,
+    "first_won": 0.5255,
+    "second_won": 0.4085,
+    "serve_pts_won": 0.4944,
+    "hold": 0.4524,
+    "aces_per_svgm": 0.0,
+    "df_per_svgm": 0.4524,
+    "bp_saved": 0.4103,
+    "ret_pts_won": 0.4387,
+    "ret_1st_won": 0.3978,
+    "ret_2nd_won": 0.5227,
+    "ret_games_won": 0.3256,
+    "bp_conv": 0.5,
+    "bp_chances_per_retgm": 0.6512,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2014-02-24",
+     319.0
+    ],
+    [
+     "2015-02-23",
+     290.0
+    ],
+    [
+     "2015-03-02",
+     288.0
+    ],
+    [
+     "2016-02-03",
+     326.0
+    ],
+    [
+     "2016-02-22",
+     317.0
+    ],
+    [
+     "2016-08-01",
+     330.0
+    ],
+    [
+     "2018-04-02",
+     302.0
+    ],
+    [
+     "2023-09-18",
+     438.0
+    ],
+    [
+     "2024-09-09",
+     285.0
+    ],
+    [
+     "2024-10-28",
+     286.0
+    ],
+    [
+     "2025-09-08",
+     179.0
+    ],
+    [
+     "2026-03-30",
+     231.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Li Zongyu: sparse record (4 tour matches, 0 with serve stats in 52w)",
+  "Ana Sofia Sanchez: limited recent/surface sample (5 matches 52w, 15 career on Hard, 5 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Li Zongyu: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 172.5,
+  "components_elo": {
+   "surface_elo": 131.1,
+   "overall_elo": 74.2,
+   "serve_return": 398.3,
+   "form": 15.8
+  },
+  "weighted_contributions": {
+   "surface_elo": 16.0,
+   "overall_elo": 17.5,
+   "serve_return": 139.0,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.7297,
+  "serve_return_implied_spw": {
+   "A": 0.5954,
+   "B": 0.4953
+  },
+  "point_probs": {
+   "A_serve": 0.5813,
+   "B_serve": 0.5099
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5812724983447248,
+   "B_serve": 0.5098726776658993
+  },
+  "hold_probs": {
+   "A": 0.6954,
+   "B": 0.5247
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7253,
+   0.7271
+  ],
+  "p_tb": [
+   0.2207,
+   0.2203
+  ],
+  "p_decider": [
+   0.326,
+   0.3272
+  ],
+  "games_mean": [
+   21.627,
+   21.628
+  ],
+  "exp_breaks": [
+   8.434,
+   8.447
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1492,
+    0.1485
+   ],
+   "1-2": [
+    0.1255,
+    0.1244
+   ],
+   "2-0": [
+    0.5247,
+    0.5243
+   ],
+   "2-1": [
+    0.2006,
+    0.2028
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Li Zongyu",
+   "elo_points": 139.0,
+   "raw_diff": 398.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Li Zongyu",
+   "elo_points": 17.5,
+   "raw_diff": 74.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Li Zongyu",
+   "elo_points": 16.0,
+   "raw_diff": 131.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5813,
+   "B": 0.5099,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Li Zongyu to win at least one set",
+  "probability": 0.8508,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-570"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Li Zongyu: sparse record (4 tour matches, 0 with serve stats in 52w); Ana Sofia Sanchez: limited recent/surface sample (5 matches 52w, 15 career on Hard, 5 with stats)",
+  "candidates": [
+   {
+    "selection": "Li Zongyu to win at least one set",
+    "probability": 0.8508,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7793,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "Li Zongyu to win",
+    "probability": 0.7253,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6859,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.674,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Li Zongyu -2.5 games",
+    "probability": 0.6542,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6307,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6066,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5319,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "Exact sets Li Zongyu 2-0 Ana Sofia Sanchez",
+    "probability": 0.5247,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Li Zongyu -4.5 games",
+    "probability": 0.5087,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Ana Sofia Sanchez +4.5 games",
+    "probability": 0.4913,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Ana Sofia Sanchez to win at least one set",
+    "probability": 0.4753,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4681,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.3934,
+    "fair_decimal": 2.54
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:55:11+00:00",
+  "version": 1,
+  "input_hash": "7ff7e133327f966c",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186667",
+  "scheduled_start_utc": "2026-11-03T13:30Z"
+ }
+}

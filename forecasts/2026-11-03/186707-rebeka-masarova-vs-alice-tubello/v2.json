@@ -1,0 +1,671 @@
+{
+ "predicted_winner": "Alice Tubello",
+ "win_prob": {
+  "A": 0.3795,
+  "B": 0.6205
+ },
+ "win_prob_exact": {
+  "A": 0.37945,
+  "B": 0.6205499999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.64,
+   "american": "+164"
+  },
+  "B": {
+   "decimal": 1.61,
+   "american": "-164"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4141,
+  "2-0": 0.2212,
+  "1-2": 0.2065,
+  "2-1": 0.1582
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0207,
+ "games": {
+  "mean": 22.46,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00261,
+   "13": 0.01192,
+   "14": 0.02628,
+   "15": 0.04793,
+   "16": 0.06901,
+   "17": 0.08394,
+   "18": 0.08471,
+   "19": 0.07967,
+   "20": 0.06737,
+   "21": 0.04893,
+   "22": 0.06038,
+   "23": 0.03985,
+   "24": 0.0193,
+   "25": 0.03605,
+   "26": 0.03957,
+   "27": 0.03626,
+   "28": 0.04043,
+   "29": 0.04029,
+   "30": 0.03921,
+   "31": 0.03597,
+   "32": 0.03125,
+   "33": 0.01969,
+   "34": 0.0141,
+   "35": 0.01341,
+   "36": 0.00643,
+   "37": 0.00171,
+   "38": 0.00231,
+   "39": 0.00142
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00223,
+  "-11": 0.00934,
+  "-10": 0.02084,
+  "-9": 0.03661,
+  "-8": 0.05684,
+  "-7": 0.07844,
+  "-6": 0.09137,
+  "-5": 0.09272,
+  "-4": 0.08777,
+  "-3": 0.06174,
+  "-2": 0.04034,
+  "-1": 0.02911,
+  "0": 0.02703,
+  "1": 0.02736,
+  "2": 0.03395,
+  "3": 0.04642,
+  "4": 0.06182,
+  "5": 0.05958,
+  "6": 0.05009,
+  "7": 0.03881,
+  "8": 0.02417,
+  "9": 0.01418,
+  "10": 0.00613,
+  "11": 0.00273,
+  "12": 0.00038
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7583,
+   "under": 0.2417
+  },
+  {
+   "line": 18.5,
+   "over": 0.6736,
+   "under": 0.3264
+  },
+  {
+   "line": 19.5,
+   "over": 0.5939,
+   "under": 0.4061
+  },
+  {
+   "line": 20.5,
+   "over": 0.5266,
+   "under": 0.4734
+  },
+  {
+   "line": 21.5,
+   "over": 0.4776,
+   "under": 0.5224
+  },
+  {
+   "line": 22.5,
+   "over": 0.4173,
+   "under": 0.5827
+  },
+  {
+   "line": 23.5,
+   "over": 0.3774,
+   "under": 0.6226
+  },
+  {
+   "line": 24.5,
+   "over": 0.3581,
+   "under": 0.6419
+  },
+  {
+   "line": 25.5,
+   "over": 0.322,
+   "under": 0.678
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3383,
+   "B +1.5": 0.6617,
+   "B -1.5": 0.5782,
+   "A +1.5": 0.4218
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3043,
+   "B +2.5": 0.6957,
+   "B -2.5": 0.5379,
+   "A +2.5": 0.4621
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2579,
+   "B +3.5": 0.7421,
+   "B -3.5": 0.4762,
+   "A +3.5": 0.5238
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1961,
+   "B +4.5": 0.8039,
+   "B -4.5": 0.3884,
+   "A +4.5": 0.6116
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1365,
+   "B +5.5": 0.8635,
+   "B -5.5": 0.2957,
+   "A +5.5": 0.7043
+  }
+ ],
+ "p_tiebreak": 0.2608,
+ "p_a_wins_set": 0.5859,
+ "p_b_wins_set": 0.7788,
+ "p_decider": 0.3647,
+ "expected_breaks": {
+  "total": 7.63,
+  "by_A": 3.44,
+  "by_B": 4.19
+ },
+ "expected_break_points": {
+  "A_creates": 7.95,
+  "B_creates": 9.07
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4141
+ },
+ "match": "Rebeka Masarova vs Alice Tubello",
+ "players": {
+  "A": {
+   "id": "wta:214119",
+   "name": "Rebeka Masarova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 160.0,
+   "age": 27.19828884325804,
+   "elo": 1617.9,
+   "surface_elo": {
+    "Hard": 1562.2,
+    "Clay": 1624.8,
+    "Grass": 1470.7
+   },
+   "matches_total": 96,
+   "matches_surface": {
+    "Hard": 46,
+    "Clay": 35,
+    "Grass": 15
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    13,
+    14
+   ],
+   "last52w_surface": [
+    8,
+    7
+   ],
+   "career_surface_wl": [
+    17,
+    18
+   ],
+   "games_won_lost_52w": [
+    324,
+    326
+   ],
+   "sets_won_lost_52w": [
+    32,
+    36
+   ],
+   "avg_opp_elo_last20": 1634.4,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.1755,
+   "return_rating": -0.0431,
+   "form_elo": -77.7,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-10-27",
+   "stats_52w": {
+    "first_in": 0.6061,
+    "first_won": 0.6865,
+    "second_won": 0.4311,
+    "serve_pts_won": 0.5859,
+    "hold": 0.699,
+    "aces_per_svgm": 0.3819,
+    "df_per_svgm": 0.4725,
+    "bp_saved": 0.5507,
+    "ret_pts_won": 0.4124,
+    "ret_1st_won": 0.3606,
+    "ret_2nd_won": 0.5078,
+    "ret_games_won": 0.297,
+    "bp_conv": 0.4265,
+    "bp_chances_per_retgm": 0.6964,
+    "matches_with_stats": 26
+   },
+   "rank_history": [
+    [
+     "2024-07-15",
+     117.0
+    ],
+    [
+     "2024-07-22",
+     111.0
+    ],
+    [
+     "2024-09-09",
+     116.0
+    ],
+    [
+     "2024-09-16",
+     119.0
+    ],
+    [
+     "2025-03-18",
+     168.0
+    ],
+    [
+     "2025-04-22",
+     153.0
+    ],
+    [
+     "2025-06-16",
+     112.0
+    ],
+    [
+     "2025-08-25",
+     108.0
+    ],
+    [
+     "2026-02-01",
+     114.0
+    ],
+    [
+     "2026-02-23",
+     120.0
+    ],
+    [
+     "2026-03-17",
+     113.0
+    ],
+    [
+     "2026-05-05",
+     160.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220554",
+   "name": "Alice Tubello",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 226.0,
+   "age": 25.7435318275154,
+   "elo": 1699.1,
+   "surface_elo": {
+    "Hard": 1482.5,
+    "Clay": 1748.0,
+    "Grass": 1427.8
+   },
+   "matches_total": 20,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 17,
+    "Grass": 1
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    10,
+    8
+   ],
+   "last52w_surface": [
+    9,
+    6
+   ],
+   "career_surface_wl": [
+    10,
+    7
+   ],
+   "games_won_lost_52w": [
+    213,
+    197
+   ],
+   "sets_won_lost_52w": [
+    26,
+    19
+   ],
+   "avg_opp_elo_last20": 1558.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1635,
+   "return_rating": 0.1324,
+   "form_elo": 118.8,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.716,
+    "first_won": 0.5739,
+    "second_won": 0.5342,
+    "serve_pts_won": 0.5626,
+    "hold": 0.6331,
+    "aces_per_svgm": 0.0769,
+    "df_per_svgm": 0.213,
+    "bp_saved": 0.5079,
+    "ret_pts_won": 0.4768,
+    "ret_1st_won": 0.438,
+    "ret_2nd_won": 0.5596,
+    "ret_games_won": 0.4551,
+    "bp_conv": 0.4246,
+    "bp_chances_per_retgm": 1.0719,
+    "matches_with_stats": 15
+   },
+   "rank_history": [
+    [
+     "2025-08-04",
+     527.0
+    ],
+    [
+     "2026-05-25",
+     226.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -85.7,
+  "components_elo": {
+   "surface_elo": -123.2,
+   "overall_elo": -81.2,
+   "serve_return": -148.4,
+   "form": -196.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -15.1,
+   "overall_elo": -19.2,
+   "serve_return": -51.8,
+   "form": 0.3
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3791,
+  "serve_return_implied_spw": {
+   "A": 0.548,
+   "B": 0.5881
+  },
+  "point_probs": {
+   "A_serve": 0.5502,
+   "B_serve": 0.5859
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5502001955838282,
+   "B_serve": 0.5859033387295733
+  },
+  "hold_probs": {
+   "A": 0.6236,
+   "B": 0.7056
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3795,
+   0.3812
+  ],
+  "p_tb": [
+   0.2608,
+   0.2627
+  ],
+  "p_decider": [
+   0.3647,
+   0.3652
+  ],
+  "games_mean": [
+   22.463,
+   22.473
+  ],
+  "exp_breaks": [
+   7.627,
+   7.625
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4141,
+    0.4139
+   ],
+   "1-2": [
+    0.2065,
+    0.2049
+   ],
+   "2-0": [
+    0.2212,
+    0.2209
+   ],
+   "2-1": [
+    0.1582,
+    0.1603
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alice Tubello",
+   "elo_points": -51.8,
+   "raw_diff": -148.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alice Tubello",
+   "elo_points": -19.2,
+   "raw_diff": -81.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alice Tubello",
+   "elo_points": -15.1,
+   "raw_diff": -123.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4311,
+   "B": 0.5342,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4124,
+   "B": 0.4768,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5502,
+   "B": 0.5859,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alice Tubello to win at least one set",
+  "probability": 0.7788,
+  "fair_odds": {
+   "decimal": 1.28,
+   "american": "-352"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Alice Tubello to win at least one set",
+    "probability": 0.7788,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7392,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6736,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6419,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6353,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Alice Tubello to win",
+    "probability": 0.6205,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Rebeka Masarova +4.5 games",
+    "probability": 0.6116,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Rebeka Masarova to win at least one set",
+    "probability": 0.5859,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5827,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Alice Tubello -2.5 games",
+    "probability": 0.5379,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5266,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4734,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Rebeka Masarova +2.5 games",
+    "probability": 0.4621,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4173,
+    "fair_decimal": 2.4
+   },
+   {
+    "selection": "Exact sets Rebeka Masarova 0-2 Alice Tubello",
+    "probability": 0.4141,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:53:44+00:00",
+  "version": 2,
+  "input_hash": "ca3af9b3852d95f2",
+  "reason": "surface corrected from Hard to Clay",
+  "pre_match": true,
+  "espn_id": "186707",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

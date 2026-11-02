@@ -1,0 +1,645 @@
+{
+ "predicted_winner": "Janice Tjen",
+ "win_prob": {
+  "A": 0.716,
+  "B": 0.284
+ },
+ "win_prob_exact": {
+  "A": 0.71602,
+  "B": 0.28398
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.4,
+   "american": "-252"
+  },
+  "B": {
+   "decimal": 3.52,
+   "american": "+252"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.5072,
+  "2-1": 0.2088,
+  "0-2": 0.1528,
+  "1-2": 0.1312
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0277,
+ "games": {
+  "mean": 22.49,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.04,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00252,
+   "13": 0.01105,
+   "14": 0.02612,
+   "15": 0.04729,
+   "16": 0.06751,
+   "17": 0.08549,
+   "18": 0.08384,
+   "19": 0.081,
+   "20": 0.07259,
+   "21": 0.0506,
+   "22": 0.06439,
+   "23": 0.04396,
+   "24": 0.01588,
+   "25": 0.03312,
+   "26": 0.03801,
+   "27": 0.03144,
+   "28": 0.03575,
+   "29": 0.03691,
+   "30": 0.03524,
+   "31": 0.03572,
+   "32": 0.03188,
+   "33": 0.0201,
+   "34": 0.01561,
+   "35": 0.01725,
+   "36": 0.00928,
+   "37": 0.00185,
+   "38": 0.00333,
+   "39": 0.00227
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00014,
+  "-11": 0.0007,
+  "-10": 0.00282,
+  "-9": 0.00605,
+  "-8": 0.01188,
+  "-7": 0.02242,
+  "-6": 0.03126,
+  "-5": 0.04231,
+  "-4": 0.05076,
+  "-3": 0.04338,
+  "-2": 0.03152,
+  "-1": 0.02618,
+  "0": 0.02633,
+  "1": 0.02926,
+  "2": 0.04539,
+  "3": 0.07121,
+  "4": 0.10447,
+  "5": 0.10887,
+  "6": 0.10567,
+  "7": 0.09352,
+  "8": 0.06546,
+  "9": 0.04374,
+  "10": 0.02387,
+  "11": 0.01041,
+  "12": 0.00238
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.76,
+   "under": 0.24
+  },
+  {
+   "line": 18.5,
+   "over": 0.6762,
+   "under": 0.3238
+  },
+  {
+   "line": 19.5,
+   "over": 0.5952,
+   "under": 0.4048
+  },
+  {
+   "line": 20.5,
+   "over": 0.5226,
+   "under": 0.4774
+  },
+  {
+   "line": 21.5,
+   "over": 0.472,
+   "under": 0.528
+  },
+  {
+   "line": 22.5,
+   "over": 0.4076,
+   "under": 0.5924
+  },
+  {
+   "line": 23.5,
+   "over": 0.3636,
+   "under": 0.6364
+  },
+  {
+   "line": 24.5,
+   "over": 0.3478,
+   "under": 0.6522
+  },
+  {
+   "line": 25.5,
+   "over": 0.3146,
+   "under": 0.6854
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.675,
+   "B +1.5": 0.325,
+   "B -1.5": 0.2432,
+   "A +1.5": 0.7568
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6296,
+   "B +2.5": 0.3704,
+   "B -2.5": 0.2117,
+   "A +2.5": 0.7883
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5584,
+   "B +3.5": 0.4416,
+   "B -3.5": 0.1683,
+   "A +3.5": 0.8317
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4539,
+   "B +4.5": 0.5461,
+   "B -4.5": 0.1176,
+   "A +4.5": 0.8824
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.345,
+   "B +5.5": 0.655,
+   "B -5.5": 0.0753,
+   "A +5.5": 0.9247
+  }
+ ],
+ "p_tiebreak": 0.2969,
+ "p_a_wins_set": 0.8472,
+ "p_b_wins_set": 0.4928,
+ "p_decider": 0.34,
+ "expected_breaks": {
+  "total": 6.01,
+  "by_A": 3.66,
+  "by_B": 2.36
+ },
+ "expected_break_points": {
+  "A_creates": 8.28,
+  "B_creates": 6.09
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.5072
+ },
+ "match": "Janice Tjen vs Katherine Hui",
+ "players": {
+  "A": {
+   "id": "wta:222145",
+   "name": "Janice Tjen",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 40.0,
+   "age": 24.4435318275154,
+   "elo": 1676.1,
+   "surface_elo": {
+    "Hard": 1668.3,
+    "Clay": 1488.3,
+    "Grass": 1443.0
+   },
+   "matches_total": 58,
+   "matches_surface": {
+    "Hard": 46,
+    "Clay": 7,
+    "Grass": 5
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    16,
+    28
+   ],
+   "last52w_surface": [
+    13,
+    19
+   ],
+   "career_surface_wl": [
+    23,
+    23
+   ],
+   "games_won_lost_52w": [
+    439,
+    514
+   ],
+   "sets_won_lost_52w": [
+    40,
+    60
+   ],
+   "avg_opp_elo_last20": 1763.7,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.3008,
+   "return_rating": -0.01,
+   "form_elo": 14.3,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.5922,
+    "first_won": 0.6763,
+    "second_won": 0.4397,
+    "serve_pts_won": 0.5798,
+    "hold": 0.6705,
+    "aces_per_svgm": 0.4126,
+    "df_per_svgm": 0.3381,
+    "bp_saved": 0.5248,
+    "ret_pts_won": 0.3917,
+    "ret_1st_won": 0.3185,
+    "ret_2nd_won": 0.5236,
+    "ret_games_won": 0.25,
+    "bp_conv": 0.4064,
+    "bp_chances_per_retgm": 0.6152,
+    "matches_with_stats": 34
+   },
+   "rank_history": [
+    [
+     "2026-01-12",
+     56.0
+    ],
+    [
+     "2026-01-19",
+     59.0
+    ],
+    [
+     "2026-02-01",
+     47.0
+    ],
+    [
+     "2026-02-08",
+     46.0
+    ],
+    [
+     "2026-02-23",
+     36.0
+    ],
+    [
+     "2026-03-04",
+     39.0
+    ],
+    [
+     "2026-03-17",
+     40.0
+    ],
+    [
+     "2026-03-30",
+     41.0
+    ],
+    [
+     "2026-04-21",
+     39.0
+    ],
+    [
+     "2026-05-05",
+     40.0
+    ],
+    [
+     "2026-05-18",
+     41.0
+    ],
+    [
+     "2026-05-25",
+     40.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:222866",
+   "name": "Katherine Hui",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 872.0,
+   "age": 21.685831622176593,
+   "elo": 1459.8,
+   "surface_elo": {
+    "Hard": 1476.4,
+    "Clay": 1475.2,
+    "Grass": 1500.0
+   },
+   "matches_total": 2,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    2
+   ],
+   "last10": [
+    0,
+    2
+   ],
+   "last20": [
+    0,
+    2
+   ],
+   "last52w": [
+    0,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    5,
+    12
+   ],
+   "sets_won_lost_52w": [
+    0,
+    2
+   ],
+   "avg_opp_elo_last20": 1783.8,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.005,
+   "return_rating": 0.0014,
+   "form_elo": -4.4,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2024-02-26",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-02-26",
+     872.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "991f60d5d42e10a3",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Katherine Hui: sparse record (2 tour matches, 0 with serve stats in 52w)",
+  "Katherine Hui: latest point-level stats are 981 days old (2024-02-26)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Katherine Hui: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 165.3,
+  "components_elo": {
+   "surface_elo": 192.0,
+   "overall_elo": 216.3,
+   "serve_return": 260.1,
+   "form": 18.7
+  },
+  "weighted_contributions": {
+   "surface_elo": 23.5,
+   "overall_elo": 51.1,
+   "serve_return": 90.8,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.7214,
+  "serve_return_implied_spw": {
+   "A": 0.6387,
+   "B": 0.5684
+  },
+  "point_probs": {
+   "A_serve": 0.6377,
+   "B_serve": 0.5694
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6377122616232582,
+   "B_serve": 0.5694265009374931
+  },
+  "hold_probs": {
+   "A": 0.8086,
+   "B": 0.6687
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.716,
+   0.7194
+  ],
+  "p_tb": [
+   0.2969,
+   0.2962
+  ],
+  "p_decider": [
+   0.34,
+   0.3404
+  ],
+  "games_mean": [
+   22.49,
+   22.488
+  ],
+  "exp_breaks": [
+   6.015,
+   6.009
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1528,
+    0.1506
+   ],
+   "1-2": [
+    0.1312,
+    0.13
+   ],
+   "2-0": [
+    0.5072,
+    0.509
+   ],
+   "2-1": [
+    0.2088,
+    0.2104
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0034
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Janice Tjen",
+   "elo_points": 90.8,
+   "raw_diff": 260.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Janice Tjen",
+   "elo_points": 51.1,
+   "raw_diff": 216.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Janice Tjen",
+   "elo_points": 23.5,
+   "raw_diff": 192.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6377,
+   "B": 0.5694,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Janice Tjen to win at least one set",
+  "probability": 0.8472,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-554"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Katherine Hui: sparse record (2 tour matches, 0 with serve stats in 52w); Katherine Hui: latest point-level stats are 981 days old (2024-02-26)",
+  "candidates": [
+   {
+    "selection": "Janice Tjen to win at least one set",
+    "probability": 0.8472,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "Janice Tjen to win",
+    "probability": 0.716,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7031,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6762,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.66,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6522,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Janice Tjen -2.5 games",
+    "probability": 0.6296,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5924,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Katherine Hui +4.5 games",
+    "probability": 0.5461,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5226,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Exact sets Janice Tjen 2-0 Katherine Hui",
+    "probability": 0.5072,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Katherine Hui to win at least one set",
+    "probability": 0.4928,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4774,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Janice Tjen -4.5 games",
+    "probability": 0.4539,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4076,
+    "fair_decimal": 2.45
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T14:54:27+00:00",
+  "version": 2,
+  "input_hash": "29cecff24263e8c2",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186586",
+  "scheduled_start_utc": "2026-11-03T07:00Z"
+ }
+}
