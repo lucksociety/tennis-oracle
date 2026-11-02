@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.3225,
+  "B": 0.6775
+ },
+ "win_prob_exact": {
+  "A": 0.3225,
+  "B": 0.6775
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.1,
+   "american": "+210"
+  },
+  "B": {
+   "decimal": 1.48,
+   "american": "-210"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4716,
+  "1-2": 0.2059,
+  "2-0": 0.1822,
+  "2-1": 0.1403
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0213,
+ "games": {
+  "mean": 22.07,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00386,
+   "13": 0.01595,
+   "14": 0.03335,
+   "15": 0.05457,
+   "16": 0.07628,
+   "17": 0.08729,
+   "18": 0.08505,
+   "19": 0.07701,
+   "20": 0.06688,
+   "21": 0.04808,
+   "22": 0.05581,
+   "23": 0.03777,
+   "24": 0.02068,
+   "25": 0.03535,
+   "26": 0.03884,
+   "27": 0.03633,
+   "28": 0.03761,
+   "29": 0.03952,
+   "30": 0.0361,
+   "31": 0.03292,
+   "32": 0.02764,
+   "33": 0.01772,
+   "34": 0.01304,
+   "35": 0.012,
+   "36": 0.00544,
+   "37": 0.00185,
+   "38": 0.00204,
+   "39": 0.00102
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00351,
+  "-11": 0.01386,
+  "-10": 0.02886,
+  "-9": 0.04677,
+  "-8": 0.06983,
+  "-7": 0.08922,
+  "-6": 0.09944,
+  "-5": 0.09891,
+  "-4": 0.08829,
+  "-3": 0.06086,
+  "-2": 0.03943,
+  "-1": 0.02803,
+  "0": 0.02403,
+  "1": 0.02495,
+  "2": 0.02992,
+  "3": 0.04105,
+  "4": 0.05257,
+  "5": 0.0489,
+  "6": 0.04165,
+  "7": 0.03172,
+  "8": 0.0194,
+  "9": 0.01092,
+  "10": 0.00534,
+  "11": 0.00219,
+  "12": 0.00035
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7287,
+   "under": 0.2713
+  },
+  {
+   "line": 18.5,
+   "over": 0.6437,
+   "under": 0.3564
+  },
+  {
+   "line": 19.5,
+   "over": 0.5666,
+   "under": 0.4334
+  },
+  {
+   "line": 20.5,
+   "over": 0.4998,
+   "under": 0.5002
+  },
+  {
+   "line": 21.5,
+   "over": 0.4517,
+   "under": 0.5483
+  },
+  {
+   "line": 22.5,
+   "over": 0.3959,
+   "under": 0.6041
+  },
+  {
+   "line": 23.5,
+   "over": 0.3581,
+   "under": 0.6419
+  },
+  {
+   "line": 24.5,
+   "over": 0.3374,
+   "under": 0.6626
+  },
+  {
+   "line": 25.5,
+   "over": 0.3021,
+   "under": 0.6979
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.284,
+   "B +1.5": 0.716,
+   "B -1.5": 0.639,
+   "A +1.5": 0.361
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2541,
+   "B +2.5": 0.7459,
+   "B -2.5": 0.5996,
+   "A +2.5": 0.4004
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.213,
+   "B +3.5": 0.787,
+   "B -3.5": 0.5387,
+   "A +3.5": 0.4613
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1605,
+   "B +4.5": 0.8395,
+   "B -4.5": 0.4504,
+   "A +4.5": 0.5496
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1116,
+   "B +5.5": 0.8884,
+   "B -5.5": 0.3515,
+   "A +5.5": 0.6485
+  }
+ ],
+ "p_tiebreak": 0.2412,
+ "p_a_wins_set": 0.5284,
+ "p_b_wins_set": 0.8177,
+ "p_decider": 0.3462,
+ "expected_breaks": {
+  "total": 8.07,
+  "by_A": 3.46,
+  "by_B": 4.61
+ },
+ "expected_break_points": {
+  "A_creates": 7.94,
+  "B_creates": 9.6
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4716
+ },
+ "match": "Tamara Zidansek vs Bianca Andreescu",
+ "players": {
+  "A": {
+   "id": "wta:214461",
+   "name": "Tamara Zidansek",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 153.0,
+   "age": 28.852908966461328,
+   "elo": 1607.6,
+   "surface_elo": {
+    "Hard": 1516.8,
+    "Clay": 1642.4,
+    "Grass": 1462.2
+   },
+   "matches_total": 201,
+   "matches_surface": {
+    "Hard": 102,
+    "Clay": 86,
+    "Grass": 13
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    12,
+    11
+   ],
+   "last52w_surface": [
+    7,
+    6
+   ],
+   "career_surface_wl": [
+    48,
+    38
+   ],
+   "games_won_lost_52w": [
+    282,
+    267
+   ],
+   "sets_won_lost_52w": [
+    29,
+    27
+   ],
+   "avg_opp_elo_last20": 1630.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0979,
+   "return_rating": 0.0822,
+   "form_elo": 15.3,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-10-17",
+   "stats_52w": {
+    "first_in": 0.6252,
+    "first_won": 0.5857,
+    "second_won": 0.495,
+    "serve_pts_won": 0.5517,
+    "hold": 0.6103,
+    "aces_per_svgm": 0.1268,
+    "df_per_svgm": 0.3615,
+    "bp_saved": 0.544,
+    "ret_pts_won": 0.448,
+    "ret_1st_won": 0.3782,
+    "ret_2nd_won": 0.5736,
+    "ret_games_won": 0.4238,
+    "bp_conv": 0.4972,
+    "bp_chances_per_retgm": 0.8524,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2023-07-24",
+     133.0
+    ],
+    [
+     "2023-10-16",
+     96.0
+    ],
+    [
+     "2023-11-07",
+     100.0
+    ],
+    [
+     "2024-01-15",
+     98.0
+    ],
+    [
+     "2024-01-29",
+     97.0
+    ],
+    [
+     "2024-04-01",
+     127.0
+    ],
+    [
+     "2024-05-27",
+     131.0
+    ],
+    [
+     "2024-09-16",
+     261.0
+    ],
+    [
+     "2024-10-28",
+     192.0
+    ],
+    [
+     "2024-11-15",
+     182.0
+    ],
+    [
+     "2025-01-13",
+     180.0
+    ],
+    [
+     "2026-02-01",
+     153.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.298288843258042,
+   "elo": 1804.8,
+   "surface_elo": {
+    "Hard": 1704.7,
+    "Clay": 1826.2,
+    "Grass": 1620.5
+   },
+   "matches_total": 209,
+   "matches_surface": {
+    "Hard": 129,
+    "Clay": 42,
+    "Grass": 38
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    10,
+    0
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    20,
+    11
+   ],
+   "last52w_surface": [
+    7,
+    2
+   ],
+   "career_surface_wl": [
+    27,
+    15
+   ],
+   "games_won_lost_52w": [
+    365,
+    292
+   ],
+   "sets_won_lost_52w": [
+    44,
+    26
+   ],
+   "avg_opp_elo_last20": 1644.0,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.2549,
+   "return_rating": 0.1132,
+   "form_elo": 125.5,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-10-18",
+   "stats_52w": {
+    "first_in": 0.6175,
+    "first_won": 0.6645,
+    "second_won": 0.4625,
+    "serve_pts_won": 0.5873,
+    "hold": 0.7033,
+    "aces_per_svgm": 0.4011,
+    "df_per_svgm": 0.3187,
+    "bp_saved": 0.5781,
+    "ret_pts_won": 0.4509,
+    "ret_1st_won": 0.3982,
+    "ret_2nd_won": 0.5448,
+    "ret_games_won": 0.4012,
+    "bp_conv": 0.4481,
+    "bp_chances_per_retgm": 0.8953,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "0b2b8055451ae775",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -129.4,
+  "components_elo": {
+   "surface_elo": -183.8,
+   "overall_elo": -197.2,
+   "serve_return": -173.3,
+   "form": -110.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -22.5,
+   "overall_elo": -46.6,
+   "serve_return": -60.5,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.322,
+  "serve_return_implied_spw": {
+   "A": 0.5335,
+   "B": 0.5798
+  },
+  "point_probs": {
+   "A_serve": 0.5297,
+   "B_serve": 0.5835
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5297449885634019,
+   "B_serve": 0.5834863965546612
+  },
+  "hold_probs": {
+   "A": 0.574,
+   "B": 0.7003
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3225,
+   0.3246
+  ],
+  "p_tb": [
+   0.2412,
+   0.2413
+  ],
+  "p_decider": [
+   0.3462,
+   0.3483
+  ],
+  "games_mean": [
+   22.069,
+   22.077
+  ],
+  "exp_breaks": [
+   8.07,
+   8.061
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4716,
+    0.4695
+   ],
+   "1-2": [
+    0.2059,
+    0.2059
+   ],
+   "2-0": [
+    0.1822,
+    0.1822
+   ],
+   "2-1": [
+    0.1403,
+    0.1424
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": -60.5,
+   "raw_diff": -173.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -46.6,
+   "raw_diff": -197.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -22.5,
+   "raw_diff": -183.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.495,
+   "B": 0.4625,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.448,
+   "B": 0.4509,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5297,
+   "B": 0.5835,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win at least one set",
+  "probability": 0.8177,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-449"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.8177,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7588,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.6775,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6626,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6538,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6437,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6041,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.5996,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Tamara Zidansek +4.5 games",
+    "probability": 0.5496,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Tamara Zidansek to win at least one set",
+    "probability": 0.5284,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5002,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4998,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Exact sets Tamara Zidansek 0-2 Bianca Andreescu",
+    "probability": 0.4716,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Bianca Andreescu -4.5 games",
+    "probability": 0.4504,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Tamara Zidansek +2.5 games",
+    "probability": 0.4004,
+    "fair_decimal": 2.5
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T18:22:44+00:00",
+  "version": 3,
+  "input_hash": "ae86bd92c5545bcb",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186716",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

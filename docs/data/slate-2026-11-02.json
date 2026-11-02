@@ -1,7 +1,7 @@
 {
  "date": "2026-11-02",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-02T14:53:15+00:00",
+ "generated_at_utc": "2026-11-02T18:22:31+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -2142,8 +2142,8 @@
    "round": "Round 1",
    "court": "Court 2",
    "start_utc": "2026-11-02T13:35Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Daniel Merida",
@@ -2159,7 +2159,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": null
   },
   {
@@ -2170,8 +2182,8 @@
    "round": "Round 1",
    "court": "Court 1",
    "start_utc": "2026-11-02T13:50Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Cameron Norrie",
@@ -2187,7 +2199,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-01T06:05:46+00:00",
@@ -2309,8 +2337,8 @@
    "round": "Round 1",
    "court": "Court Central",
    "start_utc": "2026-11-02T14:00Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Casper Ruud",
@@ -2326,7 +2354,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-01T20:32:12+00:00",
@@ -2447,9 +2487,9 @@
    "venue": "Paris, France",
    "round": "Round 1",
    "court": "Court 2",
-   "start_utc": "2026-11-02T15:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-02T15:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Mattia Bellucci",
@@ -2465,7 +2505,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:52:50+00:00",
@@ -2576,141 +2628,6 @@
    }
   },
   {
-   "espn_id": "186460",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Round 1",
-   "court": "Court 1",
-   "start_utc": "2026-11-02T15:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Kyrian Jacquet",
-     "id": "atp:208021"
-    },
-    {
-     "name": "Tomas Machac",
-     "id": "atp:207830"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-02T14:52:53+00:00",
-    "path": "forecasts/2026-11-02/186460-kyrian-jacquet-vs-tomas-machac/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Tomas Machac",
-    "win_prob": {
-     "A": 0.4484,
-     "B": 0.5516
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3435
-    },
-    "games_mean": 24.15,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.7955,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4484,
-      "B": 0.5516
-     },
-     "set_score_probs": {
-      "0-2": 0.3435,
-      "2-0": 0.2616,
-      "1-2": 0.2081,
-      "2-1": 0.1868
-     },
-     "games_pmf": {
-      "12": 0.00047,
-      "13": 0.00343,
-      "14": 0.00881,
-      "15": 0.02253,
-      "16": 0.03747,
-      "17": 0.06256,
-      "18": 0.06921,
-      "19": 0.08006,
-      "20": 0.07645,
-      "21": 0.0525,
-      "22": 0.08108,
-      "23": 0.06225,
-      "24": 0.01208,
-      "25": 0.03409,
-      "26": 0.0495,
-      "27": 0.02973,
-      "28": 0.03491,
-      "29": 0.03684,
-      "30": 0.0397,
-      "31": 0.04605,
-      "32": 0.04541,
-      "33": 0.02856,
-      "34": 0.02066,
-      "35": 0.03009,
-      "36": 0.01912,
-      "37": 0.00258,
-      "38": 0.00658,
-      "39": 0.00728
-     },
-     "games_diff_pmf": {
-      "-12": 0.00032,
-      "-11": 0.00223,
-      "-10": 0.00557,
-      "-9": 0.015,
-      "-8": 0.02623,
-      "-7": 0.04888,
-      "-6": 0.06604,
-      "-5": 0.0897,
-      "-4": 0.10139,
-      "-3": 0.08303,
-      "-2": 0.05863,
-      "-1": 0.03714,
-      "0": 0.0345,
-      "1": 0.03647,
-      "2": 0.05372,
-      "3": 0.07221,
-      "4": 0.08533,
-      "5": 0.06972,
-      "6": 0.04894,
-      "7": 0.03408,
-      "8": 0.01717,
-      "9": 0.00887,
-      "10": 0.00346,
-      "11": 0.00122,
-      "12": 0.00015
-     },
-     "p_tiebreak": 0.4227,
-     "p_decider": 0.3949
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
    "espn_id": "186665",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
@@ -2718,8 +2635,8 @@
    "round": "Round 1",
    "court": "Lwena Court",
    "start_utc": "2026-11-02T15:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Diana Martynov",
@@ -2735,7 +2652,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:52:55+00:00",
@@ -2848,23 +2777,23 @@
    }
   },
   {
-   "espn_id": "186459",
+   "espn_id": "186460",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Round 1",
    "court": "Court 1",
-   "start_utc": "2026-11-02T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-02T15:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
-     "name": "Alex Molcan",
-     "id": "atp:144684"
+     "name": "Kyrian Jacquet",
+     "id": "atp:208021"
     },
     {
-     "name": "Titouan Droguet",
-     "id": "atp:208169"
+     "name": "Tomas Machac",
+     "id": "atp:207830"
     }
    ],
    "surface": "Hard",
@@ -2872,31 +2801,43 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
-    "frozen_at_utc": "2026-11-02T14:52:57+00:00",
-    "path": "forecasts/2026-11-02/186459-alex-molcan-vs-titouan-droguet/v2.json",
+    "frozen_at_utc": "2026-11-02T14:52:53+00:00",
+    "path": "forecasts/2026-11-02/186460-kyrian-jacquet-vs-tomas-machac/v2.json",
     "model_version": "v1.1",
-    "predicted_winner": "Alex Molcan",
+    "predicted_winner": "Tomas Machac",
     "win_prob": {
-     "A": 0.6596,
-     "B": 0.3404
+     "A": 0.4484,
+     "B": 0.5516
     },
-    "most_likely_set_score": "2-0",
+    "most_likely_set_score": "0-2",
     "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
+     "A_sets": 0,
+     "B_sets": 2,
      "sets": [
-      "6-3",
-      "6-4"
+      "4-6",
+      "4-6"
      ],
-     "prob": 0.4402
+     "prob": 0.3435
     },
-    "games_mean": 23.94,
+    "games_mean": 24.15,
     "strongest": {
-     "selection": "Alex Molcan to win at least one set",
-     "probability": 0.8134,
+     "selection": "Over 18.5 games",
+     "probability": 0.7955,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2905,81 +2846,81 @@
      "reasons": [],
      "policy": "current-performance-v1"
     },
-    "games_projected": 22.0,
+    "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.6596,
-      "B": 0.3404
+      "A": 0.4484,
+      "B": 0.5516
      },
      "set_score_probs": {
-      "2-0": 0.4402,
-      "2-1": 0.2194,
-      "0-2": 0.1866,
-      "1-2": 0.1537
+      "0-2": 0.3435,
+      "2-0": 0.2616,
+      "1-2": 0.2081,
+      "2-1": 0.1868
      },
      "games_pmf": {
-      "12": 0.0007,
-      "13": 0.00376,
-      "14": 0.01051,
-      "15": 0.0244,
-      "16": 0.04028,
-      "17": 0.06562,
-      "18": 0.07212,
-      "19": 0.08446,
-      "20": 0.07706,
-      "21": 0.05085,
-      "22": 0.08301,
-      "23": 0.06373,
-      "24": 0.01088,
-      "25": 0.03357,
-      "26": 0.04877,
-      "27": 0.02509,
-      "28": 0.03202,
-      "29": 0.03618,
-      "30": 0.03523,
-      "31": 0.04255,
-      "32": 0.04381,
-      "33": 0.02805,
-      "34": 0.02027,
-      "35": 0.03025,
-      "36": 0.02017,
-      "37": 0.00225,
-      "38": 0.0066,
-      "39": 0.00781
+      "12": 0.00047,
+      "13": 0.00343,
+      "14": 0.00881,
+      "15": 0.02253,
+      "16": 0.03747,
+      "17": 0.06256,
+      "18": 0.06921,
+      "19": 0.08006,
+      "20": 0.07645,
+      "21": 0.0525,
+      "22": 0.08108,
+      "23": 0.06225,
+      "24": 0.01208,
+      "25": 0.03409,
+      "26": 0.0495,
+      "27": 0.02973,
+      "28": 0.03491,
+      "29": 0.03684,
+      "30": 0.0397,
+      "31": 0.04605,
+      "32": 0.04541,
+      "33": 0.02856,
+      "34": 0.02066,
+      "35": 0.03009,
+      "36": 0.01912,
+      "37": 0.00258,
+      "38": 0.00658,
+      "39": 0.00728
      },
      "games_diff_pmf": {
-      "-12": 0.0001,
-      "-11": 0.00046,
-      "-10": 0.00163,
-      "-9": 0.00458,
-      "-8": 0.00912,
-      "-7": 0.02044,
-      "-6": 0.0315,
-      "-5": 0.05025,
-      "-4": 0.06449,
-      "-3": 0.06052,
-      "-2": 0.04607,
-      "-1": 0.03241,
-      "0": 0.03408,
-      "1": 0.03716,
-      "2": 0.06203,
-      "3": 0.09305,
-      "4": 0.12037,
-      "5": 0.10959,
-      "6": 0.08573,
-      "7": 0.06561,
-      "8": 0.03655,
-      "9": 0.02117,
-      "10": 0.00916,
-      "11": 0.00333,
-      "12": 0.0006
+      "-12": 0.00032,
+      "-11": 0.00223,
+      "-10": 0.00557,
+      "-9": 0.015,
+      "-8": 0.02623,
+      "-7": 0.04888,
+      "-6": 0.06604,
+      "-5": 0.0897,
+      "-4": 0.10139,
+      "-3": 0.08303,
+      "-2": 0.05863,
+      "-1": 0.03714,
+      "0": 0.0345,
+      "1": 0.03647,
+      "2": 0.05372,
+      "3": 0.07221,
+      "4": 0.08533,
+      "5": 0.06972,
+      "6": 0.04894,
+      "7": 0.03408,
+      "8": 0.01717,
+      "9": 0.00887,
+      "10": 0.00346,
+      "11": 0.00122,
+      "12": 0.00015
      },
-     "p_tiebreak": 0.4234,
-     "p_decider": 0.3732
+     "p_tiebreak": 0.4227,
+     "p_decider": 0.3949
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0027
+    "cross_check_max_diff": 0.0029
    }
   },
   {
@@ -2989,8 +2930,8 @@
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 3",
-   "start_utc": "2026-11-02T16:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-02T16:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -3124,9 +3065,9 @@
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 1",
-   "start_utc": "2026-11-02T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-02T16:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Maria Camila Torres Murcia",
@@ -3142,7 +3083,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:53:01+00:00",
@@ -3256,14 +3209,149 @@
    }
   },
   {
+   "espn_id": "186459",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Round 1",
+   "court": "Court 1",
+   "start_utc": "2026-11-02T17:35Z",
+   "status": "STATUS_IN_PROGRESS",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alex Molcan",
+     "id": "atp:144684"
+    },
+    {
+     "name": "Titouan Droguet",
+     "id": "atp:208169"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-02T14:52:57+00:00",
+    "path": "forecasts/2026-11-02/186459-alex-molcan-vs-titouan-droguet/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alex Molcan",
+    "win_prob": {
+     "A": 0.6596,
+     "B": 0.3404
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.4402
+    },
+    "games_mean": 23.94,
+    "strongest": {
+     "selection": "Alex Molcan to win at least one set",
+     "probability": 0.8134,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6596,
+      "B": 0.3404
+     },
+     "set_score_probs": {
+      "2-0": 0.4402,
+      "2-1": 0.2194,
+      "0-2": 0.1866,
+      "1-2": 0.1537
+     },
+     "games_pmf": {
+      "12": 0.0007,
+      "13": 0.00376,
+      "14": 0.01051,
+      "15": 0.0244,
+      "16": 0.04028,
+      "17": 0.06562,
+      "18": 0.07212,
+      "19": 0.08446,
+      "20": 0.07706,
+      "21": 0.05085,
+      "22": 0.08301,
+      "23": 0.06373,
+      "24": 0.01088,
+      "25": 0.03357,
+      "26": 0.04877,
+      "27": 0.02509,
+      "28": 0.03202,
+      "29": 0.03618,
+      "30": 0.03523,
+      "31": 0.04255,
+      "32": 0.04381,
+      "33": 0.02805,
+      "34": 0.02027,
+      "35": 0.03025,
+      "36": 0.02017,
+      "37": 0.00225,
+      "38": 0.0066,
+      "39": 0.00781
+     },
+     "games_diff_pmf": {
+      "-12": 0.0001,
+      "-11": 0.00046,
+      "-10": 0.00163,
+      "-9": 0.00458,
+      "-8": 0.00912,
+      "-7": 0.02044,
+      "-6": 0.0315,
+      "-5": 0.05025,
+      "-4": 0.06449,
+      "-3": 0.06052,
+      "-2": 0.04607,
+      "-1": 0.03241,
+      "0": 0.03408,
+      "1": 0.03716,
+      "2": 0.06203,
+      "3": 0.09305,
+      "4": 0.12037,
+      "5": 0.10959,
+      "6": 0.08573,
+      "7": 0.06561,
+      "8": 0.03655,
+      "9": 0.02117,
+      "10": 0.00916,
+      "11": 0.00333,
+      "12": 0.0006
+     },
+     "p_tiebreak": 0.4234,
+     "p_decider": 0.3732
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0027
+   }
+  },
+  {
    "espn_id": "186709",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 1",
-   "start_utc": "2026-11-02T17:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-02T17:50Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -3393,148 +3481,13 @@
    }
   },
   {
-   "espn_id": "186712",
-   "tour": "wta",
-   "tournament": "Reto Win Tennis Cali Open",
-   "venue": "Cali, Colombia",
-   "round": "Round 1",
-   "court": "Campo 3",
-   "start_utc": "2026-11-02T17:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Selena Janicijevic",
-     "id": "wta:221911"
-    },
-    {
-     "name": "Solana Sierra",
-     "id": "wta:221333"
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-02T14:53:06+00:00",
-    "path": "forecasts/2026-11-02/186712-selena-janicijevic-vs-solana-sierra/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Solana Sierra",
-    "win_prob": {
-     "A": 0.4141,
-     "B": 0.5859
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.3859
-    },
-    "games_mean": 22.21,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7672,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4141,
-      "B": 0.5859
-     },
-     "set_score_probs": {
-      "0-2": 0.3859,
-      "2-0": 0.2481,
-      "1-2": 0.2,
-      "2-1": 0.166
-     },
-     "games_pmf": {
-      "12": 0.00335,
-      "13": 0.01367,
-      "14": 0.03099,
-      "15": 0.05329,
-      "16": 0.07476,
-      "17": 0.08465,
-      "18": 0.08322,
-      "19": 0.07649,
-      "20": 0.06535,
-      "21": 0.04842,
-      "22": 0.05608,
-      "23": 0.03669,
-      "24": 0.02271,
-      "25": 0.0386,
-      "26": 0.04018,
-      "27": 0.03945,
-      "28": 0.04126,
-      "29": 0.04103,
-      "30": 0.03732,
-      "31": 0.03378,
-      "32": 0.02741,
-      "33": 0.01744,
-      "34": 0.01332,
-      "35": 0.01114,
-      "36": 0.00503,
-      "37": 0.00157,
-      "38": 0.00192,
-      "39": 0.00088
-     },
-     "games_diff_pmf": {
-      "-12": 0.00261,
-      "-11": 0.00971,
-      "-10": 0.02186,
-      "-9": 0.03781,
-      "-8": 0.05733,
-      "-7": 0.07474,
-      "-6": 0.08427,
-      "-5": 0.08525,
-      "-4": 0.07809,
-      "-3": 0.05567,
-      "-2": 0.03793,
-      "-1": 0.02873,
-      "0": 0.02554,
-      "1": 0.0274,
-      "2": 0.03294,
-      "3": 0.04569,
-      "4": 0.06271,
-      "5": 0.06236,
-      "6": 0.05719,
-      "7": 0.04678,
-      "8": 0.03181,
-      "9": 0.0189,
-      "10": 0.00988,
-      "11": 0.00406,
-      "12": 0.00074
-     },
-     "p_tiebreak": 0.2328,
-     "p_decider": 0.3659
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0016
-   }
-  },
-  {
    "espn_id": "186466",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Round 1",
    "court": "Court Central",
-   "start_utc": "2026-11-02T18:00Z",
+   "start_utc": "2026-11-02T18:20Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -3663,23 +3616,23 @@
    }
   },
   {
-   "espn_id": "186713",
+   "espn_id": "186712",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 3",
-   "start_utc": "2026-11-02T19:00Z",
+   "start_utc": "2026-11-02T18:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "Polona Hercog",
-     "id": "wta:201555"
+     "name": "Selena Janicijevic",
+     "id": "wta:221911"
     },
     {
-     "name": "Leyre Romero Gormaz",
-     "id": "wta:220742"
+     "name": "Solana Sierra",
+     "id": "wta:221333"
     }
    ],
    "surface": "Clay",
@@ -3689,29 +3642,29 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-02T14:53:11+00:00",
-    "path": "forecasts/2026-11-02/186713-polona-hercog-vs-leyre-romero-gormaz/v2.json",
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-02T18:22:28+00:00",
+    "path": "forecasts/2026-11-02/186712-selena-janicijevic-vs-solana-sierra/v3.json",
     "model_version": "v1.1",
-    "predicted_winner": "Polona Hercog",
+    "predicted_winner": "Solana Sierra",
     "win_prob": {
-     "A": 0.546,
-     "B": 0.454
+     "A": 0.4129,
+     "B": 0.5871
     },
-    "most_likely_set_score": "2-0",
+    "most_likely_set_score": "0-2",
     "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
+     "A_sets": 0,
+     "B_sets": 2,
      "sets": [
-      "6-4",
-      "6-4"
+      "3-6",
+      "2-6"
      ],
-     "prob": 0.351
+     "prob": 0.3883
     },
-    "games_mean": 22.48,
+    "games_mean": 22.2,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7493,
+     "probability": 0.7666,
      "confidence": "Medium"
     },
     "data_quality": "MEDIUM",
@@ -3723,78 +3676,78 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.546,
-      "B": 0.454
+      "A": 0.4129,
+      "B": 0.5871
      },
      "set_score_probs": {
-      "2-0": 0.351,
-      "0-2": 0.2746,
-      "2-1": 0.1951,
-      "1-2": 0.1794
+      "0-2": 0.3883,
+      "2-0": 0.2484,
+      "1-2": 0.1988,
+      "2-1": 0.1645
      },
      "games_pmf": {
-      "12": 0.0025,
-      "13": 0.0116,
-      "14": 0.02691,
-      "15": 0.04748,
-      "16": 0.06954,
-      "17": 0.08309,
-      "18": 0.08365,
-      "19": 0.07689,
-      "20": 0.06618,
-      "21": 0.04978,
-      "22": 0.05817,
-      "23": 0.03854,
-      "24": 0.02283,
-      "25": 0.03829,
-      "26": 0.04149,
-      "27": 0.03945,
-      "28": 0.04069,
-      "29": 0.04176,
-      "30": 0.03982,
-      "31": 0.03403,
-      "32": 0.0295,
-      "33": 0.01956,
-      "34": 0.01473,
-      "35": 0.01311,
-      "36": 0.00531,
-      "37": 0.00185,
-      "38": 0.00231,
-      "39": 0.00094
+      "12": 0.00332,
+      "13": 0.01364,
+      "14": 0.03127,
+      "15": 0.05204,
+      "16": 0.07345,
+      "17": 0.08714,
+      "18": 0.08384,
+      "19": 0.07635,
+      "20": 0.06724,
+      "21": 0.04915,
+      "22": 0.05451,
+      "23": 0.03687,
+      "24": 0.02281,
+      "25": 0.03809,
+      "26": 0.04065,
+      "27": 0.03792,
+      "28": 0.04051,
+      "29": 0.04148,
+      "30": 0.03708,
+      "31": 0.03307,
+      "32": 0.02837,
+      "33": 0.01762,
+      "34": 0.01277,
+      "35": 0.01117,
+      "36": 0.00491,
+      "37": 0.00193,
+      "38": 0.00194,
+      "39": 0.00086
      },
      "games_diff_pmf": {
-      "-12": 0.00105,
-      "-11": 0.00441,
-      "-10": 0.01101,
-      "-9": 0.02095,
-      "-8": 0.03451,
-      "-7": 0.0499,
-      "-6": 0.06375,
-      "-5": 0.07111,
-      "-4": 0.06909,
-      "-3": 0.05037,
-      "-2": 0.03544,
-      "-1": 0.02848,
-      "0": 0.02698,
-      "1": 0.02942,
-      "2": 0.03843,
-      "3": 0.05627,
-      "4": 0.07843,
-      "5": 0.081,
-      "6": 0.07925,
-      "7": 0.06747,
-      "8": 0.0475,
-      "9": 0.02968,
-      "10": 0.01674,
-      "11": 0.00731,
-      "12": 0.00145
+      "-12": 0.00258,
+      "-11": 0.00979,
+      "-10": 0.0222,
+      "-9": 0.03652,
+      "-8": 0.05638,
+      "-7": 0.0768,
+      "-6": 0.08528,
+      "-5": 0.08499,
+      "-4": 0.07901,
+      "-3": 0.05454,
+      "-2": 0.0364,
+      "-1": 0.02893,
+      "0": 0.02667,
+      "1": 0.02725,
+      "2": 0.03269,
+      "3": 0.04598,
+      "4": 0.0616,
+      "5": 0.06202,
+      "6": 0.05779,
+      "7": 0.04776,
+      "8": 0.03129,
+      "9": 0.01875,
+      "10": 0.01004,
+      "11": 0.004,
+      "12": 0.00074
      },
-     "p_tiebreak": 0.2507,
-     "p_decider": 0.3744
+     "p_tiebreak": 0.2334,
+     "p_decider": 0.3633
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0015
+    "cross_check_max_diff": 0.0035
    }
   },
   {
@@ -3824,14 +3777,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-02T14:53:13+00:00",
-    "path": "forecasts/2026-11-02/186715-laura-samson-vs-yuliana-lizarazo/v2.json",
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-02T18:22:30+00:00",
+    "path": "forecasts/2026-11-02/186715-laura-samson-vs-yuliana-lizarazo/v3.json",
     "model_version": "v1.1",
     "predicted_winner": "Laura Samson",
     "win_prob": {
-     "A": 0.7914,
-     "B": 0.2086
+     "A": 0.7901,
+     "B": 0.2099
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -3841,12 +3794,12 @@
       "6-2",
       "6-2"
      ],
-     "prob": 0.6011
+     "prob": 0.5998
     },
-    "games_mean": 20.88,
+    "games_mean": 20.87,
     "strongest": {
      "selection": "Laura Samson to win at least one set",
-     "probability": 0.8918,
+     "probability": 0.8897,
      "confidence": "Low"
     },
     "data_quality": "LOW",
@@ -3861,78 +3814,78 @@
     "games_projected": 19.0,
     "dist": {
      "win_prob": {
-      "A": 0.7914,
-      "B": 0.2086
+      "A": 0.7901,
+      "B": 0.2099
      },
      "set_score_probs": {
-      "2-0": 0.6011,
+      "2-0": 0.5998,
       "2-1": 0.1903,
-      "0-2": 0.1082,
-      "1-2": 0.1004
+      "0-2": 0.1103,
+      "1-2": 0.0996
      },
      "games_pmf": {
-      "12": 0.00918,
-      "13": 0.02867,
-      "14": 0.0543,
-      "15": 0.07864,
-      "16": 0.0977,
-      "17": 0.09804,
-      "18": 0.0849,
-      "19": 0.07406,
-      "20": 0.05998,
-      "21": 0.04394,
-      "22": 0.04661,
-      "23": 0.02998,
-      "24": 0.0202,
-      "25": 0.0315,
-      "26": 0.03233,
-      "27": 0.03169,
-      "28": 0.03265,
-      "29": 0.03172,
-      "30": 0.03013,
-      "31": 0.02511,
-      "32": 0.02102,
-      "33": 0.01361,
-      "34": 0.00934,
-      "35": 0.00816,
-      "36": 0.00339,
-      "37": 0.00119,
-      "38": 0.00139,
-      "39": 0.00057
+      "12": 0.00935,
+      "13": 0.02862,
+      "14": 0.05448,
+      "15": 0.07822,
+      "16": 0.09719,
+      "17": 0.09756,
+      "18": 0.08556,
+      "19": 0.07362,
+      "20": 0.06087,
+      "21": 0.04344,
+      "22": 0.0477,
+      "23": 0.03,
+      "24": 0.02018,
+      "25": 0.03103,
+      "26": 0.03224,
+      "27": 0.0319,
+      "28": 0.03358,
+      "29": 0.03175,
+      "30": 0.0293,
+      "31": 0.02466,
+      "32": 0.02103,
+      "33": 0.01366,
+      "34": 0.00956,
+      "35": 0.0079,
+      "36": 0.00356,
+      "37": 0.0012,
+      "38": 0.00132,
+      "39": 0.00052
      },
      "games_diff_pmf": {
-      "-12": 0.00024,
-      "-11": 0.0011,
-      "-10": 0.00291,
-      "-9": 0.0068,
-      "-8": 0.01194,
-      "-7": 0.01898,
-      "-6": 0.02535,
-      "-5": 0.03105,
-      "-4": 0.03329,
-      "-3": 0.027,
-      "-2": 0.02115,
-      "-1": 0.01806,
-      "0": 0.01915,
-      "1": 0.02154,
-      "2": 0.03167,
-      "3": 0.05129,
-      "4": 0.08146,
-      "5": 0.10059,
-      "6": 0.1132,
-      "7": 0.11748,
-      "8": 0.10136,
-      "9": 0.07525,
-      "10": 0.05246,
-      "11": 0.02774,
-      "12": 0.00894
+      "-12": 0.00028,
+      "-11": 0.00093,
+      "-10": 0.00288,
+      "-9": 0.00637,
+      "-8": 0.01212,
+      "-7": 0.01883,
+      "-6": 0.02586,
+      "-5": 0.03149,
+      "-4": 0.03375,
+      "-3": 0.02627,
+      "-2": 0.02107,
+      "-1": 0.01866,
+      "0": 0.01925,
+      "1": 0.02219,
+      "2": 0.03149,
+      "3": 0.05134,
+      "4": 0.08369,
+      "5": 0.09845,
+      "6": 0.11268,
+      "7": 0.11607,
+      "8": 0.10101,
+      "9": 0.07561,
+      "10": 0.05277,
+      "11": 0.02787,
+      "12": 0.00907
      },
-     "p_tiebreak": 0.1895,
-     "p_decider": 0.2907
+     "p_tiebreak": 0.1871,
+     "p_decider": 0.29
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0016
+    "cross_check_max_diff": 0.0021
    }
   },
   {
@@ -4068,6 +4021,141 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0011
+   }
+  },
+  {
+   "espn_id": "186713",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Round 1",
+   "court": "Campo 3",
+   "start_utc": "2026-11-02T20:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Polona Hercog",
+     "id": "wta:201555"
+    },
+    {
+     "name": "Leyre Romero Gormaz",
+     "id": "wta:220742"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-02T18:22:31+00:00",
+    "path": "forecasts/2026-11-02/186713-polona-hercog-vs-leyre-romero-gormaz/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Polona Hercog",
+    "win_prob": {
+     "A": 0.5454,
+     "B": 0.4546
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3521
+    },
+    "games_mean": 22.46,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7497,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5454,
+      "B": 0.4546
+     },
+     "set_score_probs": {
+      "2-0": 0.3521,
+      "0-2": 0.2757,
+      "2-1": 0.1933,
+      "1-2": 0.1788
+     },
+     "games_pmf": {
+      "12": 0.0025,
+      "13": 0.01158,
+      "14": 0.02701,
+      "15": 0.04766,
+      "16": 0.06892,
+      "17": 0.08438,
+      "18": 0.08456,
+      "19": 0.07625,
+      "20": 0.06722,
+      "21": 0.04932,
+      "22": 0.05943,
+      "23": 0.0379,
+      "24": 0.02285,
+      "25": 0.03775,
+      "26": 0.04074,
+      "27": 0.03757,
+      "28": 0.04198,
+      "29": 0.0425,
+      "30": 0.03889,
+      "31": 0.03493,
+      "32": 0.02879,
+      "33": 0.01854,
+      "34": 0.01425,
+      "35": 0.01356,
+      "36": 0.00569,
+      "37": 0.0018,
+      "38": 0.00243,
+      "39": 0.001
+     },
+     "games_diff_pmf": {
+      "-12": 0.00105,
+      "-11": 0.00442,
+      "-10": 0.01093,
+      "-9": 0.02092,
+      "-8": 0.03485,
+      "-7": 0.05075,
+      "-6": 0.06346,
+      "-5": 0.069,
+      "-4": 0.06983,
+      "-3": 0.05153,
+      "-2": 0.0357,
+      "-1": 0.02863,
+      "0": 0.02752,
+      "1": 0.02883,
+      "2": 0.03768,
+      "3": 0.05608,
+      "4": 0.07907,
+      "5": 0.07962,
+      "6": 0.07982,
+      "7": 0.06814,
+      "8": 0.04703,
+      "9": 0.02958,
+      "10": 0.01687,
+      "11": 0.00724,
+      "12": 0.00145
+     },
+     "p_tiebreak": 0.2503,
+     "p_decider": 0.3722
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0023
    }
   }
  ]

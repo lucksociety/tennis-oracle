@@ -1,0 +1,615 @@
+{
+ "predicted_winner": "Carole Monnet",
+ "win_prob": {
+  "A": 0.5794,
+  "B": 0.4206
+ },
+ "win_prob_exact": {
+  "A": 0.57936,
+  "B": 0.42064
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.73,
+   "american": "-138"
+  },
+  "B": {
+   "decimal": 2.38,
+   "american": "+138"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3839,
+  "0-2": 0.2509,
+  "2-1": 0.1955,
+  "1-2": 0.1697
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-3"
+ ],
+ "representative_sets_prob": 0.0169,
+ "games": {
+  "mean": 22.14,
+  "median": 21.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.89,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00342,
+   "13": 0.01453,
+   "14": 0.03208,
+   "15": 0.05495,
+   "16": 0.07735,
+   "17": 0.08653,
+   "18": 0.08253,
+   "19": 0.07549,
+   "20": 0.0638,
+   "21": 0.04752,
+   "22": 0.0553,
+   "23": 0.03518,
+   "24": 0.02307,
+   "25": 0.0373,
+   "26": 0.04119,
+   "27": 0.03942,
+   "28": 0.04165,
+   "29": 0.04102,
+   "30": 0.0377,
+   "31": 0.03266,
+   "32": 0.02807,
+   "33": 0.01662,
+   "34": 0.01325,
+   "35": 0.01054,
+   "36": 0.00434,
+   "37": 0.00193,
+   "38": 0.00181,
+   "39": 0.00075
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00106,
+  "-11": 0.00444,
+  "-10": 0.01093,
+  "-9": 0.02028,
+  "-8": 0.03297,
+  "-7": 0.04851,
+  "-6": 0.05878,
+  "-5": 0.06233,
+  "-4": 0.06214,
+  "-3": 0.04531,
+  "-2": 0.03333,
+  "-1": 0.02742,
+  "0": 0.02581,
+  "1": 0.02682,
+  "2": 0.0366,
+  "3": 0.05292,
+  "4": 0.0776,
+  "5": 0.08295,
+  "6": 0.08345,
+  "7": 0.07479,
+  "8": 0.05847,
+  "9": 0.03841,
+  "10": 0.02206,
+  "11": 0.01026,
+  "12": 0.00236
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7311,
+   "under": 0.2689
+  },
+  {
+   "line": 18.5,
+   "over": 0.6486,
+   "under": 0.3514
+  },
+  {
+   "line": 19.5,
+   "over": 0.5731,
+   "under": 0.4269
+  },
+  {
+   "line": 20.5,
+   "over": 0.5093,
+   "under": 0.4907
+  },
+  {
+   "line": 21.5,
+   "over": 0.4618,
+   "under": 0.5382
+  },
+  {
+   "line": 22.5,
+   "over": 0.4065,
+   "under": 0.5935
+  },
+  {
+   "line": 23.5,
+   "over": 0.3713,
+   "under": 0.6287
+  },
+  {
+   "line": 24.5,
+   "over": 0.3482,
+   "under": 0.6517
+  },
+  {
+   "line": 25.5,
+   "over": 0.3109,
+   "under": 0.689
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5399,
+   "B +1.5": 0.4601,
+   "B -1.5": 0.3801,
+   "A +1.5": 0.6199
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5033,
+   "B +2.5": 0.4967,
+   "B -2.5": 0.3468,
+   "A +2.5": 0.6532
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4503,
+   "B +3.5": 0.5496,
+   "B -3.5": 0.3014,
+   "A +3.5": 0.6986
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3727,
+   "B +4.5": 0.6273,
+   "B -4.5": 0.2393,
+   "A +4.5": 0.7607
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2898,
+   "B +5.5": 0.7102,
+   "B -5.5": 0.177,
+   "A +5.5": 0.823
+  }
+ ],
+ "p_tiebreak": 0.2253,
+ "p_a_wins_set": 0.7491,
+ "p_b_wins_set": 0.6161,
+ "p_decider": 0.3653,
+ "expected_breaks": {
+  "total": 10.65,
+  "by_A": 5.59,
+  "by_B": 5.06
+ },
+ "expected_break_points": {
+  "A_creates": 10.87,
+  "B_creates": 10.21
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-3"
+  ],
+  "prob": 0.3839
+ },
+ "match": "Carole Monnet vs Maria Herazo Gonzalez",
+ "players": {
+  "A": {
+   "id": "wta:220733",
+   "name": "Carole Monnet",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 171.0,
+   "age": 24.8968514715948,
+   "elo": 1616.3,
+   "surface_elo": {
+    "Hard": 1448.9,
+    "Clay": 1633.6,
+    "Grass": 1430.9
+   },
+   "matches_total": 29,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 17,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    11,
+    12
+   ],
+   "last52w_surface": [
+    7,
+    4
+   ],
+   "career_surface_wl": [
+    8,
+    9
+   ],
+   "games_won_lost_52w": [
+    233,
+    244
+   ],
+   "sets_won_lost_52w": [
+    23,
+    27
+   ],
+   "avg_opp_elo_last20": 1605.7,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.1321,
+   "return_rating": 0.1173,
+   "form_elo": 67.6,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-10-14",
+   "stats_52w": {
+    "first_in": 0.6477,
+    "first_won": 0.5651,
+    "second_won": 0.3554,
+    "serve_pts_won": 0.4912,
+    "hold": 0.4743,
+    "aces_per_svgm": 0.1314,
+    "df_per_svgm": 0.6,
+    "bp_saved": 0.5027,
+    "ret_pts_won": 0.4882,
+    "ret_1st_won": 0.4179,
+    "ret_2nd_won": 0.6021,
+    "ret_games_won": 0.4916,
+    "bp_conv": 0.5238,
+    "bp_chances_per_retgm": 0.9385,
+    "matches_with_stats": 17
+   },
+   "rank_history": [
+    [
+     "2022-05-16",
+     249.0
+    ],
+    [
+     "2022-05-23",
+     253.0
+    ],
+    [
+     "2023-07-17",
+     185.0
+    ],
+    [
+     "2024-07-15",
+     221.0
+    ],
+    [
+     "2025-05-26",
+     231.0
+    ],
+    [
+     "2026-03-30",
+     171.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn2670",
+   "name": "Maria Herazo Gonzalez",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1460.2,
+   "surface_elo": {
+    "Hard": 1545.1,
+    "Clay": 1410.6,
+    "Grass": 1500.0
+   },
+   "matches_total": 2,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    1
+   ],
+   "last10": [
+    1,
+    1
+   ],
+   "last20": [
+    1,
+    1
+   ],
+   "last52w": [
+    1,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    25,
+    28
+   ],
+   "sets_won_lost_52w": [
+    3,
+    2
+   ],
+   "avg_opp_elo_last20": 1362.1,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -3.1,
+   "last_match": "2026-11-01",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "0b2b8055451ae775",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Maria Herazo Gonzalez: sparse record (2 tour matches, 0 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Maria Herazo Gonzalez: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 59.2,
+  "components_elo": {
+   "surface_elo": 223.0,
+   "overall_elo": 156.0,
+   "serve_return": -13.9,
+   "form": 70.7
+  },
+  "weighted_contributions": {
+   "surface_elo": 27.3,
+   "overall_elo": 36.9,
+   "serve_return": -4.8,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5843,
+  "serve_return_implied_spw": {
+   "A": 0.5043,
+   "B": 0.508
+  },
+  "point_probs": {
+   "A_serve": 0.5185,
+   "B_serve": 0.4939
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5184989565204229,
+   "B_serve": 0.4938512043916825
+  },
+  "hold_probs": {
+   "A": 0.5462,
+   "B": 0.4846
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5794,
+   0.5824
+  ],
+  "p_tb": [
+   0.2253,
+   0.2267
+  ],
+  "p_decider": [
+   0.3653,
+   0.3662
+  ],
+  "games_mean": [
+   22.144,
+   22.157
+  ],
+  "exp_breaks": [
+   10.646,
+   10.636
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2509,
+    0.2497
+   ],
+   "1-2": [
+    0.1697,
+    0.1678
+   ],
+   "2-0": [
+    0.3839,
+    0.3841
+   ],
+   "2-1": [
+    0.1955,
+    0.1984
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.003
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Carole Monnet",
+   "elo_points": 36.9,
+   "raw_diff": 156.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Carole Monnet",
+   "elo_points": 27.3,
+   "raw_diff": 223.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Maria Herazo Gonzalez",
+   "elo_points": -4.8,
+   "raw_diff": -13.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5185,
+   "B": 0.4939,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7747,
+  "fair_odds": {
+   "decimal": 1.29,
+   "american": "-344"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Maria Herazo Gonzalez: sparse record (2 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7747,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Carole Monnet to win at least one set",
+    "probability": 0.7491,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6517,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6486,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6347,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Maria Herazo Gonzalez +4.5 games",
+    "probability": 0.6273,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Maria Herazo Gonzalez to win at least one set",
+    "probability": 0.6161,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5935,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Carole Monnet to win",
+    "probability": 0.5794,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5093,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Carole Monnet -2.5 games",
+    "probability": 0.5033,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Maria Herazo Gonzalez +2.5 games",
+    "probability": 0.4967,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4907,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Maria Herazo Gonzalez to win",
+    "probability": 0.4206,
+    "fair_decimal": 2.38
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4065,
+    "fair_decimal": 2.46
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T18:22:43+00:00",
+  "version": 3,
+  "input_hash": "ac8c96799ac9cf03",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186714",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}
