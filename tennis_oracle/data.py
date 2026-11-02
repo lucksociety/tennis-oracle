@@ -264,7 +264,7 @@ def espn_results_frame(records: list, sackmann: pd.DataFrame, name_index: dict, 
         score = " ".join(f"{a}-{b}" for a, b in sets)
         wn, ln = r["players"][w]["name"], r["players"][l]["name"]
         rows.append({
-            "tourney_id": f"espn-{r['event_id']}", "tourney_name": r["event"], "surface": surf,
+            "tourney_id": f"espn-{r['event_id']}", "tourney_name": r["event"], "venue": r.get("venue", ""), "surface": surf,
             "tourney_level": "G" if r["major"] else "A", "date": dt.normalize(), "match_num": 0,
             "winner_id": name_index.get((r["tour"], norm_name(wn)), f"{r['tour']}:espn{r['players'][w]['espn_athlete']}"),
             "winner_name": wn, "loser_id": name_index.get((r["tour"], norm_name(ln)), f"{r['tour']}:espn{r['players'][l]['espn_athlete']}"),

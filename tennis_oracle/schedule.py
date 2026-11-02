@@ -14,6 +14,7 @@ from .data import espn_competitions, espn_flatten, fetch_espn_day, infer_surface
 from .freeze import freeze, latest, slug
 from .predict import forecast
 from .quality import recommendation_quality
+from .live_stats import fixture_surface
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS_DATA = ROOT / "docs" / "data"
@@ -55,7 +56,7 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
     out = []
     for r in matches:
         tour = r["tour"]; eng = engines[tour]
-        surf, ssrc = infer_surface(r["event"], r["venue"], lookups[tour])
+        surf, ssrc = fixture_surface(r["event"], r["venue"], day, tour) or infer_surface(r["event"], r["venue"], lookups[tour])
         bo = 5 if (tour == "atp" and r["major"] and "Qualifying" not in r["round"]) else 3
         fr = "tb10" if r["major"] else "tb7"
         ids = [nmap[tour].get(norm_name(p["name"])) for p in r["players"]]
@@ -68,7 +69,7 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         if all(ids):
             f = latest(str(day), key)
             cur_v = eng.p["version"]
-            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf or f.get("data_cutoff") != str(pd.Timestamp(eng.point_cutoff).date()) or f.get("best_of") != bo or f.get("final_rule") != fr)
+            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf or f.get("data_cutoff") != str(pd.Timestamp(eng.point_cutoff).date()) or f.get("best_of") != bo or f.get("final_rule") != fr or f.get("performance_revision") != eng.info.get("performance_revision"))
             if (f is None or stale) and r["status"] == "STATUS_SCHEDULED" and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
                 # new version only before play; earlier versions stay untouched
                 reason = "initial pre-match forecast" if f is None else (

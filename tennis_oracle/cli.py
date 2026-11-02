@@ -145,6 +145,17 @@ def cmd_update(a):
     since = end.date()-timedelta(days=3) if a.full else max(end.date(),min(resume,date.today()-timedelta(days=a.days)))
     recs = update_espn_results(since, date.today() + timedelta(days=1), step_days=1)
     print(f"ESPN results cached: {len(recs)} (fetched from {since})")
+    from .live_stats import refresh
+    performance = refresh(end.date() - timedelta(days=14))
+    print('Current performance refresh: ' + json.dumps(performance['sources']))
+    from .build import combined_frame
+    health = {'generated_at_utc': datetime.now(ZoneInfo('UTC')).isoformat(), 'sources': performance['sources'], 'tours': {}}
+    for tour in ('atp', 'wta'):
+        _, info = combined_frame(tour)
+        health['tours'][tour] = {k: info[k] for k in ('point_stats_cutoff', 'results_cutoff', 'performance')}
+    target = Path(__file__).resolve().parent.parent / 'docs/data/performance-health.json'
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(health, indent=1))
 
 
 def cmd_backtest(a):
