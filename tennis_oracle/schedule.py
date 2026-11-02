@@ -13,6 +13,7 @@ from .build import sackmann_end
 from .data import espn_competitions, espn_flatten, fetch_espn_day, infer_surface, norm_name, surface_lookup, load_sackmann
 from .freeze import freeze, latest, slug
 from .predict import forecast
+from .quality import recommendation_quality
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS_DATA = ROOT / "docs" / "data"
@@ -67,13 +68,13 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         if all(ids):
             f = latest(str(day), key)
             cur_v = eng.p["version"]
-            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf)
+            stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf or f.get("data_cutoff") != str(pd.Timestamp(eng.point_cutoff).date()) or f.get("best_of") != bo or f.get("final_rule") != fr)
             if (f is None or stale) and r["status"] == "STATUS_SCHEDULED" and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
                 # new version only before play; earlier versions stay untouched
                 reason = "initial pre-match forecast" if f is None else (
                     f"model updated to {cur_v}" if f["model"]["version"] != cur_v else
                     f"surface corrected from {f.get('surface')} to {surf}" if f.get("surface") != surf else
-                    f"ratings refreshed with results through {eng.info['results_cutoff']}")
+                    f"performance inputs or format refreshed (results through {eng.info['results_cutoff']})")
                 f = forecast(eng, ids[0], ids[1], surf, bo, fr, tour, asof=pd.Timestamp(day),
                              meta={"tournament": r["event"], "round": r["round"]}, n_sims=n_sims,
                              data_cutoff=eng.point_cutoff)
@@ -89,6 +90,7 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
                     "most_likely_set_score": f["most_likely_set_score"], "final_score": f["final_score"],
                     "games_mean": f["games"]["mean"], "strongest": {k: f["strongest"][k] for k in ("selection", "probability", "confidence")},
                     "data_quality": f["data_quality"],
+                    "recommendation_quality": recommendation_quality(f["players"]["A"], f["players"]["B"], day, f.get("data_cutoff"), f["data_quality"], f.get("context_inputs", {}).get("injury_uncertain", False)),
                     "games_projected": f["games"].get("projected", f["games"]["median"]),
                     # frozen outcome distribution (copied verbatim from the frozen file) for post-freeze market comparison
                     "dist": {"win_prob": f["win_prob"], "set_score_probs": f["set_score_probs"],

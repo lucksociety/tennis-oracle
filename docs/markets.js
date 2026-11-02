@@ -101,6 +101,8 @@
     const snapAt = opts.snapshot_at_utc ? Date.parse(opts.snapshot_at_utc) : Date.now();
     if (f.frozen_at_utc && Date.parse(f.frozen_at_utc) > snapAt)
       return Object.assign(base, { status: 'invalid_order', best: null, verdict: 'NO BET (prices older than forecast)', outcomes: [] });
+    if (!f.recommendation_quality || f.recommendation_quality.eligible !== true)
+      return Object.assign(base, { status: 'input_quality', best: null, verdict: 'NO BET (current performance inputs not verified)', outcomes: [] });
     const A = m.players[0].name, B = m.players[1].name, bo = m.best_of || 3;
     const outs = [];
     for (const mk of ev.markets || []) {
@@ -109,13 +111,16 @@
       const mp = modelProb(mk, lab, f.dist, A, B, bo);
       const o = { market_id: mk.marketId, type: mk.sportsMarketType, label: ((mk.marketOptions || [])[0] || {}).label || mk.title, status: mk.status };
       if (mp.skip) { o.skip = mp.skip; outs.push(o); continue; }
+      if (!Number.isFinite(mp.p) || mp.p < 0 || mp.p > 1) { o.skip = 'invalid model probability'; outs.push(o); continue; }
       o.selection = mp.desc; o.model_p = r4(mp.p);
+      const lower = Number.isInteger(f.n_sims) && f.n_sims >= 1000 ? mp.p - 1.96 * Math.sqrt(mp.p * (1 - mp.p) / f.n_sims) : -1;
+      o.mc_lower_95 = r4(lower);
       if (mk.status && mk.status !== 'open') { o.skip = `market ${mk.status}`; outs.push(o); continue; }
       if (!(price > 0 && price < 1)) { o.skip = 'no ask price (no liquidity)'; outs.push(o); continue; }
       if (price >= 0.99) { o.skip = 'ask at 0.99 placeholder (no real liquidity)'; outs.push(o); continue; }
       const c = cost(price);
       o.price = r4(price); o.implied = r4(c); o.edge = r4(mp.p - c); o.ev_per_1 = r4(mp.p / c - 1);
-      o.eligible = mp.p > 0.5 && mp.p - c > 0;
+      o.eligible = lower > 0.5 && lower > c && o.model_p > 0.5 && o.ev_per_1 > 0;
       outs.push(o);
     }
     const priced = outs.filter(o => o.implied != null);
@@ -158,7 +163,7 @@
   function leaderboards(rows, n) {
     n = n || 10; const all = [];
     for (const r of rows || []) {
-      if (!r || r.status === 'not_prematch' || r.status === 'invalid_order' || r.status === 'no_forecast') continue;
+      if (!r || r.status === 'not_prematch' || r.status === 'invalid_order' || r.status === 'no_forecast' || r.status === 'input_quality') continue;
       for (const o of r.outcomes || []) if (o.implied != null && o.eligible && o.model_p > .5 && o.ev_per_1 > 0) all.push(Object.assign({ espn_id: r.espn_id, event_title: r.event_title, is_best: !!(r.best && r.best.market_id === o.market_id) }, o));
     }
     const prob = [...all].sort((a, b) => b.model_p - a.model_p || b.ev_per_1 - a.ev_per_1).slice(0, n);

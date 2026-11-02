@@ -29,3 +29,13 @@ def test_changed_surface_refreezes_only_before_play(monkeypatch):
     calls.clear();freezes.clear();row['start']='2000-01-01T20:00Z'
     schedule.build_slate(date(2000,1,1),{'wta':eng},write=False)
     assert calls==[] and freezes==[]
+
+
+def test_refreshed_point_statistics_change_freeze_hash():
+    from tennis_oracle.freeze import input_hash
+    root=Path(__file__).resolve().parents[1]
+    f=json.loads(next((root/'forecasts/2026-10-29').glob('*/v1.json')).read_text())
+    newer=copy.deepcopy(f);newer['data_cutoff']='2026-10-30'
+    assert input_hash(newer)!=input_hash(f)
+    newer=copy.deepcopy(f);newer['players']['A']['last_stats_match']='2026-10-30'
+    assert input_hash(newer)!=input_hash(f)

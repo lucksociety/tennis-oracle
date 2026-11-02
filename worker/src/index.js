@@ -123,7 +123,7 @@ async function engineExtras(env, day, slate, events) {
       status: 'STATUS_SCHEDULED', start_utc: new Date(Number(ev.beginAt) * 1000).toISOString(), surface: 'Hard', surface_source: 'assumed', engine: true };
     if (!A || !B) { out.push({ m, note: `not in frozen slate; no rating history for ${!A ? ps[0] : ps[1]}` }); continue; }
     const f = O.forecast({ a: A.id, b: B.id, tour, surface: 'Hard', bestOf: 3, finalRule: 'tb7', indoor: false, date: day + 'T12:00:00', sims: 100000, skipAnalytic: true });
-    m.forecast = { frozen_at_utc: new Date().toISOString(), predicted_winner: f.predicted_winner, win_prob: { A: f.win_prob[0], B: f.win_prob[1] },
+    m.forecast = { recommendation_quality: f.recommendation_quality, n_sims: f.model.n_sims, frozen_at_utc: new Date().toISOString(), predicted_winner: f.predicted_winner, win_prob: { A: f.win_prob[0], B: f.win_prob[1] },
       final_score: { A_sets: f.final_score.A, B_sets: f.final_score.B, sets: f.final_score.sets }, games_projected: f.games.median, dist: distFromEngine(f) };
     out.push({ m, row: M.evaluate(m, ev) });
   }

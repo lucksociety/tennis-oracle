@@ -1,0 +1,62 @@
+{
+  "validation_2024": [
+    {
+      "variant": "pooled",
+      "tour": "atp",
+      "games_crps": 3.2726666474330246,
+      "diff_crps": 2.5379807634597396,
+      "winner_logloss": 0.6246076221298861
+    },
+    {
+      "variant": "pooled",
+      "tour": "wta",
+      "games_crps": 3.256157737291295,
+      "diff_crps": 2.941565046309864,
+      "winner_logloss": 0.6178044809378906
+    },
+    {
+      "variant": "tour_specific",
+      "tour": "atp",
+      "games_crps": 3.2735964616182924,
+      "diff_crps": 2.5375970484347676,
+      "winner_logloss": 0.6246076219947247
+    },
+    {
+      "variant": "tour_specific",
+      "tour": "wta",
+      "games_crps": 3.257909210317606,
+      "diff_crps": 2.94221086320616,
+      "winner_logloss": 0.6178044809962366
+    }
+  ],
+  "heldout_2025_26": [
+    {
+      "variant": "pooled",
+      "tour": "atp",
+      "games_crps": 3.3388370328603285,
+      "diff_crps": 2.5393988517368733,
+      "winner_logloss": 0.6372313139253698
+    },
+    {
+      "variant": "pooled",
+      "tour": "wta",
+      "games_crps": 3.2212521786134634,
+      "diff_crps": 3.0062798019585553,
+      "winner_logloss": 0.6370512270571101
+    },
+    {
+      "variant": "tour_specific",
+      "tour": "atp",
+      "games_crps": 3.339338456002532,
+      "diff_crps": 2.538589875761403,
+      "winner_logloss": 0.6372313139667304
+    },
+    {
+      "variant": "tour_specific",
+      "tour": "wta",
+      "games_crps": 3.22146416479484,
+      "diff_crps": 3.007156444574846,
+      "winner_logloss": 0.6370512269186358
+    }
+  ]
+}
