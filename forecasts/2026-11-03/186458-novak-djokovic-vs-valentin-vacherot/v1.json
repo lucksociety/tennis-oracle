@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Novak Djokovic",
+ "win_prob": {
+  "A": 0.6731,
+  "B": 0.3269
+ },
+ "win_prob_exact": {
+  "A": 0.67308,
+  "B": 0.32692
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.49,
+   "american": "-206"
+  },
+  "B": {
+   "decimal": 3.06,
+   "american": "+206"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4453,
+  "2-1": 0.2278,
+  "0-2": 0.1737,
+  "1-2": 0.1532
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0367,
+ "games": {
+  "mean": 24.81,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 35.0,
+  "sd": 6.36,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00032,
+   "13": 0.00186,
+   "14": 0.00561,
+   "15": 0.01703,
+   "16": 0.02759,
+   "17": 0.05118,
+   "18": 0.06147,
+   "19": 0.07921,
+   "20": 0.07568,
+   "21": 0.04864,
+   "22": 0.09478,
+   "23": 0.07979,
+   "24": 0.00765,
+   "25": 0.03302,
+   "26": 0.06265,
+   "27": 0.0204,
+   "28": 0.02699,
+   "29": 0.02789,
+   "30": 0.03161,
+   "31": 0.0442,
+   "32": 0.04662,
+   "33": 0.03082,
+   "34": 0.0224,
+   "35": 0.04138,
+   "36": 0.03231,
+   "37": 0.00265,
+   "38": 0.01016,
+   "39": 0.01609
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 1e-05,
+  "-11": 0.00012,
+  "-10": 0.00067,
+  "-9": 0.00237,
+  "-8": 0.00499,
+  "-7": 0.01329,
+  "-6": 0.023,
+  "-5": 0.04263,
+  "-4": 0.06259,
+  "-3": 0.06416,
+  "-2": 0.05598,
+  "-1": 0.037,
+  "0": 0.03727,
+  "1": 0.04289,
+  "2": 0.08017,
+  "3": 0.1142,
+  "4": 0.13407,
+  "5": 0.10745,
+  "6": 0.07579,
+  "7": 0.05276,
+  "8": 0.02592,
+  "9": 0.01552,
+  "10": 0.00507,
+  "11": 0.00177,
+  "12": 0.00031
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8964,
+   "under": 0.1036
+  },
+  {
+   "line": 18.5,
+   "over": 0.8349,
+   "under": 0.1651
+  },
+  {
+   "line": 19.5,
+   "over": 0.7557,
+   "under": 0.2443
+  },
+  {
+   "line": 20.5,
+   "over": 0.6801,
+   "under": 0.32
+  },
+  {
+   "line": 21.5,
+   "over": 0.6314,
+   "under": 0.3686
+  },
+  {
+   "line": 22.5,
+   "over": 0.5366,
+   "under": 0.4634
+  },
+  {
+   "line": 23.5,
+   "over": 0.4568,
+   "under": 0.5432
+  },
+  {
+   "line": 24.5,
+   "over": 0.4492,
+   "under": 0.5508
+  },
+  {
+   "line": 25.5,
+   "over": 0.4162,
+   "under": 0.5838
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.613,
+   "B +1.5": 0.387,
+   "B -1.5": 0.2698,
+   "A +1.5": 0.7302
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5329,
+   "B +2.5": 0.4671,
+   "B -2.5": 0.2138,
+   "A +2.5": 0.7862
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4187,
+   "B +3.5": 0.5813,
+   "B -3.5": 0.1497,
+   "A +3.5": 0.8503
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2846,
+   "B +4.5": 0.7154,
+   "B -4.5": 0.0871,
+   "A +4.5": 0.9129
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1771,
+   "B +5.5": 0.8229,
+   "B -5.5": 0.0445,
+   "A +5.5": 0.9556
+  }
+ ],
+ "p_tiebreak": 0.5167,
+ "p_a_wins_set": 0.8263,
+ "p_b_wins_set": 0.5547,
+ "p_decider": 0.381,
+ "expected_breaks": {
+  "total": 3.38,
+  "by_A": 2.09,
+  "by_B": 1.29
+ },
+ "expected_break_points": {
+  "A_creates": 5.74,
+  "B_creates": 4.07
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.4453
+ },
+ "match": "Novak Djokovic vs Valentin Vacherot",
+ "players": {
+  "A": {
+   "id": "atp:104925",
+   "name": "Novak Djokovic",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 4.0,
+   "age": 39.4435318275154,
+   "elo": 2114.0,
+   "surface_elo": {
+    "Hard": 2102.8,
+    "Clay": 2057.4,
+    "Grass": 2149.7
+   },
+   "matches_total": 901,
+   "matches_surface": {
+    "Hard": 561,
+    "Clay": 239,
+    "Grass": 101
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    18,
+    9
+   ],
+   "last52w_surface": [
+    11,
+    6
+   ],
+   "career_surface_wl": [
+    488,
+    73
+   ],
+   "games_won_lost_52w": [
+    486,
+    430
+   ],
+   "sets_won_lost_52w": [
+    56,
+    36
+   ],
+   "avg_opp_elo_last20": 1852.4,
+   "vs_top_opp_52w": [
+    4,
+    5
+   ],
+   "serve_rating": 0.3489,
+   "return_rating": 0.2422,
+   "form_elo": -119.6,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-05-06",
+   "stats_52w": {
+    "first_in": 0.6719,
+    "first_won": 0.7423,
+    "second_won": 0.5535,
+    "serve_pts_won": 0.6804,
+    "hold": 0.8561,
+    "aces_per_svgm": 0.4388,
+    "df_per_svgm": 0.1942,
+    "bp_saved": 0.7059,
+    "ret_pts_won": 0.3856,
+    "ret_1st_won": 0.3,
+    "ret_2nd_won": 0.5385,
+    "ret_games_won": 0.2336,
+    "bp_conv": 0.3855,
+    "bp_chances_per_retgm": 0.6058,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2023-07-03",
+     2.0
+    ],
+    [
+     "2023-09-15",
+     1.0
+    ],
+    [
+     "2024-07-01",
+     2.0
+    ],
+    [
+     "2024-09-14",
+     4.0
+    ],
+    [
+     "2024-12-30",
+     7.0
+    ],
+    [
+     "2025-03-19",
+     5.0
+    ],
+    [
+     "2025-05-18",
+     6.0
+    ],
+    [
+     "2025-08-25",
+     7.0
+    ],
+    [
+     "2025-10-01",
+     5.0
+    ],
+    [
+     "2026-01-19",
+     4.0
+    ],
+    [
+     "2026-03-04",
+     3.0
+    ],
+    [
+     "2026-05-06",
+     4.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200473",
+   "name": "Valentin Vacherot",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 19.0,
+   "age": 27.9435318275154,
+   "elo": 1954.7,
+   "surface_elo": {
+    "Hard": 1941.9,
+    "Clay": 1685.1,
+    "Grass": 1500.0
+   },
+   "matches_total": 73,
+   "matches_surface": {
+    "Hard": 49,
+    "Clay": 24,
+    "Grass": 0
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    27,
+    18
+   ],
+   "last52w_surface": [
+    21,
+    13
+   ],
+   "career_surface_wl": [
+    33,
+    16
+   ],
+   "games_won_lost_52w": [
+    614,
+    574
+   ],
+   "sets_won_lost_52w": [
+    66,
+    51
+   ],
+   "avg_opp_elo_last20": 1840.8,
+   "vs_top_opp_52w": [
+    7,
+    7
+   ],
+   "serve_rating": 0.2358,
+   "return_rating": 0.0824,
+   "form_elo": 95.9,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-04-22",
+   "stats_52w": {
+    "first_in": 0.6552,
+    "first_won": 0.7672,
+    "second_won": 0.5095,
+    "serve_pts_won": 0.6783,
+    "hold": 0.863,
+    "aces_per_svgm": 0.7815,
+    "df_per_svgm": 0.2185,
+    "bp_saved": 0.6917,
+    "ret_pts_won": 0.3482,
+    "ret_1st_won": 0.2773,
+    "ret_2nd_won": 0.4799,
+    "ret_games_won": 0.1859,
+    "bp_conv": 0.3571,
+    "bp_chances_per_retgm": 0.5204,
+    "matches_with_stats": 21
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     40.0
+    ],
+    [
+     "2026-01-04",
+     31.0
+    ],
+    [
+     "2026-01-12",
+     32.0
+    ],
+    [
+     "2026-01-19",
+     31.0
+    ],
+    [
+     "2026-02-06",
+     27.0
+    ],
+    [
+     "2026-02-16",
+     26.0
+    ],
+    [
+     "2026-02-23",
+     27.0
+    ],
+    [
+     "2026-03-04",
+     26.0
+    ],
+    [
+     "2026-03-18",
+     25.0
+    ],
+    [
+     "2026-04-05",
+     23.0
+    ],
+    [
+     "2026-04-22",
+     17.0
+    ],
+    [
+     "2026-05-25",
+     19.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Novak Djokovic: limited recent/surface sample (27 matches 52w, 561 career on Hard, 9 with stats)",
+  "Novak Djokovic: latest point-level stats are 181 days old (2026-05-06)",
+  "Valentin Vacherot: latest point-level stats are 195 days old (2026-04-22)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 127.6,
+  "components_elo": {
+   "surface_elo": 160.9,
+   "overall_elo": 159.4,
+   "serve_return": 200.4,
+   "form": -215.5
+  },
+  "weighted_contributions": {
+   "surface_elo": 19.7,
+   "overall_elo": 37.7,
+   "serve_return": 69.9,
+   "form": 0.4
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6758,
+  "serve_return_implied_spw": {
+   "A": 0.7096,
+   "B": 0.6504
+  },
+  "point_probs": {
+   "A_serve": 0.7065,
+   "B_serve": 0.6539
+  },
+  "point_probs_exact": {
+   "A_serve": 0.7064913857512883,
+   "B_serve": 0.653862914779099
+  },
+  "hold_probs": {
+   "A": 0.9083,
+   "B": 0.836
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6731,
+   0.675
+  ],
+  "p_tb": [
+   0.5167,
+   0.5184
+  ],
+  "p_decider": [
+   0.381,
+   0.38
+  ],
+  "games_mean": [
+   24.806,
+   24.801
+  ],
+  "exp_breaks": [
+   3.381,
+   3.376
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1737,
+    0.1721
+   ],
+   "1-2": [
+    0.1532,
+    0.1529
+   ],
+   "2-0": [
+    0.4453,
+    0.4479
+   ],
+   "2-1": [
+    0.2278,
+    0.2271
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0026
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Novak Djokovic",
+   "elo_points": 69.9,
+   "raw_diff": 200.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Novak Djokovic",
+   "elo_points": 37.7,
+   "raw_diff": 159.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Novak Djokovic",
+   "elo_points": 19.7,
+   "raw_diff": 160.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5535,
+   "B": 0.5095,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3856,
+   "B": 0.3482,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.7065,
+   "B": 0.6539,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8349,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-506"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.36 games; p10-p90 17-35); a single tiebreak or deciding set swings it. Data quality MEDIUM: Novak Djokovic: limited recent/surface sample (27 matches 52w, 561 career on Hard, 9 with stats); Novak Djokovic: latest point-level stats are 181 days old (2026-05-06)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8349,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "Novak Djokovic to win at least one set",
+    "probability": 0.8263,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "Valentin Vacherot +4.5 games",
+    "probability": 0.7154,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6801,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Novak Djokovic to win",
+    "probability": 0.6731,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.619,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Valentin Vacherot to win at least one set",
+    "probability": 0.5547,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5508,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5366,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Novak Djokovic -2.5 games",
+    "probability": 0.5329,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5167,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4833,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Valentin Vacherot +2.5 games",
+    "probability": 0.4671,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4634,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4492,
+    "fair_decimal": 2.23
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:17+00:00",
+  "version": 1,
+  "input_hash": "f67bdfb849628acf",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186458",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

@@ -1,0 +1,628 @@
+{
+ "predicted_winner": "Jodie Burrage",
+ "win_prob": {
+  "A": 0.5389,
+  "B": 0.4611
+ },
+ "win_prob_exact": {
+  "A": 0.53893,
+  "B": 0.46107
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.86,
+   "american": "-117"
+  },
+  "B": {
+   "decimal": 2.17,
+   "american": "+117"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3462,
+  "0-2": 0.2803,
+  "2-1": 0.1928,
+  "1-2": 0.1808
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0178,
+ "games": {
+  "mean": 22.58,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00232,
+   "13": 0.0107,
+   "14": 0.02394,
+   "15": 0.04543,
+   "16": 0.06708,
+   "17": 0.08338,
+   "18": 0.08375,
+   "19": 0.07761,
+   "20": 0.0686,
+   "21": 0.05003,
+   "22": 0.05987,
+   "23": 0.04008,
+   "24": 0.02193,
+   "25": 0.03755,
+   "26": 0.04161,
+   "27": 0.03773,
+   "28": 0.04141,
+   "29": 0.04156,
+   "30": 0.03927,
+   "31": 0.03568,
+   "32": 0.03116,
+   "33": 0.01916,
+   "34": 0.01469,
+   "35": 0.01329,
+   "36": 0.00652,
+   "37": 0.002,
+   "38": 0.00254,
+   "39": 0.00111
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00095,
+  "-11": 0.00405,
+  "-10": 0.01003,
+  "-9": 0.02043,
+  "-8": 0.03466,
+  "-7": 0.0509,
+  "-6": 0.06347,
+  "-5": 0.06937,
+  "-4": 0.07252,
+  "-3": 0.05367,
+  "-2": 0.03846,
+  "-1": 0.0289,
+  "0": 0.02753,
+  "1": 0.02953,
+  "2": 0.03817,
+  "3": 0.05685,
+  "4": 0.07999,
+  "5": 0.08093,
+  "6": 0.07844,
+  "7": 0.06591,
+  "8": 0.04438,
+  "9": 0.02804,
+  "10": 0.01472,
+  "11": 0.00673,
+  "12": 0.00137
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7672,
+   "under": 0.2329
+  },
+  {
+   "line": 18.5,
+   "over": 0.6834,
+   "under": 0.3166
+  },
+  {
+   "line": 19.5,
+   "over": 0.6058,
+   "under": 0.3942
+  },
+  {
+   "line": 20.5,
+   "over": 0.5372,
+   "under": 0.4628
+  },
+  {
+   "line": 21.5,
+   "over": 0.4872,
+   "under": 0.5128
+  },
+  {
+   "line": 22.5,
+   "over": 0.4273,
+   "under": 0.5727
+  },
+  {
+   "line": 23.5,
+   "over": 0.3872,
+   "under": 0.6128
+  },
+  {
+   "line": 24.5,
+   "over": 0.3653,
+   "under": 0.6347
+  },
+  {
+   "line": 25.5,
+   "over": 0.3277,
+   "under": 0.6723
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4955,
+   "B +1.5": 0.5045,
+   "B -1.5": 0.4185,
+   "A +1.5": 0.5815
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4574,
+   "B +2.5": 0.5426,
+   "B -2.5": 0.38,
+   "A +2.5": 0.62
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4005,
+   "B +3.5": 0.5995,
+   "B -3.5": 0.3264,
+   "A +3.5": 0.6736
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3205,
+   "B +4.5": 0.6795,
+   "B -4.5": 0.2539,
+   "A +4.5": 0.7461
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2396,
+   "B +5.5": 0.7604,
+   "B -5.5": 0.1845,
+   "A +5.5": 0.8155
+  }
+ ],
+ "p_tiebreak": 0.2604,
+ "p_a_wins_set": 0.7197,
+ "p_b_wins_set": 0.6538,
+ "p_decider": 0.3735,
+ "expected_breaks": {
+  "total": 7.95,
+  "by_A": 4.1,
+  "by_B": 3.85
+ },
+ "expected_break_points": {
+  "A_creates": 8.97,
+  "B_creates": 8.59
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3462
+ },
+ "match": "Jodie Burrage vs Vaishnavi Adkar",
+ "players": {
+  "A": {
+   "id": "wta:214839",
+   "name": "Jodie Burrage",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 154.0,
+   "age": 27.34428473648186,
+   "elo": 1559.7,
+   "surface_elo": {
+    "Hard": 1493.9,
+    "Clay": 1488.5,
+    "Grass": 1550.3
+   },
+   "matches_total": 50,
+   "matches_surface": {
+    "Hard": 27,
+    "Clay": 1,
+    "Grass": 22
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    1,
+    2
+   ],
+   "last52w_surface": [
+    1,
+    2
+   ],
+   "career_surface_wl": [
+    10,
+    17
+   ],
+   "games_won_lost_52w": [
+    31,
+    35
+   ],
+   "sets_won_lost_52w": [
+    3,
+    4
+   ],
+   "avg_opp_elo_last20": 1710.8,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0259,
+   "return_rating": -0.001,
+   "form_elo": -49.5,
+   "last_match": "2026-09-29",
+   "last_stats_match": "2025-06-30",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-09-18",
+     91.0
+    ],
+    [
+     "2023-10-16",
+     89.0
+    ],
+    [
+     "2023-11-10",
+     93.0
+    ],
+    [
+     "2024-01-15",
+     102.0
+    ],
+    [
+     "2024-12-30",
+     179.0
+    ],
+    [
+     "2025-01-13",
+     173.0
+    ],
+    [
+     "2025-02-03",
+     191.0
+    ],
+    [
+     "2025-02-24",
+     189.0
+    ],
+    [
+     "2025-05-26",
+     165.0
+    ],
+    [
+     "2025-06-09",
+     162.0
+    ],
+    [
+     "2025-06-23",
+     164.0
+    ],
+    [
+     "2025-06-30",
+     154.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:261038",
+   "name": "Vaishnavi Adkar",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 697.0,
+   "age": 21.818480492813144,
+   "elo": 1481.6,
+   "surface_elo": {
+    "Hard": 1477.8,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 3,
+   "matches_surface": {
+    "Hard": 3,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    2
+   ],
+   "last10": [
+    1,
+    2
+   ],
+   "last20": [
+    1,
+    2
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    1,
+    2
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1604.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0299,
+   "return_rating": 0.0256,
+   "form_elo": -4.6,
+   "last_match": "2025-10-27",
+   "last_stats_match": "2025-10-27",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-06-16",
+     601.0
+    ],
+    [
+     "2025-10-27",
+     697.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Jodie Burrage: sparse record (50 tour matches, 0 with serve stats in 52w)",
+  "Jodie Burrage: latest point-level stats are 491 days old (2025-06-30)",
+  "Vaishnavi Adkar: sparse record (3 tour matches, 0 with serve stats in 52w)",
+  "Vaishnavi Adkar: latest point-level stats are 372 days old (2025-10-27)",
+  "Vaishnavi Adkar: no recorded match since 2025-10-27 (layoff/injury status unverified)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 29.7,
+  "components_elo": {
+   "surface_elo": 16.1,
+   "overall_elo": 78.1,
+   "serve_return": 26.3,
+   "form": -44.9
+  },
+  "weighted_contributions": {
+   "surface_elo": 2.0,
+   "overall_elo": 18.5,
+   "serve_return": 9.2,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5426,
+  "serve_return_implied_spw": {
+   "A": 0.5658,
+   "B": 0.5586
+  },
+  "point_probs": {
+   "A_serve": 0.5684,
+   "B_serve": 0.556
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5683976939755837,
+   "B_serve": 0.5560453714647713
+  },
+  "hold_probs": {
+   "A": 0.6663,
+   "B": 0.6375
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5389,
+   0.5417
+  ],
+  "p_tb": [
+   0.2604,
+   0.2626
+  ],
+  "p_decider": [
+   0.3735,
+   0.3753
+  ],
+  "games_mean": [
+   22.575,
+   22.591
+  ],
+  "exp_breaks": [
+   7.951,
+   7.943
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2803,
+    0.2786
+   ],
+   "1-2": [
+    0.1808,
+    0.1797
+   ],
+   "2-0": [
+    0.3462,
+    0.346
+   ],
+   "2-1": [
+    0.1928,
+    0.1956
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Jodie Burrage",
+   "elo_points": 18.5,
+   "raw_diff": 78.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jodie Burrage",
+   "elo_points": 9.2,
+   "raw_diff": 26.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Jodie Burrage",
+   "elo_points": 2.0,
+   "raw_diff": 16.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5684,
+   "B": 0.556,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7396,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-284"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Jodie Burrage: sparse record (50 tour matches, 0 with serve stats in 52w); Jodie Burrage: latest point-level stats are 491 days old (2025-06-30)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7396,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Jodie Burrage to win at least one set",
+    "probability": 0.7197,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6834,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Vaishnavi Adkar +4.5 games",
+    "probability": 0.6795,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Vaishnavi Adkar to win at least one set",
+    "probability": 0.6538,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6347,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6265,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5727,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Vaishnavi Adkar +2.5 games",
+    "probability": 0.5426,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Jodie Burrage to win",
+    "probability": 0.5389,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5372,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4628,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Vaishnavi Adkar to win",
+    "probability": 0.4611,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Jodie Burrage -2.5 games",
+    "probability": 0.4574,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4273,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:49+00:00",
+  "version": 1,
+  "input_hash": "1ef3cf52b3e4d069",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186582",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

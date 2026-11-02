@@ -1,0 +1,683 @@
+{
+ "predicted_winner": "Arthur Gea",
+ "win_prob": {
+  "A": 0.4569,
+  "B": 0.5431
+ },
+ "win_prob_exact": {
+  "A": 0.4569,
+  "B": 0.5431
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.19,
+   "american": "+119"
+  },
+  "B": {
+   "decimal": 1.84,
+   "american": "-119"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.333,
+  "2-0": 0.2678,
+  "1-2": 0.2101,
+  "2-1": 0.1891
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0269,
+ "games": {
+  "mean": 24.39,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.2,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00041,
+   "13": 0.00262,
+   "14": 0.00766,
+   "15": 0.01987,
+   "16": 0.03379,
+   "17": 0.05934,
+   "18": 0.06798,
+   "19": 0.0799,
+   "20": 0.07519,
+   "21": 0.05042,
+   "22": 0.08387,
+   "23": 0.06649,
+   "24": 0.01124,
+   "25": 0.0341,
+   "26": 0.05164,
+   "27": 0.02743,
+   "28": 0.03457,
+   "29": 0.03639,
+   "30": 0.03836,
+   "31": 0.04608,
+   "32": 0.04697,
+   "33": 0.02981,
+   "34": 0.02163,
+   "35": 0.03244,
+   "36": 0.02251,
+   "37": 0.0025,
+   "38": 0.00795,
+   "39": 0.00884
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00027,
+  "-11": 0.00167,
+  "-10": 0.00494,
+  "-9": 0.01239,
+  "-8": 0.02263,
+  "-7": 0.04588,
+  "-6": 0.06237,
+  "-5": 0.08512,
+  "-4": 0.10305,
+  "-3": 0.08547,
+  "-2": 0.06196,
+  "-1": 0.03875,
+  "0": 0.03714,
+  "1": 0.03711,
+  "2": 0.05788,
+  "3": 0.0766,
+  "4": 0.08557,
+  "5": 0.07073,
+  "6": 0.04851,
+  "7": 0.03278,
+  "8": 0.01633,
+  "9": 0.00873,
+  "10": 0.00298,
+  "11": 0.001,
+  "12": 0.00014
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8763,
+   "under": 0.1237
+  },
+  {
+   "line": 18.5,
+   "over": 0.8083,
+   "under": 0.1917
+  },
+  {
+   "line": 19.5,
+   "over": 0.7284,
+   "under": 0.2716
+  },
+  {
+   "line": 20.5,
+   "over": 0.6532,
+   "under": 0.3468
+  },
+  {
+   "line": 21.5,
+   "over": 0.6028,
+   "under": 0.3972
+  },
+  {
+   "line": 22.5,
+   "over": 0.519,
+   "under": 0.481
+  },
+  {
+   "line": 23.5,
+   "over": 0.4525,
+   "under": 0.5475
+  },
+  {
+   "line": 24.5,
+   "over": 0.4412,
+   "under": 0.5588
+  },
+  {
+   "line": 25.5,
+   "over": 0.4071,
+   "under": 0.5929
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4012,
+   "B +1.5": 0.5988,
+   "B -1.5": 0.4858,
+   "A +1.5": 0.5142
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3434,
+   "B +2.5": 0.6566,
+   "B -2.5": 0.4238,
+   "A +2.5": 0.5762
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2668,
+   "B +3.5": 0.7332,
+   "B -3.5": 0.3383,
+   "A +3.5": 0.6617
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1812,
+   "B +4.5": 0.8188,
+   "B -4.5": 0.2353,
+   "A +4.5": 0.7647
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1105,
+   "B +5.5": 0.8895,
+   "B -5.5": 0.1502,
+   "A +5.5": 0.8498
+  }
+ ],
+ "p_tiebreak": 0.4439,
+ "p_a_wins_set": 0.667,
+ "p_b_wins_set": 0.7322,
+ "p_decider": 0.3992,
+ "expected_breaks": {
+  "total": 4.33,
+  "by_A": 2.06,
+  "by_B": 2.27
+ },
+ "expected_break_points": {
+  "A_creates": 5.67,
+  "B_creates": 6.08
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.333
+ },
+ "match": "Jan Lennard Struff vs Arthur Gea",
+ "players": {
+  "A": {
+   "id": "atp:105526",
+   "name": "Jan Lennard Struff",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 80.0,
+   "age": 36.4435318275154,
+   "elo": 1805.8,
+   "surface_elo": {
+    "Hard": 1727.9,
+    "Clay": 1701.5,
+    "Grass": 1727.6
+   },
+   "matches_total": 538,
+   "matches_surface": {
+    "Hard": 302,
+    "Clay": 167,
+    "Grass": 69
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    22,
+    23
+   ],
+   "last52w_surface": [
+    13,
+    15
+   ],
+   "career_surface_wl": [
+    137,
+    165
+   ],
+   "games_won_lost_52w": [
+    610,
+    623
+   ],
+   "sets_won_lost_52w": [
+    61,
+    61
+   ],
+   "avg_opp_elo_last20": 1782.3,
+   "vs_top_opp_52w": [
+    3,
+    8
+   ],
+   "serve_rating": 0.0819,
+   "return_rating": 0.0551,
+   "form_elo": 127.8,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6043,
+    "first_won": 0.7086,
+    "second_won": 0.503,
+    "serve_pts_won": 0.6273,
+    "hold": 0.7576,
+    "aces_per_svgm": 0.5985,
+    "df_per_svgm": 0.25,
+    "bp_saved": 0.6322,
+    "ret_pts_won": 0.3544,
+    "ret_1st_won": 0.2378,
+    "ret_2nd_won": 0.5312,
+    "ret_games_won": 0.1825,
+    "bp_conv": 0.3165,
+    "bp_chances_per_retgm": 0.5766,
+    "matches_with_stats": 12
+   },
+   "rank_history": [
+    [
+     "2025-11-02",
+     101.0
+    ],
+    [
+     "2025-11-20",
+     84.0
+    ],
+    [
+     "2026-01-05",
+     82.0
+    ],
+    [
+     "2026-01-19",
+     86.0
+    ],
+    [
+     "2026-02-06",
+     84.0
+    ],
+    [
+     "2026-02-09",
+     82.0
+    ],
+    [
+     "2026-02-23",
+     80.0
+    ],
+    [
+     "2026-03-18",
+     78.0
+    ],
+    [
+     "2026-04-22",
+     81.0
+    ],
+    [
+     "2026-05-06",
+     83.0
+    ],
+    [
+     "2026-05-17",
+     79.0
+    ],
+    [
+     "2026-05-25",
+     80.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:210338",
+   "name": "Arthur Gea",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 135.0,
+   "age": 21.7435318275154,
+   "elo": 1960.0,
+   "surface_elo": {
+    "Hard": 1953.0,
+    "Clay": 1385.4,
+    "Grass": 1505.1
+   },
+   "matches_total": 28,
+   "matches_surface": {
+    "Hard": 24,
+    "Clay": 2,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    17,
+    3
+   ],
+   "last52w": [
+    19,
+    8
+   ],
+   "last52w_surface": [
+    18,
+    5
+   ],
+   "career_surface_wl": [
+    18,
+    6
+   ],
+   "games_won_lost_52w": [
+    426,
+    367
+   ],
+   "sets_won_lost_52w": [
+    49,
+    30
+   ],
+   "avg_opp_elo_last20": 1726.4,
+   "vs_top_opp_52w": [
+    2,
+    0
+   ],
+   "serve_rating": -0.0137,
+   "return_rating": 0.017,
+   "form_elo": 146.8,
+   "last_match": "2026-10-13",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.5945,
+    "first_won": 0.728,
+    "second_won": 0.4888,
+    "serve_pts_won": 0.631,
+    "hold": 0.8,
+    "aces_per_svgm": 0.4857,
+    "df_per_svgm": 0.3429,
+    "bp_saved": 0.5484,
+    "ret_pts_won": 0.3594,
+    "ret_1st_won": 0.2908,
+    "ret_2nd_won": 0.4759,
+    "ret_games_won": 0.1857,
+    "bp_conv": 0.3611,
+    "bp_chances_per_retgm": 0.5143,
+    "matches_with_stats": 4
+   },
+   "rank_history": [
+    [
+     "2025-02-10",
+     306.0
+    ],
+    [
+     "2026-01-19",
+     198.0
+    ],
+    [
+     "2026-02-02",
+     168.0
+    ],
+    [
+     "2026-05-17",
+     140.0
+    ],
+    [
+     "2026-05-25",
+     135.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Jan Lennard Struff: limited recent/surface sample (45 matches 52w, 302 career on Hard, 12 with stats)",
+  "Jan Lennard Struff: latest point-level stats are 170 days old (2026-05-17)",
+  "Arthur Gea: limited recent/surface sample (27 matches 52w, 24 career on Hard, 4 with stats)",
+  "Arthur Gea: latest point-level stats are 170 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -27.5,
+  "components_elo": {
+   "surface_elo": -225.1,
+   "overall_elo": -154.2,
+   "serve_return": 104.4,
+   "form": -19.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -27.5,
+   "overall_elo": -36.4,
+   "serve_return": 36.4,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4605,
+  "serve_return_implied_spw": {
+   "A": 0.6664,
+   "B": 0.6361
+  },
+  "point_probs": {
+   "A_serve": 0.6456,
+   "B_serve": 0.6571
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6456378272561145,
+   "B_serve": 0.6571453610836318
+  },
+  "hold_probs": {
+   "A": 0.8223,
+   "B": 0.8412
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4569,
+   0.4607
+  ],
+  "p_tb": [
+   0.4439,
+   0.445
+  ],
+  "p_decider": [
+   0.3992,
+   0.3971
+  ],
+  "games_mean": [
+   24.388,
+   24.371
+  ],
+  "exp_breaks": [
+   4.331,
+   4.329
+  ],
+  "set_scores": {
+   "0-2": [
+    0.333,
+    0.3324
+   ],
+   "1-2": [
+    0.2101,
+    0.2068
+   ],
+   "2-0": [
+    0.2678,
+    0.2705
+   ],
+   "2-1": [
+    0.1891,
+    0.1902
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0038
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Arthur Gea",
+   "elo_points": -36.4,
+   "raw_diff": -154.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jan Lennard Struff",
+   "elo_points": 36.4,
+   "raw_diff": 104.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Arthur Gea",
+   "elo_points": -27.5,
+   "raw_diff": -225.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.503,
+   "B": 0.4888,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3544,
+   "B": 0.3594,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6456,
+   "B": 0.6571,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8083,
+  "fair_odds": {
+   "decimal": 1.24,
+   "american": "-422"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.2 games; p10-p90 17-33); a single tiebreak or deciding set swings it. Data quality MEDIUM: Jan Lennard Struff: limited recent/surface sample (45 matches 52w, 302 career on Hard, 12 with stats); Jan Lennard Struff: latest point-level stats are 170 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8083,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Jan Lennard Struff +4.5 games",
+    "probability": 0.7647,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Arthur Gea to win at least one set",
+    "probability": 0.7322,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Jan Lennard Struff to win at least one set",
+    "probability": 0.667,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6532,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6008,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Jan Lennard Struff +2.5 games",
+    "probability": 0.5762,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5588,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5561,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Arthur Gea to win",
+    "probability": 0.5431,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.519,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.481,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Jan Lennard Struff to win",
+    "probability": 0.4569,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4439,
+    "fair_decimal": 2.25
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4412,
+    "fair_decimal": 2.27
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:20+00:00",
+  "version": 1,
+  "input_hash": "8557a61d3bae6414",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186470",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

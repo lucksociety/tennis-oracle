@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Francisco Cerundolo",
+ "win_prob": {
+  "A": 0.3989,
+  "B": 0.6011
+ },
+ "win_prob_exact": {
+  "A": 0.39894,
+  "B": 0.6010599999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.51,
+   "american": "+151"
+  },
+  "B": {
+   "decimal": 1.66,
+   "american": "-151"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3852,
+  "2-0": 0.2263,
+  "1-2": 0.2158,
+  "2-1": 0.1727
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0296,
+ "games": {
+  "mean": 24.23,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.19,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00054,
+   "13": 0.00317,
+   "14": 0.00885,
+   "15": 0.02204,
+   "16": 0.03542,
+   "17": 0.05972,
+   "18": 0.06882,
+   "19": 0.08194,
+   "20": 0.07524,
+   "21": 0.05179,
+   "22": 0.08469,
+   "23": 0.06601,
+   "24": 0.01065,
+   "25": 0.03416,
+   "26": 0.05144,
+   "27": 0.02681,
+   "28": 0.03303,
+   "29": 0.03691,
+   "30": 0.03739,
+   "31": 0.04442,
+   "32": 0.04628,
+   "33": 0.02848,
+   "34": 0.02121,
+   "35": 0.03147,
+   "36": 0.02128,
+   "37": 0.00257,
+   "38": 0.00694,
+   "39": 0.00873
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00043,
+  "-11": 0.00254,
+  "-10": 0.00683,
+  "-9": 0.01685,
+  "-8": 0.02886,
+  "-7": 0.0533,
+  "-6": 0.07283,
+  "-5": 0.09694,
+  "-4": 0.112,
+  "-3": 0.09159,
+  "-2": 0.06252,
+  "-1": 0.03821,
+  "0": 0.03551,
+  "1": 0.03552,
+  "2": 0.05306,
+  "3": 0.06927,
+  "4": 0.0758,
+  "5": 0.06049,
+  "6": 0.03973,
+  "7": 0.02646,
+  "8": 0.01185,
+  "9": 0.00639,
+  "10": 0.00225,
+  "11": 0.00066,
+  "12": 0.00011
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8703,
+   "under": 0.1297
+  },
+  {
+   "line": 18.5,
+   "over": 0.8014,
+   "under": 0.1986
+  },
+  {
+   "line": 19.5,
+   "over": 0.7195,
+   "under": 0.2805
+  },
+  {
+   "line": 20.5,
+   "over": 0.6443,
+   "under": 0.3557
+  },
+  {
+   "line": 21.5,
+   "over": 0.5925,
+   "under": 0.4075
+  },
+  {
+   "line": 22.5,
+   "over": 0.5078,
+   "under": 0.4922
+  },
+  {
+   "line": 23.5,
+   "over": 0.4418,
+   "under": 0.5582
+  },
+  {
+   "line": 24.5,
+   "over": 0.4311,
+   "under": 0.5689
+  },
+  {
+   "line": 25.5,
+   "over": 0.397,
+   "under": 0.603
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3461,
+   "B +1.5": 0.6539,
+   "B -1.5": 0.5447,
+   "A +1.5": 0.4553
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.293,
+   "B +2.5": 0.707,
+   "B -2.5": 0.4822,
+   "A +2.5": 0.5178
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2237,
+   "B +3.5": 0.7763,
+   "B -3.5": 0.3906,
+   "A +3.5": 0.6094
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1479,
+   "B +4.5": 0.8521,
+   "B -4.5": 0.2786,
+   "A +4.5": 0.7214
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0874,
+   "B +5.5": 0.9125,
+   "B -5.5": 0.1816,
+   "A +5.5": 0.8184
+  }
+ ],
+ "p_tiebreak": 0.4401,
+ "p_a_wins_set": 0.6148,
+ "p_b_wins_set": 0.7737,
+ "p_decider": 0.3885,
+ "expected_breaks": {
+  "total": 4.34,
+  "by_A": 1.91,
+  "by_B": 2.42
+ },
+ "expected_break_points": {
+  "A_creates": 5.39,
+  "B_creates": 6.35
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3852
+ },
+ "match": "Arthur Rinderknech vs Francisco Cerundolo",
+ "players": {
+  "A": {
+   "id": "atp:126239",
+   "name": "Arthur Rinderknech",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 25.0,
+   "age": 31.2435318275154,
+   "elo": 1764.5,
+   "surface_elo": {
+    "Hard": 1715.3,
+    "Clay": 1701.6,
+    "Grass": 1681.6
+   },
+   "matches_total": 240,
+   "matches_surface": {
+    "Hard": 142,
+    "Clay": 65,
+    "Grass": 33
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    17,
+    21
+   ],
+   "last52w_surface": [
+    8,
+    13
+   ],
+   "career_surface_wl": [
+    66,
+    76
+   ],
+   "games_won_lost_52w": [
+    563,
+    554
+   ],
+   "sets_won_lost_52w": [
+    50,
+    54
+   ],
+   "avg_opp_elo_last20": 1766.7,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.2491,
+   "return_rating": 0.0424,
+   "form_elo": -82.0,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6363,
+    "first_won": 0.7603,
+    "second_won": 0.5065,
+    "serve_pts_won": 0.668,
+    "hold": 0.8652,
+    "aces_per_svgm": 0.8087,
+    "df_per_svgm": 0.2043,
+    "bp_saved": 0.6804,
+    "ret_pts_won": 0.3243,
+    "ret_1st_won": 0.2524,
+    "ret_2nd_won": 0.4535,
+    "ret_games_won": 0.1319,
+    "bp_conv": 0.2925,
+    "bp_chances_per_retgm": 0.4511,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2025-11-18",
+     29.0
+    ],
+    [
+     "2026-01-05",
+     27.0
+    ],
+    [
+     "2026-01-19",
+     28.0
+    ],
+    [
+     "2026-02-07",
+     31.0
+    ],
+    [
+     "2026-02-09",
+     28.0
+    ],
+    [
+     "2026-02-16",
+     30.0
+    ],
+    [
+     "2026-02-23",
+     31.0
+    ],
+    [
+     "2026-03-04",
+     28.0
+    ],
+    [
+     "2026-03-18",
+     27.0
+    ],
+    [
+     "2026-04-13",
+     26.0
+    ],
+    [
+     "2026-05-17",
+     24.0
+    ],
+    [
+     "2026-05-25",
+     25.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:202103",
+   "name": "Francisco Cerundolo",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 26.0,
+   "age": 28.1435318275154,
+   "elo": 1855.6,
+   "surface_elo": {
+    "Hard": 1837.2,
+    "Clay": 1837.8,
+    "Grass": 1427.8
+   },
+   "matches_total": 300,
+   "matches_surface": {
+    "Hard": 131,
+    "Clay": 151,
+    "Grass": 18
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    35,
+    21
+   ],
+   "last52w_surface": [
+    20,
+    13
+   ],
+   "career_surface_wl": [
+    68,
+    63
+   ],
+   "games_won_lost_52w": [
+    755,
+    654
+   ],
+   "sets_won_lost_52w": [
+    87,
+    59
+   ],
+   "avg_opp_elo_last20": 1794.9,
+   "vs_top_opp_52w": [
+    3,
+    10
+   ],
+   "serve_rating": 0.1005,
+   "return_rating": 0.3134,
+   "form_elo": -57.7,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6054,
+    "first_won": 0.6973,
+    "second_won": 0.5404,
+    "serve_pts_won": 0.6354,
+    "hold": 0.7781,
+    "aces_per_svgm": 0.2875,
+    "df_per_svgm": 0.2062,
+    "bp_saved": 0.6183,
+    "ret_pts_won": 0.4207,
+    "ret_1st_won": 0.3425,
+    "ret_2nd_won": 0.5569,
+    "ret_games_won": 0.3438,
+    "bp_conv": 0.4435,
+    "bp_chances_per_retgm": 0.775,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2025-07-20",
+     19.0
+    ],
+    [
+     "2025-07-27",
+     24.0
+    ],
+    [
+     "2025-08-25",
+     19.0
+    ],
+    [
+     "2025-09-12",
+     21.0
+    ],
+    [
+     "2026-01-12",
+     20.0
+    ],
+    [
+     "2026-01-19",
+     21.0
+    ],
+    [
+     "2026-02-09",
+     19.0
+    ],
+    [
+     "2026-03-04",
+     20.0
+    ],
+    [
+     "2026-03-18",
+     19.0
+    ],
+    [
+     "2026-04-22",
+     20.0
+    ],
+    [
+     "2026-05-06",
+     27.0
+    ],
+    [
+     "2026-05-25",
+     26.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Arthur Rinderknech: latest point-level stats are 170 days old (2026-05-17)",
+  "Francisco Cerundolo: latest point-level stats are 170 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -69.7,
+  "components_elo": {
+   "surface_elo": -121.9,
+   "overall_elo": -91.1,
+   "serve_return": -95.5,
+   "form": -24.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -14.9,
+   "overall_elo": -21.5,
+   "serve_return": -33.3,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.401,
+  "serve_return_implied_spw": {
+   "A": 0.6371,
+   "B": 0.6649
+  },
+  "point_probs": {
+   "A_serve": 0.6365,
+   "B_serve": 0.6655
+  },
+  "point_probs_exact": {
+   "A_serve": 0.636495457464341,
+   "B_serve": 0.6655383320099965
+  },
+  "hold_probs": {
+   "A": 0.8064,
+   "B": 0.8543
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3989,
+   0.4017
+  ],
+  "p_tb": [
+   0.4401,
+   0.4381
+  ],
+  "p_decider": [
+   0.3885,
+   0.3897
+  ],
+  "games_mean": [
+   24.227,
+   24.236
+  ],
+  "exp_breaks": [
+   4.338,
+   4.333
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3852,
+    0.3829
+   ],
+   "1-2": [
+    0.2158,
+    0.2154
+   ],
+   "2-0": [
+    0.2263,
+    0.2275
+   ],
+   "2-1": [
+    0.1727,
+    0.1743
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Francisco Cerundolo",
+   "elo_points": -33.3,
+   "raw_diff": -95.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Francisco Cerundolo",
+   "elo_points": -21.5,
+   "raw_diff": -91.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Francisco Cerundolo",
+   "elo_points": -14.9,
+   "raw_diff": -121.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5065,
+   "B": 0.5404,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3243,
+   "B": 0.4207,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6365,
+   "B": 0.6655,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8014,
+  "fair_odds": {
+   "decimal": 1.25,
+   "american": "-404"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.19 games; p10-p90 17-33); a single tiebreak or deciding set swings it. Data quality MEDIUM: Arthur Rinderknech: latest point-level stats are 170 days old (2026-05-17); Francisco Cerundolo: latest point-level stats are 170 days old (2026-05-17)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8014,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Francisco Cerundolo to win at least one set",
+    "probability": 0.7737,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Arthur Rinderknech +4.5 games",
+    "probability": 0.7214,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6443,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Arthur Rinderknech to win at least one set",
+    "probability": 0.6148,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6115,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Francisco Cerundolo to win",
+    "probability": 0.6011,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5689,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5599,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Arthur Rinderknech +2.5 games",
+    "probability": 0.5178,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5078,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4922,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Francisco Cerundolo -2.5 games",
+    "probability": 0.4822,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4401,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4311,
+    "fair_decimal": 2.32
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:09+00:00",
+  "version": 1,
+  "input_hash": "1a4d9c7f9ed3dbad",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186446",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

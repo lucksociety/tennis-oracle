@@ -1,36 +1,36 @@
 {
- "generated_at_utc": "2026-11-01T20:34:35+00:00",
+ "generated_at_utc": "2026-11-02T06:06:18+00:00",
  "summary": {
-  "n": 155,
-  "brier": 0.22952726451612904,
-  "log_loss": 0.6508782786259372,
-  "accuracy": 0.6,
-  "games_mae": 4.991612903225807,
-  "exact_sets_accuracy": 0.4064516129032258,
-  "tiebreak_brier": 0.20042098193548388
+  "n": 158,
+  "brier": 0.22853257955696202,
+  "log_loss": 0.648866579008169,
+  "accuracy": 0.6075949367088608,
+  "games_mae": 4.951962025316456,
+  "exact_sets_accuracy": 0.4050632911392405,
+  "tiebreak_brier": 0.2008932490506329
  },
- "n": 155,
+ "n": 158,
  "overall": {
-  "n": 155,
-  "brier": 0.22952726451612904,
-  "log_loss": 0.6508782786259372,
-  "accuracy": 0.6
+  "n": 158,
+  "brier": 0.22853257955696202,
+  "log_loss": 0.648866579008169,
+  "accuracy": 0.6075949367088608
  },
- "games_mae": 4.991612903225807,
- "exact_sets_accuracy": 0.4064516129032258,
- "tiebreak_brier": 0.20042098193548388,
+ "games_mae": 4.951962025316456,
+ "exact_sets_accuracy": 0.4050632911392405,
+ "tiebreak_brier": 0.2008932490506329,
  "by_surface": {
   "Clay": {
-   "n": 6,
-   "brier": 0.18791737166666667,
-   "log_loss": 0.5645586004761939,
-   "accuracy": 0.6666666666666666
+   "n": 7,
+   "brier": 0.18308006857142858,
+   "log_loss": 0.5551078152320853,
+   "accuracy": 0.7142857142857143
   },
   "Hard": {
-   "n": 149,
-   "brier": 0.2312028306711409,
-   "log_loss": 0.6543542388198864,
-   "accuracy": 0.5973154362416108
+   "n": 151,
+   "brier": 0.23063964960264904,
+   "log_loss": 0.6532130117660007,
+   "accuracy": 0.6026490066225165
   }
  },
  "by_tour": {
@@ -41,38 +41,38 @@
    "accuracy": 0.6140350877192983
   },
   "wta": {
-   "n": 98,
-   "brier": 0.23439748897959184,
-   "log_loss": 0.6622379584496647,
-   "accuracy": 0.5918367346938775
+   "n": 101,
+   "brier": 0.23269678702970295,
+   "log_loss": 0.6587535269736394,
+   "accuracy": 0.6039603960396039
   }
  },
  "by_quality": {
   "LOW": {
-   "n": 83,
-   "brier": 0.23596915855421682,
-   "log_loss": 0.6667740465857074,
-   "accuracy": 0.6144578313253012
+   "n": 85,
+   "brier": 0.23485653505882353,
+   "log_loss": 0.6644544595190203,
+   "accuracy": 0.6235294117647059
   },
   "MEDIUM": {
-   "n": 72,
-   "brier": 0.22210119222222222,
-   "log_loss": 0.632553990561202,
-   "accuracy": 0.5833333333333334
+   "n": 73,
+   "brier": 0.2211690697260274,
+   "log_loss": 0.6307163071804655,
+   "accuracy": 0.589041095890411
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 99,
-   "mean_pred": 0.5435212121212122,
-   "observed": 0.5353535353535354
+   "n": 100,
+   "mean_pred": 0.5432020000000001,
+   "observed": 0.54
   },
   {
    "bucket": "60%-70%",
-   "n": 35,
-   "mean_pred": 0.6492514285714286,
-   "observed": 0.6857142857142857
+   "n": 37,
+   "mean_pred": 0.6475324324324325,
+   "observed": 0.7027027027027027
   },
   {
    "bucket": "70%-80%",
@@ -6059,6 +6059,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Tatjana Maria vs Bianca Andreescu",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Queretaro Open",
+   "p_a": 0.3925,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2041,
+   "exp_games": 22.51,
+   "actual_games": 24,
+   "p_tb": 0.2633,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3507,
+     0
+    ],
+    "A -2.5": [
+     0.3153,
+     0
+    ],
+    "A -3.5": [
+     0.2684,
+     0
+    ],
+    "A -4.5": [
+     0.2047,
+     0
+    ],
+    "A -5.5": [
+     0.1446,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Noma Noha Akugue vs Alina Charaeva",
    "date": "2026-11-01",
    "tour": "wta",
@@ -6602,6 +6644,90 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Laura Pigossi vs Katrina Scott",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.4884,
+   "a_won": 0,
+   "pred_winner": "Katrina Scott",
+   "actual_winner": "Katrina Scott",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3223,
+   "exp_games": 22.54,
+   "actual_games": 23,
+   "p_tb": 0.2599,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4454,
+     0
+    ],
+    "A -2.5": [
+     0.4082,
+     0
+    ],
+    "A -3.5": [
+     0.3541,
+     0
+    ],
+    "A -4.5": [
+     0.2798,
+     0
+    ],
+    "A -5.5": [
+     0.2064,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Elizabeth Mandlik vs Selena Janicijevic",
+   "date": "2026-11-01",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3726,
+   "a_won": 0,
+   "pred_winner": "Selena Janicijevic",
+   "actual_winner": "Selena Janicijevic",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2029,
+   "exp_games": 22.24,
+   "actual_games": 29,
+   "p_tb": 0.2425,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3321,
+     0
+    ],
+    "A -2.5": [
+     0.2987,
+     0
+    ],
+    "A -3.5": [
+     0.2547,
+     0
+    ],
+    "A -4.5": [
+     0.1964,
+     0
+    ],
+    "A -5.5": [
+     0.1406,
+     0
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   }
  ]

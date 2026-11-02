@@ -1,0 +1,695 @@
+{
+ "predicted_winner": "Tereza Valentova",
+ "win_prob": {
+  "A": 0.3714,
+  "B": 0.6286
+ },
+ "win_prob_exact": {
+  "A": 0.37137,
+  "B": 0.62863
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.69,
+   "american": "+169"
+  },
+  "B": {
+   "decimal": 1.59,
+   "american": "-169"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4227,
+  "2-0": 0.2159,
+  "1-2": 0.2059,
+  "2-1": 0.1555
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0218,
+ "games": {
+  "mean": 22.46,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00267,
+   "13": 0.01127,
+   "14": 0.02651,
+   "15": 0.04858,
+   "16": 0.06873,
+   "17": 0.08351,
+   "18": 0.08388,
+   "19": 0.07991,
+   "20": 0.06867,
+   "21": 0.05067,
+   "22": 0.05915,
+   "23": 0.04018,
+   "24": 0.01962,
+   "25": 0.0361,
+   "26": 0.04045,
+   "27": 0.03651,
+   "28": 0.03908,
+   "29": 0.04033,
+   "30": 0.03881,
+   "31": 0.03516,
+   "32": 0.03002,
+   "33": 0.01914,
+   "34": 0.01419,
+   "35": 0.01382,
+   "36": 0.00718,
+   "37": 0.00181,
+   "38": 0.0027,
+   "39": 0.00135
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00227,
+  "-11": 0.00924,
+  "-10": 0.02103,
+  "-9": 0.03811,
+  "-8": 0.05703,
+  "-7": 0.08014,
+  "-6": 0.09143,
+  "-5": 0.09564,
+  "-4": 0.08743,
+  "-3": 0.06172,
+  "-2": 0.04156,
+  "-1": 0.03032,
+  "0": 0.02747,
+  "1": 0.02681,
+  "2": 0.0339,
+  "3": 0.04652,
+  "4": 0.06021,
+  "5": 0.05776,
+  "6": 0.04928,
+  "7": 0.03671,
+  "8": 0.02342,
+  "9": 0.01321,
+  "10": 0.00623,
+  "11": 0.00216,
+  "12": 0.0004
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7587,
+   "under": 0.2413
+  },
+  {
+   "line": 18.5,
+   "over": 0.6749,
+   "under": 0.3251
+  },
+  {
+   "line": 19.5,
+   "over": 0.5949,
+   "under": 0.4051
+  },
+  {
+   "line": 20.5,
+   "over": 0.5263,
+   "under": 0.4737
+  },
+  {
+   "line": 21.5,
+   "over": 0.4756,
+   "under": 0.5244
+  },
+  {
+   "line": 22.5,
+   "over": 0.4165,
+   "under": 0.5836
+  },
+  {
+   "line": 23.5,
+   "over": 0.3763,
+   "under": 0.6237
+  },
+  {
+   "line": 24.5,
+   "over": 0.3566,
+   "under": 0.6433
+  },
+  {
+   "line": 25.5,
+   "over": 0.3205,
+   "under": 0.6794
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3298,
+   "B +1.5": 0.6702,
+   "B -1.5": 0.5856,
+   "A +1.5": 0.4144
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2959,
+   "B +2.5": 0.7041,
+   "B -2.5": 0.544,
+   "A +2.5": 0.456
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2494,
+   "B +3.5": 0.7506,
+   "B -3.5": 0.4823,
+   "A +3.5": 0.5177
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1892,
+   "B +4.5": 0.8108,
+   "B -4.5": 0.3949,
+   "A +4.5": 0.6051
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1314,
+   "B +5.5": 0.8686,
+   "B -5.5": 0.2993,
+   "A +5.5": 0.7007
+  }
+ ],
+ "p_tiebreak": 0.2661,
+ "p_a_wins_set": 0.5773,
+ "p_b_wins_set": 0.7841,
+ "p_decider": 0.3614,
+ "expected_breaks": {
+  "total": 7.51,
+  "by_A": 3.35,
+  "by_B": 4.16
+ },
+ "expected_break_points": {
+  "A_creates": 7.82,
+  "B_creates": 9.02
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4227
+ },
+ "match": "Himeno Sakatsume vs Tereza Valentova",
+ "players": {
+  "A": {
+   "id": "wta:221124",
+   "name": "Himeno Sakatsume",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 133.0,
+   "age": 25.166735112936347,
+   "elo": 1667.7,
+   "surface_elo": {
+    "Hard": 1648.0,
+    "Clay": 1500.0,
+    "Grass": 1490.5
+   },
+   "matches_total": 37,
+   "matches_surface": {
+    "Hard": 33,
+    "Clay": 0,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    15,
+    13
+   ],
+   "last52w_surface": [
+    13,
+    11
+   ],
+   "career_surface_wl": [
+    18,
+    15
+   ],
+   "games_won_lost_52w": [
+    308,
+    298
+   ],
+   "sets_won_lost_52w": [
+    34,
+    30
+   ],
+   "avg_opp_elo_last20": 1601.5,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.0946,
+   "return_rating": 0.0244,
+   "form_elo": 20.2,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-03-04",
+   "stats_52w": {
+    "first_in": 0.674,
+    "first_won": 0.623,
+    "second_won": 0.4915,
+    "serve_pts_won": 0.5801,
+    "hold": 0.6667,
+    "aces_per_svgm": 0.0741,
+    "df_per_svgm": 0.1111,
+    "bp_saved": 0.5714,
+    "ret_pts_won": 0.3438,
+    "ret_1st_won": 0.2596,
+    "ret_2nd_won": 0.5,
+    "ret_games_won": 0.1538,
+    "bp_conv": 0.3077,
+    "bp_chances_per_retgm": 0.5,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2022-08-22",
+     359.0
+    ],
+    [
+     "2023-04-13",
+     216.0
+    ],
+    [
+     "2023-09-11",
+     184.0
+    ],
+    [
+     "2023-09-25",
+     181.0
+    ],
+    [
+     "2025-10-27",
+     228.0
+    ],
+    [
+     "2026-01-19",
+     140.0
+    ],
+    [
+     "2026-03-04",
+     136.0
+    ],
+    [
+     "2026-04-10",
+     133.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:238184",
+   "name": "Tereza Valentova",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 42.0,
+   "age": 19.6435318275154,
+   "elo": 1752.8,
+   "surface_elo": {
+    "Hard": 1741.5,
+    "Clay": 1567.3,
+    "Grass": 1535.3
+   },
+   "matches_total": 52,
+   "matches_surface": {
+    "Hard": 41,
+    "Clay": 6,
+    "Grass": 5
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    19
+   ],
+   "last52w_surface": [
+    17,
+    13
+   ],
+   "career_surface_wl": [
+    25,
+    16
+   ],
+   "games_won_lost_52w": [
+    431,
+    414
+   ],
+   "sets_won_lost_52w": [
+    43,
+    45
+   ],
+   "avg_opp_elo_last20": 1673.0,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.1369,
+   "return_rating": 0.1694,
+   "form_elo": -7.7,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-05-05",
+   "stats_52w": {
+    "first_in": 0.6211,
+    "first_won": 0.6326,
+    "second_won": 0.4119,
+    "serve_pts_won": 0.549,
+    "hold": 0.6296,
+    "aces_per_svgm": 0.237,
+    "df_per_svgm": 0.4,
+    "bp_saved": 0.5,
+    "ret_pts_won": 0.4381,
+    "ret_1st_won": 0.359,
+    "ret_2nd_won": 0.5688,
+    "ret_games_won": 0.3407,
+    "bp_conv": 0.3898,
+    "bp_chances_per_retgm": 0.8741,
+    "matches_with_stats": 13
+   },
+   "rank_history": [
+    [
+     "2025-05-26",
+     172.0
+    ],
+    [
+     "2025-07-21",
+     106.0
+    ],
+    [
+     "2025-08-25",
+     96.0
+    ],
+    [
+     "2025-10-13",
+     78.0
+    ],
+    [
+     "2026-01-04",
+     60.0
+    ],
+    [
+     "2026-01-19",
+     54.0
+    ],
+    [
+     "2026-02-08",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     47.0
+    ],
+    [
+     "2026-03-17",
+     49.0
+    ],
+    [
+     "2026-04-21",
+     51.0
+    ],
+    [
+     "2026-05-05",
+     48.0
+    ],
+    [
+     "2026-05-25",
+     42.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Himeno Sakatsume: limited recent/surface sample (28 matches 52w, 33 career on Hard, 3 with stats)",
+  "Himeno Sakatsume: latest point-level stats are 244 days old (2026-03-04)",
+  "Tereza Valentova: limited recent/surface sample (39 matches 52w, 41 career on Hard, 13 with stats)",
+  "Tereza Valentova: latest point-level stats are 182 days old (2026-05-05)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -91.0,
+  "components_elo": {
+   "surface_elo": -93.5,
+   "overall_elo": -85.1,
+   "serve_return": -170.2,
+   "form": 27.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -11.4,
+   "overall_elo": -20.1,
+   "serve_return": -59.4,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.372,
+  "serve_return_implied_spw": {
+   "A": 0.5473,
+   "B": 0.5932
+  },
+  "point_probs": {
+   "A_serve": 0.5513,
+   "B_serve": 0.5892
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5513281523849152,
+   "B_serve": 0.5892081133154977
+  },
+  "hold_probs": {
+   "A": 0.6263,
+   "B": 0.7128
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3714,
+   0.3741
+  ],
+  "p_tb": [
+   0.2661,
+   0.2645
+  ],
+  "p_decider": [
+   0.3614,
+   0.364
+  ],
+  "games_mean": [
+   22.457,
+   22.475
+  ],
+  "exp_breaks": [
+   7.508,
+   7.519
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4227,
+    0.4202
+   ],
+   "1-2": [
+    0.2059,
+    0.2056
+   ],
+   "2-0": [
+    0.2159,
+    0.2157
+   ],
+   "2-1": [
+    0.1555,
+    0.1584
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tereza Valentova",
+   "elo_points": -59.4,
+   "raw_diff": -170.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tereza Valentova",
+   "elo_points": -20.1,
+   "raw_diff": -85.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Tereza Valentova",
+   "elo_points": -11.4,
+   "raw_diff": -93.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4915,
+   "B": 0.4119,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3438,
+   "B": 0.4381,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5513,
+   "B": 0.5892,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Tereza Valentova to win at least one set",
+  "probability": 0.7841,
+  "fair_odds": {
+   "decimal": 1.28,
+   "american": "-363"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Himeno Sakatsume: limited recent/surface sample (28 matches 52w, 33 career on Hard, 3 with stats); Himeno Sakatsume: latest point-level stats are 244 days old (2026-03-04)",
+  "candidates": [
+   {
+    "selection": "Tereza Valentova to win at least one set",
+    "probability": 0.7841,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7339,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6749,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6433,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6386,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Tereza Valentova to win",
+    "probability": 0.6286,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Himeno Sakatsume +4.5 games",
+    "probability": 0.6051,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5836,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Himeno Sakatsume to win at least one set",
+    "probability": 0.5773,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Tereza Valentova -2.5 games",
+    "probability": 0.544,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5263,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4737,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Himeno Sakatsume +2.5 games",
+    "probability": 0.456,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Exact sets Himeno Sakatsume 0-2 Tereza Valentova",
+    "probability": 0.4227,
+    "fair_decimal": 2.37
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4165,
+    "fair_decimal": 2.4
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:33+00:00",
+  "version": 1,
+  "input_hash": "0619d19dfb0d8092",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186629",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

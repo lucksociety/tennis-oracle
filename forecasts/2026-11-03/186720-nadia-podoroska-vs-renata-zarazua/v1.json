@@ -1,0 +1,683 @@
+{
+ "predicted_winner": "Renata Zarazua",
+ "win_prob": {
+  "A": 0.459,
+  "B": 0.541
+ },
+ "win_prob_exact": {
+  "A": 0.45897,
+  "B": 0.54103
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.18,
+   "american": "+118"
+  },
+  "B": {
+   "decimal": 1.85,
+   "american": "-118"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3458,
+  "2-0": 0.2802,
+  "1-2": 0.1952,
+  "2-1": 0.1788
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0181,
+ "games": {
+  "mean": 22.6,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00213,
+   "13": 0.01017,
+   "14": 0.02459,
+   "15": 0.04556,
+   "16": 0.06593,
+   "17": 0.08438,
+   "18": 0.08283,
+   "19": 0.07875,
+   "20": 0.06858,
+   "21": 0.0492,
+   "22": 0.06005,
+   "23": 0.0404,
+   "24": 0.02064,
+   "25": 0.03794,
+   "26": 0.04049,
+   "27": 0.0377,
+   "28": 0.04143,
+   "29": 0.04095,
+   "30": 0.03922,
+   "31": 0.03653,
+   "32": 0.03095,
+   "33": 0.01978,
+   "34": 0.01506,
+   "35": 0.01456,
+   "36": 0.00645,
+   "37": 0.00185,
+   "38": 0.00256,
+   "39": 0.00132
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00131,
+  "-11": 0.00609,
+  "-10": 0.01496,
+  "-9": 0.02866,
+  "-8": 0.04408,
+  "-7": 0.06603,
+  "-6": 0.07654,
+  "-5": 0.0815,
+  "-4": 0.08026,
+  "-3": 0.05753,
+  "-2": 0.04014,
+  "-1": 0.03034,
+  "0": 0.02734,
+  "1": 0.02974,
+  "2": 0.03703,
+  "3": 0.05311,
+  "4": 0.07139,
+  "5": 0.06978,
+  "6": 0.06338,
+  "7": 0.05215,
+  "8": 0.03342,
+  "9": 0.01997,
+  "10": 0.01024,
+  "11": 0.00419,
+  "12": 0.00082
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7672,
+   "under": 0.2328
+  },
+  {
+   "line": 18.5,
+   "over": 0.6844,
+   "under": 0.3156
+  },
+  {
+   "line": 19.5,
+   "over": 0.6057,
+   "under": 0.3943
+  },
+  {
+   "line": 20.5,
+   "over": 0.5371,
+   "under": 0.4629
+  },
+  {
+   "line": 21.5,
+   "over": 0.4879,
+   "under": 0.5121
+  },
+  {
+   "line": 22.5,
+   "over": 0.4278,
+   "under": 0.5722
+  },
+  {
+   "line": 23.5,
+   "over": 0.3874,
+   "under": 0.6126
+  },
+  {
+   "line": 24.5,
+   "over": 0.3668,
+   "under": 0.6332
+  },
+  {
+   "line": 25.5,
+   "over": 0.3289,
+   "under": 0.6712
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4155,
+   "B +1.5": 0.5845,
+   "B -1.5": 0.4971,
+   "A +1.5": 0.5029
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3785,
+   "B +2.5": 0.6216,
+   "B -2.5": 0.457,
+   "A +2.5": 0.543
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3253,
+   "B +3.5": 0.6747,
+   "B -3.5": 0.3994,
+   "A +3.5": 0.6006
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.254,
+   "B +4.5": 0.746,
+   "B -4.5": 0.3192,
+   "A +4.5": 0.6808
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1842,
+   "B +5.5": 0.8158,
+   "B -5.5": 0.2377,
+   "A +5.5": 0.7623
+  }
+ ],
+ "p_tiebreak": 0.2643,
+ "p_a_wins_set": 0.6542,
+ "p_b_wins_set": 0.7198,
+ "p_decider": 0.374,
+ "expected_breaks": {
+  "total": 7.78,
+  "by_A": 3.76,
+  "by_B": 4.02
+ },
+ "expected_break_points": {
+  "A_creates": 8.47,
+  "B_creates": 8.85
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3458
+ },
+ "match": "Nadia Podoroska vs Renata Zarazua",
+ "players": {
+  "A": {
+   "id": "wta:206408",
+   "name": "Nadia Podoroska",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 96.0,
+   "age": 29.704243668720054,
+   "elo": 1628.0,
+   "surface_elo": {
+    "Hard": 1656.4,
+    "Clay": 1488.1,
+    "Grass": 1442.0
+   },
+   "matches_total": 166,
+   "matches_surface": {
+    "Hard": 94,
+    "Clay": 59,
+    "Grass": 13
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    9,
+    8
+   ],
+   "last52w_surface": [
+    7,
+    4
+   ],
+   "career_surface_wl": [
+    41,
+    53
+   ],
+   "games_won_lost_52w": [
+    197,
+    190
+   ],
+   "sets_won_lost_52w": [
+    23,
+    19
+   ],
+   "avg_opp_elo_last20": 1688.2,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": -0.0011,
+   "return_rating": -0.0057,
+   "form_elo": 82.8,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2025-01-13",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2024-07-15",
+     71.0
+    ],
+    [
+     "2024-07-22",
+     85.0
+    ],
+    [
+     "2024-07-29",
+     86.0
+    ],
+    [
+     "2024-08-05",
+     87.0
+    ],
+    [
+     "2024-08-19",
+     67.0
+    ],
+    [
+     "2024-08-26",
+     68.0
+    ],
+    [
+     "2024-09-09",
+     71.0
+    ],
+    [
+     "2024-09-16",
+     74.0
+    ],
+    [
+     "2024-09-25",
+     66.0
+    ],
+    [
+     "2024-10-28",
+     80.0
+    ],
+    [
+     "2024-12-27",
+     100.0
+    ],
+    [
+     "2025-01-13",
+     96.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:213887",
+   "name": "Renata Zarazua",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 74.0,
+   "age": 29.0435318275154,
+   "elo": 1621.6,
+   "surface_elo": {
+    "Hard": 1592.1,
+    "Clay": 1483.4,
+    "Grass": 1469.2
+   },
+   "matches_total": 121,
+   "matches_surface": {
+    "Hard": 84,
+    "Clay": 26,
+    "Grass": 11
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    14,
+    21
+   ],
+   "last52w_surface": [
+    9,
+    14
+   ],
+   "career_surface_wl": [
+    33,
+    51
+   ],
+   "games_won_lost_52w": [
+    323,
+    391
+   ],
+   "sets_won_lost_52w": [
+    33,
+    47
+   ],
+   "avg_opp_elo_last20": 1690.5,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.0531,
+   "return_rating": 0.058,
+   "form_elo": -16.6,
+   "last_match": "2026-10-10",
+   "last_stats_match": "2026-03-30",
+   "stats_52w": {
+    "first_in": 0.7611,
+    "first_won": 0.5653,
+    "second_won": 0.4969,
+    "serve_pts_won": 0.549,
+    "hold": 0.6095,
+    "aces_per_svgm": 0.019,
+    "df_per_svgm": 0.1238,
+    "bp_saved": 0.5393,
+    "ret_pts_won": 0.4174,
+    "ret_1st_won": 0.3677,
+    "ret_2nd_won": 0.51,
+    "ret_games_won": 0.3056,
+    "bp_conv": 0.4074,
+    "bp_chances_per_retgm": 0.75,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2025-07-27",
+     68.0
+    ],
+    [
+     "2025-08-07",
+     70.0
+    ],
+    [
+     "2025-08-18",
+     73.0
+    ],
+    [
+     "2025-08-25",
+     82.0
+    ],
+    [
+     "2025-09-08",
+     84.0
+    ],
+    [
+     "2026-01-05",
+     77.0
+    ],
+    [
+     "2026-01-12",
+     84.0
+    ],
+    [
+     "2026-01-19",
+     80.0
+    ],
+    [
+     "2026-02-01",
+     92.0
+    ],
+    [
+     "2026-02-23",
+     89.0
+    ],
+    [
+     "2026-03-30",
+     85.0
+    ],
+    [
+     "2026-05-25",
+     74.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Nadia Podoroska: sparse record (166 tour matches, 0 with serve stats in 52w)",
+  "Nadia Podoroska: latest point-level stats are 659 days old (2025-01-13)",
+  "Renata Zarazua: limited recent/surface sample (35 matches 52w, 84 career on Hard, 10 with stats)",
+  "Renata Zarazua: latest point-level stats are 218 days old (2026-03-30)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -28.1,
+  "components_elo": {
+   "surface_elo": 64.3,
+   "overall_elo": 6.4,
+   "serve_return": -106.9,
+   "form": 99.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 7.9,
+   "overall_elo": 1.5,
+   "serve_return": -37.3,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4597,
+  "serve_return_implied_spw": {
+   "A": 0.5512,
+   "B": 0.5802
+  },
+  "point_probs": {
+   "A_serve": 0.5598,
+   "B_serve": 0.5716
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5598402744600258,
+   "B_serve": 0.571578031245275
+  },
+  "hold_probs": {
+   "A": 0.6464,
+   "B": 0.6736
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.459,
+   0.4604
+  ],
+  "p_tb": [
+   0.2643,
+   0.2667
+  ],
+  "p_decider": [
+   0.374,
+   0.376
+  ],
+  "games_mean": [
+   22.602,
+   22.635
+  ],
+  "exp_breaks": [
+   7.782,
+   7.785
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3458,
+    0.344
+   ],
+   "1-2": [
+    0.1952,
+    0.1956
+   ],
+   "2-0": [
+    0.2802,
+    0.28
+   ],
+   "2-1": [
+    0.1788,
+    0.1804
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0024
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Renata Zarazua",
+   "elo_points": -37.3,
+   "raw_diff": -106.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Nadia Podoroska",
+   "elo_points": 7.9,
+   "raw_diff": 64.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Nadia Podoroska",
+   "elo_points": 1.5,
+   "raw_diff": 6.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5598,
+   "B": 0.5716,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7357,
+  "fair_odds": {
+   "decimal": 1.36,
+   "american": "-278"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Nadia Podoroska: sparse record (166 tour matches, 0 with serve stats in 52w); Nadia Podoroska: latest point-level stats are 659 days old (2025-01-13)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7357,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Renata Zarazua to win at least one set",
+    "probability": 0.7198,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6844,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Nadia Podoroska +4.5 games",
+    "probability": 0.6808,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Nadia Podoroska to win at least one set",
+    "probability": 0.6542,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6332,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.626,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5722,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Nadia Podoroska +2.5 games",
+    "probability": 0.543,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Renata Zarazua to win",
+    "probability": 0.541,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5371,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4629,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Nadia Podoroska to win",
+    "probability": 0.459,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Renata Zarazua -2.5 games",
+    "probability": 0.457,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4278,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:59+00:00",
+  "version": 1,
+  "input_hash": "21adc8bbac74f3b0",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186720",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}

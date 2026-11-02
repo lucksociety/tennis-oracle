@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Maya Joint",
+ "win_prob": {
+  "A": 0.3518,
+  "B": 0.6482
+ },
+ "win_prob_exact": {
+  "A": 0.35181,
+  "B": 0.64819
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.84,
+   "american": "+184"
+  },
+  "B": {
+   "decimal": 1.54,
+   "american": "-184"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.438,
+  "1-2": 0.2102,
+  "2-0": 0.2002,
+  "2-1": 0.1516
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0217,
+ "games": {
+  "mean": 22.43,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00305,
+   "13": 0.01211,
+   "14": 0.02779,
+   "15": 0.04955,
+   "16": 0.06853,
+   "17": 0.08408,
+   "18": 0.08498,
+   "19": 0.07909,
+   "20": 0.06863,
+   "21": 0.04849,
+   "22": 0.0579,
+   "23": 0.03958,
+   "24": 0.01966,
+   "25": 0.03511,
+   "26": 0.03932,
+   "27": 0.03629,
+   "28": 0.04013,
+   "29": 0.04065,
+   "30": 0.0388,
+   "31": 0.03562,
+   "32": 0.03071,
+   "33": 0.01959,
+   "34": 0.01443,
+   "35": 0.01363,
+   "36": 0.0068,
+   "37": 0.00198,
+   "38": 0.00248,
+   "39": 0.00102
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00275,
+  "-11": 0.00978,
+  "-10": 0.02338,
+  "-9": 0.04071,
+  "-8": 0.05996,
+  "-7": 0.08313,
+  "-6": 0.09517,
+  "-5": 0.09679,
+  "-4": 0.09049,
+  "-3": 0.06225,
+  "-2": 0.04193,
+  "-1": 0.02881,
+  "0": 0.02716,
+  "1": 0.02689,
+  "2": 0.0331,
+  "3": 0.04531,
+  "4": 0.057,
+  "5": 0.0548,
+  "6": 0.04573,
+  "7": 0.03409,
+  "8": 0.021,
+  "9": 0.01183,
+  "10": 0.00524,
+  "11": 0.0024,
+  "12": 0.0003
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7549,
+   "under": 0.2451
+  },
+  {
+   "line": 18.5,
+   "over": 0.6699,
+   "under": 0.3301
+  },
+  {
+   "line": 19.5,
+   "over": 0.5908,
+   "under": 0.4092
+  },
+  {
+   "line": 20.5,
+   "over": 0.5222,
+   "under": 0.4778
+  },
+  {
+   "line": 21.5,
+   "over": 0.4737,
+   "under": 0.5263
+  },
+  {
+   "line": 22.5,
+   "over": 0.4158,
+   "under": 0.5842
+  },
+  {
+   "line": 23.5,
+   "over": 0.3762,
+   "under": 0.6238
+  },
+  {
+   "line": 24.5,
+   "over": 0.3566,
+   "under": 0.6434
+  },
+  {
+   "line": 25.5,
+   "over": 0.3214,
+   "under": 0.6785
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3108,
+   "B +1.5": 0.6892,
+   "B -1.5": 0.6063,
+   "A +1.5": 0.3937
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2777,
+   "B +2.5": 0.7223,
+   "B -2.5": 0.5644,
+   "A +2.5": 0.4356
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2324,
+   "B +3.5": 0.7676,
+   "B -3.5": 0.5022,
+   "A +3.5": 0.4978
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1754,
+   "B +4.5": 0.8246,
+   "B -4.5": 0.4117,
+   "A +4.5": 0.5883
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1206,
+   "B +5.5": 0.8794,
+   "B -5.5": 0.3149,
+   "A +5.5": 0.6851
+  }
+ ],
+ "p_tiebreak": 0.2615,
+ "p_a_wins_set": 0.562,
+ "p_b_wins_set": 0.7998,
+ "p_decider": 0.3618,
+ "expected_breaks": {
+  "total": 7.48,
+  "by_A": 3.28,
+  "by_B": 4.21
+ },
+ "expected_break_points": {
+  "A_creates": 7.69,
+  "B_creates": 9.09
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.438
+ },
+ "match": "Maddison Inglis vs Maya Joint",
+ "players": {
+  "A": {
+   "id": "wta:213666",
+   "name": "Maddison Inglis",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 168.0,
+   "age": 28.788501026694046,
+   "elo": 1609.2,
+   "surface_elo": {
+    "Hard": 1609.7,
+    "Clay": 1451.7,
+    "Grass": 1284.5
+   },
+   "matches_total": 50,
+   "matches_surface": {
+    "Hard": 43,
+    "Clay": 3,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    10,
+    8
+   ],
+   "last52w_surface": [
+    10,
+    7
+   ],
+   "career_surface_wl": [
+    16,
+    27
+   ],
+   "games_won_lost_52w": [
+    203,
+    201
+   ],
+   "sets_won_lost_52w": [
+    22,
+    19
+   ],
+   "avg_opp_elo_last20": 1681.0,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.0039,
+   "return_rating": -0.0647,
+   "form_elo": 54.2,
+   "last_match": "2026-10-24",
+   "last_stats_match": "2026-01-19",
+   "stats_52w": {
+    "first_in": 0.6493,
+    "first_won": 0.6322,
+    "second_won": 0.5,
+    "serve_pts_won": 0.5858,
+    "hold": 0.6829,
+    "aces_per_svgm": 0.1463,
+    "df_per_svgm": 0.122,
+    "bp_saved": 0.35,
+    "ret_pts_won": 0.3778,
+    "ret_1st_won": 0.3161,
+    "ret_2nd_won": 0.4896,
+    "ret_games_won": 0.2619,
+    "bp_conv": 0.6111,
+    "bp_chances_per_retgm": 0.4286,
+    "matches_with_stats": 3
+   },
+   "rank_history": [
+    [
+     "2022-01-10",
+     139.0
+    ],
+    [
+     "2022-01-17",
+     133.0
+    ],
+    [
+     "2022-06-27",
+     129.0
+    ],
+    [
+     "2022-09-19",
+     137.0
+    ],
+    [
+     "2023-01-02",
+     179.0
+    ],
+    [
+     "2024-12-30",
+     154.0
+    ],
+    [
+     "2025-03-05",
+     136.0
+    ],
+    [
+     "2025-06-09",
+     152.0
+    ],
+    [
+     "2025-08-07",
+     153.0
+    ],
+    [
+     "2025-09-24",
+     158.0
+    ],
+    [
+     "2025-10-27",
+     186.0
+    ],
+    [
+     "2026-01-19",
+     168.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:233741",
+   "name": "Maya Joint",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 52.0,
+   "age": 20.5435318275154,
+   "elo": 1749.5,
+   "surface_elo": {
+    "Hard": 1717.6,
+    "Clay": 1556.5,
+    "Grass": 1634.7
+   },
+   "matches_total": 100,
+   "matches_surface": {
+    "Hard": 79,
+    "Clay": 11,
+    "Grass": 10
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    19,
+    25
+   ],
+   "last52w_surface": [
+    18,
+    19
+   ],
+   "career_surface_wl": [
+    41,
+    38
+   ],
+   "games_won_lost_52w": [
+    496,
+    541
+   ],
+   "sets_won_lost_52w": [
+    51,
+    60
+   ],
+   "avg_opp_elo_last20": 1690.6,
+   "vs_top_opp_52w": [
+    2,
+    5
+   ],
+   "serve_rating": 0.0513,
+   "return_rating": 0.0766,
+   "form_elo": 54.5,
+   "last_match": "2026-10-30",
+   "last_stats_match": "2026-05-17",
+   "stats_52w": {
+    "first_in": 0.6291,
+    "first_won": 0.5789,
+    "second_won": 0.4464,
+    "serve_pts_won": 0.5298,
+    "hold": 0.5556,
+    "aces_per_svgm": 0.1556,
+    "df_per_svgm": 0.2556,
+    "bp_saved": 0.5402,
+    "ret_pts_won": 0.3978,
+    "ret_1st_won": 0.3292,
+    "ret_2nd_won": 0.5174,
+    "ret_games_won": 0.2111,
+    "bp_conv": 0.38,
+    "bp_chances_per_retgm": 0.5556,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     43.0
+    ],
+    [
+     "2025-09-15",
+     46.0
+    ],
+    [
+     "2025-09-24",
+     36.0
+    ],
+    [
+     "2025-10-06",
+     35.0
+    ],
+    [
+     "2025-10-20",
+     32.0
+    ],
+    [
+     "2026-01-19",
+     31.0
+    ],
+    [
+     "2026-02-01",
+     29.0
+    ],
+    [
+     "2026-02-08",
+     30.0
+    ],
+    [
+     "2026-02-15",
+     28.0
+    ],
+    [
+     "2026-03-04",
+     29.0
+    ],
+    [
+     "2026-05-05",
+     34.0
+    ],
+    [
+     "2026-05-25",
+     52.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-06-08",
+ "forecast_date": "2026-11-03",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Maddison Inglis: limited recent/surface sample (18 matches 52w, 43 career on Hard, 3 with stats)",
+  "Maddison Inglis: latest point-level stats are 288 days old (2026-01-19)",
+  "Maya Joint: limited recent/surface sample (44 matches 52w, 79 career on Hard, 9 with stats)",
+  "Maya Joint: latest point-level stats are 170 days old (2026-05-17)",
+  "Point-level dataset cutoff 2026-06-08 is 148 days before forecast date"
+ ],
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -106.1,
+  "components_elo": {
+   "surface_elo": -107.9,
+   "overall_elo": -140.2,
+   "serve_return": -171.4,
+   "form": -0.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -13.2,
+   "overall_elo": -33.1,
+   "serve_return": -59.8,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3518,
+  "serve_return_implied_spw": {
+   "A": 0.5478,
+   "B": 0.594
+  },
+  "point_probs": {
+   "A_serve": 0.5488,
+   "B_serve": 0.593
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5488406951521952,
+   "B_serve": 0.5930007714380835
+  },
+  "hold_probs": {
+   "A": 0.6204,
+   "B": 0.7209
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3518,
+   0.3541
+  ],
+  "p_tb": [
+   0.2615,
+   0.2623
+  ],
+  "p_decider": [
+   0.3618,
+   0.3592
+  ],
+  "games_mean": [
+   22.431,
+   22.398
+  ],
+  "exp_breaks": [
+   7.484,
+   7.467
+  ],
+  "set_scores": {
+   "0-2": [
+    0.438,
+    0.4391
+   ],
+   "1-2": [
+    0.2102,
+    0.2067
+   ],
+   "2-0": [
+    0.2002,
+    0.2017
+   ],
+   "2-1": [
+    0.1516,
+    0.1525
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0035
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Maya Joint",
+   "elo_points": -59.8,
+   "raw_diff": -171.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Maya Joint",
+   "elo_points": -33.1,
+   "raw_diff": -140.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Maya Joint",
+   "elo_points": -13.2,
+   "raw_diff": -107.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5,
+   "B": 0.4464,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3778,
+   "B": 0.3978,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5488,
+   "B": 0.593,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Maya Joint to win at least one set",
+  "probability": 0.7998,
+  "fair_odds": {
+   "decimal": 1.25,
+   "american": "-400"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Maddison Inglis: limited recent/surface sample (18 matches 52w, 43 career on Hard, 3 with stats); Maddison Inglis: latest point-level stats are 288 days old (2026-01-19)",
+  "candidates": [
+   {
+    "selection": "Maya Joint to win at least one set",
+    "probability": 0.7998,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7385,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6699,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Maya Joint to win",
+    "probability": 0.6482,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6434,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6382,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Maddison Inglis +4.5 games",
+    "probability": 0.5883,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5842,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Maya Joint -2.5 games",
+    "probability": 0.5644,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Maddison Inglis to win at least one set",
+    "probability": 0.562,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5222,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4778,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Exact sets Maddison Inglis 0-2 Maya Joint",
+    "probability": 0.438,
+    "fair_decimal": 2.28
+   },
+   {
+    "selection": "Maddison Inglis +2.5 games",
+    "probability": 0.4356,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4158,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-01",
+ "freeze": {
+  "frozen_at_utc": "2026-11-02T06:02:32+00:00",
+  "version": 1,
+  "input_hash": "87daf52c0b12cd34",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186621",
+  "scheduled_start_utc": "2026-11-03T05:00Z"
+ }
+}
