@@ -135,6 +135,8 @@ def evaluate(m, ev, snapshot_at_utc=None):
     snap = _iso(snapshot_at_utc) if snapshot_at_utc else time.time()
     if f.get("frozen_at_utc") and _iso(f["frozen_at_utc"]) > snap:
         return {**base, "status": "invalid_order", "best": None, "verdict": "NO BET (prices older than forecast)", "outcomes": []}
+    if (f.get("recommendation_quality") or {}).get("eligible") is not True:
+        return {**base, "status": "input_quality", "best": None, "verdict": "NO BET (current performance inputs not verified)", "outcomes": []}
     A, B, bo = m["players"][0]["name"], m["players"][1]["name"], m.get("best_of") or 3
     outs = []
     for mk in ev.get("markets") or []:
@@ -144,13 +146,18 @@ def evaluate(m, ev, snapshot_at_utc=None):
         mp = model_prob(mk, lab, f["dist"], A, B, bo)
         o = {"market_id": mk.get("marketId"), "type": mk.get("sportsMarketType"), "label": label, "status": mk.get("status")}
         if "skip" in mp: o["skip"] = mp["skip"]; outs.append(o); continue
+        if not math.isfinite(mp["p"]) or not 0 <= mp["p"] <= 1:
+            o["skip"] = "invalid model probability"; outs.append(o); continue
         o["selection"] = mp["desc"]; o["model_p"] = r4(mp["p"])
+        n = f.get("n_sims")
+        lower = mp["p"] - 1.96 * math.sqrt(mp["p"] * (1 - mp["p"]) / n) if isinstance(n, int) and n >= 1000 else -1
+        o["mc_lower_95"] = r4(lower)
         if mk.get("status") and mk["status"] != "open": o["skip"] = f"market {mk['status']}"; outs.append(o); continue
         if not (0 < price < 1): o["skip"] = "no ask price (no liquidity)"; outs.append(o); continue
         if price >= 0.99: o["skip"] = "ask at 0.99 placeholder (no real liquidity)"; outs.append(o); continue
         c = cost(price)
         o.update(price=r4(price), implied=r4(c), edge=r4(mp["p"] - c), ev_per_1=r4(mp["p"] / c - 1),
-                 eligible=bool(mp["p"] > 0.5 and mp["p"] - c > 0))
+                 eligible=bool(lower > 0.5 and lower > c and o["model_p"] > 0.5 and r4(mp["p"] / c - 1) > 0))
         outs.append(o)
     priced = [o for o in outs if o.get("implied") is not None]
     elig = sorted([o for o in priced if o["eligible"]], key=lambda o: (-o["ev_per_1"], -o["model_p"]))

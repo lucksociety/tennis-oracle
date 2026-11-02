@@ -14,7 +14,11 @@ FIX = json.loads((ROOT / "tests" / "fixtures" / "markets_fixture.json").read_tex
 
 
 def _py():
-    return [J.evaluate(m, J.match_event(m, FIX["events"]), FIX["snapshot_at_utc"]) for m in FIX["slate"]["matches"]]
+    import copy
+    matches = copy.deepcopy(FIX["slate"]["matches"])
+    for m in matches:
+        if m.get("forecast"): m["forecast"]["recommendation_quality"] = {"eligible": True}
+    return [J.evaluate(m, J.match_event(m, FIX["events"]), FIX["snapshot_at_utc"]) for m in matches]
 
 
 def test_model_modules_never_touch_market_code():
@@ -47,7 +51,7 @@ def test_fee_and_rule():
     dist = {"win_prob": {"A": 0.6, "B": 0.4}, "set_score_probs": {"2-0": 0.35, "2-1": 0.25, "1-2": 0.2, "0-2": 0.2},
             "games_pmf": {"20": 0.5, "24": 0.5}, "games_diff_pmf": {"3": 0.6, "-3": 0.4}}
     m = {"espn_id": "x", "start_utc": "2026-01-03T00:00:00Z", "status": "STATUS_SCHEDULED", "best_of": 3, "players": [{"name": "Ann Alpha"}, {"name": "Bea Beta"}],
-         "forecast": {"frozen_at_utc": "2026-01-01T00:00:00+00:00", "dist": dist}}
+         "forecast": {"recommendation_quality": {"eligible": True}, "n_sims": 100000, "frozen_at_utc": "2026-01-01T00:00:00+00:00", "dist": dist}}
     mk = lambda t, lab, p: {"marketId": lab, "sportsMarketType": t, "status": "open", "marketOptions": [{"label": lab}], "pricing": {"buyYesPriceUsd": int(p * 1e6)}}
     ev = {"eventId": "E", "metadata": {"title": "T: Ann Alpha vs Bea Beta"}, "markets": [
         mk("moneyline", "Ann Alpha", 0.55), mk("moneyline", "Bea Beta", 0.30), mk("handicap", "Bea Beta +1.5", 0.50),
@@ -70,6 +74,7 @@ def test_fee_and_rule():
 def test_js_matches_python():
     js = f"""const M=require({json.dumps(str(ROOT / 'docs' / 'markets.js'))});
     const F=require({json.dumps(str(ROOT / 'tests' / 'fixtures' / 'markets_fixture.json'))});
+    for (const m of F.slate.matches) if (m.forecast) m.forecast.recommendation_quality = {{eligible: true}};
     console.log(JSON.stringify(F.slate.matches.map(m=>M.evaluate(m, M.matchEvent(m, F.events), {{snapshot_at_utc: F.snapshot_at_utc}}))));"""
     js_out = json.loads(subprocess.check_output(["node", "-e", js], text=True))
     py_out = json.loads(json.dumps(_py()))

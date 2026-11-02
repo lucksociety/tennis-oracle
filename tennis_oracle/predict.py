@@ -12,6 +12,7 @@ from . import MODEL_VERSION, __version__
 from .ratings import RatingEngine, elo_prob, logit, sigmoid
 from .scoring import mixture_distribution, mixture_win_prob, DIFF_OFF
 from .simulate import simulate_match, summarize
+from .quality import recommendation_quality
 
 FINAL_RULES = {"tb7": "7-point tiebreak at 6-6", "tb10": "10-point tiebreak at 6-6", "adv": "advantage (no tiebreak)"}
 
@@ -128,6 +129,7 @@ def forecast(engine: RatingEngine, a_id: str, b_id: str, surface: str, best_of: 
         "format": f"Best of {best_of}, deciding set: {FINAL_RULES[final_rule]}",
         "data_cutoff": str(data_cutoff.date()), "forecast_date": str(asof.date()),
         "data_quality": dq, "data_quality_notes": dq_notes,
+        "recommendation_quality": recommendation_quality(prof_a, prof_b, asof, data_cutoff, dq, context.get("injury_uncertain", False)),
         "model": {"version": P["version"], "package": __version__, "composite_elo_diff": round(D, 1),
                   "components_elo": {k: round(v, 1) for k, v in comps.items()},
                   "weighted_contributions": {k: round(v, 1) for k, v in contrib.items()},

@@ -303,6 +303,14 @@
         analytic: ana ? { pWin: ana.pWin, pTb: ana.pTb, pDec: ana.pDec, gamesMean: ana.gamesMean, sets: ana.sets } : null,
         context: { aAdj: o.aAdj || 0, bAdj: o.bAdj || 0, injuryUncertain: !!o.injuryUncertain },
       });
+      const reasons = [];
+      if (dq === 'LOW') reasons.push('insufficient player history');
+      if (o.injuryUncertain) reasons.push('injury/fitness uncertain');
+      const age = value => value ? (asof - new Date(value)) / 86400000 : NaN;
+      const dc = age(this.cutoff[tour].point_stats_cutoff);
+      if (!Number.isFinite(dc) || dc < 0 || dc > 45) reasons.push('point-statistics dataset missing, future-dated or older than 45 days');
+      for (const p of [a, b]) { const gap = age(p.ls); if (!Number.isFinite(gap) || gap < 0 || gap > 60) reasons.push(`${p.n}: serve/return statistics missing, future-dated or older than 60 days`); }
+      rep.recommendation_quality = { eligible: !reasons.length, reasons, policy: 'current-performance-v1' };
       rep.drivers = Object.entries(contrib).sort((x, y) => Math.abs(y[1]) - Math.abs(x[1])).slice(0, 3)
         .map(([k, v]) => ({ k, label: { surface_elo: "surface-specific Elo", overall_elo: "all-surface Elo", serve_return: "opponent-adjusted serve/return quality", form: "recent opponent-adjusted form" }[k], favours: v > 0 ? a.n : b.n, pts: v, raw: comps[k] }));
       rep.strongest = strongest(rep, dq);
