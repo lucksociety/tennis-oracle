@@ -128,6 +128,7 @@ def forecast(engine: RatingEngine, a_id: str, b_id: str, surface: str, best_of: 
         "tournament": meta.get("tournament", ""), "round": meta.get("round", ""),
         "format": f"Best of {best_of}, deciding set: {FINAL_RULES[final_rule]}",
         "data_cutoff": str(data_cutoff.date()), "forecast_date": str(asof.date()),
+        "performance_revision": getattr(engine, 'info', {}).get('performance_revision'),
         "data_quality": dq, "data_quality_notes": dq_notes,
         "recommendation_quality": recommendation_quality(prof_a, prof_b, asof, data_cutoff, dq, context.get("injury_uncertain", False)),
         "model": {"version": P["version"], "package": __version__, "composite_elo_diff": round(D, 1),

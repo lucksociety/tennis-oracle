@@ -19,7 +19,7 @@ def slug(s: str) -> str:
 def input_hash(f: dict) -> str:
     keys = {k: f.get(k) for k in ("surface", "best_of", "final_rule", "indoor", "context_inputs")}
     keys["model"] = {k: f["model"].get(k) for k in ("version", "components_elo", "point_probs", "seed", "n_sims")}
-    keys["performance_cutoffs"] = {"data": f.get("data_cutoff"), "results": f.get("results_cutoff"),
+    keys["performance_cutoffs"] = {"data": f.get("data_cutoff"), "revision": f.get("performance_revision"), "results": f.get("results_cutoff"),
         "players": [f["players"][k].get("last_stats_match") for k in ("A", "B")]}
     keys["players"] = [f["players"]["A"]["id"], f["players"]["B"]["id"]]
     return hashlib.sha256(json.dumps(keys, sort_keys=True, default=str).encode()).hexdigest()[:16]

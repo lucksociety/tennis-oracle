@@ -23,7 +23,7 @@ def _py():
 
 def test_model_modules_never_touch_market_code():
     # forecast pipeline must not import the market module (prices can never become model inputs)
-    for mod in ("predict", "ratings", "simulate", "scoring", "schedule", "freeze", "build", "grid", "config", "data", "export", "backtest"):
+    for mod in ("predict", "ratings", "simulate", "scoring", "schedule", "freeze", "build", "grid", "config", "data", "export", "backtest", "live_stats", "quality"):
         src = (ROOT / "tennis_oracle" / f"{mod}.py").read_text()
         assert not re.search(r"\bjupiter\b|markets\.js|api\.jup\.ag|polymarket", src, re.I), mod
     out = subprocess.check_output([sys.executable, "-c", "import sys, tennis_oracle.predict, tennis_oracle.schedule; print('tennis_oracle.jupiter' in sys.modules)"], text=True)

@@ -41,6 +41,13 @@ def combined_frame(tour: str, use_espn: bool = True):
             info["espn_matches"] = int(len(ex))
             info["results_cutoff"] = str(ex["date"].max().date())
             df = pd.concat([df, ex.drop(columns=["start"])], ignore_index=True)
+    from .live_stats import enrich
+    df, performance = enrich(df, tour)
+    info['performance'] = performance
+    info['performance_revision'] = performance['revision']
+    if performance['latest_stats_match']:
+        actual = pd.Timestamp(performance['latest_stats_match'])
+        info['point_stats_cutoff'] = str(max(end, actual).date())
     return df, info
 
 
@@ -50,6 +57,14 @@ def build_engine(tour: str, params: dict | None = None, use_espn: bool = True, o
     if asof is not None:
         df = df[df["date"] < pd.Timestamp(asof)].copy()
         info["results_cutoff"] = str(df["date"].max().date()) if len(df) else None
+        needed = ['w_svpt', 'w_1stWon', 'w_2ndWon', 'l_svpt', 'l_1stWon', 'l_2ndWon']
+        usable = df.dropna(subset=needed) if set(needed).issubset(df.columns) else df.iloc[0:0]
+        if len(usable):
+            info['point_stats_cutoff'] = str(usable['date'].max().date())
+        if 'stats_source' in df:
+            import hashlib
+            snapshot = df[df.stats_source.notna()][['date', 'winner_id', 'loser_id', 'stats_source'] + needed]
+            info['performance_revision'] = hashlib.sha256(snapshot.to_json(date_format='iso').encode()).hexdigest()[:16]
     eng = RatingEngine(params)
     run_history(eng, df, on_match)
     eng.info = info

@@ -38,8 +38,11 @@ jobs:
           path: |
             data/raw
             data/grids
-          key: oracle-data-${{ hashFiles('tennis_oracle/scoring.py', 'tennis_oracle/grid.py') }}-v1
-          restore-keys: oracle-data-
+            data/live_stats
+          key: oracle-performance-v1-${{ github.run_id }}
+          restore-keys: |
+            oracle-performance-v1-
+            oracle-data-
       - name: Update permitted results
         run: oracle update-data --days 5
       - name: Run model and freeze
