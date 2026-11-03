@@ -1,0 +1,681 @@
+{
+ "predicted_winner": "Nuno Borges",
+ "win_prob": {
+  "A": 0.7726,
+  "B": 0.2274
+ },
+ "win_prob_exact": {
+  "A": 0.77256,
+  "B": 0.22743999999999998
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.29,
+   "american": "-340"
+  },
+  "B": {
+   "decimal": 4.4,
+   "american": "+340"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.5612,
+  "2-1": 0.2114,
+  "0-2": 0.1156,
+  "1-2": 0.1119
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0379,
+ "games": {
+  "mean": 22.86,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.17,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00187,
+   "13": 0.00842,
+   "14": 0.01928,
+   "15": 0.03943,
+   "16": 0.0592,
+   "17": 0.08185,
+   "18": 0.08406,
+   "19": 0.0863,
+   "20": 0.07802,
+   "21": 0.05199,
+   "22": 0.07403,
+   "23": 0.05335,
+   "24": 0.01103,
+   "25": 0.02999,
+   "26": 0.04115,
+   "27": 0.02475,
+   "28": 0.02935,
+   "29": 0.03202,
+   "30": 0.03213,
+   "31": 0.03716,
+   "32": 0.03569,
+   "33": 0.02246,
+   "34": 0.01561,
+   "35": 0.02327,
+   "36": 0.01503,
+   "37": 0.00193,
+   "38": 0.00532,
+   "39": 0.00531
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 2e-05,
+  "-11": 0.00027,
+  "-10": 0.00079,
+  "-9": 0.00246,
+  "-8": 0.00525,
+  "-7": 0.01193,
+  "-6": 0.02012,
+  "-5": 0.03211,
+  "-4": 0.04222,
+  "-3": 0.04038,
+  "-2": 0.0328,
+  "-1": 0.02458,
+  "0": 0.02661,
+  "1": 0.03095,
+  "2": 0.0541,
+  "3": 0.08871,
+  "4": 0.1275,
+  "5": 0.12603,
+  "6": 0.11075,
+  "7": 0.09401,
+  "8": 0.0609,
+  "9": 0.03859,
+  "10": 0.01886,
+  "11": 0.00821,
+  "12": 0.00185
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.79,
+   "under": 0.2101
+  },
+  {
+   "line": 18.5,
+   "over": 0.7059,
+   "under": 0.2941
+  },
+  {
+   "line": 19.5,
+   "over": 0.6196,
+   "under": 0.3804
+  },
+  {
+   "line": 20.5,
+   "over": 0.5416,
+   "under": 0.4584
+  },
+  {
+   "line": 21.5,
+   "over": 0.4896,
+   "under": 0.5104
+  },
+  {
+   "line": 22.5,
+   "over": 0.4156,
+   "under": 0.5845
+  },
+  {
+   "line": 23.5,
+   "over": 0.3622,
+   "under": 0.6378
+  },
+  {
+   "line": 24.5,
+   "over": 0.3512,
+   "under": 0.6488
+  },
+  {
+   "line": 25.5,
+   "over": 0.3212,
+   "under": 0.6788
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.7295,
+   "B +1.5": 0.2705,
+   "B -1.5": 0.1883,
+   "A +1.5": 0.8116
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6754,
+   "B +2.5": 0.3246,
+   "B -2.5": 0.1555,
+   "A +2.5": 0.8445
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5867,
+   "B +3.5": 0.4133,
+   "B -3.5": 0.1152,
+   "A +3.5": 0.8848
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4592,
+   "B +4.5": 0.5408,
+   "B -4.5": 0.073,
+   "A +4.5": 0.9271
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3332,
+   "B +5.5": 0.6668,
+   "B -5.5": 0.0408,
+   "A +5.5": 0.9592
+  }
+ ],
+ "p_tiebreak": 0.3584,
+ "p_a_wins_set": 0.8844,
+ "p_b_wins_set": 0.4388,
+ "p_decider": 0.3232,
+ "expected_breaks": {
+  "total": 4.59,
+  "by_A": 3.04,
+  "by_B": 1.55
+ },
+ "expected_break_points": {
+  "A_creates": 7.34,
+  "B_creates": 4.55
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.5612
+ },
+ "match": "Nuno Borges vs Moise Kouame",
+ "players": {
+  "A": {
+   "id": "atp:132686",
+   "name": "Nuno Borges",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 51.0,
+   "age": 29.6435318275154,
+   "elo": 1804.2,
+   "surface_elo": {
+    "Hard": 1744.8,
+    "Clay": 1695.4,
+    "Grass": 1624.1
+   },
+   "matches_total": 203,
+   "matches_surface": {
+    "Hard": 118,
+    "Clay": 63,
+    "Grass": 22
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    27,
+    28
+   ],
+   "last52w_surface": [
+    15,
+    16
+   ],
+   "career_surface_wl": [
+    56,
+    62
+   ],
+   "games_won_lost_52w": [
+    680,
+    663
+   ],
+   "sets_won_lost_52w": [
+    67,
+    67
+   ],
+   "avg_opp_elo_last20": 1796.5,
+   "vs_top_opp_52w": [
+    1,
+    9
+   ],
+   "serve_rating": 0.1235,
+   "return_rating": 0.1455,
+   "form_elo": 38.2,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-10-30",
+   "stats_52w": {
+    "first_in": 0.6733,
+    "first_won": 0.7302,
+    "second_won": 0.4776,
+    "serve_pts_won": 0.6477,
+    "hold": 0.8219,
+    "aces_per_svgm": 0.4893,
+    "df_per_svgm": 0.1545,
+    "bp_saved": 0.6468,
+    "ret_pts_won": 0.3482,
+    "ret_1st_won": 0.2789,
+    "ret_2nd_won": 0.4702,
+    "ret_games_won": 0.1857,
+    "bp_conv": 0.4055,
+    "bp_chances_per_retgm": 0.4578,
+    "matches_with_stats": 40
+   },
+   "rank_history": [
+    [
+     "2026-01-05",
+     45.0
+    ],
+    [
+     "2026-01-12",
+     46.0
+    ],
+    [
+     "2026-02-06",
+     45.0
+    ],
+    [
+     "2026-02-23",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     49.0
+    ],
+    [
+     "2026-03-18",
+     50.0
+    ],
+    [
+     "2026-03-30",
+     48.0
+    ],
+    [
+     "2026-04-05",
+     50.0
+    ],
+    [
+     "2026-04-13",
+     52.0
+    ],
+    [
+     "2026-04-22",
+     49.0
+    ],
+    [
+     "2026-05-06",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     51.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:213608",
+   "name": "Moise Kouame",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 318.0,
+   "age": 17.6435318275154,
+   "elo": 1536.5,
+   "surface_elo": {
+    "Hard": 1473.6,
+    "Clay": 1536.4,
+    "Grass": 1500.0
+   },
+   "matches_total": 13,
+   "matches_surface": {
+    "Hard": 8,
+    "Clay": 5,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    4,
+    9
+   ],
+   "last52w": [
+    4,
+    9
+   ],
+   "last52w_surface": [
+    2,
+    6
+   ],
+   "career_surface_wl": [
+    2,
+    6
+   ],
+   "games_won_lost_52w": [
+    157,
+    192
+   ],
+   "sets_won_lost_52w": [
+    13,
+    22
+   ],
+   "avg_opp_elo_last20": 1714.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0882,
+   "return_rating": -0.0488,
+   "form_elo": -1.8,
+   "last_match": "2026-10-21",
+   "last_stats_match": "2026-10-21",
+   "stats_52w": {
+    "first_in": 0.592,
+    "first_won": 0.6802,
+    "second_won": 0.4771,
+    "serve_pts_won": 0.5973,
+    "hold": 0.7297,
+    "aces_per_svgm": 0.5225,
+    "df_per_svgm": 0.4865,
+    "bp_saved": 0.6429,
+    "ret_pts_won": 0.3232,
+    "ret_1st_won": 0.2473,
+    "ret_2nd_won": 0.4563,
+    "ret_games_won": 0.0965,
+    "bp_conv": 0.25,
+    "bp_chances_per_retgm": 0.386,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2026-02-02",
+     552.0
+    ],
+    [
+     "2026-03-18",
+     385.0
+    ],
+    [
+     "2026-04-05",
+     334.0
+    ],
+    [
+     "2026-05-25",
+     318.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Moise Kouame: limited recent/surface sample (13 matches 52w, 8 career on Hard, 10 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 215.1,
+  "components_elo": {
+   "surface_elo": 271.1,
+   "overall_elo": 267.7,
+   "serve_return": 340.4,
+   "form": 40.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 33.1,
+   "overall_elo": 63.2,
+   "serve_return": 118.8,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.7752,
+  "serve_return_implied_spw": {
+   "A": 0.687,
+   "B": 0.5939
+  },
+  "point_probs": {
+   "A_serve": 0.6845,
+   "B_serve": 0.5967
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6845344204618873,
+   "B_serve": 0.5966728403660422
+  },
+  "hold_probs": {
+   "A": 0.8813,
+   "B": 0.7287
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7726,
+   0.7742
+  ],
+  "p_tb": [
+   0.3584,
+   0.3585
+  ],
+  "p_decider": [
+   0.3232,
+   0.3227
+  ],
+  "games_mean": [
+   22.862,
+   22.849
+  ],
+  "exp_breaks": [
+   4.595,
+   4.596
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1156,
+    0.1145
+   ],
+   "1-2": [
+    0.1119,
+    0.1113
+   ],
+   "2-0": [
+    0.5612,
+    0.5627
+   ],
+   "2-1": [
+    0.2114,
+    0.2114
+   ]
+  },
+  "mc_se_p_a": 0.0013,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Nuno Borges",
+   "elo_points": 118.8,
+   "raw_diff": 340.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Nuno Borges",
+   "elo_points": 63.2,
+   "raw_diff": 267.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Nuno Borges",
+   "elo_points": 33.1,
+   "raw_diff": 271.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4776,
+   "B": 0.4771,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3482,
+   "B": 0.3232,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6845,
+   "B": 0.5967,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Nuno Borges to win at least one set",
+  "probability": 0.8844,
+  "fair_odds": {
+   "decimal": 1.13,
+   "american": "-765"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Moise Kouame: limited recent/surface sample (13 matches 52w, 8 career on Hard, 10 with stats)",
+  "candidates": [
+   {
+    "selection": "Nuno Borges to win at least one set",
+    "probability": 0.8844,
+    "fair_decimal": 1.13
+   },
+   {
+    "selection": "Nuno Borges to win",
+    "probability": 0.7726,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7059,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6768,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Nuno Borges -2.5 games",
+    "probability": 0.6754,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6488,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6416,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5845,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Exact sets Nuno Borges 2-0 Moise Kouame",
+    "probability": 0.5612,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5416,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Moise Kouame +4.5 games",
+    "probability": 0.5408,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Nuno Borges -4.5 games",
+    "probability": 0.4592,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4584,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Moise Kouame to win at least one set",
+    "probability": 0.4388,
+    "fair_decimal": 2.28
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4156,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T11:56:28+00:00",
+  "version": 1,
+  "input_hash": "39981e79c2bbb519",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186467",
+  "scheduled_start_utc": "2026-11-03T12:10Z"
+ }
+}

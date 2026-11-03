@@ -1,0 +1,679 @@
+{
+ "predicted_winner": "Alina Charaeva",
+ "win_prob": {
+  "A": 0.2838,
+  "B": 0.7162
+ },
+ "win_prob_exact": {
+  "A": 0.2838,
+  "B": 0.7162
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.52,
+   "american": "+252"
+  },
+  "B": {
+   "decimal": 1.4,
+   "american": "-252"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5112,
+  "1-2": 0.205,
+  "2-0": 0.1555,
+  "2-1": 0.1283
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0233,
+ "games": {
+  "mean": 21.85,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00464,
+   "13": 0.01739,
+   "14": 0.03549,
+   "15": 0.06031,
+   "16": 0.07958,
+   "17": 0.09017,
+   "18": 0.08791,
+   "19": 0.07827,
+   "20": 0.06527,
+   "21": 0.04676,
+   "22": 0.05554,
+   "23": 0.03501,
+   "24": 0.01953,
+   "25": 0.03544,
+   "26": 0.03715,
+   "27": 0.03334,
+   "28": 0.03709,
+   "29": 0.03668,
+   "30": 0.03379,
+   "31": 0.03188,
+   "32": 0.02653,
+   "33": 0.01708,
+   "34": 0.01289,
+   "35": 0.01233,
+   "36": 0.00528,
+   "37": 0.00161,
+   "38": 0.00205,
+   "39": 0.00099
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00439,
+  "-11": 0.01606,
+  "-10": 0.03266,
+  "-9": 0.05474,
+  "-8": 0.07711,
+  "-7": 0.09804,
+  "-6": 0.10739,
+  "-5": 0.10152,
+  "-4": 0.09002,
+  "-3": 0.05859,
+  "-2": 0.03834,
+  "-1": 0.0277,
+  "0": 0.02331,
+  "1": 0.02315,
+  "2": 0.0271,
+  "3": 0.03718,
+  "4": 0.04727,
+  "5": 0.04305,
+  "6": 0.03555,
+  "7": 0.02715,
+  "8": 0.01561,
+  "9": 0.00866,
+  "10": 0.00374,
+  "11": 0.00142,
+  "12": 0.00025
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7124,
+   "under": 0.2876
+  },
+  {
+   "line": 18.5,
+   "over": 0.6245,
+   "under": 0.3755
+  },
+  {
+   "line": 19.5,
+   "over": 0.5462,
+   "under": 0.4538
+  },
+  {
+   "line": 20.5,
+   "over": 0.481,
+   "under": 0.519
+  },
+  {
+   "line": 21.5,
+   "over": 0.4342,
+   "under": 0.5658
+  },
+  {
+   "line": 22.5,
+   "over": 0.3787,
+   "under": 0.6213
+  },
+  {
+   "line": 23.5,
+   "over": 0.3437,
+   "under": 0.6563
+  },
+  {
+   "line": 24.5,
+   "over": 0.3241,
+   "under": 0.6759
+  },
+  {
+   "line": 25.5,
+   "over": 0.2887,
+   "under": 0.7113
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.247,
+   "B +1.5": 0.753,
+   "B -1.5": 0.6789,
+   "A +1.5": 0.3211
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2199,
+   "B +2.5": 0.7801,
+   "B -2.5": 0.6405,
+   "A +2.5": 0.3595
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1827,
+   "B +3.5": 0.8173,
+   "B -3.5": 0.5819,
+   "A +3.5": 0.4181
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1354,
+   "B +4.5": 0.8646,
+   "B -4.5": 0.4919,
+   "A +4.5": 0.5081
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0924,
+   "B +5.5": 0.9076,
+   "B -5.5": 0.3904,
+   "A +5.5": 0.6096
+  }
+ ],
+ "p_tiebreak": 0.2349,
+ "p_a_wins_set": 0.4888,
+ "p_b_wins_set": 0.8445,
+ "p_decider": 0.3333,
+ "expected_breaks": {
+  "total": 7.84,
+  "by_A": 3.21,
+  "by_B": 4.62
+ },
+ "expected_break_points": {
+  "A_creates": 7.54,
+  "B_creates": 9.57
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.5112
+ },
+ "match": "Antonia Ruzic vs Alina Charaeva",
+ "players": {
+  "A": {
+   "id": "wta:222045",
+   "name": "Antonia Ruzic",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 64.0,
+   "age": 23.746269678302532,
+   "elo": 1628.9,
+   "surface_elo": {
+    "Hard": 1597.2,
+    "Clay": 1542.6,
+    "Grass": 1507.0
+   },
+   "matches_total": 68,
+   "matches_surface": {
+    "Hard": 48,
+    "Clay": 11,
+    "Grass": 9
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    18,
+    24
+   ],
+   "last52w_surface": [
+    13,
+    16
+   ],
+   "career_surface_wl": [
+    22,
+    26
+   ],
+   "games_won_lost_52w": [
+    467,
+    509
+   ],
+   "sets_won_lost_52w": [
+    46,
+    58
+   ],
+   "avg_opp_elo_last20": 1694.2,
+   "vs_top_opp_52w": [
+    1,
+    6
+   ],
+   "serve_rating": -0.0112,
+   "return_rating": 0.1255,
+   "form_elo": -56.8,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-10-27",
+   "stats_52w": {
+    "first_in": 0.6479,
+    "first_won": 0.5795,
+    "second_won": 0.449,
+    "serve_pts_won": 0.5336,
+    "hold": 0.5929,
+    "aces_per_svgm": 0.1121,
+    "df_per_svgm": 0.2802,
+    "bp_saved": 0.543,
+    "ret_pts_won": 0.4364,
+    "ret_1st_won": 0.3574,
+    "ret_2nd_won": 0.5576,
+    "ret_games_won": 0.3642,
+    "bp_conv": 0.4959,
+    "bp_chances_per_retgm": 0.7343,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     69.0
+    ],
+    [
+     "2025-09-24",
+     80.0
+    ],
+    [
+     "2025-10-06",
+     78.0
+    ],
+    [
+     "2025-10-13",
+     70.0
+    ],
+    [
+     "2026-01-12",
+     71.0
+    ],
+    [
+     "2026-01-19",
+     65.0
+    ],
+    [
+     "2026-02-01",
+     67.0
+    ],
+    [
+     "2026-03-04",
+     57.0
+    ],
+    [
+     "2026-03-17",
+     55.0
+    ],
+    [
+     "2026-04-13",
+     58.0
+    ],
+    [
+     "2026-04-21",
+     59.0
+    ],
+    [
+     "2026-05-25",
+     64.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221406",
+   "name": "Alina Charaeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 129.0,
+   "age": 24.439356605065022,
+   "elo": 1815.6,
+   "surface_elo": {
+    "Hard": 1804.1,
+    "Clay": 1573.2,
+    "Grass": 1566.2
+   },
+   "matches_total": 34,
+   "matches_surface": {
+    "Hard": 24,
+    "Clay": 7,
+    "Grass": 3
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    12
+   ],
+   "last52w_surface": [
+    15,
+    7
+   ],
+   "career_surface_wl": [
+    15,
+    9
+   ],
+   "games_won_lost_52w": [
+    402,
+    353
+   ],
+   "sets_won_lost_52w": [
+    46,
+    34
+   ],
+   "avg_opp_elo_last20": 1686.2,
+   "vs_top_opp_52w": [
+    1,
+    1
+   ],
+   "serve_rating": 0.2383,
+   "return_rating": 0.1624,
+   "form_elo": 106.7,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.6038,
+    "first_won": 0.6561,
+    "second_won": 0.4477,
+    "serve_pts_won": 0.5735,
+    "hold": 0.6645,
+    "aces_per_svgm": 0.3854,
+    "df_per_svgm": 0.4352,
+    "bp_saved": 0.5258,
+    "ret_pts_won": 0.4608,
+    "ret_1st_won": 0.4016,
+    "ret_2nd_won": 0.5638,
+    "ret_games_won": 0.4084,
+    "bp_conv": 0.4669,
+    "bp_chances_per_retgm": 0.8746,
+    "matches_with_stats": 27
+   },
+   "rank_history": [
+    [
+     "2025-02-24",
+     285.0
+    ],
+    [
+     "2025-10-20",
+     150.0
+    ],
+    [
+     "2026-04-13",
+     130.0
+    ],
+    [
+     "2026-04-21",
+     129.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "89fca82ef959d549",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -162.9,
+  "components_elo": {
+   "surface_elo": -206.9,
+   "overall_elo": -186.8,
+   "serve_return": -268.7,
+   "form": -163.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -25.3,
+   "overall_elo": -44.1,
+   "serve_return": -93.7,
+   "form": 0.3
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.2814,
+  "serve_return_implied_spw": {
+   "A": 0.5245,
+   "B": 0.5949
+  },
+  "point_probs": {
+   "A_serve": 0.526,
+   "B_serve": 0.5934
+  },
+  "point_probs_exact": {
+   "A_serve": 0.525983006604313,
+   "B_serve": 0.5934361493684358
+  },
+  "hold_probs": {
+   "A": 0.5647,
+   "B": 0.7219
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2838,
+   0.2839
+  ],
+  "p_tb": [
+   0.2349,
+   0.2353
+  ],
+  "p_decider": [
+   0.3333,
+   0.3336
+  ],
+  "games_mean": [
+   21.847,
+   21.849
+  ],
+  "exp_breaks": [
+   7.836,
+   7.843
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5112,
+    0.5112
+   ],
+   "1-2": [
+    0.205,
+    0.2049
+   ],
+   "2-0": [
+    0.1555,
+    0.1551
+   ],
+   "2-1": [
+    0.1283,
+    0.1288
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0005
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alina Charaeva",
+   "elo_points": -93.7,
+   "raw_diff": -268.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -44.1,
+   "raw_diff": -186.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alina Charaeva",
+   "elo_points": -25.3,
+   "raw_diff": -206.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.449,
+   "B": 0.4477,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4364,
+   "B": 0.4608,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.526,
+   "B": 0.5934,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alina Charaeva to win at least one set",
+  "probability": 0.8445,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-543"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Alina Charaeva to win at least one set",
+    "probability": 0.8445,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7651,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Alina Charaeva to win",
+    "probability": 0.7162,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6759,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6667,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Alina Charaeva -2.5 games",
+    "probability": 0.6405,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6245,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6213,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.519,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Exact sets Antonia Ruzic 0-2 Alina Charaeva",
+    "probability": 0.5112,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Antonia Ruzic +4.5 games",
+    "probability": 0.5081,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Alina Charaeva -4.5 games",
+    "probability": 0.4919,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Antonia Ruzic to win at least one set",
+    "probability": 0.4888,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.481,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3787,
+    "fair_decimal": 2.64
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T11:57:48+00:00",
+  "version": 1,
+  "input_hash": "688b52aacab19cd0",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186616",
+  "scheduled_start_utc": "2026-11-04T06:00Z"
+ }
+}

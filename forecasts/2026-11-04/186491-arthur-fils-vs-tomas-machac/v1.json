@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Arthur Fils",
+ "win_prob": {
+  "A": 0.6907,
+  "B": 0.3093
+ },
+ "win_prob_exact": {
+  "A": 0.69071,
+  "B": 0.30928999999999995
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.45,
+   "american": "-223"
+  },
+  "B": {
+   "decimal": 3.23,
+   "american": "+223"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4698,
+  "2-1": 0.2209,
+  "0-2": 0.1649,
+  "1-2": 0.1444
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0354,
+ "games": {
+  "mean": 23.93,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.23,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00068,
+   "13": 0.00386,
+   "14": 0.01043,
+   "15": 0.02538,
+   "16": 0.04032,
+   "17": 0.06569,
+   "18": 0.072,
+   "19": 0.08314,
+   "20": 0.07807,
+   "21": 0.0523,
+   "22": 0.08365,
+   "23": 0.06574,
+   "24": 0.01015,
+   "25": 0.03228,
+   "26": 0.04992,
+   "27": 0.02456,
+   "28": 0.03056,
+   "29": 0.03278,
+   "30": 0.03444,
+   "31": 0.04255,
+   "32": 0.0439,
+   "33": 0.02775,
+   "34": 0.02037,
+   "35": 0.03086,
+   "36": 0.02056,
+   "37": 0.00231,
+   "38": 0.00697,
+   "39": 0.00878
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 6e-05,
+  "-11": 0.00032,
+  "-10": 0.00114,
+  "-9": 0.0034,
+  "-8": 0.00735,
+  "-7": 0.01597,
+  "-6": 0.02685,
+  "-5": 0.04432,
+  "-4": 0.05897,
+  "-3": 0.05769,
+  "-2": 0.04469,
+  "-1": 0.03176,
+  "0": 0.03295,
+  "1": 0.03734,
+  "2": 0.06477,
+  "3": 0.09658,
+  "4": 0.1276,
+  "5": 0.11514,
+  "6": 0.08889,
+  "7": 0.06867,
+  "8": 0.03851,
+  "9": 0.02322,
+  "10": 0.00962,
+  "11": 0.00357,
+  "12": 0.00062
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8536,
+   "under": 0.1464
+  },
+  {
+   "line": 18.5,
+   "over": 0.7816,
+   "under": 0.2184
+  },
+  {
+   "line": 19.5,
+   "over": 0.6985,
+   "under": 0.3015
+  },
+  {
+   "line": 20.5,
+   "over": 0.6204,
+   "under": 0.3796
+  },
+  {
+   "line": 21.5,
+   "over": 0.5681,
+   "under": 0.4319
+  },
+  {
+   "line": 22.5,
+   "over": 0.4845,
+   "under": 0.5155
+  },
+  {
+   "line": 23.5,
+   "over": 0.4187,
+   "under": 0.5813
+  },
+  {
+   "line": 24.5,
+   "over": 0.4086,
+   "under": 0.5914
+  },
+  {
+   "line": 25.5,
+   "over": 0.3763,
+   "under": 0.6237
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6372,
+   "B +1.5": 0.3628,
+   "B -1.5": 0.2608,
+   "A +1.5": 0.7392
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5724,
+   "B +2.5": 0.4276,
+   "B -2.5": 0.2161,
+   "A +2.5": 0.7839
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4758,
+   "B +3.5": 0.5242,
+   "B -3.5": 0.1584,
+   "A +3.5": 0.8416
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3482,
+   "B +4.5": 0.6518,
+   "B -4.5": 0.0994,
+   "A +4.5": 0.9006
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2331,
+   "B +5.5": 0.7669,
+   "B -5.5": 0.0551,
+   "A +5.5": 0.9449
+  }
+ ],
+ "p_tiebreak": 0.4325,
+ "p_a_wins_set": 0.8351,
+ "p_b_wins_set": 0.5302,
+ "p_decider": 0.3652,
+ "expected_breaks": {
+  "total": 4.15,
+  "by_A": 2.55,
+  "by_B": 1.59
+ },
+ "expected_break_points": {
+  "A_creates": 6.58,
+  "B_creates": 4.68
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4698
+ },
+ "match": "Arthur Fils vs Tomas Machac",
+ "players": {
+  "A": {
+   "id": "atp:209950",
+   "name": "Arthur Fils",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 25.0,
+   "age": 22.336618754277893,
+   "elo": 2026.1,
+   "surface_elo": {
+    "Hard": 1947.4,
+    "Clay": 2004.6,
+    "Grass": 1639.3
+   },
+   "matches_total": 184,
+   "matches_surface": {
+    "Hard": 119,
+    "Clay": 53,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    39,
+    13
+   ],
+   "last52w_surface": [
+    29,
+    11
+   ],
+   "career_surface_wl": [
+    75,
+    44
+   ],
+   "games_won_lost_52w": [
+    678,
+    553
+   ],
+   "sets_won_lost_52w": [
+    83,
+    41
+   ],
+   "avg_opp_elo_last20": 1836.5,
+   "vs_top_opp_52w": [
+    11,
+    8
+   ],
+   "serve_rating": 0.3121,
+   "return_rating": 0.2501,
+   "form_elo": -23.9,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6425,
+    "first_won": 0.7397,
+    "second_won": 0.5648,
+    "serve_pts_won": 0.6772,
+    "hold": 0.8611,
+    "aces_per_svgm": 0.494,
+    "df_per_svgm": 0.1825,
+    "bp_saved": 0.6602,
+    "ret_pts_won": 0.3587,
+    "ret_1st_won": 0.2773,
+    "ret_2nd_won": 0.5043,
+    "ret_games_won": 0.2037,
+    "bp_conv": 0.3676,
+    "bp_chances_per_retgm": 0.554,
+    "matches_with_stats": 42
+   },
+   "rank_history": [
+    [
+     "2025-02-01",
+     19.0
+    ],
+    [
+     "2025-03-05",
+     21.0
+    ],
+    [
+     "2025-03-19",
+     18.0
+    ],
+    [
+     "2025-04-07",
+     15.0
+    ],
+    [
+     "2025-04-14",
+     14.0
+    ],
+    [
+     "2025-07-27",
+     21.0
+    ],
+    [
+     "2026-02-02",
+     42.0
+    ],
+    [
+     "2026-02-16",
+     40.0
+    ],
+    [
+     "2026-03-04",
+     32.0
+    ],
+    [
+     "2026-03-18",
+     31.0
+    ],
+    [
+     "2026-04-13",
+     30.0
+    ],
+    [
+     "2026-04-22",
+     25.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:207830",
+   "name": "Tomas Machac",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 43.0,
+   "age": 26.046269678302533,
+   "elo": 1810.1,
+   "surface_elo": {
+    "Hard": 1792.1,
+    "Clay": 1783.7,
+    "Grass": 1555.3
+   },
+   "matches_total": 158,
+   "matches_surface": {
+    "Hard": 113,
+    "Clay": 36,
+    "Grass": 9
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    21,
+    17
+   ],
+   "last52w_surface": [
+    15,
+    12
+   ],
+   "career_surface_wl": [
+    68,
+    45
+   ],
+   "games_won_lost_52w": [
+    477,
+    483
+   ],
+   "sets_won_lost_52w": [
+    54,
+    46
+   ],
+   "avg_opp_elo_last20": 1749.7,
+   "vs_top_opp_52w": [
+    2,
+    6
+   ],
+   "serve_rating": 0.1506,
+   "return_rating": 0.1473,
+   "form_elo": -17.4,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.6359,
+    "first_won": 0.6931,
+    "second_won": 0.5127,
+    "serve_pts_won": 0.6274,
+    "hold": 0.7855,
+    "aces_per_svgm": 0.3979,
+    "df_per_svgm": 0.1809,
+    "bp_saved": 0.5787,
+    "ret_pts_won": 0.3618,
+    "ret_1st_won": 0.2916,
+    "ret_2nd_won": 0.4808,
+    "ret_games_won": 0.2103,
+    "bp_conv": 0.4059,
+    "bp_chances_per_retgm": 0.5179,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2025-10-01",
+     23.0
+    ],
+    [
+     "2025-10-20",
+     31.0
+    ],
+    [
+     "2025-10-27",
+     34.0
+    ],
+    [
+     "2026-01-04",
+     35.0
+    ],
+    [
+     "2026-01-19",
+     24.0
+    ],
+    [
+     "2026-02-16",
+     31.0
+    ],
+    [
+     "2026-03-18",
+     48.0
+    ],
+    [
+     "2026-03-30",
+     55.0
+    ],
+    [
+     "2026-04-05",
+     53.0
+    ],
+    [
+     "2026-04-13",
+     47.0
+    ],
+    [
+     "2026-04-22",
+     41.0
+    ],
+    [
+     "2026-05-25",
+     43.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 142.4,
+  "components_elo": {
+   "surface_elo": 155.3,
+   "overall_elo": 216.0,
+   "serve_return": 207.3,
+   "form": -6.4
+  },
+  "weighted_contributions": {
+   "surface_elo": 19.0,
+   "overall_elo": 51.0,
+   "serve_return": 72.3,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6941,
+  "serve_return_implied_spw": {
+   "A": 0.6854,
+   "B": 0.6259
+  },
+  "point_probs": {
+   "A_serve": 0.685,
+   "B_serve": 0.6263
+  },
+  "point_probs_exact": {
+   "A_serve": 0.685027824512712,
+   "B_serve": 0.6262668325165955
+  },
+  "hold_probs": {
+   "A": 0.8819,
+   "B": 0.7878
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6907,
+   0.6929
+  ],
+  "p_tb": [
+   0.4325,
+   0.4317
+  ],
+  "p_decider": [
+   0.3652,
+   0.3654
+  ],
+  "games_mean": [
+   23.931,
+   23.927
+  ],
+  "exp_breaks": [
+   4.145,
+   4.145
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1649,
+    0.1632
+   ],
+   "1-2": [
+    0.1444,
+    0.1438
+   ],
+   "2-0": [
+    0.4698,
+    0.4714
+   ],
+   "2-1": [
+    0.2209,
+    0.2216
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Arthur Fils",
+   "elo_points": 72.3,
+   "raw_diff": 207.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Arthur Fils",
+   "elo_points": 51.0,
+   "raw_diff": 216.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Arthur Fils",
+   "elo_points": 19.0,
+   "raw_diff": 155.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5648,
+   "B": 0.5127,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3587,
+   "B": 0.3618,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.685,
+   "B": 0.6263,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Arthur Fils to win at least one set",
+  "probability": 0.8351,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-506"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Arthur Fils to win at least one set",
+    "probability": 0.8351,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7816,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "Arthur Fils to win",
+    "probability": 0.6907,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Tomas Machac +4.5 games",
+    "probability": 0.6518,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6348,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6204,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5914,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Arthur Fils -2.5 games",
+    "probability": 0.5724,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5675,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Tomas Machac to win at least one set",
+    "probability": 0.5302,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5155,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4845,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Exact sets Arthur Fils 2-0 Tomas Machac",
+    "probability": 0.4698,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4325,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Tomas Machac +2.5 games",
+    "probability": 0.4276,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T11:57:32+00:00",
+  "version": 1,
+  "input_hash": "72b36790cedc8451",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186491",
+  "scheduled_start_utc": "2026-11-04T05:00Z"
+ }
+}

@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Ben Shelton",
+ "win_prob": {
+  "A": 0.6385,
+  "B": 0.3615
+ },
+ "win_prob_exact": {
+  "A": 0.63855,
+  "B": 0.36145000000000005
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.57,
+   "american": "-177"
+  },
+  "B": {
+   "decimal": 2.77,
+   "american": "+177"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4155,
+  "2-1": 0.2231,
+  "0-2": 0.1961,
+  "1-2": 0.1653
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0346,
+ "games": {
+  "mean": 24.86,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.33,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.0003,
+   "13": 0.00202,
+   "14": 0.00563,
+   "15": 0.01541,
+   "16": 0.02686,
+   "17": 0.05117,
+   "18": 0.06083,
+   "19": 0.07698,
+   "20": 0.0759,
+   "21": 0.04978,
+   "22": 0.09247,
+   "23": 0.07923,
+   "24": 0.00791,
+   "25": 0.03345,
+   "26": 0.06223,
+   "27": 0.02093,
+   "28": 0.02771,
+   "29": 0.03078,
+   "30": 0.03216,
+   "31": 0.04525,
+   "32": 0.04977,
+   "33": 0.03037,
+   "34": 0.02378,
+   "35": 0.04006,
+   "36": 0.03107,
+   "37": 0.00249,
+   "38": 0.00987,
+   "39": 0.01559
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 4e-05,
+  "-11": 0.00027,
+  "-10": 0.00105,
+  "-9": 0.00314,
+  "-8": 0.00675,
+  "-7": 0.01651,
+  "-6": 0.02692,
+  "-5": 0.04754,
+  "-4": 0.07085,
+  "-3": 0.07036,
+  "-2": 0.05901,
+  "-1": 0.03882,
+  "0": 0.03868,
+  "1": 0.04238,
+  "2": 0.07876,
+  "3": 0.10825,
+  "4": 0.12605,
+  "5": 0.10268,
+  "6": 0.06963,
+  "7": 0.04861,
+  "8": 0.02378,
+  "9": 0.01318,
+  "10": 0.00471,
+  "11": 0.00177,
+  "12": 0.00026
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8986,
+   "under": 0.1014
+  },
+  {
+   "line": 18.5,
+   "over": 0.8378,
+   "under": 0.1622
+  },
+  {
+   "line": 19.5,
+   "over": 0.7608,
+   "under": 0.2392
+  },
+  {
+   "line": 20.5,
+   "over": 0.6849,
+   "under": 0.3151
+  },
+  {
+   "line": 21.5,
+   "over": 0.6351,
+   "under": 0.3649
+  },
+  {
+   "line": 22.5,
+   "over": 0.5427,
+   "under": 0.4574
+  },
+  {
+   "line": 23.5,
+   "over": 0.4634,
+   "under": 0.5366
+  },
+  {
+   "line": 24.5,
+   "over": 0.4555,
+   "under": 0.5445
+  },
+  {
+   "line": 25.5,
+   "over": 0.4221,
+   "under": 0.5779
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5777,
+   "B +1.5": 0.4223,
+   "B -1.5": 0.3024,
+   "A +1.5": 0.6976
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4989,
+   "B +2.5": 0.5011,
+   "B -2.5": 0.2434,
+   "A +2.5": 0.7566
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3907,
+   "B +3.5": 0.6093,
+   "B -3.5": 0.1731,
+   "A +3.5": 0.8269
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2646,
+   "B +4.5": 0.7354,
+   "B -4.5": 0.1022,
+   "A +4.5": 0.8978
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1619,
+   "B +5.5": 0.8381,
+   "B -5.5": 0.0547,
+   "A +5.5": 0.9453
+  }
+ ],
+ "p_tiebreak": 0.5156,
+ "p_a_wins_set": 0.8039,
+ "p_b_wins_set": 0.5845,
+ "p_decider": 0.3884,
+ "expected_breaks": {
+  "total": 3.48,
+  "by_A": 2.06,
+  "by_B": 1.42
+ },
+ "expected_break_points": {
+  "A_creates": 5.69,
+  "B_creates": 4.37
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.4155
+ },
+ "match": "Ben Shelton vs Cameron Norrie",
+ "players": {
+  "A": {
+   "id": "atp:210097",
+   "name": "Ben Shelton",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 5.0,
+   "age": 24.0435318275154,
+   "elo": 1984.7,
+   "surface_elo": {
+    "Hard": 1985.2,
+    "Clay": 1735.6,
+    "Grass": 1775.9
+   },
+   "matches_total": 238,
+   "matches_surface": {
+    "Hard": 162,
+    "Clay": 45,
+    "Grass": 31
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    41,
+    19
+   ],
+   "last52w_surface": [
+    27,
+    12
+   ],
+   "career_surface_wl": [
+    104,
+    58
+   ],
+   "games_won_lost_52w": [
+    959,
+    857
+   ],
+   "sets_won_lost_52w": [
+    106,
+    65
+   ],
+   "avg_opp_elo_last20": 1852.9,
+   "vs_top_opp_52w": [
+    10,
+    8
+   ],
+   "serve_rating": 0.4399,
+   "return_rating": 0.0922,
+   "form_elo": 0.4,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6841,
+    "first_won": 0.7637,
+    "second_won": 0.5702,
+    "serve_pts_won": 0.7026,
+    "hold": 0.8976,
+    "aces_per_svgm": 0.7677,
+    "df_per_svgm": 0.2021,
+    "bp_saved": 0.6988,
+    "ret_pts_won": 0.3181,
+    "ret_1st_won": 0.2351,
+    "ret_2nd_won": 0.4661,
+    "ret_games_won": 0.1324,
+    "bp_conv": 0.3486,
+    "bp_chances_per_retgm": 0.3797,
+    "matches_with_stats": 49
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     8.0
+    ],
+    [
+     "2025-07-27",
+     7.0
+    ],
+    [
+     "2025-08-07",
+     6.0
+    ],
+    [
+     "2025-10-27",
+     7.0
+    ],
+    [
+     "2025-11-09",
+     5.0
+    ],
+    [
+     "2026-01-12",
+     8.0
+    ],
+    [
+     "2026-01-19",
+     7.0
+    ],
+    [
+     "2026-02-09",
+     9.0
+    ],
+    [
+     "2026-03-04",
+     8.0
+    ],
+    [
+     "2026-03-18",
+     9.0
+    ],
+    [
+     "2026-04-13",
+     6.0
+    ],
+    [
+     "2026-05-25",
+     5.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:111815",
+   "name": "Cameron Norrie",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 22.0,
+   "age": 31.165434633812456,
+   "elo": 1800.5,
+   "surface_elo": {
+    "Hard": 1755.5,
+    "Clay": 1796.1,
+    "Grass": 1706.5
+   },
+   "matches_total": 460,
+   "matches_surface": {
+    "Hard": 292,
+    "Clay": 119,
+    "Grass": 49
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    23,
+    22
+   ],
+   "last52w_surface": [
+    18,
+    16
+   ],
+   "career_surface_wl": [
+    161,
+    131
+   ],
+   "games_won_lost_52w": [
+    600,
+    589
+   ],
+   "sets_won_lost_52w": [
+    61,
+    58
+   ],
+   "avg_opp_elo_last20": 1803.8,
+   "vs_top_opp_52w": [
+    2,
+    9
+   ],
+   "serve_rating": 0.1594,
+   "return_rating": 0.254,
+   "form_elo": -25.8,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6375,
+    "first_won": 0.6914,
+    "second_won": 0.5213,
+    "serve_pts_won": 0.6297,
+    "hold": 0.8017,
+    "aces_per_svgm": 0.3502,
+    "df_per_svgm": 0.2025,
+    "bp_saved": 0.6314,
+    "ret_pts_won": 0.3648,
+    "ret_1st_won": 0.2927,
+    "ret_2nd_won": 0.4794,
+    "ret_games_won": 0.2042,
+    "bp_conv": 0.3889,
+    "bp_chances_per_retgm": 0.525,
+    "matches_with_stats": 36
+   },
+   "rank_history": [
+    [
+     "2025-10-01",
+     33.0
+    ],
+    [
+     "2025-10-20",
+     35.0
+    ],
+    [
+     "2025-10-27",
+     31.0
+    ],
+    [
+     "2025-11-02",
+     27.0
+    ],
+    [
+     "2026-01-04",
+     28.0
+    ],
+    [
+     "2026-01-19",
+     27.0
+    ],
+    [
+     "2026-02-05",
+     26.0
+    ],
+    [
+     "2026-03-04",
+     29.0
+    ],
+    [
+     "2026-03-18",
+     24.0
+    ],
+    [
+     "2026-04-22",
+     23.0
+    ],
+    [
+     "2026-05-06",
+     19.0
+    ],
+    [
+     "2026-05-17",
+     22.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 101.7,
+  "components_elo": {
+   "surface_elo": 229.7,
+   "overall_elo": 184.2,
+   "serve_return": 86.5,
+   "form": 26.2
+  },
+  "weighted_contributions": {
+   "surface_elo": 28.1,
+   "overall_elo": 43.5,
+   "serve_return": 30.2,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6424,
+  "serve_return_implied_spw": {
+   "A": 0.6899,
+   "B": 0.664
+  },
+  "point_probs": {
+   "A_serve": 0.6978,
+   "B_serve": 0.6557
+  },
+  "point_probs_exact": {
+   "A_serve": 0.697799394816449,
+   "B_serve": 0.6556971754323667
+  },
+  "hold_probs": {
+   "A": 0.8981,
+   "B": 0.8389
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6385,
+   0.6416
+  ],
+  "p_tb": [
+   0.5156,
+   0.5147
+  ],
+  "p_decider": [
+   0.3884,
+   0.3888
+  ],
+  "games_mean": [
+   24.861,
+   24.859
+  ],
+  "exp_breaks": [
+   3.484,
+   3.484
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1961,
+    0.1944
+   ],
+   "1-2": [
+    0.1653,
+    0.164
+   ],
+   "2-0": [
+    0.4155,
+    0.4168
+   ],
+   "2-1": [
+    0.2231,
+    0.2247
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0031
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Ben Shelton",
+   "elo_points": 43.5,
+   "raw_diff": 184.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Ben Shelton",
+   "elo_points": 30.2,
+   "raw_diff": 86.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Ben Shelton",
+   "elo_points": 28.1,
+   "raw_diff": 229.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5702,
+   "B": 0.5213,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3181,
+   "B": 0.3648,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6978,
+   "B": 0.6557,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8378,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-517"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.33 games; p10-p90 17-34); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8378,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Ben Shelton to win at least one set",
+    "probability": 0.8039,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Cameron Norrie +4.5 games",
+    "probability": 0.7354,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6849,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Ben Shelton to win",
+    "probability": 0.6385,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6116,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Cameron Norrie to win at least one set",
+    "probability": 0.5845,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5445,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5427,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5156,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Cameron Norrie +2.5 games",
+    "probability": 0.5011,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Ben Shelton -2.5 games",
+    "probability": 0.4989,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4844,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4574,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4555,
+    "fair_decimal": 2.2
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T11:57:08+00:00",
+  "version": 2,
+  "input_hash": "cb41991a1b0dc4e3",
+  "reason": "performance inputs or format refreshed (results through 2026-11-03)",
+  "pre_match": true,
+  "espn_id": "186477",
+  "scheduled_start_utc": "2026-11-03T18:00Z"
+ }
+}

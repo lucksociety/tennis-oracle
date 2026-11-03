@@ -1,0 +1,665 @@
+{
+ "predicted_winner": "Jeline Vandromme",
+ "win_prob": {
+  "A": 0.4551,
+  "B": 0.5449
+ },
+ "win_prob_exact": {
+  "A": 0.45512,
+  "B": 0.54488
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.2,
+   "american": "+120"
+  },
+  "B": {
+   "decimal": 1.84,
+   "american": "-120"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3441,
+  "2-0": 0.2746,
+  "1-2": 0.2008,
+  "2-1": 0.1805
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0215,
+ "games": {
+  "mean": 23.09,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 5.99,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00148,
+   "13": 0.00725,
+   "14": 0.01754,
+   "15": 0.03748,
+   "16": 0.05619,
+   "17": 0.07802,
+   "18": 0.08122,
+   "19": 0.07942,
+   "20": 0.0719,
+   "21": 0.0518,
+   "22": 0.0663,
+   "23": 0.04673,
+   "24": 0.01723,
+   "25": 0.03614,
+   "26": 0.04195,
+   "27": 0.03654,
+   "28": 0.04029,
+   "29": 0.04277,
+   "30": 0.03865,
+   "31": 0.03923,
+   "32": 0.03609,
+   "33": 0.02336,
+   "34": 0.01661,
+   "35": 0.01839,
+   "36": 0.00986,
+   "37": 0.00198,
+   "38": 0.0034,
+   "39": 0.00218
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00092,
+  "-11": 0.00466,
+  "-10": 0.01106,
+  "-9": 0.02322,
+  "-8": 0.03813,
+  "-7": 0.06069,
+  "-6": 0.07439,
+  "-5": 0.08559,
+  "-4": 0.08884,
+  "-3": 0.0652,
+  "-2": 0.04453,
+  "-1": 0.03337,
+  "0": 0.02968,
+  "1": 0.03176,
+  "2": 0.04056,
+  "3": 0.05945,
+  "4": 0.07516,
+  "5": 0.07145,
+  "6": 0.06027,
+  "7": 0.04662,
+  "8": 0.02759,
+  "9": 0.0166,
+  "10": 0.00702,
+  "11": 0.00268,
+  "12": 0.00056
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.802,
+   "under": 0.198
+  },
+  {
+   "line": 18.5,
+   "over": 0.7208,
+   "under": 0.2792
+  },
+  {
+   "line": 19.5,
+   "over": 0.6414,
+   "under": 0.3586
+  },
+  {
+   "line": 20.5,
+   "over": 0.5695,
+   "under": 0.4305
+  },
+  {
+   "line": 21.5,
+   "over": 0.5177,
+   "under": 0.4823
+  },
+  {
+   "line": 22.5,
+   "over": 0.4514,
+   "under": 0.5486
+  },
+  {
+   "line": 23.5,
+   "over": 0.4047,
+   "under": 0.5953
+  },
+  {
+   "line": 24.5,
+   "over": 0.3874,
+   "under": 0.6126
+  },
+  {
+   "line": 25.5,
+   "over": 0.3513,
+   "under": 0.6487
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.408,
+   "B +1.5": 0.592,
+   "B -1.5": 0.4972,
+   "A +1.5": 0.5028
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3674,
+   "B +2.5": 0.6326,
+   "B -2.5": 0.4527,
+   "A +2.5": 0.5473
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.308,
+   "B +3.5": 0.6921,
+   "B -3.5": 0.3875,
+   "A +3.5": 0.6125
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2328,
+   "B +4.5": 0.7672,
+   "B -4.5": 0.2987,
+   "A +4.5": 0.7013
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1613,
+   "B +5.5": 0.8387,
+   "B -5.5": 0.2131,
+   "A +5.5": 0.7869
+  }
+ ],
+ "p_tiebreak": 0.3112,
+ "p_a_wins_set": 0.6559,
+ "p_b_wins_set": 0.7254,
+ "p_decider": 0.3813,
+ "expected_breaks": {
+  "total": 6.41,
+  "by_A": 3.07,
+  "by_B": 3.33
+ },
+ "expected_break_points": {
+  "A_creates": 7.42,
+  "B_creates": 7.84
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3441
+ },
+ "match": "Robin Montgomery vs Jeline Vandromme",
+ "players": {
+  "A": {
+   "id": "wta:221905",
+   "name": "Robin Montgomery",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 339.0,
+   "age": 22.139356605065025,
+   "elo": 1698.5,
+   "surface_elo": {
+    "Hard": 1598.0,
+    "Clay": 1503.7,
+    "Grass": 1738.9
+   },
+   "matches_total": 57,
+   "matches_surface": {
+    "Hard": 33,
+    "Clay": 12,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    13,
+    8
+   ],
+   "last52w_surface": [
+    7,
+    5
+   ],
+   "career_surface_wl": [
+    13,
+    20
+   ],
+   "games_won_lost_52w": [
+    239,
+    204
+   ],
+   "sets_won_lost_52w": [
+    28,
+    20
+   ],
+   "avg_opp_elo_last20": 1628.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1747,
+   "return_rating": 0.0069,
+   "form_elo": -3.0,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6077,
+    "first_won": 0.6947,
+    "second_won": 0.4266,
+    "serve_pts_won": 0.5896,
+    "hold": 0.6667,
+    "aces_per_svgm": 0.4444,
+    "df_per_svgm": 0.437,
+    "bp_saved": 0.6053,
+    "ret_pts_won": 0.4147,
+    "ret_1st_won": 0.3536,
+    "ret_2nd_won": 0.5193,
+    "ret_games_won": 0.3701,
+    "bp_conv": 0.4796,
+    "bp_chances_per_retgm": 0.7717,
+    "matches_with_stats": 14
+   },
+   "rank_history": [
+    [
+     "2024-07-01",
+     161.0
+    ],
+    [
+     "2024-07-29",
+     131.0
+    ],
+    [
+     "2024-08-12",
+     109.0
+    ],
+    [
+     "2024-10-28",
+     107.0
+    ],
+    [
+     "2024-11-25",
+     105.0
+    ],
+    [
+     "2024-12-30",
+     117.0
+    ],
+    [
+     "2025-03-05",
+     107.0
+    ],
+    [
+     "2025-03-31",
+     105.0
+    ],
+    [
+     "2025-04-22",
+     100.0
+    ],
+    [
+     "2025-05-26",
+     115.0
+    ],
+    [
+     "2026-03-30",
+     368.0
+    ],
+    [
+     "2026-04-21",
+     339.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn15755",
+   "name": "Jeline Vandromme",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1670.7,
+   "surface_elo": {
+    "Hard": 1621.6,
+    "Clay": 1624.7,
+    "Grass": 1535.7
+   },
+   "matches_total": 22,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 8,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    14,
+    8
+   ],
+   "last52w_surface": [
+    7,
+    4
+   ],
+   "career_surface_wl": [
+    7,
+    4
+   ],
+   "games_won_lost_52w": [
+    296,
+    228
+   ],
+   "sets_won_lost_52w": [
+    33,
+    21
+   ],
+   "avg_opp_elo_last20": 1583.8,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1849,
+   "return_rating": 0.1064,
+   "form_elo": 6.6,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6945,
+    "first_won": 0.6444,
+    "second_won": 0.4836,
+    "serve_pts_won": 0.5953,
+    "hold": 0.7081,
+    "aces_per_svgm": 0.0957,
+    "df_per_svgm": 0.2584,
+    "bp_saved": 0.5704,
+    "ret_pts_won": 0.4579,
+    "ret_1st_won": 0.3896,
+    "ret_2nd_won": 0.5913,
+    "ret_games_won": 0.4089,
+    "bp_conv": 0.4462,
+    "bp_chances_per_retgm": 0.9163,
+    "matches_with_stats": 18
+   },
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "89fca82ef959d549",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Robin Montgomery: limited recent/surface sample (21 matches 52w, 33 career on Hard, 14 with stats)",
+  "Jeline Vandromme: limited recent/surface sample (22 matches 52w, 11 career on Hard, 18 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -29.5,
+  "components_elo": {
+   "surface_elo": -23.6,
+   "overall_elo": 27.9,
+   "serve_return": -95.1,
+   "form": -9.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -2.9,
+   "overall_elo": 6.6,
+   "serve_return": -33.2,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4577,
+  "serve_return_implied_spw": {
+   "A": 0.5841,
+   "B": 0.6105
+  },
+  "point_probs": {
+   "A_serve": 0.5912,
+   "B_serve": 0.6035
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5912125800738652,
+   "B_serve": 0.6035457113401049
+  },
+  "hold_probs": {
+   "A": 0.7171,
+   "B": 0.7431
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4551,
+   0.4583
+  ],
+  "p_tb": [
+   0.3112,
+   0.3138
+  ],
+  "p_decider": [
+   0.3813,
+   0.382
+  ],
+  "games_mean": [
+   23.09,
+   23.113
+  ],
+  "exp_breaks": [
+   6.407,
+   6.401
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3441,
+    0.3425
+   ],
+   "1-2": [
+    0.2008,
+    0.1992
+   ],
+   "2-0": [
+    0.2746,
+    0.2755
+   ],
+   "2-1": [
+    0.1805,
+    0.1828
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0032
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jeline Vandromme",
+   "elo_points": -33.2,
+   "raw_diff": -95.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Robin Montgomery",
+   "elo_points": 6.6,
+   "raw_diff": 27.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Jeline Vandromme",
+   "elo_points": -2.9,
+   "raw_diff": -23.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4266,
+   "B": 0.4836,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4147,
+   "B": 0.4579,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5912,
+   "B": 0.6035,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Jeline Vandromme to win at least one set",
+  "probability": 0.7254,
+  "fair_odds": {
+   "decimal": 1.38,
+   "american": "-264"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Robin Montgomery: limited recent/surface sample (21 matches 52w, 33 career on Hard, 14 with stats); Jeline Vandromme: limited recent/surface sample (22 matches 52w, 11 career on Hard, 18 with stats)",
+  "candidates": [
+   {
+    "selection": "Jeline Vandromme to win at least one set",
+    "probability": 0.7254,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7208,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Robin Montgomery +4.5 games",
+    "probability": 0.7013,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6888,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Robin Montgomery to win at least one set",
+    "probability": 0.6559,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6187,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6126,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5695,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5486,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Robin Montgomery +2.5 games",
+    "probability": 0.5473,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Jeline Vandromme to win",
+    "probability": 0.5449,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Robin Montgomery to win",
+    "probability": 0.4551,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Jeline Vandromme -2.5 games",
+    "probability": 0.4527,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4514,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4305,
+    "fair_decimal": 2.32
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T11:57:34+00:00",
+  "version": 1,
+  "input_hash": "01507289d0a8fa02",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186572",
+  "scheduled_start_utc": "2026-11-04T05:00Z"
+ }
+}

@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-03T02:25:26+00:00",
+ "generated_at_utc": "2026-11-03T12:05:21+00:00",
  "summary": {
-  "n": 185,
-  "brier": 0.2272454943243243,
-  "log_loss": 0.6463744498757542,
-  "accuracy": 0.6054054054054054,
-  "games_mae": 5.068432432432433,
-  "exact_sets_accuracy": 0.41081081081081083,
-  "tiebreak_brier": 0.19576775875675678
+  "n": 212,
+  "brier": 0.22295524608490566,
+  "log_loss": 0.6374644750621242,
+  "accuracy": 0.6273584905660378,
+  "games_mae": 4.883254716981132,
+  "exact_sets_accuracy": 0.4386792452830189,
+  "tiebreak_brier": 0.2004902163207547
  },
- "n": 185,
+ "n": 212,
  "overall": {
-  "n": 185,
-  "brier": 0.2272454943243243,
-  "log_loss": 0.6463744498757542,
-  "accuracy": 0.6054054054054054
+  "n": 212,
+  "brier": 0.22295524608490566,
+  "log_loss": 0.6374644750621242,
+  "accuracy": 0.6273584905660378
  },
- "games_mae": 5.068432432432433,
- "exact_sets_accuracy": 0.41081081081081083,
- "tiebreak_brier": 0.19576775875675678,
+ "games_mae": 4.883254716981132,
+ "exact_sets_accuracy": 0.4386792452830189,
+ "tiebreak_brier": 0.2004902163207547,
  "by_surface": {
   "Clay": {
    "n": 13,
@@ -27,64 +27,64 @@
    "accuracy": 0.7692307692307693
   },
   "Hard": {
-   "n": 172,
-   "brier": 0.23114321418604653,
-   "log_loss": 0.6545718063325385,
-   "accuracy": 0.5930232558139535
+   "n": 199,
+   "brier": 0.22604386211055275,
+   "log_loss": 0.6439675687203639,
+   "accuracy": 0.6180904522613065
   }
  },
  "by_tour": {
   "atp": {
-   "n": 69,
-   "brier": 0.22166286507246374,
-   "log_loss": 0.6324728019870459,
-   "accuracy": 0.5942028985507246
+   "n": 71,
+   "brier": 0.21995625267605629,
+   "log_loss": 0.6290844358893044,
+   "accuracy": 0.6056338028169014
   },
   "wta": {
-   "n": 116,
-   "brier": 0.23056619620689653,
-   "log_loss": 0.6546435335336929,
-   "accuracy": 0.6120689655172413
+   "n": 141,
+   "brier": 0.2244653775177305,
+   "log_loss": 0.6416842110995015,
+   "accuracy": 0.6382978723404256
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 5,
-   "brier": 0.20536854799999998,
-   "log_loss": 0.601995942411645,
-   "accuracy": 0.8
+   "n": 12,
+   "brier": 0.19040010249999997,
+   "log_loss": 0.5700446724851571,
+   "accuracy": 0.75
   },
   "LOW": {
-   "n": 96,
-   "brier": 0.2348188821875,
-   "log_loss": 0.6645032819371842,
-   "accuracy": 0.6145833333333334
+   "n": 107,
+   "brier": 0.23378099420560747,
+   "log_loss": 0.6619666818945484,
+   "accuracy": 0.6261682242990654
   },
   "MEDIUM": {
-   "n": 84,
-   "brier": 0.21989239309523811,
-   "log_loss": 0.6282973624879359,
-   "accuracy": 0.5833333333333334
+   "n": 93,
+   "brier": 0.21470047913978493,
+   "log_loss": 0.6179730933401266,
+   "accuracy": 0.6129032258064516
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 115,
-   "mean_pred": 0.5448565217391305,
-   "observed": 0.5130434782608696
+   "n": 130,
+   "mean_pred": 0.5438676923076923,
+   "observed": 0.5307692307692308
   },
   {
    "bucket": "60%-70%",
-   "n": 46,
-   "mean_pred": 0.6455826086956522,
-   "observed": 0.7608695652173914
+   "n": 56,
+   "mean_pred": 0.6452375000000001,
+   "observed": 0.7857142857142857
   },
   {
    "bucket": "70%-80%",
-   "n": 18,
-   "mean_pred": 0.7378666666666667,
-   "observed": 0.8333333333333334
+   "n": 20,
+   "mean_pred": 0.73712,
+   "observed": 0.85
   },
   {
    "bucket": "80%-90%",
@@ -7241,6 +7241,300 @@
    "version": "v1.1"
   },
   {
+   "match": "Quentin Halys vs Arthur Fery",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5645,
+   "a_won": 1,
+   "pred_winner": "Quentin Halys",
+   "actual_winner": "Quentin Halys",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3525,
+   "exp_games": 24.32,
+   "actual_games": 25,
+   "p_tb": 0.4406,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5076,
+     1
+    ],
+    "A -2.5": [
+     0.4467,
+     1
+    ],
+    "A -3.5": [
+     0.3582,
+     0
+    ],
+    "A -4.5": [
+     0.2513,
+     0
+    ],
+    "A -5.5": [
+     0.1613,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Linda Fruhvirtova vs Weronika Falkowska",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4802,
+   "a_won": 0,
+   "pred_winner": "Weronika Falkowska",
+   "actual_winner": "Weronika Falkowska",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3272,
+   "exp_games": 22.55,
+   "actual_games": 23,
+   "p_tb": 0.2567,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4373,
+     0
+    ],
+    "A -2.5": [
+     0.4001,
+     0
+    ],
+    "A -3.5": [
+     0.3469,
+     0
+    ],
+    "A -4.5": [
+     0.2743,
+     0
+    ],
+    "A -5.5": [
+     0.2001,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jeline Vandromme vs Kyoka Okamura",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4947,
+   "a_won": 1,
+   "pred_winner": "Kyoka Okamura",
+   "actual_winner": "Jeline Vandromme",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3062,
+   "exp_games": 22.75,
+   "actual_games": 19,
+   "p_tb": 0.2753,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4512,
+     1
+    ],
+    "A -2.5": [
+     0.4118,
+     1
+    ],
+    "A -3.5": [
+     0.3544,
+     1
+    ],
+    "A -4.5": [
+     0.2793,
+     1
+    ],
+    "A -5.5": [
+     0.2036,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Panna Udvardy vs Robin Montgomery",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4366,
+   "a_won": 0,
+   "pred_winner": "Robin Montgomery",
+   "actual_winner": "Robin Montgomery",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2041,
+   "exp_games": 23.04,
+   "actual_games": 24,
+   "p_tb": 0.3062,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3902,
+     0
+    ],
+    "A -2.5": [
+     0.35,
+     0
+    ],
+    "A -3.5": [
+     0.294,
+     0
+    ],
+    "A -4.5": [
+     0.2218,
+     0
+    ],
+    "A -5.5": [
+     0.1528,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Oksana Selekhmeteva vs Teodora Kostovic",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5158,
+   "a_won": 1,
+   "pred_winner": "Oksana Selekhmeteva",
+   "actual_winner": "Oksana Selekhmeteva",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3264,
+   "exp_games": 22.52,
+   "actual_games": 19,
+   "p_tb": 0.2566,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4733,
+     1
+    ],
+    "A -2.5": [
+     0.4363,
+     1
+    ],
+    "A -3.5": [
+     0.381,
+     1
+    ],
+    "A -4.5": [
+     0.305,
+     1
+    ],
+    "A -5.5": [
+     0.2285,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jil Teichmann vs Joanna Garland",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5178,
+   "a_won": 0,
+   "pred_winner": "Jil Teichmann",
+   "actual_winner": "Joanna Garland",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2963,
+   "exp_games": 22.8,
+   "actual_games": 19,
+   "p_tb": 0.2802,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4748,
+     0
+    ],
+    "A -2.5": [
+     0.434,
+     0
+    ],
+    "A -3.5": [
+     0.375,
+     0
+    ],
+    "A -4.5": [
+     0.2949,
+     0
+    ],
+    "A -5.5": [
+     0.2145,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anastasia Zakharova vs Polina Iatcenko",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.513,
+   "a_won": 1,
+   "pred_winner": "Anastasia Zakharova",
+   "actual_winner": "Anastasia Zakharova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3238,
+   "exp_games": 22.6,
+   "actual_games": 20,
+   "p_tb": 0.2611,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4689,
+     1
+    ],
+    "A -2.5": [
+     0.4311,
+     1
+    ],
+    "A -3.5": [
+     0.376,
+     1
+    ],
+    "A -4.5": [
+     0.2987,
+     1
+    ],
+    "A -5.5": [
+     0.2193,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Venus Williams vs Mary Stoiana",
    "date": "2026-11-02",
    "tour": "wta",
@@ -7276,6 +7570,48 @@
     ],
     "A -5.5": [
      0.1276,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Sorana Cirstea vs Maria Timofeeva",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.7585,
+   "a_won": 1,
+   "pred_winner": "Sorana Cirstea",
+   "actual_winner": "Sorana Cirstea",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2031,
+   "exp_games": 21.96,
+   "actual_games": 32,
+   "p_tb": 0.266,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.7213,
+     0
+    ],
+    "A -2.5": [
+     0.6795,
+     0
+    ],
+    "A -3.5": [
+     0.613,
+     0
+    ],
+    "A -4.5": [
+     0.5126,
+     0
+    ],
+    "A -5.5": [
+     0.4015,
      0
     ]
    },
@@ -7325,6 +7661,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Maddison Inglis vs Maya Joint",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3529,
+   "a_won": 0,
+   "pred_winner": "Maya Joint",
+   "actual_winner": "Maya Joint",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4407,
+   "exp_games": 22.38,
+   "actual_games": 20,
+   "p_tb": 0.2606,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3124,
+     0
+    ],
+    "A -2.5": [
+     0.2782,
+     0
+    ],
+    "A -3.5": [
+     0.2326,
+     0
+    ],
+    "A -4.5": [
+     0.1758,
+     0
+    ],
+    "A -5.5": [
+     0.1221,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Katie Volynets vs Aliaksandra Sasnovich",
    "date": "2026-11-02",
    "tour": "wta",
@@ -7361,6 +7739,48 @@
     "A -5.5": [
      0.1757,
      0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Talia Gibson vs Oleksandra Oliynykova",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.615,
+   "a_won": 1,
+   "pred_winner": "Talia Gibson",
+   "actual_winner": "Talia Gibson",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4086,
+   "exp_games": 22.69,
+   "actual_games": 20,
+   "p_tb": 0.2821,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5714,
+     1
+    ],
+    "A -2.5": [
+     0.5286,
+     1
+    ],
+    "A -3.5": [
+     0.4652,
+     1
+    ],
+    "A -4.5": [
+     0.374,
+     1
+    ],
+    "A -5.5": [
+     0.2798,
+     1
     ]
    },
    "data_quality": "MEDIUM",
@@ -7451,6 +7871,90 @@
    "version": "v1.1"
   },
   {
+   "match": "Dayana Yastremska vs Zeynep Sonmez",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.4702,
+   "a_won": 0,
+   "pred_winner": "Zeynep Sonmez",
+   "actual_winner": "Zeynep Sonmez",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3369,
+   "exp_games": 22.52,
+   "actual_games": 18,
+   "p_tb": 0.2569,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4276,
+     0
+    ],
+    "A -2.5": [
+     0.392,
+     0
+    ],
+    "A -3.5": [
+     0.338,
+     0
+    ],
+    "A -4.5": [
+     0.2658,
+     0
+    ],
+    "A -5.5": [
+     0.1941,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Xinran Sun vs Tereza Valentova",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3531,
+   "a_won": 1,
+   "pred_winner": "Tereza Valentova",
+   "actual_winner": "Xinran Sun",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2021,
+   "exp_games": 22.29,
+   "actual_games": 21,
+   "p_tb": 0.2532,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3131,
+     1
+    ],
+    "A -2.5": [
+     0.2804,
+     1
+    ],
+    "A -3.5": [
+     0.2371,
+     1
+    ],
+    "A -4.5": [
+     0.18,
+     1
+    ],
+    "A -5.5": [
+     0.1253,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Diana Martynov vs Sandra Samir",
    "date": "2026-11-02",
    "tour": "wta",
@@ -7486,6 +7990,48 @@
     ],
     "A -5.5": [
      0.3323,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tiphanie Lemaitre vs Lamis Alhussein Abdel Aziz",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.5365,
+   "a_won": 1,
+   "pred_winner": "Tiphanie Lemaitre",
+   "actual_winner": "Tiphanie Lemaitre",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3441,
+   "exp_games": 22.62,
+   "actual_games": 14,
+   "p_tb": 0.2662,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4931,
+     1
+    ],
+    "A -2.5": [
+     0.4534,
+     1
+    ],
+    "A -3.5": [
+     0.3949,
+     1
+    ],
+    "A -4.5": [
+     0.3155,
+     1
+    ],
+    "A -5.5": [
+     0.2343,
      1
     ]
    },
@@ -7865,6 +8411,594 @@
     "A -5.5": [
      0.0661,
      1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Quentin Halys vs Arthur Fery",
+   "date": "2026-11-03",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.636,
+   "a_won": 1,
+   "pred_winner": "Quentin Halys",
+   "actual_winner": "Quentin Halys",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4165,
+   "exp_games": 24.37,
+   "actual_games": 25,
+   "p_tb": 0.461,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5792,
+     1
+    ],
+    "A -2.5": [
+     0.5124,
+     1
+    ],
+    "A -3.5": [
+     0.4154,
+     0
+    ],
+    "A -4.5": [
+     0.2934,
+     0
+    ],
+    "A -5.5": [
+     0.1888,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Linda Fruhvirtova vs Weronika Falkowska",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.3558,
+   "a_won": 0,
+   "pred_winner": "Weronika Falkowska",
+   "actual_winner": "Weronika Falkowska",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.436,
+   "exp_games": 22.59,
+   "actual_games": 23,
+   "p_tb": 0.2792,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3128,
+     0
+    ],
+    "A -2.5": [
+     0.2786,
+     0
+    ],
+    "A -3.5": [
+     0.2313,
+     0
+    ],
+    "A -4.5": [
+     0.1722,
+     0
+    ],
+    "A -5.5": [
+     0.117,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jeline Vandromme vs Kyoka Okamura",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5888,
+   "a_won": 1,
+   "pred_winner": "Jeline Vandromme",
+   "actual_winner": "Jeline Vandromme",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3829,
+   "exp_games": 23.09,
+   "actual_games": 19,
+   "p_tb": 0.3185,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5428,
+     1
+    ],
+    "A -2.5": [
+     0.4961,
+     1
+    ],
+    "A -3.5": [
+     0.4275,
+     1
+    ],
+    "A -4.5": [
+     0.3326,
+     1
+    ],
+    "A -5.5": [
+     0.2393,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Panna Udvardy vs Robin Montgomery",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.389,
+   "a_won": 0,
+   "pred_winner": "Robin Montgomery",
+   "actual_winner": "Robin Montgomery",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2091,
+   "exp_games": 23.23,
+   "actual_games": 24,
+   "p_tb": 0.3349,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3426,
+     0
+    ],
+    "A -2.5": [
+     0.3005,
+     0
+    ],
+    "A -3.5": [
+     0.2453,
+     0
+    ],
+    "A -4.5": [
+     0.1766,
+     0
+    ],
+    "A -5.5": [
+     0.115,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Oksana Selekhmeteva vs Teodora Kostovic",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4347,
+   "a_won": 1,
+   "pred_winner": "Teodora Kostovic",
+   "actual_winner": "Oksana Selekhmeteva",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2596,
+   "exp_games": 22.85,
+   "actual_games": 19,
+   "p_tb": 0.2872,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3912,
+     1
+    ],
+    "A -2.5": [
+     0.3518,
+     1
+    ],
+    "A -3.5": [
+     0.2977,
+     1
+    ],
+    "A -4.5": [
+     0.227,
+     1
+    ],
+    "A -5.5": [
+     0.1597,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jil Teichmann vs Joanna Garland",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5174,
+   "a_won": 0,
+   "pred_winner": "Jil Teichmann",
+   "actual_winner": "Joanna Garland",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2942,
+   "exp_games": 23.15,
+   "actual_games": 19,
+   "p_tb": 0.3144,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4695,
+     0
+    ],
+    "A -2.5": [
+     0.4255,
+     0
+    ],
+    "A -3.5": [
+     0.3612,
+     0
+    ],
+    "A -4.5": [
+     0.2769,
+     0
+    ],
+    "A -5.5": [
+     0.1962,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anastasia Zakharova vs Polina Iatcenko",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4677,
+   "a_won": 1,
+   "pred_winner": "Polina Iatcenko",
+   "actual_winner": "Anastasia Zakharova",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2879,
+   "exp_games": 22.57,
+   "actual_games": 20,
+   "p_tb": 0.2606,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4245,
+     1
+    ],
+    "A -2.5": [
+     0.3874,
+     1
+    ],
+    "A -3.5": [
+     0.3349,
+     1
+    ],
+    "A -4.5": [
+     0.263,
+     1
+    ],
+    "A -5.5": [
+     0.1924,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Sorana Cirstea vs Maria Timofeeva",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.7023,
+   "a_won": 1,
+   "pred_winner": "Sorana Cirstea",
+   "actual_winner": "Sorana Cirstea",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2068,
+   "exp_games": 22.1,
+   "actual_games": 32,
+   "p_tb": 0.253,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6629,
+     0
+    ],
+    "A -2.5": [
+     0.6232,
+     0
+    ],
+    "A -3.5": [
+     0.561,
+     0
+    ],
+    "A -4.5": [
+     0.4664,
+     0
+    ],
+    "A -5.5": [
+     0.3646,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maddison Inglis vs Maya Joint",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.313,
+   "a_won": 0,
+   "pred_winner": "Maya Joint",
+   "actual_winner": "Maya Joint",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4758,
+   "exp_games": 22.42,
+   "actual_games": 20,
+   "p_tb": 0.2748,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2739,
+     0
+    ],
+    "A -2.5": [
+     0.2417,
+     0
+    ],
+    "A -3.5": [
+     0.1978,
+     0
+    ],
+    "A -4.5": [
+     0.1441,
+     0
+    ],
+    "A -5.5": [
+     0.0971,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Talia Gibson vs Oleksandra Oliynykova",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.6619,
+   "a_won": 1,
+   "pred_winner": "Talia Gibson",
+   "actual_winner": "Talia Gibson",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4558,
+   "exp_games": 22.22,
+   "actual_games": 20,
+   "p_tb": 0.2504,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6223,
+     1
+    ],
+    "A -2.5": [
+     0.5827,
+     1
+    ],
+    "A -3.5": [
+     0.5223,
+     1
+    ],
+    "A -4.5": [
+     0.432,
+     1
+    ],
+    "A -5.5": [
+     0.3355,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Dayana Yastremska vs Zeynep Sonmez",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.435,
+   "a_won": 0,
+   "pred_winner": "Zeynep Sonmez",
+   "actual_winner": "Zeynep Sonmez",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.366,
+   "exp_games": 22.54,
+   "actual_games": 18,
+   "p_tb": 0.26,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.393,
+     0
+    ],
+    "A -2.5": [
+     0.3561,
+     0
+    ],
+    "A -3.5": [
+     0.3047,
+     0
+    ],
+    "A -4.5": [
+     0.2369,
+     0
+    ],
+    "A -5.5": [
+     0.1711,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Himeno Sakatsume vs Tereza Valentova",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3611,
+   "a_won": 0,
+   "pred_winner": "Tereza Valentova",
+   "actual_winner": "Tereza Valentova",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4343,
+   "exp_games": 22.33,
+   "actual_games": 21,
+   "p_tb": 0.2554,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3213,
+     0
+    ],
+    "A -2.5": [
+     0.2894,
+     0
+    ],
+    "A -3.5": [
+     0.2426,
+     0
+    ],
+    "A -4.5": [
+     0.1851,
+     0
+    ],
+    "A -5.5": [
+     0.1292,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tiphanie Lemaitre vs Lamis Alhussein Abdel Aziz",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.5096,
+   "a_won": 1,
+   "pred_winner": "Tiphanie Lemaitre",
+   "actual_winner": "Tiphanie Lemaitre",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3199,
+   "exp_games": 22.72,
+   "actual_games": 14,
+   "p_tb": 0.2739,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4661,
+     1
+    ],
+    "A -2.5": [
+     0.4263,
+     1
+    ],
+    "A -3.5": [
+     0.3695,
+     1
+    ],
+    "A -4.5": [
+     0.2916,
+     1
+    ],
+    "A -5.5": [
+     0.2146,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Darja Suvirdjonkova vs Martyna Kubka",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3515,
+   "a_won": 0,
+   "pred_winner": "Martyna Kubka",
+   "actual_winner": "Martyna Kubka",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4379,
+   "exp_games": 22.69,
+   "actual_games": 16,
+   "p_tb": 0.2891,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.309,
+     0
+    ],
+    "A -2.5": [
+     0.2738,
+     0
+    ],
+    "A -3.5": [
+     0.225,
+     0
+    ],
+    "A -4.5": [
+     0.165,
+     0
+    ],
+    "A -5.5": [
+     0.1105,
+     0
     ]
    },
    "data_quality": "LOW",
