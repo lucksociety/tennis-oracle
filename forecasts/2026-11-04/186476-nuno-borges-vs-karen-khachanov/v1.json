@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Karen Khachanov",
+ "win_prob": {
+  "A": 0.3396,
+  "B": 0.6604
+ },
+ "win_prob_exact": {
+  "A": 0.3396,
+  "B": 0.6604
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.94,
+   "american": "+194"
+  },
+  "B": {
+   "decimal": 1.51,
+   "american": "-194"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4363,
+  "1-2": 0.2241,
+  "2-0": 0.1834,
+  "2-1": 0.1562
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0348,
+ "games": {
+  "mean": 24.51,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.3,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00045,
+   "13": 0.00261,
+   "14": 0.00722,
+   "15": 0.0191,
+   "16": 0.03121,
+   "17": 0.05729,
+   "18": 0.06404,
+   "19": 0.08145,
+   "20": 0.07657,
+   "21": 0.0497,
+   "22": 0.09003,
+   "23": 0.07398,
+   "24": 0.0088,
+   "25": 0.03343,
+   "26": 0.05667,
+   "27": 0.02283,
+   "28": 0.02918,
+   "29": 0.03199,
+   "30": 0.03315,
+   "31": 0.04443,
+   "32": 0.04588,
+   "33": 0.02882,
+   "34": 0.0216,
+   "35": 0.03818,
+   "36": 0.02756,
+   "37": 0.00261,
+   "38": 0.00868,
+   "39": 0.01254
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00041,
+  "-11": 0.00241,
+  "-10": 0.00645,
+  "-9": 0.0168,
+  "-8": 0.02875,
+  "-7": 0.05799,
+  "-6": 0.07715,
+  "-5": 0.10709,
+  "-4": 0.1274,
+  "-3": 0.10595,
+  "-2": 0.07318,
+  "-1": 0.04145,
+  "0": 0.03491,
+  "1": 0.03537,
+  "2": 0.05239,
+  "3": 0.06419,
+  "4": 0.0665,
+  "5": 0.04764,
+  "6": 0.02652,
+  "7": 0.01666,
+  "8": 0.00627,
+  "9": 0.0032,
+  "10": 0.00107,
+  "11": 0.00021,
+  "12": 4e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8821,
+   "under": 0.1179
+  },
+  {
+   "line": 18.5,
+   "over": 0.8181,
+   "under": 0.1819
+  },
+  {
+   "line": 19.5,
+   "over": 0.7366,
+   "under": 0.2634
+  },
+  {
+   "line": 20.5,
+   "over": 0.6601,
+   "under": 0.3399
+  },
+  {
+   "line": 21.5,
+   "over": 0.6104,
+   "under": 0.3896
+  },
+  {
+   "line": 22.5,
+   "over": 0.5203,
+   "under": 0.4797
+  },
+  {
+   "line": 23.5,
+   "over": 0.4464,
+   "under": 0.5537
+  },
+  {
+   "line": 24.5,
+   "over": 0.4376,
+   "under": 0.5625
+  },
+  {
+   "line": 25.5,
+   "over": 0.4041,
+   "under": 0.5959
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2847,
+   "B +1.5": 0.7153,
+   "B -1.5": 0.6036,
+   "A +1.5": 0.3964
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2323,
+   "B +2.5": 0.7677,
+   "B -2.5": 0.5304,
+   "A +2.5": 0.4696
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1681,
+   "B +3.5": 0.8319,
+   "B -3.5": 0.4244,
+   "A +3.5": 0.5756
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1016,
+   "B +4.5": 0.8984,
+   "B -4.5": 0.297,
+   "A +4.5": 0.7029
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.054,
+   "B +5.5": 0.946,
+   "B -5.5": 0.19,
+   "A +5.5": 0.81
+  }
+ ],
+ "p_tiebreak": 0.4808,
+ "p_a_wins_set": 0.5637,
+ "p_b_wins_set": 0.8166,
+ "p_decider": 0.3804,
+ "expected_breaks": {
+  "total": 3.73,
+  "by_A": 1.48,
+  "by_B": 2.25
+ },
+ "expected_break_points": {
+  "A_creates": 4.47,
+  "B_creates": 6.04
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4363
+ },
+ "match": "Nuno Borges vs Karen Khachanov",
+ "players": {
+  "A": {
+   "id": "atp:132686",
+   "name": "Nuno Borges",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 51.0,
+   "age": 29.64626967830253,
+   "elo": 1809.4,
+   "surface_elo": {
+    "Hard": 1751.1,
+    "Clay": 1695.4,
+    "Grass": 1624.1
+   },
+   "matches_total": 204,
+   "matches_surface": {
+    "Hard": 119,
+    "Clay": 63,
+    "Grass": 22
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    28,
+    28
+   ],
+   "last52w_surface": [
+    16,
+    16
+   ],
+   "career_surface_wl": [
+    57,
+    62
+   ],
+   "games_won_lost_52w": [
+    692,
+    667
+   ],
+   "sets_won_lost_52w": [
+    69,
+    67
+   ],
+   "avg_opp_elo_last20": 1781.9,
+   "vs_top_opp_52w": [
+    1,
+    9
+   ],
+   "serve_rating": 0.1234,
+   "return_rating": 0.1456,
+   "form_elo": 45.0,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-30",
+   "stats_52w": {
+    "first_in": 0.6733,
+    "first_won": 0.7302,
+    "second_won": 0.4776,
+    "serve_pts_won": 0.6477,
+    "hold": 0.8219,
+    "aces_per_svgm": 0.4893,
+    "df_per_svgm": 0.1545,
+    "bp_saved": 0.6468,
+    "ret_pts_won": 0.3482,
+    "ret_1st_won": 0.2789,
+    "ret_2nd_won": 0.4702,
+    "ret_games_won": 0.1857,
+    "bp_conv": 0.4055,
+    "bp_chances_per_retgm": 0.4578,
+    "matches_with_stats": 40
+   },
+   "rank_history": [
+    [
+     "2026-01-05",
+     45.0
+    ],
+    [
+     "2026-01-12",
+     46.0
+    ],
+    [
+     "2026-02-06",
+     45.0
+    ],
+    [
+     "2026-02-23",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     49.0
+    ],
+    [
+     "2026-03-18",
+     50.0
+    ],
+    [
+     "2026-03-30",
+     48.0
+    ],
+    [
+     "2026-04-05",
+     50.0
+    ],
+    [
+     "2026-04-13",
+     52.0
+    ],
+    [
+     "2026-04-22",
+     49.0
+    ],
+    [
+     "2026-05-06",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     51.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:111575",
+   "name": "Karen Khachanov",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 15.0,
+   "age": 30.44626967830253,
+   "elo": 1836.9,
+   "surface_elo": {
+    "Hard": 1809.6,
+    "Clay": 1768.2,
+    "Grass": 1708.6
+   },
+   "matches_total": 576,
+   "matches_surface": {
+    "Hard": 380,
+    "Clay": 144,
+    "Grass": 52
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    26,
+    23
+   ],
+   "last52w_surface": [
+    17,
+    15
+   ],
+   "career_surface_wl": [
+    214,
+    166
+   ],
+   "games_won_lost_52w": [
+    745,
+    669
+   ],
+   "sets_won_lost_52w": [
+    75,
+    65
+   ],
+   "avg_opp_elo_last20": 1844.5,
+   "vs_top_opp_52w": [
+    3,
+    8
+   ],
+   "serve_rating": 0.4248,
+   "return_rating": 0.2213,
+   "form_elo": 49.0,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-10-27",
+   "stats_52w": {
+    "first_in": 0.658,
+    "first_won": 0.7527,
+    "second_won": 0.5333,
+    "serve_pts_won": 0.6777,
+    "hold": 0.8715,
+    "aces_per_svgm": 0.5642,
+    "df_per_svgm": 0.1463,
+    "bp_saved": 0.7041,
+    "ret_pts_won": 0.3621,
+    "ret_1st_won": 0.269,
+    "ret_2nd_won": 0.5127,
+    "ret_games_won": 0.2062,
+    "bp_conv": 0.4191,
+    "bp_chances_per_retgm": 0.4919,
+    "matches_with_stats": 45
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     9.0
+    ],
+    [
+     "2025-09-25",
+     10.0
+    ],
+    [
+     "2025-10-20",
+     13.0
+    ],
+    [
+     "2025-10-27",
+     14.0
+    ],
+    [
+     "2026-01-05",
+     17.0
+    ],
+    [
+     "2026-01-19",
+     18.0
+    ],
+    [
+     "2026-02-16",
+     17.0
+    ],
+    [
+     "2026-02-23",
+     16.0
+    ],
+    [
+     "2026-03-18",
+     15.0
+    ],
+    [
+     "2026-04-05",
+     14.0
+    ],
+    [
+     "2026-04-22",
+     16.0
+    ],
+    [
+     "2026-05-06",
+     15.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -115.6,
+  "components_elo": {
+   "surface_elo": -58.6,
+   "overall_elo": -27.6,
+   "serve_return": -292.0,
+   "form": -4.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -7.2,
+   "overall_elo": -6.5,
+   "serve_return": -101.9,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3396,
+  "serve_return_implied_spw": {
+   "A": 0.6262,
+   "B": 0.7095
+  },
+  "point_probs": {
+   "A_serve": 0.6449,
+   "B_serve": 0.6927
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6448565076558173,
+   "B_serve": 0.6926896280964744
+  },
+  "hold_probs": {
+   "A": 0.821,
+   "B": 0.8918
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3396,
+   0.3404
+  ],
+  "p_tb": [
+   0.4808,
+   0.4831
+  ],
+  "p_decider": [
+   0.3804,
+   0.3809
+  ],
+  "games_mean": [
+   24.509,
+   24.516
+  ],
+  "exp_breaks": [
+   3.731,
+   3.73
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4363,
+    0.4356
+   ],
+   "1-2": [
+    0.2241,
+    0.224
+   ],
+   "2-0": [
+    0.1834,
+    0.1834
+   ],
+   "2-1": [
+    0.1562,
+    0.157
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0023
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Karen Khachanov",
+   "elo_points": -101.9,
+   "raw_diff": -292.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Karen Khachanov",
+   "elo_points": -7.2,
+   "raw_diff": -58.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Karen Khachanov",
+   "elo_points": -6.5,
+   "raw_diff": -27.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4776,
+   "B": 0.5333,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3482,
+   "B": 0.3621,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6449,
+   "B": 0.6927,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8181,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-450"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.3 games; p10-p90 17-34); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8181,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "Karen Khachanov to win at least one set",
+    "probability": 0.8166,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "Nuno Borges +4.5 games",
+    "probability": 0.7029,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Karen Khachanov to win",
+    "probability": 0.6604,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6601,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6196,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Nuno Borges to win at least one set",
+    "probability": 0.5637,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5625,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Karen Khachanov -2.5 games",
+    "probability": 0.5304,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5203,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5192,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4808,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4797,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Nuno Borges +2.5 games",
+    "probability": 0.4696,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4376,
+    "fair_decimal": 2.29
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T19:30:37+00:00",
+  "version": 1,
+  "input_hash": "061ccd6ea6e53763",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186476",
+  "scheduled_start_utc": "2026-11-04T14:30Z"
+ }
+}

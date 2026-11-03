@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Ugo Humbert",
+ "win_prob": {
+  "A": 0.4473,
+  "B": 0.5527
+ },
+ "win_prob_exact": {
+  "A": 0.44728,
+  "B": 0.55272
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.24,
+   "american": "+124"
+  },
+  "B": {
+   "decimal": 1.81,
+   "american": "-124"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3331,
+  "2-0": 0.2523,
+  "1-2": 0.2196,
+  "2-1": 0.1949
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "6-7",
+  "6-7"
+ ],
+ "representative_sets_prob": 0.0431,
+ "games": {
+  "mean": 26.17,
+  "median": 25.0,
+  "p10": 19.0,
+  "p90": 36.0,
+  "sd": 6.46,
+  "projected": 25.0,
+  "pmf": {
+   "12": 0.0001,
+   "13": 0.00058,
+   "14": 0.00196,
+   "15": 0.00753,
+   "16": 0.01319,
+   "17": 0.03024,
+   "18": 0.04059,
+   "19": 0.06758,
+   "20": 0.06844,
+   "21": 0.04216,
+   "22": 0.10288,
+   "23": 0.09614,
+   "24": 0.00591,
+   "25": 0.03421,
+   "26": 0.09043,
+   "27": 0.01469,
+   "28": 0.02235,
+   "29": 0.02336,
+   "30": 0.02707,
+   "31": 0.04192,
+   "32": 0.05261,
+   "33": 0.03361,
+   "34": 0.0253,
+   "35": 0.05545,
+   "36": 0.05017,
+   "37": 0.0025,
+   "38": 0.01499,
+   "39": 0.03404
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 8e-05,
+  "-11": 0.00039,
+  "-10": 0.00128,
+  "-9": 0.00496,
+  "-8": 0.00941,
+  "-7": 0.02415,
+  "-6": 0.04159,
+  "-5": 0.07404,
+  "-4": 0.11366,
+  "-3": 0.11102,
+  "-2": 0.09632,
+  "-1": 0.05213,
+  "0": 0.04591,
+  "1": 0.05066,
+  "2": 0.08669,
+  "3": 0.09242,
+  "4": 0.08756,
+  "5": 0.05557,
+  "6": 0.02726,
+  "7": 0.01543,
+  "8": 0.00549,
+  "9": 0.00305,
+  "10": 0.00072,
+  "11": 0.00019,
+  "12": 2e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9464,
+   "under": 0.0536
+  },
+  {
+   "line": 18.5,
+   "over": 0.9058,
+   "under": 0.0942
+  },
+  {
+   "line": 19.5,
+   "over": 0.8382,
+   "under": 0.1618
+  },
+  {
+   "line": 20.5,
+   "over": 0.7698,
+   "under": 0.2302
+  },
+  {
+   "line": 21.5,
+   "over": 0.7276,
+   "under": 0.2724
+  },
+  {
+   "line": 22.5,
+   "over": 0.6247,
+   "under": 0.3752
+  },
+  {
+   "line": 23.5,
+   "over": 0.5286,
+   "under": 0.4714
+  },
+  {
+   "line": 24.5,
+   "over": 0.5227,
+   "under": 0.4773
+  },
+  {
+   "line": 25.5,
+   "over": 0.4885,
+   "under": 0.5115
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3744,
+   "B +1.5": 0.6256,
+   "B -1.5": 0.4769,
+   "A +1.5": 0.5231
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2877,
+   "B +2.5": 0.7123,
+   "B -2.5": 0.3806,
+   "A +2.5": 0.6194
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1953,
+   "B +3.5": 0.8047,
+   "B -3.5": 0.2696,
+   "A +3.5": 0.7304
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1077,
+   "B +4.5": 0.8923,
+   "B -4.5": 0.1559,
+   "A +4.5": 0.8441
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0522,
+   "B +5.5": 0.9478,
+   "B -5.5": 0.0819,
+   "A +5.5": 0.9181
+  }
+ ],
+ "p_tiebreak": 0.6373,
+ "p_a_wins_set": 0.6669,
+ "p_b_wins_set": 0.7477,
+ "p_decider": 0.4146,
+ "expected_breaks": {
+  "total": 2.63,
+  "by_A": 1.21,
+  "by_B": 1.42
+ },
+ "expected_break_points": {
+  "A_creates": 3.92,
+  "B_creates": 4.39
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "6-7",
+   "6-7"
+  ],
+  "prob": 0.3331
+ },
+ "match": "Matteo Berrettini vs Ugo Humbert",
+ "players": {
+  "A": {
+   "id": "atp:126610",
+   "name": "Matteo Berrettini",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 105.0,
+   "age": 30.546269678302533,
+   "elo": 1834.1,
+   "surface_elo": {
+    "Hard": 1795.1,
+    "Clay": 1874.3,
+    "Grass": 1857.6
+   },
+   "matches_total": 353,
+   "matches_surface": {
+    "Hard": 193,
+    "Clay": 103,
+    "Grass": 57
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    22,
+    17
+   ],
+   "last52w_surface": [
+    12,
+    9
+   ],
+   "career_surface_wl": [
+    110,
+    83
+   ],
+   "games_won_lost_52w": [
+    555,
+    531
+   ],
+   "sets_won_lost_52w": [
+    58,
+    47
+   ],
+   "avg_opp_elo_last20": 1794.4,
+   "vs_top_opp_52w": [
+    3,
+    7
+   ],
+   "serve_rating": 0.3241,
+   "return_rating": 0.0176,
+   "form_elo": -30.6,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-30",
+   "stats_52w": {
+    "first_in": 0.6641,
+    "first_won": 0.7586,
+    "second_won": 0.529,
+    "serve_pts_won": 0.6815,
+    "hold": 0.8647,
+    "aces_per_svgm": 0.7719,
+    "df_per_svgm": 0.1592,
+    "bp_saved": 0.6852,
+    "ret_pts_won": 0.3366,
+    "ret_1st_won": 0.2725,
+    "ret_2nd_won": 0.4525,
+    "ret_games_won": 0.1484,
+    "bp_conv": 0.3608,
+    "bp_chances_per_retgm": 0.4115,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2025-10-20",
+     59.0
+    ],
+    [
+     "2025-11-02",
+     63.0
+    ],
+    [
+     "2025-11-19",
+     56.0
+    ],
+    [
+     "2026-02-09",
+     58.0
+    ],
+    [
+     "2026-02-16",
+     57.0
+    ],
+    [
+     "2026-03-04",
+     66.0
+    ],
+    [
+     "2026-03-18",
+     68.0
+    ],
+    [
+     "2026-03-30",
+     91.0
+    ],
+    [
+     "2026-04-05",
+     90.0
+    ],
+    [
+     "2026-04-22",
+     92.0
+    ],
+    [
+     "2026-05-06",
+     100.0
+    ],
+    [
+     "2026-05-25",
+     105.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:200005",
+   "name": "Ugo Humbert",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 32.0,
+   "age": 28.34626967830253,
+   "elo": 1792.7,
+   "surface_elo": {
+    "Hard": 1798.9,
+    "Clay": 1578.5,
+    "Grass": 1630.4
+   },
+   "matches_total": 354,
+   "matches_surface": {
+    "Hard": 237,
+    "Clay": 59,
+    "Grass": 58
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    26,
+    25
+   ],
+   "last52w_surface": [
+    17,
+    17
+   ],
+   "career_surface_wl": [
+    135,
+    102
+   ],
+   "games_won_lost_52w": [
+    655,
+    637
+   ],
+   "sets_won_lost_52w": [
+    68,
+    60
+   ],
+   "avg_opp_elo_last20": 1815.9,
+   "vs_top_opp_52w": [
+    2,
+    8
+   ],
+   "serve_rating": 0.375,
+   "return_rating": 0.1524,
+   "form_elo": -64.0,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6,
+    "first_won": 0.7487,
+    "second_won": 0.539,
+    "serve_pts_won": 0.6648,
+    "hold": 0.8444,
+    "aces_per_svgm": 0.5579,
+    "df_per_svgm": 0.2239,
+    "bp_saved": 0.6667,
+    "ret_pts_won": 0.3504,
+    "ret_1st_won": 0.2761,
+    "ret_2nd_won": 0.4891,
+    "ret_games_won": 0.1725,
+    "bp_conv": 0.3755,
+    "bp_chances_per_retgm": 0.4593,
+    "matches_with_stats": 42
+   },
+   "rank_history": [
+    [
+     "2025-10-01",
+     26.0
+    ],
+    [
+     "2025-10-13",
+     25.0
+    ],
+    [
+     "2025-10-20",
+     24.0
+    ],
+    [
+     "2026-01-04",
+     36.0
+    ],
+    [
+     "2026-01-19",
+     33.0
+    ],
+    [
+     "2026-02-02",
+     38.0
+    ],
+    [
+     "2026-02-09",
+     36.0
+    ],
+    [
+     "2026-02-23",
+     37.0
+    ],
+    [
+     "2026-03-04",
+     34.0
+    ],
+    [
+     "2026-05-06",
+     33.0
+    ],
+    [
+     "2026-05-17",
+     34.0
+    ],
+    [
+     "2026-05-25",
+     32.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -34.2,
+  "components_elo": {
+   "surface_elo": -3.8,
+   "overall_elo": 41.4,
+   "serve_return": -124.5,
+   "form": 33.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -0.5,
+   "overall_elo": 9.8,
+   "serve_return": -43.4,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.451,
+  "serve_return_implied_spw": {
+   "A": 0.6869,
+   "B": 0.7254
+  },
+  "point_probs": {
+   "A_serve": 0.6993,
+   "B_serve": 0.7136
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6993353590162884,
+   "B_serve": 0.7135554444418556
+  },
+  "hold_probs": {
+   "A": 0.9,
+   "B": 0.9161
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4473,
+   0.451
+  ],
+  "p_tb": [
+   0.6373,
+   0.639
+  ],
+  "p_decider": [
+   0.4146,
+   0.4158
+  ],
+  "games_mean": [
+   26.167,
+   26.182
+  ],
+  "exp_breaks": [
+   2.632,
+   2.632
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3331,
+    0.3298
+   ],
+   "1-2": [
+    0.2196,
+    0.2193
+   ],
+   "2-0": [
+    0.2523,
+    0.2544
+   ],
+   "2-1": [
+    0.1949,
+    0.1966
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0037
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Ugo Humbert",
+   "elo_points": -43.4,
+   "raw_diff": -124.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Matteo Berrettini",
+   "elo_points": 9.8,
+   "raw_diff": 41.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Ugo Humbert",
+   "elo_points": -0.5,
+   "raw_diff": -3.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.529,
+   "B": 0.539,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3366,
+   "B": 0.3504,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6993,
+   "B": 0.7136,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.9058,
+  "fair_odds": {
+   "decimal": 1.1,
+   "american": "-962"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.46 games; p10-p90 19-36); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.9058,
+    "fair_decimal": 1.1
+   },
+   {
+    "selection": "Matteo Berrettini +4.5 games",
+    "probability": 0.8441,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7698,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Ugo Humbert to win at least one set",
+    "probability": 0.7477,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Matteo Berrettini to win at least one set",
+    "probability": 0.6669,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.6373,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.6247,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Matteo Berrettini +2.5 games",
+    "probability": 0.6194,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5854,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Ugo Humbert to win",
+    "probability": 0.5527,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.5227,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.4773,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Matteo Berrettini to win",
+    "probability": 0.4473,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Deciding set played",
+    "probability": 0.4146,
+    "fair_decimal": 2.41
+   },
+   {
+    "selection": "Ugo Humbert -2.5 games",
+    "probability": 0.3806,
+    "fair_decimal": 2.63
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T19:30:41+00:00",
+  "version": 1,
+  "input_hash": "fafb077d982f6782",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186489",
+  "scheduled_start_utc": "2026-11-04T16:00Z"
+ }
+}

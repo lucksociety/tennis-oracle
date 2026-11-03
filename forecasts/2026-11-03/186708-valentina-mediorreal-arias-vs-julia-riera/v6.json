@@ -1,0 +1,679 @@
+{
+ "predicted_winner": "Julia Riera",
+ "win_prob": {
+  "A": 0.1787,
+  "B": 0.8213
+ },
+ "win_prob_exact": {
+  "A": 0.17866,
+  "B": 0.82134
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 5.6,
+   "american": "+460"
+  },
+  "B": {
+   "decimal": 1.22,
+   "american": "-460"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.6364,
+  "1-2": 0.1849,
+  "2-0": 0.0911,
+  "2-1": 0.0875
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0317,
+ "games": {
+  "mean": 20.69,
+  "median": 19.0,
+  "p10": 15.0,
+  "p90": 30.0,
+  "sd": 5.8,
+  "projected": 19.0,
+  "pmf": {
+   "12": 0.00962,
+   "13": 0.03122,
+   "14": 0.05666,
+   "15": 0.08134,
+   "16": 0.09892,
+   "17": 0.0993,
+   "18": 0.08861,
+   "19": 0.07418,
+   "20": 0.06147,
+   "21": 0.04448,
+   "22": 0.0473,
+   "23": 0.02924,
+   "24": 0.01796,
+   "25": 0.02948,
+   "26": 0.03117,
+   "27": 0.0289,
+   "28": 0.03122,
+   "29": 0.0298,
+   "30": 0.02663,
+   "31": 0.02379,
+   "32": 0.02046,
+   "33": 0.01315,
+   "34": 0.00949,
+   "35": 0.00849,
+   "36": 0.00363,
+   "37": 0.00128,
+   "38": 0.00153,
+   "39": 0.00068
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00955,
+  "-11": 0.03067,
+  "-10": 0.05608,
+  "-9": 0.08049,
+  "-8": 0.10577,
+  "-7": 0.12072,
+  "-6": 0.12048,
+  "-5": 0.1031,
+  "-4": 0.0849,
+  "-3": 0.05111,
+  "-2": 0.0298,
+  "-1": 0.02104,
+  "0": 0.01774,
+  "1": 0.01693,
+  "2": 0.01908,
+  "3": 0.02496,
+  "4": 0.02951,
+  "5": 0.02629,
+  "6": 0.02164,
+  "7": 0.01492,
+  "8": 0.00839,
+  "9": 0.00442,
+  "10": 0.00166,
+  "11": 0.00068,
+  "12": 7e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6229,
+   "under": 0.3771
+  },
+  {
+   "line": 18.5,
+   "over": 0.5343,
+   "under": 0.4657
+  },
+  {
+   "line": 19.5,
+   "over": 0.4602,
+   "under": 0.5398
+  },
+  {
+   "line": 20.5,
+   "over": 0.3987,
+   "under": 0.6013
+  },
+  {
+   "line": 21.5,
+   "over": 0.3542,
+   "under": 0.6458
+  },
+  {
+   "line": 22.5,
+   "over": 0.3069,
+   "under": 0.6931
+  },
+  {
+   "line": 23.5,
+   "over": 0.2777,
+   "under": 0.7223
+  },
+  {
+   "line": 24.5,
+   "over": 0.2597,
+   "under": 0.7403
+  },
+  {
+   "line": 25.5,
+   "over": 0.2302,
+   "under": 0.7698
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.1516,
+   "B +1.5": 0.8484,
+   "B -1.5": 0.7927,
+   "A +1.5": 0.2073
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.1325,
+   "B +2.5": 0.8675,
+   "B -2.5": 0.7629,
+   "A +2.5": 0.2371
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1076,
+   "B +3.5": 0.8924,
+   "B -3.5": 0.7118,
+   "A +3.5": 0.2882
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0781,
+   "B +4.5": 0.9219,
+   "B -4.5": 0.6269,
+   "A +4.5": 0.3731
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0518,
+   "B +5.5": 0.9482,
+   "B -5.5": 0.5238,
+   "A +5.5": 0.4762
+  }
+ ],
+ "p_tiebreak": 0.19,
+ "p_a_wins_set": 0.3636,
+ "p_b_wins_set": 0.9089,
+ "p_decider": 0.2724,
+ "expected_breaks": {
+  "total": 8.13,
+  "by_A": 2.96,
+  "by_B": 5.17
+ },
+ "expected_break_points": {
+  "A_creates": 6.99,
+  "B_creates": 10.09
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.6364
+ },
+ "match": "Valentina Mediorreal Arias vs Julia Riera",
+ "players": {
+  "A": {
+   "id": "wta:260848",
+   "name": "Valentina Mediorreal Arias",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 753.0,
+   "age": 19.5968514715948,
+   "elo": 1352.3,
+   "surface_elo": {
+    "Hard": 1443.2,
+    "Clay": 1378.3,
+    "Grass": 1500.0
+   },
+   "matches_total": 5,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    5
+   ],
+   "last10": [
+    0,
+    5
+   ],
+   "last20": [
+    0,
+    5
+   ],
+   "last52w": [
+    0,
+    2
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    0,
+    3
+   ],
+   "games_won_lost_52w": [
+    4,
+    24
+   ],
+   "sets_won_lost_52w": [
+    0,
+    4
+   ],
+   "avg_opp_elo_last20": 1654.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.1263,
+   "return_rating": -0.1911,
+   "form_elo": -26.8,
+   "last_match": "2026-09-08",
+   "last_stats_match": "2026-09-08",
+   "stats_52w": {
+    "first_in": 0.5641,
+    "first_won": 0.4545,
+    "second_won": 0.3235,
+    "serve_pts_won": 0.3974,
+    "hold": 0.2308,
+    "aces_per_svgm": 0.0,
+    "df_per_svgm": 0.6923,
+    "bp_saved": 0.4118,
+    "ret_pts_won": 0.2841,
+    "ret_1st_won": 0.2083,
+    "ret_2nd_won": 0.375,
+    "ret_games_won": 0.0667,
+    "bp_conv": 0.1667,
+    "bp_chances_per_retgm": 0.4,
+    "matches_with_stats": 2
+   },
+   "rank_history": [
+    [
+     "2025-03-31",
+     800.0
+    ],
+    [
+     "2025-04-10",
+     804.0
+    ],
+    [
+     "2026-03-30",
+     753.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220699",
+   "name": "Julia Riera",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 186.0,
+   "age": 24.3968514715948,
+   "elo": 1634.4,
+   "surface_elo": {
+    "Hard": 1504.0,
+    "Clay": 1720.4,
+    "Grass": 1472.5
+   },
+   "matches_total": 51,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 31,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    11,
+    9
+   ],
+   "last52w_surface": [
+    7,
+    3
+   ],
+   "career_surface_wl": [
+    20,
+    11
+   ],
+   "games_won_lost_52w": [
+    228,
+    230
+   ],
+   "sets_won_lost_52w": [
+    25,
+    25
+   ],
+   "avg_opp_elo_last20": 1602.1,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0681,
+   "return_rating": 0.0645,
+   "form_elo": 6.8,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-10-31",
+   "stats_52w": {
+    "first_in": 0.5573,
+    "first_won": 0.6465,
+    "second_won": 0.4213,
+    "serve_pts_won": 0.5468,
+    "hold": 0.5816,
+    "aces_per_svgm": 0.2092,
+    "df_per_svgm": 0.4796,
+    "bp_saved": 0.5287,
+    "ret_pts_won": 0.4601,
+    "ret_1st_won": 0.4052,
+    "ret_2nd_won": 0.5549,
+    "ret_games_won": 0.4031,
+    "bp_conv": 0.5302,
+    "bp_chances_per_retgm": 0.7602,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2024-01-01",
+     137.0
+    ],
+    [
+     "2024-02-26",
+     116.0
+    ],
+    [
+     "2024-04-01",
+     111.0
+    ],
+    [
+     "2024-05-27",
+     115.0
+    ],
+    [
+     "2024-07-01",
+     106.0
+    ],
+    [
+     "2024-07-15",
+     113.0
+    ],
+    [
+     "2024-11-25",
+     112.0
+    ],
+    [
+     "2025-01-13",
+     146.0
+    ],
+    [
+     "2025-03-31",
+     157.0
+    ],
+    [
+     "2025-05-26",
+     202.0
+    ],
+    [
+     "2025-09-08",
+     188.0
+    ],
+    [
+     "2026-03-30",
+     186.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "32c056f5253f5945",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Valentina Mediorreal Arias: sparse record (5 tour matches, 2 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -265.1,
+  "components_elo": {
+   "surface_elo": -342.1,
+   "overall_elo": -282.1,
+   "serve_return": -449.2,
+   "form": -33.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -41.8,
+   "overall_elo": -66.7,
+   "serve_return": -156.7,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.1785,
+  "serve_return_implied_spw": {
+   "A": 0.4901,
+   "B": 0.6011
+  },
+  "point_probs": {
+   "A_serve": 0.4915,
+   "B_serve": 0.5997
+  },
+  "point_probs_exact": {
+   "A_serve": 0.49154978186671155,
+   "B_serve": 0.5997222736086502
+  },
+  "hold_probs": {
+   "A": 0.4789,
+   "B": 0.7351
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.1787,
+   0.1797
+  ],
+  "p_tb": [
+   0.19,
+   0.1893
+  ],
+  "p_decider": [
+   0.2724,
+   0.2744
+  ],
+  "games_mean": [
+   20.691,
+   20.687
+  ],
+  "exp_breaks": [
+   8.133,
+   8.123
+  ],
+  "set_scores": {
+   "0-2": [
+    0.6364,
+    0.6342
+   ],
+   "1-2": [
+    0.1849,
+    0.1861
+   ],
+   "2-0": [
+    0.0911,
+    0.0915
+   ],
+   "2-1": [
+    0.0875,
+    0.0882
+   ]
+  },
+  "mc_se_p_a": 0.0012,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Julia Riera",
+   "elo_points": -156.7,
+   "raw_diff": -449.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Julia Riera",
+   "elo_points": -66.7,
+   "raw_diff": -282.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Julia Riera",
+   "elo_points": -41.8,
+   "raw_diff": -342.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3235,
+   "B": 0.4213,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.2841,
+   "B": 0.4601,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.4915,
+   "B": 0.5997,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Julia Riera to win at least one set",
+  "probability": 0.9089,
+  "fair_odds": {
+   "decimal": 1.1,
+   "american": "-998"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Valentina Mediorreal Arias: sparse record (5 tour matches, 2 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Julia Riera to win at least one set",
+    "probability": 0.9089,
+    "fair_decimal": 1.1
+   },
+   {
+    "selection": "Julia Riera to win",
+    "probability": 0.8213,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.81,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "Julia Riera -2.5 games",
+    "probability": 0.7629,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7403,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7276,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6931,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Exact sets Valentina Mediorreal Arias 0-2 Julia Riera",
+    "probability": 0.6364,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Julia Riera -4.5 games",
+    "probability": 0.6269,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.6013,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.5343,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.4657,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.3987,
+    "fair_decimal": 2.51
+   },
+   {
+    "selection": "Valentina Mediorreal Arias +4.5 games",
+    "probability": 0.3731,
+    "fair_decimal": 2.68
+   },
+   {
+    "selection": "Valentina Mediorreal Arias to win at least one set",
+    "probability": 0.3636,
+    "fair_decimal": 2.75
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T19:30:04+00:00",
+  "version": 6,
+  "input_hash": "b7b2a1e57e276147",
+  "reason": "performance inputs or format refreshed (results through 2026-11-03)",
+  "pre_match": true,
+  "espn_id": "186708",
+  "scheduled_start_utc": "2026-11-03T22:00Z"
+ }
+}
