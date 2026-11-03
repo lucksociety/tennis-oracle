@@ -1,7 +1,7 @@
 {
  "date": "2026-11-02",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-02T18:22:31+00:00",
+ "generated_at_utc": "2026-11-03T02:18:45+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -2931,8 +2931,8 @@
    "round": "Round 1",
    "court": "Campo 3",
    "start_utc": "2026-11-02T16:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Leolia Jeanjean",
@@ -2948,7 +2948,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:52:59+00:00",
@@ -3216,8 +3232,8 @@
    "round": "Round 1",
    "court": "Court 1",
    "start_utc": "2026-11-02T17:35Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alex Molcan",
@@ -3233,7 +3249,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:52:57+00:00",
@@ -3351,8 +3383,8 @@
    "round": "Round 1",
    "court": "Campo 1",
    "start_utc": "2026-11-02T17:50Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Carolina Alves",
@@ -3368,7 +3400,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:53:04+00:00",
@@ -3488,8 +3532,8 @@
    "round": "Round 1",
    "court": "Court Central",
    "start_utc": "2026-11-02T18:20Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_RETIRED",
+   "completed": true,
    "players": [
     {
      "name": "Denis Shapovalov",
@@ -3505,7 +3549,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      6
+     ],
+     [
+      4,
+      1
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:53:08+00:00",
@@ -3616,150 +3676,15 @@
    }
   },
   {
-   "espn_id": "186712",
-   "tour": "wta",
-   "tournament": "Reto Win Tennis Cali Open",
-   "venue": "Cali, Colombia",
-   "round": "Round 1",
-   "court": "Campo 3",
-   "start_utc": "2026-11-02T18:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Selena Janicijevic",
-     "id": "wta:221911"
-    },
-    {
-     "name": "Solana Sierra",
-     "id": "wta:221333"
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-02T18:22:28+00:00",
-    "path": "forecasts/2026-11-02/186712-selena-janicijevic-vs-solana-sierra/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Solana Sierra",
-    "win_prob": {
-     "A": 0.4129,
-     "B": 0.5871
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "2-6"
-     ],
-     "prob": 0.3883
-    },
-    "games_mean": 22.2,
-    "strongest": {
-     "selection": "No tiebreak",
-     "probability": 0.7666,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4129,
-      "B": 0.5871
-     },
-     "set_score_probs": {
-      "0-2": 0.3883,
-      "2-0": 0.2484,
-      "1-2": 0.1988,
-      "2-1": 0.1645
-     },
-     "games_pmf": {
-      "12": 0.00332,
-      "13": 0.01364,
-      "14": 0.03127,
-      "15": 0.05204,
-      "16": 0.07345,
-      "17": 0.08714,
-      "18": 0.08384,
-      "19": 0.07635,
-      "20": 0.06724,
-      "21": 0.04915,
-      "22": 0.05451,
-      "23": 0.03687,
-      "24": 0.02281,
-      "25": 0.03809,
-      "26": 0.04065,
-      "27": 0.03792,
-      "28": 0.04051,
-      "29": 0.04148,
-      "30": 0.03708,
-      "31": 0.03307,
-      "32": 0.02837,
-      "33": 0.01762,
-      "34": 0.01277,
-      "35": 0.01117,
-      "36": 0.00491,
-      "37": 0.00193,
-      "38": 0.00194,
-      "39": 0.00086
-     },
-     "games_diff_pmf": {
-      "-12": 0.00258,
-      "-11": 0.00979,
-      "-10": 0.0222,
-      "-9": 0.03652,
-      "-8": 0.05638,
-      "-7": 0.0768,
-      "-6": 0.08528,
-      "-5": 0.08499,
-      "-4": 0.07901,
-      "-3": 0.05454,
-      "-2": 0.0364,
-      "-1": 0.02893,
-      "0": 0.02667,
-      "1": 0.02725,
-      "2": 0.03269,
-      "3": 0.04598,
-      "4": 0.0616,
-      "5": 0.06202,
-      "6": 0.05779,
-      "7": 0.04776,
-      "8": 0.03129,
-      "9": 0.01875,
-      "10": 0.01004,
-      "11": 0.004,
-      "12": 0.00074
-     },
-     "p_tiebreak": 0.2334,
-     "p_decider": 0.3633
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0035
-   }
-  },
-  {
    "espn_id": "186715",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 1",
-   "start_utc": "2026-11-02T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-02T19:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Laura Samson",
@@ -3775,7 +3700,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-02T18:22:30+00:00",
@@ -3889,15 +3826,162 @@
    }
   },
   {
+   "espn_id": "186712",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Round 1",
+   "court": "Campo 3",
+   "start_utc": "2026-11-02T19:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Selena Janicijevic",
+     "id": "wta:221911"
+    },
+    {
+     "name": "Solana Sierra",
+     "id": "wta:221333"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-02T18:22:28+00:00",
+    "path": "forecasts/2026-11-02/186712-selena-janicijevic-vs-solana-sierra/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Solana Sierra",
+    "win_prob": {
+     "A": 0.4129,
+     "B": 0.5871
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "2-6"
+     ],
+     "prob": 0.3883
+    },
+    "games_mean": 22.2,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7666,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4129,
+      "B": 0.5871
+     },
+     "set_score_probs": {
+      "0-2": 0.3883,
+      "2-0": 0.2484,
+      "1-2": 0.1988,
+      "2-1": 0.1645
+     },
+     "games_pmf": {
+      "12": 0.00332,
+      "13": 0.01364,
+      "14": 0.03127,
+      "15": 0.05204,
+      "16": 0.07345,
+      "17": 0.08714,
+      "18": 0.08384,
+      "19": 0.07635,
+      "20": 0.06724,
+      "21": 0.04915,
+      "22": 0.05451,
+      "23": 0.03687,
+      "24": 0.02281,
+      "25": 0.03809,
+      "26": 0.04065,
+      "27": 0.03792,
+      "28": 0.04051,
+      "29": 0.04148,
+      "30": 0.03708,
+      "31": 0.03307,
+      "32": 0.02837,
+      "33": 0.01762,
+      "34": 0.01277,
+      "35": 0.01117,
+      "36": 0.00491,
+      "37": 0.00193,
+      "38": 0.00194,
+      "39": 0.00086
+     },
+     "games_diff_pmf": {
+      "-12": 0.00258,
+      "-11": 0.00979,
+      "-10": 0.0222,
+      "-9": 0.03652,
+      "-8": 0.05638,
+      "-7": 0.0768,
+      "-6": 0.08528,
+      "-5": 0.08499,
+      "-4": 0.07901,
+      "-3": 0.05454,
+      "-2": 0.0364,
+      "-1": 0.02893,
+      "0": 0.02667,
+      "1": 0.02725,
+      "2": 0.03269,
+      "3": 0.04598,
+      "4": 0.0616,
+      "5": 0.06202,
+      "6": 0.05779,
+      "7": 0.04776,
+      "8": 0.03129,
+      "9": 0.01875,
+      "10": 0.01004,
+      "11": 0.004,
+      "12": 0.00074
+     },
+     "p_tiebreak": 0.2334,
+     "p_decider": 0.3633
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0035
+   }
+  },
+  {
    "espn_id": "186453",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Round 1",
    "court": "Court Central",
-   "start_utc": "2026-11-02T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-02T20:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Ugo Humbert",
@@ -3913,7 +3997,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-02T14:53:15+00:00",
@@ -4029,10 +4129,10 @@
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Round 1",
-   "court": "Campo 3",
-   "start_utc": "2026-11-02T20:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "court": "Campo 1",
+   "start_utc": "2026-11-02T21:00Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Polona Hercog",
@@ -4048,7 +4148,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-02T18:22:31+00:00",

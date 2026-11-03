@@ -1,0 +1,671 @@
+{
+ "predicted_winner": "Teodora Kostovic",
+ "win_prob": {
+  "A": 0.4347,
+  "B": 0.5653
+ },
+ "win_prob_exact": {
+  "A": 0.43471,
+  "B": 0.5652900000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.3,
+   "american": "+130"
+  },
+  "B": {
+   "decimal": 1.77,
+   "american": "-130"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3628,
+  "2-0": 0.2596,
+  "1-2": 0.2025,
+  "2-1": 0.1751
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0206,
+ "games": {
+  "mean": 22.85,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 5.98,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00178,
+   "13": 0.00861,
+   "14": 0.0217,
+   "15": 0.04105,
+   "16": 0.06251,
+   "17": 0.08129,
+   "18": 0.08227,
+   "19": 0.07982,
+   "20": 0.06855,
+   "21": 0.04986,
+   "22": 0.06292,
+   "23": 0.04245,
+   "24": 0.0196,
+   "25": 0.03637,
+   "26": 0.04053,
+   "27": 0.03711,
+   "28": 0.04106,
+   "29": 0.04155,
+   "30": 0.04089,
+   "31": 0.03765,
+   "32": 0.0342,
+   "33": 0.02224,
+   "34": 0.01566,
+   "35": 0.01543,
+   "36": 0.00784,
+   "37": 0.00184,
+   "38": 0.00342,
+   "39": 0.0018
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00131,
+  "-11": 0.00592,
+  "-10": 0.01452,
+  "-9": 0.02741,
+  "-8": 0.04427,
+  "-7": 0.06714,
+  "-6": 0.0787,
+  "-5": 0.08799,
+  "-4": 0.0873,
+  "-3": 0.06348,
+  "-2": 0.04255,
+  "-1": 0.02972,
+  "0": 0.02878,
+  "1": 0.02969,
+  "2": 0.03944,
+  "3": 0.05408,
+  "4": 0.07072,
+  "5": 0.06724,
+  "6": 0.05797,
+  "7": 0.04544,
+  "8": 0.02894,
+  "9": 0.01617,
+  "10": 0.00796,
+  "11": 0.00279,
+  "12": 0.00047
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7831,
+   "under": 0.2169
+  },
+  {
+   "line": 18.5,
+   "over": 0.7008,
+   "under": 0.2992
+  },
+  {
+   "line": 19.5,
+   "over": 0.621,
+   "under": 0.379
+  },
+  {
+   "line": 20.5,
+   "over": 0.5524,
+   "under": 0.4476
+  },
+  {
+   "line": 21.5,
+   "over": 0.5026,
+   "under": 0.4974
+  },
+  {
+   "line": 22.5,
+   "over": 0.4396,
+   "under": 0.5604
+  },
+  {
+   "line": 23.5,
+   "over": 0.3972,
+   "under": 0.6028
+  },
+  {
+   "line": 24.5,
+   "over": 0.3776,
+   "under": 0.6224
+  },
+  {
+   "line": 25.5,
+   "over": 0.3412,
+   "under": 0.6588
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3912,
+   "B +1.5": 0.6088,
+   "B -1.5": 0.5206,
+   "A +1.5": 0.4794
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3518,
+   "B +2.5": 0.6482,
+   "B -2.5": 0.478,
+   "A +2.5": 0.522
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2977,
+   "B +3.5": 0.7023,
+   "B -3.5": 0.4146,
+   "A +3.5": 0.5854
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.227,
+   "B +4.5": 0.773,
+   "B -4.5": 0.3273,
+   "A +4.5": 0.6727
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1597,
+   "B +5.5": 0.8403,
+   "B -5.5": 0.2393,
+   "A +5.5": 0.7607
+  }
+ ],
+ "p_tiebreak": 0.2872,
+ "p_a_wins_set": 0.6372,
+ "p_b_wins_set": 0.7404,
+ "p_decider": 0.3776,
+ "expected_breaks": {
+  "total": 6.97,
+  "by_A": 3.29,
+  "by_B": 3.68
+ },
+ "expected_break_points": {
+  "A_creates": 7.75,
+  "B_creates": 8.36
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3628
+ },
+ "match": "Oksana Selekhmeteva vs Teodora Kostovic",
+ "players": {
+  "A": {
+   "id": "wta:221407",
+   "name": "Oksana Selekhmeteva",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 88.0,
+   "age": 23.7435318275154,
+   "elo": 1581.0,
+   "surface_elo": {
+    "Hard": 1558.7,
+    "Clay": 1532.0,
+    "Grass": 1505.9
+   },
+   "matches_total": 54,
+   "matches_surface": {
+    "Hard": 32,
+    "Clay": 17,
+    "Grass": 5
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    17,
+    23
+   ],
+   "last52w_surface": [
+    11,
+    13
+   ],
+   "career_surface_wl": [
+    14,
+    18
+   ],
+   "games_won_lost_52w": [
+    454,
+    501
+   ],
+   "sets_won_lost_52w": [
+    45,
+    56
+   ],
+   "avg_opp_elo_last20": 1599.8,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": 0.0262,
+   "return_rating": -0.0001,
+   "form_elo": -6.7,
+   "last_match": "2026-10-28",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6307,
+    "first_won": 0.6131,
+    "second_won": 0.409,
+    "serve_pts_won": 0.5378,
+    "hold": 0.5926,
+    "aces_per_svgm": 0.1058,
+    "df_per_svgm": 0.6878,
+    "bp_saved": 0.5625,
+    "ret_pts_won": 0.4424,
+    "ret_1st_won": 0.3654,
+    "ret_2nd_won": 0.5698,
+    "ret_games_won": 0.366,
+    "bp_conv": 0.4551,
+    "bp_chances_per_retgm": 0.8041,
+    "matches_with_stats": 33
+   },
+   "rank_history": [
+    [
+     "2022-09-12",
+     142.0
+    ],
+    [
+     "2023-01-16",
+     179.0
+    ],
+    [
+     "2024-07-22",
+     248.0
+    ],
+    [
+     "2025-05-26",
+     147.0
+    ],
+    [
+     "2025-08-25",
+     163.0
+    ],
+    [
+     "2026-01-12",
+     98.0
+    ],
+    [
+     "2026-01-19",
+     101.0
+    ],
+    [
+     "2026-02-01",
+     76.0
+    ],
+    [
+     "2026-03-04",
+     71.0
+    ],
+    [
+     "2026-04-21",
+     77.0
+    ],
+    [
+     "2026-05-05",
+     84.0
+    ],
+    [
+     "2026-05-25",
+     88.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:267439",
+   "name": "Teodora Kostovic",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 171.0,
+   "age": 19.252908966461327,
+   "elo": 1651.9,
+   "surface_elo": {
+    "Hard": 1627.0,
+    "Clay": 1487.6,
+    "Grass": 1663.0
+   },
+   "matches_total": 25,
+   "matches_surface": {
+    "Hard": 18,
+    "Clay": 3,
+    "Grass": 4
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    14,
+    10
+   ],
+   "last52w_surface": [
+    10,
+    8
+   ],
+   "career_surface_wl": [
+    10,
+    8
+   ],
+   "games_won_lost_52w": [
+    282,
+    249
+   ],
+   "sets_won_lost_52w": [
+    33,
+    23
+   ],
+   "avg_opp_elo_last20": 1599.7,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.1011,
+   "return_rating": -0.0111,
+   "form_elo": 17.2,
+   "last_match": "2026-10-26",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.583,
+    "first_won": 0.6821,
+    "second_won": 0.4624,
+    "serve_pts_won": 0.5904,
+    "hold": 0.7092,
+    "aces_per_svgm": 0.398,
+    "df_per_svgm": 0.3827,
+    "bp_saved": 0.6323,
+    "ret_pts_won": 0.4288,
+    "ret_1st_won": 0.3615,
+    "ret_2nd_won": 0.5424,
+    "ret_games_won": 0.3367,
+    "bp_conv": 0.4752,
+    "bp_chances_per_retgm": 0.7085,
+    "matches_with_stats": 18
+   },
+   "rank_history": [
+    [
+     "2025-04-22",
+     625.0
+    ],
+    [
+     "2026-02-01",
+     171.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "3d8eaf3dc93dc843",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -44.8,
+  "components_elo": {
+   "surface_elo": -68.3,
+   "overall_elo": -71.0,
+   "serve_return": -56.4,
+   "form": -23.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -8.3,
+   "overall_elo": -16.8,
+   "serve_return": -19.7,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4359,
+  "serve_return_implied_spw": {
+   "A": 0.5761,
+   "B": 0.5917
+  },
+  "point_probs": {
+   "A_serve": 0.5746,
+   "B_serve": 0.5932
+  },
+  "point_probs_exact": {
+   "A_serve": 0.574553038218103,
+   "B_serve": 0.5932467345380671
+  },
+  "hold_probs": {
+   "A": 0.6803,
+   "B": 0.7215
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4347,
+   0.437
+  ],
+  "p_tb": [
+   0.2872,
+   0.29
+  ],
+  "p_decider": [
+   0.3776,
+   0.3771
+  ],
+  "games_mean": [
+   22.846,
+   22.852
+  ],
+  "exp_breaks": [
+   6.973,
+   6.968
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3628,
+    0.3622
+   ],
+   "1-2": [
+    0.2025,
+    0.2008
+   ],
+   "2-0": [
+    0.2596,
+    0.2606
+   ],
+   "2-1": [
+    0.1751,
+    0.1764
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Teodora Kostovic",
+   "elo_points": -19.7,
+   "raw_diff": -56.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Teodora Kostovic",
+   "elo_points": -16.8,
+   "raw_diff": -71.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Teodora Kostovic",
+   "elo_points": -8.3,
+   "raw_diff": -68.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.409,
+   "B": 0.4624,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4424,
+   "B": 0.4288,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5746,
+   "B": 0.5932,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Teodora Kostovic to win at least one set",
+  "probability": 0.7404,
+  "fair_odds": {
+   "decimal": 1.35,
+   "american": "-285"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Teodora Kostovic to win at least one set",
+    "probability": 0.7404,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7128,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7008,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Oksana Selekhmeteva +4.5 games",
+    "probability": 0.6727,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Oksana Selekhmeteva to win at least one set",
+    "probability": 0.6372,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6224,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6224,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Teodora Kostovic to win",
+    "probability": 0.5653,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5604,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5524,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Oksana Selekhmeteva +2.5 games",
+    "probability": 0.522,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Teodora Kostovic -2.5 games",
+    "probability": 0.478,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4476,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4396,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Oksana Selekhmeteva to win",
+    "probability": 0.4347,
+    "fair_decimal": 2.3
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T02:18:49+00:00",
+  "version": 4,
+  "input_hash": "2c034f4a149e6741",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186581",
+  "scheduled_start_utc": "2026-11-03T05:30Z"
+ }
+}

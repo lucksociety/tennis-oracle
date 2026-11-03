@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Sorana Cirstea",
+ "win_prob": {
+  "A": 0.7023,
+  "B": 0.2977
+ },
+ "win_prob_exact": {
+  "A": 0.7023,
+  "B": 0.29769999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.42,
+   "american": "-236"
+  },
+  "B": {
+   "decimal": 3.36,
+   "american": "+236"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4955,
+  "2-1": 0.2068,
+  "0-2": 0.163,
+  "1-2": 0.1347
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0237,
+ "games": {
+  "mean": 22.1,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.97,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00386,
+   "13": 0.01551,
+   "14": 0.03205,
+   "15": 0.05585,
+   "16": 0.07585,
+   "17": 0.08789,
+   "18": 0.08405,
+   "19": 0.07792,
+   "20": 0.06764,
+   "21": 0.0487,
+   "22": 0.05786,
+   "23": 0.03734,
+   "24": 0.01948,
+   "25": 0.03458,
+   "26": 0.03873,
+   "27": 0.0335,
+   "28": 0.03654,
+   "29": 0.03808,
+   "30": 0.03538,
+   "31": 0.03328,
+   "32": 0.0279,
+   "33": 0.01899,
+   "34": 0.01403,
+   "35": 0.01319,
+   "36": 0.00645,
+   "37": 0.00174,
+   "38": 0.00239,
+   "39": 0.00122
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00043,
+  "-11": 0.00141,
+  "-10": 0.00408,
+  "-9": 0.00857,
+  "-8": 0.01622,
+  "-7": 0.02768,
+  "-6": 0.03671,
+  "-5": 0.04583,
+  "-4": 0.04874,
+  "-3": 0.03978,
+  "-2": 0.03018,
+  "-1": 0.0243,
+  "0": 0.02508,
+  "1": 0.02807,
+  "2": 0.03968,
+  "3": 0.06225,
+  "4": 0.0946,
+  "5": 0.1018,
+  "6": 0.10295,
+  "7": 0.09384,
+  "8": 0.07139,
+  "9": 0.05007,
+  "10": 0.02872,
+  "11": 0.01419,
+  "12": 0.00343
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.729,
+   "under": 0.271
+  },
+  {
+   "line": 18.5,
+   "over": 0.6449,
+   "under": 0.3551
+  },
+  {
+   "line": 19.5,
+   "over": 0.567,
+   "under": 0.433
+  },
+  {
+   "line": 20.5,
+   "over": 0.4994,
+   "under": 0.5006
+  },
+  {
+   "line": 21.5,
+   "over": 0.4507,
+   "under": 0.5493
+  },
+  {
+   "line": 22.5,
+   "over": 0.3928,
+   "under": 0.6072
+  },
+  {
+   "line": 23.5,
+   "over": 0.3555,
+   "under": 0.6445
+  },
+  {
+   "line": 24.5,
+   "over": 0.336,
+   "under": 0.664
+  },
+  {
+   "line": 25.5,
+   "over": 0.3014,
+   "under": 0.6986
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6629,
+   "B +1.5": 0.3371,
+   "B -1.5": 0.2596,
+   "A +1.5": 0.7404
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6232,
+   "B +2.5": 0.3768,
+   "B -2.5": 0.2295,
+   "A +2.5": 0.7705
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.561,
+   "B +3.5": 0.439,
+   "B -3.5": 0.1897,
+   "A +3.5": 0.8103
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4664,
+   "B +4.5": 0.5336,
+   "B -4.5": 0.1409,
+   "A +4.5": 0.8591
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3646,
+   "B +5.5": 0.6354,
+   "B -5.5": 0.0951,
+   "A +5.5": 0.9049
+  }
+ ],
+ "p_tiebreak": 0.253,
+ "p_a_wins_set": 0.837,
+ "p_b_wins_set": 0.5045,
+ "p_decider": 0.3415,
+ "expected_breaks": {
+  "total": 7.37,
+  "by_A": 4.33,
+  "by_B": 3.04
+ },
+ "expected_break_points": {
+  "A_creates": 9.21,
+  "B_creates": 7.27
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4955
+ },
+ "match": "Sorana Cirstea vs Maria Timofeeva",
+ "players": {
+  "A": {
+   "id": "wta:201514",
+   "name": "Sorana Cirstea",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 18.0,
+   "age": 36.5435318275154,
+   "elo": 1889.1,
+   "surface_elo": {
+    "Hard": 1843.2,
+    "Clay": 1799.0,
+    "Grass": 1529.4
+   },
+   "matches_total": 554,
+   "matches_surface": {
+    "Hard": 360,
+    "Clay": 142,
+    "Grass": 52
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    35,
+    17
+   ],
+   "last52w_surface": [
+    20,
+    11
+   ],
+   "career_surface_wl": [
+    194,
+    166
+   ],
+   "games_won_lost_52w": [
+    630,
+    488
+   ],
+   "sets_won_lost_52w": [
+    78,
+    40
+   ],
+   "avg_opp_elo_last20": 1789.7,
+   "vs_top_opp_52w": [
+    2,
+    10
+   ],
+   "serve_rating": 0.3831,
+   "return_rating": 0.3464,
+   "form_elo": -85.4,
+   "last_match": "2026-10-27",
+   "last_stats_match": "2026-10-27",
+   "stats_52w": {
+    "first_in": 0.5852,
+    "first_won": 0.6816,
+    "second_won": 0.5058,
+    "serve_pts_won": 0.6087,
+    "hold": 0.7287,
+    "aces_per_svgm": 0.4161,
+    "df_per_svgm": 0.2,
+    "bp_saved": 0.5786,
+    "ret_pts_won": 0.4461,
+    "ret_1st_won": 0.3686,
+    "ret_2nd_won": 0.5724,
+    "ret_games_won": 0.3872,
+    "bp_conv": 0.449,
+    "bp_chances_per_retgm": 0.8622,
+    "matches_with_stats": 41
+   },
+   "rank_history": [
+    [
+     "2025-10-06",
+     58.0
+    ],
+    [
+     "2025-10-13",
+     51.0
+    ],
+    [
+     "2025-10-27",
+     45.0
+    ],
+    [
+     "2026-01-04",
+     41.0
+    ],
+    [
+     "2026-02-01",
+     36.0
+    ],
+    [
+     "2026-02-15",
+     32.0
+    ],
+    [
+     "2026-03-04",
+     38.0
+    ],
+    [
+     "2026-03-17",
+     35.0
+    ],
+    [
+     "2026-04-06",
+     29.0
+    ],
+    [
+     "2026-04-13",
+     26.0
+    ],
+    [
+     "2026-05-05",
+     27.0
+    ],
+    [
+     "2026-05-25",
+     18.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221237",
+   "name": "Maria Timofeeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 153.0,
+   "age": 22.958521560574948,
+   "elo": 1805.6,
+   "surface_elo": {
+    "Hard": 1811.1,
+    "Clay": 1440.1,
+    "Grass": 1648.3
+   },
+   "matches_total": 46,
+   "matches_surface": {
+    "Hard": 26,
+    "Clay": 14,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    16,
+    9
+   ],
+   "last52w_surface": [
+    12,
+    6
+   ],
+   "career_surface_wl": [
+    17,
+    9
+   ],
+   "games_won_lost_52w": [
+    281,
+    241
+   ],
+   "sets_won_lost_52w": [
+    35,
+    22
+   ],
+   "avg_opp_elo_last20": 1697.7,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.1719,
+   "return_rating": 0.1722,
+   "form_elo": 58.5,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6511,
+    "first_won": 0.6141,
+    "second_won": 0.4619,
+    "serve_pts_won": 0.561,
+    "hold": 0.6373,
+    "aces_per_svgm": 0.2124,
+    "df_per_svgm": 0.3264,
+    "bp_saved": 0.5484,
+    "ret_pts_won": 0.4511,
+    "ret_1st_won": 0.3725,
+    "ret_2nd_won": 0.5588,
+    "ret_games_won": 0.3895,
+    "bp_conv": 0.4933,
+    "bp_chances_per_retgm": 0.7895,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2023-07-23",
+     129.0
+    ],
+    [
+     "2024-01-15",
+     170.0
+    ],
+    [
+     "2024-03-18",
+     99.0
+    ],
+    [
+     "2024-04-01",
+     93.0
+    ],
+    [
+     "2024-05-27",
+     105.0
+    ],
+    [
+     "2024-07-15",
+     103.0
+    ],
+    [
+     "2024-07-22",
+     160.0
+    ],
+    [
+     "2025-01-27",
+     254.0
+    ],
+    [
+     "2025-05-19",
+     259.0
+    ],
+    [
+     "2025-07-14",
+     250.0
+    ],
+    [
+     "2026-02-23",
+     155.0
+    ],
+    [
+     "2026-04-13",
+     153.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "3d8eaf3dc93dc843",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 151.7,
+  "components_elo": {
+   "surface_elo": 32.2,
+   "overall_elo": 83.4,
+   "serve_return": 366.5,
+   "form": -143.9
+  },
+  "weighted_contributions": {
+   "surface_elo": 3.9,
+   "overall_elo": 19.7,
+   "serve_return": 127.9,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.7055,
+  "serve_return_implied_spw": {
+   "A": 0.6179,
+   "B": 0.5238
+  },
+  "point_probs": {
+   "A_serve": 0.6026,
+   "B_serve": 0.5397
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6026164218733396,
+   "B_serve": 0.5397381888565038
+  },
+  "hold_probs": {
+   "A": 0.7412,
+   "B": 0.5984
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7023,
+   0.703
+  ],
+  "p_tb": [
+   0.253,
+   0.2512
+  ],
+  "p_decider": [
+   0.3415,
+   0.3406
+  ],
+  "games_mean": [
+   22.1,
+   22.079
+  ],
+  "exp_breaks": [
+   7.373,
+   7.369
+  ],
+  "set_scores": {
+   "0-2": [
+    0.163,
+    0.1632
+   ],
+   "1-2": [
+    0.1347,
+    0.1339
+   ],
+   "2-0": [
+    0.4955,
+    0.4962
+   ],
+   "2-1": [
+    0.2068,
+    0.2068
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0018
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Sorana Cirstea",
+   "elo_points": 127.9,
+   "raw_diff": 366.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Sorana Cirstea",
+   "elo_points": 19.7,
+   "raw_diff": 83.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Sorana Cirstea",
+   "elo_points": 3.9,
+   "raw_diff": 32.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5058,
+   "B": 0.4619,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4461,
+   "B": 0.4511,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6026,
+   "B": 0.5397,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Sorana Cirstea to win at least one set",
+  "probability": 0.837,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-513"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Sorana Cirstea to win at least one set",
+    "probability": 0.837,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.747,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Sorana Cirstea to win",
+    "probability": 0.7023,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.664,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6585,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6449,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Sorana Cirstea -2.5 games",
+    "probability": 0.6232,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6072,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Maria Timofeeva +4.5 games",
+    "probability": 0.5336,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Maria Timofeeva to win at least one set",
+    "probability": 0.5045,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5006,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4994,
+    "fair_decimal": 2.0
+   },
+   {
+    "selection": "Exact sets Sorana Cirstea 2-0 Maria Timofeeva",
+    "probability": 0.4955,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Sorana Cirstea -4.5 games",
+    "probability": 0.4664,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3928,
+    "fair_decimal": 2.55
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T02:19:04+00:00",
+  "version": 4,
+  "input_hash": "6a29975e1a9d2efb",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186619",
+  "scheduled_start_utc": "2026-11-03T07:30Z"
+ }
+}

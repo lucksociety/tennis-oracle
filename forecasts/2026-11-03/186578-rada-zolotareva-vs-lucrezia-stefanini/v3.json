@@ -1,0 +1,666 @@
+{
+ "predicted_winner": "Lucrezia Stefanini",
+ "win_prob": {
+  "A": 0.2697,
+  "B": 0.7303
+ },
+ "win_prob_exact": {
+  "A": 0.26969,
+  "B": 0.73031
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.71,
+   "american": "+271"
+  },
+  "B": {
+   "decimal": 1.37,
+   "american": "-271"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5273,
+  "1-2": 0.203,
+  "2-0": 0.148,
+  "2-1": 0.1217
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0251,
+ "games": {
+  "mean": 21.49,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 30.0,
+  "sd": 5.89,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00634,
+   "13": 0.02136,
+   "14": 0.04412,
+   "15": 0.06739,
+   "16": 0.0868,
+   "17": 0.09225,
+   "18": 0.08381,
+   "19": 0.0755,
+   "20": 0.06204,
+   "21": 0.04596,
+   "22": 0.05129,
+   "23": 0.03173,
+   "24": 0.02156,
+   "25": 0.03551,
+   "26": 0.03655,
+   "27": 0.03492,
+   "28": 0.03629,
+   "29": 0.03632,
+   "30": 0.03304,
+   "31": 0.02942,
+   "32": 0.02387,
+   "33": 0.01533,
+   "34": 0.01113,
+   "35": 0.00935,
+   "36": 0.00415,
+   "37": 0.00156,
+   "38": 0.00171,
+   "39": 0.0007
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00603,
+  "-11": 0.02001,
+  "-10": 0.04048,
+  "-9": 0.06161,
+  "-8": 0.08572,
+  "-7": 0.10342,
+  "-6": 0.10509,
+  "-5": 0.09933,
+  "-4": 0.08442,
+  "-3": 0.05471,
+  "-2": 0.03455,
+  "-1": 0.02533,
+  "0": 0.02212,
+  "1": 0.02201,
+  "2": 0.02579,
+  "3": 0.03342,
+  "4": 0.04353,
+  "5": 0.04008,
+  "6": 0.0337,
+  "7": 0.02683,
+  "8": 0.01628,
+  "9": 0.00908,
+  "10": 0.00468,
+  "11": 0.00147,
+  "12": 0.00031
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6817,
+   "under": 0.3183
+  },
+  {
+   "line": 18.5,
+   "over": 0.5979,
+   "under": 0.4021
+  },
+  {
+   "line": 19.5,
+   "over": 0.5224,
+   "under": 0.4776
+  },
+  {
+   "line": 20.5,
+   "over": 0.4604,
+   "under": 0.5396
+  },
+  {
+   "line": 21.5,
+   "over": 0.4144,
+   "under": 0.5856
+  },
+  {
+   "line": 22.5,
+   "over": 0.3631,
+   "under": 0.6369
+  },
+  {
+   "line": 23.5,
+   "over": 0.3314,
+   "under": 0.6686
+  },
+  {
+   "line": 24.5,
+   "over": 0.3099,
+   "under": 0.6902
+  },
+  {
+   "line": 25.5,
+   "over": 0.2743,
+   "under": 0.7257
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2352,
+   "B +1.5": 0.7648,
+   "B -1.5": 0.6954,
+   "A +1.5": 0.3046
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2094,
+   "B +2.5": 0.7906,
+   "B -2.5": 0.6608,
+   "A +2.5": 0.3392
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.176,
+   "B +3.5": 0.824,
+   "B -3.5": 0.6061,
+   "A +3.5": 0.3939
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1324,
+   "B +4.5": 0.8676,
+   "B -4.5": 0.5217,
+   "A +4.5": 0.4783
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0924,
+   "B +5.5": 0.9076,
+   "B -5.5": 0.4224,
+   "A +5.5": 0.5776
+  }
+ ],
+ "p_tiebreak": 0.2083,
+ "p_a_wins_set": 0.4727,
+ "p_b_wins_set": 0.852,
+ "p_decider": 0.3247,
+ "expected_breaks": {
+  "total": 9.35,
+  "by_A": 3.89,
+  "by_B": 5.45
+ },
+ "expected_break_points": {
+  "A_creates": 8.53,
+  "B_creates": 10.57
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.5273
+ },
+ "match": "Rada Zolotareva vs Lucrezia Stefanini",
+ "players": {
+  "A": {
+   "id": "wta:espn17855",
+   "name": "Rada Zolotareva",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1439.7,
+   "surface_elo": {
+    "Hard": 1440.3,
+    "Clay": 1488.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 3,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 2,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    2
+   ],
+   "last10": [
+    1,
+    2
+   ],
+   "last20": [
+    1,
+    2
+   ],
+   "last52w": [
+    1,
+    2
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    43,
+    45
+   ],
+   "sets_won_lost_52w": [
+    4,
+    4
+   ],
+   "avg_opp_elo_last20": 1506.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0235,
+   "return_rating": 0.0157,
+   "form_elo": -11.1,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.5893,
+    "first_won": 0.5879,
+    "second_won": 0.4174,
+    "serve_pts_won": 0.5179,
+    "hold": 0.5581,
+    "aces_per_svgm": 0.1163,
+    "df_per_svgm": 0.3256,
+    "bp_saved": 0.3667,
+    "ret_pts_won": 0.4629,
+    "ret_1st_won": 0.4566,
+    "ret_2nd_won": 0.4727,
+    "ret_games_won": 0.3953,
+    "bp_conv": 0.5152,
+    "bp_chances_per_retgm": 0.7674,
+    "matches_with_stats": 3
+   },
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:214593",
+   "name": "Lucrezia Stefanini",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 154.0,
+   "age": 28.39828884325804,
+   "elo": 1700.9,
+   "surface_elo": {
+    "Hard": 1674.7,
+    "Clay": 1350.0,
+    "Grass": 1531.6
+   },
+   "matches_total": 76,
+   "matches_surface": {
+    "Hard": 54,
+    "Clay": 11,
+    "Grass": 11
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    14
+   ],
+   "last52w_surface": [
+    16,
+    10
+   ],
+   "career_surface_wl": [
+    29,
+    25
+   ],
+   "games_won_lost_52w": [
+    373,
+    335
+   ],
+   "sets_won_lost_52w": [
+    45,
+    33
+   ],
+   "avg_opp_elo_last20": 1624.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0218,
+   "return_rating": 0.2673,
+   "form_elo": 22.2,
+   "last_match": "2026-10-29",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.7357,
+    "first_won": 0.5604,
+    "second_won": 0.4868,
+    "serve_pts_won": 0.541,
+    "hold": 0.5753,
+    "aces_per_svgm": 0.0171,
+    "df_per_svgm": 0.2089,
+    "bp_saved": 0.5194,
+    "ret_pts_won": 0.4858,
+    "ret_1st_won": 0.4386,
+    "ret_2nd_won": 0.5682,
+    "ret_games_won": 0.5092,
+    "bp_conv": 0.5,
+    "bp_chances_per_retgm": 1.0183,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2024-06-10",
+     153.0
+    ],
+    [
+     "2024-09-09",
+     178.0
+    ],
+    [
+     "2024-10-28",
+     163.0
+    ],
+    [
+     "2024-12-30",
+     146.0
+    ],
+    [
+     "2025-02-24",
+     147.0
+    ],
+    [
+     "2025-03-18",
+     146.0
+    ],
+    [
+     "2025-05-06",
+     148.0
+    ],
+    [
+     "2025-05-26",
+     153.0
+    ],
+    [
+     "2025-07-21",
+     151.0
+    ],
+    [
+     "2025-09-08",
+     148.0
+    ],
+    [
+     "2026-02-01",
+     140.0
+    ],
+    [
+     "2026-05-05",
+     154.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-02",
+ "forecast_date": "2026-11-03",
+ "performance_revision": "3d8eaf3dc93dc843",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Rada Zolotareva: sparse record (3 tour matches, 3 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -174.6,
+  "components_elo": {
+   "surface_elo": -234.4,
+   "overall_elo": -261.2,
+   "serve_return": -241.5,
+   "form": -33.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -28.6,
+   "overall_elo": -61.7,
+   "serve_return": -84.3,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.268,
+  "serve_return_implied_spw": {
+   "A": 0.4947,
+   "B": 0.5578
+  },
+  "point_probs": {
+   "A_serve": 0.4901,
+   "B_serve": 0.5624
+  },
+  "point_probs_exact": {
+   "A_serve": 0.49007997385143376,
+   "B_serve": 0.5623563760719253
+  },
+  "hold_probs": {
+   "A": 0.4752,
+   "B": 0.6523
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2697,
+   0.2706
+  ],
+  "p_tb": [
+   0.2083,
+   0.2085
+  ],
+  "p_decider": [
+   0.3247,
+   0.3245
+  ],
+  "games_mean": [
+   21.492,
+   21.481
+  ],
+  "exp_breaks": [
+   9.349,
+   9.334
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5273,
+    0.5279
+   ],
+   "1-2": [
+    0.203,
+    0.2014
+   ],
+   "2-0": [
+    0.148,
+    0.1475
+   ],
+   "2-1": [
+    0.1217,
+    0.1231
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -84.3,
+   "raw_diff": -241.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -61.7,
+   "raw_diff": -261.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -28.6,
+   "raw_diff": -234.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4174,
+   "B": 0.4868,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4629,
+   "B": 0.4858,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.4901,
+   "B": 0.5624,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Lucrezia Stefanini to win at least one set",
+  "probability": 0.852,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-576"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Rada Zolotareva: sparse record (3 tour matches, 3 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Lucrezia Stefanini to win at least one set",
+    "probability": 0.852,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7917,
+    "fair_decimal": 1.26
+   },
+   {
+    "selection": "Lucrezia Stefanini to win",
+    "probability": 0.7303,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6902,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6753,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Lucrezia Stefanini -2.5 games",
+    "probability": 0.6608,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6369,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.5979,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5396,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Exact sets Rada Zolotareva 0-2 Lucrezia Stefanini",
+    "probability": 0.5273,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Lucrezia Stefanini -4.5 games",
+    "probability": 0.5217,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Rada Zolotareva +4.5 games",
+    "probability": 0.4783,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Rada Zolotareva to win at least one set",
+    "probability": 0.4727,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4604,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.4021,
+    "fair_decimal": 2.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-02",
+ "freeze": {
+  "frozen_at_utc": "2026-11-03T02:19:05+00:00",
+  "version": 3,
+  "input_hash": "e217154d5f137e0a",
+  "reason": "performance inputs or format refreshed (results through 2026-11-02)",
+  "pre_match": true,
+  "espn_id": "186578",
+  "scheduled_start_utc": "2026-11-03T08:30Z"
+ }
+}
