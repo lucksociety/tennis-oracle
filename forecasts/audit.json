@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-04T00:47:28+00:00",
+ "generated_at_utc": "2026-11-04T12:13:46+00:00",
  "summary": {
-  "n": 282,
-  "brier": 0.22784685173758865,
-  "log_loss": 0.6489860554728241,
-  "accuracy": 0.6063829787234043,
-  "games_mae": 5.188475177304965,
-  "exact_sets_accuracy": 0.4078014184397163,
-  "tiebreak_brier": 0.19297892159574467
+  "n": 296,
+  "brier": 0.23099436300675674,
+  "log_loss": 0.6564103339024508,
+  "accuracy": 0.6047297297297297,
+  "games_mae": 5.228141891891893,
+  "exact_sets_accuracy": 0.41216216216216217,
+  "tiebreak_brier": 0.19466930074324323
  },
- "n": 282,
+ "n": 296,
  "overall": {
-  "n": 282,
-  "brier": 0.22784685173758865,
-  "log_loss": 0.6489860554728241,
-  "accuracy": 0.6063829787234043
+  "n": 296,
+  "brier": 0.23099436300675674,
+  "log_loss": 0.6564103339024508,
+  "accuracy": 0.6047297297297297
  },
- "games_mae": 5.188475177304965,
- "exact_sets_accuracy": 0.4078014184397163,
- "tiebreak_brier": 0.19297892159574467,
+ "games_mae": 5.228141891891893,
+ "exact_sets_accuracy": 0.41216216216216217,
+ "tiebreak_brier": 0.19466930074324323,
  "by_surface": {
   "Clay": {
    "n": 24,
@@ -27,70 +27,70 @@
    "accuracy": 0.8333333333333334
   },
   "Hard": {
-   "n": 258,
-   "brier": 0.2341741572868217,
-   "log_loss": 0.6626210048766971,
-   "accuracy": 0.5852713178294574
+   "n": 272,
+   "brier": 0.23727371999999997,
+   "log_loss": 0.6699985678307975,
+   "accuracy": 0.5845588235294118
   }
  },
  "by_tour": {
   "atp": {
-   "n": 92,
-   "brier": 0.2328681077173913,
-   "log_loss": 0.6611946410629317,
-   "accuracy": 0.5652173913043478
+   "n": 93,
+   "brier": 0.23182904000000001,
+   "log_loss": 0.6590377944666138,
+   "accuracy": 0.5698924731182796
   },
   "wta": {
-   "n": 190,
-   "brier": 0.22541550673684208,
-   "log_loss": 0.6430745298186665,
-   "accuracy": 0.6263157894736842
+   "n": 203,
+   "brier": 0.2306119740394089,
+   "log_loss": 0.6552066204420215,
+   "accuracy": 0.6206896551724138
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 27,
-   "brier": 0.2307690574074074,
-   "log_loss": 0.6554523053966373,
-   "accuracy": 0.5925925925925926
+   "n": 33,
+   "brier": 0.24905253666666669,
+   "log_loss": 0.699128399865785,
+   "accuracy": 0.5757575757575758
   },
   "LOW": {
-   "n": 137,
-   "brier": 0.22729402788321168,
-   "log_loss": 0.6474436785466989,
-   "accuracy": 0.6277372262773723
+   "n": 143,
+   "brier": 0.22491872111888117,
+   "log_loss": 0.6425016029379642,
+   "accuracy": 0.6363636363636364
   },
   "MEDIUM": {
-   "n": 118,
-   "brier": 0.2278200493220339,
-   "log_loss": 0.6492972155655036,
-   "accuracy": 0.5847457627118644
+   "n": 120,
+   "brier": 0.23326850516666664,
+   "log_loss": 0.661237436828547,
+   "accuracy": 0.575
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 161,
-   "mean_pred": 0.5446832298136646,
-   "observed": 0.5031055900621118
+   "n": 166,
+   "mean_pred": 0.5448036144578313,
+   "observed": 0.5060240963855421
   },
   {
    "bucket": "60%-70%",
-   "n": 84,
-   "mean_pred": 0.6467630952380953,
-   "observed": 0.7380952380952381
+   "n": 89,
+   "mean_pred": 0.6474775280898876,
+   "observed": 0.7528089887640449
   },
   {
    "bucket": "70%-80%",
-   "n": 28,
-   "mean_pred": 0.7378464285714286,
-   "observed": 0.8571428571428571
+   "n": 31,
+   "mean_pred": 0.737658064516129,
+   "observed": 0.7741935483870968
   },
   {
    "bucket": "80%-90%",
-   "n": 8,
-   "mean_pred": 0.839175,
-   "observed": 0.5
+   "n": 9,
+   "mean_pred": 0.8386777777777777,
+   "observed": 0.4444444444444444
   },
   {
    "bucket": "90%-100%",
@@ -8291,6 +8291,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Antonia Ruzic vs Alina Charaeva",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.5107,
+   "a_won": 1,
+   "pred_winner": "Antonia Ruzic",
+   "actual_winner": "Antonia Ruzic",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3207,
+   "exp_games": 22.58,
+   "actual_games": 23,
+   "p_tb": 0.2611,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4678,
+     1
+    ],
+    "A -2.5": [
+     0.4275,
+     1
+    ],
+    "A -3.5": [
+     0.3726,
+     0
+    ],
+    "A -4.5": [
+     0.2982,
+     0
+    ],
+    "A -5.5": [
+     0.2207,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Venus Williams vs Mary Stoiana",
    "date": "2026-11-02",
    "tour": "wta",
@@ -8669,6 +8711,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Leylah Fernandez vs Sofia Kenin",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.7442,
+   "a_won": 0,
+   "pred_winner": "Leylah Fernandez",
+   "actual_winner": "Sofia Kenin",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1206,
+   "exp_games": 22.34,
+   "actual_games": 29,
+   "p_tb": 0.2929,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.7049,
+     0
+    ],
+    "A -2.5": [
+     0.6592,
+     0
+    ],
+    "A -3.5": [
+     0.5873,
+     0
+    ],
+    "A -4.5": [
+     0.48,
+     0
+    ],
+    "A -5.5": [
+     0.3652,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alycia Parks vs Alexandra Eala",
    "date": "2026-11-02",
    "tour": "wta",
@@ -8746,6 +8830,48 @@
     ],
     "A -5.5": [
      0.1253,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Wozuko Mdlulwa vs Noma Noha Akugue",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3486,
+   "a_won": 0,
+   "pred_winner": "Noma Noha Akugue",
+   "actual_winner": "Noma Noha Akugue",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4462,
+   "exp_games": 22.28,
+   "actual_games": 14,
+   "p_tb": 0.2508,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.309,
+     0
+    ],
+    "A -2.5": [
+     0.2778,
+     0
+    ],
+    "A -3.5": [
+     0.2338,
+     0
+    ],
+    "A -4.5": [
+     0.1773,
+     0
+    ],
+    "A -5.5": [
+     0.1237,
      0
     ]
    },
@@ -10979,6 +11105,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Antonia Ruzic vs Alina Charaeva",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.499,
+   "a_won": 1,
+   "pred_winner": "Alina Charaeva",
+   "actual_winner": "Antonia Ruzic",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3117,
+   "exp_games": 22.57,
+   "actual_games": 23,
+   "p_tb": 0.26,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4559,
+     1
+    ],
+    "A -2.5": [
+     0.4175,
+     1
+    ],
+    "A -3.5": [
+     0.3627,
+     0
+    ],
+    "A -4.5": [
+     0.2879,
+     0
+    ],
+    "A -5.5": [
+     0.2114,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Sorana Cirstea vs Maria Timofeeva",
    "date": "2026-11-03",
    "tour": "wta",
@@ -11147,6 +11315,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Leylah Fernandez vs Sofia Kenin",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.7454,
+   "a_won": 0,
+   "pred_winner": "Leylah Fernandez",
+   "actual_winner": "Sofia Kenin",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1215,
+   "exp_games": 22.35,
+   "actual_games": 29,
+   "p_tb": 0.2953,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.705,
+     0
+    ],
+    "A -2.5": [
+     0.6605,
+     0
+    ],
+    "A -3.5": [
+     0.5878,
+     0
+    ],
+    "A -4.5": [
+     0.4796,
+     0
+    ],
+    "A -5.5": [
+     0.3647,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alycia Parks vs Alexandra Eala",
    "date": "2026-11-03",
    "tour": "wta",
@@ -11228,6 +11438,48 @@
     ]
    },
    "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Wozuko Mdlulwa vs Noma Noha Akugue",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3592,
+   "a_won": 0,
+   "pred_winner": "Noma Noha Akugue",
+   "actual_winner": "Noma Noha Akugue",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4339,
+   "exp_games": 22.32,
+   "actual_games": 14,
+   "p_tb": 0.254,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3199,
+     0
+    ],
+    "A -2.5": [
+     0.2874,
+     0
+    ],
+    "A -3.5": [
+     0.2414,
+     0
+    ],
+    "A -4.5": [
+     0.1837,
+     0
+    ],
+    "A -5.5": [
+     0.127,
+     0
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   },
   {
@@ -11942,6 +12194,342 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Mattia Bellucci vs Arthur Rinderknech",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.3691,
+   "a_won": 0,
+   "pred_winner": "Arthur Rinderknech",
+   "actual_winner": "Arthur Rinderknech",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4022,
+   "exp_games": 25.46,
+   "actual_games": 17,
+   "p_tb": 0.5752,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3065,
+     0
+    ],
+    "A -2.5": [
+     0.2386,
+     0
+    ],
+    "A -3.5": [
+     0.1624,
+     0
+    ],
+    "A -4.5": [
+     0.0911,
+     0
+    ],
+    "A -5.5": [
+     0.0448,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Oksana Selekhmeteva vs Polina Kudermetova",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4294,
+   "a_won": 0,
+   "pred_winner": "Polina Kudermetova",
+   "actual_winner": "Polina Kudermetova",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3672,
+   "exp_games": 22.96,
+   "actual_games": 15,
+   "p_tb": 0.2997,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3844,
+     0
+    ],
+    "A -2.5": [
+     0.3442,
+     0
+    ],
+    "A -3.5": [
+     0.289,
+     0
+    ],
+    "A -4.5": [
+     0.2162,
+     0
+    ],
+    "A -5.5": [
+     0.1491,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Antonia Ruzic vs Alina Charaeva",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.2819,
+   "a_won": 1,
+   "pred_winner": "Alina Charaeva",
+   "actual_winner": "Antonia Ruzic",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1552,
+   "exp_games": 21.84,
+   "actual_games": 23,
+   "p_tb": 0.2338,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2469,
+     1
+    ],
+    "A -2.5": [
+     0.2183,
+     1
+    ],
+    "A -3.5": [
+     0.1812,
+     0
+    ],
+    "A -4.5": [
+     0.1349,
+     0
+    ],
+    "A -5.5": [
+     0.0914,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Leylah Fernandez vs Sofia Kenin",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.8347,
+   "a_won": 0,
+   "pred_winner": "Leylah Fernandez",
+   "actual_winner": "Sofia Kenin",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.0828,
+   "exp_games": 21.02,
+   "actual_games": 29,
+   "p_tb": 0.2262,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.8042,
+     0
+    ],
+    "A -2.5": [
+     0.7705,
+     0
+    ],
+    "A -3.5": [
+     0.7107,
+     0
+    ],
+    "A -4.5": [
+     0.6127,
+     0
+    ],
+    "A -5.5": [
+     0.4982,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Talia Gibson vs Aliaksandra Sasnovich",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3177,
+   "a_won": 0,
+   "pred_winner": "Aliaksandra Sasnovich",
+   "actual_winner": "Aliaksandra Sasnovich",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2096,
+   "exp_games": 22.33,
+   "actual_games": 32,
+   "p_tb": 0.2646,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2781,
+     0
+    ],
+    "A -2.5": [
+     0.2466,
+     0
+    ],
+    "A -3.5": [
+     0.2036,
+     0
+    ],
+    "A -4.5": [
+     0.1502,
+     0
+    ],
+    "A -5.5": [
+     0.1011,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Claire Liu vs Katie Boulter",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.405,
+   "a_won": 1,
+   "pred_winner": "Katie Boulter",
+   "actual_winner": "Claire Liu",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2393,
+   "exp_games": 22.67,
+   "actual_games": 22,
+   "p_tb": 0.2766,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3628,
+     1
+    ],
+    "A -2.5": [
+     0.3264,
+     1
+    ],
+    "A -3.5": [
+     0.2752,
+     1
+    ],
+    "A -4.5": [
+     0.2092,
+     0
+    ],
+    "A -5.5": [
+     0.1467,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Wozuko Mdlulwa vs Noma Noha Akugue",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.308,
+   "a_won": 0,
+   "pred_winner": "Noma Noha Akugue",
+   "actual_winner": "Noma Noha Akugue",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4837,
+   "exp_games": 22.31,
+   "actual_games": 14,
+   "p_tb": 0.2669,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2687,
+     0
+    ],
+    "A -2.5": [
+     0.2377,
+     0
+    ],
+    "A -3.5": [
+     0.1951,
+     0
+    ],
+    "A -4.5": [
+     0.1419,
+     0
+    ],
+    "A -5.5": [
+     0.0956,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Sofya Lansere vs Kristina Novak",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.5661,
+   "a_won": 1,
+   "pred_winner": "Sofya Lansere",
+   "actual_winner": "Sofya Lansere",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3689,
+   "exp_games": 22.41,
+   "actual_games": 13,
+   "p_tb": 0.2462,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5233,
+     1
+    ],
+    "A -2.5": [
+     0.4853,
+     1
+    ],
+    "A -3.5": [
+     0.4297,
+     1
+    ],
+    "A -4.5": [
+     0.35,
+     1
+    ],
+    "A -5.5": [
+     0.2671,
+     1
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   }
  ]

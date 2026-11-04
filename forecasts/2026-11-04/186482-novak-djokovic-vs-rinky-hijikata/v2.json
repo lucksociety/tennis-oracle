@@ -1,0 +1,709 @@
+{
+ "predicted_winner": "Novak Djokovic",
+ "win_prob": {
+  "A": 0.8804,
+  "B": 0.1196
+ },
+ "win_prob_exact": {
+  "A": 0.88038,
+  "B": 0.11961999999999995
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.14,
+   "american": "-736"
+  },
+  "B": {
+   "decimal": 8.36,
+   "american": "+736"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.6941,
+  "2-1": 0.1863,
+  "1-2": 0.0656,
+  "0-2": 0.054
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0486,
+ "games": {
+  "mean": 22.21,
+  "median": 20.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.12,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00197,
+   "13": 0.01011,
+   "14": 0.02304,
+   "15": 0.04663,
+   "16": 0.06712,
+   "17": 0.094,
+   "18": 0.09103,
+   "19": 0.0905,
+   "20": 0.08188,
+   "21": 0.05268,
+   "22": 0.07884,
+   "23": 0.06181,
+   "24": 0.00755,
+   "25": 0.02503,
+   "26": 0.04126,
+   "27": 0.0156,
+   "28": 0.02016,
+   "29": 0.02193,
+   "30": 0.02306,
+   "31": 0.02845,
+   "32": 0.03014,
+   "33": 0.01884,
+   "34": 0.01377,
+   "35": 0.02373,
+   "36": 0.0165,
+   "37": 0.00151,
+   "38": 0.00542,
+   "39": 0.00744
+  }
+ },
+ "games_diff_pmf": {
+  "-10": 0.00013,
+  "-9": 0.00042,
+  "-8": 0.00105,
+  "-7": 0.00343,
+  "-6": 0.00583,
+  "-5": 0.01245,
+  "-4": 0.02112,
+  "-3": 0.02399,
+  "-2": 0.0223,
+  "-1": 0.01643,
+  "0": 0.02108,
+  "1": 0.02716,
+  "2": 0.05835,
+  "3": 0.10185,
+  "4": 0.14684,
+  "5": 0.14326,
+  "6": 0.128,
+  "7": 0.11166,
+  "8": 0.07177,
+  "9": 0.04745,
+  "10": 0.0233,
+  "11": 0.01016,
+  "12": 0.00197
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7571,
+   "under": 0.2429
+  },
+  {
+   "line": 18.5,
+   "over": 0.6661,
+   "under": 0.3339
+  },
+  {
+   "line": 19.5,
+   "over": 0.5756,
+   "under": 0.4244
+  },
+  {
+   "line": 20.5,
+   "over": 0.4937,
+   "under": 0.5063
+  },
+  {
+   "line": 21.5,
+   "over": 0.441,
+   "under": 0.559
+  },
+  {
+   "line": 22.5,
+   "over": 0.3622,
+   "under": 0.6378
+  },
+  {
+   "line": 23.5,
+   "over": 0.3004,
+   "under": 0.6996
+  },
+  {
+   "line": 24.5,
+   "over": 0.2928,
+   "under": 0.7072
+  },
+  {
+   "line": 25.5,
+   "over": 0.2678,
+   "under": 0.7322
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.8446,
+   "B +1.5": 0.1554,
+   "B -1.5": 0.0907,
+   "A +1.5": 0.9093
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.7863,
+   "B +2.5": 0.2137,
+   "B -2.5": 0.0684,
+   "A +2.5": 0.9316
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.6844,
+   "B +3.5": 0.3156,
+   "B -3.5": 0.0444,
+   "A +3.5": 0.9556
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.5376,
+   "B +4.5": 0.4624,
+   "B -4.5": 0.0233,
+   "A +4.5": 0.9767
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3943,
+   "B +5.5": 0.6057,
+   "B -5.5": 0.0109,
+   "A +5.5": 0.9891
+  }
+ ],
+ "p_tiebreak": 0.37,
+ "p_a_wins_set": 0.946,
+ "p_b_wins_set": 0.3059,
+ "p_decider": 0.252,
+ "expected_breaks": {
+  "total": 3.63,
+  "by_A": 2.82,
+  "by_B": 0.82
+ },
+ "expected_break_points": {
+  "A_creates": 6.87,
+  "B_creates": 2.83
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.6941
+ },
+ "match": "Novak Djokovic vs Rinky Hijikata",
+ "players": {
+  "A": {
+   "id": "atp:104925",
+   "name": "Novak Djokovic",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 4.0,
+   "age": 39.446269678302535,
+   "elo": 2118.7,
+   "surface_elo": {
+    "Hard": 2107.5,
+    "Clay": 2057.4,
+    "Grass": 2149.7
+   },
+   "matches_total": 902,
+   "matches_surface": {
+    "Hard": 562,
+    "Clay": 239,
+    "Grass": 101
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    19,
+    9
+   ],
+   "last52w_surface": [
+    12,
+    6
+   ],
+   "career_surface_wl": [
+    489,
+    73
+   ],
+   "games_won_lost_52w": [
+    505,
+    443
+   ],
+   "sets_won_lost_52w": [
+    58,
+    37
+   ],
+   "avg_opp_elo_last20": 1847.1,
+   "vs_top_opp_52w": [
+    5,
+    5
+   ],
+   "serve_rating": 0.4524,
+   "return_rating": 0.2477,
+   "form_elo": -91.3,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6804,
+    "first_won": 0.7547,
+    "second_won": 0.5607,
+    "serve_pts_won": 0.6927,
+    "hold": 0.875,
+    "aces_per_svgm": 0.5274,
+    "df_per_svgm": 0.1982,
+    "bp_saved": 0.7007,
+    "ret_pts_won": 0.3472,
+    "ret_1st_won": 0.2601,
+    "ret_2nd_won": 0.509,
+    "ret_games_won": 0.1692,
+    "bp_conv": 0.3395,
+    "bp_chances_per_retgm": 0.4985,
+    "matches_with_stats": 20
+   },
+   "rank_history": [
+    [
+     "2023-07-03",
+     2.0
+    ],
+    [
+     "2023-09-15",
+     1.0
+    ],
+    [
+     "2024-07-01",
+     2.0
+    ],
+    [
+     "2024-09-14",
+     4.0
+    ],
+    [
+     "2024-12-30",
+     7.0
+    ],
+    [
+     "2025-03-19",
+     5.0
+    ],
+    [
+     "2025-05-18",
+     6.0
+    ],
+    [
+     "2025-08-25",
+     7.0
+    ],
+    [
+     "2025-10-01",
+     5.0
+    ],
+    [
+     "2026-01-19",
+     4.0
+    ],
+    [
+     "2026-03-04",
+     3.0
+    ],
+    [
+     "2026-05-06",
+     4.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:208014",
+   "name": "Rinky Hijikata",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 98.0,
+   "age": 25.64626967830253,
+   "elo": 1735.2,
+   "surface_elo": {
+    "Hard": 1714.7,
+    "Clay": 1327.1,
+    "Grass": 1421.0
+   },
+   "matches_total": 133,
+   "matches_surface": {
+    "Hard": 98,
+    "Clay": 15,
+    "Grass": 20
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    22,
+    24
+   ],
+   "last52w_surface": [
+    20,
+    18
+   ],
+   "career_surface_wl": [
+    45,
+    53
+   ],
+   "games_won_lost_52w": [
+    565,
+    578
+   ],
+   "sets_won_lost_52w": [
+    55,
+    60
+   ],
+   "avg_opp_elo_last20": 1755.8,
+   "vs_top_opp_52w": [
+    1,
+    5
+   ],
+   "serve_rating": -0.0086,
+   "return_rating": -0.0244,
+   "form_elo": 56.7,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6003,
+    "first_won": 0.7135,
+    "second_won": 0.5011,
+    "serve_pts_won": 0.6286,
+    "hold": 0.7747,
+    "aces_per_svgm": 0.3736,
+    "df_per_svgm": 0.2225,
+    "bp_saved": 0.5838,
+    "ret_pts_won": 0.337,
+    "ret_1st_won": 0.2461,
+    "ret_2nd_won": 0.4854,
+    "ret_games_won": 0.1657,
+    "bp_conv": 0.3797,
+    "bp_chances_per_retgm": 0.4365,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     103.0
+    ],
+    [
+     "2025-09-17",
+     111.0
+    ],
+    [
+     "2025-10-13",
+     114.0
+    ],
+    [
+     "2026-01-04",
+     111.0
+    ],
+    [
+     "2026-01-12",
+     115.0
+    ],
+    [
+     "2026-01-19",
+     114.0
+    ],
+    [
+     "2026-02-07",
+     103.0
+    ],
+    [
+     "2026-02-16",
+     113.0
+    ],
+    [
+     "2026-02-23",
+     115.0
+    ],
+    [
+     "2026-03-04",
+     117.0
+    ],
+    [
+     "2026-03-30",
+     102.0
+    ],
+    [
+     "2026-05-25",
+     98.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 348.2,
+  "components_elo": {
+   "surface_elo": 392.8,
+   "overall_elo": 383.5,
+   "serve_return": 600.0,
+   "form": -148.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 48.0,
+   "overall_elo": 90.6,
+   "serve_return": 209.3,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.8813,
+  "serve_return_implied_spw": {
+   "A": 0.7485,
+   "B": 0.5885
+  },
+  "point_probs": {
+   "A_serve": 0.7382,
+   "B_serve": 0.6015
+  },
+  "point_probs_exact": {
+   "A_serve": 0.7382494545081703,
+   "B_serve": 0.6014537790808671
+  },
+  "hold_probs": {
+   "A": 0.9397,
+   "B": 0.7388
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.8804,
+   0.8811
+  ],
+  "p_tb": [
+   0.37,
+   0.37
+  ],
+  "p_decider": [
+   0.252,
+   0.2486
+  ],
+  "games_mean": [
+   22.213,
+   22.183
+  ],
+  "exp_breaks": [
+   3.632,
+   3.632
+  ],
+  "set_scores": {
+   "0-2": [
+    0.054,
+    0.0542
+   ],
+   "1-2": [
+    0.0656,
+    0.0647
+   ],
+   "2-0": [
+    0.6941,
+    0.6972
+   ],
+   "2-1": [
+    0.1863,
+    0.1839
+   ]
+  },
+  "mc_se_p_a": 0.001,
+  "max_abs_diff_probs": 0.0034
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Novak Djokovic",
+   "elo_points": 209.3,
+   "raw_diff": 600.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Novak Djokovic",
+   "elo_points": 90.6,
+   "raw_diff": 383.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Novak Djokovic",
+   "elo_points": 48.0,
+   "raw_diff": 392.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5607,
+   "B": 0.5011,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3472,
+   "B": 0.337,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.7382,
+   "B": 0.6015,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Novak Djokovic to win",
+  "probability": 0.8804,
+  "fair_odds": {
+   "decimal": 1.14,
+   "american": "-736"
+  },
+  "confidence": "High",
+  "main_risk": "Upset through serve-dominant variance: P(at least one tiebreak) = 37%; underdog wins 12% of simulations.",
+  "candidates": [
+   {
+    "selection": "Novak Djokovic to win at least one set",
+    "probability": 0.946,
+    "fair_decimal": 1.06
+   },
+   {
+    "selection": "Novak Djokovic to win",
+    "probability": 0.8804,
+    "fair_decimal": 1.14
+   },
+   {
+    "selection": "Novak Djokovic -2.5 games",
+    "probability": 0.7863,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.748,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7072,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Exact sets Novak Djokovic 2-0 Rinky Hijikata",
+    "probability": 0.6941,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6661,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6378,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.63,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Novak Djokovic -4.5 games",
+    "probability": 0.5376,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5063,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4937,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Rinky Hijikata +4.5 games",
+    "probability": 0.4624,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.37,
+    "fair_decimal": 2.7
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3622,
+    "fair_decimal": 2.76
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T12:09:16+00:00",
+  "version": 2,
+  "input_hash": "f6fe4c036d606bce",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186482",
+  "scheduled_start_utc": "2026-11-04T14:00Z"
+ }
+}

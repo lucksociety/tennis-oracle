@@ -1,0 +1,650 @@
+{
+ "predicted_winner": "Noma Noha Akugue",
+ "win_prob": {
+  "A": 0.2871,
+  "B": 0.7129
+ },
+ "win_prob_exact": {
+  "A": 0.28714,
+  "B": 0.71286
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.48,
+   "american": "+248"
+  },
+  "B": {
+   "decimal": 1.4,
+   "american": "-248"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5059,
+  "1-2": 0.207,
+  "2-0": 0.1565,
+  "2-1": 0.1306
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.024,
+ "games": {
+  "mean": 22.08,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00385,
+   "13": 0.01504,
+   "14": 0.03167,
+   "15": 0.05451,
+   "16": 0.07523,
+   "17": 0.08847,
+   "18": 0.08634,
+   "19": 0.07981,
+   "20": 0.06712,
+   "21": 0.04922,
+   "22": 0.05868,
+   "23": 0.03845,
+   "24": 0.01791,
+   "25": 0.03358,
+   "26": 0.03789,
+   "27": 0.03414,
+   "28": 0.03697,
+   "29": 0.03698,
+   "30": 0.03661,
+   "31": 0.03298,
+   "32": 0.02896,
+   "33": 0.01742,
+   "34": 0.01331,
+   "35": 0.01322,
+   "36": 0.00655,
+   "37": 0.00145,
+   "38": 0.00233,
+   "39": 0.00131
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00369,
+  "-11": 0.01392,
+  "-10": 0.02922,
+  "-9": 0.04968,
+  "-8": 0.07242,
+  "-7": 0.09576,
+  "-6": 0.10555,
+  "-5": 0.1049,
+  "-4": 0.09532,
+  "-3": 0.06319,
+  "-2": 0.04098,
+  "-1": 0.02733,
+  "0": 0.02519,
+  "1": 0.0239,
+  "2": 0.02875,
+  "3": 0.03918,
+  "4": 0.04889,
+  "5": 0.04392,
+  "6": 0.03523,
+  "7": 0.02562,
+  "8": 0.01468,
+  "9": 0.00796,
+  "10": 0.00334,
+  "11": 0.00122,
+  "12": 0.00016
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7312,
+   "under": 0.2688
+  },
+  {
+   "line": 18.5,
+   "over": 0.6449,
+   "under": 0.3551
+  },
+  {
+   "line": 19.5,
+   "over": 0.5651,
+   "under": 0.4349
+  },
+  {
+   "line": 20.5,
+   "over": 0.498,
+   "under": 0.502
+  },
+  {
+   "line": 21.5,
+   "over": 0.4487,
+   "under": 0.5513
+  },
+  {
+   "line": 22.5,
+   "over": 0.3901,
+   "under": 0.6099
+  },
+  {
+   "line": 23.5,
+   "over": 0.3516,
+   "under": 0.6484
+  },
+  {
+   "line": 24.5,
+   "over": 0.3337,
+   "under": 0.6663
+  },
+  {
+   "line": 25.5,
+   "over": 0.3001,
+   "under": 0.6999
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.249,
+   "B +1.5": 0.751,
+   "B -1.5": 0.6746,
+   "A +1.5": 0.3254
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2202,
+   "B +2.5": 0.7798,
+   "B -2.5": 0.6336,
+   "A +2.5": 0.3664
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.181,
+   "B +3.5": 0.819,
+   "B -3.5": 0.5705,
+   "A +3.5": 0.4295
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1321,
+   "B +4.5": 0.8679,
+   "B -4.5": 0.4751,
+   "A +4.5": 0.5249
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0882,
+   "B +5.5": 0.9118,
+   "B -5.5": 0.3702,
+   "A +5.5": 0.6298
+  }
+ ],
+ "p_tiebreak": 0.2538,
+ "p_a_wins_set": 0.4941,
+ "p_b_wins_set": 0.8435,
+ "p_decider": 0.3376,
+ "expected_breaks": {
+  "total": 7.15,
+  "by_A": 2.9,
+  "by_B": 4.25
+ },
+ "expected_break_points": {
+  "A_creates": 7.03,
+  "B_creates": 9.09
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.5059
+ },
+ "match": "Madhurima Sawant vs Noma Noha Akugue",
+ "players": {
+  "A": {
+   "id": "wta:espn14237",
+   "name": "Madhurima Sawant",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1486.9,
+   "surface_elo": {
+    "Hard": 1507.3,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 2,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    1
+   ],
+   "last10": [
+    1,
+    1
+   ],
+   "last20": [
+    1,
+    1
+   ],
+   "last52w": [
+    1,
+    1
+   ],
+   "last52w_surface": [
+    1,
+    1
+   ],
+   "career_surface_wl": [
+    1,
+    1
+   ],
+   "games_won_lost_52w": [
+    21,
+    24
+   ],
+   "sets_won_lost_52w": [
+    2,
+    3
+   ],
+   "avg_opp_elo_last20": 1445.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0272,
+   "return_rating": -0.005,
+   "form_elo": -0.2,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6241,
+    "first_won": 0.6477,
+    "second_won": 0.4151,
+    "serve_pts_won": 0.5603,
+    "hold": 0.5909,
+    "aces_per_svgm": 0.1364,
+    "df_per_svgm": 0.2273,
+    "bp_saved": 0.5909,
+    "ret_pts_won": 0.4431,
+    "ret_1st_won": 0.4138,
+    "ret_2nd_won": 0.5098,
+    "ret_games_won": 0.3182,
+    "bp_conv": 0.3333,
+    "bp_chances_per_retgm": 0.9545,
+    "matches_with_stats": 2
+   },
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:223333",
+   "name": "Noma Noha Akugue",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 195.0,
+   "age": 22.863997262149212,
+   "elo": 1673.8,
+   "surface_elo": {
+    "Hard": 1680.1,
+    "Clay": 1605.9,
+    "Grass": 1460.4
+   },
+   "matches_total": 47,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 27,
+    "Grass": 3
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    18,
+    15
+   ],
+   "last52w_surface": [
+    10,
+    6
+   ],
+   "career_surface_wl": [
+    10,
+    7
+   ],
+   "games_won_lost_52w": [
+    369,
+    338
+   ],
+   "sets_won_lost_52w": [
+    43,
+    33
+   ],
+   "avg_opp_elo_last20": 1567.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1824,
+   "return_rating": 0.0774,
+   "form_elo": 79.9,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.5921,
+    "first_won": 0.6314,
+    "second_won": 0.4816,
+    "serve_pts_won": 0.5703,
+    "hold": 0.6677,
+    "aces_per_svgm": 0.2683,
+    "df_per_svgm": 0.3537,
+    "bp_saved": 0.5871,
+    "ret_pts_won": 0.4388,
+    "ret_1st_won": 0.3893,
+    "ret_2nd_won": 0.5223,
+    "ret_games_won": 0.3677,
+    "bp_conv": 0.473,
+    "bp_chances_per_retgm": 0.7774,
+    "matches_with_stats": 31
+   },
+   "rank_history": [
+    [
+     "2023-07-23",
+     207.0
+    ],
+    [
+     "2023-10-16",
+     172.0
+    ],
+    [
+     "2024-07-15",
+     197.0
+    ],
+    [
+     "2024-07-22",
+     169.0
+    ],
+    [
+     "2025-07-14",
+     252.0
+    ],
+    [
+     "2025-08-04",
+     307.0
+    ],
+    [
+     "2025-09-22",
+     357.0
+    ],
+    [
+     "2026-04-13",
+     195.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "0e2923c0b010c3ba",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Madhurima Sawant: sparse record (2 tour matches, 2 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -159.0,
+  "components_elo": {
+   "surface_elo": -172.7,
+   "overall_elo": -186.8,
+   "serve_return": -268.9,
+   "form": -80.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -21.1,
+   "overall_elo": -44.1,
+   "serve_return": -93.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.286,
+  "serve_return_implied_spw": {
+   "A": 0.5405,
+   "B": 0.6116
+  },
+  "point_probs": {
+   "A_serve": 0.5432,
+   "B_serve": 0.609
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5432178471779338,
+   "B_serve": 0.6090275132642756
+  },
+  "hold_probs": {
+   "A": 0.6068,
+   "B": 0.7542
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2871,
+   0.2884
+  ],
+  "p_tb": [
+   0.2538,
+   0.2552
+  ],
+  "p_decider": [
+   0.3376,
+   0.3381
+  ],
+  "games_mean": [
+   22.083,
+   22.088
+  ],
+  "exp_breaks": [
+   7.147,
+   7.142
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5059,
+    0.5047
+   ],
+   "1-2": [
+    0.207,
+    0.2069
+   ],
+   "2-0": [
+    0.1565,
+    0.1572
+   ],
+   "2-1": [
+    0.1306,
+    0.1311
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0014
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -93.8,
+   "raw_diff": -268.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -44.1,
+   "raw_diff": -186.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -21.1,
+   "raw_diff": -172.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4151,
+   "B": 0.4816,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4431,
+   "B": 0.4388,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5432,
+   "B": 0.609,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Noma Noha Akugue to win at least one set",
+  "probability": 0.8435,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-539"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Madhurima Sawant: sparse record (2 tour matches, 2 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Noma Noha Akugue to win at least one set",
+    "probability": 0.8435,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7462,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Noma Noha Akugue to win",
+    "probability": 0.7129,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6663,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6624,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6449,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Noma Noha Akugue -2.5 games",
+    "probability": 0.6336,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6099,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Madhurima Sawant +4.5 games",
+    "probability": 0.5249,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Exact sets Madhurima Sawant 0-2 Noma Noha Akugue",
+    "probability": 0.5059,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.502,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.498,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Madhurima Sawant to win at least one set",
+    "probability": 0.4941,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Noma Noha Akugue -4.5 games",
+    "probability": 0.4751,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3901,
+    "fair_decimal": 2.56
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T12:10:04+00:00",
+  "version": 1,
+  "input_hash": "b83af7c4b4281752",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186676",
+  "scheduled_start_utc": "2026-11-05T05:00Z"
+ }
+}

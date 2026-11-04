@@ -1,0 +1,639 @@
+{
+ "predicted_winner": "Anna Blinkova",
+ "win_prob": {
+  "A": 0.8146,
+  "B": 0.1854
+ },
+ "win_prob_exact": {
+  "A": 0.81456,
+  "B": 0.18544000000000005
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.23,
+   "american": "-439"
+  },
+  "B": {
+   "decimal": 5.39,
+   "american": "+439"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.6278,
+  "2-1": 0.1868,
+  "0-2": 0.0934,
+  "1-2": 0.092
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-2",
+  "6-2"
+ ],
+ "representative_sets_prob": 0.0298,
+ "games": {
+  "mean": 20.82,
+  "median": 19.0,
+  "p10": 15.0,
+  "p90": 30.0,
+  "sd": 5.84,
+  "projected": 19.0,
+  "pmf": {
+   "12": 0.00862,
+   "13": 0.03017,
+   "14": 0.05495,
+   "15": 0.08011,
+   "16": 0.0957,
+   "17": 0.09838,
+   "18": 0.08888,
+   "19": 0.07355,
+   "20": 0.06294,
+   "21": 0.0427,
+   "22": 0.04791,
+   "23": 0.03028,
+   "24": 0.01815,
+   "25": 0.03033,
+   "26": 0.03228,
+   "27": 0.0299,
+   "28": 0.03008,
+   "29": 0.03047,
+   "30": 0.02831,
+   "31": 0.02539,
+   "32": 0.02074,
+   "33": 0.01331,
+   "34": 0.00993,
+   "35": 0.00916,
+   "36": 0.00388,
+   "37": 0.00157,
+   "38": 0.00157,
+   "39": 0.00074
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0001,
+  "-11": 0.00081,
+  "-10": 0.00195,
+  "-9": 0.00438,
+  "-8": 0.00865,
+  "-7": 0.01587,
+  "-6": 0.02221,
+  "-5": 0.02666,
+  "-4": 0.02994,
+  "-3": 0.02584,
+  "-2": 0.02005,
+  "-1": 0.0177,
+  "0": 0.01832,
+  "1": 0.02196,
+  "2": 0.03156,
+  "3": 0.05309,
+  "4": 0.08699,
+  "5": 0.10292,
+  "6": 0.11973,
+  "7": 0.11836,
+  "8": 0.1019,
+  "9": 0.07895,
+  "10": 0.05402,
+  "11": 0.02952,
+  "12": 0.00852
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6321,
+   "under": 0.3679
+  },
+  {
+   "line": 18.5,
+   "over": 0.5432,
+   "under": 0.4568
+  },
+  {
+   "line": 19.5,
+   "over": 0.4696,
+   "under": 0.5304
+  },
+  {
+   "line": 20.5,
+   "over": 0.4067,
+   "under": 0.5933
+  },
+  {
+   "line": 21.5,
+   "over": 0.364,
+   "under": 0.636
+  },
+  {
+   "line": 22.5,
+   "over": 0.3161,
+   "under": 0.6839
+  },
+  {
+   "line": 23.5,
+   "over": 0.2858,
+   "under": 0.7142
+  },
+  {
+   "line": 24.5,
+   "over": 0.2677,
+   "under": 0.7323
+  },
+  {
+   "line": 25.5,
+   "over": 0.2373,
+   "under": 0.7627
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.7856,
+   "B +1.5": 0.2144,
+   "B -1.5": 0.1565,
+   "A +1.5": 0.8435
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.754,
+   "B +2.5": 0.246,
+   "B -2.5": 0.1364,
+   "A +2.5": 0.8636
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.7009,
+   "B +3.5": 0.2991,
+   "B -3.5": 0.1106,
+   "A +3.5": 0.8894
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.6139,
+   "B +4.5": 0.3861,
+   "B -4.5": 0.0806,
+   "A +4.5": 0.9194
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.511,
+   "B +5.5": 0.489,
+   "B -5.5": 0.054,
+   "A +5.5": 0.946
+  }
+ ],
+ "p_tiebreak": 0.1971,
+ "p_a_wins_set": 0.9066,
+ "p_b_wins_set": 0.3722,
+ "p_decider": 0.2788,
+ "expected_breaks": {
+  "total": 7.84,
+  "by_A": 4.99,
+  "by_B": 2.85
+ },
+ "expected_break_points": {
+  "A_creates": 9.89,
+  "B_creates": 6.84
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-2",
+   "6-2"
+  ],
+  "prob": 0.6278
+ },
+ "match": "Anna Blinkova vs Li Zongyu",
+ "players": {
+  "A": {
+   "id": "wta:215020",
+   "name": "Anna Blinkova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 103.0,
+   "age": 28.149007529089666,
+   "elo": 1736.7,
+   "surface_elo": {
+    "Hard": 1720.2,
+    "Clay": 1488.7,
+    "Grass": 1561.1
+   },
+   "matches_total": 287,
+   "matches_surface": {
+    "Hard": 191,
+    "Clay": 57,
+    "Grass": 39
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    29,
+    26
+   ],
+   "last52w_surface": [
+    22,
+    17
+   ],
+   "career_surface_wl": [
+    84,
+    107
+   ],
+   "games_won_lost_52w": [
+    591,
+    563
+   ],
+   "sets_won_lost_52w": [
+    68,
+    59
+   ],
+   "avg_opp_elo_last20": 1614.6,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.182,
+   "return_rating": 0.2872,
+   "form_elo": 52.7,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6159,
+    "first_won": 0.6098,
+    "second_won": 0.4427,
+    "serve_pts_won": 0.5456,
+    "hold": 0.5897,
+    "aces_per_svgm": 0.1538,
+    "df_per_svgm": 0.3333,
+    "bp_saved": 0.534,
+    "ret_pts_won": 0.4676,
+    "ret_1st_won": 0.4041,
+    "ret_2nd_won": 0.5711,
+    "ret_games_won": 0.4348,
+    "bp_conv": 0.4677,
+    "bp_chances_per_retgm": 0.9296,
+    "matches_with_stats": 47
+   },
+   "rank_history": [
+    [
+     "2025-09-24",
+     71.0
+    ],
+    [
+     "2025-10-27",
+     95.0
+    ],
+    [
+     "2026-01-04",
+     61.0
+    ],
+    [
+     "2026-01-19",
+     64.0
+    ],
+    [
+     "2026-02-01",
+     75.0
+    ],
+    [
+     "2026-02-23",
+     84.0
+    ],
+    [
+     "2026-03-04",
+     94.0
+    ],
+    [
+     "2026-03-17",
+     92.0
+    ],
+    [
+     "2026-03-30",
+     99.0
+    ],
+    [
+     "2026-04-13",
+     91.0
+    ],
+    [
+     "2026-04-21",
+     89.0
+    ],
+    [
+     "2026-05-25",
+     103.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:espn13680",
+   "name": "Li Zongyu",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1463.8,
+   "surface_elo": {
+    "Hard": 1450.5,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 5,
+   "matches_surface": {
+    "Hard": 5,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    2,
+    3
+   ],
+   "last20": [
+    2,
+    3
+   ],
+   "last52w": [
+    2,
+    3
+   ],
+   "last52w_surface": [
+    2,
+    3
+   ],
+   "career_surface_wl": [
+    2,
+    3
+   ],
+   "games_won_lost_52w": [
+    49,
+    52
+   ],
+   "sets_won_lost_52w": [
+    5,
+    6
+   ],
+   "avg_opp_elo_last20": 1489.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -1.7,
+   "last_match": "2026-11-03",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "0e2923c0b010c3ba",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Li Zongyu: sparse record (5 tour matches, 0 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Li Zongyu: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 260.9,
+  "components_elo": {
+   "surface_elo": 269.7,
+   "overall_elo": 272.9,
+   "serve_return": 468.7,
+   "form": 54.4
+  },
+  "weighted_contributions": {
+   "surface_elo": 33.0,
+   "overall_elo": 64.5,
+   "serve_return": 163.5,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.8178,
+  "serve_return_implied_spw": {
+   "A": 0.6104,
+   "B": 0.4949
+  },
+  "point_probs": {
+   "A_serve": 0.606,
+   "B_serve": 0.4995
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6060135603768063,
+   "B_serve": 0.4994766536064278
+  },
+  "hold_probs": {
+   "A": 0.7481,
+   "B": 0.4987
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.8146,
+   0.8167
+  ],
+  "p_tb": [
+   0.1971,
+   0.1959
+  ],
+  "p_decider": [
+   0.2788,
+   0.2776
+  ],
+  "games_mean": [
+   20.824,
+   20.797
+  ],
+  "exp_breaks": [
+   7.844,
+   7.839
+  ],
+  "set_scores": {
+   "0-2": [
+    0.0934,
+    0.0934
+   ],
+   "1-2": [
+    0.092,
+    0.0899
+   ],
+   "2-0": [
+    0.6278,
+    0.629
+   ],
+   "2-1": [
+    0.1868,
+    0.1877
+   ]
+  },
+  "mc_se_p_a": 0.0012,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Anna Blinkova",
+   "elo_points": 163.5,
+   "raw_diff": 468.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Anna Blinkova",
+   "elo_points": 64.5,
+   "raw_diff": 272.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Anna Blinkova",
+   "elo_points": 33.0,
+   "raw_diff": 269.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.606,
+   "B": 0.4995,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Anna Blinkova to win at least one set",
+  "probability": 0.9066,
+  "fair_odds": {
+   "decimal": 1.1,
+   "american": "-971"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Li Zongyu: sparse record (5 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Anna Blinkova to win at least one set",
+    "probability": 0.9066,
+    "fair_decimal": 1.1
+   },
+   {
+    "selection": "Anna Blinkova to win",
+    "probability": 0.8146,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.8029,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Anna Blinkova -2.5 games",
+    "probability": 0.754,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7323,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7212,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6839,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Exact sets Anna Blinkova 2-0 Li Zongyu",
+    "probability": 0.6278,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Anna Blinkova -4.5 games",
+    "probability": 0.6139,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5933,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.5432,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.4568,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4067,
+    "fair_decimal": 2.46
+   },
+   {
+    "selection": "Li Zongyu +4.5 games",
+    "probability": 0.3861,
+    "fair_decimal": 2.59
+   },
+   {
+    "selection": "Li Zongyu to win at least one set",
+    "probability": 0.3722,
+    "fair_decimal": 2.69
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T12:10:08+00:00",
+  "version": 1,
+  "input_hash": "2f8a093b794eb131",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186683",
+  "scheduled_start_utc": "2026-11-05T05:00Z"
+ }
+}

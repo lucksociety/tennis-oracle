@@ -1,0 +1,683 @@
+{
+ "predicted_winner": "Solana Sierra",
+ "win_prob": {
+  "A": 0.4966,
+  "B": 0.5034
+ },
+ "win_prob_exact": {
+  "A": 0.49658,
+  "B": 0.50342
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.01,
+   "american": "+101"
+  },
+  "B": {
+   "decimal": 1.99,
+   "american": "-101"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3144,
+  "2-0": 0.3114,
+  "1-2": 0.189,
+  "2-1": 0.1852
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0157,
+ "games": {
+  "mean": 22.39,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00278,
+   "13": 0.01259,
+   "14": 0.02853,
+   "15": 0.04928,
+   "16": 0.07238,
+   "17": 0.0826,
+   "18": 0.08309,
+   "19": 0.07673,
+   "20": 0.06643,
+   "21": 0.04883,
+   "22": 0.05663,
+   "23": 0.03788,
+   "24": 0.02222,
+   "25": 0.03878,
+   "26": 0.04106,
+   "27": 0.039,
+   "28": 0.04282,
+   "29": 0.04213,
+   "30": 0.03825,
+   "31": 0.03446,
+   "32": 0.02871,
+   "33": 0.01902,
+   "34": 0.01367,
+   "35": 0.01224,
+   "36": 0.00515,
+   "37": 0.00169,
+   "38": 0.00222,
+   "39": 0.00083
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00164,
+  "-11": 0.00662,
+  "-10": 0.01527,
+  "-9": 0.02621,
+  "-8": 0.04353,
+  "-7": 0.06052,
+  "-6": 0.07133,
+  "-5": 0.07421,
+  "-4": 0.07321,
+  "-3": 0.05186,
+  "-2": 0.03608,
+  "-1": 0.02906,
+  "0": 0.02757,
+  "1": 0.02867,
+  "2": 0.03566,
+  "3": 0.05359,
+  "4": 0.07144,
+  "5": 0.07479,
+  "6": 0.07039,
+  "7": 0.05819,
+  "8": 0.04262,
+  "9": 0.0262,
+  "10": 0.01406,
+  "11": 0.00614,
+  "12": 0.00114
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7518,
+   "under": 0.2482
+  },
+  {
+   "line": 18.5,
+   "over": 0.6687,
+   "under": 0.3312
+  },
+  {
+   "line": 19.5,
+   "over": 0.592,
+   "under": 0.408
+  },
+  {
+   "line": 20.5,
+   "over": 0.5256,
+   "under": 0.4744
+  },
+  {
+   "line": 21.5,
+   "over": 0.4768,
+   "under": 0.5232
+  },
+  {
+   "line": 22.5,
+   "over": 0.4201,
+   "under": 0.5799
+  },
+  {
+   "line": 23.5,
+   "over": 0.3822,
+   "under": 0.6178
+  },
+  {
+   "line": 24.5,
+   "over": 0.36,
+   "under": 0.64
+  },
+  {
+   "line": 25.5,
+   "over": 0.3212,
+   "under": 0.6788
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4542,
+   "B +1.5": 0.5458,
+   "B -1.5": 0.4605,
+   "A +1.5": 0.5395
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4186,
+   "B +2.5": 0.5814,
+   "B -2.5": 0.4244,
+   "A +2.5": 0.5756
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.365,
+   "B +3.5": 0.635,
+   "B -3.5": 0.3725,
+   "A +3.5": 0.6275
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2935,
+   "B +4.5": 0.7065,
+   "B -4.5": 0.2993,
+   "A +4.5": 0.7007
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2187,
+   "B +5.5": 0.7813,
+   "B -5.5": 0.2251,
+   "A +5.5": 0.7749
+  }
+ ],
+ "p_tiebreak": 0.2403,
+ "p_a_wins_set": 0.6856,
+ "p_b_wins_set": 0.6886,
+ "p_decider": 0.3742,
+ "expected_breaks": {
+  "total": 9.22,
+  "by_A": 4.59,
+  "by_B": 4.62
+ },
+ "expected_break_points": {
+  "A_creates": 9.64,
+  "B_creates": 9.68
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3144
+ },
+ "match": "Leyre Romero Gormaz vs Solana Sierra",
+ "players": {
+  "A": {
+   "id": "wta:220742",
+   "name": "Leyre Romero Gormaz",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 175.0,
+   "age": 24.569472963723477,
+   "elo": 1640.5,
+   "surface_elo": {
+    "Hard": 1578.5,
+    "Clay": 1611.6,
+    "Grass": 1427.8
+   },
+   "matches_total": 36,
+   "matches_surface": {
+    "Hard": 9,
+    "Clay": 26,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    16,
+    13
+   ],
+   "last52w_surface": [
+    11,
+    9
+   ],
+   "career_surface_wl": [
+    14,
+    12
+   ],
+   "games_won_lost_52w": [
+    341,
+    287
+   ],
+   "sets_won_lost_52w": [
+    39,
+    30
+   ],
+   "avg_opp_elo_last20": 1563.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1172,
+   "return_rating": 0.1303,
+   "form_elo": 64.2,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-11-02",
+   "stats_52w": {
+    "first_in": 0.5631,
+    "first_won": 0.6204,
+    "second_won": 0.4592,
+    "serve_pts_won": 0.55,
+    "hold": 0.6339,
+    "aces_per_svgm": 0.2277,
+    "df_per_svgm": 0.4777,
+    "bp_saved": 0.615,
+    "ret_pts_won": 0.4628,
+    "ret_1st_won": 0.4252,
+    "ret_2nd_won": 0.5445,
+    "ret_games_won": 0.4348,
+    "bp_conv": 0.5263,
+    "bp_chances_per_retgm": 0.8261,
+    "matches_with_stats": 20
+   },
+   "rank_history": [
+    [
+     "2024-07-22",
+     179.0
+    ],
+    [
+     "2024-12-30",
+     158.0
+    ],
+    [
+     "2025-05-26",
+     150.0
+    ],
+    [
+     "2025-07-14",
+     133.0
+    ],
+    [
+     "2026-04-10",
+     175.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221333",
+   "name": "Solana Sierra",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 68.0,
+   "age": 22.34626967830253,
+   "elo": 1651.2,
+   "surface_elo": {
+    "Hard": 1440.1,
+    "Clay": 1755.8,
+    "Grass": 1581.9
+   },
+   "matches_total": 58,
+   "matches_surface": {
+    "Hard": 31,
+    "Clay": 16,
+    "Grass": 11
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    18,
+    20
+   ],
+   "last52w_surface": [
+    10,
+    4
+   ],
+   "career_surface_wl": [
+    10,
+    6
+   ],
+   "games_won_lost_52w": [
+    381,
+    435
+   ],
+   "sets_won_lost_52w": [
+    41,
+    49
+   ],
+   "avg_opp_elo_last20": 1690.7,
+   "vs_top_opp_52w": [
+    0,
+    8
+   ],
+   "serve_rating": 0.093,
+   "return_rating": 0.0979,
+   "form_elo": -54.1,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-11-02",
+   "stats_52w": {
+    "first_in": 0.6056,
+    "first_won": 0.6024,
+    "second_won": 0.4278,
+    "serve_pts_won": 0.5335,
+    "hold": 0.5649,
+    "aces_per_svgm": 0.2023,
+    "df_per_svgm": 0.5305,
+    "bp_saved": 0.525,
+    "ret_pts_won": 0.4417,
+    "ret_1st_won": 0.3603,
+    "ret_2nd_won": 0.5663,
+    "ret_games_won": 0.3623,
+    "bp_conv": 0.4683,
+    "bp_chances_per_retgm": 0.7736,
+    "matches_with_stats": 26
+   },
+   "rank_history": [
+    [
+     "2025-08-17",
+     75.0
+    ],
+    [
+     "2025-08-25",
+     74.0
+    ],
+    [
+     "2025-09-08",
+     82.0
+    ],
+    [
+     "2026-01-05",
+     66.0
+    ],
+    [
+     "2026-01-12",
+     64.0
+    ],
+    [
+     "2026-01-19",
+     63.0
+    ],
+    [
+     "2026-02-08",
+     62.0
+    ],
+    [
+     "2026-03-04",
+     65.0
+    ],
+    [
+     "2026-03-17",
+     63.0
+    ],
+    [
+     "2026-04-21",
+     88.0
+    ],
+    [
+     "2026-05-05",
+     72.0
+    ],
+    [
+     "2026-05-25",
+     68.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "0e2923c0b010c3ba",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -2.1,
+  "components_elo": {
+   "surface_elo": -144.2,
+   "overall_elo": -10.7,
+   "serve_return": 52.2,
+   "form": 118.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -17.6,
+   "overall_elo": -2.5,
+   "serve_return": 18.2,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4969,
+  "serve_return_implied_spw": {
+   "A": 0.5427,
+   "B": 0.5286
+  },
+  "point_probs": {
+   "A_serve": 0.5352,
+   "B_serve": 0.5361
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5352049189606451,
+   "B_serve": 0.5361099913958433
+  },
+  "hold_probs": {
+   "A": 0.5874,
+   "B": 0.5896
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4966,
+   0.497
+  ],
+  "p_tb": [
+   0.2403,
+   0.2406
+  ],
+  "p_decider": [
+   0.3742,
+   0.3737
+  ],
+  "games_mean": [
+   22.387,
+   22.375
+  ],
+  "exp_breaks": [
+   9.217,
+   9.208
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3144,
+    0.3156
+   ],
+   "1-2": [
+    0.189,
+    0.1874
+   ],
+   "2-0": [
+    0.3114,
+    0.3107
+   ],
+   "2-1": [
+    0.1852,
+    0.1863
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Leyre Romero Gormaz",
+   "elo_points": 18.2,
+   "raw_diff": 52.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Solana Sierra",
+   "elo_points": -17.6,
+   "raw_diff": -144.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Solana Sierra",
+   "elo_points": -2.5,
+   "raw_diff": -10.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4592,
+   "B": 0.4278,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4628,
+   "B": 0.4417,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5352,
+   "B": 0.5361,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7597,
+  "fair_odds": {
+   "decimal": 1.32,
+   "american": "-316"
+  },
+  "confidence": "High",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially.",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7597,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Leyre Romero Gormaz +4.5 games",
+    "probability": 0.7007,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Solana Sierra to win at least one set",
+    "probability": 0.6886,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Leyre Romero Gormaz to win at least one set",
+    "probability": 0.6856,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6687,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.64,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6258,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5799,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Leyre Romero Gormaz +2.5 games",
+    "probability": 0.5756,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5256,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Solana Sierra to win",
+    "probability": 0.5034,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Leyre Romero Gormaz to win",
+    "probability": 0.4966,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4744,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Solana Sierra -2.5 games",
+    "probability": 0.4244,
+    "fair_decimal": 2.36
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4201,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T12:09:47+00:00",
+  "version": 4,
+  "input_hash": "79f73e2ec71e9a07",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186724",
+  "scheduled_start_utc": "2026-11-04T19:30Z"
+ }
+}

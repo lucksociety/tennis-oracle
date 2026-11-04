@@ -1,0 +1,675 @@
+{
+ "predicted_winner": "Anastasia Zakharova",
+ "win_prob": {
+  "A": 0.5784,
+  "B": 0.4216
+ },
+ "win_prob_exact": {
+  "A": 0.57839,
+  "B": 0.42161000000000004
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.73,
+   "american": "-137"
+  },
+  "B": {
+   "decimal": 2.37,
+   "american": "+137"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3811,
+  "0-2": 0.2507,
+  "2-1": 0.1973,
+  "1-2": 0.1709
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0183,
+ "games": {
+  "mean": 22.38,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.91,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00263,
+   "13": 0.01198,
+   "14": 0.02799,
+   "15": 0.04926,
+   "16": 0.07207,
+   "17": 0.08523,
+   "18": 0.08392,
+   "19": 0.07687,
+   "20": 0.06765,
+   "21": 0.04873,
+   "22": 0.05818,
+   "23": 0.03714,
+   "24": 0.02227,
+   "25": 0.03667,
+   "26": 0.0405,
+   "27": 0.03745,
+   "28": 0.04124,
+   "29": 0.04086,
+   "30": 0.03868,
+   "31": 0.03564,
+   "32": 0.02902,
+   "33": 0.01917,
+   "34": 0.01363,
+   "35": 0.01285,
+   "36": 0.00573,
+   "37": 0.00182,
+   "38": 0.00204,
+   "39": 0.00078
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00084,
+  "-11": 0.00355,
+  "-10": 0.00896,
+  "-9": 0.01801,
+  "-8": 0.03193,
+  "-7": 0.04713,
+  "-6": 0.05849,
+  "-5": 0.06357,
+  "-4": 0.06478,
+  "-3": 0.04786,
+  "-2": 0.03403,
+  "-1": 0.02892,
+  "0": 0.02612,
+  "1": 0.02899,
+  "2": 0.03825,
+  "3": 0.05572,
+  "4": 0.08203,
+  "5": 0.08413,
+  "6": 0.08549,
+  "7": 0.07375,
+  "8": 0.05293,
+  "9": 0.03427,
+  "10": 0.01991,
+  "11": 0.00855,
+  "12": 0.00179
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7508,
+   "under": 0.2492
+  },
+  {
+   "line": 18.5,
+   "over": 0.6669,
+   "under": 0.3331
+  },
+  {
+   "line": 19.5,
+   "over": 0.5901,
+   "under": 0.4099
+  },
+  {
+   "line": 20.5,
+   "over": 0.5224,
+   "under": 0.4776
+  },
+  {
+   "line": 21.5,
+   "over": 0.4737,
+   "under": 0.5263
+  },
+  {
+   "line": 22.5,
+   "over": 0.4155,
+   "under": 0.5845
+  },
+  {
+   "line": 23.5,
+   "over": 0.3783,
+   "under": 0.6216
+  },
+  {
+   "line": 24.5,
+   "over": 0.3561,
+   "under": 0.6439
+  },
+  {
+   "line": 25.5,
+   "over": 0.3194,
+   "under": 0.6806
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5368,
+   "B +1.5": 0.4632,
+   "B -1.5": 0.3791,
+   "A +1.5": 0.6209
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4986,
+   "B +2.5": 0.5014,
+   "B -2.5": 0.3451,
+   "A +2.5": 0.6549
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4429,
+   "B +3.5": 0.5572,
+   "B -3.5": 0.2973,
+   "A +3.5": 0.7027
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3608,
+   "B +4.5": 0.6392,
+   "B -4.5": 0.2325,
+   "A +4.5": 0.7675
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2767,
+   "B +5.5": 0.7233,
+   "B -5.5": 0.1689,
+   "A +5.5": 0.8311
+  }
+ ],
+ "p_tiebreak": 0.247,
+ "p_a_wins_set": 0.7493,
+ "p_b_wins_set": 0.6189,
+ "p_decider": 0.3682,
+ "expected_breaks": {
+  "total": 8.51,
+  "by_A": 4.51,
+  "by_B": 4.0
+ },
+ "expected_break_points": {
+  "A_creates": 9.52,
+  "B_creates": 8.82
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3811
+ },
+ "match": "Anastasia Zakharova vs Vaishnavi Adkar",
+ "players": {
+  "A": {
+   "id": "wta:220435",
+   "name": "Anastasia Zakharova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 80.0,
+   "age": 24.749007529089667,
+   "elo": 1614.8,
+   "surface_elo": {
+    "Hard": 1576.5,
+    "Clay": 1440.1,
+    "Grass": 1578.1
+   },
+   "matches_total": 79,
+   "matches_surface": {
+    "Hard": 63,
+    "Clay": 6,
+    "Grass": 10
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    20,
+    26
+   ],
+   "last52w_surface": [
+    16,
+    19
+   ],
+   "career_surface_wl": [
+    25,
+    38
+   ],
+   "games_won_lost_52w": [
+    459,
+    526
+   ],
+   "sets_won_lost_52w": [
+    43,
+    61
+   ],
+   "avg_opp_elo_last20": 1677.6,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.067,
+   "return_rating": 0.0467,
+   "form_elo": -32.5,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6668,
+    "first_won": 0.5928,
+    "second_won": 0.4587,
+    "serve_pts_won": 0.5481,
+    "hold": 0.5963,
+    "aces_per_svgm": 0.1214,
+    "df_per_svgm": 0.3061,
+    "bp_saved": 0.4984,
+    "ret_pts_won": 0.4255,
+    "ret_1st_won": 0.3325,
+    "ret_2nd_won": 0.5642,
+    "ret_games_won": 0.3212,
+    "bp_conv": 0.4493,
+    "bp_chances_per_retgm": 0.715,
+    "matches_with_stats": 37
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     99.0
+    ],
+    [
+     "2026-01-19",
+     105.0
+    ],
+    [
+     "2026-02-01",
+     107.0
+    ],
+    [
+     "2026-02-08",
+     105.0
+    ],
+    [
+     "2026-02-15",
+     104.0
+    ],
+    [
+     "2026-02-23",
+     88.0
+    ],
+    [
+     "2026-03-04",
+     86.0
+    ],
+    [
+     "2026-03-17",
+     74.0
+    ],
+    [
+     "2026-03-30",
+     66.0
+    ],
+    [
+     "2026-04-21",
+     79.0
+    ],
+    [
+     "2026-05-05",
+     81.0
+    ],
+    [
+     "2026-05-25",
+     80.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:261038",
+   "name": "Vaishnavi Adkar",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 697.0,
+   "age": 21.823956194387407,
+   "elo": 1548.0,
+   "surface_elo": {
+    "Hard": 1534.9,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 4,
+   "matches_surface": {
+    "Hard": 4,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    2
+   ],
+   "last10": [
+    2,
+    2
+   ],
+   "last20": [
+    2,
+    2
+   ],
+   "last52w": [
+    1,
+    0
+   ],
+   "last52w_surface": [
+    1,
+    0
+   ],
+   "career_surface_wl": [
+    2,
+    2
+   ],
+   "games_won_lost_52w": [
+    16,
+    14
+   ],
+   "sets_won_lost_52w": [
+    2,
+    1
+   ],
+   "avg_opp_elo_last20": 1585.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0787,
+   "return_rating": 0.0777,
+   "form_elo": 9.0,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.701,
+    "first_won": 0.5882,
+    "second_won": 0.4483,
+    "serve_pts_won": 0.5464,
+    "hold": 0.6,
+    "aces_per_svgm": 0.0,
+    "df_per_svgm": 0.0667,
+    "bp_saved": 0.6,
+    "ret_pts_won": 0.4632,
+    "ret_1st_won": 0.2558,
+    "ret_2nd_won": 0.6346,
+    "ret_games_won": 0.4667,
+    "bp_conv": 0.6364,
+    "bp_chances_per_retgm": 0.7333,
+    "matches_with_stats": 1
+   },
+   "rank_history": [
+    [
+     "2025-06-16",
+     601.0
+    ],
+    [
+     "2025-10-27",
+     697.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "0e2923c0b010c3ba",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Vaishnavi Adkar: sparse record (4 tour matches, 1 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 57.7,
+  "components_elo": {
+   "surface_elo": 41.6,
+   "overall_elo": 66.8,
+   "serve_return": 105.4,
+   "form": -41.6
+  },
+  "weighted_contributions": {
+   "surface_elo": 5.1,
+   "overall_elo": 15.8,
+   "serve_return": 36.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5823,
+  "serve_return_implied_spw": {
+   "A": 0.5637,
+   "B": 0.5353
+  },
+  "point_probs": {
+   "A_serve": 0.5615,
+   "B_serve": 0.5375
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5615290111853275,
+   "B_serve": 0.5374937096405255
+  },
+  "hold_probs": {
+   "A": 0.6504,
+   "B": 0.5929
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5784,
+   0.5805
+  ],
+  "p_tb": [
+   0.247,
+   0.2477
+  ],
+  "p_decider": [
+   0.3682,
+   0.3694
+  ],
+  "games_mean": [
+   22.378,
+   22.387
+  ],
+  "exp_breaks": [
+   8.513,
+   8.511
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2507,
+    0.2499
+   ],
+   "1-2": [
+    0.1709,
+    0.1696
+   ],
+   "2-0": [
+    0.3811,
+    0.3807
+   ],
+   "2-1": [
+    0.1973,
+    0.1998
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Anastasia Zakharova",
+   "elo_points": 36.8,
+   "raw_diff": 105.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Anastasia Zakharova",
+   "elo_points": 15.8,
+   "raw_diff": 66.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Anastasia Zakharova",
+   "elo_points": 5.1,
+   "raw_diff": 41.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4587,
+   "B": 0.4483,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4255,
+   "B": 0.4632,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5615,
+   "B": 0.5375,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.753,
+  "fair_odds": {
+   "decimal": 1.33,
+   "american": "-305"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Vaishnavi Adkar: sparse record (4 tour matches, 1 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.753,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Anastasia Zakharova to win at least one set",
+    "probability": 0.7493,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6669,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6439,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Vaishnavi Adkar +4.5 games",
+    "probability": 0.6392,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6318,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Vaishnavi Adkar to win at least one set",
+    "probability": 0.6189,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5845,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Anastasia Zakharova to win",
+    "probability": 0.5784,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5224,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Vaishnavi Adkar +2.5 games",
+    "probability": 0.5014,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Anastasia Zakharova -2.5 games",
+    "probability": 0.4986,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4776,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Vaishnavi Adkar to win",
+    "probability": 0.4216,
+    "fair_decimal": 2.37
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4155,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T12:09:55+00:00",
+  "version": 1,
+  "input_hash": "c4cd670b40a77fd2",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186588",
+  "scheduled_start_utc": "2026-11-05T05:00Z"
+ }
+}
