@@ -1,96 +1,96 @@
 {
- "generated_at_utc": "2026-11-03T19:36:04+00:00",
+ "generated_at_utc": "2026-11-04T00:47:28+00:00",
  "summary": {
-  "n": 265,
-  "brier": 0.23035129196226414,
-  "log_loss": 0.6545943211870302,
-  "accuracy": 0.6075471698113207,
-  "games_mae": 5.132830188679245,
-  "exact_sets_accuracy": 0.4075471698113208,
-  "tiebreak_brier": 0.19915394018867927
+  "n": 282,
+  "brier": 0.22784685173758865,
+  "log_loss": 0.6489860554728241,
+  "accuracy": 0.6063829787234043,
+  "games_mae": 5.188475177304965,
+  "exact_sets_accuracy": 0.4078014184397163,
+  "tiebreak_brier": 0.19297892159574467
  },
- "n": 265,
+ "n": 282,
  "overall": {
-  "n": 265,
-  "brier": 0.23035129196226414,
-  "log_loss": 0.6545943211870302,
-  "accuracy": 0.6075471698113207
+  "n": 282,
+  "brier": 0.22784685173758865,
+  "log_loss": 0.6489860554728241,
+  "accuracy": 0.6063829787234043
  },
- "games_mae": 5.132830188679245,
- "exact_sets_accuracy": 0.4075471698113208,
- "tiebreak_brier": 0.19915394018867927,
+ "games_mae": 5.188475177304965,
+ "exact_sets_accuracy": 0.4078014184397163,
+ "tiebreak_brier": 0.19297892159574467,
  "by_surface": {
   "Clay": {
-   "n": 18,
-   "brier": 0.16607593277777777,
-   "log_loss": 0.5178282126455598,
+   "n": 24,
+   "brier": 0.15982831708333334,
+   "log_loss": 0.5024103493811881,
    "accuracy": 0.8333333333333334
   },
   "Hard": {
-   "n": 247,
-   "brier": 0.23503532623481785,
-   "log_loss": 0.6645610821333722,
-   "accuracy": 0.5910931174089069
+   "n": 258,
+   "brier": 0.2341741572868217,
+   "log_loss": 0.6626210048766971,
+   "accuracy": 0.5852713178294574
   }
  },
  "by_tour": {
   "atp": {
-   "n": 89,
-   "brier": 0.23000834999999997,
-   "log_loss": 0.6555218050760584,
-   "accuracy": 0.5842696629213483
+   "n": 92,
+   "brier": 0.2328681077173913,
+   "log_loss": 0.6611946410629317,
+   "accuracy": 0.5652173913043478
   },
   "wta": {
-   "n": 176,
-   "brier": 0.23052471147727271,
-   "log_loss": 0.6541253094476919,
-   "accuracy": 0.6193181818181818
+   "n": 190,
+   "brier": 0.22541550673684208,
+   "log_loss": 0.6430745298186665,
+   "accuracy": 0.6263157894736842
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 23,
-   "brier": 0.23135858739130438,
-   "log_loss": 0.6573274182756812,
-   "accuracy": 0.6086956521739131
+   "n": 27,
+   "brier": 0.2307690574074074,
+   "log_loss": 0.6554523053966373,
+   "accuracy": 0.5925925925925926
   },
   "LOW": {
-   "n": 128,
-   "brier": 0.23200987414062502,
-   "log_loss": 0.657669933495604,
-   "accuracy": 0.625
+   "n": 137,
+   "brier": 0.22729402788321168,
+   "log_loss": 0.6474436785466989,
+   "accuracy": 0.6277372262773723
   },
   "MEDIUM": {
-   "n": 114,
-   "brier": 0.22828579798245618,
-   "log_loss": 0.6505895877788157,
-   "accuracy": 0.5877192982456141
+   "n": 118,
+   "brier": 0.2278200493220339,
+   "log_loss": 0.6492972155655036,
+   "accuracy": 0.5847457627118644
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 154,
-   "mean_pred": 0.5446896103896105,
-   "observed": 0.5194805194805194
+   "n": 161,
+   "mean_pred": 0.5446832298136646,
+   "observed": 0.5031055900621118
   },
   {
    "bucket": "60%-70%",
-   "n": 76,
-   "mean_pred": 0.6466999999999999,
-   "observed": 0.7236842105263158
+   "n": 84,
+   "mean_pred": 0.6467630952380953,
+   "observed": 0.7380952380952381
   },
   {
    "bucket": "70%-80%",
-   "n": 27,
-   "mean_pred": 0.7364555555555555,
-   "observed": 0.8518518518518519
+   "n": 28,
+   "mean_pred": 0.7378464285714286,
+   "observed": 0.8571428571428571
   },
   {
    "bucket": "80%-90%",
-   "n": 7,
-   "mean_pred": 0.8417285714285715,
-   "observed": 0.42857142857142855
+   "n": 8,
+   "mean_pred": 0.839175,
+   "observed": 0.5
   },
   {
    "bucket": "90%-100%",
@@ -7493,6 +7493,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Jan Lennard Struff vs Arthur Gea",
+   "date": "2026-11-02",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4588,
+   "a_won": 1,
+   "pred_winner": "Arthur Gea",
+   "actual_winner": "Jan Lennard Struff",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2693,
+   "exp_games": 24.37,
+   "actual_games": 22,
+   "p_tb": 0.4456,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4019,
+     1
+    ],
+    "A -2.5": [
+     0.3462,
+     1
+    ],
+    "A -3.5": [
+     0.2709,
+     1
+    ],
+    "A -4.5": [
+     0.1825,
+     0
+    ],
+    "A -5.5": [
+     0.112,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Stefanos Tsitsipas vs Learner Tien",
    "date": "2026-11-02",
    "tour": "atp",
@@ -7907,6 +7949,48 @@
     "A -5.5": [
      0.2302,
      1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Sahaja Yamalapalli vs Simona Waltert",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4201,
+   "a_won": 0,
+   "pred_winner": "Simona Waltert",
+   "actual_winner": "Simona Waltert",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2015,
+   "exp_games": 22.57,
+   "actual_games": 28,
+   "p_tb": 0.2641,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3769,
+     0
+    ],
+    "A -2.5": [
+     0.3412,
+     0
+    ],
+    "A -3.5": [
+     0.2907,
+     0
+    ],
+    "A -4.5": [
+     0.2243,
+     0
+    ],
+    "A -5.5": [
+     0.1602,
+     0
     ]
    },
    "data_quality": "LOW",
@@ -8837,6 +8921,132 @@
    "version": "v1.1"
   },
   {
+   "match": "Sofia Costoulas vs Marina Bassols Ribera",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.5001,
+   "a_won": 0,
+   "pred_winner": "Sofia Costoulas",
+   "actual_winner": "Marina Bassols Ribera",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3114,
+   "exp_games": 22.66,
+   "actual_games": 14,
+   "p_tb": 0.2659,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4559,
+     0
+    ],
+    "A -2.5": [
+     0.4169,
+     0
+    ],
+    "A -3.5": [
+     0.3611,
+     0
+    ],
+    "A -4.5": [
+     0.2844,
+     0
+    ],
+    "A -5.5": [
+     0.2076,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Rebeka Masarova vs Alice Tubello",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.5017,
+   "a_won": 0,
+   "pred_winner": "Rebeka Masarova",
+   "actual_winner": "Alice Tubello",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3057,
+   "exp_games": 23.04,
+   "actual_games": 15,
+   "p_tb": 0.3036,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4559,
+     0
+    ],
+    "A -2.5": [
+     0.4137,
+     0
+    ],
+    "A -3.5": [
+     0.352,
+     0
+    ],
+    "A -4.5": [
+     0.2718,
+     0
+    ],
+    "A -5.5": [
+     0.192,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Valentina Mediorreal Arias vs Julia Riera",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3125,
+   "a_won": 0,
+   "pred_winner": "Julia Riera",
+   "actual_winner": "Julia Riera",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4797,
+   "exp_games": 22.23,
+   "actual_games": 14,
+   "p_tb": 0.2576,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.274,
+     0
+    ],
+    "A -2.5": [
+     0.2426,
+     0
+    ],
+    "A -3.5": [
+     0.2009,
+     0
+    ],
+    "A -4.5": [
+     0.1487,
+     0
+    ],
+    "A -5.5": [
+     0.1004,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Carolina Alves vs Maria Paulina Perez Garcia",
    "date": "2026-11-02",
    "tour": "wta",
@@ -8873,6 +9083,48 @@
     "A -5.5": [
      0.3065,
      1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Julia Grabher vs Laura Pigossi",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6361,
+   "a_won": 1,
+   "pred_winner": "Julia Grabher",
+   "actual_winner": "Julia Grabher",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2057,
+   "exp_games": 22.46,
+   "actual_games": 26,
+   "p_tb": 0.2657,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.594,
+     1
+    ],
+    "A -2.5": [
+     0.5526,
+     1
+    ],
+    "A -3.5": [
+     0.4897,
+     1
+    ],
+    "A -4.5": [
+     0.3997,
+     0
+    ],
+    "A -5.5": [
+     0.3059,
+     0
     ]
    },
    "data_quality": "LOW",
@@ -9047,6 +9299,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Tamara Zidansek vs Bianca Andreescu",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3055,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4857,
+   "exp_games": 22.21,
+   "actual_games": 17,
+   "p_tb": 0.26,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2669,
+     0
+    ],
+    "A -2.5": [
+     0.2376,
+     0
+    ],
+    "A -3.5": [
+     0.1957,
+     0
+    ],
+    "A -4.5": [
+     0.1441,
+     0
+    ],
+    "A -5.5": [
+     0.0969,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Jazmin Ortenzi vs Caroline Dolehide",
    "date": "2026-11-02",
    "tour": "wta",
@@ -9209,6 +9503,48 @@
     "A -5.5": [
      0.1823,
      1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maria Lourdes Carle vs Despina Papamichail",
+   "date": "2026-11-02",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.5399,
+   "a_won": 0,
+   "pred_winner": "Maria Lourdes Carle",
+   "actual_winner": "Despina Papamichail",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1783,
+   "exp_games": 22.32,
+   "actual_games": 30,
+   "p_tb": 0.2361,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4987,
+     0
+    ],
+    "A -2.5": [
+     0.462,
+     0
+    ],
+    "A -3.5": [
+     0.4085,
+     0
+    ],
+    "A -4.5": [
+     0.3313,
+     0
+    ],
+    "A -5.5": [
+     0.2532,
+     0
     ]
    },
    "data_quality": "LOW",
@@ -9635,6 +9971,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Jan Lennard Struff vs Arthur Gea",
+   "date": "2026-11-03",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4176,
+   "a_won": 1,
+   "pred_winner": "Arthur Gea",
+   "actual_winner": "Jan Lennard Struff",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2388,
+   "exp_games": 24.43,
+   "actual_games": 22,
+   "p_tb": 0.4571,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3611,
+     1
+    ],
+    "A -2.5": [
+     0.3063,
+     1
+    ],
+    "A -3.5": [
+     0.2339,
+     1
+    ],
+    "A -4.5": [
+     0.152,
+     0
+    ],
+    "A -5.5": [
+     0.0884,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Adolfo Daniel Vallejo vs Learner Tien",
    "date": "2026-11-03",
    "tour": "atp",
@@ -9796,6 +10174,48 @@
     ],
     "A -5.5": [
      0.1619,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Casper Ruud vs Rafael Jodar",
+   "date": "2026-11-03",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4334,
+   "a_won": 1,
+   "pred_winner": "Rafael Jodar",
+   "actual_winner": "Casper Ruud",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2493,
+   "exp_games": 24.2,
+   "actual_games": 19,
+   "p_tb": 0.4231,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3799,
+     1
+    ],
+    "A -2.5": [
+     0.326,
+     1
+    ],
+    "A -3.5": [
+     0.2541,
+     1
+    ],
+    "A -4.5": [
+     0.1718,
+     1
+    ],
+    "A -5.5": [
+     0.1052,
      0
     ]
    },
@@ -10178,6 +10598,48 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Sahaja Yamalapalli vs Simona Waltert",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.3419,
+   "a_won": 0,
+   "pred_winner": "Simona Waltert",
+   "actual_winner": "Simona Waltert",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2067,
+   "exp_games": 22.15,
+   "actual_games": 28,
+   "p_tb": 0.2421,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3025,
+     0
+    ],
+    "A -2.5": [
+     0.2714,
+     0
+    ],
+    "A -3.5": [
+     0.2302,
+     0
+    ],
+    "A -4.5": [
+     0.1749,
+     0
+    ],
+    "A -5.5": [
+     0.1233,
+     0
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   },
   {
@@ -11021,6 +11483,174 @@
    "version": "v1.1"
   },
   {
+   "match": "Sofia Costoulas vs Marina Bassols Ribera",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3935,
+   "a_won": 0,
+   "pred_winner": "Marina Bassols Ribera",
+   "actual_winner": "Marina Bassols Ribera",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4024,
+   "exp_games": 22.29,
+   "actual_games": 14,
+   "p_tb": 0.2429,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.353,
+     0
+    ],
+    "A -2.5": [
+     0.3205,
+     0
+    ],
+    "A -3.5": [
+     0.2752,
+     0
+    ],
+    "A -4.5": [
+     0.2131,
+     0
+    ],
+    "A -5.5": [
+     0.1533,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Rebeka Masarova vs Alice Tubello",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3804,
+   "a_won": 0,
+   "pred_winner": "Alice Tubello",
+   "actual_winner": "Alice Tubello",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4148,
+   "exp_games": 22.47,
+   "actual_games": 15,
+   "p_tb": 0.2643,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3387,
+     0
+    ],
+    "A -2.5": [
+     0.3055,
+     0
+    ],
+    "A -3.5": [
+     0.2577,
+     0
+    ],
+    "A -4.5": [
+     0.1965,
+     0
+    ],
+    "A -5.5": [
+     0.1371,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Valentina Mediorreal Arias vs Julia Riera",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.1787,
+   "a_won": 0,
+   "pred_winner": "Julia Riera",
+   "actual_winner": "Julia Riera",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.6364,
+   "exp_games": 20.69,
+   "actual_games": 14,
+   "p_tb": 0.19,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.1516,
+     0
+    ],
+    "A -2.5": [
+     0.1325,
+     0
+    ],
+    "A -3.5": [
+     0.1076,
+     0
+    ],
+    "A -4.5": [
+     0.0781,
+     0
+    ],
+    "A -5.5": [
+     0.0518,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Julia Grabher vs Laura Pigossi",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.7754,
+   "a_won": 1,
+   "pred_winner": "Julia Grabher",
+   "actual_winner": "Julia Grabher",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1945,
+   "exp_games": 21.11,
+   "actual_games": 26,
+   "p_tb": 0.1979,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.7431,
+     1
+    ],
+    "A -2.5": [
+     0.71,
+     1
+    ],
+    "A -3.5": [
+     0.6568,
+     1
+    ],
+    "A -4.5": [
+     0.5715,
+     0
+    ],
+    "A -5.5": [
+     0.4697,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Carole Monnet vs Maria Herazo Gonzalez",
    "date": "2026-11-03",
    "tour": "wta",
@@ -11060,6 +11690,48 @@
     ]
    },
    "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tamara Zidansek vs Bianca Andreescu",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3234,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4716,
+   "exp_games": 22.08,
+   "actual_games": 17,
+   "p_tb": 0.2396,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2847,
+     0
+    ],
+    "A -2.5": [
+     0.2552,
+     0
+    ],
+    "A -3.5": [
+     0.2144,
+     0
+    ],
+    "A -4.5": [
+     0.1623,
+     0
+    ],
+    "A -5.5": [
+     0.1133,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
    "version": "v1.1"
   },
   {
@@ -11225,6 +11897,48 @@
     "A -5.5": [
      0.2266,
      1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maria Lourdes Carle vs Despina Papamichail",
+   "date": "2026-11-03",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6,
+   "a_won": 0,
+   "pred_winner": "Maria Lourdes Carle",
+   "actual_winner": "Despina Papamichail",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1654,
+   "exp_games": 22.11,
+   "actual_games": 30,
+   "p_tb": 0.2238,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5605,
+     0
+    ],
+    "A -2.5": [
+     0.5234,
+     0
+    ],
+    "A -3.5": [
+     0.4698,
+     0
+    ],
+    "A -4.5": [
+     0.3909,
+     0
+    ],
+    "A -5.5": [
+     0.3061,
+     0
     ]
    },
    "data_quality": "MEDIUM",

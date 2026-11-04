@@ -1,0 +1,659 @@
+{
+ "predicted_winner": "Laura Samson",
+ "win_prob": {
+  "A": 0.6094,
+  "B": 0.3906
+ },
+ "win_prob_exact": {
+  "A": 0.60938,
+  "B": 0.39061999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.64,
+   "american": "-156"
+  },
+  "B": {
+   "decimal": 2.56,
+   "american": "+156"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4107,
+  "0-2": 0.2296,
+  "2-1": 0.1987,
+  "1-2": 0.161
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-2"
+ ],
+ "representative_sets_prob": 0.0185,
+ "games": {
+  "mean": 22.06,
+  "median": 21.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.88,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00387,
+   "13": 0.01537,
+   "14": 0.03311,
+   "15": 0.05572,
+   "16": 0.07698,
+   "17": 0.08886,
+   "18": 0.08344,
+   "19": 0.07457,
+   "20": 0.06451,
+   "21": 0.04773,
+   "22": 0.05469,
+   "23": 0.03556,
+   "24": 0.02367,
+   "25": 0.03811,
+   "26": 0.0389,
+   "27": 0.03895,
+   "28": 0.03954,
+   "29": 0.04062,
+   "30": 0.0372,
+   "31": 0.0318,
+   "32": 0.02742,
+   "33": 0.01745,
+   "34": 0.01281,
+   "35": 0.01062,
+   "36": 0.00434,
+   "37": 0.00168,
+   "38": 0.00183,
+   "39": 0.00065
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00099,
+  "-11": 0.00383,
+  "-10": 0.00935,
+  "-9": 0.01759,
+  "-8": 0.0293,
+  "-7": 0.04426,
+  "-6": 0.05428,
+  "-5": 0.05734,
+  "-4": 0.0583,
+  "-3": 0.04381,
+  "-2": 0.03194,
+  "-1": 0.02586,
+  "0": 0.02491,
+  "1": 0.02784,
+  "2": 0.03506,
+  "3": 0.05367,
+  "4": 0.07929,
+  "5": 0.08757,
+  "6": 0.08895,
+  "7": 0.08285,
+  "8": 0.06231,
+  "9": 0.04144,
+  "10": 0.02475,
+  "11": 0.01163,
+  "12": 0.00288
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7261,
+   "under": 0.2739
+  },
+  {
+   "line": 18.5,
+   "over": 0.6427,
+   "under": 0.3574
+  },
+  {
+   "line": 19.5,
+   "over": 0.5681,
+   "under": 0.4319
+  },
+  {
+   "line": 20.5,
+   "over": 0.5036,
+   "under": 0.4964
+  },
+  {
+   "line": 21.5,
+   "over": 0.4558,
+   "under": 0.5442
+  },
+  {
+   "line": 22.5,
+   "over": 0.4011,
+   "under": 0.5988
+  },
+  {
+   "line": 23.5,
+   "over": 0.3656,
+   "under": 0.6344
+  },
+  {
+   "line": 24.5,
+   "over": 0.3419,
+   "under": 0.6581
+  },
+  {
+   "line": 25.5,
+   "over": 0.3038,
+   "under": 0.6962
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5704,
+   "B +1.5": 0.4296,
+   "B -1.5": 0.351,
+   "A +1.5": 0.649
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5353,
+   "B +2.5": 0.4647,
+   "B -2.5": 0.3191,
+   "A +2.5": 0.6809
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4817,
+   "B +3.5": 0.5183,
+   "B -3.5": 0.2752,
+   "A +3.5": 0.7248
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4024,
+   "B +4.5": 0.5976,
+   "B -4.5": 0.2169,
+   "A +4.5": 0.7831
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3148,
+   "B +5.5": 0.6852,
+   "B -5.5": 0.1596,
+   "A +5.5": 0.8404
+  }
+ ],
+ "p_tiebreak": 0.2241,
+ "p_a_wins_set": 0.7704,
+ "p_b_wins_set": 0.5894,
+ "p_decider": 0.3597,
+ "expected_breaks": {
+  "total": 10.89,
+  "by_A": 5.81,
+  "by_B": 5.07
+ },
+ "expected_break_points": {
+  "A_creates": 11.1,
+  "B_creates": 10.21
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-2"
+  ],
+  "prob": 0.4107
+ },
+ "match": "Laura Samson vs Carole Monnet",
+ "players": {
+  "A": {
+   "id": "wta:266671",
+   "name": "Laura Samson",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 171.0,
+   "age": 18.639356605065025,
+   "elo": 1662.3,
+   "surface_elo": {
+    "Hard": 1320.6,
+    "Clay": 1743.0,
+    "Grass": 1430.2
+   },
+   "matches_total": 37,
+   "matches_surface": {
+    "Hard": 5,
+    "Clay": 31,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    16,
+    11
+   ],
+   "last52w_surface": [
+    16,
+    7
+   ],
+   "career_surface_wl": [
+    24,
+    7
+   ],
+   "games_won_lost_52w": [
+    307,
+    285
+   ],
+   "sets_won_lost_52w": [
+    35,
+    29
+   ],
+   "avg_opp_elo_last20": 1592.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0608,
+   "return_rating": 0.1087,
+   "form_elo": -27.6,
+   "last_match": "2026-11-02",
+   "last_stats_match": "2026-11-02",
+   "stats_52w": {
+    "first_in": 0.5411,
+    "first_won": 0.6371,
+    "second_won": 0.4512,
+    "serve_pts_won": 0.5518,
+    "hold": 0.619,
+    "aces_per_svgm": 0.2637,
+    "df_per_svgm": 0.5788,
+    "bp_saved": 0.5117,
+    "ret_pts_won": 0.4712,
+    "ret_1st_won": 0.4163,
+    "ret_2nd_won": 0.5686,
+    "ret_games_won": 0.4311,
+    "bp_conv": 0.4656,
+    "bp_chances_per_retgm": 0.9258,
+    "matches_with_stats": 26
+   },
+   "rank_history": [
+    [
+     "2024-07-22",
+     634.0
+    ],
+    [
+     "2024-10-28",
+     376.0
+    ],
+    [
+     "2025-07-21",
+     248.0
+    ],
+    [
+     "2025-09-22",
+     320.0
+    ],
+    [
+     "2026-04-21",
+     171.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220733",
+   "name": "Carole Monnet",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 171.0,
+   "age": 24.89958932238193,
+   "elo": 1633.9,
+   "surface_elo": {
+    "Hard": 1501.3,
+    "Clay": 1633.6,
+    "Grass": 1430.9
+   },
+   "matches_total": 30,
+   "matches_surface": {
+    "Hard": 12,
+    "Clay": 17,
+    "Grass": 1
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    12,
+    12
+   ],
+   "last52w_surface": [
+    7,
+    4
+   ],
+   "career_surface_wl": [
+    8,
+    9
+   ],
+   "games_won_lost_52w": [
+    245,
+    245
+   ],
+   "sets_won_lost_52w": [
+    25,
+    27
+   ],
+   "avg_opp_elo_last20": 1603.1,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.1321,
+   "return_rating": 0.1172,
+   "form_elo": 76.7,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-14",
+   "stats_52w": {
+    "first_in": 0.6477,
+    "first_won": 0.5651,
+    "second_won": 0.3554,
+    "serve_pts_won": 0.4912,
+    "hold": 0.4743,
+    "aces_per_svgm": 0.1314,
+    "df_per_svgm": 0.6,
+    "bp_saved": 0.5027,
+    "ret_pts_won": 0.4882,
+    "ret_1st_won": 0.4179,
+    "ret_2nd_won": 0.6021,
+    "ret_games_won": 0.4916,
+    "bp_conv": 0.5238,
+    "bp_chances_per_retgm": 0.9385,
+    "matches_with_stats": 17
+   },
+   "rank_history": [
+    [
+     "2022-05-16",
+     249.0
+    ],
+    [
+     "2022-05-23",
+     253.0
+    ],
+    [
+     "2023-07-17",
+     185.0
+    ],
+    [
+     "2024-07-15",
+     221.0
+    ],
+    [
+     "2025-05-26",
+     231.0
+    ],
+    [
+     "2026-03-30",
+     171.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "c151d041dc06c09e",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 81.1,
+  "components_elo": {
+   "surface_elo": 109.4,
+   "overall_elo": 28.4,
+   "serve_return": 174.5,
+   "form": -104.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 13.4,
+   "overall_elo": 6.7,
+   "serve_return": 60.9,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6147,
+  "serve_return_implied_spw": {
+   "A": 0.5238,
+   "B": 0.4778
+  },
+  "point_probs": {
+   "A_serve": 0.5177,
+   "B_serve": 0.4839
+  },
+  "point_probs_exact": {
+   "A_serve": 0.517700440846332,
+   "B_serve": 0.48391903228932787
+  },
+  "hold_probs": {
+   "A": 0.5442,
+   "B": 0.4599
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6094,
+   0.6123
+  ],
+  "p_tb": [
+   0.2241,
+   0.2235
+  ],
+  "p_decider": [
+   0.3597,
+   0.361
+  ],
+  "games_mean": [
+   22.065,
+   22.065
+  ],
+  "exp_breaks": [
+   10.887,
+   10.868
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2296,
+    0.2278
+   ],
+   "1-2": [
+    0.161,
+    0.1599
+   ],
+   "2-0": [
+    0.4107,
+    0.4112
+   ],
+   "2-1": [
+    0.1987,
+    0.2011
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Laura Samson",
+   "elo_points": 60.9,
+   "raw_diff": 174.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Laura Samson",
+   "elo_points": 13.4,
+   "raw_diff": 109.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Laura Samson",
+   "elo_points": 6.7,
+   "raw_diff": 28.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4512,
+   "B": 0.3554,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4712,
+   "B": 0.4882,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5177,
+   "B": 0.4839,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7759,
+  "fair_odds": {
+   "decimal": 1.29,
+   "american": "-346"
+  },
+  "confidence": "High",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially.",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7759,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Laura Samson to win at least one set",
+    "probability": 0.7704,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6581,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6427,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6403,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Laura Samson to win",
+    "probability": 0.6094,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5988,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Carole Monnet +4.5 games",
+    "probability": 0.5976,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Carole Monnet to win at least one set",
+    "probability": 0.5894,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Laura Samson -2.5 games",
+    "probability": 0.5353,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5036,
+    "fair_decimal": 1.99
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4964,
+    "fair_decimal": 2.01
+   },
+   {
+    "selection": "Carole Monnet +2.5 games",
+    "probability": 0.4647,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Exact sets Laura Samson 2-0 Carole Monnet",
+    "probability": 0.4107,
+    "fair_decimal": 2.43
+   },
+   {
+    "selection": "Laura Samson -4.5 games",
+    "probability": 0.4024,
+    "fair_decimal": 2.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T00:38:19+00:00",
+  "version": 2,
+  "input_hash": "e4aac54e58dc8b40",
+  "reason": "performance inputs or format refreshed (results through 2026-11-03)",
+  "pre_match": true,
+  "espn_id": "186725",
+  "scheduled_start_utc": "2026-11-04T16:00Z"
+ }
+}

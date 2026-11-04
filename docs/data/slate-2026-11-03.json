@@ -1,7 +1,7 @@
 {
  "date": "2026-11-03",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-03T19:30:04+00:00",
+ "generated_at_utc": "2026-11-04T00:37:43+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -6483,8 +6483,8 @@
    "round": "Round 1",
    "court": "Centre Court",
    "start_utc": "2026-11-03T17:25Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sahaja Yamalapalli",
@@ -6500,7 +6500,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-03T11:56:37+00:00",
@@ -6767,8 +6783,8 @@
    "round": "Round 1",
    "court": "Campo 5",
    "start_utc": "2026-11-03T18:25Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Rebeka Masarova",
@@ -6784,7 +6800,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 5,
     "frozen_at_utc": "2026-11-03T11:57:02+00:00",
@@ -6902,8 +6930,8 @@
    "round": "Round 1",
    "court": "Campo 3",
    "start_utc": "2026-11-03T18:25Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Maria Lourdes Carle",
@@ -6919,7 +6947,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 5,
     "frozen_at_utc": "2026-11-03T11:57:04+00:00",
@@ -7037,8 +7081,8 @@
    "round": "Round 1",
    "court": "Court 1",
    "start_utc": "2026-11-03T18:30Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jan-Lennard Struff",
@@ -7054,7 +7098,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-03T11:56:53+00:00",
@@ -7172,8 +7228,8 @@
    "round": "Round 1",
    "court": "Campo 1",
    "start_utc": "2026-11-03T18:45Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tamara Zidansek",
@@ -7189,7 +7245,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 5,
     "frozen_at_utc": "2026-11-03T11:57:13+00:00",
@@ -7306,9 +7374,9 @@
    "venue": "Paris, France",
    "round": "Round 2",
    "court": "Court Central",
-   "start_utc": "2026-11-03T19:40Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-03T20:00Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Casper Ruud",
@@ -7324,7 +7392,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-03T11:57:17+00:00",
@@ -7435,150 +7515,15 @@
    }
   },
   {
-   "espn_id": "186706",
-   "tour": "wta",
-   "tournament": "Reto Win Tennis Cali Open",
-   "venue": "Cali, Colombia",
-   "round": "Round 1",
-   "court": "Campo 3",
-   "start_utc": "2026-11-03T19:50Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Sofia Costoulas",
-     "id": "wta:223321"
-    },
-    {
-     "name": "Marina Bassols Ribera",
-     "id": "wta:215453"
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 6,
-    "frozen_at_utc": "2026-11-03T19:30:01+00:00",
-    "path": "forecasts/2026-11-03/186706-sofia-costoulas-vs-marina-bassols-ribera/v6.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Marina Bassols Ribera",
-    "win_prob": {
-     "A": 0.3935,
-     "B": 0.6065
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.4024
-    },
-    "games_mean": 22.29,
-    "strongest": {
-     "selection": "Marina Bassols Ribera to win at least one set",
-     "probability": 0.7668,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3935,
-      "B": 0.6065
-     },
-     "set_score_probs": {
-      "0-2": 0.4024,
-      "2-0": 0.2332,
-      "1-2": 0.2041,
-      "2-1": 0.1603
-     },
-     "games_pmf": {
-      "12": 0.00359,
-      "13": 0.01355,
-      "14": 0.02958,
-      "15": 0.05138,
-      "16": 0.07125,
-      "17": 0.08562,
-      "18": 0.08405,
-      "19": 0.07723,
-      "20": 0.0664,
-      "21": 0.04935,
-      "22": 0.05698,
-      "23": 0.03752,
-      "24": 0.02281,
-      "25": 0.03669,
-      "26": 0.04033,
-      "27": 0.03691,
-      "28": 0.04118,
-      "29": 0.04018,
-      "30": 0.03807,
-      "31": 0.03367,
-      "32": 0.02882,
-      "33": 0.01853,
-      "34": 0.01327,
-      "35": 0.01269,
-      "36": 0.00553,
-      "37": 0.00188,
-      "38": 0.00203,
-      "39": 0.00091
-     },
-     "games_diff_pmf": {
-      "-12": 0.0029,
-      "-11": 0.01011,
-      "-10": 0.02216,
-      "-9": 0.03832,
-      "-8": 0.05751,
-      "-7": 0.07877,
-      "-6": 0.08809,
-      "-5": 0.08899,
-      "-4": 0.08294,
-      "-3": 0.05663,
-      "-2": 0.03809,
-      "-1": 0.02892,
-      "0": 0.02702,
-      "1": 0.02656,
-      "2": 0.03249,
-      "3": 0.04532,
-      "4": 0.06211,
-      "5": 0.0598,
-      "6": 0.05438,
-      "7": 0.04272,
-      "8": 0.02733,
-      "9": 0.01636,
-      "10": 0.00818,
-      "11": 0.00361,
-      "12": 0.00069
-     },
-     "p_tiebreak": 0.2429,
-     "p_decider": 0.3644
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
    "espn_id": "186710",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Round 1",
    "court": "Campo 5",
-   "start_utc": "2026-11-03T20:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-03T20:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Julia Grabher",
@@ -7594,7 +7539,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 6,
     "frozen_at_utc": "2026-11-03T19:30:03+00:00",
@@ -7705,6 +7666,153 @@
    }
   },
   {
+   "espn_id": "186706",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Round 1",
+   "court": "Campo 3",
+   "start_utc": "2026-11-03T21:50Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Sofia Costoulas",
+     "id": "wta:223321"
+    },
+    {
+     "name": "Marina Bassols Ribera",
+     "id": "wta:215453"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 6,
+    "frozen_at_utc": "2026-11-03T19:30:01+00:00",
+    "path": "forecasts/2026-11-03/186706-sofia-costoulas-vs-marina-bassols-ribera/v6.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Marina Bassols Ribera",
+    "win_prob": {
+     "A": 0.3935,
+     "B": 0.6065
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4024
+    },
+    "games_mean": 22.29,
+    "strongest": {
+     "selection": "Marina Bassols Ribera to win at least one set",
+     "probability": 0.7668,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3935,
+      "B": 0.6065
+     },
+     "set_score_probs": {
+      "0-2": 0.4024,
+      "2-0": 0.2332,
+      "1-2": 0.2041,
+      "2-1": 0.1603
+     },
+     "games_pmf": {
+      "12": 0.00359,
+      "13": 0.01355,
+      "14": 0.02958,
+      "15": 0.05138,
+      "16": 0.07125,
+      "17": 0.08562,
+      "18": 0.08405,
+      "19": 0.07723,
+      "20": 0.0664,
+      "21": 0.04935,
+      "22": 0.05698,
+      "23": 0.03752,
+      "24": 0.02281,
+      "25": 0.03669,
+      "26": 0.04033,
+      "27": 0.03691,
+      "28": 0.04118,
+      "29": 0.04018,
+      "30": 0.03807,
+      "31": 0.03367,
+      "32": 0.02882,
+      "33": 0.01853,
+      "34": 0.01327,
+      "35": 0.01269,
+      "36": 0.00553,
+      "37": 0.00188,
+      "38": 0.00203,
+      "39": 0.00091
+     },
+     "games_diff_pmf": {
+      "-12": 0.0029,
+      "-11": 0.01011,
+      "-10": 0.02216,
+      "-9": 0.03832,
+      "-8": 0.05751,
+      "-7": 0.07877,
+      "-6": 0.08809,
+      "-5": 0.08899,
+      "-4": 0.08294,
+      "-3": 0.05663,
+      "-2": 0.03809,
+      "-1": 0.02892,
+      "0": 0.02702,
+      "1": 0.02656,
+      "2": 0.03249,
+      "3": 0.04532,
+      "4": 0.06211,
+      "5": 0.0598,
+      "6": 0.05438,
+      "7": 0.04272,
+      "8": 0.02733,
+      "9": 0.01636,
+      "10": 0.00818,
+      "11": 0.00361,
+      "12": 0.00069
+     },
+     "p_tiebreak": 0.2429,
+     "p_decider": 0.3644
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0029
+   }
+  },
+  {
    "espn_id": "186708",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
@@ -7712,8 +7820,8 @@
    "round": "Round 1",
    "court": "Campo 1",
    "start_utc": "2026-11-03T22:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Valentina Mediorreal Arias",
@@ -7729,7 +7837,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 6,
     "frozen_at_utc": "2026-11-03T19:30:04+00:00",

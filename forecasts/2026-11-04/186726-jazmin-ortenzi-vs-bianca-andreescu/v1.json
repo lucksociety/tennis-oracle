@@ -1,0 +1,685 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.3009,
+  "B": 0.6991
+ },
+ "win_prob_exact": {
+  "A": 0.30088,
+  "B": 0.69912
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.32,
+   "american": "+232"
+  },
+  "B": {
+   "decimal": 1.43,
+   "american": "-232"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4938,
+  "1-2": 0.2054,
+  "2-0": 0.1679,
+  "2-1": 0.133
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0224,
+ "games": {
+  "mean": 21.8,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00475,
+   "13": 0.01789,
+   "14": 0.03846,
+   "15": 0.06097,
+   "16": 0.08174,
+   "17": 0.08916,
+   "18": 0.08479,
+   "19": 0.07614,
+   "20": 0.06256,
+   "21": 0.04714,
+   "22": 0.05484,
+   "23": 0.03527,
+   "24": 0.02113,
+   "25": 0.03561,
+   "26": 0.0383,
+   "27": 0.03594,
+   "28": 0.0367,
+   "29": 0.03814,
+   "30": 0.03535,
+   "31": 0.03101,
+   "32": 0.02671,
+   "33": 0.01617,
+   "34": 0.01178,
+   "35": 0.01073,
+   "36": 0.00462,
+   "37": 0.00139,
+   "38": 0.00187,
+   "39": 0.00084
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00441,
+  "-11": 0.01621,
+  "-10": 0.0344,
+  "-9": 0.05362,
+  "-8": 0.07668,
+  "-7": 0.09619,
+  "-6": 0.10146,
+  "-5": 0.09697,
+  "-4": 0.08555,
+  "-3": 0.05762,
+  "-2": 0.03837,
+  "-1": 0.027,
+  "0": 0.0228,
+  "1": 0.02381,
+  "2": 0.02728,
+  "3": 0.03711,
+  "4": 0.04926,
+  "5": 0.04533,
+  "6": 0.03904,
+  "7": 0.02994,
+  "8": 0.01887,
+  "9": 0.01082,
+  "10": 0.00514,
+  "11": 0.00178,
+  "12": 0.00034
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.707,
+   "under": 0.293
+  },
+  {
+   "line": 18.5,
+   "over": 0.6222,
+   "under": 0.3778
+  },
+  {
+   "line": 19.5,
+   "over": 0.5461,
+   "under": 0.4539
+  },
+  {
+   "line": 20.5,
+   "over": 0.4835,
+   "under": 0.5165
+  },
+  {
+   "line": 21.5,
+   "over": 0.4364,
+   "under": 0.5636
+  },
+  {
+   "line": 22.5,
+   "over": 0.3816,
+   "under": 0.6184
+  },
+  {
+   "line": 23.5,
+   "over": 0.3463,
+   "under": 0.6537
+  },
+  {
+   "line": 24.5,
+   "over": 0.3252,
+   "under": 0.6748
+  },
+  {
+   "line": 25.5,
+   "over": 0.2896,
+   "under": 0.7105
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2649,
+   "B +1.5": 0.7351,
+   "B -1.5": 0.6615,
+   "A +1.5": 0.3385
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2376,
+   "B +2.5": 0.7624,
+   "B -2.5": 0.6231,
+   "A +2.5": 0.3769
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2005,
+   "B +3.5": 0.7995,
+   "B -3.5": 0.5655,
+   "A +3.5": 0.4345
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1513,
+   "B +4.5": 0.8487,
+   "B -4.5": 0.4799,
+   "A +4.5": 0.5201
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1059,
+   "B +5.5": 0.8941,
+   "B -5.5": 0.383,
+   "A +5.5": 0.617
+  }
+ ],
+ "p_tiebreak": 0.2241,
+ "p_a_wins_set": 0.5062,
+ "p_b_wins_set": 0.8321,
+ "p_decider": 0.3383,
+ "expected_breaks": {
+  "total": 8.68,
+  "by_A": 3.68,
+  "by_B": 4.99
+ },
+ "expected_break_points": {
+  "A_creates": 8.26,
+  "B_creates": 10.07
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "2-6"
+  ],
+  "prob": 0.4938
+ },
+ "match": "Jazmin Ortenzi vs Bianca Andreescu",
+ "players": {
+  "A": {
+   "id": "wta:220446",
+   "name": "Jazmin Ortenzi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 206.0,
+   "age": 24.89958932238193,
+   "elo": 1582.3,
+   "surface_elo": {
+    "Hard": 1454.9,
+    "Clay": 1682.6,
+    "Grass": 1427.8
+   },
+   "matches_total": 24,
+   "matches_surface": {
+    "Hard": 10,
+    "Clay": 13,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    9,
+    8
+   ],
+   "last52w_surface": [
+    7,
+    3
+   ],
+   "career_surface_wl": [
+    9,
+    4
+   ],
+   "games_won_lost_52w": [
+    184,
+    183
+   ],
+   "sets_won_lost_52w": [
+    22,
+    18
+   ],
+   "avg_opp_elo_last20": 1578.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.024,
+   "return_rating": 0.1591,
+   "form_elo": 11.0,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6788,
+    "first_won": 0.5631,
+    "second_won": 0.4167,
+    "serve_pts_won": 0.5161,
+    "hold": 0.5368,
+    "aces_per_svgm": 0.0662,
+    "df_per_svgm": 0.3456,
+    "bp_saved": 0.4425,
+    "ret_pts_won": 0.4826,
+    "ret_1st_won": 0.4117,
+    "ret_2nd_won": 0.5966,
+    "ret_games_won": 0.4722,
+    "bp_conv": 0.5667,
+    "bp_chances_per_retgm": 0.8333,
+    "matches_with_stats": 14
+   },
+   "rank_history": [
+    [
+     "2022-04-15",
+     468.0
+    ],
+    [
+     "2024-11-15",
+     274.0
+    ],
+    [
+     "2024-11-25",
+     273.0
+    ],
+    [
+     "2025-09-08",
+     289.0
+    ],
+    [
+     "2026-03-30",
+     206.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.301026694045174,
+   "elo": 1811.9,
+   "surface_elo": {
+    "Hard": 1704.7,
+    "Clay": 1840.0,
+    "Grass": 1620.5
+   },
+   "matches_total": 210,
+   "matches_surface": {
+    "Hard": 129,
+    "Clay": 43,
+    "Grass": 38
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    10,
+    0
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    21,
+    11
+   ],
+   "last52w_surface": [
+    8,
+    2
+   ],
+   "career_surface_wl": [
+    28,
+    15
+   ],
+   "games_won_lost_52w": [
+    377,
+    297
+   ],
+   "sets_won_lost_52w": [
+    46,
+    26
+   ],
+   "avg_opp_elo_last20": 1639.3,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.2885,
+   "return_rating": 0.1197,
+   "form_elo": 129.6,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6179,
+    "first_won": 0.6691,
+    "second_won": 0.4669,
+    "serve_pts_won": 0.5919,
+    "hold": 0.712,
+    "aces_per_svgm": 0.3822,
+    "df_per_svgm": 0.3089,
+    "bp_saved": 0.5769,
+    "ret_pts_won": 0.4527,
+    "ret_1st_won": 0.4047,
+    "ret_2nd_won": 0.5385,
+    "ret_games_won": 0.4056,
+    "bp_conv": 0.4398,
+    "bp_chances_per_retgm": 0.9222,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "c151d041dc06c09e",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Jazmin Ortenzi: limited recent/surface sample (17 matches 52w, 13 career on Clay, 14 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -147.1,
+  "components_elo": {
+   "surface_elo": -157.4,
+   "overall_elo": -229.7,
+   "serve_return": -211.5,
+   "form": -118.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -19.2,
+   "overall_elo": -54.3,
+   "serve_return": -73.8,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3001,
+  "serve_return_implied_spw": {
+   "A": 0.514,
+   "B": 0.5698
+  },
+  "point_probs": {
+   "A_serve": 0.5114,
+   "B_serve": 0.5724
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5113995111423507,
+   "B_serve": 0.5724357584947621
+  },
+  "hold_probs": {
+   "A": 0.5285,
+   "B": 0.6755
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3009,
+   0.3029
+  ],
+  "p_tb": [
+   0.2241,
+   0.2247
+  ],
+  "p_decider": [
+   0.3383,
+   0.339
+  ],
+  "games_mean": [
+   21.803,
+   21.811
+  ],
+  "exp_breaks": [
+   8.679,
+   8.689
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4938,
+    0.4928
+   ],
+   "1-2": [
+    0.2054,
+    0.2043
+   ],
+   "2-0": [
+    0.1679,
+    0.1682
+   ],
+   "2-1": [
+    0.133,
+    0.1347
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.002
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": -73.8,
+   "raw_diff": -211.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -54.3,
+   "raw_diff": -229.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -19.2,
+   "raw_diff": -157.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4167,
+   "B": 0.4669,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4826,
+   "B": 0.4527,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5114,
+   "B": 0.5724,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win at least one set",
+  "probability": 0.8321,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-496"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Jazmin Ortenzi: limited recent/surface sample (17 matches 52w, 13 career on Clay, 14 with stats)",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.8321,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7759,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.6991,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6748,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6617,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.6231,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6222,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6184,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Jazmin Ortenzi +4.5 games",
+    "probability": 0.5201,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5165,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Jazmin Ortenzi to win at least one set",
+    "probability": 0.5062,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Exact sets Jazmin Ortenzi 0-2 Bianca Andreescu",
+    "probability": 0.4938,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4835,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Bianca Andreescu -4.5 games",
+    "probability": 0.4799,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.3816,
+    "fair_decimal": 2.62
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T00:38:35+00:00",
+  "version": 1,
+  "input_hash": "96f9ff6bbcbe89f3",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186726",
+  "scheduled_start_utc": "2026-11-04T22:00Z"
+ }
+}

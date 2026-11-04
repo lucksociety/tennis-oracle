@@ -1,0 +1,630 @@
+{
+ "predicted_winner": "Noma Noha Akugue",
+ "win_prob": {
+  "A": 0.308,
+  "B": 0.6921
+ },
+ "win_prob_exact": {
+  "A": 0.30795,
+  "B": 0.69205
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.25,
+   "american": "+225"
+  },
+  "B": {
+   "decimal": 1.44,
+   "american": "-225"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4837,
+  "1-2": 0.2083,
+  "2-0": 0.1695,
+  "2-1": 0.1384
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0252,
+ "games": {
+  "mean": 22.31,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.96,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00289,
+   "13": 0.01299,
+   "14": 0.02858,
+   "15": 0.05044,
+   "16": 0.06953,
+   "17": 0.08624,
+   "18": 0.08542,
+   "19": 0.08062,
+   "20": 0.06954,
+   "21": 0.04975,
+   "22": 0.06122,
+   "23": 0.04047,
+   "24": 0.01826,
+   "25": 0.03345,
+   "26": 0.03889,
+   "27": 0.0341,
+   "28": 0.0377,
+   "29": 0.03899,
+   "30": 0.03638,
+   "31": 0.0349,
+   "32": 0.02929,
+   "33": 0.01905,
+   "34": 0.01405,
+   "35": 0.01427,
+   "36": 0.00695,
+   "37": 0.00177,
+   "38": 0.00271,
+   "39": 0.00155
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00269,
+  "-11": 0.01173,
+  "-10": 0.02563,
+  "-9": 0.0448,
+  "-8": 0.06596,
+  "-7": 0.09088,
+  "-6": 0.10202,
+  "-5": 0.10538,
+  "-4": 0.09779,
+  "-3": 0.06469,
+  "-2": 0.04094,
+  "-1": 0.02812,
+  "0": 0.02467,
+  "1": 0.02602,
+  "2": 0.03096,
+  "3": 0.04258,
+  "4": 0.05327,
+  "5": 0.04632,
+  "6": 0.0382,
+  "7": 0.02814,
+  "8": 0.01536,
+  "9": 0.00855,
+  "10": 0.00372,
+  "11": 0.00138,
+  "12": 0.0002
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7493,
+   "under": 0.2507
+  },
+  {
+   "line": 18.5,
+   "over": 0.6639,
+   "under": 0.3361
+  },
+  {
+   "line": 19.5,
+   "over": 0.5833,
+   "under": 0.4167
+  },
+  {
+   "line": 20.5,
+   "over": 0.5138,
+   "under": 0.4863
+  },
+  {
+   "line": 21.5,
+   "over": 0.464,
+   "under": 0.536
+  },
+  {
+   "line": 22.5,
+   "over": 0.4028,
+   "under": 0.5972
+  },
+  {
+   "line": 23.5,
+   "over": 0.3623,
+   "under": 0.6377
+  },
+  {
+   "line": 24.5,
+   "over": 0.344,
+   "under": 0.656
+  },
+  {
+   "line": 25.5,
+   "over": 0.3106,
+   "under": 0.6894
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2687,
+   "B +1.5": 0.7313,
+   "B -1.5": 0.6525,
+   "A +1.5": 0.3475
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2377,
+   "B +2.5": 0.7623,
+   "B -2.5": 0.6116,
+   "A +2.5": 0.3884
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1951,
+   "B +3.5": 0.8049,
+   "B -3.5": 0.5469,
+   "A +3.5": 0.4531
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1419,
+   "B +4.5": 0.8581,
+   "B -4.5": 0.4491,
+   "A +4.5": 0.5509
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0956,
+   "B +5.5": 0.9044,
+   "B -5.5": 0.3437,
+   "A +5.5": 0.6563
+  }
+ ],
+ "p_tiebreak": 0.2669,
+ "p_a_wins_set": 0.5163,
+ "p_b_wins_set": 0.8305,
+ "p_decider": 0.3467,
+ "expected_breaks": {
+  "total": 6.92,
+  "by_A": 2.86,
+  "by_B": 4.06
+ },
+ "expected_break_points": {
+  "A_creates": 7.0,
+  "B_creates": 8.87
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4837
+ },
+ "match": "Wozuko Mdlulwa vs Noma Noha Akugue",
+ "players": {
+  "A": {
+   "id": "wta:259965",
+   "name": "Wozuko Mdlulwa",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 1083.0,
+   "age": 19.185352498288843,
+   "elo": 1434.3,
+   "surface_elo": {
+    "Hard": 1434.3,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    1
+   ],
+   "last10": [
+    0,
+    1
+   ],
+   "last20": [
+    0,
+    1
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    1
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1565.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0038,
+   "return_rating": -0.0016,
+   "form_elo": -4.1,
+   "last_match": "2025-06-16",
+   "last_stats_match": "2025-06-16",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2025-06-16",
+     1083.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:223333",
+   "name": "Noma Noha Akugue",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 195.0,
+   "age": 22.86125941136208,
+   "elo": 1662.8,
+   "surface_elo": {
+    "Hard": 1664.5,
+    "Clay": 1605.9,
+    "Grass": 1460.4
+   },
+   "matches_total": 46,
+   "matches_surface": {
+    "Hard": 16,
+    "Clay": 27,
+    "Grass": 3
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    17,
+    15
+   ],
+   "last52w_surface": [
+    9,
+    6
+   ],
+   "career_surface_wl": [
+    9,
+    7
+   ],
+   "games_won_lost_52w": [
+    357,
+    336
+   ],
+   "sets_won_lost_52w": [
+    41,
+    33
+   ],
+   "avg_opp_elo_last20": 1579.3,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1565,
+   "return_rating": 0.0292,
+   "form_elo": 74.8,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-11-01",
+   "stats_52w": {
+    "first_in": 0.5934,
+    "first_won": 0.6275,
+    "second_won": 0.4813,
+    "serve_pts_won": 0.5681,
+    "hold": 0.6636,
+    "aces_per_svgm": 0.2586,
+    "df_per_svgm": 0.3551,
+    "bp_saved": 0.5862,
+    "ret_pts_won": 0.4343,
+    "ret_1st_won": 0.3891,
+    "ret_2nd_won": 0.5115,
+    "ret_games_won": 0.3564,
+    "bp_conv": 0.4675,
+    "bp_chances_per_retgm": 0.7624,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2023-07-23",
+     207.0
+    ],
+    [
+     "2023-10-16",
+     172.0
+    ],
+    [
+     "2024-07-15",
+     197.0
+    ],
+    [
+     "2024-07-22",
+     169.0
+    ],
+    [
+     "2025-07-14",
+     252.0
+    ],
+    [
+     "2025-08-04",
+     307.0
+    ],
+    [
+     "2025-09-22",
+     357.0
+    ],
+    [
+     "2026-04-13",
+     195.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-03",
+ "forecast_date": "2026-11-04",
+ "performance_revision": "c151d041dc06c09e",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Wozuko Mdlulwa: sparse record (1 tour matches, 0 with serve stats in 52w)",
+  "Wozuko Mdlulwa: latest point-level stats are 506 days old (2025-06-16)",
+  "Wozuko Mdlulwa: no recorded match since 2025-06-16 (layoff/injury status unverified)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Wozuko Mdlulwa: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -141.7,
+  "components_elo": {
+   "surface_elo": -230.2,
+   "overall_elo": -228.4,
+   "serve_return": -171.3,
+   "form": -78.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -28.1,
+   "overall_elo": -54.0,
+   "serve_return": -59.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3066,
+  "serve_return_implied_spw": {
+   "A": 0.5591,
+   "B": 0.6055
+  },
+  "point_probs": {
+   "A_serve": 0.5528,
+   "B_serve": 0.6116
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5527832428686724,
+   "B_serve": 0.6115576454224277
+  },
+  "hold_probs": {
+   "A": 0.6298,
+   "B": 0.7593
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.308,
+   0.309
+  ],
+  "p_tb": [
+   0.2669,
+   0.2685
+  ],
+  "p_decider": [
+   0.3467,
+   0.3471
+  ],
+  "games_mean": [
+   22.31,
+   22.314
+  ],
+  "exp_breaks": [
+   6.921,
+   6.92
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4837,
+    0.4825
+   ],
+   "1-2": [
+    0.2083,
+    0.2085
+   ],
+   "2-0": [
+    0.1695,
+    0.1704
+   ],
+   "2-1": [
+    0.1384,
+    0.1386
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -59.8,
+   "raw_diff": -171.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -54.0,
+   "raw_diff": -228.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Noma Noha Akugue",
+   "elo_points": -28.1,
+   "raw_diff": -230.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5528,
+   "B": 0.6116,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Noma Noha Akugue to win at least one set",
+  "probability": 0.8305,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-490"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Wozuko Mdlulwa: sparse record (1 tour matches, 0 with serve stats in 52w); Wozuko Mdlulwa: latest point-level stats are 506 days old (2025-06-16)",
+  "candidates": [
+   {
+    "selection": "Noma Noha Akugue to win at least one set",
+    "probability": 0.8305,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7331,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Noma Noha Akugue to win",
+    "probability": 0.6921,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6639,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.656,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6533,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Noma Noha Akugue -2.5 games",
+    "probability": 0.6116,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5972,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Wozuko Mdlulwa +4.5 games",
+    "probability": 0.5509,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Wozuko Mdlulwa to win at least one set",
+    "probability": 0.5163,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5138,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4863,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Exact sets Wozuko Mdlulwa 0-2 Noma Noha Akugue",
+    "probability": 0.4837,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Noma Noha Akugue -4.5 games",
+    "probability": 0.4491,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4028,
+    "fair_decimal": 2.48
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-03",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T00:38:04+00:00",
+  "version": 3,
+  "input_hash": "f37103919d484397",
+  "reason": "performance inputs or format refreshed (results through 2026-11-03)",
+  "pre_match": true,
+  "espn_id": "186662",
+  "scheduled_start_utc": "2026-11-04T10:30Z"
+ }
+}
