@@ -1,96 +1,96 @@
 {
- "generated_at_utc": "2026-11-04T12:13:46+00:00",
+ "generated_at_utc": "2026-11-04T19:48:36+00:00",
  "summary": {
-  "n": 296,
-  "brier": 0.23099436300675674,
-  "log_loss": 0.6564103339024508,
-  "accuracy": 0.6047297297297297,
-  "games_mae": 5.228141891891893,
-  "exact_sets_accuracy": 0.41216216216216217,
-  "tiebreak_brier": 0.19466930074324323
+  "n": 318,
+  "brier": 0.2371754203773585,
+  "log_loss": 0.6711186005318147,
+  "accuracy": 0.5911949685534591,
+  "games_mae": 5.222389937106918,
+  "exact_sets_accuracy": 0.4056603773584906,
+  "tiebreak_brier": 0.19347589955974842
  },
- "n": 296,
+ "n": 318,
  "overall": {
-  "n": 296,
-  "brier": 0.23099436300675674,
-  "log_loss": 0.6564103339024508,
-  "accuracy": 0.6047297297297297
+  "n": 318,
+  "brier": 0.2371754203773585,
+  "log_loss": 0.6711186005318147,
+  "accuracy": 0.5911949685534591
  },
- "games_mae": 5.228141891891893,
- "exact_sets_accuracy": 0.41216216216216217,
- "tiebreak_brier": 0.19466930074324323,
+ "games_mae": 5.222389937106918,
+ "exact_sets_accuracy": 0.4056603773584906,
+ "tiebreak_brier": 0.19347589955974842,
  "by_surface": {
   "Clay": {
-   "n": 24,
-   "brier": 0.15982831708333334,
-   "log_loss": 0.5024103493811881,
-   "accuracy": 0.8333333333333334
+   "n": 29,
+   "brier": 0.1749039320689655,
+   "log_loss": 0.5338799507760712,
+   "accuracy": 0.7586206896551724
   },
   "Hard": {
-   "n": 272,
-   "brier": 0.23727371999999997,
-   "log_loss": 0.6699985678307975,
-   "accuracy": 0.5845588235294118
+   "n": 289,
+   "brier": 0.2434241164359862,
+   "log_loss": 0.6848899529294498,
+   "accuracy": 0.5743944636678201
   }
  },
  "by_tour": {
   "atp": {
-   "n": 93,
-   "brier": 0.23182904000000001,
-   "log_loss": 0.6590377944666138,
-   "accuracy": 0.5698924731182796
+   "n": 103,
+   "brier": 0.2510900021359224,
+   "log_loss": 0.7049240642133849,
+   "accuracy": 0.5339805825242718
   },
   "wta": {
-   "n": 203,
-   "brier": 0.2306119740394089,
-   "log_loss": 0.6552066204420215,
-   "accuracy": 0.6206896551724138
+   "n": 215,
+   "brier": 0.23050936493023255,
+   "log_loss": 0.6549234249076206,
+   "accuracy": 0.6186046511627907
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 33,
-   "brier": 0.24905253666666669,
-   "log_loss": 0.699128399865785,
-   "accuracy": 0.5757575757575758
+   "n": 46,
+   "brier": 0.2901046421739131,
+   "log_loss": 0.7962856614878726,
+   "accuracy": 0.4782608695652174
   },
   "LOW": {
-   "n": 143,
-   "brier": 0.22491872111888117,
-   "log_loss": 0.6425016029379642,
-   "accuracy": 0.6363636363636364
+   "n": 147,
+   "brier": 0.22658731707482993,
+   "log_loss": 0.6460025869757182,
+   "accuracy": 0.6326530612244898
   },
   "MEDIUM": {
-   "n": 120,
-   "brier": 0.23326850516666664,
-   "log_loss": 0.661237436828547,
-   "accuracy": 0.575
+   "n": 125,
+   "brier": 0.23014907623999997,
+   "log_loss": 0.6545935540419547,
+   "accuracy": 0.584
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 166,
-   "mean_pred": 0.5448036144578313,
-   "observed": 0.5060240963855421
+   "n": 170,
+   "mean_pred": 0.5447294117647059,
+   "observed": 0.49411764705882355
   },
   {
    "bucket": "60%-70%",
-   "n": 89,
-   "mean_pred": 0.6474775280898876,
-   "observed": 0.7528089887640449
+   "n": 101,
+   "mean_pred": 0.6469554455445543,
+   "observed": 0.7326732673267327
   },
   {
    "bucket": "70%-80%",
-   "n": 31,
-   "mean_pred": 0.737658064516129,
-   "observed": 0.7741935483870968
+   "n": 35,
+   "mean_pred": 0.7371542857142858,
+   "observed": 0.7428571428571429
   },
   {
    "bucket": "80%-90%",
-   "n": 9,
-   "mean_pred": 0.8386777777777777,
-   "observed": 0.4444444444444444
+   "n": 11,
+   "mean_pred": 0.8435090909090909,
+   "observed": 0.36363636363636365
   },
   {
    "bucket": "90%-100%",
@@ -12197,6 +12197,342 @@
    "version": "v1.1"
   },
   {
+   "match": "Nuno Borges vs Karen Khachanov",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.3373,
+   "a_won": 1,
+   "pred_winner": "Karen Khachanov",
+   "actual_winner": "Nuno Borges",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1811,
+   "exp_games": 24.53,
+   "actual_games": 19,
+   "p_tb": 0.4808,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2824,
+     1
+    ],
+    "A -2.5": [
+     0.2297,
+     1
+    ],
+    "A -3.5": [
+     0.1663,
+     1
+    ],
+    "A -4.5": [
+     0.1013,
+     1
+    ],
+    "A -5.5": [
+     0.0544,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alexander Zverev vs Lorenzo Musetti",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.7158,
+   "a_won": 0,
+   "pred_winner": "Alexander Zverev",
+   "actual_winner": "Lorenzo Musetti",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.1453,
+   "exp_games": 24.79,
+   "actual_games": 21,
+   "p_tb": 0.5344,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6553,
+     0
+    ],
+    "A -2.5": [
+     0.5691,
+     0
+    ],
+    "A -3.5": [
+     0.4476,
+     0
+    ],
+    "A -4.5": [
+     0.3025,
+     0
+    ],
+    "A -5.5": [
+     0.187,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Luca Van Assche vs Learner Tien",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.3033,
+   "a_won": 1,
+   "pred_winner": "Learner Tien",
+   "actual_winner": "Luca Van Assche",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1635,
+   "exp_games": 23.03,
+   "actual_games": 23,
+   "p_tb": 0.3372,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.26,
+     1
+    ],
+    "A -2.5": [
+     0.2237,
+     1
+    ],
+    "A -3.5": [
+     0.1762,
+     0
+    ],
+    "A -4.5": [
+     0.1205,
+     0
+    ],
+    "A -5.5": [
+     0.0742,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tomas Martin Etcheverry vs Alex De Minaur",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.2236,
+   "a_won": 1,
+   "pred_winner": "Alex De Minaur",
+   "actual_winner": "Tomas Martin Etcheverry",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1118,
+   "exp_games": 23.05,
+   "actual_games": 22,
+   "p_tb": 0.378,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.1832,
+     1
+    ],
+    "A -2.5": [
+     0.1486,
+     1
+    ],
+    "A -3.5": [
+     0.1081,
+     1
+    ],
+    "A -4.5": [
+     0.0669,
+     0
+    ],
+    "A -5.5": [
+     0.0356,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Novak Djokovic vs Rinky Hijikata",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.8804,
+   "a_won": 0,
+   "pred_winner": "Novak Djokovic",
+   "actual_winner": "Rinky Hijikata",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.0656,
+   "exp_games": 22.21,
+   "actual_games": 26,
+   "p_tb": 0.37,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.8446,
+     0
+    ],
+    "A -2.5": [
+     0.7863,
+     0
+    ],
+    "A -3.5": [
+     0.6844,
+     0
+    ],
+    "A -4.5": [
+     0.5376,
+     0
+    ],
+    "A -5.5": [
+     0.3943,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Ignacio Buse vs Daniil Medvedev",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.1499,
+   "a_won": 1,
+   "pred_winner": "Daniil Medvedev",
+   "actual_winner": "Ignacio Buse",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.0727,
+   "exp_games": 21.36,
+   "actual_games": 20,
+   "p_tb": 0.264,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.1216,
+     1
+    ],
+    "A -2.5": [
+     0.101,
+     1
+    ],
+    "A -3.5": [
+     0.0758,
+     1
+    ],
+    "A -4.5": [
+     0.0485,
+     0
+    ],
+    "A -5.5": [
+     0.0275,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Quentin Halys vs Frances Tiafoe",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4477,
+   "a_won": 1,
+   "pred_winner": "Frances Tiafoe",
+   "actual_winner": "Quentin Halys",
+   "pred_sets": "0-2",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1917,
+   "exp_games": 25.45,
+   "actual_games": 29,
+   "p_tb": 0.5619,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3817,
+     0
+    ],
+    "A -2.5": [
+     0.3109,
+     0
+    ],
+    "A -3.5": [
+     0.2241,
+     0
+    ],
+    "A -4.5": [
+     0.1333,
+     0
+    ],
+    "A -5.5": [
+     0.0711,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tommy Paul vs Daniel Merida",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.7281,
+   "a_won": 1,
+   "pred_winner": "Tommy Paul",
+   "actual_winner": "Tommy Paul",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.5155,
+   "exp_games": 23.0,
+   "actual_games": 14,
+   "p_tb": 0.3514,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6827,
+     1
+    ],
+    "A -2.5": [
+     0.6299,
+     1
+    ],
+    "A -3.5": [
+     0.5474,
+     1
+    ],
+    "A -4.5": [
+     0.4267,
+     1
+    ],
+    "A -5.5": [
+     0.3092,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Mattia Bellucci vs Arthur Rinderknech",
    "date": "2026-11-04",
    "tour": "atp",
@@ -12239,6 +12575,174 @@
    "version": "v1.1"
   },
   {
+   "match": "Matteo Berrettini vs Ugo Humbert",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.4494,
+   "a_won": 1,
+   "pred_winner": "Ugo Humbert",
+   "actual_winner": "Matteo Berrettini",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2534,
+   "exp_games": 26.17,
+   "actual_games": 25,
+   "p_tb": 0.639,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3764,
+     1
+    ],
+    "A -2.5": [
+     0.2906,
+     1
+    ],
+    "A -3.5": [
+     0.1965,
+     0
+    ],
+    "A -4.5": [
+     0.1096,
+     0
+    ],
+    "A -5.5": [
+     0.0528,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alex Molcan vs Taylor Fritz",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.2873,
+   "a_won": 0,
+   "pred_winner": "Taylor Fritz",
+   "actual_winner": "Taylor Fritz",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2272,
+   "exp_games": 24.35,
+   "actual_games": 38,
+   "p_tb": 0.4848,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2367,
+     0
+    ],
+    "A -2.5": [
+     0.1885,
+     0
+    ],
+    "A -3.5": [
+     0.1319,
+     0
+    ],
+    "A -4.5": [
+     0.077,
+     0
+    ],
+    "A -5.5": [
+     0.0392,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Weronika Falkowska vs Maaya Rajeshwaran Revathi",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.689,
+   "a_won": 0,
+   "pred_winner": "Weronika Falkowska",
+   "actual_winner": "Maaya Rajeshwaran Revathi",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.1711,
+   "exp_games": 22.5,
+   "actual_games": 19,
+   "p_tb": 0.2851,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6484,
+     0
+    ],
+    "A -2.5": [
+     0.6043,
+     0
+    ],
+    "A -3.5": [
+     0.5362,
+     0
+    ],
+    "A -4.5": [
+     0.4365,
+     0
+    ],
+    "A -5.5": [
+     0.331,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Robin Montgomery vs Jeline Vandromme",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4558,
+   "a_won": 1,
+   "pred_winner": "Jeline Vandromme",
+   "actual_winner": "Robin Montgomery",
+   "pred_sets": "0-2",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1814,
+   "exp_games": 23.1,
+   "actual_games": 31,
+   "p_tb": 0.3117,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4092,
+     0
+    ],
+    "A -2.5": [
+     0.367,
+     0
+    ],
+    "A -3.5": [
+     0.3088,
+     0
+    ],
+    "A -4.5": [
+     0.2328,
+     0
+    ],
+    "A -5.5": [
+     0.1611,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Oksana Selekhmeteva vs Polina Kudermetova",
    "date": "2026-11-04",
    "tour": "wta",
@@ -12278,6 +12782,48 @@
     ]
    },
    "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Janice Tjen vs Joanna Garland",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.6001,
+   "a_won": 1,
+   "pred_winner": "Janice Tjen",
+   "actual_winner": "Janice Tjen",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3901,
+   "exp_games": 23.5,
+   "actual_games": 20,
+   "p_tb": 0.3617,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5508,
+     1
+    ],
+    "A -2.5": [
+     0.4996,
+     1
+    ],
+    "A -3.5": [
+     0.4208,
+     1
+    ],
+    "A -4.5": [
+     0.3184,
+     1
+    ],
+    "A -5.5": [
+     0.2205,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   },
   {
@@ -12358,6 +12904,48 @@
     ],
     "A -5.5": [
      0.4982,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maya Joint vs Maria Sakkari",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3833,
+   "a_won": 0,
+   "pred_winner": "Maria Sakkari",
+   "actual_winner": "Maria Sakkari",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2081,
+   "exp_games": 22.68,
+   "actual_games": 28,
+   "p_tb": 0.2801,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3403,
+     0
+    ],
+    "A -2.5": [
+     0.3044,
+     0
+    ],
+    "A -3.5": [
+     0.2547,
+     0
+    ],
+    "A -4.5": [
+     0.1914,
+     0
+    ],
+    "A -5.5": [
+     0.1315,
      0
     ]
    },
@@ -12491,6 +13079,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Franziska Sziedat vs Martyna Kubka",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3558,
+   "a_won": 0,
+   "pred_winner": "Martyna Kubka",
+   "actual_winner": "Martyna Kubka",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4344,
+   "exp_games": 22.9,
+   "actual_games": 18,
+   "p_tb": 0.3111,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3125,
+     0
+    ],
+    "A -2.5": [
+     0.2754,
+     0
+    ],
+    "A -3.5": [
+     0.2242,
+     0
+    ],
+    "A -4.5": [
+     0.1614,
+     0
+    ],
+    "A -5.5": [
+     0.1052,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Sofya Lansere vs Kristina Novak",
    "date": "2026-11-04",
    "tour": "wta",
@@ -12530,6 +13160,300 @@
     ]
    },
    "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Isabella Shinikova vs Gina Feistel",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3852,
+   "a_won": 0,
+   "pred_winner": "Gina Feistel",
+   "actual_winner": "Gina Feistel",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4094,
+   "exp_games": 22.48,
+   "actual_games": 17,
+   "p_tb": 0.262,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3439,
+     0
+    ],
+    "A -2.5": [
+     0.3097,
+     0
+    ],
+    "A -3.5": [
+     0.2627,
+     0
+    ],
+    "A -4.5": [
+     0.2006,
+     0
+    ],
+    "A -5.5": [
+     0.1408,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Diana Martynov vs Yasmine Kabbaj",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.3953,
+   "a_won": 0,
+   "pred_winner": "Yasmine Kabbaj",
+   "actual_winner": "Yasmine Kabbaj",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4014,
+   "exp_games": 22.41,
+   "actual_games": 15,
+   "p_tb": 0.2542,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3536,
+     0
+    ],
+    "A -2.5": [
+     0.3197,
+     0
+    ],
+    "A -3.5": [
+     0.2726,
+     0
+    ],
+    "A -4.5": [
+     0.211,
+     0
+    ],
+    "A -5.5": [
+     0.1501,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Julia Grabher vs Julia Riera",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.5195,
+   "a_won": 0,
+   "pred_winner": "Julia Grabher",
+   "actual_winner": "Julia Riera",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2958,
+   "exp_games": 22.47,
+   "actual_games": 18,
+   "p_tb": 0.2511,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.477,
+     0
+    ],
+    "A -2.5": [
+     0.4398,
+     0
+    ],
+    "A -3.5": [
+     0.3856,
+     0
+    ],
+    "A -4.5": [
+     0.31,
+     0
+    ],
+    "A -5.5": [
+     0.2327,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Laura Samson vs Carole Monnet",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6096,
+   "a_won": 0,
+   "pred_winner": "Laura Samson",
+   "actual_winner": "Carole Monnet",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.161,
+   "exp_games": 22.06,
+   "actual_games": 31,
+   "p_tb": 0.2246,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5692,
+     0
+    ],
+    "A -2.5": [
+     0.5341,
+     0
+    ],
+    "A -3.5": [
+     0.4801,
+     0
+    ],
+    "A -4.5": [
+     0.401,
+     0
+    ],
+    "A -5.5": [
+     0.3128,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Irene Burillo vs Luisina Giovannini",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6224,
+   "a_won": 0,
+   "pred_winner": "Irene Burillo",
+   "actual_winner": "Luisina Giovannini",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2198,
+   "exp_games": 22.08,
+   "actual_games": 16,
+   "p_tb": 0.2267,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5823,
+     0
+    ],
+    "A -2.5": [
+     0.5465,
+     0
+    ],
+    "A -3.5": [
+     0.4912,
+     0
+    ],
+    "A -4.5": [
+     0.4094,
+     0
+    ],
+    "A -5.5": [
+     0.3208,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alice Tubello vs Marina Bassols Ribera",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6692,
+   "a_won": 1,
+   "pred_winner": "Alice Tubello",
+   "actual_winner": "Alice Tubello",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4663,
+   "exp_games": 21.96,
+   "actual_games": 14,
+   "p_tb": 0.2278,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6297,
+     1
+    ],
+    "A -2.5": [
+     0.5923,
+     1
+    ],
+    "A -3.5": [
+     0.5355,
+     1
+    ],
+    "A -4.5": [
+     0.4491,
+     1
+    ],
+    "A -5.5": [
+     0.3556,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Leolia Jeanjean vs Carolina Alves",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.6869,
+   "a_won": 1,
+   "pred_winner": "Leolia Jeanjean",
+   "actual_winner": "Leolia Jeanjean",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4852,
+   "exp_games": 21.81,
+   "actual_games": 17,
+   "p_tb": 0.2222,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6496,
+     1
+    ],
+    "A -2.5": [
+     0.613,
+     1
+    ],
+    "A -3.5": [
+     0.5565,
+     1
+    ],
+    "A -4.5": [
+     0.4723,
+     1
+    ],
+    "A -5.5": [
+     0.3754,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   }
  ]

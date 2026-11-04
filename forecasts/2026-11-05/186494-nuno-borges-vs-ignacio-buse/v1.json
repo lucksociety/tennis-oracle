@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Nuno Borges",
+ "win_prob": {
+  "A": 0.5685,
+  "B": 0.4315
+ },
+ "win_prob_exact": {
+  "A": 0.56851,
+  "B": 0.43149000000000004
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.76,
+   "american": "-132"
+  },
+  "B": {
+   "decimal": 2.32,
+   "american": "+132"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3616,
+  "0-2": 0.2515,
+  "2-1": 0.2069,
+  "1-2": 0.1799
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0254,
+ "games": {
+  "mean": 23.7,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 32.0,
+  "sd": 6.11,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00076,
+   "13": 0.00449,
+   "14": 0.01225,
+   "15": 0.02806,
+   "16": 0.04448,
+   "17": 0.0697,
+   "18": 0.07624,
+   "19": 0.08288,
+   "20": 0.07475,
+   "21": 0.05161,
+   "22": 0.07497,
+   "23": 0.05514,
+   "24": 0.01364,
+   "25": 0.03464,
+   "26": 0.04541,
+   "27": 0.03064,
+   "28": 0.03768,
+   "29": 0.03954,
+   "30": 0.03889,
+   "31": 0.04417,
+   "32": 0.04114,
+   "33": 0.02658,
+   "34": 0.019,
+   "35": 0.02531,
+   "36": 0.01533,
+   "37": 0.00231,
+   "38": 0.00523,
+   "39": 0.00516
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00023,
+  "-11": 0.00144,
+  "-10": 0.00426,
+  "-9": 0.01054,
+  "-8": 0.01898,
+  "-7": 0.03625,
+  "-6": 0.04996,
+  "-5": 0.06784,
+  "-4": 0.0782,
+  "-3": 0.06553,
+  "-2": 0.04715,
+  "-1": 0.03448,
+  "0": 0.03286,
+  "1": 0.03565,
+  "2": 0.05223,
+  "3": 0.07639,
+  "4": 0.09926,
+  "5": 0.09234,
+  "6": 0.07558,
+  "7": 0.05736,
+  "8": 0.03214,
+  "9": 0.01933,
+  "10": 0.00839,
+  "11": 0.00308,
+  "12": 0.00053
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8403,
+   "under": 0.1597
+  },
+  {
+   "line": 18.5,
+   "over": 0.764,
+   "under": 0.236
+  },
+  {
+   "line": 19.5,
+   "over": 0.6811,
+   "under": 0.3189
+  },
+  {
+   "line": 20.5,
+   "over": 0.6064,
+   "under": 0.3936
+  },
+  {
+   "line": 21.5,
+   "over": 0.5548,
+   "under": 0.4452
+  },
+  {
+   "line": 22.5,
+   "over": 0.4798,
+   "under": 0.5202
+  },
+  {
+   "line": 23.5,
+   "over": 0.4247,
+   "under": 0.5753
+  },
+  {
+   "line": 24.5,
+   "over": 0.411,
+   "under": 0.589
+  },
+  {
+   "line": 25.5,
+   "over": 0.3764,
+   "under": 0.6236
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5166,
+   "B +1.5": 0.4834,
+   "B -1.5": 0.3804,
+   "A +1.5": 0.6196
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4644,
+   "B +2.5": 0.5356,
+   "B -2.5": 0.3332,
+   "A +2.5": 0.6668
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.388,
+   "B +3.5": 0.612,
+   "B -3.5": 0.2677,
+   "A +3.5": 0.7323
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2888,
+   "B +4.5": 0.7112,
+   "B -4.5": 0.1895,
+   "A +4.5": 0.8105
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1964,
+   "B +5.5": 0.8036,
+   "B -5.5": 0.1217,
+   "A +5.5": 0.8783
+  }
+ ],
+ "p_tiebreak": 0.3762,
+ "p_a_wins_set": 0.7485,
+ "p_b_wins_set": 0.6384,
+ "p_decider": 0.3869,
+ "expected_breaks": {
+  "total": 5.19,
+  "by_A": 2.78,
+  "by_B": 2.41
+ },
+ "expected_break_points": {
+  "A_creates": 6.98,
+  "B_creates": 6.3
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3616
+ },
+ "match": "Nuno Borges vs Ignacio Buse",
+ "players": {
+  "A": {
+   "id": "atp:132686",
+   "name": "Nuno Borges",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 51.0,
+   "age": 29.649007529089666,
+   "elo": 1825.3,
+   "surface_elo": {
+    "Hard": 1772.3,
+    "Clay": 1695.4,
+    "Grass": 1624.1
+   },
+   "matches_total": 205,
+   "matches_surface": {
+    "Hard": 120,
+    "Clay": 63,
+    "Grass": 22
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    29,
+    28
+   ],
+   "last52w_surface": [
+    17,
+    16
+   ],
+   "career_surface_wl": [
+    58,
+    62
+   ],
+   "games_won_lost_52w": [
+    704,
+    674
+   ],
+   "sets_won_lost_52w": [
+    71,
+    67
+   ],
+   "avg_opp_elo_last20": 1793.8,
+   "vs_top_opp_52w": [
+    1,
+    9
+   ],
+   "serve_rating": 0.1234,
+   "return_rating": 0.1456,
+   "form_elo": 72.3,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-30",
+   "stats_52w": {
+    "first_in": 0.6733,
+    "first_won": 0.7302,
+    "second_won": 0.4776,
+    "serve_pts_won": 0.6477,
+    "hold": 0.8219,
+    "aces_per_svgm": 0.4893,
+    "df_per_svgm": 0.1545,
+    "bp_saved": 0.6468,
+    "ret_pts_won": 0.3482,
+    "ret_1st_won": 0.2789,
+    "ret_2nd_won": 0.4702,
+    "ret_games_won": 0.1857,
+    "bp_conv": 0.4055,
+    "bp_chances_per_retgm": 0.4578,
+    "matches_with_stats": 40
+   },
+   "rank_history": [
+    [
+     "2026-01-05",
+     45.0
+    ],
+    [
+     "2026-01-12",
+     46.0
+    ],
+    [
+     "2026-02-06",
+     45.0
+    ],
+    [
+     "2026-02-23",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     49.0
+    ],
+    [
+     "2026-03-18",
+     50.0
+    ],
+    [
+     "2026-03-30",
+     48.0
+    ],
+    [
+     "2026-04-05",
+     50.0
+    ],
+    [
+     "2026-04-13",
+     52.0
+    ],
+    [
+     "2026-04-22",
+     49.0
+    ],
+    [
+     "2026-05-06",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     51.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:209860",
+   "name": "Ignacio Buse",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 31.0,
+   "age": 22.549007529089668,
+   "elo": 1809.7,
+   "surface_elo": {
+    "Hard": 1720.6,
+    "Clay": 1773.5,
+    "Grass": 1515.6
+   },
+   "matches_total": 59,
+   "matches_surface": {
+    "Hard": 21,
+    "Clay": 34,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    25,
+    20
+   ],
+   "last52w_surface": [
+    9,
+    8
+   ],
+   "career_surface_wl": [
+    10,
+    11
+   ],
+   "games_won_lost_52w": [
+    586,
+    579
+   ],
+   "sets_won_lost_52w": [
+    59,
+    59
+   ],
+   "avg_opp_elo_last20": 1749.6,
+   "vs_top_opp_52w": [
+    2,
+    1
+   ],
+   "serve_rating": -0.0155,
+   "return_rating": 0.1447,
+   "form_elo": 29.4,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-27",
+   "stats_52w": {
+    "first_in": 0.6218,
+    "first_won": 0.6917,
+    "second_won": 0.4904,
+    "serve_pts_won": 0.6155,
+    "hold": 0.7472,
+    "aces_per_svgm": 0.3378,
+    "df_per_svgm": 0.1902,
+    "bp_saved": 0.595,
+    "ret_pts_won": 0.3742,
+    "ret_1st_won": 0.2997,
+    "ret_2nd_won": 0.4977,
+    "ret_games_won": 0.245,
+    "bp_conv": 0.4681,
+    "bp_chances_per_retgm": 0.5234,
+    "matches_with_stats": 34
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     135.0
+    ],
+    [
+     "2025-09-12",
+     112.0
+    ],
+    [
+     "2026-02-09",
+     96.0
+    ],
+    [
+     "2026-02-16",
+     91.0
+    ],
+    [
+     "2026-02-23",
+     66.0
+    ],
+    [
+     "2026-03-18",
+     63.0
+    ],
+    [
+     "2026-03-30",
+     59.0
+    ],
+    [
+     "2026-04-13",
+     60.0
+    ],
+    [
+     "2026-04-22",
+     58.0
+    ],
+    [
+     "2026-05-06",
+     62.0
+    ],
+    [
+     "2026-05-17",
+     57.0
+    ],
+    [
+     "2026-05-25",
+     31.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 3",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 50.1,
+  "components_elo": {
+   "surface_elo": 51.7,
+   "overall_elo": 15.6,
+   "serve_return": 115.1,
+   "form": 42.9
+  },
+  "weighted_contributions": {
+   "surface_elo": 6.3,
+   "overall_elo": 3.7,
+   "serve_return": 40.2,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5716,
+  "serve_return_implied_spw": {
+   "A": 0.644,
+   "B": 0.6113
+  },
+  "point_probs": {
+   "A_serve": 0.6381,
+   "B_serve": 0.6173
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6381490884018699,
+   "B_serve": 0.6173183592599542
+  },
+  "hold_probs": {
+   "A": 0.8094,
+   "B": 0.7707
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5685,
+   0.5706
+  ],
+  "p_tb": [
+   0.3762,
+   0.3771
+  ],
+  "p_decider": [
+   0.3869,
+   0.3868
+  ],
+  "games_mean": [
+   23.702,
+   23.701
+  ],
+  "exp_breaks": [
+   5.188,
+   5.183
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2515,
+    0.2504
+   ],
+   "1-2": [
+    0.1799,
+    0.179
+   ],
+   "2-0": [
+    0.3616,
+    0.3628
+   ],
+   "2-1": [
+    0.2069,
+    0.2078
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Nuno Borges",
+   "elo_points": 40.2,
+   "raw_diff": 115.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Nuno Borges",
+   "elo_points": 6.3,
+   "raw_diff": 51.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Nuno Borges",
+   "elo_points": 3.7,
+   "raw_diff": 15.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4776,
+   "B": 0.4904,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3482,
+   "B": 0.3742,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6381,
+   "B": 0.6173,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.764,
+  "fair_odds": {
+   "decimal": 1.31,
+   "american": "-324"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.11 games; p10-p90 17-32); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.764,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Nuno Borges to win at least one set",
+    "probability": 0.7485,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Ignacio Buse +4.5 games",
+    "probability": 0.7112,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Ignacio Buse to win at least one set",
+    "probability": 0.6384,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6238,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6131,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6064,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.589,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Nuno Borges to win",
+    "probability": 0.5685,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Ignacio Buse +2.5 games",
+    "probability": 0.5356,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5202,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4798,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Nuno Borges -2.5 games",
+    "probability": 0.4644,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Ignacio Buse to win",
+    "probability": 0.4315,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.411,
+    "fair_decimal": 2.43
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T19:46:01+00:00",
+  "version": 1,
+  "input_hash": "1928eea576d0ad5f",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186494",
+  "scheduled_start_utc": "2026-11-05T14:30Z"
+ }
+}

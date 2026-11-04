@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Tomas Martin Etcheverry",
+ "win_prob": {
+  "A": 0.4051,
+  "B": 0.5949
+ },
+ "win_prob_exact": {
+  "A": 0.40514,
+  "B": 0.5948599999999999
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.47,
+   "american": "+147"
+  },
+  "B": {
+   "decimal": 1.68,
+   "american": "-147"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.375,
+  "2-0": 0.2276,
+  "1-2": 0.2198,
+  "2-1": 0.1776
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0313,
+ "games": {
+  "mean": 24.89,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 34.0,
+  "sd": 6.3,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00014,
+   "13": 0.00178,
+   "14": 0.0055,
+   "15": 0.01517,
+   "16": 0.02585,
+   "17": 0.04999,
+   "18": 0.05953,
+   "19": 0.07995,
+   "20": 0.07438,
+   "21": 0.04969,
+   "22": 0.09259,
+   "23": 0.07725,
+   "24": 0.00848,
+   "25": 0.03432,
+   "26": 0.06019,
+   "27": 0.02337,
+   "28": 0.02931,
+   "29": 0.03288,
+   "30": 0.0336,
+   "31": 0.0442,
+   "32": 0.04891,
+   "33": 0.0319,
+   "34": 0.02286,
+   "35": 0.0411,
+   "36": 0.0299,
+   "37": 0.00251,
+   "38": 0.00988,
+   "39": 0.01477
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00012,
+  "-11": 0.00134,
+  "-10": 0.00427,
+  "-9": 0.0118,
+  "-8": 0.0207,
+  "-7": 0.04333,
+  "-6": 0.06247,
+  "-5": 0.09613,
+  "-4": 0.11765,
+  "-3": 0.10226,
+  "-2": 0.07317,
+  "-1": 0.04208,
+  "0": 0.03835,
+  "1": 0.04024,
+  "2": 0.06066,
+  "3": 0.07655,
+  "4": 0.0796,
+  "5": 0.0584,
+  "6": 0.03413,
+  "7": 0.02213,
+  "8": 0.00859,
+  "9": 0.00417,
+  "10": 0.00139,
+  "11": 0.00045,
+  "12": 2e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9016,
+   "under": 0.0984
+  },
+  {
+   "line": 18.5,
+   "over": 0.842,
+   "under": 0.158
+  },
+  {
+   "line": 19.5,
+   "over": 0.7621,
+   "under": 0.2379
+  },
+  {
+   "line": 20.5,
+   "over": 0.6877,
+   "under": 0.3123
+  },
+  {
+   "line": 21.5,
+   "over": 0.638,
+   "under": 0.362
+  },
+  {
+   "line": 22.5,
+   "over": 0.5454,
+   "under": 0.4546
+  },
+  {
+   "line": 23.5,
+   "over": 0.4682,
+   "under": 0.5318
+  },
+  {
+   "line": 24.5,
+   "over": 0.4597,
+   "under": 0.5403
+  },
+  {
+   "line": 25.5,
+   "over": 0.4254,
+   "under": 0.5746
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3461,
+   "B +1.5": 0.6539,
+   "B -1.5": 0.5332,
+   "A +1.5": 0.4668
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2854,
+   "B +2.5": 0.7146,
+   "B -2.5": 0.4601,
+   "A +2.5": 0.5399
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2089,
+   "B +3.5": 0.7911,
+   "B -3.5": 0.3578,
+   "A +3.5": 0.6422
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1293,
+   "B +4.5": 0.8707,
+   "B -4.5": 0.2402,
+   "A +4.5": 0.7598
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0709,
+   "B +5.5": 0.9291,
+   "B -5.5": 0.144,
+   "A +5.5": 0.856
+  }
+ ],
+ "p_tiebreak": 0.507,
+ "p_a_wins_set": 0.625,
+ "p_b_wins_set": 0.7724,
+ "p_decider": 0.3974,
+ "expected_breaks": {
+  "total": 3.63,
+  "by_A": 1.59,
+  "by_B": 2.03
+ },
+ "expected_break_points": {
+  "A_creates": 4.74,
+  "B_creates": 5.63
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.375
+ },
+ "match": "Rinky Hijikata vs Tomas Martin Etcheverry",
+ "players": {
+  "A": {
+   "id": "atp:208014",
+   "name": "Rinky Hijikata",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 98.0,
+   "age": 25.649007529089666,
+   "elo": 1766.6,
+   "surface_elo": {
+    "Hard": 1750.2,
+    "Clay": 1327.1,
+    "Grass": 1421.0
+   },
+   "matches_total": 134,
+   "matches_surface": {
+    "Hard": 99,
+    "Clay": 15,
+    "Grass": 20
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    23,
+    24
+   ],
+   "last52w_surface": [
+    21,
+    18
+   ],
+   "career_surface_wl": [
+    46,
+    53
+   ],
+   "games_won_lost_52w": [
+    579,
+    590
+   ],
+   "sets_won_lost_52w": [
+    57,
+    61
+   ],
+   "avg_opp_elo_last20": 1774.2,
+   "vs_top_opp_52w": [
+    2,
+    5
+   ],
+   "serve_rating": -0.0085,
+   "return_rating": -0.0245,
+   "form_elo": 104.3,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6003,
+    "first_won": 0.7135,
+    "second_won": 0.5011,
+    "serve_pts_won": 0.6286,
+    "hold": 0.7747,
+    "aces_per_svgm": 0.3736,
+    "df_per_svgm": 0.2225,
+    "bp_saved": 0.5838,
+    "ret_pts_won": 0.337,
+    "ret_1st_won": 0.2461,
+    "ret_2nd_won": 0.4854,
+    "ret_games_won": 0.1657,
+    "bp_conv": 0.3797,
+    "bp_chances_per_retgm": 0.4365,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     103.0
+    ],
+    [
+     "2025-09-17",
+     111.0
+    ],
+    [
+     "2025-10-13",
+     114.0
+    ],
+    [
+     "2026-01-04",
+     111.0
+    ],
+    [
+     "2026-01-12",
+     115.0
+    ],
+    [
+     "2026-01-19",
+     114.0
+    ],
+    [
+     "2026-02-07",
+     103.0
+    ],
+    [
+     "2026-02-16",
+     113.0
+    ],
+    [
+     "2026-02-23",
+     115.0
+    ],
+    [
+     "2026-03-04",
+     117.0
+    ],
+    [
+     "2026-03-30",
+     102.0
+    ],
+    [
+     "2026-05-25",
+     98.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:144869",
+   "name": "Tomas Martin Etcheverry",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 28.0,
+   "age": 27.249007529089667,
+   "elo": 1723.0,
+   "surface_elo": {
+    "Hard": 1690.1,
+    "Clay": 1725.5,
+    "Grass": 1356.5
+   },
+   "matches_total": 241,
+   "matches_surface": {
+    "Hard": 109,
+    "Clay": 115,
+    "Grass": 17
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    28,
+    27
+   ],
+   "last52w_surface": [
+    11,
+    14
+   ],
+   "career_surface_wl": [
+    49,
+    60
+   ],
+   "games_won_lost_52w": [
+    723,
+    735
+   ],
+   "sets_won_lost_52w": [
+    72,
+    72
+   ],
+   "avg_opp_elo_last20": 1767.1,
+   "vs_top_opp_52w": [
+    2,
+    8
+   ],
+   "serve_rating": 0.2369,
+   "return_rating": 0.0411,
+   "form_elo": -28.8,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.6473,
+    "first_won": 0.724,
+    "second_won": 0.5471,
+    "serve_pts_won": 0.6616,
+    "hold": 0.8222,
+    "aces_per_svgm": 0.4774,
+    "df_per_svgm": 0.1342,
+    "bp_saved": 0.573,
+    "ret_pts_won": 0.3498,
+    "ret_1st_won": 0.2781,
+    "ret_2nd_won": 0.4796,
+    "ret_games_won": 0.1747,
+    "bp_conv": 0.3466,
+    "bp_chances_per_retgm": 0.5039,
+    "matches_with_stats": 49
+   },
+   "rank_history": [
+    [
+     "2026-01-12",
+     61.0
+    ],
+    [
+     "2026-01-19",
+     62.0
+    ],
+    [
+     "2026-02-09",
+     54.0
+    ],
+    [
+     "2026-02-16",
+     51.0
+    ],
+    [
+     "2026-03-04",
+     31.0
+    ],
+    [
+     "2026-03-18",
+     32.0
+    ],
+    [
+     "2026-03-30",
+     31.0
+    ],
+    [
+     "2026-04-05",
+     30.0
+    ],
+    [
+     "2026-04-13",
+     29.0
+    ],
+    [
+     "2026-05-06",
+     26.0
+    ],
+    [
+     "2026-05-17",
+     25.0
+    ],
+    [
+     "2026-05-25",
+     28.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Round 3",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -64.7,
+  "components_elo": {
+   "surface_elo": 60.1,
+   "overall_elo": 43.6,
+   "serve_return": -235.3,
+   "form": 133.2
+  },
+  "weighted_contributions": {
+   "surface_elo": 7.3,
+   "overall_elo": 10.3,
+   "serve_return": -82.1,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.408,
+  "serve_return_implied_spw": {
+   "A": 0.6375,
+   "B": 0.7059
+  },
+  "point_probs": {
+   "A_serve": 0.659,
+   "B_serve": 0.6859
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6589652272574635,
+   "B_serve": 0.6858900045591427
+  },
+  "hold_probs": {
+   "A": 0.8441,
+   "B": 0.8831
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4051,
+   0.4084
+  ],
+  "p_tb": [
+   0.507,
+   0.5085
+  ],
+  "p_decider": [
+   0.3974,
+   0.398
+  ],
+  "games_mean": [
+   24.892,
+   24.902
+  ],
+  "exp_breaks": [
+   3.628,
+   3.625
+  ],
+  "set_scores": {
+   "0-2": [
+    0.375,
+    0.3728
+   ],
+   "1-2": [
+    0.2198,
+    0.2188
+   ],
+   "2-0": [
+    0.2276,
+    0.2293
+   ],
+   "2-1": [
+    0.1776,
+    0.1791
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0033
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tomas Martin Etcheverry",
+   "elo_points": -82.1,
+   "raw_diff": -235.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Rinky Hijikata",
+   "elo_points": 10.3,
+   "raw_diff": 43.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Rinky Hijikata",
+   "elo_points": 7.3,
+   "raw_diff": 60.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5011,
+   "B": 0.5471,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.337,
+   "B": 0.3498,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.659,
+   "B": 0.6859,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.842,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-533"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.3 games; p10-p90 18-34); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.842,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Tomas Martin Etcheverry to win at least one set",
+    "probability": 0.7724,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Rinky Hijikata +4.5 games",
+    "probability": 0.7598,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6877,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Rinky Hijikata to win at least one set",
+    "probability": 0.625,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6026,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Tomas Martin Etcheverry to win",
+    "probability": 0.5949,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5454,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5403,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Rinky Hijikata +2.5 games",
+    "probability": 0.5399,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.507,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.493,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Tomas Martin Etcheverry -2.5 games",
+    "probability": 0.4601,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4597,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4546,
+    "fair_decimal": 2.2
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T19:45:58+00:00",
+  "version": 1,
+  "input_hash": "a7b1a5cac97977af",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186498",
+  "scheduled_start_utc": "2026-11-05T13:00Z"
+ }
+}

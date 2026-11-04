@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Lucrezia Stefanini",
+ "win_prob": {
+  "A": 0.3393,
+  "B": 0.6607
+ },
+ "win_prob_exact": {
+  "A": 0.33933,
+  "B": 0.66067
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.95,
+   "american": "+195"
+  },
+  "B": {
+   "decimal": 1.51,
+   "american": "-195"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4564,
+  "1-2": 0.2043,
+  "2-0": 0.1939,
+  "2-1": 0.1455
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0197,
+ "games": {
+  "mean": 21.91,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00463,
+   "13": 0.01705,
+   "14": 0.03556,
+   "15": 0.05915,
+   "16": 0.08094,
+   "17": 0.08796,
+   "18": 0.08438,
+   "19": 0.07548,
+   "20": 0.06441,
+   "21": 0.04731,
+   "22": 0.05311,
+   "23": 0.03484,
+   "24": 0.02237,
+   "25": 0.03638,
+   "26": 0.03768,
+   "27": 0.03704,
+   "28": 0.03956,
+   "29": 0.03912,
+   "30": 0.0364,
+   "31": 0.03202,
+   "32": 0.02602,
+   "33": 0.01722,
+   "34": 0.01279,
+   "35": 0.01045,
+   "36": 0.00419,
+   "37": 0.00175,
+   "38": 0.00163,
+   "39": 0.00056
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00413,
+  "-11": 0.01478,
+  "-10": 0.03003,
+  "-9": 0.04871,
+  "-8": 0.07006,
+  "-7": 0.09011,
+  "-6": 0.09699,
+  "-5": 0.09211,
+  "-4": 0.08313,
+  "-3": 0.05503,
+  "-2": 0.03598,
+  "-1": 0.02795,
+  "0": 0.0245,
+  "1": 0.02515,
+  "2": 0.02903,
+  "3": 0.04104,
+  "4": 0.05163,
+  "5": 0.0496,
+  "6": 0.04633,
+  "7": 0.03548,
+  "8": 0.02468,
+  "9": 0.01391,
+  "10": 0.00668,
+  "11": 0.00246,
+  "12": 0.0005
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7147,
+   "under": 0.2853
+  },
+  {
+   "line": 18.5,
+   "over": 0.6303,
+   "under": 0.3697
+  },
+  {
+   "line": 19.5,
+   "over": 0.5549,
+   "under": 0.4451
+  },
+  {
+   "line": 20.5,
+   "over": 0.4904,
+   "under": 0.5096
+  },
+  {
+   "line": 21.5,
+   "over": 0.4431,
+   "under": 0.5569
+  },
+  {
+   "line": 22.5,
+   "over": 0.39,
+   "under": 0.61
+  },
+  {
+   "line": 23.5,
+   "over": 0.3552,
+   "under": 0.6448
+  },
+  {
+   "line": 24.5,
+   "over": 0.3328,
+   "under": 0.6672
+  },
+  {
+   "line": 25.5,
+   "over": 0.2964,
+   "under": 0.7036
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3013,
+   "B +1.5": 0.6987,
+   "B -1.5": 0.6211,
+   "A +1.5": 0.3789
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2723,
+   "B +2.5": 0.7277,
+   "B -2.5": 0.5851,
+   "A +2.5": 0.4149
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2313,
+   "B +3.5": 0.7687,
+   "B -3.5": 0.5301,
+   "A +3.5": 0.4699
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1796,
+   "B +4.5": 0.8204,
+   "B -4.5": 0.4469,
+   "A +4.5": 0.5531
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.13,
+   "B +5.5": 0.87,
+   "B -5.5": 0.3548,
+   "A +5.5": 0.6452
+  }
+ ],
+ "p_tiebreak": 0.222,
+ "p_a_wins_set": 0.5436,
+ "p_b_wins_set": 0.8061,
+ "p_decider": 0.3498,
+ "expected_breaks": {
+  "total": 9.81,
+  "by_A": 4.37,
+  "by_B": 5.44
+ },
+ "expected_break_points": {
+  "A_creates": 9.25,
+  "B_creates": 10.64
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "2-6"
+  ],
+  "prob": 0.4564
+ },
+ "match": "Simona Waltert vs Lucrezia Stefanini",
+ "players": {
+  "A": {
+   "id": "wta:215899",
+   "name": "Simona Waltert",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 91.0,
+   "age": 25.849007529089665,
+   "elo": 1571.1,
+   "surface_elo": {
+    "Hard": 1493.8,
+    "Clay": 1643.0,
+    "Grass": 1324.7
+   },
+   "matches_total": 56,
+   "matches_surface": {
+    "Hard": 21,
+    "Clay": 32,
+    "Grass": 3
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    14,
+    20
+   ],
+   "last52w_surface": [
+    6,
+    10
+   ],
+   "career_surface_wl": [
+    7,
+    14
+   ],
+   "games_won_lost_52w": [
+    369,
+    401
+   ],
+   "sets_won_lost_52w": [
+    34,
+    47
+   ],
+   "avg_opp_elo_last20": 1621.8,
+   "vs_top_opp_52w": [
+    0,
+    2
+   ],
+   "serve_rating": 0.0187,
+   "return_rating": 0.085,
+   "form_elo": -22.5,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6123,
+    "first_won": 0.6156,
+    "second_won": 0.4459,
+    "serve_pts_won": 0.5498,
+    "hold": 0.6182,
+    "aces_per_svgm": 0.1939,
+    "df_per_svgm": 0.4576,
+    "bp_saved": 0.5263,
+    "ret_pts_won": 0.4427,
+    "ret_1st_won": 0.3913,
+    "ret_2nd_won": 0.5268,
+    "ret_games_won": 0.3554,
+    "bp_conv": 0.426,
+    "bp_chances_per_retgm": 0.8343,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2024-04-12",
+     158.0
+    ],
+    [
+     "2024-07-15",
+     248.0
+    ],
+    [
+     "2024-07-22",
+     249.0
+    ],
+    [
+     "2025-01-27",
+     179.0
+    ],
+    [
+     "2025-07-14",
+     127.0
+    ],
+    [
+     "2026-01-19",
+     87.0
+    ],
+    [
+     "2026-02-01",
+     94.0
+    ],
+    [
+     "2026-03-17",
+     88.0
+    ],
+    [
+     "2026-04-21",
+     97.0
+    ],
+    [
+     "2026-05-05",
+     91.0
+    ],
+    [
+     "2026-05-18",
+     93.0
+    ],
+    [
+     "2026-05-25",
+     91.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:214593",
+   "name": "Lucrezia Stefanini",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 154.0,
+   "age": 28.403764544832306,
+   "elo": 1708.7,
+   "surface_elo": {
+    "Hard": 1684.7,
+    "Clay": 1350.0,
+    "Grass": 1531.6
+   },
+   "matches_total": 77,
+   "matches_surface": {
+    "Hard": 55,
+    "Clay": 11,
+    "Grass": 11
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    21,
+    14
+   ],
+   "last52w_surface": [
+    17,
+    10
+   ],
+   "career_surface_wl": [
+    30,
+    25
+   ],
+   "games_won_lost_52w": [
+    385,
+    339
+   ],
+   "sets_won_lost_52w": [
+    47,
+    33
+   ],
+   "avg_opp_elo_last20": 1603.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0043,
+   "return_rating": 0.2935,
+   "form_elo": 30.2,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.7364,
+    "first_won": 0.5618,
+    "second_won": 0.4908,
+    "serve_pts_won": 0.5431,
+    "hold": 0.58,
+    "aces_per_svgm": 0.0167,
+    "df_per_svgm": 0.21,
+    "bp_saved": 0.5172,
+    "ret_pts_won": 0.4891,
+    "ret_1st_won": 0.4441,
+    "ret_2nd_won": 0.5678,
+    "ret_games_won": 0.516,
+    "bp_conv": 0.5052,
+    "bp_chances_per_retgm": 1.0214,
+    "matches_with_stats": 31
+   },
+   "rank_history": [
+    [
+     "2024-06-10",
+     153.0
+    ],
+    [
+     "2024-09-09",
+     178.0
+    ],
+    [
+     "2024-10-28",
+     163.0
+    ],
+    [
+     "2024-12-30",
+     146.0
+    ],
+    [
+     "2025-02-24",
+     147.0
+    ],
+    [
+     "2025-03-18",
+     146.0
+    ],
+    [
+     "2025-05-06",
+     148.0
+    ],
+    [
+     "2025-05-26",
+     153.0
+    ],
+    [
+     "2025-07-21",
+     151.0
+    ],
+    [
+     "2025-09-08",
+     148.0
+    ],
+    [
+     "2026-02-01",
+     140.0
+    ],
+    [
+     "2026-05-05",
+     154.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "05dc95f369c2b21c",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -116.8,
+  "components_elo": {
+   "surface_elo": -190.9,
+   "overall_elo": -137.7,
+   "serve_return": -174.9,
+   "form": -52.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -23.3,
+   "overall_elo": -32.5,
+   "serve_return": -61.0,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.338,
+  "serve_return_implied_spw": {
+   "A": 0.4974,
+   "B": 0.5437
+  },
+  "point_probs": {
+   "A_serve": 0.4962,
+   "B_serve": 0.5448
+  },
+  "point_probs_exact": {
+   "A_serve": 0.4962352627825677,
+   "B_serve": 0.5448124465853633
+  },
+  "hold_probs": {
+   "A": 0.4906,
+   "B": 0.6107
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3393,
+   0.3408
+  ],
+  "p_tb": [
+   0.222,
+   0.2207
+  ],
+  "p_decider": [
+   0.3498,
+   0.35
+  ],
+  "games_mean": [
+   21.911,
+   21.905
+  ],
+  "exp_breaks": [
+   9.806,
+   9.792
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4564,
+    0.4556
+   ],
+   "1-2": [
+    0.2043,
+    0.2036
+   ],
+   "2-0": [
+    0.1939,
+    0.1944
+   ],
+   "2-1": [
+    0.1455,
+    0.1464
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0015
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -61.0,
+   "raw_diff": -174.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -32.5,
+   "raw_diff": -137.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lucrezia Stefanini",
+   "elo_points": -23.3,
+   "raw_diff": -190.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4459,
+   "B": 0.4908,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4427,
+   "B": 0.4891,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.4962,
+   "B": 0.5448,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Lucrezia Stefanini to win at least one set",
+  "probability": 0.8061,
+  "fair_odds": {
+   "decimal": 1.24,
+   "american": "-416"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Lucrezia Stefanini to win at least one set",
+    "probability": 0.8061,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.778,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6672,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Lucrezia Stefanini to win",
+    "probability": 0.6607,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6502,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6303,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.61,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Lucrezia Stefanini -2.5 games",
+    "probability": 0.5851,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Simona Waltert +4.5 games",
+    "probability": 0.5531,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Simona Waltert to win at least one set",
+    "probability": 0.5436,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5096,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4904,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Exact sets Simona Waltert 0-2 Lucrezia Stefanini",
+    "probability": 0.4564,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Lucrezia Stefanini -4.5 games",
+    "probability": 0.4469,
+    "fair_decimal": 2.24
+   },
+   {
+    "selection": "Simona Waltert +2.5 games",
+    "probability": 0.4149,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-04T19:45:53+00:00",
+  "version": 2,
+  "input_hash": "5a92bcef548236e0",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186585",
+  "scheduled_start_utc": "2026-11-05T11:00Z"
+ }
+}
