@@ -7,17 +7,19 @@
     }
   },
   "forecast_policy": "Last pre-game freeze per event per model version. No retrospectively generated forecast is graded.",
-  "forecasts": 567,
-  "generated_at": "2026-11-04T18:52:46.130550+00:00",
-  "last_successful_refresh": "2026-11-04T12:13:56+00:00",
+  "forecasts": 626,
+  "generated_at": "2026-11-05T18:59:49.308820+00:00",
+  "last_successful_refresh": "2026-11-05T12:24:28+00:00",
   "project": "tennis-oracle",
   "settled_by_version": {
     "v1.1": {
-      "brier_multiclass_sum": 0.42879565260698693,
-      "log_loss": 0.6185544939298909,
-      "n": 229,
-      "winner_accuracy": 0.6462882096069869
+      "brier_multiclass_sum": 0.4384713296965779,
+      "log_loss": 0.6308501545458823,
+      "n": 263,
+      "winner_accuracy": 0.6387832699619772
     }
   },
-  "warnings": []
+  "warnings": [
+    "2 events more than seven days old still lack final results; investigate result-feed coverage."
+  ]
 }
