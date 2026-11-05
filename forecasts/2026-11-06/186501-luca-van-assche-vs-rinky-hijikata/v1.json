@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Luca Van Assche",
+ "win_prob": {
+  "A": 0.5872,
+  "B": 0.4128
+ },
+ "win_prob_exact": {
+  "A": 0.58716,
+  "B": 0.41284
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.7,
+   "american": "-142"
+  },
+  "B": {
+   "decimal": 2.42,
+   "american": "+142"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3765,
+  "0-2": 0.2366,
+  "2-1": 0.2107,
+  "1-2": 0.1763
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0272,
+ "games": {
+  "mean": 23.78,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.13,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00073,
+   "13": 0.00446,
+   "14": 0.01212,
+   "15": 0.02742,
+   "16": 0.04359,
+   "17": 0.0677,
+   "18": 0.07478,
+   "19": 0.08214,
+   "20": 0.07486,
+   "21": 0.05129,
+   "22": 0.07732,
+   "23": 0.05699,
+   "24": 0.01274,
+   "25": 0.03411,
+   "26": 0.04583,
+   "27": 0.03112,
+   "28": 0.03715,
+   "29": 0.03894,
+   "30": 0.03827,
+   "31": 0.04399,
+   "32": 0.04105,
+   "33": 0.02774,
+   "34": 0.01951,
+   "35": 0.02625,
+   "36": 0.0165,
+   "37": 0.0022,
+   "38": 0.00596,
+   "39": 0.00524
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00014,
+  "-11": 0.00119,
+  "-10": 0.0037,
+  "-9": 0.00862,
+  "-8": 0.01688,
+  "-7": 0.03298,
+  "-6": 0.04489,
+  "-5": 0.06331,
+  "-4": 0.07624,
+  "-3": 0.06404,
+  "-2": 0.04808,
+  "-1": 0.03406,
+  "0": 0.03336,
+  "1": 0.03613,
+  "2": 0.05459,
+  "3": 0.08037,
+  "4": 0.10301,
+  "5": 0.09682,
+  "6": 0.07682,
+  "7": 0.0585,
+  "8": 0.03338,
+  "9": 0.02023,
+  "10": 0.00873,
+  "11": 0.00334,
+  "12": 0.00059
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.844,
+   "under": 0.156
+  },
+  {
+   "line": 18.5,
+   "over": 0.7692,
+   "under": 0.2308
+  },
+  {
+   "line": 19.5,
+   "over": 0.6871,
+   "under": 0.3129
+  },
+  {
+   "line": 20.5,
+   "over": 0.6122,
+   "under": 0.3878
+  },
+  {
+   "line": 21.5,
+   "over": 0.5609,
+   "under": 0.4391
+  },
+  {
+   "line": 22.5,
+   "over": 0.4836,
+   "under": 0.5164
+  },
+  {
+   "line": 23.5,
+   "over": 0.4266,
+   "under": 0.5734
+  },
+  {
+   "line": 24.5,
+   "over": 0.4139,
+   "under": 0.5861
+  },
+  {
+   "line": 25.5,
+   "over": 0.3798,
+   "under": 0.6202
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5364,
+   "B +1.5": 0.4636,
+   "B -1.5": 0.3601,
+   "A +1.5": 0.6399
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4818,
+   "B +2.5": 0.5182,
+   "B -2.5": 0.312,
+   "A +2.5": 0.688
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4014,
+   "B +3.5": 0.5986,
+   "B -3.5": 0.248,
+   "A +3.5": 0.752
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2984,
+   "B +4.5": 0.7016,
+   "B -4.5": 0.1717,
+   "A +4.5": 0.8283
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2016,
+   "B +5.5": 0.7984,
+   "B -5.5": 0.1084,
+   "A +5.5": 0.8916
+  }
+ ],
+ "p_tiebreak": 0.3869,
+ "p_a_wins_set": 0.7634,
+ "p_b_wins_set": 0.6235,
+ "p_decider": 0.3869,
+ "expected_breaks": {
+  "total": 5.02,
+  "by_A": 2.75,
+  "by_B": 2.27
+ },
+ "expected_break_points": {
+  "A_creates": 6.93,
+  "B_creates": 6.05
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3765
+ },
+ "match": "Luca Van Assche vs Rinky Hijikata",
+ "players": {
+  "A": {
+   "id": "atp:209414",
+   "name": "Luca Van Assche",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 100.0,
+   "age": 22.451745379876797,
+   "elo": 1797.5,
+   "surface_elo": {
+    "Hard": 1734.4,
+    "Clay": 1784.5,
+    "Grass": 1391.6
+   },
+   "matches_total": 89,
+   "matches_surface": {
+    "Hard": 53,
+    "Clay": 32,
+    "Grass": 4
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    17,
+    11
+   ],
+   "last52w_surface": [
+    8,
+    8
+   ],
+   "career_surface_wl": [
+    21,
+    32
+   ],
+   "games_won_lost_52w": [
+    381,
+    378
+   ],
+   "sets_won_lost_52w": [
+    42,
+    35
+   ],
+   "avg_opp_elo_last20": 1774.8,
+   "vs_top_opp_52w": [
+    1,
+    2
+   ],
+   "serve_rating": 0.0154,
+   "return_rating": 0.1795,
+   "form_elo": 120.9,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.6253,
+    "first_won": 0.6778,
+    "second_won": 0.4839,
+    "serve_pts_won": 0.6051,
+    "hold": 0.7336,
+    "aces_per_svgm": 0.3624,
+    "df_per_svgm": 0.2882,
+    "bp_saved": 0.5704,
+    "ret_pts_won": 0.4094,
+    "ret_1st_won": 0.3214,
+    "ret_2nd_won": 0.545,
+    "ret_games_won": 0.2907,
+    "bp_conv": 0.4024,
+    "bp_chances_per_retgm": 0.7225,
+    "matches_with_stats": 17
+   },
+   "rank_history": [
+    [
+     "2024-04-01",
+     94.0
+    ],
+    [
+     "2024-04-15",
+     99.0
+    ],
+    [
+     "2024-05-27",
+     103.0
+    ],
+    [
+     "2024-07-01",
+     104.0
+    ],
+    [
+     "2024-07-29",
+     118.0
+    ],
+    [
+     "2024-10-14",
+     119.0
+    ],
+    [
+     "2024-11-04",
+     112.0
+    ],
+    [
+     "2024-12-18",
+     128.0
+    ],
+    [
+     "2025-02-10",
+     164.0
+    ],
+    [
+     "2025-11-02",
+     172.0
+    ],
+    [
+     "2026-03-30",
+     109.0
+    ],
+    [
+     "2026-05-25",
+     100.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:208014",
+   "name": "Rinky Hijikata",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 98.0,
+   "age": 25.651745379876797,
+   "elo": 1781.8,
+   "surface_elo": {
+    "Hard": 1766.3,
+    "Clay": 1327.1,
+    "Grass": 1421.0
+   },
+   "matches_total": 135,
+   "matches_surface": {
+    "Hard": 100,
+    "Clay": 15,
+    "Grass": 20
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    24,
+    24
+   ],
+   "last52w_surface": [
+    22,
+    18
+   ],
+   "career_surface_wl": [
+    47,
+    53
+   ],
+   "games_won_lost_52w": [
+    594,
+    604
+   ],
+   "sets_won_lost_52w": [
+    59,
+    62
+   ],
+   "avg_opp_elo_last20": 1771.9,
+   "vs_top_opp_52w": [
+    2,
+    5
+   ],
+   "serve_rating": -0.0085,
+   "return_rating": -0.0245,
+   "form_elo": 121.9,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6003,
+    "first_won": 0.7135,
+    "second_won": 0.5011,
+    "serve_pts_won": 0.6286,
+    "hold": 0.7747,
+    "aces_per_svgm": 0.3736,
+    "df_per_svgm": 0.2225,
+    "bp_saved": 0.5838,
+    "ret_pts_won": 0.337,
+    "ret_1st_won": 0.2461,
+    "ret_2nd_won": 0.4854,
+    "ret_games_won": 0.1657,
+    "bp_conv": 0.3797,
+    "bp_chances_per_retgm": 0.4365,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     103.0
+    ],
+    [
+     "2025-09-17",
+     111.0
+    ],
+    [
+     "2025-10-13",
+     114.0
+    ],
+    [
+     "2026-01-04",
+     111.0
+    ],
+    [
+     "2026-01-12",
+     115.0
+    ],
+    [
+     "2026-01-19",
+     114.0
+    ],
+    [
+     "2026-02-07",
+     103.0
+    ],
+    [
+     "2026-02-16",
+     113.0
+    ],
+    [
+     "2026-02-23",
+     115.0
+    ],
+    [
+     "2026-03-04",
+     117.0
+    ],
+    [
+     "2026-03-30",
+     102.0
+    ],
+    [
+     "2026-05-25",
+     98.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Rolex Paris Masters",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-06",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 65.5,
+  "components_elo": {
+   "surface_elo": -31.9,
+   "overall_elo": 15.7,
+   "serve_return": 188.2,
+   "form": -1.0
+  },
+  "weighted_contributions": {
+   "surface_elo": -3.9,
+   "overall_elo": 3.7,
+   "serve_return": 65.7,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5932,
+  "serve_return_implied_spw": {
+   "A": 0.6579,
+   "B": 0.6049
+  },
+  "point_probs": {
+   "A_serve": 0.6453,
+   "B_serve": 0.6181
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6453048826238812,
+   "B_serve": 0.6180667804079037
+  },
+  "hold_probs": {
+   "A": 0.8218,
+   "B": 0.7721
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5872,
+   0.592
+  ],
+  "p_tb": [
+   0.3869,
+   0.3849
+  ],
+  "p_decider": [
+   0.3869,
+   0.3848
+  ],
+  "games_mean": [
+   23.778,
+   23.744
+  ],
+  "exp_breaks": [
+   5.025,
+   5.029
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2366,
+    0.2343
+   ],
+   "1-2": [
+    0.1763,
+    0.1737
+   ],
+   "2-0": [
+    0.3765,
+    0.3808
+   ],
+   "2-1": [
+    0.2107,
+    0.2112
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0048
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Luca Van Assche",
+   "elo_points": 65.7,
+   "raw_diff": 188.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Rinky Hijikata",
+   "elo_points": -3.9,
+   "raw_diff": -31.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Luca Van Assche",
+   "elo_points": 3.7,
+   "raw_diff": 15.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4839,
+   "B": 0.5011,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4094,
+   "B": 0.337,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6453,
+   "B": 0.6181,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.7692,
+  "fair_odds": {
+   "decimal": 1.3,
+   "american": "-333"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.13 games; p10-p90 17-33); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7692,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Luca Van Assche to win at least one set",
+    "probability": 0.7634,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Rinky Hijikata +4.5 games",
+    "probability": 0.7016,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Rinky Hijikata to win at least one set",
+    "probability": 0.6235,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6131,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6131,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6122,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Luca Van Assche to win",
+    "probability": 0.5872,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5861,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Rinky Hijikata +2.5 games",
+    "probability": 0.5182,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5164,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4836,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Luca Van Assche -2.5 games",
+    "probability": 0.4818,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4139,
+    "fair_decimal": 2.42
+   },
+   {
+    "selection": "Rinky Hijikata to win",
+    "probability": 0.4128,
+    "fair_decimal": 2.42
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-05",
+ "freeze": {
+  "frozen_at_utc": "2026-11-05T22:00:21+00:00",
+  "version": 1,
+  "input_hash": "9646a596058c8528",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186501",
+  "scheduled_start_utc": "2026-11-06T14:30Z"
+ }
+}

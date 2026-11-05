@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-05T12:21:37+00:00",
+ "generated_at_utc": "2026-11-05T21:59:51+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -915,8 +915,8 @@
    "round": "Round 2",
    "court": "Court 1",
    "start_utc": "2026-11-05T09:35Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Mai Hontama",
@@ -932,7 +932,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:07+00:00",
@@ -1197,8 +1213,8 @@
    "round": "Round 2",
    "court": "Centre Court",
    "start_utc": "2026-11-05T11:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tereza Valentova",
@@ -1214,7 +1230,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:10+00:00",
@@ -1332,8 +1360,8 @@
    "round": "Round 2",
    "court": "Lwena Court",
    "start_utc": "2026-11-05T11:25Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Justina Mikulskyte",
@@ -1349,7 +1377,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:12+00:00",
@@ -1469,8 +1509,8 @@
    "round": "Round 2",
    "court": "Centre Court",
    "start_utc": "2026-11-05T11:35Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Simona Waltert",
@@ -1486,7 +1526,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:14+00:00",
@@ -1604,8 +1656,8 @@
    "round": "Round 3",
    "court": "Court Central",
    "start_utc": "2026-11-05T12:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Ben Shelton",
@@ -1621,7 +1673,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-04T12:09:53+00:00",
@@ -1737,9 +1805,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T13:25Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sorana Cirstea",
@@ -1755,7 +1823,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      1
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-05T12:21:12+00:00",
@@ -1872,9 +1952,9 @@
    "venue": "Chennai, India",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T13:25Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Anastasia Zakharova",
@@ -1890,7 +1970,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-05T12:21:15+00:00",
@@ -2003,15 +2095,166 @@
    }
   },
   {
+   "espn_id": "186498",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Round 3",
+   "court": "Court 1",
+   "start_utc": "2026-11-05T13:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Rinky Hijikata",
+     "id": "atp:208014"
+    },
+    {
+     "name": "Tomas Martin Etcheverry",
+     "id": "atp:144869"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:19+00:00",
+    "path": "forecasts/2026-11-05/186498-rinky-hijikata-vs-tomas-martin-etcheverry/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Tomas Martin Etcheverry",
+    "win_prob": {
+     "A": 0.4052,
+     "B": 0.5948
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3735
+    },
+    "games_mean": 24.91,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8414,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4052,
+      "B": 0.5948
+     },
+     "set_score_probs": {
+      "0-2": 0.3735,
+      "2-0": 0.2281,
+      "1-2": 0.2213,
+      "2-1": 0.1772
+     },
+     "games_pmf": {
+      "12": 0.00019,
+      "13": 0.00184,
+      "14": 0.00585,
+      "15": 0.01465,
+      "16": 0.02618,
+      "17": 0.04953,
+      "18": 0.06041,
+      "19": 0.07865,
+      "20": 0.0748,
+      "21": 0.04808,
+      "22": 0.09304,
+      "23": 0.07674,
+      "24": 0.00869,
+      "25": 0.03409,
+      "26": 0.06074,
+      "27": 0.02253,
+      "28": 0.03048,
+      "29": 0.03177,
+      "30": 0.03454,
+      "31": 0.04504,
+      "32": 0.04955,
+      "33": 0.03131,
+      "34": 0.02301,
+      "35": 0.04117,
+      "36": 0.03051,
+      "37": 0.00256,
+      "38": 0.00978,
+      "39": 0.01427
+     },
+     "games_diff_pmf": {
+      "-12": 0.00013,
+      "-11": 0.00136,
+      "-10": 0.00464,
+      "-9": 0.01096,
+      "-8": 0.02114,
+      "-7": 0.04449,
+      "-6": 0.06332,
+      "-5": 0.09283,
+      "-4": 0.11738,
+      "-3": 0.09998,
+      "-2": 0.07559,
+      "-1": 0.04345,
+      "0": 0.03891,
+      "1": 0.03862,
+      "2": 0.06128,
+      "3": 0.07627,
+      "4": 0.08062,
+      "5": 0.05816,
+      "6": 0.0345,
+      "7": 0.0211,
+      "8": 0.00875,
+      "9": 0.00451,
+      "10": 0.00145,
+      "11": 0.0005,
+      "12": 6e-05
+     },
+     "p_tiebreak": 0.5092,
+     "p_decider": 0.3985
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0032
+   }
+  },
+  {
    "espn_id": "186676",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
    "venue": "Luanda, Angola",
    "round": "Round 2",
    "court": "Lwena Court",
-   "start_utc": "2026-11-05T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T13:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Madhurima Sawant",
@@ -2027,7 +2270,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-05T12:21:17+00:00",
@@ -2140,150 +2395,15 @@
    }
   },
   {
-   "espn_id": "186498",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Round 3",
-   "court": "Court 1",
-   "start_utc": "2026-11-05T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Rinky Hijikata",
-     "id": "atp:208014"
-    },
-    {
-     "name": "Tomas Martin Etcheverry",
-     "id": "atp:144869"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-05T12:21:19+00:00",
-    "path": "forecasts/2026-11-05/186498-rinky-hijikata-vs-tomas-martin-etcheverry/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Tomas Martin Etcheverry",
-    "win_prob": {
-     "A": 0.4052,
-     "B": 0.5948
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3735
-    },
-    "games_mean": 24.91,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8414,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4052,
-      "B": 0.5948
-     },
-     "set_score_probs": {
-      "0-2": 0.3735,
-      "2-0": 0.2281,
-      "1-2": 0.2213,
-      "2-1": 0.1772
-     },
-     "games_pmf": {
-      "12": 0.00019,
-      "13": 0.00184,
-      "14": 0.00585,
-      "15": 0.01465,
-      "16": 0.02618,
-      "17": 0.04953,
-      "18": 0.06041,
-      "19": 0.07865,
-      "20": 0.0748,
-      "21": 0.04808,
-      "22": 0.09304,
-      "23": 0.07674,
-      "24": 0.00869,
-      "25": 0.03409,
-      "26": 0.06074,
-      "27": 0.02253,
-      "28": 0.03048,
-      "29": 0.03177,
-      "30": 0.03454,
-      "31": 0.04504,
-      "32": 0.04955,
-      "33": 0.03131,
-      "34": 0.02301,
-      "35": 0.04117,
-      "36": 0.03051,
-      "37": 0.00256,
-      "38": 0.00978,
-      "39": 0.01427
-     },
-     "games_diff_pmf": {
-      "-12": 0.00013,
-      "-11": 0.00136,
-      "-10": 0.00464,
-      "-9": 0.01096,
-      "-8": 0.02114,
-      "-7": 0.04449,
-      "-6": 0.06332,
-      "-5": 0.09283,
-      "-4": 0.11738,
-      "-3": 0.09998,
-      "-2": 0.07559,
-      "-1": 0.04345,
-      "0": 0.03891,
-      "1": 0.03862,
-      "2": 0.06128,
-      "3": 0.07627,
-      "4": 0.08062,
-      "5": 0.05816,
-      "6": 0.0345,
-      "7": 0.0211,
-      "8": 0.00875,
-      "9": 0.00451,
-      "10": 0.00145,
-      "11": 0.0005,
-      "12": 6e-05
-     },
-     "p_tiebreak": 0.5092,
-     "p_decider": 0.3985
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0032
-   }
-  },
-  {
    "espn_id": "186499",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court Central",
-   "start_utc": "2026-11-05T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T14:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Lorenzo Musetti",
@@ -2299,7 +2419,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:21+00:00",
@@ -2416,9 +2552,9 @@
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court 1",
-   "start_utc": "2026-11-05T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T16:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Nuno Borges",
@@ -2434,7 +2570,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      0
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:24+00:00",
@@ -2551,9 +2699,9 @@
    "venue": "Cali, Colombia",
    "round": "Quarterfinal",
    "court": "Campo 3",
-   "start_utc": "2026-11-05T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T17:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Carole Monnet",
@@ -2569,7 +2717,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:26+00:00",
@@ -2686,9 +2850,9 @@
    "venue": "Cali, Colombia",
    "round": "Quarterfinal",
    "court": "Campo 1",
-   "start_utc": "2026-11-05T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T17:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Julia Riera",
@@ -2704,7 +2868,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:28+00:00",
@@ -2958,9 +3138,9 @@
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court Central",
-   "start_utc": "2026-11-05T18:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T18:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Arthur Fils",
@@ -2976,7 +3156,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:30+00:00",
@@ -3087,149 +3279,14 @@
    }
   },
   {
-   "espn_id": "186730",
-   "tour": "wta",
-   "tournament": "Reto Win Tennis Cali Open",
-   "venue": "Cali, Colombia",
-   "round": "Quarterfinal",
-   "court": "Campo 3",
-   "start_utc": "2026-11-05T18:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Leolia Jeanjean",
-     "id": "wta:206417"
-    },
-    {
-     "name": "Alice Tubello",
-     "id": "wta:220554"
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-05T12:21:32+00:00",
-    "path": "forecasts/2026-11-05/186730-leolia-jeanjean-vs-alice-tubello/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Alice Tubello",
-    "win_prob": {
-     "A": 0.3874,
-     "B": 0.6126
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.4106
-    },
-    "games_mean": 22.18,
-    "strongest": {
-     "selection": "Alice Tubello to win at least one set",
-     "probability": 0.7706,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3874,
-      "B": 0.6126
-     },
-     "set_score_probs": {
-      "0-2": 0.4106,
-      "2-0": 0.2294,
-      "1-2": 0.202,
-      "2-1": 0.158
-     },
-     "games_pmf": {
-      "12": 0.00348,
-      "13": 0.01431,
-      "14": 0.03039,
-      "15": 0.05206,
-      "16": 0.07527,
-      "17": 0.08653,
-      "18": 0.08421,
-      "19": 0.07718,
-      "20": 0.0656,
-      "21": 0.04975,
-      "22": 0.05591,
-      "23": 0.03688,
-      "24": 0.02197,
-      "25": 0.03774,
-      "26": 0.03947,
-      "27": 0.0384,
-      "28": 0.04005,
-      "29": 0.04102,
-      "30": 0.03716,
-      "31": 0.03265,
-      "32": 0.0281,
-      "33": 0.0181,
-      "34": 0.01279,
-      "35": 0.01149,
-      "36": 0.00494,
-      "37": 0.0016,
-      "38": 0.00202,
-      "39": 0.00093
-     },
-     "games_diff_pmf": {
-      "-12": 0.00293,
-      "-11": 0.01079,
-      "-10": 0.02303,
-      "-9": 0.03934,
-      "-8": 0.06091,
-      "-7": 0.08053,
-      "-6": 0.08855,
-      "-5": 0.08971,
-      "-4": 0.08249,
-      "-3": 0.05616,
-      "-2": 0.03745,
-      "-1": 0.02841,
-      "0": 0.02491,
-      "1": 0.02661,
-      "2": 0.03192,
-      "3": 0.0456,
-      "4": 0.05909,
-      "5": 0.05916,
-      "6": 0.05266,
-      "7": 0.04264,
-      "8": 0.02858,
-      "9": 0.01602,
-      "10": 0.00829,
-      "11": 0.00367,
-      "12": 0.00055
-     },
-     "p_tiebreak": 0.2366,
-     "p_decider": 0.36
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0032
-   }
-  },
-  {
    "espn_id": "186729",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
    "venue": "Cali, Colombia",
    "round": "Quarterfinal",
    "court": "Campo 1",
-   "start_utc": "2026-11-05T19:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T19:25Z",
+   "status": "STATUS_SUSPENDED",
    "completed": false,
    "players": [
     {
@@ -3365,9 +3422,9 @@
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court Central",
-   "start_utc": "2026-11-05T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T19:50Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jan-Lennard Struff",
@@ -3383,7 +3440,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T12:21:37+00:00",
@@ -3491,6 +3560,141 @@
     "n_sims": 100000,
     "seed": 20261027,
     "cross_check_max_diff": 0.0008
+   }
+  },
+  {
+   "espn_id": "186730",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Quarterfinal",
+   "court": "Campo 3",
+   "start_utc": "2026-11-05T20:25Z",
+   "status": "STATUS_SUSPENDED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Leolia Jeanjean",
+     "id": "wta:206417"
+    },
+    {
+     "name": "Alice Tubello",
+     "id": "wta:220554"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-05T12:21:32+00:00",
+    "path": "forecasts/2026-11-05/186730-leolia-jeanjean-vs-alice-tubello/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alice Tubello",
+    "win_prob": {
+     "A": 0.3874,
+     "B": 0.6126
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4106
+    },
+    "games_mean": 22.18,
+    "strongest": {
+     "selection": "Alice Tubello to win at least one set",
+     "probability": 0.7706,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3874,
+      "B": 0.6126
+     },
+     "set_score_probs": {
+      "0-2": 0.4106,
+      "2-0": 0.2294,
+      "1-2": 0.202,
+      "2-1": 0.158
+     },
+     "games_pmf": {
+      "12": 0.00348,
+      "13": 0.01431,
+      "14": 0.03039,
+      "15": 0.05206,
+      "16": 0.07527,
+      "17": 0.08653,
+      "18": 0.08421,
+      "19": 0.07718,
+      "20": 0.0656,
+      "21": 0.04975,
+      "22": 0.05591,
+      "23": 0.03688,
+      "24": 0.02197,
+      "25": 0.03774,
+      "26": 0.03947,
+      "27": 0.0384,
+      "28": 0.04005,
+      "29": 0.04102,
+      "30": 0.03716,
+      "31": 0.03265,
+      "32": 0.0281,
+      "33": 0.0181,
+      "34": 0.01279,
+      "35": 0.01149,
+      "36": 0.00494,
+      "37": 0.0016,
+      "38": 0.00202,
+      "39": 0.00093
+     },
+     "games_diff_pmf": {
+      "-12": 0.00293,
+      "-11": 0.01079,
+      "-10": 0.02303,
+      "-9": 0.03934,
+      "-8": 0.06091,
+      "-7": 0.08053,
+      "-6": 0.08855,
+      "-5": 0.08971,
+      "-4": 0.08249,
+      "-3": 0.05616,
+      "-2": 0.03745,
+      "-1": 0.02841,
+      "0": 0.02491,
+      "1": 0.02661,
+      "2": 0.03192,
+      "3": 0.0456,
+      "4": 0.05909,
+      "5": 0.05916,
+      "6": 0.05266,
+      "7": 0.04264,
+      "8": 0.02858,
+      "9": 0.01602,
+      "10": 0.00829,
+      "11": 0.00367,
+      "12": 0.00055
+     },
+     "p_tiebreak": 0.2366,
+     "p_decider": 0.36
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0032
    }
   }
  ]
