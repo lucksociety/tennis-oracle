@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-05T01:00:09+00:00",
+ "generated_at_utc": "2026-11-05T12:24:19+00:00",
  "summary": {
-  "n": 324,
-  "brier": 0.2350422051851852,
-  "log_loss": 0.6664786831330369,
-  "accuracy": 0.595679012345679,
-  "games_mae": 5.203703703703703,
-  "exact_sets_accuracy": 0.4104938271604938,
-  "tiebreak_brier": 0.19527290663580246
+  "n": 331,
+  "brier": 0.23285148679758308,
+  "log_loss": 0.6617089752485253,
+  "accuracy": 0.6042296072507553,
+  "games_mae": 5.185317220543807,
+  "exact_sets_accuracy": 0.41389728096676737,
+  "tiebreak_brier": 0.1977206718731118
  },
- "n": 324,
+ "n": 331,
  "overall": {
-  "n": 324,
-  "brier": 0.2350422051851852,
-  "log_loss": 0.6664786831330369,
-  "accuracy": 0.595679012345679
+  "n": 331,
+  "brier": 0.23285148679758308,
+  "log_loss": 0.6617089752485253,
+  "accuracy": 0.6042296072507553
  },
- "games_mae": 5.203703703703703,
- "exact_sets_accuracy": 0.4104938271604938,
- "tiebreak_brier": 0.19527290663580246,
+ "games_mae": 5.185317220543807,
+ "exact_sets_accuracy": 0.41389728096676737,
+ "tiebreak_brier": 0.1977206718731118,
  "by_surface": {
   "Clay": {
    "n": 32,
@@ -27,70 +27,70 @@
    "accuracy": 0.75
   },
   "Hard": {
-   "n": 292,
-   "brier": 0.24184534284246573,
-   "log_loss": 0.6814263035028827,
-   "accuracy": 0.5787671232876712
+   "n": 299,
+   "brier": 0.23926089551839466,
+   "log_loss": 0.6757961809197313,
+   "accuracy": 0.5886287625418061
   }
  },
  "by_tour": {
   "atp": {
-   "n": 106,
-   "brier": 0.2465239686792453,
-   "log_loss": 0.6948156871717867,
-   "accuracy": 0.5471698113207547
+   "n": 107,
+   "brier": 0.24519987962616827,
+   "log_loss": 0.6919787778403527,
+   "accuracy": 0.5514018691588785
   },
   "wta": {
-   "n": 218,
-   "brier": 0.22945932935779811,
-   "log_loss": 0.6527001398848374,
-   "accuracy": 0.6192660550458715
+   "n": 224,
+   "brier": 0.22695292415178572,
+   "log_loss": 0.6472497391890363,
+   "accuracy": 0.6294642857142857
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 50,
-   "brier": 0.27736804979999996,
-   "log_loss": 0.7674841805725702,
-   "accuracy": 0.5
+   "n": 52,
+   "brier": 0.27191128249999996,
+   "log_loss": 0.7555586271908722,
+   "accuracy": 0.5192307692307693
   },
   "LOW": {
-   "n": 147,
-   "brier": 0.22658731707482993,
-   "log_loss": 0.6460025869757182,
-   "accuracy": 0.6326530612244898
+   "n": 150,
+   "brier": 0.22512778113333334,
+   "log_loss": 0.6427028240243426,
+   "accuracy": 0.64
   },
   "MEDIUM": {
-   "n": 127,
-   "brier": 0.22816485338582673,
-   "log_loss": 0.6504134174885424,
-   "accuracy": 0.5905511811023622
+   "n": 129,
+   "brier": 0.22608750596899227,
+   "log_loss": 0.6459782836409701,
+   "accuracy": 0.5968992248062015
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 171,
-   "mean_pred": 0.5444929824561403,
-   "observed": 0.49122807017543857
+   "n": 174,
+   "mean_pred": 0.5447040229885057,
+   "observed": 0.5
   },
   {
    "bucket": "60%-70%",
-   "n": 105,
-   "mean_pred": 0.6477799999999999,
-   "observed": 0.7428571428571429
+   "n": 107,
+   "mean_pred": 0.6481130841121494,
+   "observed": 0.7476635514018691
   },
   {
    "bucket": "70%-80%",
-   "n": 35,
-   "mean_pred": 0.7371542857142858,
-   "observed": 0.7428571428571429
+   "n": 36,
+   "mean_pred": 0.7371416666666667,
+   "observed": 0.75
   },
   {
    "bucket": "80%-90%",
-   "n": 12,
-   "mean_pred": 0.8409083333333333,
-   "observed": 0.4166666666666667
+   "n": 13,
+   "mean_pred": 0.8389615384615384,
+   "observed": 0.46153846153846156
   },
   {
    "bucket": "90%-100%",
@@ -13706,6 +13706,300 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tommy Paul vs Quentin Halys",
+   "date": "2026-11-05",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.6762,
+   "a_won": 1,
+   "pred_winner": "Tommy Paul",
+   "actual_winner": "Tommy Paul",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4538,
+   "exp_games": 24.3,
+   "actual_games": 23,
+   "p_tb": 0.4647,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6212,
+     1
+    ],
+    "A -2.5": [
+     0.551,
+     1
+    ],
+    "A -3.5": [
+     0.4483,
+     0
+    ],
+    "A -4.5": [
+     0.3179,
+     0
+    ],
+    "A -5.5": [
+     0.2058,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Moyuka Uchijima vs Magda Linette",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4076,
+   "a_won": 0,
+   "pred_winner": "Magda Linette",
+   "actual_winner": "Magda Linette",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3879,
+   "exp_games": 22.85,
+   "actual_games": 19,
+   "p_tb": 0.2934,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3622,
+     0
+    ],
+    "A -2.5": [
+     0.3244,
+     0
+    ],
+    "A -3.5": [
+     0.27,
+     0
+    ],
+    "A -4.5": [
+     0.2034,
+     0
+    ],
+    "A -5.5": [
+     0.1401,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Wang Xinyu vs Antonia Ruzic",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.4328,
+   "a_won": 0,
+   "pred_winner": "Antonia Ruzic",
+   "actual_winner": "Antonia Ruzic",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1994,
+   "exp_games": 22.42,
+   "actual_games": 27,
+   "p_tb": 0.2485,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3913,
+     0
+    ],
+    "A -2.5": [
+     0.3569,
+     0
+    ],
+    "A -3.5": [
+     0.3076,
+     0
+    ],
+    "A -4.5": [
+     0.2407,
+     0
+    ],
+    "A -5.5": [
+     0.176,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Mika Stojsavljevic vs Zeynep Sonmez",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.2633,
+   "a_won": 0,
+   "pred_winner": "Zeynep Sonmez",
+   "actual_winner": "Zeynep Sonmez",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.5329,
+   "exp_games": 21.69,
+   "actual_games": 23,
+   "p_tb": 0.2271,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2274,
+     0
+    ],
+    "A -2.5": [
+     0.2017,
+     0
+    ],
+    "A -3.5": [
+     0.1676,
+     0
+    ],
+    "A -4.5": [
+     0.1238,
+     0
+    ],
+    "A -5.5": [
+     0.0842,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Elena Pridankina vs Alexandra Shubladze",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.345,
+   "a_won": 0,
+   "pred_winner": "Alexandra Shubladze",
+   "actual_winner": "Alexandra Shubladze",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2041,
+   "exp_games": 21.94,
+   "actual_games": 29,
+   "p_tb": 0.2237,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3069,
+     0
+    ],
+    "A -2.5": [
+     0.2769,
+     0
+    ],
+    "A -3.5": [
+     0.2371,
+     0
+    ],
+    "A -4.5": [
+     0.1839,
+     0
+    ],
+    "A -5.5": [
+     0.1334,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Kristina Kroitor vs Ksenia Zaytseva",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.4894,
+   "a_won": 0,
+   "pred_winner": "Ksenia Zaytseva",
+   "actual_winner": "Ksenia Zaytseva",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3159,
+   "exp_games": 23.04,
+   "actual_games": 17,
+   "p_tb": 0.303,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4435,
+     0
+    ],
+    "A -2.5": [
+     0.4009,
+     0
+    ],
+    "A -3.5": [
+     0.3406,
+     0
+    ],
+    "A -4.5": [
+     0.2615,
+     0
+    ],
+    "A -5.5": [
+     0.1849,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anna Blinkova vs Li Zongyu",
+   "date": "2026-11-05",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.8156,
+   "a_won": 1,
+   "pred_winner": "Anna Blinkova",
+   "actual_winner": "Anna Blinkova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1875,
+   "exp_games": 20.8,
+   "actual_games": 27,
+   "p_tb": 0.1942,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.7858,
+     1
+    ],
+    "A -2.5": [
+     0.7542,
+     1
+    ],
+    "A -3.5": [
+     0.7017,
+     1
+    ],
+    "A -4.5": [
+     0.6154,
+     1
+    ],
+    "A -5.5": [
+     0.5117,
+     0
+    ]
+   },
+   "data_quality": "LOW",
    "version": "v1.1"
   }
  ]

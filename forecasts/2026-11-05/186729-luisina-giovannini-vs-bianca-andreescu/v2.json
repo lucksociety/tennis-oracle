@@ -1,0 +1,671 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.23,
+  "B": 0.77
+ },
+ "win_prob_exact": {
+  "A": 0.23002,
+  "B": 0.76998
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 4.35,
+   "american": "+335"
+  },
+  "B": {
+   "decimal": 1.3,
+   "american": "-335"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5695,
+  "1-2": 0.2005,
+  "2-0": 0.1201,
+  "2-1": 0.1099
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0269,
+ "games": {
+  "mean": 21.49,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00583,
+   "13": 0.02107,
+   "14": 0.04311,
+   "15": 0.06686,
+   "16": 0.08661,
+   "17": 0.09292,
+   "18": 0.08673,
+   "19": 0.07669,
+   "20": 0.06481,
+   "21": 0.04635,
+   "22": 0.05306,
+   "23": 0.03356,
+   "24": 0.01868,
+   "25": 0.03332,
+   "26": 0.03578,
+   "27": 0.03221,
+   "28": 0.03302,
+   "29": 0.03463,
+   "30": 0.0326,
+   "31": 0.02922,
+   "32": 0.02555,
+   "33": 0.0156,
+   "34": 0.01156,
+   "35": 0.0109,
+   "36": 0.0051,
+   "37": 0.0013,
+   "38": 0.00202,
+   "39": 0.00091
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0057,
+  "-11": 0.02017,
+  "-10": 0.04147,
+  "-9": 0.0643,
+  "-8": 0.08868,
+  "-7": 0.10715,
+  "-6": 0.11377,
+  "-5": 0.10603,
+  "-4": 0.09225,
+  "-3": 0.05995,
+  "-2": 0.03705,
+  "-1": 0.02476,
+  "0": 0.02183,
+  "1": 0.02018,
+  "2": 0.02411,
+  "3": 0.03152,
+  "4": 0.03868,
+  "5": 0.03445,
+  "6": 0.02738,
+  "7": 0.02026,
+  "8": 0.011,
+  "9": 0.00576,
+  "10": 0.00241,
+  "11": 0.00101,
+  "12": 0.00013
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6836,
+   "under": 0.3164
+  },
+  {
+   "line": 18.5,
+   "over": 0.5969,
+   "under": 0.4031
+  },
+  {
+   "line": 19.5,
+   "over": 0.5202,
+   "under": 0.4798
+  },
+  {
+   "line": 20.5,
+   "over": 0.4554,
+   "under": 0.5446
+  },
+  {
+   "line": 21.5,
+   "over": 0.409,
+   "under": 0.591
+  },
+  {
+   "line": 22.5,
+   "over": 0.356,
+   "under": 0.644
+  },
+  {
+   "line": 23.5,
+   "over": 0.3224,
+   "under": 0.6776
+  },
+  {
+   "line": 24.5,
+   "over": 0.3037,
+   "under": 0.6963
+  },
+  {
+   "line": 25.5,
+   "over": 0.2704,
+   "under": 0.7296
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.1967,
+   "B +1.5": 0.8033,
+   "B -1.5": 0.7365,
+   "A +1.5": 0.2635
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.1726,
+   "B +2.5": 0.8274,
+   "B -2.5": 0.6995,
+   "A +2.5": 0.3005
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1411,
+   "B +3.5": 0.8589,
+   "B -3.5": 0.6395,
+   "A +3.5": 0.3605
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1024,
+   "B +4.5": 0.8976,
+   "B -4.5": 0.5473,
+   "A +4.5": 0.4527
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0679,
+   "B +5.5": 0.9321,
+   "B -5.5": 0.4412,
+   "A +5.5": 0.5588
+  }
+ ],
+ "p_tiebreak": 0.2237,
+ "p_a_wins_set": 0.4305,
+ "p_b_wins_set": 0.8799,
+ "p_decider": 0.3104,
+ "expected_breaks": {
+  "total": 7.52,
+  "by_A": 2.87,
+  "by_B": 4.64
+ },
+ "expected_break_points": {
+  "A_creates": 6.92,
+  "B_creates": 9.55
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.5695
+ },
+ "match": "Luisina Giovannini vs Bianca Andreescu",
+ "players": {
+  "A": {
+   "id": "wta:236972",
+   "name": "Luisina Giovannini",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 465.0,
+   "age": 19.94387405886379,
+   "elo": 1586.2,
+   "surface_elo": {
+    "Hard": 1508.7,
+    "Clay": 1643.9,
+    "Grass": 1419.2
+   },
+   "matches_total": 9,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 6,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    4
+   ],
+   "last20": [
+    5,
+    4
+   ],
+   "last52w": [
+    5,
+    3
+   ],
+   "last52w_surface": [
+    4,
+    1
+   ],
+   "career_surface_wl": [
+    4,
+    2
+   ],
+   "games_won_lost_52w": [
+    91,
+    75
+   ],
+   "sets_won_lost_52w": [
+    10,
+    8
+   ],
+   "avg_opp_elo_last20": 1539.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0439,
+   "return_rating": 0.0013,
+   "form_elo": 29.8,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6676,
+    "first_won": 0.6,
+    "second_won": 0.5043,
+    "serve_pts_won": 0.5682,
+    "hold": 0.6364,
+    "aces_per_svgm": 0.1818,
+    "df_per_svgm": 0.2182,
+    "bp_saved": 0.4872,
+    "ret_pts_won": 0.5058,
+    "ret_1st_won": 0.4513,
+    "ret_2nd_won": 0.6102,
+    "ret_games_won": 0.5283,
+    "bp_conv": 0.6829,
+    "bp_chances_per_retgm": 0.7736,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2024-11-25",
+     465.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.30376454483231,
+   "elo": 1818.1,
+   "surface_elo": {
+    "Hard": 1704.7,
+    "Clay": 1855.3,
+    "Grass": 1620.5
+   },
+   "matches_total": 211,
+   "matches_surface": {
+    "Hard": 129,
+    "Clay": 44,
+    "Grass": 38
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    10,
+    0
+   ],
+   "last20": [
+    16,
+    4
+   ],
+   "last52w": [
+    22,
+    11
+   ],
+   "last52w_surface": [
+    9,
+    2
+   ],
+   "career_surface_wl": [
+    29,
+    15
+   ],
+   "games_won_lost_52w": [
+    389,
+    302
+   ],
+   "sets_won_lost_52w": [
+    48,
+    26
+   ],
+   "avg_opp_elo_last20": 1626.5,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.3033,
+   "return_rating": 0.131,
+   "form_elo": 131.4,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6125,
+    "first_won": 0.6675,
+    "second_won": 0.4763,
+    "serve_pts_won": 0.5934,
+    "hold": 0.715,
+    "aces_per_svgm": 0.375,
+    "df_per_svgm": 0.31,
+    "bp_saved": 0.5746,
+    "ret_pts_won": 0.4556,
+    "ret_1st_won": 0.4052,
+    "ret_2nd_won": 0.5455,
+    "ret_games_won": 0.4149,
+    "bp_conv": 0.4483,
+    "bp_chances_per_retgm": 0.9255,
+    "matches_with_stats": 20
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Reto Win Tennis Cali Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-05",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "15768c30e2d0b5f2",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Luisina Giovannini: sparse record (9 tour matches, 5 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -210.7,
+  "components_elo": {
+   "surface_elo": -211.3,
+   "overall_elo": -231.9,
+   "serve_return": -373.2,
+   "form": -101.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -25.8,
+   "overall_elo": -54.8,
+   "serve_return": -130.2,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.2292,
+  "serve_return_implied_spw": {
+   "A": 0.517,
+   "B": 0.6123
+  },
+  "point_probs": {
+   "A_serve": 0.5214,
+   "B_serve": 0.6081
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5213903867791577,
+   "B_serve": 0.6080643422183578
+  },
+  "hold_probs": {
+   "A": 0.5533,
+   "B": 0.7523
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.23,
+   0.2312
+  ],
+  "p_tb": [
+   0.2237,
+   0.225
+  ],
+  "p_decider": [
+   0.3104,
+   0.309
+  ],
+  "games_mean": [
+   21.488,
+   21.461
+  ],
+  "exp_breaks": [
+   7.516,
+   7.495
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5695,
+    0.5693
+   ],
+   "1-2": [
+    0.2005,
+    0.1995
+   ],
+   "2-0": [
+    0.1201,
+    0.1217
+   ],
+   "2-1": [
+    0.1099,
+    0.1095
+   ]
+  },
+  "mc_se_p_a": 0.0013,
+  "max_abs_diff_probs": 0.0016
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": -130.2,
+   "raw_diff": -373.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -54.8,
+   "raw_diff": -231.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": -25.8,
+   "raw_diff": -211.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5043,
+   "B": 0.4763,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.5058,
+   "B": 0.4556,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5214,
+   "B": 0.6081,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win at least one set",
+  "probability": 0.8799,
+  "fair_odds": {
+   "decimal": 1.14,
+   "american": "-733"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Luisina Giovannini: sparse record (9 tour matches, 5 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.8799,
+    "fair_decimal": 1.14
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7763,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.77,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.6995,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6963,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6896,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.644,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.5969,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Exact sets Luisina Giovannini 0-2 Bianca Andreescu",
+    "probability": 0.5695,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Bianca Andreescu -4.5 games",
+    "probability": 0.5473,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5446,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4554,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Luisina Giovannini +4.5 games",
+    "probability": 0.4527,
+    "fair_decimal": 2.21
+   },
+   {
+    "selection": "Luisina Giovannini to win at least one set",
+    "probability": 0.4305,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.4031,
+    "fair_decimal": 2.48
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-05",
+ "freeze": {
+  "frozen_at_utc": "2026-11-05T12:21:35+00:00",
+  "version": 2,
+  "input_hash": "9290a595415c1b11",
+  "reason": "performance inputs or format refreshed (results through 2026-11-05)",
+  "pre_match": true,
+  "espn_id": "186729",
+  "scheduled_start_utc": "2026-11-05T19:00Z"
+ }
+}

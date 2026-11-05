@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-05T00:55:36+00:00",
+ "generated_at_utc": "2026-11-05T12:21:37+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -12,9 +12,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Court 1",
-   "start_utc": "2026-11-05T06:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T06:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Elena Pridankina",
@@ -30,7 +30,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:54:55+00:00",
@@ -147,9 +163,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T06:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T06:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Wang Xinyu",
@@ -165,7 +181,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:54:57+00:00",
@@ -285,9 +317,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T07:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T08:45Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Mika Stojsavljevic",
@@ -303,7 +335,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:54:59+00:00",
@@ -414,152 +458,15 @@
    }
   },
   {
-   "espn_id": "186681",
-   "tour": "wta",
-   "tournament": "Angola Ladies Open",
-   "venue": "Luanda, Angola",
-   "round": "Round 2",
-   "court": "Court 3",
-   "start_utc": "2026-11-05T09:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Kristina Kroitor",
-     "id": "wta:espn19308"
-    },
-    {
-     "name": "Ksenia Zaytseva",
-     "id": "wta:espn13737"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-05T00:55:01+00:00",
-    "path": "forecasts/2026-11-05/186681-kristina-kroitor-vs-ksenia-zaytseva/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Ksenia Zaytseva",
-    "win_prob": {
-     "A": 0.4894,
-     "B": 0.5106
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.3159
-    },
-    "games_mean": 23.04,
-    "strongest": {
-     "selection": "Kristina Kroitor +4.5 games",
-     "probability": 0.7218,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "recommendation_quality": {
-     "eligible": false,
-     "reasons": [
-      "insufficient player history"
-     ],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4894,
-      "B": 0.5106
-     },
-     "set_score_probs": {
-      "0-2": 0.3159,
-      "2-0": 0.2993,
-      "1-2": 0.1947,
-      "2-1": 0.19
-     },
-     "games_pmf": {
-      "12": 0.00154,
-      "13": 0.00776,
-      "14": 0.0196,
-      "15": 0.03818,
-      "16": 0.05828,
-      "17": 0.07806,
-      "18": 0.07936,
-      "19": 0.08016,
-      "20": 0.06949,
-      "21": 0.05079,
-      "22": 0.06511,
-      "23": 0.04489,
-      "24": 0.01849,
-      "25": 0.03755,
-      "26": 0.04265,
-      "27": 0.03622,
-      "28": 0.0411,
-      "29": 0.04285,
-      "30": 0.04086,
-      "31": 0.03922,
-      "32": 0.03469,
-      "33": 0.02219,
-      "34": 0.01673,
-      "35": 0.01736,
-      "36": 0.00957,
-      "37": 0.00191,
-      "38": 0.00321,
-      "39": 0.00218
-     },
-     "games_diff_pmf": {
-      "-12": 0.00084,
-      "-11": 0.00409,
-      "-10": 0.01065,
-      "-9": 0.0209,
-      "-8": 0.03562,
-      "-7": 0.05681,
-      "-6": 0.06918,
-      "-5": 0.0801,
-      "-4": 0.08249,
-      "-3": 0.06174,
-      "-2": 0.04238,
-      "-1": 0.03125,
-      "0": 0.02909,
-      "1": 0.03131,
-      "2": 0.04265,
-      "3": 0.06027,
-      "4": 0.07909,
-      "5": 0.07664,
-      "6": 0.06544,
-      "7": 0.05285,
-      "8": 0.03304,
-      "9": 0.01966,
-      "10": 0.00951,
-      "11": 0.0037,
-      "12": 0.0007
-     },
-     "p_tiebreak": 0.303,
-     "p_decider": 0.3847
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0031
-   }
-  },
-  {
    "espn_id": "186683",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
    "venue": "Luanda, Angola",
    "round": "Round 2",
    "court": "Lwena Court",
-   "start_utc": "2026-11-05T09:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T09:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Anna Blinkova",
@@ -575,7 +482,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:03+00:00",
@@ -689,15 +612,164 @@
    }
   },
   {
+   "espn_id": "186681",
+   "tour": "wta",
+   "tournament": "Angola Ladies Open",
+   "venue": "Luanda, Angola",
+   "round": "Round 2",
+   "court": "Court 3",
+   "start_utc": "2026-11-05T09:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Kristina Kroitor",
+     "id": "wta:espn19308"
+    },
+    {
+     "name": "Ksenia Zaytseva",
+     "id": "wta:espn13737"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T00:55:01+00:00",
+    "path": "forecasts/2026-11-05/186681-kristina-kroitor-vs-ksenia-zaytseva/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Ksenia Zaytseva",
+    "win_prob": {
+     "A": 0.4894,
+     "B": 0.5106
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3159
+    },
+    "games_mean": 23.04,
+    "strongest": {
+     "selection": "Kristina Kroitor +4.5 games",
+     "probability": 0.7218,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4894,
+      "B": 0.5106
+     },
+     "set_score_probs": {
+      "0-2": 0.3159,
+      "2-0": 0.2993,
+      "1-2": 0.1947,
+      "2-1": 0.19
+     },
+     "games_pmf": {
+      "12": 0.00154,
+      "13": 0.00776,
+      "14": 0.0196,
+      "15": 0.03818,
+      "16": 0.05828,
+      "17": 0.07806,
+      "18": 0.07936,
+      "19": 0.08016,
+      "20": 0.06949,
+      "21": 0.05079,
+      "22": 0.06511,
+      "23": 0.04489,
+      "24": 0.01849,
+      "25": 0.03755,
+      "26": 0.04265,
+      "27": 0.03622,
+      "28": 0.0411,
+      "29": 0.04285,
+      "30": 0.04086,
+      "31": 0.03922,
+      "32": 0.03469,
+      "33": 0.02219,
+      "34": 0.01673,
+      "35": 0.01736,
+      "36": 0.00957,
+      "37": 0.00191,
+      "38": 0.00321,
+      "39": 0.00218
+     },
+     "games_diff_pmf": {
+      "-12": 0.00084,
+      "-11": 0.00409,
+      "-10": 0.01065,
+      "-9": 0.0209,
+      "-8": 0.03562,
+      "-7": 0.05681,
+      "-6": 0.06918,
+      "-5": 0.0801,
+      "-4": 0.08249,
+      "-3": 0.06174,
+      "-2": 0.04238,
+      "-1": 0.03125,
+      "0": 0.02909,
+      "1": 0.03131,
+      "2": 0.04265,
+      "3": 0.06027,
+      "4": 0.07909,
+      "5": 0.07664,
+      "6": 0.06544,
+      "7": 0.05285,
+      "8": 0.03304,
+      "9": 0.01966,
+      "10": 0.00951,
+      "11": 0.0037,
+      "12": 0.0007
+     },
+     "p_tiebreak": 0.303,
+     "p_decider": 0.3847
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0031
+   }
+  },
+  {
    "espn_id": "186590",
    "tour": "wta",
    "tournament": "Chennai Open",
    "venue": "Chennai, India",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T09:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T09:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Moyuka Uchijima",
@@ -713,7 +785,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-05T00:55:05+00:00",
@@ -830,8 +914,8 @@
    "venue": "Chennai, India",
    "round": "Round 2",
    "court": "Court 1",
-   "start_utc": "2026-11-05T09:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T09:35Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -965,9 +1049,9 @@
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court Central",
-   "start_utc": "2026-11-05T10:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-05T10:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tommy Paul",
@@ -983,7 +1067,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-04T19:45:49+00:00",
@@ -1100,8 +1196,8 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T10:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T11:10Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1235,8 +1331,8 @@
    "venue": "Luanda, Angola",
    "round": "Round 2",
    "court": "Lwena Court",
-   "start_utc": "2026-11-05T10:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T11:25Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1372,8 +1468,8 @@
    "venue": "Chennai, India",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T11:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T11:35Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1507,8 +1603,8 @@
    "venue": "Paris, France",
    "round": "Round 3",
    "court": "Court Central",
-   "start_utc": "2026-11-05T11:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-05T12:05Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1641,7 +1737,7 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Round 2",
    "court": "Centre Court",
-   "start_utc": "2026-11-05T12:00Z",
+   "start_utc": "2026-11-05T12:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -1661,14 +1757,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-05T00:55:16+00:00",
-    "path": "forecasts/2026-11-05/186641-sorana-cirstea-vs-mary-stoiana/v3.json",
+    "frozen_version": 4,
+    "frozen_at_utc": "2026-11-05T12:21:12+00:00",
+    "path": "forecasts/2026-11-05/186641-sorana-cirstea-vs-mary-stoiana/v4.json",
     "model_version": "v1.1",
     "predicted_winner": "Sorana Cirstea",
     "win_prob": {
-     "A": 0.7668,
-     "B": 0.2332
+     "A": 0.7665,
+     "B": 0.2335
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -1678,12 +1774,12 @@
       "6-2",
       "6-2"
      ],
-     "prob": 0.567
+     "prob": 0.5685
     },
-    "games_mean": 21.47,
+    "games_mean": 21.46,
     "strongest": {
      "selection": "Sorana Cirstea to win at least one set",
-     "probability": 0.8776,
+     "probability": 0.8785,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -1695,215 +1791,78 @@
     "games_projected": 20.0,
     "dist": {
      "win_prob": {
-      "A": 0.7668,
-      "B": 0.2332
+      "A": 0.7665,
+      "B": 0.2335
      },
      "set_score_probs": {
-      "2-0": 0.567,
-      "2-1": 0.1998,
-      "0-2": 0.1224,
-      "1-2": 0.1109
+      "2-0": 0.5685,
+      "2-1": 0.198,
+      "0-2": 0.1215,
+      "1-2": 0.112
      },
      "games_pmf": {
-      "12": 0.00566,
-      "13": 0.02203,
-      "14": 0.04205,
-      "15": 0.06643,
-      "16": 0.08694,
-      "17": 0.09408,
-      "18": 0.08588,
-      "19": 0.07761,
-      "20": 0.06487,
-      "21": 0.04761,
-      "22": 0.05308,
-      "23": 0.03364,
-      "24": 0.01849,
-      "25": 0.03238,
-      "26": 0.03539,
-      "27": 0.03172,
-      "28": 0.0342,
-      "29": 0.03397,
-      "30": 0.03176,
-      "31": 0.02901,
-      "32": 0.02484,
-      "33": 0.01626,
-      "34": 0.01221,
-      "35": 0.01064,
-      "36": 0.00498,
-      "37": 0.00155,
-      "38": 0.00176,
-      "39": 0.00096
+      "12": 0.00527,
+      "13": 0.0208,
+      "14": 0.04305,
+      "15": 0.0674,
+      "16": 0.08688,
+      "17": 0.0945,
+      "18": 0.08667,
+      "19": 0.0768,
+      "20": 0.06524,
+      "21": 0.04706,
+      "22": 0.05155,
+      "23": 0.03518,
+      "24": 0.01943,
+      "25": 0.03226,
+      "26": 0.03416,
+      "27": 0.03187,
+      "28": 0.03452,
+      "29": 0.03358,
+      "30": 0.0326,
+      "31": 0.03047,
+      "32": 0.02444,
+      "33": 0.01517,
+      "34": 0.01105,
+      "35": 0.0109,
+      "36": 0.0052,
+      "37": 0.00115,
+      "38": 0.00167,
+      "39": 0.00113
      },
      "games_diff_pmf": {
-      "-12": 0.00014,
-      "-11": 0.00102,
+      "-12": 0.00013,
+      "-11": 0.00096,
       "-10": 0.00274,
-      "-9": 0.00544,
-      "-8": 0.01188,
-      "-7": 0.02084,
-      "-6": 0.02797,
-      "-5": 0.03559,
-      "-4": 0.0389,
-      "-3": 0.03187,
-      "-2": 0.02405,
-      "-1": 0.02065,
-      "0": 0.02127,
-      "1": 0.02482,
-      "2": 0.03642,
-      "3": 0.05833,
-      "4": 0.09151,
-      "5": 0.10494,
-      "6": 0.11327,
-      "7": 0.10905,
-      "8": 0.0883,
-      "9": 0.06423,
-      "10": 0.04014,
-      "11": 0.02111,
-      "12": 0.00552
+      "-9": 0.00646,
+      "-8": 0.01186,
+      "-7": 0.0208,
+      "-6": 0.02736,
+      "-5": 0.03459,
+      "-4": 0.0384,
+      "-3": 0.03246,
+      "-2": 0.02421,
+      "-1": 0.02095,
+      "0": 0.02201,
+      "1": 0.02405,
+      "2": 0.03575,
+      "3": 0.0589,
+      "4": 0.09123,
+      "5": 0.10607,
+      "6": 0.11288,
+      "7": 0.10871,
+      "8": 0.08881,
+      "9": 0.0644,
+      "10": 0.04121,
+      "11": 0.01992,
+      "12": 0.00514
      },
-     "p_tiebreak": 0.2253,
-     "p_decider": 0.3106
+     "p_tiebreak": 0.224,
+     "p_decider": 0.31
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.002
-   }
-  },
-  {
-   "espn_id": "186676",
-   "tour": "wta",
-   "tournament": "Angola Ladies Open",
-   "venue": "Luanda, Angola",
-   "round": "Round 2",
-   "court": "Lwena Court",
-   "start_utc": "2026-11-05T12:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Madhurima Sawant",
-     "id": "wta:espn14237"
-    },
-    {
-     "name": "Noma Noha Akugue",
-     "id": "wta:223333"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-05T00:55:19+00:00",
-    "path": "forecasts/2026-11-05/186676-madhurima-sawant-vs-noma-noha-akugue/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Noma Noha Akugue",
-    "win_prob": {
-     "A": 0.2864,
-     "B": 0.7136
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.5066
-    },
-    "games_mean": 22.06,
-    "strongest": {
-     "selection": "Noma Noha Akugue to win at least one set",
-     "probability": 0.8431,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "recommendation_quality": {
-     "eligible": false,
-     "reasons": [
-      "insufficient player history"
-     ],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 20.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.2864,
-      "B": 0.7136
-     },
-     "set_score_probs": {
-      "0-2": 0.5066,
-      "1-2": 0.207,
-      "2-0": 0.1569,
-      "2-1": 0.1295
-     },
-     "games_pmf": {
-      "12": 0.00394,
-      "13": 0.01443,
-      "14": 0.0325,
-      "15": 0.05623,
-      "16": 0.07467,
-      "17": 0.08775,
-      "18": 0.08778,
-      "19": 0.07869,
-      "20": 0.06787,
-      "21": 0.04992,
-      "22": 0.05709,
-      "23": 0.03783,
-      "24": 0.01859,
-      "25": 0.03403,
-      "26": 0.03783,
-      "27": 0.03381,
-      "28": 0.03633,
-      "29": 0.03746,
-      "30": 0.03599,
-      "31": 0.03287,
-      "32": 0.02882,
-      "33": 0.01809,
-      "34": 0.01316,
-      "35": 0.01316,
-      "36": 0.00605,
-      "37": 0.00156,
-      "38": 0.00223,
-      "39": 0.00132
-     },
-     "games_diff_pmf": {
-      "-12": 0.00378,
-      "-11": 0.01332,
-      "-10": 0.02957,
-      "-9": 0.05137,
-      "-8": 0.07127,
-      "-7": 0.09437,
-      "-6": 0.10728,
-      "-5": 0.10546,
-      "-4": 0.09502,
-      "-3": 0.06345,
-      "-2": 0.0399,
-      "-1": 0.02785,
-      "0": 0.0246,
-      "1": 0.02339,
-      "2": 0.0293,
-      "3": 0.03875,
-      "4": 0.04774,
-      "5": 0.04412,
-      "6": 0.03565,
-      "7": 0.02594,
-      "8": 0.01487,
-      "9": 0.00792,
-      "10": 0.00371,
-      "11": 0.00121,
-      "12": 0.00016
-     },
-     "p_tiebreak": 0.2528,
-     "p_decider": 0.3365
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0019
+    "cross_check_max_diff": 0.0024
    }
   },
   {
@@ -1933,14 +1892,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-05T00:55:21+00:00",
-    "path": "forecasts/2026-11-05/186588-anastasia-zakharova-vs-vaishnavi-adkar/v3.json",
+    "frozen_version": 4,
+    "frozen_at_utc": "2026-11-05T12:21:15+00:00",
+    "path": "forecasts/2026-11-05/186588-anastasia-zakharova-vs-vaishnavi-adkar/v4.json",
     "model_version": "v1.1",
     "predicted_winner": "Anastasia Zakharova",
     "win_prob": {
-     "A": 0.5788,
-     "B": 0.4212
+     "A": 0.5796,
+     "B": 0.4204
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -1950,12 +1909,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.3806
+     "prob": 0.3825
     },
-    "games_mean": 22.38,
+    "games_mean": 22.35,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7533,
+     "probability": 0.7543,
      "confidence": "Low"
     },
     "data_quality": "LOW",
@@ -1969,78 +1928,215 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.5788,
-      "B": 0.4212
+      "A": 0.5796,
+      "B": 0.4204
      },
      "set_score_probs": {
-      "2-0": 0.3806,
-      "0-2": 0.2511,
-      "2-1": 0.1982,
-      "1-2": 0.1701
+      "2-0": 0.3825,
+      "0-2": 0.2518,
+      "2-1": 0.1971,
+      "1-2": 0.1686
      },
      "games_pmf": {
-      "12": 0.00292,
-      "13": 0.01191,
-      "14": 0.02854,
-      "15": 0.04884,
-      "16": 0.07136,
-      "17": 0.08597,
-      "18": 0.08399,
-      "19": 0.07587,
-      "20": 0.06628,
-      "21": 0.04948,
-      "22": 0.05903,
-      "23": 0.037,
-      "24": 0.02237,
-      "25": 0.037,
-      "26": 0.04158,
-      "27": 0.03849,
-      "28": 0.04077,
-      "29": 0.04038,
-      "30": 0.03854,
-      "31": 0.03481,
-      "32": 0.029,
-      "33": 0.01884,
-      "34": 0.01385,
-      "35": 0.01275,
-      "36": 0.00522,
-      "37": 0.00174,
-      "38": 0.00231,
-      "39": 0.00116
+      "12": 0.00265,
+      "13": 0.01254,
+      "14": 0.02831,
+      "15": 0.05052,
+      "16": 0.07106,
+      "17": 0.0858,
+      "18": 0.08391,
+      "19": 0.0782,
+      "20": 0.066,
+      "21": 0.04954,
+      "22": 0.05859,
+      "23": 0.03748,
+      "24": 0.02093,
+      "25": 0.03692,
+      "26": 0.04006,
+      "27": 0.0376,
+      "28": 0.04031,
+      "29": 0.04096,
+      "30": 0.03879,
+      "31": 0.03395,
+      "32": 0.02876,
+      "33": 0.01911,
+      "34": 0.01426,
+      "35": 0.01259,
+      "36": 0.00586,
+      "37": 0.00195,
+      "38": 0.00237,
+      "39": 0.00098
      },
      "games_diff_pmf": {
-      "-12": 0.00088,
-      "-11": 0.00364,
-      "-10": 0.01002,
-      "-9": 0.01859,
-      "-8": 0.03049,
-      "-7": 0.04692,
-      "-6": 0.05791,
-      "-5": 0.06345,
-      "-4": 0.06532,
-      "-3": 0.04701,
-      "-2": 0.03458,
-      "-1": 0.02781,
-      "0": 0.02648,
-      "1": 0.0299,
-      "2": 0.03806,
-      "3": 0.0548,
-      "4": 0.0813,
-      "5": 0.08621,
-      "6": 0.08519,
-      "7": 0.07358,
-      "8": 0.054,
-      "9": 0.03398,
-      "10": 0.01949,
-      "11": 0.00835,
-      "12": 0.00204
+      "-12": 0.0008,
+      "-11": 0.00392,
+      "-10": 0.00968,
+      "-9": 0.01921,
+      "-8": 0.03062,
+      "-7": 0.04704,
+      "-6": 0.05771,
+      "-5": 0.06318,
+      "-4": 0.06475,
+      "-3": 0.04744,
+      "-2": 0.03341,
+      "-1": 0.02744,
+      "0": 0.02697,
+      "1": 0.02948,
+      "2": 0.0387,
+      "3": 0.05626,
+      "4": 0.08136,
+      "5": 0.0865,
+      "6": 0.08339,
+      "7": 0.07424,
+      "8": 0.05327,
+      "9": 0.03469,
+      "10": 0.01935,
+      "11": 0.00874,
+      "12": 0.00185
      },
-     "p_tiebreak": 0.2467,
-     "p_decider": 0.3683
+     "p_tiebreak": 0.2457,
+     "p_decider": 0.3657
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0018
+    "cross_check_max_diff": 0.0036
+   }
+  },
+  {
+   "espn_id": "186676",
+   "tour": "wta",
+   "tournament": "Angola Ladies Open",
+   "venue": "Luanda, Angola",
+   "round": "Round 2",
+   "court": "Lwena Court",
+   "start_utc": "2026-11-05T12:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Madhurima Sawant",
+     "id": "wta:espn14237"
+    },
+    {
+     "name": "Noma Noha Akugue",
+     "id": "wta:223333"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 4,
+    "frozen_at_utc": "2026-11-05T12:21:17+00:00",
+    "path": "forecasts/2026-11-05/186676-madhurima-sawant-vs-noma-noha-akugue/v4.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Noma Noha Akugue",
+    "win_prob": {
+     "A": 0.2874,
+     "B": 0.7126
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.5057
+    },
+    "games_mean": 22.08,
+    "strongest": {
+     "selection": "Noma Noha Akugue to win at least one set",
+     "probability": 0.8426,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 20.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.2874,
+      "B": 0.7126
+     },
+     "set_score_probs": {
+      "0-2": 0.5057,
+      "1-2": 0.2069,
+      "2-0": 0.1574,
+      "2-1": 0.1301
+     },
+     "games_pmf": {
+      "12": 0.0038,
+      "13": 0.01511,
+      "14": 0.03234,
+      "15": 0.05475,
+      "16": 0.07624,
+      "17": 0.0879,
+      "18": 0.08568,
+      "19": 0.07809,
+      "20": 0.06811,
+      "21": 0.04846,
+      "22": 0.05861,
+      "23": 0.03889,
+      "24": 0.01873,
+      "25": 0.03364,
+      "26": 0.038,
+      "27": 0.03459,
+      "28": 0.0363,
+      "29": 0.03693,
+      "30": 0.03659,
+      "31": 0.03265,
+      "32": 0.02831,
+      "33": 0.01814,
+      "34": 0.01275,
+      "35": 0.01329,
+      "36": 0.00649,
+      "37": 0.00162,
+      "38": 0.00247,
+      "39": 0.00152
+     },
+     "games_diff_pmf": {
+      "-12": 0.00363,
+      "-11": 0.01412,
+      "-10": 0.02978,
+      "-9": 0.04973,
+      "-8": 0.07296,
+      "-7": 0.09535,
+      "-6": 0.10596,
+      "-5": 0.10271,
+      "-4": 0.09473,
+      "-3": 0.06385,
+      "-2": 0.04048,
+      "-1": 0.0282,
+      "0": 0.02462,
+      "1": 0.02513,
+      "2": 0.02931,
+      "3": 0.03826,
+      "4": 0.04836,
+      "5": 0.04366,
+      "6": 0.03568,
+      "7": 0.0254,
+      "8": 0.01526,
+      "9": 0.00804,
+      "10": 0.00348,
+      "11": 0.00113,
+      "12": 0.00017
+     },
+     "p_tiebreak": 0.2565,
+     "p_decider": 0.337
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0024
    }
   },
   {
@@ -2070,14 +2166,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-04T19:45:58+00:00",
-    "path": "forecasts/2026-11-05/186498-rinky-hijikata-vs-tomas-martin-etcheverry/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:19+00:00",
+    "path": "forecasts/2026-11-05/186498-rinky-hijikata-vs-tomas-martin-etcheverry/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Tomas Martin Etcheverry",
     "win_prob": {
-     "A": 0.4051,
-     "B": 0.5949
+     "A": 0.4052,
+     "B": 0.5948
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -2087,12 +2183,12 @@
       "4-6",
       "4-6"
      ],
-     "prob": 0.375
+     "prob": 0.3735
     },
-    "games_mean": 24.89,
+    "games_mean": 24.91,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.842,
+     "probability": 0.8414,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2104,78 +2200,78 @@
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.4051,
-      "B": 0.5949
+      "A": 0.4052,
+      "B": 0.5948
      },
      "set_score_probs": {
-      "0-2": 0.375,
-      "2-0": 0.2276,
-      "1-2": 0.2198,
-      "2-1": 0.1776
+      "0-2": 0.3735,
+      "2-0": 0.2281,
+      "1-2": 0.2213,
+      "2-1": 0.1772
      },
      "games_pmf": {
-      "12": 0.00014,
-      "13": 0.00178,
-      "14": 0.0055,
-      "15": 0.01517,
-      "16": 0.02585,
-      "17": 0.04999,
-      "18": 0.05953,
-      "19": 0.07995,
-      "20": 0.07438,
-      "21": 0.04969,
-      "22": 0.09259,
-      "23": 0.07725,
-      "24": 0.00848,
-      "25": 0.03432,
-      "26": 0.06019,
-      "27": 0.02337,
-      "28": 0.02931,
-      "29": 0.03288,
-      "30": 0.0336,
-      "31": 0.0442,
-      "32": 0.04891,
-      "33": 0.0319,
-      "34": 0.02286,
-      "35": 0.0411,
-      "36": 0.0299,
-      "37": 0.00251,
-      "38": 0.00988,
-      "39": 0.01477
+      "12": 0.00019,
+      "13": 0.00184,
+      "14": 0.00585,
+      "15": 0.01465,
+      "16": 0.02618,
+      "17": 0.04953,
+      "18": 0.06041,
+      "19": 0.07865,
+      "20": 0.0748,
+      "21": 0.04808,
+      "22": 0.09304,
+      "23": 0.07674,
+      "24": 0.00869,
+      "25": 0.03409,
+      "26": 0.06074,
+      "27": 0.02253,
+      "28": 0.03048,
+      "29": 0.03177,
+      "30": 0.03454,
+      "31": 0.04504,
+      "32": 0.04955,
+      "33": 0.03131,
+      "34": 0.02301,
+      "35": 0.04117,
+      "36": 0.03051,
+      "37": 0.00256,
+      "38": 0.00978,
+      "39": 0.01427
      },
      "games_diff_pmf": {
-      "-12": 0.00012,
-      "-11": 0.00134,
-      "-10": 0.00427,
-      "-9": 0.0118,
-      "-8": 0.0207,
-      "-7": 0.04333,
-      "-6": 0.06247,
-      "-5": 0.09613,
-      "-4": 0.11765,
-      "-3": 0.10226,
-      "-2": 0.07317,
-      "-1": 0.04208,
-      "0": 0.03835,
-      "1": 0.04024,
-      "2": 0.06066,
-      "3": 0.07655,
-      "4": 0.0796,
-      "5": 0.0584,
-      "6": 0.03413,
-      "7": 0.02213,
-      "8": 0.00859,
-      "9": 0.00417,
-      "10": 0.00139,
-      "11": 0.00045,
-      "12": 2e-05
+      "-12": 0.00013,
+      "-11": 0.00136,
+      "-10": 0.00464,
+      "-9": 0.01096,
+      "-8": 0.02114,
+      "-7": 0.04449,
+      "-6": 0.06332,
+      "-5": 0.09283,
+      "-4": 0.11738,
+      "-3": 0.09998,
+      "-2": 0.07559,
+      "-1": 0.04345,
+      "0": 0.03891,
+      "1": 0.03862,
+      "2": 0.06128,
+      "3": 0.07627,
+      "4": 0.08062,
+      "5": 0.05816,
+      "6": 0.0345,
+      "7": 0.0211,
+      "8": 0.00875,
+      "9": 0.00451,
+      "10": 0.00145,
+      "11": 0.0005,
+      "12": 6e-05
      },
-     "p_tiebreak": 0.507,
-     "p_decider": 0.3974
+     "p_tiebreak": 0.5092,
+     "p_decider": 0.3985
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0033
+    "cross_check_max_diff": 0.0032
    }
   },
   {
@@ -2205,14 +2301,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-04T19:46:00+00:00",
-    "path": "forecasts/2026-11-05/186499-lorenzo-musetti-vs-luca-van-assche/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:21+00:00",
+    "path": "forecasts/2026-11-05/186499-lorenzo-musetti-vs-luca-van-assche/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Lorenzo Musetti",
     "win_prob": {
-     "A": 0.6998,
-     "B": 0.3002
+     "A": 0.7007,
+     "B": 0.2993
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -2222,12 +2318,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.4844
+     "prob": 0.4841
     },
-    "games_mean": 23.25,
+    "games_mean": 23.24,
     "strongest": {
      "selection": "Lorenzo Musetti to win at least one set",
-     "probability": 0.8391,
+     "probability": 0.8395,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2239,78 +2335,78 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.6998,
-      "B": 0.3002
+      "A": 0.7007,
+      "B": 0.2993
      },
      "set_score_probs": {
-      "2-0": 0.4844,
-      "2-1": 0.2154,
-      "0-2": 0.1609,
-      "1-2": 0.1393
+      "2-0": 0.4841,
+      "2-1": 0.2167,
+      "0-2": 0.1605,
+      "1-2": 0.1387
      },
      "games_pmf": {
-      "12": 0.00131,
-      "13": 0.00656,
-      "14": 0.01616,
-      "15": 0.0348,
-      "16": 0.05345,
-      "17": 0.07648,
-      "18": 0.07993,
-      "19": 0.08254,
-      "20": 0.07586,
-      "21": 0.05077,
-      "22": 0.07477,
-      "23": 0.05475,
-      "24": 0.01272,
-      "25": 0.03217,
-      "26": 0.04462,
-      "27": 0.02779,
-      "28": 0.03355,
-      "29": 0.03518,
-      "30": 0.03535,
-      "31": 0.04094,
-      "32": 0.03708,
-      "33": 0.0237,
-      "34": 0.01785,
-      "35": 0.02438,
-      "36": 0.01523,
-      "37": 0.00208,
-      "38": 0.00499,
-      "39": 0.00499
+      "12": 0.00132,
+      "13": 0.00646,
+      "14": 0.01662,
+      "15": 0.03487,
+      "16": 0.05285,
+      "17": 0.07626,
+      "18": 0.0801,
+      "19": 0.08352,
+      "20": 0.07595,
+      "21": 0.05174,
+      "22": 0.07367,
+      "23": 0.05482,
+      "24": 0.01201,
+      "25": 0.03213,
+      "26": 0.04366,
+      "27": 0.02844,
+      "28": 0.03221,
+      "29": 0.0362,
+      "30": 0.03551,
+      "31": 0.03921,
+      "32": 0.03882,
+      "33": 0.0249,
+      "34": 0.01872,
+      "35": 0.02368,
+      "36": 0.01472,
+      "37": 0.00194,
+      "38": 0.00497,
+      "39": 0.0047
      },
      "games_diff_pmf": {
-      "-12": 0.0001,
-      "-11": 0.0006,
-      "-10": 0.00155,
-      "-9": 0.00453,
-      "-8": 0.00994,
-      "-7": 0.02012,
-      "-6": 0.03079,
-      "-5": 0.04337,
-      "-4": 0.05512,
-      "-3": 0.05021,
-      "-2": 0.03887,
-      "-1": 0.0281,
-      "0": 0.02955,
-      "1": 0.03358,
-      "2": 0.05514,
-      "3": 0.08561,
-      "4": 0.11693,
-      "5": 0.11403,
-      "6": 0.09794,
-      "7": 0.07909,
-      "8": 0.05066,
-      "9": 0.03189,
-      "10": 0.01507,
-      "11": 0.006,
-      "12": 0.00121
+      "-12": 8e-05,
+      "-11": 0.00042,
+      "-10": 0.00168,
+      "-9": 0.00449,
+      "-8": 0.00972,
+      "-7": 0.02044,
+      "-6": 0.0306,
+      "-5": 0.04429,
+      "-4": 0.05455,
+      "-3": 0.0497,
+      "-2": 0.03919,
+      "-1": 0.02873,
+      "0": 0.02974,
+      "1": 0.03328,
+      "2": 0.0541,
+      "3": 0.08471,
+      "4": 0.11776,
+      "5": 0.11364,
+      "6": 0.09691,
+      "7": 0.08105,
+      "8": 0.05022,
+      "9": 0.03205,
+      "10": 0.01534,
+      "11": 0.00607,
+      "12": 0.00124
      },
      "p_tiebreak": 0.3648,
-     "p_decider": 0.3547
+     "p_decider": 0.3554
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0027
+    "cross_check_max_diff": 0.002
    }
   },
   {
@@ -2340,14 +2436,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-04T19:46:01+00:00",
-    "path": "forecasts/2026-11-05/186494-nuno-borges-vs-ignacio-buse/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:24+00:00",
+    "path": "forecasts/2026-11-05/186494-nuno-borges-vs-ignacio-buse/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Nuno Borges",
     "win_prob": {
-     "A": 0.5685,
-     "B": 0.4315
+     "A": 0.5671,
+     "B": 0.4329
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -2357,12 +2453,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.3616
+     "prob": 0.3613
     },
-    "games_mean": 23.7,
+    "games_mean": 23.68,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.764,
+     "probability": 0.7638,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2374,213 +2470,78 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.5685,
-      "B": 0.4315
+      "A": 0.5671,
+      "B": 0.4329
      },
      "set_score_probs": {
-      "2-0": 0.3616,
-      "0-2": 0.2515,
-      "2-1": 0.2069,
-      "1-2": 0.1799
+      "2-0": 0.3613,
+      "0-2": 0.2525,
+      "2-1": 0.2059,
+      "1-2": 0.1804
      },
      "games_pmf": {
-      "12": 0.00076,
-      "13": 0.00449,
-      "14": 0.01225,
-      "15": 0.02806,
-      "16": 0.04448,
-      "17": 0.0697,
-      "18": 0.07624,
-      "19": 0.08288,
-      "20": 0.07475,
-      "21": 0.05161,
-      "22": 0.07497,
-      "23": 0.05514,
-      "24": 0.01364,
-      "25": 0.03464,
-      "26": 0.04541,
-      "27": 0.03064,
-      "28": 0.03768,
-      "29": 0.03954,
-      "30": 0.03889,
-      "31": 0.04417,
-      "32": 0.04114,
-      "33": 0.02658,
-      "34": 0.019,
-      "35": 0.02531,
-      "36": 0.01533,
-      "37": 0.00231,
-      "38": 0.00523,
-      "39": 0.00516
+      "12": 0.00075,
+      "13": 0.00446,
+      "14": 0.01218,
+      "15": 0.02855,
+      "16": 0.04485,
+      "17": 0.07014,
+      "18": 0.07525,
+      "19": 0.0829,
+      "20": 0.07529,
+      "21": 0.05123,
+      "22": 0.07507,
+      "23": 0.05686,
+      "24": 0.01368,
+      "25": 0.03498,
+      "26": 0.04403,
+      "27": 0.03107,
+      "28": 0.03744,
+      "29": 0.03825,
+      "30": 0.03943,
+      "31": 0.04436,
+      "32": 0.04121,
+      "33": 0.02579,
+      "34": 0.01958,
+      "35": 0.02521,
+      "36": 0.01574,
+      "37": 0.00191,
+      "38": 0.00518,
+      "39": 0.00461
      },
      "games_diff_pmf": {
-      "-12": 0.00023,
-      "-11": 0.00144,
-      "-10": 0.00426,
-      "-9": 0.01054,
-      "-8": 0.01898,
-      "-7": 0.03625,
-      "-6": 0.04996,
-      "-5": 0.06784,
-      "-4": 0.0782,
-      "-3": 0.06553,
-      "-2": 0.04715,
-      "-1": 0.03448,
-      "0": 0.03286,
-      "1": 0.03565,
-      "2": 0.05223,
-      "3": 0.07639,
-      "4": 0.09926,
-      "5": 0.09234,
-      "6": 0.07558,
-      "7": 0.05736,
-      "8": 0.03214,
-      "9": 0.01933,
-      "10": 0.00839,
-      "11": 0.00308,
-      "12": 0.00053
+      "-12": 0.00024,
+      "-11": 0.00137,
+      "-10": 0.00413,
+      "-9": 0.01071,
+      "-8": 0.01937,
+      "-7": 0.03629,
+      "-6": 0.05,
+      "-5": 0.06755,
+      "-4": 0.07925,
+      "-3": 0.06502,
+      "-2": 0.04774,
+      "-1": 0.03328,
+      "0": 0.03314,
+      "1": 0.03442,
+      "2": 0.05163,
+      "3": 0.07834,
+      "4": 0.0994,
+      "5": 0.0934,
+      "6": 0.07381,
+      "7": 0.05749,
+      "8": 0.03192,
+      "9": 0.01934,
+      "10": 0.00854,
+      "11": 0.00311,
+      "12": 0.00051
      },
-     "p_tiebreak": 0.3762,
-     "p_decider": 0.3869
+     "p_tiebreak": 0.3733,
+     "p_decider": 0.3862
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0021
-   }
-  },
-  {
-   "espn_id": "186495",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Round 3",
-   "court": "Court 1",
-   "start_utc": "2026-11-05T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Jan-Lennard Struff",
-     "id": "atp:105526"
-    },
-    {
-     "name": "Casper Ruud",
-     "id": "atp:134770"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T00:55:23+00:00",
-    "path": "forecasts/2026-11-05/186495-jan-lennard-struff-vs-casper-ruud/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Casper Ruud",
-    "win_prob": {
-     "A": 0.4338,
-     "B": 0.5662
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3475
-    },
-    "games_mean": 25.28,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8614,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4338,
-      "B": 0.5662
-     },
-     "set_score_probs": {
-      "0-2": 0.3475,
-      "2-0": 0.2464,
-      "1-2": 0.2187,
-      "2-1": 0.1874
-     },
-     "games_pmf": {
-      "12": 0.00015,
-      "13": 0.00129,
-      "14": 0.00409,
-      "15": 0.01202,
-      "16": 0.0225,
-      "17": 0.04471,
-      "18": 0.05386,
-      "19": 0.07531,
-      "20": 0.07375,
-      "21": 0.04811,
-      "22": 0.09569,
-      "23": 0.08103,
-      "24": 0.00761,
-      "25": 0.03354,
-      "26": 0.0673,
-      "27": 0.02064,
-      "28": 0.02749,
-      "29": 0.03071,
-      "30": 0.03311,
-      "31": 0.0473,
-      "32": 0.05074,
-      "33": 0.03234,
-      "34": 0.02372,
-      "35": 0.04525,
-      "36": 0.03482,
-      "37": 0.00297,
-      "38": 0.01156,
-      "39": 0.01839
-     },
-     "games_diff_pmf": {
-      "-12": 0.00012,
-      "-11": 0.00101,
-      "-10": 0.00271,
-      "-9": 0.00854,
-      "-8": 0.01674,
-      "-7": 0.03686,
-      "-6": 0.0541,
-      "-5": 0.08646,
-      "-4": 0.11204,
-      "-3": 0.1019,
-      "-2": 0.07765,
-      "-1": 0.04665,
-      "0": 0.04173,
-      "1": 0.04256,
-      "2": 0.06964,
-      "3": 0.08273,
-      "4": 0.08661,
-      "5": 0.06125,
-      "6": 0.03484,
-      "7": 0.02125,
-      "8": 0.00871,
-      "9": 0.00409,
-      "10": 0.00147,
-      "11": 0.00031,
-      "12": 3e-05
-     },
-     "p_tiebreak": 0.5422,
-     "p_decider": 0.4061
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0022
+    "cross_check_max_diff": 0.0038
    }
   },
   {
@@ -2610,29 +2571,29 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T00:55:25+00:00",
-    "path": "forecasts/2026-11-05/186728-carole-monnet-vs-leyre-romero-gormaz/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:26+00:00",
+    "path": "forecasts/2026-11-05/186728-carole-monnet-vs-leyre-romero-gormaz/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Leyre Romero Gormaz",
     "win_prob": {
-     "A": 0.3623,
-     "B": 0.6377
+     "A": 0.3631,
+     "B": 0.6369
     },
     "most_likely_set_score": "0-2",
     "final_score": {
      "A_sets": 0,
      "B_sets": 2,
      "sets": [
-      "2-6",
-      "2-6"
+      "3-6",
+      "3-6"
      ],
-     "prob": 0.4349
+     "prob": 0.4329
     },
-    "games_mean": 21.97,
+    "games_mean": 21.99,
     "strongest": {
      "selection": "Leyre Romero Gormaz to win at least one set",
-     "probability": 0.7895,
+     "probability": 0.7889,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2644,78 +2605,78 @@
     "games_projected": 20.0,
     "dist": {
      "win_prob": {
-      "A": 0.3623,
-      "B": 0.6377
+      "A": 0.3631,
+      "B": 0.6369
      },
      "set_score_probs": {
-      "0-2": 0.4349,
-      "2-0": 0.2105,
-      "1-2": 0.2028,
-      "2-1": 0.1518
+      "0-2": 0.4329,
+      "2-0": 0.2111,
+      "1-2": 0.204,
+      "2-1": 0.152
      },
      "games_pmf": {
-      "12": 0.00435,
-      "13": 0.0169,
-      "14": 0.03431,
-      "15": 0.05794,
-      "16": 0.08016,
-      "17": 0.08717,
-      "18": 0.0837,
-      "19": 0.07417,
-      "20": 0.06458,
-      "21": 0.04759,
-      "22": 0.05439,
-      "23": 0.03374,
-      "24": 0.02274,
-      "25": 0.03734,
-      "26": 0.03938,
-      "27": 0.03941,
-      "28": 0.04023,
-      "29": 0.03977,
-      "30": 0.03613,
-      "31": 0.03185,
-      "32": 0.02656,
-      "33": 0.01677,
-      "34": 0.01226,
-      "35": 0.01072,
-      "36": 0.00396,
-      "37": 0.00164,
-      "38": 0.00163,
-      "39": 0.00061
+      "12": 0.00425,
+      "13": 0.01589,
+      "14": 0.03502,
+      "15": 0.05701,
+      "16": 0.07837,
+      "17": 0.08827,
+      "18": 0.08472,
+      "19": 0.07509,
+      "20": 0.06322,
+      "21": 0.04828,
+      "22": 0.05338,
+      "23": 0.03445,
+      "24": 0.0236,
+      "25": 0.03737,
+      "26": 0.0388,
+      "27": 0.03892,
+      "28": 0.04046,
+      "29": 0.04039,
+      "30": 0.03582,
+      "31": 0.03171,
+      "32": 0.02607,
+      "33": 0.01689,
+      "34": 0.01281,
+      "35": 0.01058,
+      "36": 0.00444,
+      "37": 0.00145,
+      "38": 0.00195,
+      "39": 0.00079
      },
      "games_diff_pmf": {
-      "-12": 0.00374,
-      "-11": 0.01398,
-      "-10": 0.02734,
-      "-9": 0.04561,
-      "-8": 0.06776,
-      "-7": 0.08481,
-      "-6": 0.09375,
-      "-5": 0.08919,
-      "-4": 0.08007,
-      "-3": 0.05504,
-      "-2": 0.03628,
-      "-1": 0.02816,
-      "0": 0.02458,
-      "1": 0.02496,
-      "2": 0.03012,
-      "3": 0.04041,
-      "4": 0.0557,
-      "5": 0.05467,
-      "6": 0.04952,
-      "7": 0.03997,
-      "8": 0.02683,
-      "9": 0.0158,
-      "10": 0.00808,
-      "11": 0.00302,
-      "12": 0.00061
+      "-12": 0.00369,
+      "-11": 0.01316,
+      "-10": 0.02815,
+      "-9": 0.04541,
+      "-8": 0.06666,
+      "-7": 0.08476,
+      "-6": 0.0925,
+      "-5": 0.09126,
+      "-4": 0.08013,
+      "-3": 0.05469,
+      "-2": 0.03747,
+      "-1": 0.02802,
+      "0": 0.02532,
+      "1": 0.02474,
+      "2": 0.03005,
+      "3": 0.04218,
+      "4": 0.05469,
+      "5": 0.05451,
+      "6": 0.04934,
+      "7": 0.04022,
+      "8": 0.02651,
+      "9": 0.0153,
+      "10": 0.00784,
+      "11": 0.00284,
+      "12": 0.00056
      },
-     "p_tiebreak": 0.2206,
-     "p_decider": 0.3546
+     "p_tiebreak": 0.2209,
+     "p_decider": 0.356
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0015
+    "cross_check_max_diff": 0.0014
    }
   },
   {
@@ -2745,14 +2706,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T00:55:27+00:00",
-    "path": "forecasts/2026-11-05/186727-julia-riera-vs-renata-zarazua/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:28+00:00",
+    "path": "forecasts/2026-11-05/186727-julia-riera-vs-renata-zarazua/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Julia Riera",
     "win_prob": {
-     "A": 0.5362,
-     "B": 0.4638
+     "A": 0.5366,
+     "B": 0.4634
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -2762,12 +2723,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.3442
+     "prob": 0.3445
     },
-    "games_mean": 22.32,
+    "games_mean": 22.34,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7627,
+     "probability": 0.7636,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2779,74 +2740,74 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.5362,
-      "B": 0.4638
+      "A": 0.5366,
+      "B": 0.4634
      },
      "set_score_probs": {
-      "2-0": 0.3442,
-      "0-2": 0.2849,
-      "2-1": 0.192,
-      "1-2": 0.1789
+      "2-0": 0.3445,
+      "0-2": 0.283,
+      "2-1": 0.1922,
+      "1-2": 0.1804
      },
      "games_pmf": {
-      "12": 0.00301,
-      "13": 0.01312,
-      "14": 0.02902,
-      "15": 0.05077,
-      "16": 0.07287,
-      "17": 0.08442,
-      "18": 0.08263,
-      "19": 0.07648,
-      "20": 0.06614,
-      "21": 0.04917,
-      "22": 0.05691,
-      "23": 0.03601,
-      "24": 0.02326,
-      "25": 0.03783,
-      "26": 0.04118,
-      "27": 0.03908,
-      "28": 0.04075,
-      "29": 0.04138,
-      "30": 0.04023,
-      "31": 0.03446,
-      "32": 0.02872,
-      "33": 0.01806,
-      "34": 0.01317,
-      "35": 0.01186,
-      "36": 0.00494,
-      "37": 0.00179,
-      "38": 0.00202,
-      "39": 0.00072
+      "12": 0.00302,
+      "13": 0.01288,
+      "14": 0.02968,
+      "15": 0.05056,
+      "16": 0.07248,
+      "17": 0.08322,
+      "18": 0.08348,
+      "19": 0.07544,
+      "20": 0.06658,
+      "21": 0.04901,
+      "22": 0.05614,
+      "23": 0.03628,
+      "24": 0.02381,
+      "25": 0.0377,
+      "26": 0.0413,
+      "27": 0.03923,
+      "28": 0.04139,
+      "29": 0.04248,
+      "30": 0.03867,
+      "31": 0.03545,
+      "32": 0.02864,
+      "33": 0.0173,
+      "34": 0.01392,
+      "35": 0.01162,
+      "36": 0.00487,
+      "37": 0.00181,
+      "38": 0.00226,
+      "39": 0.00078
      },
      "games_diff_pmf": {
-      "-12": 0.00139,
-      "-11": 0.00516,
-      "-10": 0.01299,
-      "-9": 0.02277,
-      "-8": 0.03755,
-      "-7": 0.05533,
-      "-6": 0.06567,
-      "-5": 0.06846,
-      "-4": 0.06887,
-      "-3": 0.04958,
-      "-2": 0.0354,
-      "-1": 0.02753,
-      "0": 0.02651,
-      "1": 0.02807,
-      "2": 0.03702,
-      "3": 0.05353,
-      "4": 0.07533,
-      "5": 0.07935,
-      "6": 0.07694,
-      "7": 0.06586,
+      "-12": 0.00137,
+      "-11": 0.00542,
+      "-10": 0.01318,
+      "-9": 0.02276,
+      "-8": 0.03781,
+      "-7": 0.05405,
+      "-6": 0.06592,
+      "-5": 0.06901,
+      "-4": 0.06763,
+      "-3": 0.04978,
+      "-2": 0.03516,
+      "-1": 0.02804,
+      "0": 0.02666,
+      "1": 0.02908,
+      "2": 0.03743,
+      "3": 0.05314,
+      "4": 0.07556,
+      "5": 0.07875,
+      "6": 0.07783,
+      "7": 0.06476,
       "8": 0.04866,
-      "9": 0.03143,
-      "10": 0.0169,
-      "11": 0.00808,
-      "12": 0.00162
+      "9": 0.03136,
+      "10": 0.01738,
+      "11": 0.00761,
+      "12": 0.00165
      },
-     "p_tiebreak": 0.2373,
-     "p_decider": 0.3709
+     "p_tiebreak": 0.2364,
+     "p_decider": 0.3725
     },
     "n_sims": 100000,
     "seed": 20261027,
@@ -2859,10 +2820,10 @@
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Round 3",
-   "court": "Court Central",
+   "court": "",
    "start_utc": "2026-11-05T18:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_WALKOVER",
+   "completed": true,
    "players": [
     {
      "name": "Matteo Berrettini",
@@ -2878,7 +2839,10 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": []
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-05T00:55:29+00:00",
@@ -2988,6 +2952,141 @@
    }
   },
   {
+   "espn_id": "186503",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Round 3",
+   "court": "Court Central",
+   "start_utc": "2026-11-05T18:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Arthur Fils",
+     "id": "atp:209950"
+    },
+    {
+     "name": "Taylor Fritz",
+     "id": "atp:126203"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:30+00:00",
+    "path": "forecasts/2026-11-05/186503-arthur-fils-vs-taylor-fritz/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Taylor Fritz",
+    "win_prob": {
+     "A": 0.488,
+     "B": 0.512
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "6-7",
+      "6-7"
+     ],
+     "prob": 0.3045
+    },
+    "games_mean": 25.31,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.864,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.488,
+      "B": 0.512
+     },
+     "set_score_probs": {
+      "0-2": 0.3045,
+      "2-0": 0.287,
+      "1-2": 0.2075,
+      "2-1": 0.201
+     },
+     "games_pmf": {
+      "12": 0.00016,
+      "13": 0.00139,
+      "14": 0.00407,
+      "15": 0.01198,
+      "16": 0.02129,
+      "17": 0.04317,
+      "18": 0.05397,
+      "19": 0.07358,
+      "20": 0.07402,
+      "21": 0.04779,
+      "22": 0.09597,
+      "23": 0.08311,
+      "24": 0.00764,
+      "25": 0.03361,
+      "26": 0.06734,
+      "27": 0.0215,
+      "28": 0.02789,
+      "29": 0.03092,
+      "30": 0.03274,
+      "31": 0.04629,
+      "32": 0.05235,
+      "33": 0.03316,
+      "34": 0.02457,
+      "35": 0.04438,
+      "36": 0.03516,
+      "37": 0.00274,
+      "38": 0.0109,
+      "39": 0.01831
+     },
+     "games_diff_pmf": {
+      "-12": 0.00011,
+      "-11": 0.0007,
+      "-10": 0.00227,
+      "-9": 0.00658,
+      "-8": 0.01311,
+      "-7": 0.02895,
+      "-6": 0.04537,
+      "-5": 0.07442,
+      "-4": 0.10298,
+      "-3": 0.09591,
+      "-2": 0.07531,
+      "-1": 0.04473,
+      "0": 0.04167,
+      "1": 0.0434,
+      "2": 0.07261,
+      "3": 0.09231,
+      "4": 0.09807,
+      "5": 0.07135,
+      "6": 0.04331,
+      "7": 0.02673,
+      "8": 0.01123,
+      "9": 0.00615,
+      "10": 0.00198,
+      "11": 0.0007,
+      "12": 5e-05
+     },
+     "p_tiebreak": 0.5453,
+     "p_decider": 0.4084
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0043
+   }
+  },
+  {
    "espn_id": "186730",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
@@ -3014,14 +3113,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-05T00:55:31+00:00",
-    "path": "forecasts/2026-11-05/186730-leolia-jeanjean-vs-alice-tubello/v2.json",
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-05T12:21:32+00:00",
+    "path": "forecasts/2026-11-05/186730-leolia-jeanjean-vs-alice-tubello/v3.json",
     "model_version": "v1.1",
     "predicted_winner": "Alice Tubello",
     "win_prob": {
-     "A": 0.3865,
-     "B": 0.6136
+     "A": 0.3874,
+     "B": 0.6126
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -3029,14 +3128,14 @@
      "B_sets": 2,
      "sets": [
       "3-6",
-      "2-6"
+      "4-6"
      ],
-     "prob": 0.4099
+     "prob": 0.4106
     },
-    "games_mean": 22.22,
+    "games_mean": 22.18,
     "strongest": {
      "selection": "Alice Tubello to win at least one set",
-     "probability": 0.7727,
+     "probability": 0.7706,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -3048,78 +3147,78 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.3865,
-      "B": 0.6136
+      "A": 0.3874,
+      "B": 0.6126
      },
      "set_score_probs": {
-      "0-2": 0.4099,
-      "2-0": 0.2273,
-      "1-2": 0.2036,
-      "2-1": 0.1592
+      "0-2": 0.4106,
+      "2-0": 0.2294,
+      "1-2": 0.202,
+      "2-1": 0.158
      },
      "games_pmf": {
-      "12": 0.00346,
-      "13": 0.01441,
-      "14": 0.03001,
-      "15": 0.0527,
-      "16": 0.07432,
-      "17": 0.08646,
-      "18": 0.08295,
-      "19": 0.07573,
-      "20": 0.06631,
-      "21": 0.05019,
-      "22": 0.05595,
-      "23": 0.03602,
-      "24": 0.02202,
-      "25": 0.03669,
-      "26": 0.04066,
-      "27": 0.03818,
-      "28": 0.04138,
-      "29": 0.04068,
-      "30": 0.03812,
-      "31": 0.03377,
-      "32": 0.02829,
-      "33": 0.01785,
-      "34": 0.0126,
-      "35": 0.01202,
-      "36": 0.00488,
-      "37": 0.00155,
-      "38": 0.00198,
-      "39": 0.00082
+      "12": 0.00348,
+      "13": 0.01431,
+      "14": 0.03039,
+      "15": 0.05206,
+      "16": 0.07527,
+      "17": 0.08653,
+      "18": 0.08421,
+      "19": 0.07718,
+      "20": 0.0656,
+      "21": 0.04975,
+      "22": 0.05591,
+      "23": 0.03688,
+      "24": 0.02197,
+      "25": 0.03774,
+      "26": 0.03947,
+      "27": 0.0384,
+      "28": 0.04005,
+      "29": 0.04102,
+      "30": 0.03716,
+      "31": 0.03265,
+      "32": 0.0281,
+      "33": 0.0181,
+      "34": 0.01279,
+      "35": 0.01149,
+      "36": 0.00494,
+      "37": 0.0016,
+      "38": 0.00202,
+      "39": 0.00093
      },
      "games_diff_pmf": {
-      "-12": 0.00288,
-      "-11": 0.01117,
-      "-10": 0.02269,
-      "-9": 0.04011,
-      "-8": 0.05951,
-      "-7": 0.0797,
-      "-6": 0.08886,
-      "-5": 0.08898,
-      "-4": 0.08377,
-      "-3": 0.05706,
-      "-2": 0.03696,
-      "-1": 0.0293,
-      "0": 0.02608,
-      "1": 0.02674,
-      "2": 0.03268,
-      "3": 0.04363,
-      "4": 0.05907,
-      "5": 0.05868,
-      "6": 0.05321,
-      "7": 0.04239,
-      "8": 0.02833,
-      "9": 0.01598,
-      "10": 0.00831,
-      "11": 0.00333,
-      "12": 0.00058
+      "-12": 0.00293,
+      "-11": 0.01079,
+      "-10": 0.02303,
+      "-9": 0.03934,
+      "-8": 0.06091,
+      "-7": 0.08053,
+      "-6": 0.08855,
+      "-5": 0.08971,
+      "-4": 0.08249,
+      "-3": 0.05616,
+      "-2": 0.03745,
+      "-1": 0.02841,
+      "0": 0.02491,
+      "1": 0.02661,
+      "2": 0.03192,
+      "3": 0.0456,
+      "4": 0.05909,
+      "5": 0.05916,
+      "6": 0.05266,
+      "7": 0.04264,
+      "8": 0.02858,
+      "9": 0.01602,
+      "10": 0.00829,
+      "11": 0.00367,
+      "12": 0.00055
      },
-     "p_tiebreak": 0.2372,
-     "p_decider": 0.3628
+     "p_tiebreak": 0.2366,
+     "p_decider": 0.36
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0027
+    "cross_check_max_diff": 0.0032
    }
   },
   {
@@ -3149,9 +3248,9 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T00:55:34+00:00",
-    "path": "forecasts/2026-11-05/186729-luisina-giovannini-vs-bianca-andreescu/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:35+00:00",
+    "path": "forecasts/2026-11-05/186729-luisina-giovannini-vs-bianca-andreescu/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Bianca Andreescu",
     "win_prob": {
@@ -3166,12 +3265,12 @@
       "2-6",
       "2-6"
      ],
-     "prob": 0.5708
+     "prob": 0.5695
     },
-    "games_mean": 21.45,
+    "games_mean": 21.49,
     "strongest": {
      "selection": "Bianca Andreescu to win at least one set",
-     "probability": 0.8777,
+     "probability": 0.8799,
      "confidence": "Low"
     },
     "data_quality": "LOW",
@@ -3189,78 +3288,78 @@
       "B": 0.77
      },
      "set_score_probs": {
-      "0-2": 0.5708,
-      "1-2": 0.1991,
-      "2-0": 0.1223,
-      "2-1": 0.1077
+      "0-2": 0.5695,
+      "1-2": 0.2005,
+      "2-0": 0.1201,
+      "2-1": 0.1099
      },
      "games_pmf": {
-      "12": 0.00604,
-      "13": 0.02109,
-      "14": 0.0419,
-      "15": 0.06717,
-      "16": 0.08565,
-      "17": 0.09648,
-      "18": 0.08775,
-      "19": 0.07785,
-      "20": 0.06479,
-      "21": 0.04688,
-      "22": 0.05229,
-      "23": 0.0353,
-      "24": 0.01776,
-      "25": 0.03096,
-      "26": 0.03435,
-      "27": 0.03173,
-      "28": 0.03417,
-      "29": 0.03424,
-      "30": 0.03216,
-      "31": 0.02943,
-      "32": 0.02498,
-      "33": 0.01603,
-      "34": 0.01132,
-      "35": 0.01052,
+      "12": 0.00583,
+      "13": 0.02107,
+      "14": 0.04311,
+      "15": 0.06686,
+      "16": 0.08661,
+      "17": 0.09292,
+      "18": 0.08673,
+      "19": 0.07669,
+      "20": 0.06481,
+      "21": 0.04635,
+      "22": 0.05306,
+      "23": 0.03356,
+      "24": 0.01868,
+      "25": 0.03332,
+      "26": 0.03578,
+      "27": 0.03221,
+      "28": 0.03302,
+      "29": 0.03463,
+      "30": 0.0326,
+      "31": 0.02922,
+      "32": 0.02555,
+      "33": 0.0156,
+      "34": 0.01156,
+      "35": 0.0109,
       "36": 0.0051,
-      "37": 0.00137,
-      "38": 0.00176,
-      "39": 0.00093
+      "37": 0.0013,
+      "38": 0.00202,
+      "39": 0.00091
      },
      "games_diff_pmf": {
-      "-12": 0.00596,
-      "-11": 0.02033,
-      "-10": 0.0403,
-      "-9": 0.06466,
-      "-8": 0.08783,
-      "-7": 0.11177,
-      "-6": 0.11292,
-      "-5": 0.10602,
-      "-4": 0.0912,
-      "-3": 0.05873,
-      "-2": 0.03646,
-      "-1": 0.02484,
-      "0": 0.0214,
-      "1": 0.02002,
-      "2": 0.02365,
-      "3": 0.03169,
-      "4": 0.03907,
-      "5": 0.03477,
-      "6": 0.02771,
-      "7": 0.0207,
-      "8": 0.01088,
-      "9": 0.00556,
-      "10": 0.00256,
-      "11": 0.00089,
-      "12": 8e-05
+      "-12": 0.0057,
+      "-11": 0.02017,
+      "-10": 0.04147,
+      "-9": 0.0643,
+      "-8": 0.08868,
+      "-7": 0.10715,
+      "-6": 0.11377,
+      "-5": 0.10603,
+      "-4": 0.09225,
+      "-3": 0.05995,
+      "-2": 0.03705,
+      "-1": 0.02476,
+      "0": 0.02183,
+      "1": 0.02018,
+      "2": 0.02411,
+      "3": 0.03152,
+      "4": 0.03868,
+      "5": 0.03445,
+      "6": 0.02738,
+      "7": 0.02026,
+      "8": 0.011,
+      "9": 0.00576,
+      "10": 0.00241,
+      "11": 0.00101,
+      "12": 0.00013
      },
-     "p_tiebreak": 0.2249,
-     "p_decider": 0.3069
+     "p_tiebreak": 0.2237,
+     "p_decider": 0.3104
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0021
+    "cross_check_max_diff": 0.0016
    }
   },
   {
-   "espn_id": "186503",
+   "espn_id": "186495",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
@@ -3271,12 +3370,12 @@
    "completed": false,
    "players": [
     {
-     "name": "Arthur Fils",
-     "id": "atp:209950"
+     "name": "Jan-Lennard Struff",
+     "id": "atp:105526"
     },
     {
-     "name": "Taylor Fritz",
-     "id": "atp:126203"
+     "name": "Casper Ruud",
+     "id": "atp:134770"
     }
    ],
    "surface": "Hard",
@@ -3286,29 +3385,29 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T00:55:36+00:00",
-    "path": "forecasts/2026-11-05/186503-arthur-fils-vs-taylor-fritz/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-05T12:21:37+00:00",
+    "path": "forecasts/2026-11-05/186495-jan-lennard-struff-vs-casper-ruud/v2.json",
     "model_version": "v1.1",
-    "predicted_winner": "Taylor Fritz",
+    "predicted_winner": "Casper Ruud",
     "win_prob": {
-     "A": 0.4893,
-     "B": 0.5107
+     "A": 0.4351,
+     "B": 0.5649
     },
     "most_likely_set_score": "0-2",
     "final_score": {
      "A_sets": 0,
      "B_sets": 2,
      "sets": [
-      "6-7",
-      "6-7"
+      "4-6",
+      "4-6"
      ],
-     "prob": 0.3039
+     "prob": 0.3484
     },
-    "games_mean": 25.31,
+    "games_mean": 25.27,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.8639,
+     "probability": 0.8615,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -3320,78 +3419,78 @@
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.4893,
-      "B": 0.5107
+      "A": 0.4351,
+      "B": 0.5649
      },
      "set_score_probs": {
-      "0-2": 0.3039,
-      "2-0": 0.2874,
-      "1-2": 0.2068,
-      "2-1": 0.2018
+      "0-2": 0.3484,
+      "2-0": 0.2469,
+      "1-2": 0.2165,
+      "2-1": 0.1883
      },
      "games_pmf": {
-      "12": 0.00016,
-      "13": 0.00139,
-      "14": 0.00409,
-      "15": 0.01195,
-      "16": 0.02107,
-      "17": 0.04324,
-      "18": 0.05422,
-      "19": 0.07439,
-      "20": 0.07447,
-      "21": 0.04642,
-      "22": 0.09642,
-      "23": 0.08305,
-      "24": 0.00722,
-      "25": 0.03439,
-      "26": 0.06678,
-      "27": 0.02088,
-      "28": 0.02866,
-      "29": 0.0312,
-      "30": 0.03242,
-      "31": 0.04624,
-      "32": 0.0518,
-      "33": 0.03233,
-      "34": 0.02433,
-      "35": 0.04557,
-      "36": 0.03548,
-      "37": 0.00267,
-      "38": 0.01081,
-      "39": 0.01835
+      "12": 0.00015,
+      "13": 0.00129,
+      "14": 0.00407,
+      "15": 0.01204,
+      "16": 0.02243,
+      "17": 0.04468,
+      "18": 0.05379,
+      "19": 0.0754,
+      "20": 0.07427,
+      "21": 0.0483,
+      "22": 0.09624,
+      "23": 0.0813,
+      "24": 0.0074,
+      "25": 0.03325,
+      "26": 0.06715,
+      "27": 0.02121,
+      "28": 0.0281,
+      "29": 0.0299,
+      "30": 0.03256,
+      "31": 0.04584,
+      "32": 0.05166,
+      "33": 0.03217,
+      "34": 0.02482,
+      "35": 0.04448,
+      "36": 0.03538,
+      "37": 0.00289,
+      "38": 0.01108,
+      "39": 0.01815
      },
      "games_diff_pmf": {
-      "-12": 0.00011,
-      "-11": 0.0007,
-      "-10": 0.00228,
-      "-9": 0.00652,
-      "-8": 0.01313,
-      "-7": 0.02901,
-      "-6": 0.04451,
-      "-5": 0.07537,
-      "-4": 0.10298,
-      "-3": 0.09587,
-      "-2": 0.07484,
-      "-1": 0.04444,
-      "0": 0.04141,
-      "1": 0.04423,
-      "2": 0.07233,
-      "3": 0.09234,
-      "4": 0.09855,
-      "5": 0.07031,
-      "6": 0.04464,
-      "7": 0.02654,
-      "8": 0.01112,
-      "9": 0.00602,
-      "10": 0.00198,
-      "11": 0.00072,
-      "12": 5e-05
+      "-12": 0.00012,
+      "-11": 0.00099,
+      "-10": 0.00266,
+      "-9": 0.00864,
+      "-8": 0.01662,
+      "-7": 0.03676,
+      "-6": 0.05408,
+      "-5": 0.08633,
+      "-4": 0.11368,
+      "-3": 0.10164,
+      "-2": 0.07812,
+      "-1": 0.04481,
+      "0": 0.04178,
+      "1": 0.04279,
+      "2": 0.06969,
+      "3": 0.08211,
+      "4": 0.08716,
+      "5": 0.0613,
+      "6": 0.03496,
+      "7": 0.02113,
+      "8": 0.00875,
+      "9": 0.00409,
+      "10": 0.00145,
+      "11": 0.00031,
+      "12": 3e-05
      },
-     "p_tiebreak": 0.5445,
-     "p_decider": 0.4087
+     "p_tiebreak": 0.5438,
+     "p_decider": 0.4047
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.003
+    "cross_check_max_diff": 0.0008
    }
   }
  ]
