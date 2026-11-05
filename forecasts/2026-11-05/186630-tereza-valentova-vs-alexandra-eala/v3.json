@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Alexandra Eala",
+ "win_prob": {
+  "A": 0.433,
+  "B": 0.567
+ },
+ "win_prob_exact": {
+  "A": 0.43298,
+  "B": 0.5670200000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.31,
+   "american": "+131"
+  },
+  "B": {
+   "decimal": 1.76,
+   "american": "-131"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3702,
+  "2-0": 0.2602,
+  "1-2": 0.1969,
+  "2-1": 0.1728
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0172,
+ "games": {
+  "mean": 22.35,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00303,
+   "13": 0.01197,
+   "14": 0.02877,
+   "15": 0.05095,
+   "16": 0.07244,
+   "17": 0.08415,
+   "18": 0.08345,
+   "19": 0.07688,
+   "20": 0.06669,
+   "21": 0.04946,
+   "22": 0.05645,
+   "23": 0.03723,
+   "24": 0.02197,
+   "25": 0.03735,
+   "26": 0.04027,
+   "27": 0.03901,
+   "28": 0.04155,
+   "29": 0.04112,
+   "30": 0.03972,
+   "31": 0.03495,
+   "32": 0.02905,
+   "33": 0.01842,
+   "34": 0.01316,
+   "35": 0.01166,
+   "36": 0.00532,
+   "37": 0.0016,
+   "38": 0.00242,
+   "39": 0.00096
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00225,
+  "-11": 0.00807,
+  "-10": 0.01956,
+  "-9": 0.0339,
+  "-8": 0.05255,
+  "-7": 0.07091,
+  "-6": 0.08172,
+  "-5": 0.08282,
+  "-4": 0.07928,
+  "-3": 0.05644,
+  "-2": 0.03858,
+  "-1": 0.0284,
+  "0": 0.02682,
+  "1": 0.02787,
+  "2": 0.03407,
+  "3": 0.04893,
+  "4": 0.06397,
+  "5": 0.06568,
+  "6": 0.06077,
+  "7": 0.04841,
+  "8": 0.03376,
+  "9": 0.02027,
+  "10": 0.01018,
+  "11": 0.00401,
+  "12": 0.00078
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7487,
+   "under": 0.2513
+  },
+  {
+   "line": 18.5,
+   "over": 0.6652,
+   "under": 0.3348
+  },
+  {
+   "line": 19.5,
+   "over": 0.5884,
+   "under": 0.4116
+  },
+  {
+   "line": 20.5,
+   "over": 0.5217,
+   "under": 0.4783
+  },
+  {
+   "line": 21.5,
+   "over": 0.4722,
+   "under": 0.5278
+  },
+  {
+   "line": 22.5,
+   "over": 0.4158,
+   "under": 0.5842
+  },
+  {
+   "line": 23.5,
+   "over": 0.3785,
+   "under": 0.6215
+  },
+  {
+   "line": 24.5,
+   "over": 0.3566,
+   "under": 0.6434
+  },
+  {
+   "line": 25.5,
+   "over": 0.3192,
+   "under": 0.6808
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3908,
+   "B +1.5": 0.6092,
+   "B -1.5": 0.5261,
+   "A +1.5": 0.4739
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3568,
+   "B +2.5": 0.6432,
+   "B -2.5": 0.4875,
+   "A +2.5": 0.5125
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3078,
+   "B +3.5": 0.6922,
+   "B -3.5": 0.4311,
+   "A +3.5": 0.5689
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2439,
+   "B +4.5": 0.7561,
+   "B -4.5": 0.3518,
+   "A +4.5": 0.6482
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1782,
+   "B +5.5": 0.8218,
+   "B -5.5": 0.269,
+   "A +5.5": 0.731
+  }
+ ],
+ "p_tiebreak": 0.2414,
+ "p_a_wins_set": 0.6298,
+ "p_b_wins_set": 0.7398,
+ "p_decider": 0.3697,
+ "expected_breaks": {
+  "total": 8.89,
+  "by_A": 4.23,
+  "by_B": 4.66
+ },
+ "expected_break_points": {
+  "A_creates": 9.12,
+  "B_creates": 9.73
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3702
+ },
+ "match": "Tereza Valentova vs Alexandra Eala",
+ "players": {
+  "A": {
+   "id": "wta:238184",
+   "name": "Tereza Valentova",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 42.0,
+   "age": 19.649007529089666,
+   "elo": 1771.6,
+   "surface_elo": {
+    "Hard": 1758.0,
+    "Clay": 1567.3,
+    "Grass": 1535.2
+   },
+   "matches_total": 53,
+   "matches_surface": {
+    "Hard": 42,
+    "Clay": 6,
+    "Grass": 5
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    21,
+    19
+   ],
+   "last52w_surface": [
+    18,
+    13
+   ],
+   "career_surface_wl": [
+    26,
+    16
+   ],
+   "games_won_lost_52w": [
+    444,
+    422
+   ],
+   "sets_won_lost_52w": [
+    45,
+    45
+   ],
+   "avg_opp_elo_last20": 1680.3,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.1478,
+   "return_rating": 0.2769,
+   "form_elo": 12.6,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6167,
+    "first_won": 0.6342,
+    "second_won": 0.4291,
+    "serve_pts_won": 0.5556,
+    "hold": 0.6382,
+    "aces_per_svgm": 0.2116,
+    "df_per_svgm": 0.4232,
+    "bp_saved": 0.507,
+    "ret_pts_won": 0.4644,
+    "ret_1st_won": 0.3918,
+    "ret_2nd_won": 0.5827,
+    "ret_games_won": 0.4167,
+    "bp_conv": 0.434,
+    "bp_chances_per_retgm": 0.96,
+    "matches_with_stats": 29
+   },
+   "rank_history": [
+    [
+     "2025-05-26",
+     172.0
+    ],
+    [
+     "2025-07-21",
+     106.0
+    ],
+    [
+     "2025-08-25",
+     96.0
+    ],
+    [
+     "2025-10-13",
+     78.0
+    ],
+    [
+     "2026-01-04",
+     60.0
+    ],
+    [
+     "2026-01-19",
+     54.0
+    ],
+    [
+     "2026-02-08",
+     48.0
+    ],
+    [
+     "2026-03-04",
+     47.0
+    ],
+    [
+     "2026-03-17",
+     49.0
+    ],
+    [
+     "2026-04-21",
+     51.0
+    ],
+    [
+     "2026-05-05",
+     48.0
+    ],
+    [
+     "2026-05-25",
+     42.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:223253",
+   "name": "Alexandra Eala",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 37.0,
+   "age": 21.449007529089666,
+   "elo": 1882.4,
+   "surface_elo": {
+    "Hard": 1831.0,
+    "Clay": 1543.8,
+    "Grass": 1738.2
+   },
+   "matches_total": 98,
+   "matches_surface": {
+    "Hard": 63,
+    "Clay": 19,
+    "Grass": 16
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    34,
+    24
+   ],
+   "last52w_surface": [
+    24,
+    14
+   ],
+   "career_surface_wl": [
+    31,
+    32
+   ],
+   "games_won_lost_52w": [
+    663,
+    598
+   ],
+   "sets_won_lost_52w": [
+    77,
+    59
+   ],
+   "avg_opp_elo_last20": 1821.5,
+   "vs_top_opp_52w": [
+    7,
+    9
+   ],
+   "serve_rating": 0.199,
+   "return_rating": 0.262,
+   "form_elo": -16.7,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6326,
+    "first_won": 0.6202,
+    "second_won": 0.4652,
+    "serve_pts_won": 0.5633,
+    "hold": 0.6498,
+    "aces_per_svgm": 0.1344,
+    "df_per_svgm": 0.2819,
+    "bp_saved": 0.5534,
+    "ret_pts_won": 0.4409,
+    "ret_1st_won": 0.3577,
+    "ret_2nd_won": 0.5808,
+    "ret_games_won": 0.3759,
+    "bp_conv": 0.4424,
+    "bp_chances_per_retgm": 0.8497,
+    "matches_with_stats": 43
+   },
+   "rank_history": [
+    [
+     "2026-01-19",
+     49.0
+    ],
+    [
+     "2026-02-01",
+     45.0
+    ],
+    [
+     "2026-02-08",
+     40.0
+    ],
+    [
+     "2026-02-15",
+     47.0
+    ],
+    [
+     "2026-03-04",
+     32.0
+    ],
+    [
+     "2026-03-17",
+     29.0
+    ],
+    [
+     "2026-04-06",
+     46.0
+    ],
+    [
+     "2026-04-13",
+     45.0
+    ],
+    [
+     "2026-04-21",
+     44.0
+    ],
+    [
+     "2026-05-05",
+     42.0
+    ],
+    [
+     "2026-05-17",
+     38.0
+    ],
+    [
+     "2026-05-25",
+     37.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "f464548bc54e64e6",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -46.8,
+  "components_elo": {
+   "surface_elo": -73.0,
+   "overall_elo": -110.8,
+   "serve_return": -33.4,
+   "form": 29.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -8.9,
+   "overall_elo": -26.2,
+   "serve_return": -11.7,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4331,
+  "serve_return_implied_spw": {
+   "A": 0.5375,
+   "B": 0.5465
+  },
+  "point_probs": {
+   "A_serve": 0.5322,
+   "B_serve": 0.5517
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5322030330092775,
+   "B_serve": 0.5517253660960302
+  },
+  "hold_probs": {
+   "A": 0.58,
+   "B": 0.6273
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.433,
+   0.4345
+  ],
+  "p_tb": [
+   0.2414,
+   0.2428
+  ],
+  "p_decider": [
+   0.3697,
+   0.3705
+  ],
+  "games_mean": [
+   22.347,
+   22.356
+  ],
+  "exp_breaks": [
+   8.894,
+   8.88
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3702,
+    0.368
+   ],
+   "1-2": [
+    0.1969,
+    0.1976
+   ],
+   "2-0": [
+    0.2602,
+    0.2615
+   ],
+   "2-1": [
+    0.1728,
+    0.173
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexandra Eala",
+   "elo_points": -26.2,
+   "raw_diff": -110.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alexandra Eala",
+   "elo_points": -11.7,
+   "raw_diff": -33.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexandra Eala",
+   "elo_points": -8.9,
+   "raw_diff": -73.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4291,
+   "B": 0.4652,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4644,
+   "B": 0.4409,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5322,
+   "B": 0.5517,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7586,
+  "fair_odds": {
+   "decimal": 1.32,
+   "american": "-314"
+  },
+  "confidence": "High",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially.",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7586,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Alexandra Eala to win at least one set",
+    "probability": 0.7398,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6652,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Tereza Valentova +4.5 games",
+    "probability": 0.6482,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6434,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6303,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Tereza Valentova to win at least one set",
+    "probability": 0.6298,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5842,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Alexandra Eala to win",
+    "probability": 0.567,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5217,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Tereza Valentova +2.5 games",
+    "probability": 0.5125,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Alexandra Eala -2.5 games",
+    "probability": 0.4875,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4783,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Tereza Valentova to win",
+    "probability": 0.433,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4158,
+    "fair_decimal": 2.41
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-05T00:55:10+00:00",
+  "version": 3,
+  "input_hash": "75c629ff2d9c26fd",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186630",
+  "scheduled_start_utc": "2026-11-05T10:30Z"
+ }
+}

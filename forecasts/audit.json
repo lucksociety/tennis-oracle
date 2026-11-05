@@ -1,58 +1,58 @@
 {
- "generated_at_utc": "2026-11-04T19:48:36+00:00",
+ "generated_at_utc": "2026-11-05T01:00:09+00:00",
  "summary": {
-  "n": 318,
-  "brier": 0.2371754203773585,
-  "log_loss": 0.6711186005318147,
-  "accuracy": 0.5911949685534591,
-  "games_mae": 5.222389937106918,
-  "exact_sets_accuracy": 0.4056603773584906,
-  "tiebreak_brier": 0.19347589955974842
+  "n": 324,
+  "brier": 0.2350422051851852,
+  "log_loss": 0.6664786831330369,
+  "accuracy": 0.595679012345679,
+  "games_mae": 5.203703703703703,
+  "exact_sets_accuracy": 0.4104938271604938,
+  "tiebreak_brier": 0.19527290663580246
  },
- "n": 318,
+ "n": 324,
  "overall": {
-  "n": 318,
-  "brier": 0.2371754203773585,
-  "log_loss": 0.6711186005318147,
-  "accuracy": 0.5911949685534591
+  "n": 324,
+  "brier": 0.2350422051851852,
+  "log_loss": 0.6664786831330369,
+  "accuracy": 0.595679012345679
  },
- "games_mae": 5.222389937106918,
- "exact_sets_accuracy": 0.4056603773584906,
- "tiebreak_brier": 0.19347589955974842,
+ "games_mae": 5.203703703703703,
+ "exact_sets_accuracy": 0.4104938271604938,
+ "tiebreak_brier": 0.19527290663580246,
  "by_surface": {
   "Clay": {
-   "n": 29,
-   "brier": 0.1749039320689655,
-   "log_loss": 0.5338799507760712,
-   "accuracy": 0.7586206896551724
+   "n": 32,
+   "brier": 0.17296357406250001,
+   "log_loss": 0.5300816472581945,
+   "accuracy": 0.75
   },
   "Hard": {
-   "n": 289,
-   "brier": 0.2434241164359862,
-   "log_loss": 0.6848899529294498,
-   "accuracy": 0.5743944636678201
+   "n": 292,
+   "brier": 0.24184534284246573,
+   "log_loss": 0.6814263035028827,
+   "accuracy": 0.5787671232876712
   }
  },
  "by_tour": {
   "atp": {
-   "n": 103,
-   "brier": 0.2510900021359224,
-   "log_loss": 0.7049240642133849,
-   "accuracy": 0.5339805825242718
+   "n": 106,
+   "brier": 0.2465239686792453,
+   "log_loss": 0.6948156871717867,
+   "accuracy": 0.5471698113207547
   },
   "wta": {
-   "n": 215,
-   "brier": 0.23050936493023255,
-   "log_loss": 0.6549234249076206,
-   "accuracy": 0.6186046511627907
+   "n": 218,
+   "brier": 0.22945932935779811,
+   "log_loss": 0.6527001398848374,
+   "accuracy": 0.6192660550458715
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 46,
-   "brier": 0.2901046421739131,
-   "log_loss": 0.7962856614878726,
-   "accuracy": 0.4782608695652174
+   "n": 50,
+   "brier": 0.27736804979999996,
+   "log_loss": 0.7674841805725702,
+   "accuracy": 0.5
   },
   "LOW": {
    "n": 147,
@@ -61,24 +61,24 @@
    "accuracy": 0.6326530612244898
   },
   "MEDIUM": {
-   "n": 125,
-   "brier": 0.23014907623999997,
-   "log_loss": 0.6545935540419547,
-   "accuracy": 0.584
+   "n": 127,
+   "brier": 0.22816485338582673,
+   "log_loss": 0.6504134174885424,
+   "accuracy": 0.5905511811023622
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 170,
-   "mean_pred": 0.5447294117647059,
-   "observed": 0.49411764705882355
+   "n": 171,
+   "mean_pred": 0.5444929824561403,
+   "observed": 0.49122807017543857
   },
   {
    "bucket": "60%-70%",
-   "n": 101,
-   "mean_pred": 0.6469554455445543,
-   "observed": 0.7326732673267327
+   "n": 105,
+   "mean_pred": 0.6477799999999999,
+   "observed": 0.7428571428571429
   },
   {
    "bucket": "70%-80%",
@@ -88,9 +88,9 @@
   },
   {
    "bucket": "80%-90%",
-   "n": 11,
-   "mean_pred": 0.8435090909090909,
-   "observed": 0.36363636363636365
+   "n": 12,
+   "mean_pred": 0.8409083333333333,
+   "observed": 0.4166666666666667
   },
   {
    "bucket": "90%-100%",
@@ -12323,6 +12323,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Alex Michelsen vs Carlos Alcaraz",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.1877,
+   "a_won": 0,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.6101,
+   "exp_games": 22.08,
+   "actual_games": 22,
+   "p_tb": 0.304,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.1545,
+     0
+    ],
+    "A -2.5": [
+     0.1281,
+     0
+    ],
+    "A -3.5": [
+     0.0965,
+     0
+    ],
+    "A -4.5": [
+     0.0621,
+     0
+    ],
+    "A -5.5": [
+     0.0355,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Tomas Martin Etcheverry vs Alex De Minaur",
    "date": "2026-11-04",
    "tour": "atp",
@@ -12442,6 +12484,48 @@
     ],
     "A -5.5": [
      0.0275,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Thiago Agustin Tirante vs Jan Lennard Struff",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.3709,
+   "a_won": 0,
+   "pred_winner": "Jan Lennard Struff",
+   "actual_winner": "Jan Lennard Struff",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2255,
+   "exp_games": 25.03,
+   "actual_games": 35,
+   "p_tb": 0.5312,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3111,
+     0
+    ],
+    "A -2.5": [
+     0.2496,
+     0
+    ],
+    "A -3.5": [
+     0.1774,
+     0
+    ],
+    "A -4.5": [
+     0.1046,
+     0
+    ],
+    "A -5.5": [
+     0.0551,
      0
     ]
    },
@@ -12652,6 +12736,48 @@
     ],
     "A -5.5": [
      0.0392,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Arthur Fils vs Tomas Machac",
+   "date": "2026-11-04",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.6894,
+   "a_won": 1,
+   "pred_winner": "Arthur Fils",
+   "actual_winner": "Arthur Fils",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4696,
+   "exp_games": 23.94,
+   "actual_games": 22,
+   "p_tb": 0.4328,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.6373,
+     1
+    ],
+    "A -2.5": [
+     0.5723,
+     1
+    ],
+    "A -3.5": [
+     0.474,
+     1
+    ],
+    "A -4.5": [
+     0.3469,
+     0
+    ],
+    "A -5.5": [
+     0.2339,
      0
     ]
    },
@@ -13247,6 +13373,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Despina Papamichail vs Renata Zarazua",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3429,
+   "a_won": 0,
+   "pred_winner": "Renata Zarazua",
+   "actual_winner": "Renata Zarazua",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.453,
+   "exp_games": 21.9,
+   "actual_games": 25,
+   "p_tb": 0.2198,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3043,
+     0
+    ],
+    "A -2.5": [
+     0.2756,
+     0
+    ],
+    "A -3.5": [
+     0.2356,
+     0
+    ],
+    "A -4.5": [
+     0.1832,
+     0
+    ],
+    "A -5.5": [
+     0.1318,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Julia Grabher vs Julia Riera",
    "date": "2026-11-04",
    "tour": "wta",
@@ -13283,6 +13451,48 @@
     "A -5.5": [
      0.2327,
      0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Leyre Romero Gormaz vs Solana Sierra",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.4957,
+   "a_won": 1,
+   "pred_winner": "Solana Sierra",
+   "actual_winner": "Leyre Romero Gormaz",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3117,
+   "exp_games": 22.37,
+   "actual_games": 17,
+   "p_tb": 0.2406,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4541,
+     1
+    ],
+    "A -2.5": [
+     0.418,
+     1
+    ],
+    "A -3.5": [
+     0.366,
+     1
+    ],
+    "A -4.5": [
+     0.2947,
+     1
+    ],
+    "A -5.5": [
+     0.2207,
+     1
     ]
    },
    "data_quality": "HIGH",
@@ -13328,6 +13538,48 @@
     ]
    },
    "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jazmin Ortenzi vs Bianca Andreescu",
+   "date": "2026-11-04",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.3012,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4936,
+   "exp_games": 21.82,
+   "actual_games": 17,
+   "p_tb": 0.2249,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2642,
+     0
+    ],
+    "A -2.5": [
+     0.2372,
+     0
+    ],
+    "A -3.5": [
+     0.1995,
+     0
+    ],
+    "A -4.5": [
+     0.1522,
+     0
+    ],
+    "A -5.5": [
+     0.107,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   },
   {

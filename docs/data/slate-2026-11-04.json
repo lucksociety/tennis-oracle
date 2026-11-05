@@ -1,7 +1,7 @@
 {
  "date": "2026-11-04",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-04T19:45:36+00:00",
+ "generated_at_utc": "2026-11-05T00:54:50+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -4249,8 +4249,8 @@
    "round": "Round 2",
    "court": "Court Central",
    "start_utc": "2026-11-04T18:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alex Michelsen",
@@ -4266,7 +4266,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-04T12:09:39+00:00",
@@ -4384,8 +4396,8 @@
    "round": "Round 2",
    "court": "Court 2",
    "start_utc": "2026-11-04T18:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Thiago Agustin Tirante",
@@ -4401,7 +4413,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-04T12:09:25+00:00",
@@ -4666,8 +4694,8 @@
    "round": "Round 2",
    "court": "Campo 3",
    "start_utc": "2026-11-04T19:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Despina Papamichail",
@@ -4683,7 +4711,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-04T12:09:36+00:00",
@@ -4794,141 +4834,6 @@
    }
   },
   {
-   "espn_id": "186491",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Round 2",
-   "court": "Court Central",
-   "start_utc": "2026-11-04T19:45Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Arthur Fils",
-     "id": "atp:209950"
-    },
-    {
-     "name": "Tomas Machac",
-     "id": "atp:207830"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-04T12:09:45+00:00",
-    "path": "forecasts/2026-11-04/186491-arthur-fils-vs-tomas-machac/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Arthur Fils",
-    "win_prob": {
-     "A": 0.6894,
-     "B": 0.3106
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.4696
-    },
-    "games_mean": 23.94,
-    "strongest": {
-     "selection": "Arthur Fils to win at least one set",
-     "probability": 0.8357,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.6894,
-      "B": 0.3106
-     },
-     "set_score_probs": {
-      "2-0": 0.4696,
-      "2-1": 0.2198,
-      "0-2": 0.1643,
-      "1-2": 0.1464
-     },
-     "games_pmf": {
-      "12": 0.00064,
-      "13": 0.00395,
-      "14": 0.01075,
-      "15": 0.02469,
-      "16": 0.04112,
-      "17": 0.06562,
-      "18": 0.07356,
-      "19": 0.08171,
-      "20": 0.0764,
-      "21": 0.05211,
-      "22": 0.08433,
-      "23": 0.06579,
-      "24": 0.01018,
-      "25": 0.03266,
-      "26": 0.04887,
-      "27": 0.02449,
-      "28": 0.0308,
-      "29": 0.03355,
-      "30": 0.03476,
-      "31": 0.04162,
-      "32": 0.04334,
-      "33": 0.02717,
-      "34": 0.02134,
-      "35": 0.03033,
-      "36": 0.02178,
-      "37": 0.00249,
-      "38": 0.00675,
-      "39": 0.0092
-     },
-     "games_diff_pmf": {
-      "-12": 5e-05,
-      "-11": 0.00031,
-      "-10": 0.00111,
-      "-9": 0.00362,
-      "-8": 0.00743,
-      "-7": 0.01689,
-      "-6": 0.02668,
-      "-5": 0.0436,
-      "-4": 0.05909,
-      "-3": 0.05689,
-      "-2": 0.04472,
-      "-1": 0.03156,
-      "0": 0.03352,
-      "1": 0.03719,
-      "2": 0.06509,
-      "3": 0.09828,
-      "4": 0.12706,
-      "5": 0.11299,
-      "6": 0.0904,
-      "7": 0.06822,
-      "8": 0.03889,
-      "9": 0.02218,
-      "10": 0.00999,
-      "11": 0.00365,
-      "12": 0.00059
-     },
-     "p_tiebreak": 0.4328,
-     "p_decider": 0.3662
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0036
-   }
-  },
-  {
    "espn_id": "186724",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
@@ -4936,8 +4841,8 @@
    "round": "Round 2",
    "court": "Campo 1",
    "start_utc": "2026-11-04T19:50Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Leyre Romero Gormaz",
@@ -4953,7 +4858,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      1
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 5,
     "frozen_at_utc": "2026-11-04T19:45:34+00:00",
@@ -5064,6 +4981,153 @@
    }
   },
   {
+   "espn_id": "186491",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Round 2",
+   "court": "Court Central",
+   "start_utc": "2026-11-04T20:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Arthur Fils",
+     "id": "atp:209950"
+    },
+    {
+     "name": "Tomas Machac",
+     "id": "atp:207830"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-04T12:09:45+00:00",
+    "path": "forecasts/2026-11-04/186491-arthur-fils-vs-tomas-machac/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Arthur Fils",
+    "win_prob": {
+     "A": 0.6894,
+     "B": 0.3106
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.4696
+    },
+    "games_mean": 23.94,
+    "strongest": {
+     "selection": "Arthur Fils to win at least one set",
+     "probability": 0.8357,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6894,
+      "B": 0.3106
+     },
+     "set_score_probs": {
+      "2-0": 0.4696,
+      "2-1": 0.2198,
+      "0-2": 0.1643,
+      "1-2": 0.1464
+     },
+     "games_pmf": {
+      "12": 0.00064,
+      "13": 0.00395,
+      "14": 0.01075,
+      "15": 0.02469,
+      "16": 0.04112,
+      "17": 0.06562,
+      "18": 0.07356,
+      "19": 0.08171,
+      "20": 0.0764,
+      "21": 0.05211,
+      "22": 0.08433,
+      "23": 0.06579,
+      "24": 0.01018,
+      "25": 0.03266,
+      "26": 0.04887,
+      "27": 0.02449,
+      "28": 0.0308,
+      "29": 0.03355,
+      "30": 0.03476,
+      "31": 0.04162,
+      "32": 0.04334,
+      "33": 0.02717,
+      "34": 0.02134,
+      "35": 0.03033,
+      "36": 0.02178,
+      "37": 0.00249,
+      "38": 0.00675,
+      "39": 0.0092
+     },
+     "games_diff_pmf": {
+      "-12": 5e-05,
+      "-11": 0.00031,
+      "-10": 0.00111,
+      "-9": 0.00362,
+      "-8": 0.00743,
+      "-7": 0.01689,
+      "-6": 0.02668,
+      "-5": 0.0436,
+      "-4": 0.05909,
+      "-3": 0.05689,
+      "-2": 0.04472,
+      "-1": 0.03156,
+      "0": 0.03352,
+      "1": 0.03719,
+      "2": 0.06509,
+      "3": 0.09828,
+      "4": 0.12706,
+      "5": 0.11299,
+      "6": 0.0904,
+      "7": 0.06822,
+      "8": 0.03889,
+      "9": 0.02218,
+      "10": 0.00999,
+      "11": 0.00365,
+      "12": 0.00059
+     },
+     "p_tiebreak": 0.4328,
+     "p_decider": 0.3662
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0036
+   }
+  },
+  {
    "espn_id": "186726",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
@@ -5071,8 +5135,8 @@
    "round": "Round 2",
    "court": "Campo 1",
    "start_utc": "2026-11-04T22:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jazmin Ortenzi",
@@ -5088,7 +5152,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-04T19:45:36+00:00",

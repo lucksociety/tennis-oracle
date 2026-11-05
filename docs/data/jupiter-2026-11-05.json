@@ -1,48 +1,12 @@
 {
  "date": "2026-11-05",
- "snapshot_at_utc": "2026-11-04T19:48:36Z",
- "snapshot_path": "market_snapshots/2026-11-05/20261104T194836Z.json",
+ "snapshot_at_utc": "2026-11-05T01:00:09Z",
+ "snapshot_path": "market_snapshots/2026-11-05/20261105T010009Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
  "note": "Prices are compared with forecasts frozen BEFORE the snapshot; they are never model inputs.",
  "matches": [
-  {
-   "espn_id": "186730",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "186729",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "186728",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
-  {
-   "espn_id": "186727",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
-  },
   {
    "espn_id": "186640",
    "event_id": "POLY-1308866",
@@ -64,12 +28,12 @@
      "label": "Elena Pridankina",
      "status": "open",
      "selection": "Elena Pridankina to win",
-     "model_p": 0.3438,
-     "mc_lower_95": 0.3409,
+     "model_p": 0.345,
+     "mc_lower_95": 0.3421,
      "price": 0.34,
      "implied": 0.3557,
-     "edge": -0.0119,
-     "ev_per_1": -0.0335,
+     "edge": -0.0107,
+     "ev_per_1": -0.0301,
      "eligible": false
     },
     {
@@ -78,12 +42,12 @@
      "label": "Alexandra Shubladze",
      "status": "open",
      "selection": "Alexandra Shubladze to win",
-     "model_p": 0.6562,
-     "mc_lower_95": 0.6533,
+     "model_p": 0.655,
+     "mc_lower_95": 0.6521,
      "price": 0.67,
      "implied": 0.6855,
-     "edge": -0.0293,
-     "ev_per_1": -0.0427,
+     "edge": -0.0305,
+     "ev_per_1": -0.0445,
      "eligible": false
     },
     {
@@ -92,12 +56,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3528,
-     "mc_lower_95": 0.3498,
+     "model_p": 0.3511,
+     "mc_lower_95": 0.3481,
      "price": 0.37,
      "implied": 0.3863,
-     "edge": -0.0335,
-     "ev_per_1": -0.0868,
+     "edge": -0.0352,
+     "ev_per_1": -0.0912,
      "eligible": false
     },
     {
@@ -106,12 +70,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6472,
-     "mc_lower_95": 0.6442,
-     "price": 0.66,
-     "implied": 0.6757,
-     "edge": -0.0285,
-     "ev_per_1": -0.0422,
+     "model_p": 0.6489,
+     "mc_lower_95": 0.6459,
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.017,
+     "ev_per_1": -0.0256,
      "eligible": false
     },
     {
@@ -120,12 +84,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.4482,
-     "mc_lower_95": 0.4451,
-     "price": 0.45,
-     "implied": 0.4673,
-     "edge": -0.0191,
-     "ev_per_1": -0.0409,
+     "model_p": 0.4468,
+     "mc_lower_95": 0.4437,
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": -0.0306,
+     "ev_per_1": -0.0641,
      "eligible": false
     },
     {
@@ -134,12 +98,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.5518,
-     "mc_lower_95": 0.5487,
+     "model_p": 0.5532,
+     "mc_lower_95": 0.5501,
      "price": 0.56,
      "implied": 0.5772,
-     "edge": -0.0255,
-     "ev_per_1": -0.0441,
+     "edge": -0.024,
+     "ev_per_1": -0.0417,
      "eligible": false
     },
     {
@@ -148,12 +112,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.3946,
-     "mc_lower_95": 0.3915,
-     "price": 0.45,
-     "implied": 0.4673,
-     "edge": -0.0728,
-     "ev_per_1": -0.1557,
+     "model_p": 0.3927,
+     "mc_lower_95": 0.3897,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0545,
+     "ev_per_1": -0.1218,
      "eligible": false
     },
     {
@@ -162,12 +126,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.6054,
-     "mc_lower_95": 0.6024,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.0507,
-     "ev_per_1": -0.0773,
+     "model_p": 0.6073,
+     "mc_lower_95": 0.6043,
+     "price": 0.61,
+     "implied": 0.6267,
+     "edge": -0.0193,
+     "ev_per_1": -0.0309,
      "eligible": false
     },
     {
@@ -176,12 +140,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3593,
-     "mc_lower_95": 0.3563,
-     "price": 0.42,
-     "implied": 0.4371,
-     "edge": -0.0778,
-     "ev_per_1": -0.1779,
+     "model_p": 0.3576,
+     "mc_lower_95": 0.3547,
+     "price": 0.41,
+     "implied": 0.4269,
+     "edge": -0.0693,
+     "ev_per_1": -0.1623,
      "eligible": false
     },
     {
@@ -190,12 +154,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6407,
-     "mc_lower_95": 0.6377,
-     "price": 0.68,
-     "implied": 0.6952,
-     "edge": -0.0545,
-     "ev_per_1": -0.0784,
+     "model_p": 0.6424,
+     "mc_lower_95": 0.6394,
+     "price": 0.67,
+     "implied": 0.6855,
+     "edge": -0.0431,
+     "ev_per_1": -0.0629,
      "eligible": false
     },
     {
@@ -204,12 +168,12 @@
      "label": "Alexandra Shubladze -1.5",
      "status": "open",
      "selection": "Alexandra Shubladze -1.5 sets",
-     "model_p": 0.4496,
-     "mc_lower_95": 0.4465,
+     "model_p": 0.4509,
+     "mc_lower_95": 0.4478,
      "price": 0.45,
      "implied": 0.4673,
-     "edge": -0.0177,
-     "ev_per_1": -0.0379,
+     "edge": -0.0164,
+     "ev_per_1": -0.0351,
      "eligible": false
     },
     {
@@ -218,12 +182,12 @@
      "label": "Elena Pridankina +1.5",
      "status": "open",
      "selection": "Elena Pridankina +1.5 sets",
-     "model_p": 0.5504,
-     "mc_lower_95": 0.5473,
+     "model_p": 0.5491,
+     "mc_lower_95": 0.546,
      "price": 0.56,
      "implied": 0.5772,
-     "edge": -0.0268,
-     "ev_per_1": -0.0465,
+     "edge": -0.0281,
+     "ev_per_1": -0.0488,
      "eligible": false
     },
     {
@@ -232,12 +196,12 @@
      "label": "Alexandra Shubladze -3.5",
      "status": "open",
      "selection": "Alexandra Shubladze -3.5 games",
-     "model_p": 0.5238,
-     "mc_lower_95": 0.5207,
+     "model_p": 0.524,
+     "mc_lower_95": 0.5209,
      "price": 0.55,
      "implied": 0.5673,
-     "edge": -0.0435,
-     "ev_per_1": -0.0768,
+     "edge": -0.0433,
+     "ev_per_1": -0.0764,
      "eligible": false
     },
     {
@@ -246,12 +210,12 @@
      "label": "Elena Pridankina +3.5",
      "status": "open",
      "selection": "Elena Pridankina +3.5 games",
-     "model_p": 0.4762,
-     "mc_lower_95": 0.4731,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": -0.0112,
-     "ev_per_1": -0.023,
+     "model_p": 0.476,
+     "mc_lower_95": 0.4729,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0215,
+     "ev_per_1": -0.0431,
      "eligible": false
     }
    ],
@@ -288,12 +252,12 @@
      "label": "Mika Stojsavljevic",
      "status": "open",
      "selection": "Mika Stojsavljevic to win",
-     "model_p": 0.2647,
-     "mc_lower_95": 0.262,
-     "price": 0.25,
-     "implied": 0.2631,
-     "edge": 0.0016,
-     "ev_per_1": 0.006,
+     "model_p": 0.2633,
+     "mc_lower_95": 0.2606,
+     "price": 0.24,
+     "implied": 0.2528,
+     "edge": 0.0105,
+     "ev_per_1": 0.0417,
      "eligible": false
     },
     {
@@ -302,12 +266,12 @@
      "label": "Zeynep Sonmez",
      "status": "open",
      "selection": "Zeynep Sonmez to win",
-     "model_p": 0.7353,
-     "mc_lower_95": 0.7326,
-     "price": 0.76,
-     "implied": 0.7728,
-     "edge": -0.0375,
-     "ev_per_1": -0.0485,
+     "model_p": 0.7367,
+     "mc_lower_95": 0.734,
+     "price": 0.77,
+     "implied": 0.7824,
+     "edge": -0.0457,
+     "ev_per_1": -0.0584,
      "eligible": false
     },
     {
@@ -316,12 +280,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3235,
-     "mc_lower_95": 0.3206,
+     "model_p": 0.3252,
+     "mc_lower_95": 0.3223,
      "price": 0.33,
      "implied": 0.3455,
-     "edge": -0.022,
-     "ev_per_1": -0.0636,
+     "edge": -0.0203,
+     "ev_per_1": -0.0587,
      "eligible": false
     },
     {
@@ -330,12 +294,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6765,
-     "mc_lower_95": 0.6736,
+     "model_p": 0.6748,
+     "mc_lower_95": 0.6719,
      "price": 0.69,
      "implied": 0.705,
-     "edge": -0.0285,
-     "ev_per_1": -0.0404,
+     "edge": -0.0302,
+     "ev_per_1": -0.0428,
      "eligible": false
     },
     {
@@ -344,12 +308,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.421,
-     "mc_lower_95": 0.4179,
-     "price": 0.45,
-     "implied": 0.4673,
-     "edge": -0.0464,
-     "ev_per_1": -0.0992,
+     "model_p": 0.4237,
+     "mc_lower_95": 0.4206,
+     "price": 0.44,
+     "implied": 0.4572,
+     "edge": -0.0336,
+     "ev_per_1": -0.0734,
      "eligible": false
     },
     {
@@ -358,12 +322,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.579,
-     "mc_lower_95": 0.576,
+     "model_p": 0.5763,
+     "mc_lower_95": 0.5732,
      "price": 0.57,
      "implied": 0.5872,
-     "edge": -0.0081,
-     "ev_per_1": -0.0138,
+     "edge": -0.0108,
+     "ev_per_1": -0.0185,
      "eligible": false
     },
     {
@@ -372,12 +336,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.3679,
-     "mc_lower_95": 0.365,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.1396,
-     "ev_per_1": -0.275,
+     "model_p": 0.37,
+     "mc_lower_95": 0.367,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0468,
+     "ev_per_1": -0.1122,
      "eligible": false
     },
     {
@@ -386,12 +350,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.6321,
-     "mc_lower_95": 0.6291,
-     "price": 0.67,
-     "implied": 0.6855,
-     "edge": -0.0534,
-     "ev_per_1": -0.0779,
+     "model_p": 0.63,
+     "mc_lower_95": 0.627,
+     "price": 0.66,
+     "implied": 0.6757,
+     "edge": -0.0457,
+     "ev_per_1": -0.0677,
      "eligible": false
     },
     {
@@ -400,12 +364,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3327,
-     "mc_lower_95": 0.3298,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.1748,
-     "ev_per_1": -0.3444,
+     "model_p": 0.3353,
+     "mc_lower_95": 0.3324,
+     "price": 0.37,
+     "implied": 0.3863,
+     "edge": -0.051,
+     "ev_per_1": -0.132,
      "eligible": false
     },
     {
@@ -414,12 +378,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6673,
-     "mc_lower_95": 0.6644,
-     "price": 0.71,
-     "implied": 0.7244,
-     "edge": -0.0571,
-     "ev_per_1": -0.0788,
+     "model_p": 0.6647,
+     "mc_lower_95": 0.6618,
+     "price": 0.7,
+     "implied": 0.7147,
+     "edge": -0.05,
+     "ev_per_1": -0.07,
      "eligible": false
     },
     {
@@ -428,12 +392,12 @@
      "label": "Zeynep Sonmez -1.5",
      "status": "open",
      "selection": "Zeynep Sonmez -1.5 sets",
-     "model_p": 0.5333,
-     "mc_lower_95": 0.5302,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.034,
-     "ev_per_1": -0.06,
+     "model_p": 0.5329,
+     "mc_lower_95": 0.5298,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0443,
+     "ev_per_1": -0.0768,
      "eligible": false
     },
     {
@@ -442,12 +406,12 @@
      "label": "Mika Stojsavljevic +1.5",
      "status": "open",
      "selection": "Mika Stojsavljevic +1.5 sets",
-     "model_p": 0.4667,
-     "mc_lower_95": 0.4636,
+     "model_p": 0.467,
+     "mc_lower_95": 0.4639,
      "price": 0.46,
      "implied": 0.4774,
-     "edge": -0.0107,
-     "ev_per_1": -0.0224,
+     "edge": -0.0104,
+     "ev_per_1": -0.0218,
      "eligible": false
     },
     {
@@ -456,12 +420,12 @@
      "label": "Zeynep Sonmez -4.5",
      "status": "open",
      "selection": "Zeynep Sonmez -4.5 games",
-     "model_p": 0.5147,
-     "mc_lower_95": 0.5116,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": -0.0625,
-     "ev_per_1": -0.1083,
+     "model_p": 0.5144,
+     "mc_lower_95": 0.5113,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.053,
+     "ev_per_1": -0.0934,
      "eligible": false
     },
     {
@@ -470,12 +434,12 @@
      "label": "Mika Stojsavljevic +4.5",
      "status": "open",
      "selection": "Mika Stojsavljevic +4.5 games",
-     "model_p": 0.4853,
-     "mc_lower_95": 0.4822,
+     "model_p": 0.4856,
+     "mc_lower_95": 0.4825,
      "price": 0.47,
      "implied": 0.4874,
-     "edge": -0.0022,
-     "ev_per_1": -0.0045,
+     "edge": -0.0018,
+     "ev_per_1": -0.0037,
      "eligible": false
     }
    ],
@@ -511,15 +475,15 @@
     "label": "Magda Linette -1.5",
     "status": "open",
     "selection": "Magda Linette -1.5 games",
-    "model_p": 0.5474,
-    "mc_lower_95": 0.5444,
+    "model_p": 0.5481,
+    "mc_lower_95": 0.545,
     "price": 0.51,
     "implied": 0.5275,
-    "edge": 0.0199,
-    "ev_per_1": 0.0378,
+    "edge": 0.0206,
+    "ev_per_1": 0.0391,
     "eligible": true
    },
-   "verdict": "Magda Linette -1.5 games @ 0.51 (model 54.7%, edge 2.0 pts, EV +3.8%)",
+   "verdict": "Magda Linette -1.5 games @ 0.51 (model 54.8%, edge 2.1 pts, EV +3.9%)",
    "outcomes": [
     {
      "market_id": "POLY-6659471",
@@ -534,12 +498,12 @@
      "label": "Moyuka Uchijima",
      "status": "open",
      "selection": "Moyuka Uchijima to win",
-     "model_p": 0.4066,
-     "mc_lower_95": 0.4036,
+     "model_p": 0.4076,
+     "mc_lower_95": 0.4046,
      "price": 0.45,
      "implied": 0.4673,
-     "edge": -0.0607,
-     "ev_per_1": -0.1299,
+     "edge": -0.0597,
+     "ev_per_1": -0.1278,
      "eligible": false
     },
     {
@@ -548,12 +512,12 @@
      "label": "Magda Linette",
      "status": "open",
      "selection": "Magda Linette to win",
-     "model_p": 0.5934,
-     "mc_lower_95": 0.5904,
+     "model_p": 0.5924,
+     "mc_lower_95": 0.5894,
      "price": 0.56,
      "implied": 0.5772,
-     "edge": 0.0162,
-     "ev_per_1": 0.028,
+     "edge": 0.0152,
+     "ev_per_1": 0.0262,
      "eligible": true
     },
     {
@@ -562,12 +526,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3732,
-     "mc_lower_95": 0.3702,
+     "model_p": 0.374,
+     "mc_lower_95": 0.371,
      "price": 0.41,
      "implied": 0.4269,
-     "edge": -0.0537,
-     "ev_per_1": -0.1259,
+     "edge": -0.0529,
+     "ev_per_1": -0.124,
      "eligible": false
     },
     {
@@ -576,12 +540,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6268,
-     "mc_lower_95": 0.6238,
+     "model_p": 0.626,
+     "mc_lower_95": 0.623,
      "price": 0.61,
      "implied": 0.6267,
-     "edge": 0.0001,
-     "ev_per_1": 0.0002,
+     "edge": -0.0007,
+     "ev_per_1": -0.001,
      "eligible": false
     },
     {
@@ -590,12 +554,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.5015,
-     "mc_lower_95": 0.4984,
+     "model_p": 0.5022,
+     "mc_lower_95": 0.4991,
      "price": 0.54,
      "implied": 0.5574,
-     "edge": -0.0559,
-     "ev_per_1": -0.1002,
+     "edge": -0.0552,
+     "ev_per_1": -0.0991,
      "eligible": false
     },
     {
@@ -604,12 +568,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.4985,
-     "mc_lower_95": 0.4954,
+     "model_p": 0.4978,
+     "mc_lower_95": 0.4947,
      "price": 0.49,
      "implied": 0.5075,
-     "edge": -0.009,
-     "ev_per_1": -0.0178,
+     "edge": -0.0097,
+     "ev_per_1": -0.019,
      "eligible": false
     },
     {
@@ -618,12 +582,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.437,
-     "mc_lower_95": 0.4339,
+     "model_p": 0.4384,
+     "mc_lower_95": 0.4354,
      "price": 0.47,
      "implied": 0.4874,
-     "edge": -0.0505,
-     "ev_per_1": -0.1035,
+     "edge": -0.049,
+     "ev_per_1": -0.1005,
      "eligible": false
     },
     {
@@ -632,12 +596,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.563,
-     "mc_lower_95": 0.5599,
+     "model_p": 0.5616,
+     "mc_lower_95": 0.5585,
      "price": 0.55,
      "implied": 0.5673,
-     "edge": -0.0043,
-     "ev_per_1": -0.0076,
+     "edge": -0.0058,
+     "ev_per_1": -0.0101,
      "eligible": false
     },
     {
@@ -646,12 +610,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3925,
-     "mc_lower_95": 0.3895,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.115,
-     "ev_per_1": -0.2266,
+     "model_p": 0.3942,
+     "mc_lower_95": 0.3912,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0529,
+     "ev_per_1": -0.1184,
      "eligible": false
     },
     {
@@ -660,12 +624,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6075,
-     "mc_lower_95": 0.6045,
-     "price": 0.59,
-     "implied": 0.6069,
-     "edge": 0.0006,
-     "ev_per_1": 0.0009,
+     "model_p": 0.6058,
+     "mc_lower_95": 0.6028,
+     "price": 0.6,
+     "implied": 0.6168,
+     "edge": -0.011,
+     "ev_per_1": -0.0179,
      "eligible": false
     },
     {
@@ -688,12 +652,12 @@
      "label": "Moyuka Uchijima +1.5",
      "status": "open",
      "selection": "Moyuka Uchijima +1.5 sets",
-     "model_p": 0.6121,
-     "mc_lower_95": 0.6091,
+     "model_p": 0.6122,
+     "mc_lower_95": 0.6092,
      "price": 0.67,
      "implied": 0.6855,
-     "edge": -0.0734,
-     "ev_per_1": -0.107,
+     "edge": -0.0733,
+     "ev_per_1": -0.1069,
      "eligible": false
     },
     {
@@ -702,12 +666,12 @@
      "label": "Magda Linette -1.5",
      "status": "open",
      "selection": "Magda Linette -1.5 games",
-     "model_p": 0.5474,
-     "mc_lower_95": 0.5444,
+     "model_p": 0.5481,
+     "mc_lower_95": 0.545,
      "price": 0.51,
      "implied": 0.5275,
-     "edge": 0.0199,
-     "ev_per_1": 0.0378,
+     "edge": 0.0206,
+     "ev_per_1": 0.0391,
      "eligible": true
     },
     {
@@ -716,12 +680,12 @@
      "label": "Moyuka Uchijima +1.5",
      "status": "open",
      "selection": "Moyuka Uchijima +1.5 games",
-     "model_p": 0.4526,
-     "mc_lower_95": 0.4495,
+     "model_p": 0.4519,
+     "mc_lower_95": 0.4488,
      "price": 0.51,
      "implied": 0.5275,
-     "edge": -0.0749,
-     "ev_per_1": -0.1421,
+     "edge": -0.0756,
+     "ev_per_1": -0.1434,
      "eligible": false
     }
    ],
@@ -739,15 +703,15 @@
     "label": "Zhibek Kulambayeva +1.5",
     "status": "open",
     "selection": "Zhibek Kulambayeva +1.5 sets",
-    "model_p": 0.5489,
-    "mc_lower_95": 0.5458,
+    "model_p": 0.5488,
+    "mc_lower_95": 0.5457,
     "price": 0.43,
     "implied": 0.4472,
-    "edge": 0.1017,
-    "ev_per_1": 0.2275,
+    "edge": 0.1016,
+    "ev_per_1": 0.2273,
     "eligible": true
    },
-   "verdict": "Zhibek Kulambayeva +1.5 sets @ 0.43 (model 54.9%, edge 10.2 pts, EV +22.8%)",
+   "verdict": "Zhibek Kulambayeva +1.5 sets @ 0.43 (model 54.9%, edge 10.2 pts, EV +22.7%)",
    "outcomes": [
     {
      "market_id": "POLY-6659475",
@@ -762,12 +726,12 @@
      "label": "Mai Hontama",
      "status": "open",
      "selection": "Mai Hontama to win",
-     "model_p": 0.6547,
-     "mc_lower_95": 0.6518,
+     "model_p": 0.6531,
+     "mc_lower_95": 0.6501,
      "price": 0.81,
      "implied": 0.8208,
-     "edge": -0.1661,
-     "ev_per_1": -0.2023,
+     "edge": -0.1677,
+     "ev_per_1": -0.2043,
      "eligible": false
     },
     {
@@ -776,12 +740,12 @@
      "label": "Zhibek Kulambayeva",
      "status": "open",
      "selection": "Zhibek Kulambayeva to win",
-     "model_p": 0.3453,
-     "mc_lower_95": 0.3424,
+     "model_p": 0.3469,
+     "mc_lower_95": 0.3439,
      "price": 0.2,
      "implied": 0.2112,
-     "edge": 0.1341,
-     "ev_per_1": 0.6349,
+     "edge": 0.1357,
+     "ev_per_1": 0.6425,
      "eligible": false
     },
     {
@@ -790,12 +754,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3519,
-     "mc_lower_95": 0.3489,
+     "model_p": 0.3512,
+     "mc_lower_95": 0.3482,
      "price": 0.32,
      "implied": 0.3352,
-     "edge": 0.0167,
-     "ev_per_1": 0.0497,
+     "edge": 0.016,
+     "ev_per_1": 0.0476,
      "eligible": false
     },
     {
@@ -804,12 +768,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6481,
-     "mc_lower_95": 0.6451,
+     "model_p": 0.6488,
+     "mc_lower_95": 0.6458,
      "price": 0.7,
      "implied": 0.7147,
-     "edge": -0.0666,
-     "ev_per_1": -0.0932,
+     "edge": -0.0659,
+     "ev_per_1": -0.0922,
      "eligible": false
     },
     {
@@ -818,12 +782,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.4493,
-     "mc_lower_95": 0.4462,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.0482,
-     "ev_per_1": -0.0968,
+     "model_p": 0.4482,
+     "mc_lower_95": 0.4451,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": 0.001,
+     "ev_per_1": 0.0022,
      "eligible": false
     },
     {
@@ -832,12 +796,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.5507,
-     "mc_lower_95": 0.5476,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": -0.1152,
-     "ev_per_1": -0.173,
+     "model_p": 0.5518,
+     "mc_lower_95": 0.5488,
+     "price": 0.67,
+     "implied": 0.6855,
+     "edge": -0.1336,
+     "ev_per_1": -0.195,
      "eligible": false
     },
     {
@@ -846,12 +810,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.3943,
-     "mc_lower_95": 0.3913,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.1032,
-     "ev_per_1": -0.2074,
+     "model_p": 0.3946,
+     "mc_lower_95": 0.3916,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": -0.0019,
+     "ev_per_1": -0.0047,
      "eligible": false
     },
     {
@@ -860,12 +824,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.6057,
-     "mc_lower_95": 0.6027,
+     "model_p": 0.6054,
+     "mc_lower_95": 0.6024,
      "price": 0.71,
      "implied": 0.7244,
-     "edge": -0.1187,
-     "ev_per_1": -0.1639,
+     "edge": -0.119,
+     "ev_per_1": -0.1643,
      "eligible": false
     },
     {
@@ -874,12 +838,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3591,
-     "mc_lower_95": 0.3561,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.1384,
-     "ev_per_1": -0.2781,
+     "model_p": 0.3587,
+     "mc_lower_95": 0.3558,
+     "price": 0.35,
+     "implied": 0.3659,
+     "edge": -0.0072,
+     "ev_per_1": -0.0197,
      "eligible": false
     },
     {
@@ -888,12 +852,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6409,
-     "mc_lower_95": 0.6379,
-     "price": 0.74,
-     "implied": 0.7535,
-     "edge": -0.1126,
-     "ev_per_1": -0.1494,
+     "model_p": 0.6413,
+     "mc_lower_95": 0.6383,
+     "price": 0.75,
+     "implied": 0.7631,
+     "edge": -0.1219,
+     "ev_per_1": -0.1597,
      "eligible": false
     },
     {
@@ -902,12 +866,12 @@
      "label": "Mai Hontama -1.5",
      "status": "open",
      "selection": "Mai Hontama -1.5 sets",
-     "model_p": 0.4511,
-     "mc_lower_95": 0.448,
+     "model_p": 0.4513,
+     "mc_lower_95": 0.4482,
      "price": 0.6,
      "implied": 0.6168,
-     "edge": -0.1657,
-     "ev_per_1": -0.2686,
+     "edge": -0.1655,
+     "ev_per_1": -0.2683,
      "eligible": false
     },
     {
@@ -916,12 +880,12 @@
      "label": "Zhibek Kulambayeva +1.5",
      "status": "open",
      "selection": "Zhibek Kulambayeva +1.5 sets",
-     "model_p": 0.5489,
-     "mc_lower_95": 0.5458,
+     "model_p": 0.5488,
+     "mc_lower_95": 0.5457,
      "price": 0.43,
      "implied": 0.4472,
-     "edge": 0.1017,
-     "ev_per_1": 0.2275,
+     "edge": 0.1016,
+     "ev_per_1": 0.2273,
      "eligible": true
     },
     {
@@ -930,12 +894,12 @@
      "label": "Mai Hontama -5.5",
      "status": "open",
      "selection": "Mai Hontama -5.5 games",
-     "model_p": 0.3486,
-     "mc_lower_95": 0.3456,
+     "model_p": 0.3483,
+     "mc_lower_95": 0.3453,
      "price": 0.5,
      "implied": 0.5175,
-     "edge": -0.1689,
-     "ev_per_1": -0.3264,
+     "edge": -0.1692,
+     "ev_per_1": -0.3271,
      "eligible": false
     },
     {
@@ -944,12 +908,12 @@
      "label": "Zhibek Kulambayeva +5.5",
      "status": "open",
      "selection": "Zhibek Kulambayeva +5.5 games",
-     "model_p": 0.6514,
-     "mc_lower_95": 0.6484,
+     "model_p": 0.6518,
+     "mc_lower_95": 0.6488,
      "price": 0.52,
      "implied": 0.5375,
-     "edge": 0.1139,
-     "ev_per_1": 0.212,
+     "edge": 0.1143,
+     "ev_per_1": 0.2126,
      "eligible": true
     }
    ],
@@ -960,9 +924,22 @@
    "espn_id": "186496",
    "event_id": "POLY-1315034",
    "event_title": "Rolex Paris Masters: Tommy Paul vs Quentin Halys",
-   "status": "no_bet",
-   "best": null,
-   "verdict": "NO BET (no outcome with both >50% and positive edge)",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6689754-1",
+    "type": "handicap",
+    "label": "Quentin Halys +1.5",
+    "status": "open",
+    "selection": "Quentin Halys +1.5 sets",
+    "model_p": 0.5462,
+    "mc_lower_95": 0.5431,
+    "price": 0.52,
+    "implied": 0.5375,
+    "edge": 0.0087,
+    "ev_per_1": 0.0162,
+    "eligible": true
+   },
+   "verdict": "Quentin Halys +1.5 sets @ 0.52 (model 54.6%, edge 0.9 pts, EV +1.6%)",
    "outcomes": [
     {
      "market_id": "POLY-6686704",
@@ -979,10 +956,10 @@
      "selection": "Tommy Paul to win",
      "model_p": 0.6762,
      "mc_lower_95": 0.6733,
-     "price": 0.73,
-     "implied": 0.7438,
-     "edge": -0.0676,
-     "ev_per_1": -0.0909,
+     "price": 0.74,
+     "implied": 0.7535,
+     "edge": -0.0773,
+     "ev_per_1": -0.1025,
      "eligible": false
     },
     {
@@ -993,10 +970,10 @@
      "selection": "Quentin Halys to win",
      "model_p": 0.3238,
      "mc_lower_95": 0.3209,
-     "price": 0.28,
-     "implied": 0.2941,
-     "edge": 0.0297,
-     "ev_per_1": 0.1009,
+     "price": 0.27,
+     "implied": 0.2838,
+     "edge": 0.04,
+     "ev_per_1": 0.141,
      "eligible": false
     },
     {
@@ -1007,10 +984,10 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.3742,
      "mc_lower_95": 0.3712,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5978,
-     "ev_per_1": -0.615,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0426,
+     "ev_per_1": -0.1022,
      "eligible": false
     },
     {
@@ -1021,10 +998,10 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.6258,
      "mc_lower_95": 0.6228,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": -0.0401,
-     "ev_per_1": -0.0603,
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": -0.0107,
+     "ev_per_1": -0.0168,
      "eligible": false
     },
     {
@@ -1035,10 +1012,10 @@
      "selection": "Over 21.5 games",
      "model_p": 0.5969,
      "mc_lower_95": 0.5939,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.0592,
-     "ev_per_1": -0.0902,
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.069,
+     "ev_per_1": -0.1036,
      "eligible": false
     },
     {
@@ -1049,10 +1026,10 @@
      "selection": "Under 21.5 games",
      "model_p": 0.4031,
      "mc_lower_95": 0.4,
-     "price": 0.94,
-     "implied": 0.9439,
-     "edge": -0.5409,
-     "ev_per_1": -0.573,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": 0.0066,
+     "ev_per_1": 0.0166,
      "eligible": false
     },
     {
@@ -1063,7 +1040,11 @@
      "selection": "Over 22.5 games",
      "model_p": 0.5063,
      "mc_lower_95": 0.5032,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0511,
+     "ev_per_1": -0.0917,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689740-1",
@@ -1073,7 +1054,11 @@
      "selection": "Under 22.5 games",
      "model_p": 0.4937,
      "mc_lower_95": 0.4906,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0038,
+     "ev_per_1": -0.0076,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689748-0",
@@ -1083,10 +1068,10 @@
      "selection": "Over 23.5 games",
      "model_p": 0.4353,
      "mc_lower_95": 0.4322,
-     "price": 0.92,
-     "implied": 0.9252,
-     "edge": -0.4898,
-     "ev_per_1": -0.5295,
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": -0.0421,
+     "ev_per_1": -0.0881,
      "eligible": false
     },
     {
@@ -1097,10 +1082,10 @@
      "selection": "Under 23.5 games",
      "model_p": 0.5647,
      "mc_lower_95": 0.5616,
-     "price": 0.58,
-     "implied": 0.5971,
-     "edge": -0.0324,
-     "ev_per_1": -0.0542,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0126,
+     "ev_per_1": -0.0218,
      "eligible": false
     },
     {
@@ -1125,11 +1110,11 @@
      "selection": "Quentin Halys +1.5 sets",
      "model_p": 0.5462,
      "mc_lower_95": 0.5431,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": -0.031,
-     "ev_per_1": -0.0538,
-     "eligible": false
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": 0.0087,
+     "ev_per_1": 0.0162,
+     "eligible": true
     },
     {
      "market_id": "POLY-6689761-0",
@@ -1139,10 +1124,10 @@
      "selection": "Tommy Paul -3.5 games",
      "model_p": 0.4483,
      "mc_lower_95": 0.4452,
-     "price": 0.57,
-     "implied": 0.5872,
-     "edge": -0.1388,
-     "ev_per_1": -0.2365,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0492,
+     "ev_per_1": -0.0988,
      "eligible": false
     },
     {
@@ -1153,15 +1138,15 @@
      "selection": "Quentin Halys +3.5 games",
      "model_p": 0.5517,
      "mc_lower_95": 0.5486,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.0057,
-     "ev_per_1": -0.0102,
-     "eligible": false
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": 0.0042,
+     "ev_per_1": 0.0078,
+     "eligible": true
     }
    ],
-   "n_priced": 12,
-   "n_eligible": 0
+   "n_priced": 14,
+   "n_eligible": 2
   },
   {
    "espn_id": "186630",
@@ -1174,15 +1159,15 @@
     "label": "Tereza Valentova +1.5",
     "status": "open",
     "selection": "Tereza Valentova +1.5 sets",
-    "model_p": 0.6322,
-    "mc_lower_95": 0.6292,
+    "model_p": 0.6299,
+    "mc_lower_95": 0.6269,
     "price": 0.58,
     "implied": 0.5971,
-    "edge": 0.0351,
-    "ev_per_1": 0.0589,
+    "edge": 0.0328,
+    "ev_per_1": 0.055,
     "eligible": true
    },
-   "verdict": "Tereza Valentova +1.5 sets @ 0.58 (model 63.2%, edge 3.5 pts, EV +5.9%)",
+   "verdict": "Tereza Valentova +1.5 sets @ 0.58 (model 63.0%, edge 3.3 pts, EV +5.5%)",
    "outcomes": [
     {
      "market_id": "POLY-6644138",
@@ -1197,12 +1182,12 @@
      "label": "Tereza Valentova",
      "status": "open",
      "selection": "Tereza Valentova to win",
-     "model_p": 0.4338,
-     "mc_lower_95": 0.4307,
+     "model_p": 0.433,
+     "mc_lower_95": 0.4299,
      "price": 0.38,
      "implied": 0.3965,
-     "edge": 0.0373,
-     "ev_per_1": 0.0941,
+     "edge": 0.0365,
+     "ev_per_1": 0.0921,
      "eligible": false
     },
     {
@@ -1211,12 +1196,12 @@
      "label": "Alexandra Eala",
      "status": "open",
      "selection": "Alexandra Eala to win",
-     "model_p": 0.5662,
-     "mc_lower_95": 0.5631,
+     "model_p": 0.567,
+     "mc_lower_95": 0.5639,
      "price": 0.63,
      "implied": 0.6463,
-     "edge": -0.0801,
-     "ev_per_1": -0.124,
+     "edge": -0.0793,
+     "ev_per_1": -0.1227,
      "eligible": false
     },
     {
@@ -1227,10 +1212,10 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.3697,
      "mc_lower_95": 0.3667,
-     "price": 0.39,
-     "implied": 0.4067,
-     "edge": -0.037,
-     "ev_per_1": -0.0909,
+     "price": 0.41,
+     "implied": 0.4269,
+     "edge": -0.0572,
+     "ev_per_1": -0.1341,
      "eligible": false
     },
     {
@@ -1241,11 +1226,11 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.6303,
      "mc_lower_95": 0.6273,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.0258,
-     "ev_per_1": -0.0394,
-     "eligible": false
+     "price": 0.6,
+     "implied": 0.6168,
+     "edge": 0.0135,
+     "ev_per_1": 0.0219,
+     "eligible": true
     },
     {
      "market_id": "POLY-6645652-0",
@@ -1253,12 +1238,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.4751,
-     "mc_lower_95": 0.472,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.0224,
-     "ev_per_1": -0.0451,
+     "model_p": 0.4722,
+     "mc_lower_95": 0.4691,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0453,
+     "ev_per_1": -0.0875,
      "eligible": false
     },
     {
@@ -1267,12 +1252,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.5249,
-     "mc_lower_95": 0.5218,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.0324,
-     "ev_per_1": -0.0582,
+     "model_p": 0.5278,
+     "mc_lower_95": 0.5247,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.0097,
+     "ev_per_1": -0.018,
      "eligible": false
     },
     {
@@ -1281,12 +1266,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.4168,
-     "mc_lower_95": 0.4138,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.0907,
-     "ev_per_1": -0.1787,
+     "model_p": 0.4158,
+     "mc_lower_95": 0.4127,
+     "price": 0.44,
+     "implied": 0.4572,
+     "edge": -0.0415,
+     "ev_per_1": -0.0907,
      "eligible": false
     },
     {
@@ -1295,12 +1280,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.5832,
-     "mc_lower_95": 0.5801,
+     "model_p": 0.5842,
+     "mc_lower_95": 0.5812,
      "price": 0.58,
      "implied": 0.5971,
-     "edge": -0.0139,
-     "ev_per_1": -0.0232,
+     "edge": -0.0128,
+     "ev_per_1": -0.0215,
      "eligible": false
     },
     {
@@ -1309,12 +1294,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3797,
-     "mc_lower_95": 0.3767,
-     "price": 0.92,
-     "implied": 0.9252,
-     "edge": -0.5455,
-     "ev_per_1": -0.5896,
+     "model_p": 0.3785,
+     "mc_lower_95": 0.3755,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.129,
+     "ev_per_1": -0.2541,
      "eligible": false
     },
     {
@@ -1323,12 +1308,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6203,
-     "mc_lower_95": 0.6173,
-     "price": 0.78,
-     "implied": 0.792,
-     "edge": -0.1717,
-     "ev_per_1": -0.2168,
+     "model_p": 0.6215,
+     "mc_lower_95": 0.6185,
+     "price": 0.66,
+     "implied": 0.6757,
+     "edge": -0.0542,
+     "ev_per_1": -0.0803,
      "eligible": false
     },
     {
@@ -1337,12 +1322,12 @@
      "label": "Alexandra Eala -1.5",
      "status": "open",
      "selection": "Alexandra Eala -1.5 sets",
-     "model_p": 0.3679,
-     "mc_lower_95": 0.3649,
+     "model_p": 0.3702,
+     "mc_lower_95": 0.3672,
      "price": 0.43,
      "implied": 0.4472,
-     "edge": -0.0793,
-     "ev_per_1": -0.1772,
+     "edge": -0.077,
+     "ev_per_1": -0.1721,
      "eligible": false
     },
     {
@@ -1351,12 +1336,12 @@
      "label": "Tereza Valentova +1.5",
      "status": "open",
      "selection": "Tereza Valentova +1.5 sets",
-     "model_p": 0.6322,
-     "mc_lower_95": 0.6292,
+     "model_p": 0.6299,
+     "mc_lower_95": 0.6269,
      "price": 0.58,
      "implied": 0.5971,
-     "edge": 0.0351,
-     "ev_per_1": 0.0589,
+     "edge": 0.0328,
+     "ev_per_1": 0.055,
      "eligible": true
     },
     {
@@ -1365,12 +1350,12 @@
      "label": "Alexandra Eala -3.5",
      "status": "open",
      "selection": "Alexandra Eala -3.5 games",
-     "model_p": 0.4304,
-     "mc_lower_95": 0.4273,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.0671,
-     "ev_per_1": -0.1349,
+     "model_p": 0.4311,
+     "mc_lower_95": 0.428,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0764,
+     "ev_per_1": -0.1506,
      "eligible": false
     },
     {
@@ -1379,17 +1364,17 @@
      "label": "Tereza Valentova +3.5",
      "status": "open",
      "selection": "Tereza Valentova +3.5 games",
-     "model_p": 0.5696,
-     "mc_lower_95": 0.5666,
+     "model_p": 0.5689,
+     "mc_lower_95": 0.5659,
      "price": 0.54,
      "implied": 0.5574,
-     "edge": 0.0123,
-     "ev_per_1": 0.022,
+     "edge": 0.0116,
+     "ev_per_1": 0.0207,
      "eligible": true
     }
    ],
    "n_priced": 14,
-   "n_eligible": 2
+   "n_eligible": 3
   },
   {
    "espn_id": "186677",
@@ -1421,12 +1406,12 @@
      "label": "Simona Waltert",
      "status": "open",
      "selection": "Simona Waltert to win",
-     "model_p": 0.3393,
-     "mc_lower_95": 0.3364,
+     "model_p": 0.3394,
+     "mc_lower_95": 0.3365,
      "price": 0.36,
      "implied": 0.3761,
-     "edge": -0.0368,
-     "ev_per_1": -0.0979,
+     "edge": -0.0367,
+     "ev_per_1": -0.0976,
      "eligible": false
     },
     {
@@ -1435,12 +1420,12 @@
      "label": "Lucrezia Stefanini",
      "status": "open",
      "selection": "Lucrezia Stefanini to win",
-     "model_p": 0.6607,
-     "mc_lower_95": 0.6578,
+     "model_p": 0.6606,
+     "mc_lower_95": 0.6577,
      "price": 0.65,
      "implied": 0.6659,
-     "edge": -0.0052,
-     "ev_per_1": -0.0078,
+     "edge": -0.0053,
+     "ev_per_1": -0.008,
      "eligible": false
     },
     {
@@ -1449,12 +1434,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3498,
-     "mc_lower_95": 0.3468,
+     "model_p": 0.3489,
+     "mc_lower_95": 0.3459,
      "price": 0.36,
      "implied": 0.3761,
-     "edge": -0.0263,
-     "ev_per_1": -0.07,
+     "edge": -0.0272,
+     "ev_per_1": -0.0724,
      "eligible": false
     },
     {
@@ -1463,12 +1448,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6502,
-     "mc_lower_95": 0.6472,
+     "model_p": 0.6511,
+     "mc_lower_95": 0.6481,
      "price": 0.66,
      "implied": 0.6757,
-     "edge": -0.0255,
-     "ev_per_1": -0.0378,
+     "edge": -0.0246,
+     "ev_per_1": -0.0364,
      "eligible": false
     },
     {
@@ -1477,12 +1462,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.4431,
-     "mc_lower_95": 0.4401,
+     "model_p": 0.4433,
+     "mc_lower_95": 0.4402,
      "price": 0.45,
      "implied": 0.4673,
-     "edge": -0.0242,
-     "ev_per_1": -0.0518,
+     "edge": -0.024,
+     "ev_per_1": -0.0514,
      "eligible": false
     },
     {
@@ -1491,12 +1476,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.5569,
-     "mc_lower_95": 0.5538,
+     "model_p": 0.5567,
+     "mc_lower_95": 0.5536,
      "price": 0.57,
      "implied": 0.5872,
-     "edge": -0.0303,
-     "ev_per_1": -0.0516,
+     "edge": -0.0305,
+     "ev_per_1": -0.0519,
      "eligible": false
     },
     {
@@ -1505,12 +1490,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.39,
-     "mc_lower_95": 0.387,
-     "price": 0.44,
-     "implied": 0.4572,
-     "edge": -0.0672,
-     "ev_per_1": -0.147,
+     "model_p": 0.3889,
+     "mc_lower_95": 0.3859,
+     "price": 0.42,
+     "implied": 0.4371,
+     "edge": -0.0482,
+     "ev_per_1": -0.1102,
      "eligible": false
     },
     {
@@ -1519,12 +1504,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.61,
-     "mc_lower_95": 0.607,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": -0.0559,
-     "ev_per_1": -0.084,
+     "model_p": 0.6111,
+     "mc_lower_95": 0.6081,
+     "price": 0.64,
+     "implied": 0.6561,
+     "edge": -0.045,
+     "ev_per_1": -0.0686,
      "eligible": false
     },
     {
@@ -1533,12 +1518,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3552,
-     "mc_lower_95": 0.3522,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.1423,
-     "ev_per_1": -0.286,
+     "model_p": 0.355,
+     "mc_lower_95": 0.352,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0618,
+     "ev_per_1": -0.1483,
      "eligible": false
     },
     {
@@ -1547,12 +1532,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6448,
-     "mc_lower_95": 0.6419,
+     "model_p": 0.645,
+     "mc_lower_95": 0.642,
      "price": 0.69,
      "implied": 0.705,
-     "edge": -0.0602,
-     "ev_per_1": -0.0853,
+     "edge": -0.06,
+     "ev_per_1": -0.0851,
      "eligible": false
     },
     {
@@ -1561,12 +1546,12 @@
      "label": "Lucrezia Stefanini -1.5",
      "status": "open",
      "selection": "Lucrezia Stefanini -1.5 sets",
-     "model_p": 0.4564,
-     "mc_lower_95": 0.4533,
+     "model_p": 0.456,
+     "mc_lower_95": 0.4529,
      "price": 0.45,
      "implied": 0.4673,
-     "edge": -0.0109,
-     "ev_per_1": -0.0234,
+     "edge": -0.0113,
+     "ev_per_1": -0.0242,
      "eligible": false
     },
     {
@@ -1575,12 +1560,12 @@
      "label": "Simona Waltert +1.5",
      "status": "open",
      "selection": "Simona Waltert +1.5 sets",
-     "model_p": 0.5437,
-     "mc_lower_95": 0.5406,
+     "model_p": 0.544,
+     "mc_lower_95": 0.5409,
      "price": 0.57,
      "implied": 0.5872,
-     "edge": -0.0435,
-     "ev_per_1": -0.074,
+     "edge": -0.0432,
+     "ev_per_1": -0.0735,
      "eligible": false
     },
     {
@@ -1594,7 +1579,7 @@
      "price": 0.59,
      "implied": 0.6069,
      "edge": -0.0219,
-     "ev_per_1": -0.036,
+     "ev_per_1": -0.0361,
      "eligible": false
     },
     {
@@ -1603,12 +1588,12 @@
      "label": "Simona Waltert +2.5",
      "status": "open",
      "selection": "Simona Waltert +2.5 games",
-     "model_p": 0.4149,
+     "model_p": 0.415,
      "mc_lower_95": 0.4119,
      "price": 0.43,
      "implied": 0.4472,
      "edge": -0.0322,
-     "ev_per_1": -0.0721,
+     "ev_per_1": -0.072,
      "eligible": false
     }
    ],
@@ -1621,20 +1606,20 @@
    "event_title": "Rolex Paris Masters: Ben Shelton vs Arthur Rinderknech",
    "status": "bet",
    "best": {
-    "market_id": "POLY-6675526-0",
-    "type": "tennis_match_totals",
-    "label": "Over 23.5",
+    "market_id": "POLY-6675531-1",
+    "type": "handicap",
+    "label": "Arthur Rinderknech +1.5",
     "status": "open",
-    "selection": "Over 23.5 games",
-    "model_p": 0.5336,
-    "mc_lower_95": 0.5305,
-    "price": 0.5,
-    "implied": 0.5175,
-    "edge": 0.0161,
-    "ev_per_1": 0.0311,
+    "selection": "Arthur Rinderknech +1.5 sets",
+    "model_p": 0.5852,
+    "mc_lower_95": 0.5821,
+    "price": 0.51,
+    "implied": 0.5275,
+    "edge": 0.0577,
+    "ev_per_1": 0.1094,
     "eligible": true
    },
-   "verdict": "Over 23.5 games @ 0.50 (model 53.4%, edge 1.6 pts, EV +3.1%)",
+   "verdict": "Arthur Rinderknech +1.5 sets @ 0.51 (model 58.5%, edge 5.8 pts, EV +10.9%)",
    "outcomes": [
     {
      "market_id": "POLY-6675174",
@@ -1679,10 +1664,10 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.4042,
      "mc_lower_95": 0.4012,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5678,
-     "ev_per_1": -0.5842,
+     "price": 0.37,
+     "implied": 0.3863,
+     "edge": 0.0179,
+     "ev_per_1": 0.0463,
      "eligible": false
     },
     {
@@ -1693,10 +1678,10 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.5958,
      "mc_lower_95": 0.5928,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.3762,
-     "ev_per_1": -0.3871,
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.0701,
+     "ev_per_1": -0.1053,
      "eligible": false
     },
     {
@@ -1707,10 +1692,10 @@
      "selection": "Over 21.5 games",
      "model_p": 0.7431,
      "mc_lower_95": 0.7404,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.2289,
-     "ev_per_1": -0.2355,
+     "price": 0.85,
+     "implied": 0.8589,
+     "edge": -0.1158,
+     "ev_per_1": -0.1348,
      "eligible": false
     },
     {
@@ -1721,10 +1706,10 @@
      "selection": "Under 21.5 games",
      "model_p": 0.2569,
      "mc_lower_95": 0.2542,
-     "price": 0.92,
-     "implied": 0.9252,
-     "edge": -0.6683,
-     "ev_per_1": -0.7223,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.1903,
+     "ev_per_1": -0.4255,
      "eligible": false
     },
     {
@@ -1735,11 +1720,11 @@
      "selection": "Over 22.5 games",
      "model_p": 0.6351,
      "mc_lower_95": 0.6321,
-     "price": 0.61,
-     "implied": 0.6267,
-     "edge": 0.0084,
-     "ev_per_1": 0.0134,
-     "eligible": true
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": -0.0014,
+     "ev_per_1": -0.0022,
+     "eligible": false
     },
     {
      "market_id": "POLY-6675519-1",
@@ -1749,10 +1734,10 @@
      "selection": "Under 22.5 games",
      "model_p": 0.3649,
      "mc_lower_95": 0.3619,
-     "price": 0.43,
-     "implied": 0.4472,
-     "edge": -0.0822,
-     "ev_per_1": -0.1839,
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0417,
+     "ev_per_1": -0.1026,
      "eligible": false
     },
     {
@@ -1763,10 +1748,10 @@
      "selection": "Over 23.5 games",
      "model_p": 0.5336,
      "mc_lower_95": 0.5305,
-     "price": 0.5,
-     "implied": 0.5175,
-     "edge": 0.0161,
-     "ev_per_1": 0.0311,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": 0.0061,
+     "ev_per_1": 0.0115,
      "eligible": true
     },
     {
@@ -1791,10 +1776,10 @@
      "selection": "Ben Shelton -1.5 sets",
      "model_p": 0.4148,
      "mc_lower_95": 0.4117,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5572,
-     "ev_per_1": -0.5733,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.1127,
+     "ev_per_1": -0.2136,
      "eligible": false
     },
     {
@@ -1805,11 +1790,11 @@
      "selection": "Arthur Rinderknech +1.5 sets",
      "model_p": 0.5852,
      "mc_lower_95": 0.5821,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.3962,
-     "ev_per_1": -0.4037,
-     "eligible": false
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": 0.0577,
+     "ev_per_1": 0.1094,
+     "eligible": true
     },
     {
      "market_id": "POLY-6675538-0",
@@ -1819,10 +1804,10 @@
      "selection": "Arthur Rinderknech -1.5 sets",
      "model_p": 0.181,
      "mc_lower_95": 0.1786,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.3265,
-     "ev_per_1": -0.6433,
+     "price": 0.16,
+     "implied": 0.1694,
+     "edge": 0.0116,
+     "ev_per_1": 0.0684,
      "eligible": false
     },
     {
@@ -1833,10 +1818,10 @@
      "selection": "Ben Shelton +1.5 sets",
      "model_p": 0.819,
      "mc_lower_95": 0.8166,
-     "price": 0.86,
-     "implied": 0.8684,
-     "edge": -0.0494,
-     "ev_per_1": -0.0569,
+     "price": 0.87,
+     "implied": 0.8779,
+     "edge": -0.0589,
+     "ev_per_1": -0.0671,
      "eligible": false
     },
     {
@@ -1847,10 +1832,10 @@
      "selection": "Ben Shelton -3.5 games",
      "model_p": 0.3225,
      "mc_lower_95": 0.3196,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.185,
-     "ev_per_1": -0.3646,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0943,
+     "ev_per_1": -0.2263,
      "eligible": false
     },
     {
@@ -1861,10 +1846,10 @@
      "selection": "Arthur Rinderknech +3.5 games",
      "model_p": 0.6775,
      "mc_lower_95": 0.6746,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": 0.0116,
-     "ev_per_1": 0.0174,
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": 0.041,
+     "ev_per_1": 0.0645,
      "eligible": true
     }
    ],
@@ -1892,12 +1877,12 @@
      "label": "Sorana Cirstea",
      "status": "open",
      "selection": "Sorana Cirstea to win",
-     "model_p": 0.7653,
-     "mc_lower_95": 0.7627,
+     "model_p": 0.7668,
+     "mc_lower_95": 0.7642,
      "price": 0.78,
      "implied": 0.792,
-     "edge": -0.0267,
-     "ev_per_1": -0.0337,
+     "edge": -0.0252,
+     "ev_per_1": -0.0318,
      "eligible": false
     },
     {
@@ -1906,12 +1891,12 @@
      "label": "Mary Stoiana",
      "status": "open",
      "selection": "Mary Stoiana to win",
-     "model_p": 0.2347,
-     "mc_lower_95": 0.2321,
+     "model_p": 0.2332,
+     "mc_lower_95": 0.2306,
      "price": 0.23,
      "implied": 0.2424,
-     "edge": -0.0077,
-     "ev_per_1": -0.0318,
+     "edge": -0.0092,
+     "ev_per_1": -0.0379,
      "eligible": false
     },
     {
@@ -1920,12 +1905,12 @@
      "label": "Over 2.5",
      "status": "open",
      "selection": "Over 2.5 sets",
-     "model_p": 0.3088,
-     "mc_lower_95": 0.3059,
+     "model_p": 0.3107,
+     "mc_lower_95": 0.3078,
      "price": 0.32,
      "implied": 0.3352,
-     "edge": -0.0264,
-     "ev_per_1": -0.0788,
+     "edge": -0.0245,
+     "ev_per_1": -0.0732,
      "eligible": false
     },
     {
@@ -1934,12 +1919,12 @@
      "label": "Under 2.5",
      "status": "open",
      "selection": "Under 2.5 sets",
-     "model_p": 0.6912,
-     "mc_lower_95": 0.6883,
+     "model_p": 0.6893,
+     "mc_lower_95": 0.6864,
      "price": 0.71,
      "implied": 0.7244,
-     "edge": -0.0332,
-     "ev_per_1": -0.0458,
+     "edge": -0.0351,
+     "ev_per_1": -0.0485,
      "eligible": false
     },
     {
@@ -1948,12 +1933,12 @@
      "label": "Over 21.5",
      "status": "open",
      "selection": "Over 21.5 games",
-     "model_p": 0.4051,
-     "mc_lower_95": 0.402,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.1623,
-     "ev_per_1": -0.286,
+     "model_p": 0.4068,
+     "mc_lower_95": 0.4038,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0403,
+     "ev_per_1": -0.0902,
      "eligible": false
     },
     {
@@ -1962,12 +1947,12 @@
      "label": "Under 21.5",
      "status": "open",
      "selection": "Under 21.5 games",
-     "model_p": 0.5949,
-     "mc_lower_95": 0.5919,
+     "model_p": 0.5932,
+     "mc_lower_95": 0.5901,
      "price": 0.59,
      "implied": 0.6069,
-     "edge": -0.012,
-     "ev_per_1": -0.0198,
+     "edge": -0.0138,
+     "ev_per_1": -0.0227,
      "eligible": false
     },
     {
@@ -1976,12 +1961,12 @@
      "label": "Over 22.5",
      "status": "open",
      "selection": "Over 22.5 games",
-     "model_p": 0.3524,
-     "mc_lower_95": 0.3494,
-     "price": 0.9,
-     "implied": 0.9063,
-     "edge": -0.5539,
-     "ev_per_1": -0.6112,
+     "model_p": 0.3538,
+     "mc_lower_95": 0.3508,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.1537,
+     "ev_per_1": -0.3029,
      "eligible": false
     },
     {
@@ -1990,12 +1975,12 @@
      "label": "Under 22.5",
      "status": "open",
      "selection": "Under 22.5 games",
-     "model_p": 0.6476,
-     "mc_lower_95": 0.6446,
-     "price": 0.85,
-     "implied": 0.8589,
-     "edge": -0.2113,
-     "ev_per_1": -0.246,
+     "model_p": 0.6462,
+     "mc_lower_95": 0.6433,
+     "price": 0.71,
+     "implied": 0.7244,
+     "edge": -0.0782,
+     "ev_per_1": -0.1079,
      "eligible": false
     },
     {
@@ -2004,12 +1989,12 @@
      "label": "Over 23.5",
      "status": "open",
      "selection": "Over 23.5 games",
-     "model_p": 0.3194,
-     "mc_lower_95": 0.3165,
-     "price": 0.9,
-     "implied": 0.9063,
-     "edge": -0.5869,
-     "ev_per_1": -0.6476,
+     "model_p": 0.3201,
+     "mc_lower_95": 0.3172,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.1974,
+     "ev_per_1": -0.3814,
      "eligible": false
     },
     {
@@ -2018,12 +2003,12 @@
      "label": "Under 23.5",
      "status": "open",
      "selection": "Under 23.5 games",
-     "model_p": 0.6806,
-     "mc_lower_95": 0.6777,
+     "model_p": 0.6799,
+     "mc_lower_95": 0.677,
      "price": 0.74,
      "implied": 0.7535,
-     "edge": -0.0729,
-     "ev_per_1": -0.0967,
+     "edge": -0.0736,
+     "ev_per_1": -0.0977,
      "eligible": false
     },
     {
@@ -2032,12 +2017,12 @@
      "label": "Sorana Cirstea -1.5",
      "status": "open",
      "selection": "Sorana Cirstea -1.5 sets",
-     "model_p": 0.5684,
-     "mc_lower_95": 0.5653,
+     "model_p": 0.567,
+     "mc_lower_95": 0.5639,
      "price": 0.56,
      "implied": 0.5772,
-     "edge": -0.0088,
-     "ev_per_1": -0.0153,
+     "edge": -0.0102,
+     "ev_per_1": -0.0178,
      "eligible": false
     },
     {
@@ -2046,12 +2031,12 @@
      "label": "Mary Stoiana +1.5",
      "status": "open",
      "selection": "Mary Stoiana +1.5 sets",
-     "model_p": 0.4316,
-     "mc_lower_95": 0.4285,
+     "model_p": 0.4331,
+     "mc_lower_95": 0.43,
      "price": 0.45,
      "implied": 0.4673,
-     "edge": -0.0357,
-     "ev_per_1": -0.0764,
+     "edge": -0.0342,
+     "ev_per_1": -0.0732,
      "eligible": false
     },
     {
@@ -2060,12 +2045,12 @@
      "label": "Sorana Cirstea -4.5",
      "status": "open",
      "selection": "Sorana Cirstea -4.5 games",
-     "model_p": 0.5472,
-     "mc_lower_95": 0.5441,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.0201,
-     "ev_per_1": -0.0355,
+     "model_p": 0.5466,
+     "mc_lower_95": 0.5435,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0108,
+     "ev_per_1": -0.0194,
      "eligible": false
     },
     {
@@ -2074,12 +2059,12 @@
      "label": "Mary Stoiana +4.5",
      "status": "open",
      "selection": "Mary Stoiana +4.5 games",
-     "model_p": 0.4528,
-     "mc_lower_95": 0.4497,
+     "model_p": 0.4534,
+     "mc_lower_95": 0.4504,
      "price": 0.48,
      "implied": 0.4975,
-     "edge": -0.0447,
-     "ev_per_1": -0.0898,
+     "edge": -0.044,
+     "ev_per_1": -0.0885,
      "eligible": false
     }
    ],
@@ -2110,20 +2095,20 @@
    "event_title": "Rolex Paris Masters: Rinky Hijikata vs Tomas Etcheverry",
    "status": "bet",
    "best": {
-    "market_id": "POLY-6686718-1",
-    "type": "moneyline",
-    "label": "Tomas Etcheverry",
+    "market_id": "POLY-6689680-0",
+    "type": "tennis_game_handicap",
+    "label": "Tomas Etcheverry -0.5",
     "status": "open",
-    "selection": "Tomas Etcheverry to win",
-    "model_p": 0.5949,
-    "mc_lower_95": 0.5919,
-    "price": 0.55,
-    "implied": 0.5673,
-    "edge": 0.0276,
-    "ev_per_1": 0.0486,
+    "selection": "Tomas Etcheverry -0.5 games",
+    "model_p": 0.5753,
+    "mc_lower_95": 0.5723,
+    "price": 0.52,
+    "implied": 0.5375,
+    "edge": 0.0378,
+    "ev_per_1": 0.0704,
     "eligible": true
    },
-   "verdict": "Tomas Etcheverry to win @ 0.55 (model 59.5%, edge 2.8 pts, EV +4.9%)",
+   "verdict": "Tomas Etcheverry -0.5 games @ 0.52 (model 57.5%, edge 3.8 pts, EV +7.0%)",
    "outcomes": [
     {
      "market_id": "POLY-6686719",
@@ -2140,10 +2125,10 @@
      "selection": "Rinky Hijikata to win",
      "model_p": 0.4051,
      "mc_lower_95": 0.4021,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.1224,
-     "ev_per_1": -0.232,
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": -0.0723,
+     "ev_per_1": -0.1514,
      "eligible": false
     },
     {
@@ -2168,7 +2153,11 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.3974,
      "mc_lower_95": 0.3944,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0498,
+     "ev_per_1": -0.1113,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689612-1",
@@ -2178,7 +2167,11 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.6026,
      "mc_lower_95": 0.5996,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": -0.0043,
+     "ev_per_1": -0.0071,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689656-0",
@@ -2188,7 +2181,11 @@
      "selection": "Over 21.5 games",
      "model_p": 0.638,
      "mc_lower_95": 0.635,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.89,
+     "implied": 0.8969,
+     "edge": -0.2588,
+     "ev_per_1": -0.2886,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689656-1",
@@ -2198,7 +2195,11 @@
      "selection": "Under 21.5 games",
      "model_p": 0.362,
      "mc_lower_95": 0.359,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.1855,
+     "ev_per_1": -0.3388,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689662-0",
@@ -2208,7 +2209,11 @@
      "selection": "Over 22.5 games",
      "model_p": 0.5454,
      "mc_lower_95": 0.5423,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.0516,
+     "ev_per_1": -0.0865,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689662-1",
@@ -2218,7 +2223,11 @@
      "selection": "Under 22.5 games",
      "model_p": 0.4546,
      "mc_lower_95": 0.4515,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": -0.0228,
+     "ev_per_1": -0.0478,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689669-0",
@@ -2228,7 +2237,11 @@
      "selection": "Over 23.5 games",
      "model_p": 0.4682,
      "mc_lower_95": 0.4651,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0393,
+     "ev_per_1": -0.0775,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689669-1",
@@ -2238,7 +2251,11 @@
      "selection": "Under 23.5 games",
      "model_p": 0.5318,
      "mc_lower_95": 0.5287,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.0156,
+     "ev_per_1": -0.0285,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689674-0",
@@ -2248,7 +2265,11 @@
      "selection": "Tomas Etcheverry -1.5 sets",
      "model_p": 0.375,
      "mc_lower_95": 0.372,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.35,
+     "implied": 0.3659,
+     "edge": 0.0091,
+     "ev_per_1": 0.0248,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689674-1",
@@ -2258,7 +2279,11 @@
      "selection": "Rinky Hijikata +1.5 sets",
      "model_p": 0.625,
      "mc_lower_95": 0.622,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.69,
+     "implied": 0.705,
+     "edge": -0.08,
+     "ev_per_1": -0.1134,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689680-0",
@@ -2268,7 +2293,11 @@
      "selection": "Tomas Etcheverry -0.5 games",
      "model_p": 0.5753,
      "mc_lower_95": 0.5723,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": 0.0378,
+     "ev_per_1": 0.0704,
+     "eligible": true
     },
     {
      "market_id": "POLY-6689680-1",
@@ -2278,19 +2307,36 @@
      "selection": "Rinky Hijikata +0.5 games",
      "model_p": 0.4247,
      "mc_lower_95": 0.4216,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.1028,
+     "ev_per_1": -0.1949,
+     "eligible": false
     }
    ],
-   "n_priced": 2,
-   "n_eligible": 1
+   "n_priced": 14,
+   "n_eligible": 2
   },
   {
    "espn_id": "186499",
    "event_id": "POLY-1315035",
    "event_title": "Rolex Paris Masters: Lorenzo Musetti vs Luca Van Assche",
-   "status": "no_bet",
-   "best": null,
-   "verdict": "NO BET (no outcome with both >50% and positive edge)",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6689741-1",
+    "type": "tennis_match_totals",
+    "label": "Under 22.5",
+    "status": "open",
+    "selection": "Under 22.5 games",
+    "model_p": 0.5526,
+    "mc_lower_95": 0.5495,
+    "price": 0.53,
+    "implied": 0.5474,
+    "edge": 0.0052,
+    "ev_per_1": 0.0095,
+    "eligible": true
+   },
+   "verdict": "Under 22.5 games @ 0.53 (model 55.3%, edge 0.5 pts, EV +0.9%)",
    "outcomes": [
     {
      "market_id": "POLY-6686706",
@@ -2335,7 +2381,11 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.3547,
      "mc_lower_95": 0.3517,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.052,
+     "ev_per_1": -0.1278,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689695-1",
@@ -2345,7 +2395,11 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.6453,
      "mc_lower_95": 0.6423,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.001,
+     "ev_per_1": -0.0016,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689735-0",
@@ -2355,7 +2409,11 @@
      "selection": "Over 21.5 games",
      "model_p": 0.5221,
      "mc_lower_95": 0.519,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.57,
+     "implied": 0.5872,
+     "edge": -0.065,
+     "ev_per_1": -0.1107,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689735-1",
@@ -2365,7 +2423,11 @@
      "selection": "Under 21.5 games",
      "model_p": 0.4779,
      "mc_lower_95": 0.4748,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.45,
+     "implied": 0.4673,
+     "edge": 0.0105,
+     "ev_per_1": 0.0225,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689741-0",
@@ -2375,7 +2437,11 @@
      "selection": "Over 22.5 games",
      "model_p": 0.4474,
      "mc_lower_95": 0.4443,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0601,
+     "ev_per_1": -0.1185,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689741-1",
@@ -2385,7 +2451,11 @@
      "selection": "Under 22.5 games",
      "model_p": 0.5526,
      "mc_lower_95": 0.5495,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": 0.0052,
+     "ev_per_1": 0.0095,
+     "eligible": true
     },
     {
      "market_id": "POLY-6689747-0",
@@ -2395,7 +2465,11 @@
      "selection": "Over 23.5 games",
      "model_p": 0.3926,
      "mc_lower_95": 0.3896,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0545,
+     "ev_per_1": -0.122,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689747-1",
@@ -2405,7 +2479,11 @@
      "selection": "Under 23.5 games",
      "model_p": 0.6074,
      "mc_lower_95": 0.6044,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": 0.0004,
+     "ev_per_1": 0.0007,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689752-0",
@@ -2415,7 +2493,11 @@
      "selection": "Lorenzo Musetti -1.5 sets",
      "model_p": 0.4844,
      "mc_lower_95": 0.4813,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.003,
+     "ev_per_1": -0.0062,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689752-1",
@@ -2425,7 +2507,11 @@
      "selection": "Luca Van Assche +1.5 sets",
      "model_p": 0.5156,
      "mc_lower_95": 0.5125,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0418,
+     "ev_per_1": -0.075,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689758-0",
@@ -2435,10 +2521,10 @@
      "selection": "Lorenzo Musetti -3.5 games",
      "model_p": 0.5128,
      "mc_lower_95": 0.5097,
-     "price": 0.58,
-     "implied": 0.5971,
-     "edge": -0.0842,
-     "ev_per_1": -0.1411,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.0147,
+     "ev_per_1": -0.0278,
      "eligible": false
     },
     {
@@ -2449,23 +2535,36 @@
      "selection": "Luca Van Assche +3.5 games",
      "model_p": 0.4872,
      "mc_lower_95": 0.4841,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.0801,
-     "ev_per_1": -0.1413,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0303,
+     "ev_per_1": -0.0586,
      "eligible": false
     }
    ],
-   "n_priced": 4,
-   "n_eligible": 0
+   "n_priced": 14,
+   "n_eligible": 1
   },
   {
    "espn_id": "186494",
    "event_id": "POLY-1315041",
    "event_title": "Rolex Paris Masters: Nuno Borges vs Ignacio Buse",
-   "status": "no_bet",
-   "best": null,
-   "verdict": "NO BET (no outcome with both >50% and positive edge)",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6689657-1",
+    "type": "tennis_match_totals",
+    "label": "Under 22.5",
+    "status": "open",
+    "selection": "Under 22.5 games",
+    "model_p": 0.5202,
+    "mc_lower_95": 0.5171,
+    "price": 0.49,
+    "implied": 0.5075,
+    "edge": 0.0127,
+    "ev_per_1": 0.025,
+    "eligible": true
+   },
+   "verdict": "Under 22.5 games @ 0.49 (model 52.0%, edge 1.3 pts, EV +2.5%)",
    "outcomes": [
     {
      "market_id": "POLY-6686717",
@@ -2482,10 +2581,10 @@
      "selection": "Nuno Borges to win",
      "model_p": 0.5685,
      "mc_lower_95": 0.5654,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": 0.0012,
-     "ev_per_1": 0.0021,
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": -0.0384,
+     "ev_per_1": -0.0633,
      "eligible": false
     },
     {
@@ -2496,10 +2595,10 @@
      "selection": "Ignacio Buse to win",
      "model_p": 0.4315,
      "mc_lower_95": 0.4284,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.096,
-     "ev_per_1": -0.182,
+     "price": 0.42,
+     "implied": 0.4371,
+     "edge": -0.0056,
+     "ev_per_1": -0.0127,
      "eligible": false
     },
     {
@@ -2510,7 +2609,11 @@
      "selection": "Over 2.5 sets",
      "model_p": 0.3868,
      "mc_lower_95": 0.3838,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0604,
+     "ev_per_1": -0.135,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689610-1",
@@ -2520,7 +2623,11 @@
      "selection": "Under 2.5 sets",
      "model_p": 0.6132,
      "mc_lower_95": 0.6102,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.6,
+     "implied": 0.6168,
+     "edge": -0.0036,
+     "ev_per_1": -0.0058,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689651-0",
@@ -2530,7 +2637,11 @@
      "selection": "Over 21.5 games",
      "model_p": 0.5548,
      "mc_lower_95": 0.5517,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": -0.0817,
+     "ev_per_1": -0.1284,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689651-1",
@@ -2540,7 +2651,11 @@
      "selection": "Under 21.5 games",
      "model_p": 0.4452,
      "mc_lower_95": 0.4421,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.75,
+     "implied": 0.7631,
+     "edge": -0.3179,
+     "ev_per_1": -0.4166,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689657-0",
@@ -2550,7 +2665,11 @@
      "selection": "Over 22.5 games",
      "model_p": 0.4798,
      "mc_lower_95": 0.4767,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0776,
+     "ev_per_1": -0.1392,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689657-1",
@@ -2560,7 +2679,11 @@
      "selection": "Under 22.5 games",
      "model_p": 0.5202,
      "mc_lower_95": 0.5171,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": 0.0127,
+     "ev_per_1": 0.025,
+     "eligible": true
     },
     {
      "market_id": "POLY-6689663-0",
@@ -2570,7 +2693,11 @@
      "selection": "Over 23.5 games",
      "model_p": 0.4247,
      "mc_lower_95": 0.4216,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0628,
+     "ev_per_1": -0.1288,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689663-1",
@@ -2580,7 +2707,11 @@
      "selection": "Under 23.5 games",
      "model_p": 0.5753,
      "mc_lower_95": 0.5723,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": 0.008,
+     "ev_per_1": 0.0141,
+     "eligible": true
     },
     {
      "market_id": "POLY-6689668-0",
@@ -2590,7 +2721,11 @@
      "selection": "Nuno Borges -1.5 sets",
      "model_p": 0.3616,
      "mc_lower_95": 0.3586,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": -0.0349,
+     "ev_per_1": -0.088,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689668-1",
@@ -2600,7 +2735,11 @@
      "selection": "Ignacio Buse +1.5 sets",
      "model_p": 0.6383,
      "mc_lower_95": 0.6353,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.66,
+     "implied": 0.6757,
+     "edge": -0.0374,
+     "ev_per_1": -0.0554,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689675-0",
@@ -2610,7 +2749,11 @@
      "selection": "Ignacio Buse -1.5 sets",
      "model_p": 0.2515,
      "mc_lower_95": 0.2488,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.89,
+     "implied": 0.8969,
+     "edge": -0.6454,
+     "ev_per_1": -0.7196,
+     "eligible": false
     },
     {
      "market_id": "POLY-6689675-1",
@@ -2620,23 +2763,290 @@
      "selection": "Nuno Borges +1.5 sets",
      "model_p": 0.7484,
      "mc_lower_95": 0.7457,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.78,
+     "implied": 0.792,
+     "edge": -0.0436,
+     "ev_per_1": -0.0551,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6693823-0",
+     "type": "tennis_game_handicap",
+     "label": "Nuno Borges -0.5",
+     "status": "open",
+     "selection": "Nuno Borges -0.5 games",
+     "model_p": 0.5523,
+     "mc_lower_95": 0.5492,
+     "price": 0.6,
+     "implied": 0.6168,
+     "edge": -0.0645,
+     "ev_per_1": -0.1046,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6693823-1",
+     "type": "tennis_game_handicap",
+     "label": "Ignacio Buse +0.5",
+     "status": "open",
+     "selection": "Ignacio Buse +0.5 games",
+     "model_p": 0.4477,
+     "mc_lower_95": 0.4446,
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
+    }
+   ],
+   "n_priced": 15,
+   "n_eligible": 2
+  },
+  {
+   "espn_id": "186495",
+   "event_id": "POLY-1316920",
+   "event_title": "Rolex Paris Masters: Jan-Lennard Struff vs Casper Ruud",
+   "status": "no_bet",
+   "best": null,
+   "verdict": "NO BET (no outcome with both >50% and positive edge)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6701974",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6701973-0",
+     "type": "moneyline",
+     "label": "Jan-Lennard Struff",
+     "status": "open",
+     "selection": "Jan-Lennard Struff to win",
+     "model_p": 0.4338,
+     "mc_lower_95": 0.4307,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": 0.0373,
+     "ev_per_1": 0.0941,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6701973-1",
+     "type": "moneyline",
+     "label": "Casper Ruud",
+     "status": "open",
+     "selection": "Casper Ruud to win",
+     "model_p": 0.5662,
+     "mc_lower_95": 0.5631,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0801,
+     "ev_per_1": -0.124,
+     "eligible": false
     }
    ],
    "n_priced": 2,
    "n_eligible": 0
   },
   {
-   "espn_id": "186495",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
+   "espn_id": "186728",
+   "event_id": "POLY-1316691",
+   "event_title": "Cali: Carole Monnet vs Leyre Romero Gormaz",
+   "status": "no_bet",
    "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
+   "verdict": "NO BET (no positive edge)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6700218",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6700217-0",
+     "type": "moneyline",
+     "label": "Carole Monnet",
+     "status": "open",
+     "selection": "Carole Monnet to win",
+     "model_p": 0.3623,
+     "mc_lower_95": 0.3593,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0849,
+     "ev_per_1": -0.1898,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6700217-1",
+     "type": "moneyline",
+     "label": "Leyre Romero Gormaz",
+     "status": "open",
+     "selection": "Leyre Romero Gormaz to win",
+     "model_p": 0.6377,
+     "mc_lower_95": 0.6347,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0086,
+     "ev_per_1": -0.0133,
+     "eligible": false
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 0
+  },
+  {
+   "espn_id": "186727",
+   "event_id": "POLY-1316692",
+   "event_title": "Cali: Julia Riera vs Renata Zarazua",
+   "status": "no_bet",
+   "best": null,
+   "verdict": "NO BET (no positive edge)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6700220",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6700219-0",
+     "type": "moneyline",
+     "label": "Julia Riera",
+     "status": "open",
+     "selection": "Julia Riera to win",
+     "model_p": 0.5362,
+     "mc_lower_95": 0.5331,
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.0112,
+     "ev_per_1": -0.0205,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6700219-1",
+     "type": "moneyline",
+     "label": "Renata Zarazua",
+     "status": "open",
+     "selection": "Renata Zarazua to win",
+     "model_p": 0.4638,
+     "mc_lower_95": 0.4607,
+     "price": 0.86,
+     "implied": 0.8684,
+     "edge": -0.4046,
+     "ev_per_1": -0.4659,
+     "eligible": false
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 0
   },
   {
    "espn_id": "186502",
+   "event_id": "POLY-1316918",
+   "event_title": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6701966-1",
+    "type": "moneyline",
+    "label": "Carlos Alcaraz",
+    "status": "open",
+    "selection": "Carlos Alcaraz to win",
+    "model_p": 0.8661,
+    "mc_lower_95": 0.864,
+    "price": 0.79,
+    "implied": 0.8016,
+    "edge": 0.0645,
+    "ev_per_1": 0.0804,
+    "eligible": true
+   },
+   "verdict": "Carlos Alcaraz to win @ 0.79 (model 86.6%, edge 6.5 pts, EV +8.0%)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6701968",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6701966-0",
+     "type": "moneyline",
+     "label": "Matteo Berrettini",
+     "status": "open",
+     "selection": "Matteo Berrettini to win",
+     "model_p": 0.1339,
+     "mc_lower_95": 0.1318,
+     "price": 0.25,
+     "implied": 0.2631,
+     "edge": -0.1292,
+     "ev_per_1": -0.4911,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6701966-1",
+     "type": "moneyline",
+     "label": "Carlos Alcaraz",
+     "status": "open",
+     "selection": "Carlos Alcaraz to win",
+     "model_p": 0.8661,
+     "mc_lower_95": 0.864,
+     "price": 0.79,
+     "implied": 0.8016,
+     "edge": 0.0645,
+     "ev_per_1": 0.0804,
+     "eligible": true
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 1
+  },
+  {
+   "espn_id": "186730",
+   "event_id": "POLY-1316690",
+   "event_title": "Cali: Leolia Jeanjean vs Alice Tubello",
+   "status": "no_bet",
+   "best": null,
+   "verdict": "NO BET (no positive edge)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6700216",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6700215-0",
+     "type": "moneyline",
+     "label": "Leolia Jeanjean",
+     "status": "open",
+     "selection": "Leolia Jeanjean to win",
+     "model_p": 0.3865,
+     "mc_lower_95": 0.3835,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.151,
+     "ev_per_1": -0.2809,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6700215-1",
+     "type": "moneyline",
+     "label": "Alice Tubello",
+     "status": "open",
+     "selection": "Alice Tubello to win",
+     "model_p": 0.6136,
+     "mc_lower_95": 0.6106,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0327,
+     "ev_per_1": -0.0506,
+     "eligible": false
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 0
+  },
+  {
+   "espn_id": "186729",
    "event_id": null,
    "event_title": null,
    "status": "no_market",
@@ -2646,12 +3056,63 @@
   },
   {
    "espn_id": "186503",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
-   "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
+   "event_id": "POLY-1316922",
+   "event_title": "Rolex Paris Masters: Arthur Fils vs Taylor Fritz",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6701976-1",
+    "type": "moneyline",
+    "label": "Taylor Fritz",
+    "status": "open",
+    "selection": "Taylor Fritz to win",
+    "model_p": 0.5107,
+    "mc_lower_95": 0.5076,
+    "price": 0.47,
+    "implied": 0.4874,
+    "edge": 0.0233,
+    "ev_per_1": 0.0477,
+    "eligible": true
+   },
+   "verdict": "Taylor Fritz to win @ 0.47 (model 51.1%, edge 2.3 pts, EV +4.8%)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6701978",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6701976-0",
+     "type": "moneyline",
+     "label": "Arthur Fils",
+     "status": "open",
+     "selection": "Arthur Fils to win",
+     "model_p": 0.4893,
+     "mc_lower_95": 0.4862,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.078,
+     "ev_per_1": -0.1375,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6701976-1",
+     "type": "moneyline",
+     "label": "Taylor Fritz",
+     "status": "open",
+     "selection": "Taylor Fritz to win",
+     "model_p": 0.5107,
+     "mc_lower_95": 0.5076,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": 0.0233,
+     "ev_per_1": 0.0477,
+     "eligible": true
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 1
   }
  ]
 }

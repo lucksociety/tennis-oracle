@@ -1,0 +1,639 @@
+{
+ "predicted_winner": "Antonia Ruzic",
+ "win_prob": {
+  "A": 0.4328,
+  "B": 0.5672
+ },
+ "win_prob_exact": {
+  "A": 0.43282,
+  "B": 0.56718
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.31,
+   "american": "+131"
+  },
+  "B": {
+   "decimal": 1.76,
+   "american": "-131"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3678,
+  "2-0": 0.2612,
+  "1-2": 0.1994,
+  "2-1": 0.1716
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0173,
+ "games": {
+  "mean": 22.42,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.9,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00272,
+   "13": 0.01184,
+   "14": 0.02734,
+   "15": 0.04951,
+   "16": 0.07039,
+   "17": 0.08381,
+   "18": 0.08393,
+   "19": 0.07586,
+   "20": 0.06634,
+   "21": 0.04978,
+   "22": 0.05902,
+   "23": 0.0377,
+   "24": 0.02186,
+   "25": 0.03755,
+   "26": 0.04176,
+   "27": 0.03811,
+   "28": 0.04119,
+   "29": 0.04264,
+   "30": 0.03846,
+   "31": 0.03566,
+   "32": 0.02957,
+   "33": 0.01803,
+   "34": 0.01334,
+   "35": 0.01294,
+   "36": 0.00553,
+   "37": 0.00176,
+   "38": 0.00241,
+   "39": 0.00095
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.0019,
+  "-11": 0.00803,
+  "-10": 0.0183,
+  "-9": 0.03257,
+  "-8": 0.05074,
+  "-7": 0.07047,
+  "-6": 0.08245,
+  "-5": 0.08386,
+  "-4": 0.08014,
+  "-3": 0.05662,
+  "-2": 0.03914,
+  "-1": 0.02955,
+  "0": 0.02624,
+  "1": 0.0287,
+  "2": 0.03436,
+  "3": 0.04929,
+  "4": 0.06689,
+  "5": 0.06477,
+  "6": 0.06016,
+  "7": 0.04848,
+  "8": 0.03276,
+  "9": 0.01991,
+  "10": 0.00996,
+  "11": 0.00389,
+  "12": 0.00082
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7544,
+   "under": 0.2456
+  },
+  {
+   "line": 18.5,
+   "over": 0.6705,
+   "under": 0.3295
+  },
+  {
+   "line": 19.5,
+   "over": 0.5946,
+   "under": 0.4054
+  },
+  {
+   "line": 20.5,
+   "over": 0.5283,
+   "under": 0.4717
+  },
+  {
+   "line": 21.5,
+   "over": 0.4785,
+   "under": 0.5215
+  },
+  {
+   "line": 22.5,
+   "over": 0.4195,
+   "under": 0.5805
+  },
+  {
+   "line": 23.5,
+   "over": 0.3818,
+   "under": 0.6182
+  },
+  {
+   "line": 24.5,
+   "over": 0.3599,
+   "under": 0.6401
+  },
+  {
+   "line": 25.5,
+   "over": 0.3224,
+   "under": 0.6776
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3913,
+   "B +1.5": 0.6087,
+   "B -1.5": 0.5242,
+   "A +1.5": 0.4758
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3569,
+   "B +2.5": 0.6431,
+   "B -2.5": 0.4851,
+   "A +2.5": 0.5149
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3076,
+   "B +3.5": 0.6924,
+   "B -3.5": 0.4285,
+   "A +3.5": 0.5715
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2407,
+   "B +4.5": 0.7592,
+   "B -4.5": 0.3483,
+   "A +4.5": 0.6517
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.176,
+   "B +5.5": 0.824,
+   "B -5.5": 0.2645,
+   "A +5.5": 0.7355
+  }
+ ],
+ "p_tiebreak": 0.2485,
+ "p_a_wins_set": 0.6322,
+ "p_b_wins_set": 0.7388,
+ "p_decider": 0.371,
+ "expected_breaks": {
+  "total": 8.56,
+  "by_A": 4.07,
+  "by_B": 4.49
+ },
+ "expected_break_points": {
+  "A_creates": 8.91,
+  "B_creates": 9.49
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3678
+ },
+ "match": "Wang Xinyu vs Antonia Ruzic",
+ "players": {
+  "A": {
+   "id": "wta:espn3387",
+   "name": "Wang Xinyu",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1676.3,
+   "surface_elo": {
+    "Hard": 1609.3,
+    "Clay": 1500.0,
+    "Grass": 1603.5
+   },
+   "matches_total": 21,
+   "matches_surface": {
+    "Hard": 15,
+    "Clay": 0,
+    "Grass": 6
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    10,
+    11
+   ],
+   "last52w_surface": [
+    7,
+    8
+   ],
+   "career_surface_wl": [
+    7,
+    8
+   ],
+   "games_won_lost_52w": [
+    213,
+    213
+   ],
+   "sets_won_lost_52w": [
+    23,
+    24
+   ],
+   "avg_opp_elo_last20": 1758.9,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": -18.6,
+   "last_match": "2026-11-02",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:222045",
+   "name": "Antonia Ruzic",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 64.0,
+   "age": 23.749007529089667,
+   "elo": 1662.4,
+   "surface_elo": {
+    "Hard": 1636.3,
+    "Clay": 1542.6,
+    "Grass": 1507.0
+   },
+   "matches_total": 69,
+   "matches_surface": {
+    "Hard": 49,
+    "Clay": 11,
+    "Grass": 9
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    19,
+    24
+   ],
+   "last52w_surface": [
+    14,
+    16
+   ],
+   "career_surface_wl": [
+    23,
+    26
+   ],
+   "games_won_lost_52w": [
+    480,
+    519
+   ],
+   "sets_won_lost_52w": [
+    48,
+    58
+   ],
+   "avg_opp_elo_last20": 1696.9,
+   "vs_top_opp_52w": [
+    1,
+    6
+   ],
+   "serve_rating": 0.0044,
+   "return_rating": 0.1396,
+   "form_elo": -12.1,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6507,
+    "first_won": 0.5814,
+    "second_won": 0.4507,
+    "serve_pts_won": 0.5357,
+    "hold": 0.5971,
+    "aces_per_svgm": 0.1171,
+    "df_per_svgm": 0.2743,
+    "bp_saved": 0.558,
+    "ret_pts_won": 0.4372,
+    "ret_1st_won": 0.3557,
+    "ret_2nd_won": 0.5611,
+    "ret_games_won": 0.3642,
+    "bp_conv": 0.4941,
+    "bp_chances_per_retgm": 0.737,
+    "matches_with_stats": 31
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     69.0
+    ],
+    [
+     "2025-09-24",
+     80.0
+    ],
+    [
+     "2025-10-06",
+     78.0
+    ],
+    [
+     "2025-10-13",
+     70.0
+    ],
+    [
+     "2026-01-12",
+     71.0
+    ],
+    [
+     "2026-01-19",
+     65.0
+    ],
+    [
+     "2026-02-01",
+     67.0
+    ],
+    [
+     "2026-03-04",
+     57.0
+    ],
+    [
+     "2026-03-17",
+     55.0
+    ],
+    [
+     "2026-04-13",
+     58.0
+    ],
+    [
+     "2026-04-21",
+     59.0
+    ],
+    [
+     "2026-05-25",
+     64.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "f464548bc54e64e6",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Wang Xinyu: sparse record (21 tour matches, 0 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Wang Xinyu: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -46.3,
+  "components_elo": {
+   "surface_elo": -27.0,
+   "overall_elo": 14.0,
+   "serve_return": -132.8,
+   "form": -6.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -3.3,
+   "overall_elo": 3.3,
+   "serve_return": -46.3,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4337,
+  "serve_return_implied_spw": {
+   "A": 0.5312,
+   "B": 0.5668
+  },
+  "point_probs": {
+   "A_serve": 0.5394,
+   "B_serve": 0.5587
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5393500473878746,
+   "B_serve": 0.5586794910682858
+  },
+  "hold_probs": {
+   "A": 0.5975,
+   "B": 0.6437
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4328,
+   0.4351
+  ],
+  "p_tb": [
+   0.2485,
+   0.2484
+  ],
+  "p_decider": [
+   0.371,
+   0.3714
+  ],
+  "games_mean": [
+   22.421,
+   22.417
+  ],
+  "exp_breaks": [
+   8.558,
+   8.546
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3678,
+    0.367
+   ],
+   "1-2": [
+    0.1994,
+    0.1979
+   ],
+   "2-0": [
+    0.2612,
+    0.2616
+   ],
+   "2-1": [
+    0.1716,
+    0.1735
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0023
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Antonia Ruzic",
+   "elo_points": -46.3,
+   "raw_diff": -132.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Antonia Ruzic",
+   "elo_points": -3.3,
+   "raw_diff": -27.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Wang Xinyu",
+   "elo_points": 3.3,
+   "raw_diff": 14.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5394,
+   "B": 0.5587,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7515,
+  "fair_odds": {
+   "decimal": 1.33,
+   "american": "-302"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Wang Xinyu: sparse record (21 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7515,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Antonia Ruzic to win at least one set",
+    "probability": 0.7388,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6705,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Wang Xinyu +4.5 games",
+    "probability": 0.6517,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6401,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Wang Xinyu to win at least one set",
+    "probability": 0.6322,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.629,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5805,
+    "fair_decimal": 1.72
+   },
+   {
+    "selection": "Antonia Ruzic to win",
+    "probability": 0.5672,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5283,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Wang Xinyu +2.5 games",
+    "probability": 0.5149,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Antonia Ruzic -2.5 games",
+    "probability": 0.4851,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4717,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Wang Xinyu to win",
+    "probability": 0.4328,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4195,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-05T00:54:57+00:00",
+  "version": 3,
+  "input_hash": "f58ac3b4a68d27ba",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186631",
+  "scheduled_start_utc": "2026-11-05T06:00Z"
+ }
+}

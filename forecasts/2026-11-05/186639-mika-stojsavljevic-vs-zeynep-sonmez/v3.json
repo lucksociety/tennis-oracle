@@ -1,0 +1,677 @@
+{
+ "predicted_winner": "Zeynep Sonmez",
+ "win_prob": {
+  "A": 0.2633,
+  "B": 0.7367
+ },
+ "win_prob_exact": {
+  "A": 0.26326,
+  "B": 0.73674
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.8,
+   "american": "+280"
+  },
+  "B": {
+   "decimal": 1.36,
+   "american": "-280"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.5329,
+  "1-2": 0.2038,
+  "2-0": 0.1418,
+  "2-1": 0.1214
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0252,
+ "games": {
+  "mean": 21.69,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00511,
+   "13": 0.0187,
+   "14": 0.03986,
+   "15": 0.0626,
+   "16": 0.08311,
+   "17": 0.09138,
+   "18": 0.08592,
+   "19": 0.07668,
+   "20": 0.06544,
+   "21": 0.04751,
+   "22": 0.05367,
+   "23": 0.03471,
+   "24": 0.02007,
+   "25": 0.03226,
+   "26": 0.03738,
+   "27": 0.03521,
+   "28": 0.03575,
+   "29": 0.03591,
+   "30": 0.03384,
+   "31": 0.02981,
+   "32": 0.02613,
+   "33": 0.01651,
+   "34": 0.01198,
+   "35": 0.01079,
+   "36": 0.0055,
+   "37": 0.00142,
+   "38": 0.00172,
+   "39": 0.00103
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00492,
+  "-11": 0.0177,
+  "-10": 0.03715,
+  "-9": 0.05856,
+  "-8": 0.08313,
+  "-7": 0.10248,
+  "-6": 0.10788,
+  "-5": 0.10254,
+  "-4": 0.09154,
+  "-3": 0.0578,
+  "-2": 0.03751,
+  "-1": 0.02561,
+  "0": 0.0227,
+  "1": 0.02303,
+  "2": 0.02574,
+  "3": 0.03406,
+  "4": 0.04386,
+  "5": 0.03959,
+  "6": 0.033,
+  "7": 0.02459,
+  "8": 0.01428,
+  "9": 0.00747,
+  "10": 0.00358,
+  "11": 0.00109,
+  "12": 0.00019
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6992,
+   "under": 0.3008
+  },
+  {
+   "line": 18.5,
+   "over": 0.6133,
+   "under": 0.3867
+  },
+  {
+   "line": 19.5,
+   "over": 0.5366,
+   "under": 0.4634
+  },
+  {
+   "line": 20.5,
+   "over": 0.4712,
+   "under": 0.5288
+  },
+  {
+   "line": 21.5,
+   "over": 0.4237,
+   "under": 0.5763
+  },
+  {
+   "line": 22.5,
+   "over": 0.37,
+   "under": 0.63
+  },
+  {
+   "line": 23.5,
+   "over": 0.3353,
+   "under": 0.6647
+  },
+  {
+   "line": 24.5,
+   "over": 0.3152,
+   "under": 0.6848
+  },
+  {
+   "line": 25.5,
+   "over": 0.283,
+   "under": 0.717
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2274,
+   "B +1.5": 0.7726,
+   "B -1.5": 0.7012,
+   "A +1.5": 0.2988
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2017,
+   "B +2.5": 0.7983,
+   "B -2.5": 0.6637,
+   "A +2.5": 0.3363
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1676,
+   "B +3.5": 0.8324,
+   "B -3.5": 0.6059,
+   "A +3.5": 0.3941
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1238,
+   "B +4.5": 0.8762,
+   "B -4.5": 0.5144,
+   "A +4.5": 0.4856
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0842,
+   "B +5.5": 0.9158,
+   "B -5.5": 0.4118,
+   "A +5.5": 0.5882
+  }
+ ],
+ "p_tiebreak": 0.2271,
+ "p_a_wins_set": 0.4671,
+ "p_b_wins_set": 0.8582,
+ "p_decider": 0.3252,
+ "expected_breaks": {
+  "total": 7.93,
+  "by_A": 3.19,
+  "by_B": 4.74
+ },
+ "expected_break_points": {
+  "A_creates": 7.47,
+  "B_creates": 9.71
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.5329
+ },
+ "match": "Mika Stojsavljevic vs Zeynep Sonmez",
+ "players": {
+  "A": {
+   "id": "wta:261963",
+   "name": "Mika Stojsavljevic",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 275.0,
+   "age": 17.87221081451061,
+   "elo": 1558.3,
+   "surface_elo": {
+    "Hard": 1582.3,
+    "Clay": 1500.0,
+    "Grass": 1348.1
+   },
+   "matches_total": 10,
+   "matches_surface": {
+    "Hard": 6,
+    "Clay": 0,
+    "Grass": 4
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    3,
+    7
+   ],
+   "last52w": [
+    3,
+    5
+   ],
+   "last52w_surface": [
+    3,
+    2
+   ],
+   "career_surface_wl": [
+    3,
+    3
+   ],
+   "games_won_lost_52w": [
+    67,
+    94
+   ],
+   "sets_won_lost_52w": [
+    6,
+    12
+   ],
+   "avg_opp_elo_last20": 1733.3,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0249,
+   "return_rating": -0.0183,
+   "form_elo": 30.1,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.5446,
+    "first_won": 0.6303,
+    "second_won": 0.3986,
+    "serve_pts_won": 0.5248,
+    "hold": 0.5306,
+    "aces_per_svgm": 0.3673,
+    "df_per_svgm": 0.5714,
+    "bp_saved": 0.439,
+    "ret_pts_won": 0.4201,
+    "ret_1st_won": 0.381,
+    "ret_2nd_won": 0.4954,
+    "ret_games_won": 0.3137,
+    "bp_conv": 0.4571,
+    "bp_chances_per_retgm": 0.6863,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2024-10-21",
+     633.0
+    ],
+    [
+     "2025-06-30",
+     796.0
+    ],
+    [
+     "2026-04-10",
+     275.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220309",
+   "name": "Zeynep Sonmez",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 66.0,
+   "age": 24.449007529089666,
+   "elo": 1731.5,
+   "surface_elo": {
+    "Hard": 1681.0,
+    "Clay": 1546.9,
+    "Grass": 1641.6
+   },
+   "matches_total": 93,
+   "matches_surface": {
+    "Hard": 58,
+    "Clay": 17,
+    "Grass": 18
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    27,
+    24
+   ],
+   "last52w_surface": [
+    15,
+    16
+   ],
+   "career_surface_wl": [
+    29,
+    29
+   ],
+   "games_won_lost_52w": [
+    570,
+    561
+   ],
+   "sets_won_lost_52w": [
+    61,
+    60
+   ],
+   "avg_opp_elo_last20": 1715.1,
+   "vs_top_opp_52w": [
+    1,
+    6
+   ],
+   "serve_rating": 0.1361,
+   "return_rating": 0.1972,
+   "form_elo": 7.8,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6316,
+    "first_won": 0.5984,
+    "second_won": 0.4544,
+    "serve_pts_won": 0.5453,
+    "hold": 0.6223,
+    "aces_per_svgm": 0.0951,
+    "df_per_svgm": 0.2772,
+    "bp_saved": 0.5413,
+    "ret_pts_won": 0.4537,
+    "ret_1st_won": 0.3873,
+    "ret_2nd_won": 0.5631,
+    "ret_games_won": 0.3989,
+    "bp_conv": 0.4852,
+    "bp_chances_per_retgm": 0.8221,
+    "matches_with_stats": 34
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     73.0
+    ],
+    [
+     "2026-01-19",
+     112.0
+    ],
+    [
+     "2026-02-01",
+     79.0
+    ],
+    [
+     "2026-02-08",
+     85.0
+    ],
+    [
+     "2026-02-15",
+     84.0
+    ],
+    [
+     "2026-02-23",
+     81.0
+    ],
+    [
+     "2026-03-04",
+     80.0
+    ],
+    [
+     "2026-03-17",
+     83.0
+    ],
+    [
+     "2026-04-13",
+     79.0
+    ],
+    [
+     "2026-04-21",
+     67.0
+    ],
+    [
+     "2026-05-05",
+     65.0
+    ],
+    [
+     "2026-05-25",
+     66.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-04",
+ "forecast_date": "2026-11-05",
+ "performance_revision": "f464548bc54e64e6",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Mika Stojsavljevic: limited recent/surface sample (8 matches 52w, 6 career on Hard, 5 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -179.7,
+  "components_elo": {
+   "surface_elo": -98.7,
+   "overall_elo": -173.2,
+   "serve_return": -363.0,
+   "form": 22.2
+  },
+  "weighted_contributions": {
+   "surface_elo": -12.1,
+   "overall_elo": -40.9,
+   "serve_return": -126.7,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.2623,
+  "serve_return_implied_spw": {
+   "A": 0.5106,
+   "B": 0.6032
+  },
+  "point_probs": {
+   "A_serve": 0.5199,
+   "B_serve": 0.5942
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5199335318683621,
+   "B_serve": 0.5942027487887925
+  },
+  "hold_probs": {
+   "A": 0.5497,
+   "B": 0.7235
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2633,
+   0.2647
+  ],
+  "p_tb": [
+   0.2271,
+   0.2277
+  ],
+  "p_decider": [
+   0.3252,
+   0.3248
+  ],
+  "games_mean": [
+   21.688,
+   21.672
+  ],
+  "exp_breaks": [
+   7.929,
+   7.914
+  ],
+  "set_scores": {
+   "0-2": [
+    0.5329,
+    0.5323
+   ],
+   "1-2": [
+    0.2038,
+    0.203
+   ],
+   "2-0": [
+    0.1418,
+    0.1429
+   ],
+   "2-1": [
+    0.1214,
+    0.1218
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0014
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Zeynep Sonmez",
+   "elo_points": -126.7,
+   "raw_diff": -363.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Zeynep Sonmez",
+   "elo_points": -40.9,
+   "raw_diff": -173.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Zeynep Sonmez",
+   "elo_points": -12.1,
+   "raw_diff": -98.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3986,
+   "B": 0.4544,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4201,
+   "B": 0.4537,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5199,
+   "B": 0.5942,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Zeynep Sonmez to win at least one set",
+  "probability": 0.8582,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-605"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Mika Stojsavljevic: limited recent/surface sample (8 matches 52w, 6 career on Hard, 5 with stats)",
+  "candidates": [
+   {
+    "selection": "Zeynep Sonmez to win at least one set",
+    "probability": 0.8582,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7729,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Zeynep Sonmez to win",
+    "probability": 0.7367,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6848,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6748,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Zeynep Sonmez -2.5 games",
+    "probability": 0.6637,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.63,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6133,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Exact sets Mika Stojsavljevic 0-2 Zeynep Sonmez",
+    "probability": 0.5329,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5288,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Zeynep Sonmez -4.5 games",
+    "probability": 0.5144,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Mika Stojsavljevic +4.5 games",
+    "probability": 0.4856,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4712,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Mika Stojsavljevic to win at least one set",
+    "probability": 0.4671,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.3867,
+    "fair_decimal": 2.59
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-04",
+ "freeze": {
+  "frozen_at_utc": "2026-11-05T00:54:59+00:00",
+  "version": 3,
+  "input_hash": "0fd6b441f8519b1e",
+  "reason": "performance inputs or format refreshed (results through 2026-11-04)",
+  "pre_match": true,
+  "espn_id": "186639",
+  "scheduled_start_utc": "2026-11-05T07:30Z"
+ }
+}
