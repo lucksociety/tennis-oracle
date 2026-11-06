@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Janice Tjen",
+ "win_prob": {
+  "A": 0.5854,
+  "B": 0.4146
+ },
+ "win_prob_exact": {
+  "A": 0.5854,
+  "B": 0.41459999999999997
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.71,
+   "american": "-141"
+  },
+  "B": {
+   "decimal": 2.41,
+   "american": "+141"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3754,
+  "0-2": 0.2403,
+  "2-1": 0.21,
+  "1-2": 0.1743
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0253,
+ "games": {
+  "mean": 23.54,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 32.0,
+  "sd": 6.09,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00102,
+   "13": 0.00529,
+   "14": 0.01395,
+   "15": 0.03031,
+   "16": 0.04818,
+   "17": 0.07181,
+   "18": 0.0762,
+   "19": 0.08109,
+   "20": 0.0745,
+   "21": 0.05111,
+   "22": 0.07474,
+   "23": 0.05417,
+   "24": 0.01427,
+   "25": 0.03347,
+   "26": 0.04404,
+   "27": 0.03247,
+   "28": 0.03838,
+   "29": 0.0399,
+   "30": 0.03845,
+   "31": 0.0424,
+   "32": 0.04124,
+   "33": 0.02566,
+   "34": 0.01884,
+   "35": 0.02379,
+   "36": 0.014,
+   "37": 0.00193,
+   "38": 0.00497,
+   "39": 0.00382
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00022,
+  "-11": 0.0014,
+  "-10": 0.00448,
+  "-9": 0.01033,
+  "-8": 0.01904,
+  "-7": 0.0359,
+  "-6": 0.04849,
+  "-5": 0.06483,
+  "-4": 0.07512,
+  "-3": 0.06221,
+  "-2": 0.0447,
+  "-1": 0.03121,
+  "0": 0.03271,
+  "1": 0.03389,
+  "2": 0.0515,
+  "3": 0.07764,
+  "4": 0.10116,
+  "5": 0.09255,
+  "6": 0.07794,
+  "7": 0.06163,
+  "8": 0.03669,
+  "9": 0.02172,
+  "10": 0.00993,
+  "11": 0.00391,
+  "12": 0.0008
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8294,
+   "under": 0.1706
+  },
+  {
+   "line": 18.5,
+   "over": 0.7532,
+   "under": 0.2468
+  },
+  {
+   "line": 19.5,
+   "over": 0.6722,
+   "under": 0.3278
+  },
+  {
+   "line": 20.5,
+   "over": 0.5977,
+   "under": 0.4023
+  },
+  {
+   "line": 21.5,
+   "over": 0.5465,
+   "under": 0.4535
+  },
+  {
+   "line": 22.5,
+   "over": 0.4718,
+   "under": 0.5282
+  },
+  {
+   "line": 23.5,
+   "over": 0.4176,
+   "under": 0.5824
+  },
+  {
+   "line": 24.5,
+   "over": 0.4034,
+   "under": 0.5966
+  },
+  {
+   "line": 25.5,
+   "over": 0.3699,
+   "under": 0.6301
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5355,
+   "B +1.5": 0.4645,
+   "B -1.5": 0.3667,
+   "A +1.5": 0.6333
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.484,
+   "B +2.5": 0.516,
+   "B -2.5": 0.322,
+   "A +2.5": 0.678
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4063,
+   "B +3.5": 0.5937,
+   "B -3.5": 0.2598,
+   "A +3.5": 0.7402
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3052,
+   "B +4.5": 0.6948,
+   "B -4.5": 0.1847,
+   "A +4.5": 0.8153
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2126,
+   "B +5.5": 0.7874,
+   "B -5.5": 0.1199,
+   "A +5.5": 0.8801
+  }
+ ],
+ "p_tiebreak": 0.3633,
+ "p_a_wins_set": 0.7597,
+ "p_b_wins_set": 0.6246,
+ "p_decider": 0.3843,
+ "expected_breaks": {
+  "total": 5.41,
+  "by_A": 2.94,
+  "by_B": 2.47
+ },
+ "expected_break_points": {
+  "A_creates": 7.23,
+  "B_creates": 6.41
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3754
+ },
+ "match": "Janice Tjen vs Robin Montgomery",
+ "players": {
+  "A": {
+   "id": "wta:222145",
+   "name": "Janice Tjen",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 40.0,
+   "age": 24.45448323066393,
+   "elo": 1735.5,
+   "surface_elo": {
+    "Hard": 1730.9,
+    "Clay": 1488.3,
+    "Grass": 1443.0
+   },
+   "matches_total": 61,
+   "matches_surface": {
+    "Hard": 49,
+    "Clay": 7,
+    "Grass": 5
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    19,
+    28
+   ],
+   "last52w_surface": [
+    16,
+    19
+   ],
+   "career_surface_wl": [
+    26,
+    23
+   ],
+   "games_won_lost_52w": [
+    481,
+    537
+   ],
+   "sets_won_lost_52w": [
+    46,
+    61
+   ],
+   "avg_opp_elo_last20": 1749.1,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.3507,
+   "return_rating": 0.0469,
+   "form_elo": 74.0,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.596,
+    "first_won": 0.6858,
+    "second_won": 0.444,
+    "serve_pts_won": 0.5881,
+    "hold": 0.6877,
+    "aces_per_svgm": 0.4226,
+    "df_per_svgm": 0.3202,
+    "bp_saved": 0.5259,
+    "ret_pts_won": 0.398,
+    "ret_1st_won": 0.3216,
+    "ret_2nd_won": 0.5304,
+    "ret_games_won": 0.2629,
+    "bp_conv": 0.4163,
+    "bp_chances_per_retgm": 0.6314,
+    "matches_with_stats": 37
+   },
+   "rank_history": [
+    [
+     "2026-01-12",
+     56.0
+    ],
+    [
+     "2026-01-19",
+     59.0
+    ],
+    [
+     "2026-02-01",
+     47.0
+    ],
+    [
+     "2026-02-08",
+     46.0
+    ],
+    [
+     "2026-02-23",
+     36.0
+    ],
+    [
+     "2026-03-04",
+     39.0
+    ],
+    [
+     "2026-03-17",
+     40.0
+    ],
+    [
+     "2026-03-30",
+     41.0
+    ],
+    [
+     "2026-04-21",
+     39.0
+    ],
+    [
+     "2026-05-05",
+     40.0
+    ],
+    [
+     "2026-05-18",
+     41.0
+    ],
+    [
+     "2026-05-25",
+     40.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221905",
+   "name": "Robin Montgomery",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 339.0,
+   "age": 22.147570157426422,
+   "elo": 1736.5,
+   "surface_elo": {
+    "Hard": 1655.7,
+    "Clay": 1503.7,
+    "Grass": 1738.9
+   },
+   "matches_total": 59,
+   "matches_surface": {
+    "Hard": 35,
+    "Clay": 12,
+    "Grass": 12
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    15,
+    8
+   ],
+   "last52w_surface": [
+    9,
+    5
+   ],
+   "career_surface_wl": [
+    15,
+    20
+   ],
+   "games_won_lost_52w": [
+    267,
+    225
+   ],
+   "sets_won_lost_52w": [
+    32,
+    21
+   ],
+   "avg_opp_elo_last20": 1618.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1902,
+   "return_rating": 0.0263,
+   "form_elo": 37.2,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.6049,
+    "first_won": 0.7025,
+    "second_won": 0.4279,
+    "serve_pts_won": 0.594,
+    "hold": 0.6855,
+    "aces_per_svgm": 0.4403,
+    "df_per_svgm": 0.4277,
+    "bp_saved": 0.6241,
+    "ret_pts_won": 0.4187,
+    "ret_1st_won": 0.351,
+    "ret_2nd_won": 0.5337,
+    "ret_games_won": 0.3684,
+    "bp_conv": 0.4912,
+    "bp_chances_per_retgm": 0.75,
+    "matches_with_stats": 16
+   },
+   "rank_history": [
+    [
+     "2024-07-01",
+     161.0
+    ],
+    [
+     "2024-07-29",
+     131.0
+    ],
+    [
+     "2024-08-12",
+     109.0
+    ],
+    [
+     "2024-10-28",
+     107.0
+    ],
+    [
+     "2024-11-25",
+     105.0
+    ],
+    [
+     "2024-12-30",
+     117.0
+    ],
+    [
+     "2025-03-05",
+     107.0
+    ],
+    [
+     "2025-03-31",
+     105.0
+    ],
+    [
+     "2025-04-22",
+     100.0
+    ],
+    [
+     "2025-05-26",
+     115.0
+    ],
+    [
+     "2026-03-30",
+     368.0
+    ],
+    [
+     "2026-04-21",
+     339.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-06",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "8ecee915ff152bcf",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 61.8,
+  "components_elo": {
+   "surface_elo": 75.2,
+   "overall_elo": -1.0,
+   "serve_return": 151.7,
+   "form": 36.8
+  },
+  "weighted_contributions": {
+   "surface_elo": 9.2,
+   "overall_elo": -0.2,
+   "serve_return": 52.9,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5881,
+  "serve_return_implied_spw": {
+   "A": 0.6427,
+   "B": 0.6002
+  },
+  "point_probs": {
+   "A_serve": 0.6345,
+   "B_serve": 0.6087
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6344571899529776,
+   "B_serve": 0.6087362531345916
+  },
+  "hold_probs": {
+   "A": 0.8028,
+   "B": 0.7537
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5854,
+   0.5868
+  ],
+  "p_tb": [
+   0.3633,
+   0.3606
+  ],
+  "p_decider": [
+   0.3843,
+   0.3828
+  ],
+  "games_mean": [
+   23.542,
+   23.519
+  ],
+  "exp_breaks": [
+   5.412,
+   5.413
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2403,
+    0.2393
+   ],
+   "1-2": [
+    0.1743,
+    0.1739
+   ],
+   "2-0": [
+    0.3754,
+    0.3779
+   ],
+   "2-1": [
+    0.21,
+    0.2089
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0027
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Janice Tjen",
+   "elo_points": 52.9,
+   "raw_diff": 151.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Janice Tjen",
+   "elo_points": 9.2,
+   "raw_diff": 75.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Robin Montgomery",
+   "elo_points": -0.2,
+   "raw_diff": -1.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.444,
+   "B": 0.4279,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.398,
+   "B": 0.4187,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6345,
+   "B": 0.6087,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Janice Tjen to win at least one set",
+  "probability": 0.7597,
+  "fair_odds": {
+   "decimal": 1.32,
+   "american": "-316"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Janice Tjen to win at least one set",
+    "probability": 0.7597,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7532,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Robin Montgomery +4.5 games",
+    "probability": 0.6948,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6367,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Robin Montgomery to win at least one set",
+    "probability": 0.6246,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6157,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5977,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5966,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Janice Tjen to win",
+    "probability": 0.5854,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5282,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Robin Montgomery +2.5 games",
+    "probability": 0.516,
+    "fair_decimal": 1.94
+   },
+   {
+    "selection": "Janice Tjen -2.5 games",
+    "probability": 0.484,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4718,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Robin Montgomery to win",
+    "probability": 0.4146,
+    "fair_decimal": 2.41
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4034,
+    "fair_decimal": 2.48
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T15:56:30+00:00",
+  "version": 1,
+  "input_hash": "744d1050e301d6b6",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186594",
+  "scheduled_start_utc": "2026-11-07T12:30Z"
+ }
+}

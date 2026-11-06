@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Maria Sakkari",
+ "win_prob": {
+  "A": 0.5133,
+  "B": 0.4867
+ },
+ "win_prob_exact": {
+  "A": 0.51334,
+  "B": 0.48666
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.95,
+   "american": "-105"
+  },
+  "B": {
+   "decimal": 2.05,
+   "american": "+105"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3231,
+  "0-2": 0.2997,
+  "2-1": 0.1903,
+  "1-2": 0.187
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0177,
+ "games": {
+  "mean": 22.72,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00213,
+   "13": 0.00966,
+   "14": 0.02142,
+   "15": 0.04267,
+   "16": 0.06593,
+   "17": 0.083,
+   "18": 0.08207,
+   "19": 0.07847,
+   "20": 0.06867,
+   "21": 0.05002,
+   "22": 0.06143,
+   "23": 0.04108,
+   "24": 0.02032,
+   "25": 0.03789,
+   "26": 0.04105,
+   "27": 0.03788,
+   "28": 0.04198,
+   "29": 0.0417,
+   "30": 0.03969,
+   "31": 0.03749,
+   "32": 0.03264,
+   "33": 0.02003,
+   "34": 0.01453,
+   "35": 0.01517,
+   "36": 0.00711,
+   "37": 0.0017,
+   "38": 0.00284,
+   "39": 0.00143
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00103,
+  "-11": 0.00449,
+  "-10": 0.01031,
+  "-9": 0.02123,
+  "-8": 0.03654,
+  "-7": 0.05605,
+  "-6": 0.06602,
+  "-5": 0.07336,
+  "-4": 0.07627,
+  "-3": 0.05574,
+  "-2": 0.04117,
+  "-1": 0.03061,
+  "0": 0.02795,
+  "1": 0.03003,
+  "2": 0.04016,
+  "3": 0.05834,
+  "4": 0.07732,
+  "5": 0.07919,
+  "6": 0.07195,
+  "7": 0.05955,
+  "8": 0.04029,
+  "9": 0.0243,
+  "10": 0.0117,
+  "11": 0.0053,
+  "12": 0.0011
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7752,
+   "under": 0.2248
+  },
+  {
+   "line": 18.5,
+   "over": 0.6931,
+   "under": 0.3069
+  },
+  {
+   "line": 19.5,
+   "over": 0.6147,
+   "under": 0.3854
+  },
+  {
+   "line": 20.5,
+   "over": 0.546,
+   "under": 0.454
+  },
+  {
+   "line": 21.5,
+   "over": 0.496,
+   "under": 0.504
+  },
+  {
+   "line": 22.5,
+   "over": 0.4345,
+   "under": 0.5655
+  },
+  {
+   "line": 23.5,
+   "over": 0.3935,
+   "under": 0.6066
+  },
+  {
+   "line": 24.5,
+   "over": 0.3731,
+   "under": 0.6269
+  },
+  {
+   "line": 25.5,
+   "over": 0.3352,
+   "under": 0.6648
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4692,
+   "B +1.5": 0.5308,
+   "B -1.5": 0.4422,
+   "A +1.5": 0.5578
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.429,
+   "B +2.5": 0.571,
+   "B -2.5": 0.401,
+   "A +2.5": 0.599
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3707,
+   "B +3.5": 0.6293,
+   "B -3.5": 0.3453,
+   "A +3.5": 0.6547
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2934,
+   "B +4.5": 0.7066,
+   "B -4.5": 0.269,
+   "A +4.5": 0.731
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2142,
+   "B +5.5": 0.7858,
+   "B -5.5": 0.1957,
+   "A +5.5": 0.8043
+  }
+ ],
+ "p_tiebreak": 0.2738,
+ "p_a_wins_set": 0.7003,
+ "p_b_wins_set": 0.6769,
+ "p_decider": 0.3772,
+ "expected_breaks": {
+  "total": 7.44,
+  "by_A": 3.76,
+  "by_B": 3.67
+ },
+ "expected_break_points": {
+  "A_creates": 8.47,
+  "B_creates": 8.34
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3231
+ },
+ "match": "Maria Sakkari vs Alexandra Eala",
+ "players": {
+  "A": {
+   "id": "wta:206289",
+   "name": "Maria Sakkari",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 49.0,
+   "age": 31.25448323066393,
+   "elo": 1829.2,
+   "surface_elo": {
+    "Hard": 1818.5,
+    "Clay": 1714.1,
+    "Grass": 1605.2
+   },
+   "matches_total": 506,
+   "matches_surface": {
+    "Hard": 330,
+    "Clay": 120,
+    "Grass": 56
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    29,
+    22
+   ],
+   "last52w_surface": [
+    24,
+    14
+   ],
+   "career_surface_wl": [
+    184,
+    146
+   ],
+   "games_won_lost_52w": [
+    568,
+    515
+   ],
+   "sets_won_lost_52w": [
+    66,
+    53
+   ],
+   "avg_opp_elo_last20": 1782.9,
+   "vs_top_opp_52w": [
+    4,
+    10
+   ],
+   "serve_rating": 0.354,
+   "return_rating": 0.229,
+   "form_elo": 68.4,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.6328,
+    "first_won": 0.6348,
+    "second_won": 0.5118,
+    "serve_pts_won": 0.5896,
+    "hold": 0.69,
+    "aces_per_svgm": 0.27,
+    "df_per_svgm": 0.2175,
+    "bp_saved": 0.5571,
+    "ret_pts_won": 0.4392,
+    "ret_1st_won": 0.3778,
+    "ret_2nd_won": 0.5431,
+    "ret_games_won": 0.3718,
+    "bp_conv": 0.4633,
+    "bp_chances_per_retgm": 0.8026,
+    "matches_with_stats": 39
+   },
+   "rank_history": [
+    [
+     "2025-10-20",
+     54.0
+    ],
+    [
+     "2026-01-05",
+     51.0
+    ],
+    [
+     "2026-01-12",
+     52.0
+    ],
+    [
+     "2026-01-19",
+     53.0
+    ],
+    [
+     "2026-02-08",
+     52.0
+    ],
+    [
+     "2026-03-04",
+     34.0
+    ],
+    [
+     "2026-03-17",
+     33.0
+    ],
+    [
+     "2026-03-30",
+     36.0
+    ],
+    [
+     "2026-04-21",
+     37.0
+    ],
+    [
+     "2026-05-05",
+     47.0
+    ],
+    [
+     "2026-05-17",
+     48.0
+    ],
+    [
+     "2026-05-25",
+     49.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:223253",
+   "name": "Alexandra Eala",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 37.0,
+   "age": 21.45448323066393,
+   "elo": 1904.9,
+   "surface_elo": {
+    "Hard": 1860.9,
+    "Clay": 1543.8,
+    "Grass": 1738.2
+   },
+   "matches_total": 100,
+   "matches_surface": {
+    "Hard": 65,
+    "Clay": 19,
+    "Grass": 16
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    36,
+    24
+   ],
+   "last52w_surface": [
+    26,
+    14
+   ],
+   "career_surface_wl": [
+    33,
+    32
+   ],
+   "games_won_lost_52w": [
+    690,
+    619
+   ],
+   "sets_won_lost_52w": [
+    81,
+    59
+   ],
+   "avg_opp_elo_last20": 1811.2,
+   "vs_top_opp_52w": [
+    7,
+    9
+   ],
+   "serve_rating": 0.2061,
+   "return_rating": 0.2659,
+   "form_elo": 15.7,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.6322,
+    "first_won": 0.62,
+    "second_won": 0.4675,
+    "serve_pts_won": 0.5639,
+    "hold": 0.6499,
+    "aces_per_svgm": 0.1363,
+    "df_per_svgm": 0.2809,
+    "bp_saved": 0.5651,
+    "ret_pts_won": 0.4436,
+    "ret_1st_won": 0.3632,
+    "ret_2nd_won": 0.5794,
+    "ret_games_won": 0.3788,
+    "bp_conv": 0.4487,
+    "bp_chances_per_retgm": 0.8442,
+    "matches_with_stats": 45
+   },
+   "rank_history": [
+    [
+     "2026-01-19",
+     49.0
+    ],
+    [
+     "2026-02-01",
+     45.0
+    ],
+    [
+     "2026-02-08",
+     40.0
+    ],
+    [
+     "2026-02-15",
+     47.0
+    ],
+    [
+     "2026-03-04",
+     32.0
+    ],
+    [
+     "2026-03-17",
+     29.0
+    ],
+    [
+     "2026-04-06",
+     46.0
+    ],
+    [
+     "2026-04-13",
+     45.0
+    ],
+    [
+     "2026-04-21",
+     44.0
+    ],
+    [
+     "2026-05-05",
+     42.0
+    ],
+    [
+     "2026-05-17",
+     38.0
+    ],
+    [
+     "2026-05-25",
+     37.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-06",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "8ecee915ff152bcf",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 11.6,
+  "components_elo": {
+   "surface_elo": -42.4,
+   "overall_elo": -75.7,
+   "serve_return": 99.6,
+   "form": 52.7
+  },
+  "weighted_contributions": {
+   "surface_elo": -5.2,
+   "overall_elo": -17.9,
+   "serve_return": 34.7,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5167,
+  "serve_return_implied_spw": {
+   "A": 0.5868,
+   "B": 0.5597
+  },
+  "point_probs": {
+   "A_serve": 0.5757,
+   "B_serve": 0.5709
+  },
+  "point_probs_exact": {
+   "A_serve": 0.57571204229016,
+   "B_serve": 0.5709077883704122
+  },
+  "hold_probs": {
+   "A": 0.683,
+   "B": 0.6721
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5133,
+   0.5163
+  ],
+  "p_tb": [
+   0.2738,
+   0.2769
+  ],
+  "p_decider": [
+   0.3772,
+   0.3784
+  ],
+  "games_mean": [
+   22.721,
+   22.753
+  ],
+  "exp_breaks": [
+   7.437,
+   7.448
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2997,
+    0.2977
+   ],
+   "1-2": [
+    0.187,
+    0.1861
+   ],
+   "2-0": [
+    0.3231,
+    0.3239
+   ],
+   "2-1": [
+    0.1903,
+    0.1924
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0031
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Maria Sakkari",
+   "elo_points": 34.7,
+   "raw_diff": 99.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexandra Eala",
+   "elo_points": -17.9,
+   "raw_diff": -75.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexandra Eala",
+   "elo_points": -5.2,
+   "raw_diff": -42.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5118,
+   "B": 0.4675,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4392,
+   "B": 0.4436,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5757,
+   "B": 0.5709,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7262,
+  "fair_odds": {
+   "decimal": 1.38,
+   "american": "-265"
+  },
+  "confidence": "Medium",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially.",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7262,
+    "fair_decimal": 1.38
+   },
+   {
+    "selection": "Alexandra Eala +4.5 games",
+    "probability": 0.7066,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Maria Sakkari to win at least one set",
+    "probability": 0.7003,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6931,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Alexandra Eala to win at least one set",
+    "probability": 0.6769,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6269,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6228,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Alexandra Eala +2.5 games",
+    "probability": 0.571,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5655,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.546,
+    "fair_decimal": 1.83
+   },
+   {
+    "selection": "Maria Sakkari to win",
+    "probability": 0.5133,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Alexandra Eala to win",
+    "probability": 0.4867,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.454,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4345,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "Maria Sakkari -2.5 games",
+    "probability": 0.429,
+    "fair_decimal": 2.33
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T15:56:28+00:00",
+  "version": 1,
+  "input_hash": "0ef2cb06195ec940",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186643",
+  "scheduled_start_utc": "2026-11-07T08:00Z"
+ }
+}

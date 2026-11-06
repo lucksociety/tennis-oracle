@@ -1,7 +1,7 @@
 {
  "date": "2026-11-06",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-06T06:45:16+00:00",
+ "generated_at_utc": "2026-11-06T15:56:19+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -13,8 +13,8 @@
    "round": "Quarterfinal",
    "court": "Centre Court",
    "start_utc": "2026-11-06T06:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Zeynep Sonmez",
@@ -30,7 +30,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-05T22:00:00+00:00",
@@ -147,9 +159,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T08:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T08:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sorana Cirstea",
@@ -165,7 +177,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-06T06:45:00+00:00",
@@ -282,9 +306,9 @@
    "venue": "Chennai, India",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T09:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T09:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Janice Tjen",
@@ -300,7 +324,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T06:45:01+00:00",
@@ -417,9 +457,9 @@
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T10:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T10:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Aliaksandra Sasnovich",
@@ -435,7 +475,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T06:45:02+00:00",
@@ -552,9 +604,9 @@
    "venue": "Luanda, Angola",
    "round": "Quarterfinal",
    "court": "Lwena Court",
-   "start_utc": "2026-11-06T10:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T10:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sofya Lansere",
@@ -570,7 +622,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T06:45:04+00:00",
@@ -681,152 +745,15 @@
    }
   },
   {
-   "espn_id": "186597",
-   "tour": "wta",
-   "tournament": "Chennai Open",
-   "venue": "Chennai, India",
-   "round": "Quarterfinal",
-   "court": "Centre Court",
-   "start_utc": "2026-11-06T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Robin Montgomery",
-     "id": "wta:221905"
-    },
-    {
-     "name": "Maaya Rajeshwaran Revathi",
-     "id": "wta:266722"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-06T06:45:05+00:00",
-    "path": "forecasts/2026-11-06/186597-robin-montgomery-vs-maaya-rajeshwaran-revathi/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Robin Montgomery",
-    "win_prob": {
-     "A": 0.6355,
-     "B": 0.3645
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
-     ],
-     "prob": 0.4284
-    },
-    "games_mean": 22.59,
-    "strongest": {
-     "selection": "Robin Montgomery to win at least one set",
-     "probability": 0.7919,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "recommendation_quality": {
-     "eligible": false,
-     "reasons": [
-      "insufficient player history"
-     ],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.6355,
-      "B": 0.3645
-     },
-     "set_score_probs": {
-      "2-0": 0.4284,
-      "0-2": 0.2081,
-      "2-1": 0.2071,
-      "1-2": 0.1564
-     },
-     "games_pmf": {
-      "12": 0.00229,
-      "13": 0.01041,
-      "14": 0.02512,
-      "15": 0.04527,
-      "16": 0.06644,
-      "17": 0.08315,
-      "18": 0.08335,
-      "19": 0.08064,
-      "20": 0.06995,
-      "21": 0.04942,
-      "22": 0.0611,
-      "23": 0.04184,
-      "24": 0.01899,
-      "25": 0.03605,
-      "26": 0.03979,
-      "27": 0.03579,
-      "28": 0.03969,
-      "29": 0.03985,
-      "30": 0.03751,
-      "31": 0.03658,
-      "32": 0.03238,
-      "33": 0.02041,
-      "34": 0.01581,
-      "35": 0.01478,
-      "36": 0.00699,
-      "37": 0.00175,
-      "38": 0.00304,
-      "39": 0.00161
-     },
-     "games_diff_pmf": {
-      "-12": 0.00041,
-      "-11": 0.0018,
-      "-10": 0.00543,
-      "-9": 0.01113,
-      "-8": 0.02164,
-      "-7": 0.03567,
-      "-6": 0.04622,
-      "-5": 0.05561,
-      "-4": 0.06074,
-      "-3": 0.04808,
-      "-2": 0.03581,
-      "-1": 0.02731,
-      "0": 0.02754,
-      "1": 0.03025,
-      "2": 0.0429,
-      "3": 0.06397,
-      "4": 0.09223,
-      "5": 0.09855,
-      "6": 0.09103,
-      "7": 0.07976,
-      "8": 0.05628,
-      "9": 0.03673,
-      "10": 0.02034,
-      "11": 0.00869,
-      "12": 0.00188
-     },
-     "p_tiebreak": 0.2782,
-     "p_decider": 0.3635
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0016
-   }
-  },
-  {
    "espn_id": "186687",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
    "venue": "Luanda, Angola",
    "round": "Quarterfinal",
    "court": "Court 3",
-   "start_utc": "2026-11-06T11:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T11:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Ksenia Zaytseva",
@@ -842,7 +769,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T06:45:07+00:00",
@@ -955,15 +894,164 @@
    }
   },
   {
+   "espn_id": "186597",
+   "tour": "wta",
+   "tournament": "Chennai Open",
+   "venue": "Chennai, India",
+   "round": "Quarterfinal",
+   "court": "Centre Court",
+   "start_utc": "2026-11-06T12:20Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Robin Montgomery",
+     "id": "wta:221905"
+    },
+    {
+     "name": "Maaya Rajeshwaran Revathi",
+     "id": "wta:266722"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-06T06:45:05+00:00",
+    "path": "forecasts/2026-11-06/186597-robin-montgomery-vs-maaya-rajeshwaran-revathi/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Robin Montgomery",
+    "win_prob": {
+     "A": 0.6355,
+     "B": 0.3645
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.4284
+    },
+    "games_mean": 22.59,
+    "strongest": {
+     "selection": "Robin Montgomery to win at least one set",
+     "probability": 0.7919,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6355,
+      "B": 0.3645
+     },
+     "set_score_probs": {
+      "2-0": 0.4284,
+      "0-2": 0.2081,
+      "2-1": 0.2071,
+      "1-2": 0.1564
+     },
+     "games_pmf": {
+      "12": 0.00229,
+      "13": 0.01041,
+      "14": 0.02512,
+      "15": 0.04527,
+      "16": 0.06644,
+      "17": 0.08315,
+      "18": 0.08335,
+      "19": 0.08064,
+      "20": 0.06995,
+      "21": 0.04942,
+      "22": 0.0611,
+      "23": 0.04184,
+      "24": 0.01899,
+      "25": 0.03605,
+      "26": 0.03979,
+      "27": 0.03579,
+      "28": 0.03969,
+      "29": 0.03985,
+      "30": 0.03751,
+      "31": 0.03658,
+      "32": 0.03238,
+      "33": 0.02041,
+      "34": 0.01581,
+      "35": 0.01478,
+      "36": 0.00699,
+      "37": 0.00175,
+      "38": 0.00304,
+      "39": 0.00161
+     },
+     "games_diff_pmf": {
+      "-12": 0.00041,
+      "-11": 0.0018,
+      "-10": 0.00543,
+      "-9": 0.01113,
+      "-8": 0.02164,
+      "-7": 0.03567,
+      "-6": 0.04622,
+      "-5": 0.05561,
+      "-4": 0.06074,
+      "-3": 0.04808,
+      "-2": 0.03581,
+      "-1": 0.02731,
+      "0": 0.02754,
+      "1": 0.03025,
+      "2": 0.0429,
+      "3": 0.06397,
+      "4": 0.09223,
+      "5": 0.09855,
+      "6": 0.09103,
+      "7": 0.07976,
+      "8": 0.05628,
+      "9": 0.03673,
+      "10": 0.02034,
+      "11": 0.00869,
+      "12": 0.00188
+     },
+     "p_tiebreak": 0.2782,
+     "p_decider": 0.3635
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0016
+   }
+  },
+  {
    "espn_id": "186634",
    "tour": "wta",
    "tournament": "Prudential Hong Kong Tennis Open",
    "venue": "Hong Kong, Hong Kong, China",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T12:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T12:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Antonia Ruzic",
@@ -979,7 +1067,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-06T06:45:08+00:00",
@@ -1090,15 +1190,166 @@
    }
   },
   {
+   "espn_id": "186500",
+   "tour": "atp",
+   "tournament": "Rolex Paris Masters",
+   "venue": "Paris, France",
+   "round": "Quarterfinal",
+   "court": "Court Central",
+   "start_utc": "2026-11-06T13:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Ben Shelton",
+     "id": "atp:210097"
+    },
+    {
+     "name": "Tommy Paul",
+     "id": "atp:126205"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "name-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-05T22:00:17+00:00",
+    "path": "forecasts/2026-11-06/186500-ben-shelton-vs-tommy-paul/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Tommy Paul",
+    "win_prob": {
+     "A": 0.4309,
+     "B": 0.5691
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3549
+    },
+    "games_mean": 25.01,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8496,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4309,
+      "B": 0.5691
+     },
+     "set_score_probs": {
+      "0-2": 0.3549,
+      "2-0": 0.2457,
+      "1-2": 0.2142,
+      "2-1": 0.1851
+     },
+     "games_pmf": {
+      "12": 0.00018,
+      "13": 0.00164,
+      "14": 0.00499,
+      "15": 0.01406,
+      "16": 0.02496,
+      "17": 0.04747,
+      "18": 0.05713,
+      "19": 0.07737,
+      "20": 0.07482,
+      "21": 0.0496,
+      "22": 0.09379,
+      "23": 0.08098,
+      "24": 0.00789,
+      "25": 0.03419,
+      "26": 0.0616,
+      "27": 0.02212,
+      "28": 0.03018,
+      "29": 0.03058,
+      "30": 0.03475,
+      "31": 0.04554,
+      "32": 0.05076,
+      "33": 0.03166,
+      "34": 0.02257,
+      "35": 0.0418,
+      "36": 0.03083,
+      "37": 0.00268,
+      "38": 0.01037,
+      "39": 0.01549
+     },
+     "games_diff_pmf": {
+      "-12": 0.00011,
+      "-11": 0.00123,
+      "-10": 0.00353,
+      "-9": 0.0097,
+      "-8": 0.01871,
+      "-7": 0.03923,
+      "-6": 0.05723,
+      "-5": 0.08703,
+      "-4": 0.11359,
+      "-3": 0.10236,
+      "-2": 0.07366,
+      "-1": 0.04296,
+      "0": 0.04003,
+      "1": 0.03966,
+      "2": 0.06407,
+      "3": 0.08189,
+      "4": 0.08622,
+      "5": 0.0631,
+      "6": 0.03645,
+      "7": 0.02244,
+      "8": 0.0096,
+      "9": 0.00515,
+      "10": 0.00155,
+      "11": 0.00043,
+      "12": 7e-05
+     },
+     "p_tiebreak": 0.5204,
+     "p_decider": 0.3993
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0038
+   }
+  },
+  {
    "espn_id": "186686",
    "tour": "wta",
    "tournament": "Angola Ladies Open",
    "venue": "Luanda, Angola",
    "round": "Quarterfinal",
    "court": "Lwena Court",
-   "start_utc": "2026-11-06T12:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T13:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Justina Mikulskyte",
@@ -1114,7 +1365,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-06T06:45:09+00:00",
@@ -1231,8 +1494,8 @@
    "venue": "Chennai, India",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T12:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-06T13:50Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1360,284 +1623,14 @@
    }
   },
   {
-   "espn_id": "186500",
-   "tour": "atp",
-   "tournament": "Rolex Paris Masters",
-   "venue": "Paris, France",
-   "round": "Quarterfinal",
-   "court": "Court Central",
-   "start_utc": "2026-11-06T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Ben Shelton",
-     "id": "atp:210097"
-    },
-    {
-     "name": "Tommy Paul",
-     "id": "atp:126205"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "name-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T22:00:17+00:00",
-    "path": "forecasts/2026-11-06/186500-ben-shelton-vs-tommy-paul/v1.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Tommy Paul",
-    "win_prob": {
-     "A": 0.4309,
-     "B": 0.5691
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "4-6",
-      "4-6"
-     ],
-     "prob": 0.3549
-    },
-    "games_mean": 25.01,
-    "strongest": {
-     "selection": "Over 18.5 games",
-     "probability": 0.8496,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 23.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.4309,
-      "B": 0.5691
-     },
-     "set_score_probs": {
-      "0-2": 0.3549,
-      "2-0": 0.2457,
-      "1-2": 0.2142,
-      "2-1": 0.1851
-     },
-     "games_pmf": {
-      "12": 0.00018,
-      "13": 0.00164,
-      "14": 0.00499,
-      "15": 0.01406,
-      "16": 0.02496,
-      "17": 0.04747,
-      "18": 0.05713,
-      "19": 0.07737,
-      "20": 0.07482,
-      "21": 0.0496,
-      "22": 0.09379,
-      "23": 0.08098,
-      "24": 0.00789,
-      "25": 0.03419,
-      "26": 0.0616,
-      "27": 0.02212,
-      "28": 0.03018,
-      "29": 0.03058,
-      "30": 0.03475,
-      "31": 0.04554,
-      "32": 0.05076,
-      "33": 0.03166,
-      "34": 0.02257,
-      "35": 0.0418,
-      "36": 0.03083,
-      "37": 0.00268,
-      "38": 0.01037,
-      "39": 0.01549
-     },
-     "games_diff_pmf": {
-      "-12": 0.00011,
-      "-11": 0.00123,
-      "-10": 0.00353,
-      "-9": 0.0097,
-      "-8": 0.01871,
-      "-7": 0.03923,
-      "-6": 0.05723,
-      "-5": 0.08703,
-      "-4": 0.11359,
-      "-3": 0.10236,
-      "-2": 0.07366,
-      "-1": 0.04296,
-      "0": 0.04003,
-      "1": 0.03966,
-      "2": 0.06407,
-      "3": 0.08189,
-      "4": 0.08622,
-      "5": 0.0631,
-      "6": 0.03645,
-      "7": 0.02244,
-      "8": 0.0096,
-      "9": 0.00515,
-      "10": 0.00155,
-      "11": 0.00043,
-      "12": 7e-05
-     },
-     "p_tiebreak": 0.5204,
-     "p_decider": 0.3993
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0038
-   }
-  },
-  {
-   "espn_id": "186595",
-   "tour": "wta",
-   "tournament": "Chennai Open",
-   "venue": "Chennai, India",
-   "round": "Quarterfinal",
-   "court": "Centre Court",
-   "start_utc": "2026-11-06T14:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Anastasia Zakharova",
-     "id": "wta:220435"
-    },
-    {
-     "name": "Lucrezia Stefanini",
-     "id": "wta:214593"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-06T06:45:12+00:00",
-    "path": "forecasts/2026-11-06/186595-anastasia-zakharova-vs-lucrezia-stefanini/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Lucrezia Stefanini",
-    "win_prob": {
-     "A": 0.3824,
-     "B": 0.6176
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "3-6"
-     ],
-     "prob": 0.4125
-    },
-    "games_mean": 22.16,
-    "strongest": {
-     "selection": "Lucrezia Stefanini to win at least one set",
-     "probability": 0.7753,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 21.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3824,
-      "B": 0.6176
-     },
-     "set_score_probs": {
-      "0-2": 0.4125,
-      "2-0": 0.2247,
-      "1-2": 0.2051,
-      "2-1": 0.1577
-     },
-     "games_pmf": {
-      "12": 0.00376,
-      "13": 0.01428,
-      "14": 0.03168,
-      "15": 0.05513,
-      "16": 0.07532,
-      "17": 0.08694,
-      "18": 0.08373,
-      "19": 0.07619,
-      "20": 0.0639,
-      "21": 0.04877,
-      "22": 0.05407,
-      "23": 0.03615,
-      "24": 0.02272,
-      "25": 0.03747,
-      "26": 0.03951,
-      "27": 0.03812,
-      "28": 0.0409,
-      "29": 0.04162,
-      "30": 0.03734,
-      "31": 0.03305,
-      "32": 0.02833,
-      "33": 0.0174,
-      "34": 0.01319,
-      "35": 0.01136,
-      "36": 0.0046,
-      "37": 0.0016,
-      "38": 0.00201,
-      "39": 0.00086
-     },
-     "games_diff_pmf": {
-      "-12": 0.00314,
-      "-11": 0.01115,
-      "-10": 0.02418,
-      "-9": 0.04201,
-      "-8": 0.06168,
-      "-7": 0.08136,
-      "-6": 0.08916,
-      "-5": 0.08965,
-      "-4": 0.08064,
-      "-3": 0.05578,
-      "-2": 0.03709,
-      "-1": 0.02872,
-      "0": 0.02564,
-      "1": 0.02663,
-      "2": 0.0328,
-      "3": 0.04341,
-      "4": 0.05748,
-      "5": 0.05816,
-      "6": 0.05287,
-      "7": 0.04221,
-      "8": 0.02738,
-      "9": 0.0166,
-      "10": 0.00838,
-      "11": 0.00326,
-      "12": 0.00062
-     },
-     "p_tiebreak": 0.2304,
-     "p_decider": 0.3628
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
-  },
-  {
    "espn_id": "186501",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
    "venue": "Paris, France",
    "round": "Quarterfinal",
    "court": "Court Central",
-   "start_utc": "2026-11-06T14:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-06T15:20Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -1771,8 +1764,8 @@
    "venue": "Luanda, Angola",
    "round": "Quarterfinal",
    "court": "Lwena Court",
-   "start_utc": "2026-11-06T15:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-06T15:35Z",
+   "status": "STATUS_SUSPENDED",
    "completed": false,
    "players": [
     {
@@ -1900,6 +1893,141 @@
    }
   },
   {
+   "espn_id": "186595",
+   "tour": "wta",
+   "tournament": "Chennai Open",
+   "venue": "Chennai, India",
+   "round": "Quarterfinal",
+   "court": "Centre Court",
+   "start_utc": "2026-11-06T16:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Anastasia Zakharova",
+     "id": "wta:220435"
+    },
+    {
+     "name": "Lucrezia Stefanini",
+     "id": "wta:214593"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-06T15:56:10+00:00",
+    "path": "forecasts/2026-11-06/186595-anastasia-zakharova-vs-lucrezia-stefanini/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Lucrezia Stefanini",
+    "win_prob": {
+     "A": 0.3809,
+     "B": 0.6191
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.416
+    },
+    "games_mean": 22.12,
+    "strongest": {
+     "selection": "Lucrezia Stefanini to win at least one set",
+     "probability": 0.7748,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3809,
+      "B": 0.6191
+     },
+     "set_score_probs": {
+      "0-2": 0.416,
+      "2-0": 0.2253,
+      "1-2": 0.203,
+      "2-1": 0.1557
+     },
+     "games_pmf": {
+      "12": 0.00366,
+      "13": 0.01438,
+      "14": 0.03188,
+      "15": 0.05565,
+      "16": 0.07558,
+      "17": 0.08739,
+      "18": 0.08504,
+      "19": 0.07697,
+      "20": 0.06288,
+      "21": 0.04772,
+      "22": 0.05504,
+      "23": 0.03661,
+      "24": 0.02249,
+      "25": 0.03701,
+      "26": 0.04002,
+      "27": 0.0371,
+      "28": 0.04151,
+      "29": 0.04091,
+      "30": 0.03748,
+      "31": 0.03261,
+      "32": 0.02784,
+      "33": 0.01658,
+      "34": 0.01257,
+      "35": 0.0118,
+      "36": 0.00493,
+      "37": 0.00152,
+      "38": 0.00196,
+      "39": 0.00087
+     },
+     "games_diff_pmf": {
+      "-12": 0.00302,
+      "-11": 0.01126,
+      "-10": 0.02457,
+      "-9": 0.04249,
+      "-8": 0.06125,
+      "-7": 0.08174,
+      "-6": 0.08961,
+      "-5": 0.08838,
+      "-4": 0.08258,
+      "-3": 0.05684,
+      "-2": 0.03725,
+      "-1": 0.02769,
+      "0": 0.02591,
+      "1": 0.02604,
+      "2": 0.0321,
+      "3": 0.04335,
+      "4": 0.05774,
+      "5": 0.0568,
+      "6": 0.05212,
+      "7": 0.04269,
+      "8": 0.02805,
+      "9": 0.01655,
+      "10": 0.00804,
+      "11": 0.00329,
+      "12": 0.00064
+     },
+     "p_tiebreak": 0.2314,
+     "p_decider": 0.3587
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0037
+   }
+  },
+  {
    "espn_id": "186734",
    "tour": "wta",
    "tournament": "Reto Win Tennis Cali Open",
@@ -1926,14 +2054,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-06T06:45:14+00:00",
-    "path": "forecasts/2026-11-06/186734-leyre-romero-gormaz-vs-julia-riera/v2.json",
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-06T15:56:13+00:00",
+    "path": "forecasts/2026-11-06/186734-leyre-romero-gormaz-vs-julia-riera/v3.json",
     "model_version": "v1.1",
     "predicted_winner": "Leyre Romero Gormaz",
     "win_prob": {
-     "A": 0.5212,
-     "B": 0.4788
+     "A": 0.5198,
+     "B": 0.4802
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -1943,12 +2071,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.3309
+     "prob": 0.3293
     },
-    "games_mean": 22.41,
+    "games_mean": 22.43,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7553,
+     "probability": 0.7546,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -1960,78 +2088,78 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.5212,
-      "B": 0.4788
+      "A": 0.5198,
+      "B": 0.4802
      },
      "set_score_probs": {
-      "2-0": 0.3309,
-      "0-2": 0.2958,
-      "2-1": 0.1903,
-      "1-2": 0.183
+      "2-0": 0.3293,
+      "0-2": 0.2968,
+      "2-1": 0.1905,
+      "1-2": 0.1834
      },
      "games_pmf": {
-      "12": 0.00295,
-      "13": 0.01179,
-      "14": 0.02811,
-      "15": 0.04884,
-      "16": 0.07145,
-      "17": 0.08333,
-      "18": 0.08312,
-      "19": 0.07638,
-      "20": 0.06661,
-      "21": 0.05119,
-      "22": 0.05618,
-      "23": 0.03685,
-      "24": 0.0226,
-      "25": 0.03779,
-      "26": 0.04176,
-      "27": 0.03957,
-      "28": 0.04068,
-      "29": 0.04218,
-      "30": 0.03931,
-      "31": 0.03495,
-      "32": 0.02917,
-      "33": 0.01887,
-      "34": 0.01384,
-      "35": 0.01237,
-      "36": 0.00542,
-      "37": 0.00182,
-      "38": 0.00195,
-      "39": 0.00092
+      "12": 0.00294,
+      "13": 0.01178,
+      "14": 0.02791,
+      "15": 0.04891,
+      "16": 0.07017,
+      "17": 0.0846,
+      "18": 0.08232,
+      "19": 0.07636,
+      "20": 0.06601,
+      "21": 0.04959,
+      "22": 0.05879,
+      "23": 0.03793,
+      "24": 0.02267,
+      "25": 0.03788,
+      "26": 0.04092,
+      "27": 0.03725,
+      "28": 0.04308,
+      "29": 0.04103,
+      "30": 0.04085,
+      "31": 0.03398,
+      "32": 0.02934,
+      "33": 0.01872,
+      "34": 0.0136,
+      "35": 0.01255,
+      "36": 0.00557,
+      "37": 0.0021,
+      "38": 0.00218,
+      "39": 0.00097
      },
      "games_diff_pmf": {
-      "-12": 0.00142,
-      "-11": 0.00553,
-      "-10": 0.01287,
-      "-9": 0.02392,
-      "-8": 0.03942,
-      "-7": 0.05606,
-      "-6": 0.0675,
-      "-5": 0.07258,
-      "-4": 0.07002,
-      "-3": 0.05046,
-      "-2": 0.03735,
-      "-1": 0.02838,
-      "0": 0.02733,
-      "1": 0.02896,
-      "2": 0.03667,
-      "3": 0.05348,
-      "4": 0.07358,
-      "5": 0.07988,
-      "6": 0.07461,
-      "7": 0.06297,
-      "8": 0.04472,
-      "9": 0.02819,
-      "10": 0.01613,
-      "11": 0.00644,
+      "-12": 0.00141,
+      "-11": 0.00544,
+      "-10": 0.01281,
+      "-9": 0.02341,
+      "-8": 0.03873,
+      "-7": 0.05685,
+      "-6": 0.06842,
+      "-5": 0.07067,
+      "-4": 0.07153,
+      "-3": 0.05085,
+      "-2": 0.03722,
+      "-1": 0.02864,
+      "0": 0.02795,
+      "1": 0.02951,
+      "2": 0.03672,
+      "3": 0.05233,
+      "4": 0.07577,
+      "5": 0.07686,
+      "6": 0.07353,
+      "7": 0.06425,
+      "8": 0.04483,
+      "9": 0.02838,
+      "10": 0.0159,
+      "11": 0.00646,
       "12": 0.00153
      },
-     "p_tiebreak": 0.2447,
-     "p_decider": 0.3733
+     "p_tiebreak": 0.2454,
+     "p_decider": 0.3739
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.001
+    "cross_check_max_diff": 0.0024
    }
   },
   {
@@ -2061,9 +2189,9 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T22:00:24+00:00",
-    "path": "forecasts/2026-11-06/186492-taylor-fritz-vs-carlos-alcaraz/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-06T15:56:15+00:00",
+    "path": "forecasts/2026-11-06/186492-taylor-fritz-vs-carlos-alcaraz/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Carlos Alcaraz",
     "win_prob": {
@@ -2078,12 +2206,12 @@
       "3-6",
       "4-6"
      ],
-     "prob": 0.5185
+     "prob": 0.5168
     },
-    "games_mean": 23.8,
+    "games_mean": 23.84,
     "strongest": {
      "selection": "Carlos Alcaraz to win at least one set",
-     "probability": 0.8652,
+     "probability": 0.866,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2099,74 +2227,74 @@
       "B": 0.7395
      },
      "set_score_probs": {
-      "0-2": 0.5185,
-      "1-2": 0.221,
-      "2-0": 0.1348,
-      "2-1": 0.1257
+      "0-2": 0.5168,
+      "1-2": 0.2228,
+      "2-0": 0.134,
+      "2-1": 0.1264
      },
      "games_pmf": {
-      "12": 0.00067,
-      "13": 0.00475,
-      "14": 0.01153,
-      "15": 0.026,
-      "16": 0.04085,
-      "17": 0.06827,
-      "18": 0.0733,
-      "19": 0.08425,
-      "20": 0.07828,
-      "21": 0.05187,
-      "22": 0.0873,
-      "23": 0.06855,
-      "24": 0.00893,
-      "25": 0.03112,
-      "26": 0.05181,
-      "27": 0.0224,
-      "28": 0.02815,
-      "29": 0.02971,
-      "30": 0.03175,
-      "31": 0.03926,
-      "32": 0.04219,
-      "33": 0.02651,
-      "34": 0.01928,
-      "35": 0.03228,
-      "36": 0.02206,
-      "37": 0.00184,
-      "38": 0.0076,
-      "39": 0.00949
+      "12": 0.00068,
+      "13": 0.00467,
+      "14": 0.01175,
+      "15": 0.02588,
+      "16": 0.0416,
+      "17": 0.06653,
+      "18": 0.0735,
+      "19": 0.08448,
+      "20": 0.07875,
+      "21": 0.0532,
+      "22": 0.08614,
+      "23": 0.06691,
+      "24": 0.00871,
+      "25": 0.03086,
+      "26": 0.05108,
+      "27": 0.02225,
+      "28": 0.02743,
+      "29": 0.0313,
+      "30": 0.03053,
+      "31": 0.04049,
+      "32": 0.04148,
+      "33": 0.02706,
+      "34": 0.02011,
+      "35": 0.03175,
+      "36": 0.02307,
+      "37": 0.00201,
+      "38": 0.00726,
+      "39": 0.01052
      },
      "games_diff_pmf": {
-      "-12": 0.00065,
-      "-11": 0.00455,
-      "-10": 0.01118,
-      "-9": 0.02484,
-      "-8": 0.04161,
-      "-7": 0.07467,
-      "-6": 0.0959,
-      "-5": 0.12165,
-      "-4": 0.13822,
-      "-3": 0.10608,
-      "-2": 0.0693,
-      "-1": 0.0363,
-      "0": 0.03085,
-      "1": 0.02938,
-      "2": 0.04161,
-      "3": 0.04899,
-      "4": 0.04986,
-      "5": 0.03534,
-      "6": 0.01963,
-      "7": 0.01218,
-      "8": 0.00422,
+      "-12": 0.00066,
+      "-11": 0.00448,
+      "-10": 0.01128,
+      "-9": 0.02492,
+      "-8": 0.04238,
+      "-7": 0.07352,
+      "-6": 0.09557,
+      "-5": 0.12531,
+      "-4": 0.1362,
+      "-3": 0.10463,
+      "-2": 0.06876,
+      "-1": 0.03723,
+      "0": 0.0314,
+      "1": 0.02915,
+      "2": 0.04143,
+      "3": 0.04961,
+      "4": 0.04967,
+      "5": 0.03537,
+      "6": 0.01964,
+      "7": 0.01134,
+      "8": 0.00441,
       "9": 0.0021,
-      "10": 0.00065,
-      "11": 0.00022,
+      "10": 0.00067,
+      "11": 0.00025,
       "12": 2e-05
      },
-     "p_tiebreak": 0.4389,
-     "p_decider": 0.3467
+     "p_tiebreak": 0.4406,
+     "p_decider": 0.3492
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.004
+    "cross_check_max_diff": 0.0036
    }
   },
   {
@@ -2196,29 +2324,29 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-06T06:45:16+00:00",
-    "path": "forecasts/2026-11-06/186735-alice-tubello-vs-bianca-andreescu/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-06T15:56:17+00:00",
+    "path": "forecasts/2026-11-06/186735-alice-tubello-vs-bianca-andreescu/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Bianca Andreescu",
     "win_prob": {
-     "A": 0.4537,
-     "B": 0.5463
+     "A": 0.454,
+     "B": 0.546
     },
     "most_likely_set_score": "0-2",
     "final_score": {
      "A_sets": 0,
      "B_sets": 2,
      "sets": [
-      "3-6",
+      "4-6",
       "4-6"
      ],
-     "prob": 0.3489
+     "prob": 0.3492
     },
-    "games_mean": 22.53,
+    "games_mean": 22.54,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7416,
+     "probability": 0.7411,
      "confidence": "Medium"
     },
     "data_quality": "HIGH",
@@ -2230,78 +2358,78 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.4537,
-      "B": 0.5463
+      "A": 0.454,
+      "B": 0.546
      },
      "set_score_probs": {
-      "0-2": 0.3489,
-      "2-0": 0.2781,
-      "1-2": 0.1975,
-      "2-1": 0.1756
+      "0-2": 0.3492,
+      "2-0": 0.2766,
+      "1-2": 0.1968,
+      "2-1": 0.1775
      },
      "games_pmf": {
-      "12": 0.00247,
-      "13": 0.01068,
-      "14": 0.02561,
-      "15": 0.04754,
-      "16": 0.06829,
-      "17": 0.08313,
-      "18": 0.08408,
-      "19": 0.07692,
-      "20": 0.0671,
-      "21": 0.04993,
-      "22": 0.05912,
-      "23": 0.03963,
-      "24": 0.02152,
-      "25": 0.03672,
-      "26": 0.04132,
-      "27": 0.03912,
-      "28": 0.04187,
-      "29": 0.04085,
-      "30": 0.03902,
-      "31": 0.03552,
-      "32": 0.03063,
-      "33": 0.01908,
-      "34": 0.01475,
-      "35": 0.01341,
-      "36": 0.00614,
-      "37": 0.00191,
-      "38": 0.00243,
-      "39": 0.00121
+      "12": 0.00248,
+      "13": 0.01061,
+      "14": 0.02519,
+      "15": 0.04783,
+      "16": 0.06925,
+      "17": 0.08375,
+      "18": 0.08144,
+      "19": 0.07774,
+      "20": 0.06719,
+      "21": 0.04836,
+      "22": 0.05889,
+      "23": 0.0395,
+      "24": 0.02175,
+      "25": 0.03774,
+      "26": 0.04229,
+      "27": 0.03794,
+      "28": 0.04046,
+      "29": 0.04211,
+      "30": 0.03951,
+      "31": 0.03643,
+      "32": 0.03058,
+      "33": 0.01939,
+      "34": 0.01399,
+      "35": 0.01405,
+      "36": 0.00623,
+      "37": 0.00182,
+      "38": 0.00232,
+      "39": 0.00116
      },
      "games_diff_pmf": {
       "-12": 0.00157,
-      "-11": 0.00654,
-      "-10": 0.01639,
-      "-9": 0.02958,
-      "-8": 0.04628,
-      "-7": 0.06528,
-      "-6": 0.0789,
-      "-5": 0.08206,
-      "-4": 0.07943,
-      "-3": 0.05641,
-      "-2": 0.04031,
-      "-1": 0.02981,
-      "0": 0.02747,
-      "1": 0.02845,
-      "2": 0.03687,
-      "3": 0.05236,
-      "4": 0.06947,
-      "5": 0.0685,
-      "6": 0.06266,
-      "7": 0.05165,
-      "8": 0.03404,
-      "9": 0.02075,
-      "10": 0.01006,
-      "11": 0.00426,
-      "12": 0.0009
+      "-11": 0.00656,
+      "-10": 0.0159,
+      "-9": 0.03022,
+      "-8": 0.04674,
+      "-7": 0.06652,
+      "-6": 0.07665,
+      "-5": 0.08083,
+      "-4": 0.07999,
+      "-3": 0.05818,
+      "-2": 0.03847,
+      "-1": 0.03022,
+      "0": 0.02762,
+      "1": 0.02906,
+      "2": 0.03657,
+      "3": 0.05173,
+      "4": 0.06959,
+      "5": 0.06835,
+      "6": 0.0624,
+      "7": 0.05229,
+      "8": 0.03504,
+      "9": 0.02034,
+      "10": 0.01012,
+      "11": 0.00413,
+      "12": 0.00091
      },
-     "p_tiebreak": 0.2584,
-     "p_decider": 0.373
+     "p_tiebreak": 0.2589,
+     "p_decider": 0.3742
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0034
+    "cross_check_max_diff": 0.0022
    }
   },
   {
@@ -2331,14 +2459,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-05T22:00:26+00:00",
-    "path": "forecasts/2026-11-06/186493-casper-ruud-vs-nuno-borges/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-06T15:56:19+00:00",
+    "path": "forecasts/2026-11-06/186493-casper-ruud-vs-nuno-borges/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Casper Ruud",
     "win_prob": {
-     "A": 0.6093,
-     "B": 0.3907
+     "A": 0.6116,
+     "B": 0.3884
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -2348,12 +2476,12 @@
       "6-4",
       "6-4"
      ],
-     "prob": 0.3919
+     "prob": 0.3933
     },
-    "games_mean": 24.59,
+    "games_mean": 24.58,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.8212,
+     "probability": 0.8229,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -2365,78 +2493,78 @@
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.6093,
-      "B": 0.3907
+      "A": 0.6116,
+      "B": 0.3884
      },
      "set_score_probs": {
-      "2-0": 0.3919,
-      "2-1": 0.2174,
-      "0-2": 0.216,
-      "1-2": 0.1746
+      "2-0": 0.3933,
+      "2-1": 0.2182,
+      "0-2": 0.2159,
+      "1-2": 0.1726
      },
      "games_pmf": {
       "12": 0.00029,
-      "13": 0.00209,
-      "14": 0.00746,
-      "15": 0.01779,
-      "16": 0.03088,
-      "17": 0.05497,
-      "18": 0.06532,
-      "19": 0.07923,
-      "20": 0.07684,
-      "21": 0.0507,
-      "22": 0.08832,
-      "23": 0.07172,
-      "24": 0.00918,
-      "25": 0.03151,
-      "26": 0.05645,
-      "27": 0.02478,
-      "28": 0.03097,
-      "29": 0.03335,
-      "30": 0.03499,
-      "31": 0.04614,
-      "32": 0.04821,
-      "33": 0.03032,
-      "34": 0.02251,
-      "35": 0.03773,
-      "36": 0.02576,
-      "37": 0.00243,
-      "38": 0.00831,
-      "39": 0.01175
+      "13": 0.00211,
+      "14": 0.00741,
+      "15": 0.01812,
+      "16": 0.03025,
+      "17": 0.05469,
+      "18": 0.06422,
+      "19": 0.08106,
+      "20": 0.07665,
+      "21": 0.05059,
+      "22": 0.08943,
+      "23": 0.07167,
+      "24": 0.0093,
+      "25": 0.03335,
+      "26": 0.05589,
+      "27": 0.02415,
+      "28": 0.03115,
+      "29": 0.0329,
+      "30": 0.03532,
+      "31": 0.04445,
+      "32": 0.04709,
+      "33": 0.03077,
+      "34": 0.02298,
+      "35": 0.03699,
+      "36": 0.02647,
+      "37": 0.0025,
+      "38": 0.00894,
+      "39": 0.01126
      },
      "games_diff_pmf": {
       "-12": 7e-05,
-      "-11": 0.00037,
-      "-10": 0.00157,
-      "-9": 0.00489,
-      "-8": 0.00965,
-      "-7": 0.0221,
-      "-6": 0.03485,
-      "-5": 0.05688,
-      "-4": 0.07636,
-      "-3": 0.07019,
-      "-2": 0.05589,
-      "-1": 0.03647,
-      "0": 0.03769,
-      "1": 0.04244,
-      "2": 0.06866,
-      "3": 0.0975,
-      "4": 0.11838,
-      "5": 0.09881,
-      "6": 0.07079,
-      "7": 0.04942,
-      "8": 0.02537,
-      "9": 0.01368,
-      "10": 0.00599,
-      "11": 0.00176,
+      "-11": 0.00039,
+      "-10": 0.00165,
+      "-9": 0.00474,
+      "-8": 0.00985,
+      "-7": 0.0217,
+      "-6": 0.03471,
+      "-5": 0.05627,
+      "-4": 0.07549,
+      "-3": 0.07098,
+      "-2": 0.05637,
+      "-1": 0.03657,
+      "0": 0.03761,
+      "1": 0.04077,
+      "2": 0.06889,
+      "3": 0.09808,
+      "4": 0.12033,
+      "5": 0.09889,
+      "6": 0.0697,
+      "7": 0.0503,
+      "8": 0.02453,
+      "9": 0.01418,
+      "10": 0.00597,
+      "11": 0.00174,
       "12": 0.00022
      },
-     "p_tiebreak": 0.4765,
-     "p_decider": 0.3921
+     "p_tiebreak": 0.4778,
+     "p_decider": 0.3908
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0037
+    "cross_check_max_diff": 0.002
    }
   }
  ]

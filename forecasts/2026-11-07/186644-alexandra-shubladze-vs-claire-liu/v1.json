@@ -1,0 +1,664 @@
+{
+ "predicted_winner": "Alexandra Shubladze",
+ "win_prob": {
+  "A": 0.5394,
+  "B": 0.4606
+ },
+ "win_prob_exact": {
+  "A": 0.53945,
+  "B": 0.46055
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.85,
+   "american": "-117"
+  },
+  "B": {
+   "decimal": 2.17,
+   "american": "+117"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.345,
+  "0-2": 0.279,
+  "2-1": 0.1944,
+  "1-2": 0.1815
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0185,
+ "games": {
+  "mean": 22.66,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.93,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00206,
+   "13": 0.01017,
+   "14": 0.02362,
+   "15": 0.04549,
+   "16": 0.06555,
+   "17": 0.08124,
+   "18": 0.08414,
+   "19": 0.07744,
+   "20": 0.06851,
+   "21": 0.05054,
+   "22": 0.05881,
+   "23": 0.04111,
+   "24": 0.01992,
+   "25": 0.03739,
+   "26": 0.04168,
+   "27": 0.03853,
+   "28": 0.04221,
+   "29": 0.04237,
+   "30": 0.03895,
+   "31": 0.03674,
+   "32": 0.03213,
+   "33": 0.0199,
+   "34": 0.01513,
+   "35": 0.01359,
+   "36": 0.00718,
+   "37": 0.00184,
+   "38": 0.00245,
+   "39": 0.00131
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00078,
+  "-11": 0.00403,
+  "-10": 0.01013,
+  "-9": 0.02025,
+  "-8": 0.03367,
+  "-7": 0.04939,
+  "-6": 0.06361,
+  "-5": 0.07196,
+  "-4": 0.07104,
+  "-3": 0.05383,
+  "-2": 0.03819,
+  "-1": 0.03005,
+  "0": 0.02794,
+  "1": 0.02954,
+  "2": 0.04048,
+  "3": 0.05848,
+  "4": 0.07971,
+  "5": 0.08166,
+  "6": 0.07738,
+  "7": 0.06416,
+  "8": 0.04392,
+  "9": 0.02816,
+  "10": 0.01421,
+  "11": 0.00615,
+  "12": 0.00128
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7719,
+   "under": 0.2281
+  },
+  {
+   "line": 18.5,
+   "over": 0.6877,
+   "under": 0.3123
+  },
+  {
+   "line": 19.5,
+   "over": 0.6103,
+   "under": 0.3897
+  },
+  {
+   "line": 20.5,
+   "over": 0.5418,
+   "under": 0.4582
+  },
+  {
+   "line": 21.5,
+   "over": 0.4912,
+   "under": 0.5088
+  },
+  {
+   "line": 22.5,
+   "over": 0.4324,
+   "under": 0.5676
+  },
+  {
+   "line": 23.5,
+   "over": 0.3913,
+   "under": 0.6087
+  },
+  {
+   "line": 24.5,
+   "over": 0.3714,
+   "under": 0.6286
+  },
+  {
+   "line": 25.5,
+   "over": 0.334,
+   "under": 0.666
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4956,
+   "B +1.5": 0.5044,
+   "B -1.5": 0.4169,
+   "A +1.5": 0.5831
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4551,
+   "B +2.5": 0.5449,
+   "B -2.5": 0.3787,
+   "A +2.5": 0.6213
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3966,
+   "B +3.5": 0.6034,
+   "B -3.5": 0.3249,
+   "A +3.5": 0.6751
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3169,
+   "B +4.5": 0.6831,
+   "B -4.5": 0.2538,
+   "A +4.5": 0.7462
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2353,
+   "B +5.5": 0.7647,
+   "B -5.5": 0.1819,
+   "A +5.5": 0.8181
+  }
+ ],
+ "p_tiebreak": 0.2688,
+ "p_a_wins_set": 0.721,
+ "p_b_wins_set": 0.655,
+ "p_decider": 0.376,
+ "expected_breaks": {
+  "total": 7.68,
+  "by_A": 3.96,
+  "by_B": 3.72
+ },
+ "expected_break_points": {
+  "A_creates": 8.78,
+  "B_creates": 8.4
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.345
+ },
+ "match": "Alexandra Shubladze vs Claire Liu",
+ "players": {
+  "A": {
+   "id": "wta:espn10858",
+   "name": "Alexandra Shubladze",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1818.8,
+   "surface_elo": {
+    "Hard": 1800.7,
+    "Clay": 1500.0,
+    "Grass": 1416.7
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 17,
+    "Clay": 0,
+    "Grass": 1
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    13,
+    5
+   ],
+   "last52w": [
+    13,
+    5
+   ],
+   "last52w_surface": [
+    13,
+    4
+   ],
+   "career_surface_wl": [
+    13,
+    4
+   ],
+   "games_won_lost_52w": [
+    241,
+    167
+   ],
+   "sets_won_lost_52w": [
+    28,
+    14
+   ],
+   "avg_opp_elo_last20": 1569.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0835,
+   "return_rating": 0.2309,
+   "form_elo": 125.7,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.6825,
+    "first_won": 0.6097,
+    "second_won": 0.4407,
+    "serve_pts_won": 0.5561,
+    "hold": 0.6733,
+    "aces_per_svgm": 0.06,
+    "df_per_svgm": 0.4067,
+    "bp_saved": 0.6172,
+    "ret_pts_won": 0.4952,
+    "ret_1st_won": 0.4467,
+    "ret_2nd_won": 0.5866,
+    "ret_games_won": 0.5241,
+    "bp_conv": 0.4903,
+    "bp_chances_per_retgm": 1.069,
+    "matches_with_stats": 14
+   },
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:214906",
+   "name": "Claire Liu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 182.0,
+   "age": 26.354483230663927,
+   "elo": 1732.6,
+   "surface_elo": {
+    "Hard": 1681.1,
+    "Clay": 1571.5,
+    "Grass": 1634.9
+   },
+   "matches_total": 129,
+   "matches_surface": {
+    "Hard": 84,
+    "Clay": 30,
+    "Grass": 15
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    12
+   ],
+   "last52w_surface": [
+    13,
+    8
+   ],
+   "career_surface_wl": [
+    35,
+    49
+   ],
+   "games_won_lost_52w": [
+    371,
+    308
+   ],
+   "sets_won_lost_52w": [
+    43,
+    28
+   ],
+   "avg_opp_elo_last20": 1628.8,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.2508,
+   "return_rating": 0.0806,
+   "form_elo": 96.5,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.6641,
+    "first_won": 0.6505,
+    "second_won": 0.4765,
+    "serve_pts_won": 0.592,
+    "hold": 0.7075,
+    "aces_per_svgm": 0.3679,
+    "df_per_svgm": 0.2925,
+    "bp_saved": 0.5867,
+    "ret_pts_won": 0.4387,
+    "ret_1st_won": 0.3723,
+    "ret_2nd_won": 0.549,
+    "ret_games_won": 0.3571,
+    "bp_conv": 0.4237,
+    "bp_chances_per_retgm": 0.8429,
+    "matches_with_stats": 21
+   },
+   "rank_history": [
+    [
+     "2024-01-01",
+     95.0
+    ],
+    [
+     "2024-01-08",
+     104.0
+    ],
+    [
+     "2024-01-15",
+     99.0
+    ],
+    [
+     "2024-03-18",
+     114.0
+    ],
+    [
+     "2024-04-01",
+     116.0
+    ],
+    [
+     "2025-03-05",
+     284.0
+    ],
+    [
+     "2025-03-18",
+     282.0
+    ],
+    [
+     "2025-08-25",
+     371.0
+    ],
+    [
+     "2025-10-20",
+     305.0
+    ],
+    [
+     "2025-10-27",
+     222.0
+    ],
+    [
+     "2026-02-23",
+     214.0
+    ],
+    [
+     "2026-05-25",
+     182.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Prudential Hong Kong Tennis Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-06",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "8ecee915ff152bcf",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Alexandra Shubladze: limited recent/surface sample (18 matches 52w, 17 career on Hard, 14 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 29.6,
+  "components_elo": {
+   "surface_elo": 119.6,
+   "overall_elo": 86.2,
+   "serve_return": -15.2,
+   "form": 29.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 14.6,
+   "overall_elo": 20.4,
+   "serve_return": -5.3,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5425,
+  "serve_return_implied_spw": {
+   "A": 0.566,
+   "B": 0.5702
+  },
+  "point_probs": {
+   "A_serve": 0.5743,
+   "B_serve": 0.562
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5742785534542105,
+   "B_serve": 0.5619546791610283
+  },
+  "hold_probs": {
+   "A": 0.6797,
+   "B": 0.6514
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5394,
+   0.5416
+  ],
+  "p_tb": [
+   0.2688,
+   0.2695
+  ],
+  "p_decider": [
+   0.376,
+   0.3763
+  ],
+  "games_mean": [
+   22.657,
+   22.662
+  ],
+  "exp_breaks": [
+   7.681,
+   7.675
+  ],
+  "set_scores": {
+   "0-2": [
+    0.279,
+    0.2783
+   ],
+   "1-2": [
+    0.1815,
+    0.1801
+   ],
+   "2-0": [
+    0.345,
+    0.3455
+   ],
+   "2-1": [
+    0.1944,
+    0.1961
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexandra Shubladze",
+   "elo_points": 20.4,
+   "raw_diff": 86.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexandra Shubladze",
+   "elo_points": 14.6,
+   "raw_diff": 119.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Claire Liu",
+   "elo_points": -5.3,
+   "raw_diff": -15.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4407,
+   "B": 0.4765,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4952,
+   "B": 0.4387,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5743,
+   "B": 0.562,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7312,
+  "fair_odds": {
+   "decimal": 1.37,
+   "american": "-272"
+  },
+  "confidence": "Medium",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality MEDIUM: Alexandra Shubladze: limited recent/surface sample (18 matches 52w, 17 career on Hard, 14 with stats)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7312,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Alexandra Shubladze to win at least one set",
+    "probability": 0.721,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6877,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Claire Liu +4.5 games",
+    "probability": 0.6831,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Claire Liu to win at least one set",
+    "probability": 0.655,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6286,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.624,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5676,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Claire Liu +2.5 games",
+    "probability": 0.5449,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5418,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Alexandra Shubladze to win",
+    "probability": 0.5394,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Claire Liu to win",
+    "probability": 0.4606,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4582,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Alexandra Shubladze -2.5 games",
+    "probability": 0.4551,
+    "fair_decimal": 2.2
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4324,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T15:56:25+00:00",
+  "version": 1,
+  "input_hash": "88c9e651796013ed",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186644",
+  "scheduled_start_utc": "2026-11-07T06:00Z"
+ }
+}
