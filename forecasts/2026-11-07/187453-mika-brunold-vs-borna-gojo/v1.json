@@ -1,0 +1,672 @@
+{
+ "predicted_winner": "Borna Gojo",
+ "win_prob": {
+  "A": 0.2933,
+  "B": 0.7067
+ },
+ "win_prob_exact": {
+  "A": 0.29335,
+  "B": 0.70665
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.41,
+   "american": "+241"
+  },
+  "B": {
+   "decimal": 1.42,
+   "american": "-241"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4825,
+  "1-2": 0.2241,
+  "2-0": 0.1542,
+  "2-1": 0.1391
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0367,
+ "games": {
+  "mean": 24.03,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.27,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00063,
+   "13": 0.00385,
+   "14": 0.00954,
+   "15": 0.02468,
+   "16": 0.0387,
+   "17": 0.06351,
+   "18": 0.07155,
+   "19": 0.08186,
+   "20": 0.07862,
+   "21": 0.05198,
+   "22": 0.08718,
+   "23": 0.06848,
+   "24": 0.00876,
+   "25": 0.03171,
+   "26": 0.05075,
+   "27": 0.02363,
+   "28": 0.03043,
+   "29": 0.03142,
+   "30": 0.03255,
+   "31": 0.04152,
+   "32": 0.04419,
+   "33": 0.02792,
+   "34": 0.02131,
+   "35": 0.033,
+   "36": 0.02311,
+   "37": 0.00229,
+   "38": 0.00722,
+   "39": 0.00961
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00059,
+  "-11": 0.00361,
+  "-10": 0.00899,
+  "-9": 0.02288,
+  "-8": 0.03783,
+  "-7": 0.06878,
+  "-6": 0.09022,
+  "-5": 0.11639,
+  "-4": 0.13375,
+  "-3": 0.10294,
+  "-2": 0.0672,
+  "-1": 0.0376,
+  "0": 0.03377,
+  "1": 0.03108,
+  "2": 0.04641,
+  "3": 0.05531,
+  "4": 0.05556,
+  "5": 0.0397,
+  "6": 0.02374,
+  "7": 0.01407,
+  "8": 0.00571,
+  "9": 0.00284,
+  "10": 0.00073,
+  "11": 0.00026,
+  "12": 4e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8591,
+   "under": 0.1409
+  },
+  {
+   "line": 18.5,
+   "over": 0.7875,
+   "under": 0.2125
+  },
+  {
+   "line": 19.5,
+   "over": 0.7057,
+   "under": 0.2943
+  },
+  {
+   "line": 20.5,
+   "over": 0.6271,
+   "under": 0.3729
+  },
+  {
+   "line": 21.5,
+   "over": 0.5751,
+   "under": 0.4249
+  },
+  {
+   "line": 22.5,
+   "over": 0.4879,
+   "under": 0.5121
+  },
+  {
+   "line": 23.5,
+   "over": 0.4194,
+   "under": 0.5806
+  },
+  {
+   "line": 24.5,
+   "over": 0.4107,
+   "under": 0.5893
+  },
+  {
+   "line": 25.5,
+   "over": 0.379,
+   "under": 0.621
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2444,
+   "B +1.5": 0.7556,
+   "B -1.5": 0.6532,
+   "A +1.5": 0.3468
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.198,
+   "B +2.5": 0.802,
+   "B -2.5": 0.586,
+   "A +2.5": 0.414
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1426,
+   "B +3.5": 0.8574,
+   "B -3.5": 0.483,
+   "A +3.5": 0.517
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0871,
+   "B +4.5": 0.9129,
+   "B -4.5": 0.3493,
+   "A +4.5": 0.6507
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0474,
+   "B +5.5": 0.9526,
+   "B -5.5": 0.2329,
+   "A +5.5": 0.7671
+  }
+ ],
+ "p_tiebreak": 0.4479,
+ "p_a_wins_set": 0.5175,
+ "p_b_wins_set": 0.8458,
+ "p_decider": 0.3633,
+ "expected_breaks": {
+  "total": 3.95,
+  "by_A": 1.46,
+  "by_B": 2.49
+ },
+ "expected_break_points": {
+  "A_creates": 4.41,
+  "B_creates": 6.45
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4825
+ },
+ "match": "Mika Brunold vs Borna Gojo",
+ "players": {
+  "A": {
+   "id": "atp:209983",
+   "name": "Mika Brunold",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 453.0,
+   "age": 22.050171115674196,
+   "elo": 1541.4,
+   "surface_elo": {
+    "Hard": 1515.4,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 4,
+   "matches_surface": {
+    "Hard": 4,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    2
+   ],
+   "last10": [
+    2,
+    2
+   ],
+   "last20": [
+    2,
+    2
+   ],
+   "last52w": [
+    2,
+    2
+   ],
+   "last52w_surface": [
+    2,
+    2
+   ],
+   "career_surface_wl": [
+    2,
+    2
+   ],
+   "games_won_lost_52w": [
+    40,
+    41
+   ],
+   "sets_won_lost_52w": [
+    4,
+    4
+   ],
+   "avg_opp_elo_last20": 1609.2,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0754,
+   "return_rating": 0.006,
+   "form_elo": 2.6,
+   "last_match": "2026-10-26",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.7561,
+    "first_won": 0.5161,
+    "second_won": 0.3,
+    "serve_pts_won": 0.4634,
+    "hold": 0.375,
+    "aces_per_svgm": 0.125,
+    "df_per_svgm": 0.0,
+    "bp_saved": 0.375,
+    "ret_pts_won": 0.3191,
+    "ret_1st_won": 0.2727,
+    "ret_2nd_won": 0.4286,
+    "ret_games_won": 0.125,
+    "bp_conv": 0.1667,
+    "bp_chances_per_retgm": 0.75,
+    "matches_with_stats": 1
+   },
+   "rank_history": [
+    [
+     "2026-02-06",
+     453.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:127339",
+   "name": "Borna Gojo",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 255.0,
+   "age": 28.67296372347707,
+   "elo": 1644.7,
+   "surface_elo": {
+    "Hard": 1699.8,
+    "Clay": 1366.2,
+    "Grass": 1399.1
+   },
+   "matches_total": 55,
+   "matches_surface": {
+    "Hard": 44,
+    "Clay": 7,
+    "Grass": 4
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    5,
+    3
+   ],
+   "last52w_surface": [
+    4,
+    2
+   ],
+   "career_surface_wl": [
+    23,
+    21
+   ],
+   "games_won_lost_52w": [
+    91,
+    82
+   ],
+   "sets_won_lost_52w": [
+    10,
+    7
+   ],
+   "avg_opp_elo_last20": 1681.5,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.2553,
+   "return_rating": 0.0546,
+   "form_elo": -20.8,
+   "last_match": "2026-10-22",
+   "last_stats_match": "2026-10-22",
+   "stats_52w": {
+    "first_in": 0.7373,
+    "first_won": 0.76,
+    "second_won": 0.4082,
+    "serve_pts_won": 0.6676,
+    "hold": 0.8772,
+    "aces_per_svgm": 0.9649,
+    "df_per_svgm": 0.1754,
+    "bp_saved": 0.6957,
+    "ret_pts_won": 0.3628,
+    "ret_1st_won": 0.2897,
+    "ret_2nd_won": 0.488,
+    "ret_games_won": 0.1731,
+    "bp_conv": 0.36,
+    "bp_chances_per_retgm": 0.4808,
+    "matches_with_stats": 5
+   },
+   "rank_history": [
+    [
+     "2023-07-31",
+     115.0
+    ],
+    [
+     "2023-08-28",
+     105.0
+    ],
+    [
+     "2023-09-13",
+     77.0
+    ],
+    [
+     "2023-10-16",
+     76.0
+    ],
+    [
+     "2023-10-23",
+     77.0
+    ],
+    [
+     "2024-01-01",
+     72.0
+    ],
+    [
+     "2024-01-08",
+     91.0
+    ],
+    [
+     "2024-09-13",
+     439.0
+    ],
+    [
+     "2025-02-10",
+     414.0
+    ],
+    [
+     "2025-04-14",
+     410.0
+    ],
+    [
+     "2025-04-23",
+     353.0
+    ],
+    [
+     "2025-05-18",
+     255.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Mika Brunold: sparse record (4 tour matches, 1 with serve stats in 52w)",
+  "Borna Gojo: limited recent/surface sample (8 matches 52w, 44 career on Hard, 5 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -151.5,
+  "components_elo": {
+   "surface_elo": -184.5,
+   "overall_elo": -103.3,
+   "serve_return": -299.6,
+   "form": 23.4
+  },
+  "weighted_contributions": {
+   "surface_elo": -22.5,
+   "overall_elo": -24.4,
+   "serve_return": -104.5,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.2948,
+  "serve_return_implied_spw": {
+   "A": 0.6186,
+   "B": 0.7033
+  },
+  "point_probs": {
+   "A_serve": 0.6304,
+   "B_serve": 0.6928
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6303657174188328,
+   "B_serve": 0.6928012763412171
+  },
+  "hold_probs": {
+   "A": 0.7954,
+   "B": 0.892
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2933,
+   0.2958
+  ],
+  "p_tb": [
+   0.4479,
+   0.4467
+  ],
+  "p_decider": [
+   0.3633,
+   0.363
+  ],
+  "games_mean": [
+   24.029,
+   24.028
+  ],
+  "exp_breaks": [
+   3.95,
+   3.947
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4825,
+    0.4815
+   ],
+   "1-2": [
+    0.2241,
+    0.2227
+   ],
+   "2-0": [
+    0.1542,
+    0.1555
+   ],
+   "2-1": [
+    0.1391,
+    0.1403
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Borna Gojo",
+   "elo_points": -104.5,
+   "raw_diff": -299.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Borna Gojo",
+   "elo_points": -24.4,
+   "raw_diff": -103.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Borna Gojo",
+   "elo_points": -22.5,
+   "raw_diff": -184.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3,
+   "B": 0.4082,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3191,
+   "B": 0.3628,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6304,
+   "B": 0.6928,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Borna Gojo to win at least one set",
+  "probability": 0.8458,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-549"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Mika Brunold: sparse record (4 tour matches, 1 with serve stats in 52w); Borna Gojo: limited recent/surface sample (8 matches 52w, 44 career on Hard, 5 with stats)",
+  "candidates": [
+   {
+    "selection": "Borna Gojo to win at least one set",
+    "probability": 0.8458,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7875,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Borna Gojo to win",
+    "probability": 0.7067,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Mika Brunold +4.5 games",
+    "probability": 0.6507,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6367,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6271,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5893,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Borna Gojo -2.5 games",
+    "probability": 0.586,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5521,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "Mika Brunold to win at least one set",
+    "probability": 0.5175,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5121,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4879,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Exact sets Mika Brunold 0-2 Borna Gojo",
+    "probability": 0.4825,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4479,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Mika Brunold +2.5 games",
+    "probability": 0.414,
+    "fair_decimal": 2.42
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T21:30:05+00:00",
+  "version": 1,
+  "input_hash": "e81247310c9d72fb",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187453",
+  "scheduled_start_utc": "2026-11-07T10:00Z"
+ }
+}

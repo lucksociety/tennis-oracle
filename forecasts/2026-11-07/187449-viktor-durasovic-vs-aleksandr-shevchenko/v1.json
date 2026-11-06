@@ -1,0 +1,642 @@
+{
+ "predicted_winner": "Aleksandr Shevchenko",
+ "win_prob": {
+  "A": 0.4494,
+  "B": 0.5506
+ },
+ "win_prob_exact": {
+  "A": 0.44941,
+  "B": 0.55059
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.23,
+   "american": "+123"
+  },
+  "B": {
+   "decimal": 1.82,
+   "american": "-123"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3388,
+  "2-0": 0.2603,
+  "1-2": 0.2117,
+  "2-1": 0.1891
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0286,
+ "games": {
+  "mean": 24.65,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.24,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00028,
+   "13": 0.00214,
+   "14": 0.0071,
+   "15": 0.01713,
+   "16": 0.02953,
+   "17": 0.05443,
+   "18": 0.06324,
+   "19": 0.07762,
+   "20": 0.07632,
+   "21": 0.05042,
+   "22": 0.08889,
+   "23": 0.07257,
+   "24": 0.00972,
+   "25": 0.03373,
+   "26": 0.05413,
+   "27": 0.02516,
+   "28": 0.03156,
+   "29": 0.03574,
+   "30": 0.03658,
+   "31": 0.0466,
+   "32": 0.04956,
+   "33": 0.02995,
+   "34": 0.02325,
+   "35": 0.03697,
+   "36": 0.02595,
+   "37": 0.00219,
+   "38": 0.00831,
+   "39": 0.01093
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00016,
+  "-11": 0.00137,
+  "-10": 0.0049,
+  "-9": 0.01116,
+  "-8": 0.01974,
+  "-7": 0.04261,
+  "-6": 0.05926,
+  "-5": 0.0873,
+  "-4": 0.10775,
+  "-3": 0.09212,
+  "-2": 0.06602,
+  "-1": 0.04001,
+  "0": 0.03742,
+  "1": 0.03851,
+  "2": 0.06029,
+  "3": 0.07739,
+  "4": 0.08836,
+  "5": 0.06798,
+  "6": 0.04433,
+  "7": 0.02937,
+  "8": 0.01365,
+  "9": 0.00698,
+  "10": 0.00242,
+  "11": 0.00078,
+  "12": 0.00012
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8894,
+   "under": 0.1106
+  },
+  {
+   "line": 18.5,
+   "over": 0.8262,
+   "under": 0.1739
+  },
+  {
+   "line": 19.5,
+   "over": 0.7485,
+   "under": 0.2515
+  },
+  {
+   "line": 20.5,
+   "over": 0.6722,
+   "under": 0.3278
+  },
+  {
+   "line": 21.5,
+   "over": 0.6218,
+   "under": 0.3782
+  },
+  {
+   "line": 22.5,
+   "over": 0.5329,
+   "under": 0.4671
+  },
+  {
+   "line": 23.5,
+   "over": 0.4603,
+   "under": 0.5397
+  },
+  {
+   "line": 24.5,
+   "over": 0.4506,
+   "under": 0.5494
+  },
+  {
+   "line": 25.5,
+   "over": 0.4169,
+   "under": 0.5831
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3917,
+   "B +1.5": 0.6083,
+   "B -1.5": 0.4924,
+   "A +1.5": 0.5076
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3314,
+   "B +2.5": 0.6686,
+   "B -2.5": 0.4264,
+   "A +2.5": 0.5736
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.254,
+   "B +3.5": 0.746,
+   "B -3.5": 0.3342,
+   "A +3.5": 0.6658
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1656,
+   "B +4.5": 0.8344,
+   "B -4.5": 0.2265,
+   "A +4.5": 0.7735
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0977,
+   "B +5.5": 0.9023,
+   "B -5.5": 0.1392,
+   "A +5.5": 0.8608
+  }
+ ],
+ "p_tiebreak": 0.4734,
+ "p_a_wins_set": 0.6612,
+ "p_b_wins_set": 0.7397,
+ "p_decider": 0.4008,
+ "expected_breaks": {
+  "total": 4.02,
+  "by_A": 1.89,
+  "by_B": 2.13
+ },
+ "expected_break_points": {
+  "A_creates": 5.33,
+  "B_creates": 5.82
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3388
+ },
+ "match": "Viktor Durasovic vs Aleksandr Shevchenko",
+ "players": {
+  "A": {
+   "id": "atp:126340",
+   "name": "Viktor Durasovic",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 313.0,
+   "age": 29.552908966461327,
+   "elo": 1449.4,
+   "surface_elo": {
+    "Hard": 1413.7,
+    "Clay": 1481.7,
+    "Grass": 1500.0
+   },
+   "matches_total": 33,
+   "matches_surface": {
+    "Hard": 30,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    0,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    1
+   ],
+   "career_surface_wl": [
+    8,
+    22
+   ],
+   "games_won_lost_52w": [
+    4,
+    12
+   ],
+   "sets_won_lost_52w": [
+    0,
+    2
+   ],
+   "avg_opp_elo_last20": 1637.4,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.0103,
+   "return_rating": -0.015,
+   "form_elo": 33.2,
+   "last_match": "2026-02-05",
+   "last_stats_match": "2024-02-02",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2021-09-17",
+     381.0
+    ],
+    [
+     "2021-11-08",
+     354.0
+    ],
+    [
+     "2021-11-26",
+     340.0
+    ],
+    [
+     "2022-01-03",
+     345.0
+    ],
+    [
+     "2022-03-04",
+     321.0
+    ],
+    [
+     "2022-09-16",
+     325.0
+    ],
+    [
+     "2023-01-02",
+     343.0
+    ],
+    [
+     "2023-02-03",
+     362.0
+    ],
+    [
+     "2023-09-16",
+     366.0
+    ],
+    [
+     "2024-02-02",
+     413.0
+    ],
+    [
+     "2025-09-13",
+     246.0
+    ],
+    [
+     "2026-02-05",
+     313.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:espn8710",
+   "name": "Aleksandr Shevchenko",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1493.3,
+   "surface_elo": {
+    "Hard": 1388.1,
+    "Clay": 1640.3,
+    "Grass": 1407.8
+   },
+   "matches_total": 16,
+   "matches_surface": {
+    "Hard": 9,
+    "Clay": 5,
+    "Grass": 2
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    5,
+    11
+   ],
+   "last52w": [
+    5,
+    11
+   ],
+   "last52w_surface": [
+    2,
+    7
+   ],
+   "career_surface_wl": [
+    2,
+    7
+   ],
+   "games_won_lost_52w": [
+    191,
+    217
+   ],
+   "sets_won_lost_52w": [
+    15,
+    26
+   ],
+   "avg_opp_elo_last20": 1688.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0842,
+   "return_rating": -0.0142,
+   "form_elo": -23.8,
+   "last_match": "2026-10-18",
+   "last_stats_match": "2026-09-24",
+   "stats_52w": {
+    "first_in": 0.6165,
+    "first_won": 0.733,
+    "second_won": 0.5273,
+    "serve_pts_won": 0.6541,
+    "hold": 0.8158,
+    "aces_per_svgm": 0.5614,
+    "df_per_svgm": 0.2632,
+    "bp_saved": 0.6441,
+    "ret_pts_won": 0.3183,
+    "ret_1st_won": 0.218,
+    "ret_2nd_won": 0.4697,
+    "ret_games_won": 0.1441,
+    "bp_conv": 0.3902,
+    "bp_chances_per_retgm": 0.3694,
+    "matches_with_stats": 8
+   },
+   "rank_history": []
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Viktor Durasovic: sparse record (33 tour matches, 0 with serve stats in 52w)",
+  "Viktor Durasovic: latest point-level stats are 1009 days old (2024-02-02)",
+  "Viktor Durasovic: no recorded match since 2026-02-05 (layoff/injury status unverified)",
+  "Aleksandr Shevchenko: limited recent/surface sample (16 matches 52w, 9 career on Hard, 8 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Viktor Durasovic: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -32.7,
+  "components_elo": {
+   "surface_elo": 25.5,
+   "overall_elo": -43.9,
+   "serve_return": -72.6,
+   "form": 57.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 3.1,
+   "overall_elo": -10.4,
+   "serve_return": -25.3,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4531,
+  "serve_return_implied_spw": {
+   "A": 0.6497,
+   "B": 0.6711
+  },
+  "point_probs": {
+   "A_serve": 0.6536,
+   "B_serve": 0.6673
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6536258203308051,
+   "B_serve": 0.6672920751481669
+  },
+  "hold_probs": {
+   "A": 0.8356,
+   "B": 0.8569
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4494,
+   0.4533
+  ],
+  "p_tb": [
+   0.4734,
+   0.473
+  ],
+  "p_decider": [
+   0.4008,
+   0.3995
+  ],
+  "games_mean": [
+   24.65,
+   24.626
+  ],
+  "exp_breaks": [
+   4.022,
+   4.019
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3388,
+    0.3369
+   ],
+   "1-2": [
+    0.2117,
+    0.2098
+   ],
+   "2-0": [
+    0.2603,
+    0.2636
+   ],
+   "2-1": [
+    0.1891,
+    0.1897
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0039
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Aleksandr Shevchenko",
+   "elo_points": -25.3,
+   "raw_diff": -72.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Aleksandr Shevchenko",
+   "elo_points": -10.4,
+   "raw_diff": -43.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Viktor Durasovic",
+   "elo_points": 3.1,
+   "raw_diff": 25.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6536,
+   "B": 0.6673,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8262,
+  "fair_odds": {
+   "decimal": 1.21,
+   "american": "-475"
+  },
+  "confidence": "Low",
+  "main_risk": "Total-games distribution is wide (sd 6.24 games; p10-p90 17-34); a single tiebreak or deciding set swings it. Data quality LOW: Viktor Durasovic: sparse record (33 tour matches, 0 with serve stats in 52w); Viktor Durasovic: latest point-level stats are 1009 days old (2024-02-02)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8262,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "Viktor Durasovic +4.5 games",
+    "probability": 0.7735,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Aleksandr Shevchenko to win at least one set",
+    "probability": 0.7397,
+    "fair_decimal": 1.35
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6722,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Viktor Durasovic to win at least one set",
+    "probability": 0.6612,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5992,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Viktor Durasovic +2.5 games",
+    "probability": 0.5736,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Aleksandr Shevchenko to win",
+    "probability": 0.5506,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5494,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5329,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5266,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4734,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4671,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4506,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Viktor Durasovic to win",
+    "probability": 0.4494,
+    "fair_decimal": 2.23
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T21:30:15+00:00",
+  "version": 1,
+  "input_hash": "4c423752c468cfef",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187449",
+  "scheduled_start_utc": "2026-11-07T13:00Z"
+ }
+}

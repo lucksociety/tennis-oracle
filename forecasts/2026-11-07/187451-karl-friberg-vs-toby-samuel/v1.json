@@ -1,0 +1,607 @@
+{
+ "predicted_winner": "Toby Samuel",
+ "win_prob": {
+  "A": 0.303,
+  "B": 0.697
+ },
+ "win_prob_exact": {
+  "A": 0.30297,
+  "B": 0.69703
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.3,
+   "american": "+230"
+  },
+  "B": {
+   "decimal": 1.43,
+   "american": "-230"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4757,
+  "1-2": 0.2214,
+  "2-0": 0.162,
+  "2-1": 0.141
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0326,
+ "games": {
+  "mean": 23.48,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 33.0,
+  "sd": 6.17,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00111,
+   "13": 0.00555,
+   "14": 0.01499,
+   "15": 0.03105,
+   "16": 0.04751,
+   "17": 0.07295,
+   "18": 0.0772,
+   "19": 0.08351,
+   "20": 0.07773,
+   "21": 0.0507,
+   "22": 0.0776,
+   "23": 0.05699,
+   "24": 0.01192,
+   "25": 0.0327,
+   "26": 0.04393,
+   "27": 0.02805,
+   "28": 0.03362,
+   "29": 0.0356,
+   "30": 0.03534,
+   "31": 0.04114,
+   "32": 0.04062,
+   "33": 0.02551,
+   "34": 0.01904,
+   "35": 0.0255,
+   "36": 0.01659,
+   "37": 0.002,
+   "38": 0.00564,
+   "39": 0.00591
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00108,
+  "-11": 0.00504,
+  "-10": 0.01391,
+  "-9": 0.02841,
+  "-8": 0.04532,
+  "-7": 0.07721,
+  "-6": 0.09583,
+  "-5": 0.11277,
+  "-4": 0.12122,
+  "-3": 0.09018,
+  "-2": 0.05754,
+  "-1": 0.03513,
+  "0": 0.03057,
+  "1": 0.02841,
+  "2": 0.04042,
+  "3": 0.051,
+  "4": 0.05752,
+  "5": 0.04526,
+  "6": 0.02932,
+  "7": 0.01896,
+  "8": 0.00863,
+  "9": 0.00424,
+  "10": 0.00145,
+  "11": 0.00055,
+  "12": 3e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8268,
+   "under": 0.1732
+  },
+  {
+   "line": 18.5,
+   "over": 0.7496,
+   "under": 0.2504
+  },
+  {
+   "line": 19.5,
+   "over": 0.6661,
+   "under": 0.3339
+  },
+  {
+   "line": 20.5,
+   "over": 0.5884,
+   "under": 0.4116
+  },
+  {
+   "line": 21.5,
+   "over": 0.5377,
+   "under": 0.4623
+  },
+  {
+   "line": 22.5,
+   "over": 0.4601,
+   "under": 0.5399
+  },
+  {
+   "line": 23.5,
+   "over": 0.4031,
+   "under": 0.5969
+  },
+  {
+   "line": 24.5,
+   "over": 0.3912,
+   "under": 0.6088
+  },
+  {
+   "line": 25.5,
+   "over": 0.3585,
+   "under": 0.6415
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2574,
+   "B +1.5": 0.7426,
+   "B -1.5": 0.6485,
+   "A +1.5": 0.3515
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.217,
+   "B +2.5": 0.783,
+   "B -2.5": 0.591,
+   "A +2.5": 0.409
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.166,
+   "B +3.5": 0.834,
+   "B -3.5": 0.5008,
+   "A +3.5": 0.4992
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1084,
+   "B +4.5": 0.8916,
+   "B -4.5": 0.3796,
+   "A +4.5": 0.6204
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0632,
+   "B +5.5": 0.9368,
+   "B -5.5": 0.2668,
+   "A +5.5": 0.7332
+  }
+ ],
+ "p_tiebreak": 0.3831,
+ "p_a_wins_set": 0.5243,
+ "p_b_wins_set": 0.838,
+ "p_decider": 0.3624,
+ "expected_breaks": {
+  "total": 4.7,
+  "by_A": 1.82,
+  "by_B": 2.88
+ },
+ "expected_break_points": {
+  "A_creates": 5.14,
+  "B_creates": 7.11
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.4757
+ },
+ "match": "Karl Friberg vs Toby Samuel",
+ "players": {
+  "A": {
+   "id": "atp:200418",
+   "name": "Karl Friberg",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 364.0,
+   "age": 27.562491444216292,
+   "elo": 1431.3,
+   "surface_elo": {
+    "Hard": 1425.6,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 2,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    2
+   ],
+   "last10": [
+    0,
+    2
+   ],
+   "last20": [
+    0,
+    2
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    2
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1663.8,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0027,
+   "return_rating": -0.0026,
+   "form_elo": -7.5,
+   "last_match": "2024-02-02",
+   "last_stats_match": "2024-02-02",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2023-10-16",
+     433.0
+    ],
+    [
+     "2024-02-02",
+     364.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:210389",
+   "name": "Toby Samuel",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 159.0,
+   "age": 24.154483230663928,
+   "elo": 1691.0,
+   "surface_elo": {
+    "Hard": 1599.0,
+    "Clay": 1483.2,
+    "Grass": 1498.6
+   },
+   "matches_total": 13,
+   "matches_surface": {
+    "Hard": 6,
+    "Clay": 1,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    6,
+    7
+   ],
+   "last52w": [
+    6,
+    7
+   ],
+   "last52w_surface": [
+    3,
+    3
+   ],
+   "career_surface_wl": [
+    3,
+    3
+   ],
+   "games_won_lost_52w": [
+    173,
+    169
+   ],
+   "sets_won_lost_52w": [
+    17,
+    19
+   ],
+   "avg_opp_elo_last20": 1745.0,
+   "vs_top_opp_52w": [
+    0,
+    3
+   ],
+   "serve_rating": 0.0676,
+   "return_rating": 0.1439,
+   "form_elo": 39.2,
+   "last_match": "2026-10-20",
+   "last_stats_match": "2026-10-20",
+   "stats_52w": {
+    "first_in": 0.6277,
+    "first_won": 0.7016,
+    "second_won": 0.5152,
+    "serve_pts_won": 0.6322,
+    "hold": 0.7929,
+    "aces_per_svgm": 0.3786,
+    "df_per_svgm": 0.2214,
+    "bp_saved": 0.6133,
+    "ret_pts_won": 0.3857,
+    "ret_1st_won": 0.2911,
+    "ret_2nd_won": 0.56,
+    "ret_games_won": 0.2426,
+    "bp_conv": 0.4521,
+    "bp_chances_per_retgm": 0.5368,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2026-05-25",
+     159.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Qualifying 1st Round",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Karl Friberg: sparse record (2 tour matches, 0 with serve stats in 52w)",
+  "Karl Friberg: latest point-level stats are 1009 days old (2024-02-02)",
+  "Karl Friberg: no recorded match since 2024-02-02 (layoff/injury status unverified)",
+  "Toby Samuel: limited recent/surface sample (13 matches 52w, 6 career on Hard, 10 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Karl Friberg: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -143.8,
+  "components_elo": {
+   "surface_elo": -173.4,
+   "overall_elo": -259.7,
+   "serve_return": -175.6,
+   "form": -46.8
+  },
+  "weighted_contributions": {
+   "surface_elo": -21.2,
+   "overall_elo": -61.4,
+   "serve_return": -61.3,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3042,
+  "serve_return_implied_spw": {
+   "A": 0.6147,
+   "B": 0.6646
+  },
+  "point_probs": {
+   "A_serve": 0.6098,
+   "B_serve": 0.6692
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6098238592565705,
+   "B_serve": 0.6692400992014941
+  },
+  "hold_probs": {
+   "A": 0.7558,
+   "B": 0.8598
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.303,
+   0.3056
+  ],
+  "p_tb": [
+   0.3831,
+   0.385
+  ],
+  "p_decider": [
+   0.3624,
+   0.3599
+  ],
+  "games_mean": [
+   23.485,
+   23.475
+  ],
+  "exp_breaks": [
+   4.697,
+   4.694
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4757,
+    0.4763
+   ],
+   "1-2": [
+    0.2214,
+    0.2181
+   ],
+   "2-0": [
+    0.162,
+    0.1638
+   ],
+   "2-1": [
+    0.141,
+    0.1418
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0033
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Toby Samuel",
+   "elo_points": -61.4,
+   "raw_diff": -259.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Toby Samuel",
+   "elo_points": -61.3,
+   "raw_diff": -175.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Toby Samuel",
+   "elo_points": -21.2,
+   "raw_diff": -173.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6098,
+   "B": 0.6692,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Toby Samuel to win at least one set",
+  "probability": 0.838,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-517"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Karl Friberg: sparse record (2 tour matches, 0 with serve stats in 52w); Karl Friberg: latest point-level stats are 1009 days old (2024-02-02)",
+  "candidates": [
+   {
+    "selection": "Toby Samuel to win at least one set",
+    "probability": 0.838,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7496,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Toby Samuel to win",
+    "probability": 0.697,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6376,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Karl Friberg +4.5 games",
+    "probability": 0.6204,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6169,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6088,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Toby Samuel -2.5 games",
+    "probability": 0.591,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5884,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5399,
+    "fair_decimal": 1.85
+   },
+   {
+    "selection": "Karl Friberg to win at least one set",
+    "probability": 0.5243,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Exact sets Karl Friberg 0-2 Toby Samuel",
+    "probability": 0.4757,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4601,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4116,
+    "fair_decimal": 2.43
+   },
+   {
+    "selection": "Karl Friberg +2.5 games",
+    "probability": 0.409,
+    "fair_decimal": 2.44
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T21:30:13+00:00",
+  "version": 1,
+  "input_hash": "d6c845d6461f6cbc",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187451",
+  "scheduled_start_utc": "2026-11-07T13:00Z"
+ }
+}

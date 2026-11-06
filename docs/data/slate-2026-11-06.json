@@ -1,7 +1,7 @@
 {
  "date": "2026-11-06",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-06T15:56:19+00:00",
+ "generated_at_utc": "2026-11-06T21:29:58+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1495,8 +1495,8 @@
    "round": "Quarterfinal",
    "court": "Centre Court",
    "start_utc": "2026-11-06T13:50Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Mai Hontama",
@@ -1512,7 +1512,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-06T06:45:10+00:00",
@@ -1630,8 +1646,8 @@
    "round": "Quarterfinal",
    "court": "Court Central",
    "start_utc": "2026-11-06T15:20Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Luca Van Assche",
@@ -1647,7 +1663,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-05T22:00:21+00:00",
@@ -1758,150 +1790,15 @@
    }
   },
   {
-   "espn_id": "186688",
-   "tour": "wta",
-   "tournament": "Angola Ladies Open",
-   "venue": "Luanda, Angola",
-   "round": "Quarterfinal",
-   "court": "Lwena Court",
-   "start_utc": "2026-11-06T15:35Z",
-   "status": "STATUS_SUSPENDED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Anna Blinkova",
-     "id": "wta:215020"
-    },
-    {
-     "name": "Yasmine Kabbaj",
-     "id": "wta:236956"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-06T06:45:13+00:00",
-    "path": "forecasts/2026-11-06/186688-anna-blinkova-vs-yasmine-kabbaj/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Anna Blinkova",
-    "win_prob": {
-     "A": 0.7053,
-     "B": 0.2947
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-2",
-      "6-2"
-     ],
-     "prob": 0.503
-    },
-    "games_mean": 21.7,
-    "strongest": {
-     "selection": "Anna Blinkova to win at least one set",
-     "probability": 0.8377,
-     "confidence": "Medium"
-    },
-    "data_quality": "MEDIUM",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 20.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.7053,
-      "B": 0.2947
-     },
-     "set_score_probs": {
-      "2-0": 0.503,
-      "2-1": 0.2023,
-      "0-2": 0.1623,
-      "1-2": 0.1324
-     },
-     "games_pmf": {
-      "12": 0.00515,
-      "13": 0.01962,
-      "14": 0.03951,
-      "15": 0.06267,
-      "16": 0.08302,
-      "17": 0.09158,
-      "18": 0.08567,
-      "19": 0.07562,
-      "20": 0.06281,
-      "21": 0.04656,
-      "22": 0.05296,
-      "23": 0.03353,
-      "24": 0.02073,
-      "25": 0.03584,
-      "26": 0.0369,
-      "27": 0.03518,
-      "28": 0.03828,
-      "29": 0.03718,
-      "30": 0.03506,
-      "31": 0.03,
-      "32": 0.02506,
-      "33": 0.01656,
-      "34": 0.01193,
-      "35": 0.01004,
-      "36": 0.0044,
-      "37": 0.00155,
-      "38": 0.00172,
-      "39": 0.00087
-     },
-     "games_diff_pmf": {
-      "-12": 0.00039,
-      "-11": 0.00205,
-      "-10": 0.00524,
-      "-9": 0.01065,
-      "-8": 0.01872,
-      "-7": 0.02967,
-      "-6": 0.03748,
-      "-5": 0.04316,
-      "-4": 0.04693,
-      "-3": 0.0359,
-      "-2": 0.02773,
-      "-1": 0.0233,
-      "0": 0.02263,
-      "1": 0.02596,
-      "2": 0.03575,
-      "3": 0.05705,
-      "4": 0.08538,
-      "5": 0.09692,
-      "6": 0.10394,
-      "7": 0.09891,
-      "8": 0.0789,
-      "9": 0.05555,
-      "10": 0.03535,
-      "11": 0.01768,
-      "12": 0.00476
-     },
-     "p_tiebreak": 0.218,
-     "p_decider": 0.3347
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0019
-   }
-  },
-  {
    "espn_id": "186595",
    "tour": "wta",
    "tournament": "Chennai Open",
    "venue": "Chennai, India",
    "round": "Quarterfinal",
    "court": "Centre Court",
-   "start_utc": "2026-11-06T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T16:45Z",
+   "status": "STATUS_RETIRED",
+   "completed": true,
    "players": [
     {
      "name": "Anastasia Zakharova",
@@ -1917,7 +1814,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      5,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T15:56:10+00:00",
@@ -2034,9 +1943,9 @@
    "venue": "Cali, Colombia",
    "round": "Semifinal",
    "court": "Campo 1",
-   "start_utc": "2026-11-06T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-06T17:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Leyre Romero Gormaz",
@@ -2052,7 +1961,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-06T15:56:13+00:00",
@@ -2169,8 +2094,8 @@
    "venue": "Paris, France",
    "round": "Quarterfinal",
    "court": "Court Central",
-   "start_utc": "2026-11-06T18:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-06T19:00Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2304,8 +2229,8 @@
    "venue": "Cali, Colombia",
    "round": "Semifinal",
    "court": "Campo 1",
-   "start_utc": "2026-11-06T18:30Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-06T20:10Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
@@ -2439,7 +2364,7 @@
    "venue": "Paris, France",
    "round": "Quarterfinal",
    "court": "Court Central",
-   "start_utc": "2026-11-06T19:30Z",
+   "start_utc": "2026-11-06T21:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [

@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Magda Linette",
+ "win_prob": {
+  "A": 0.5135,
+  "B": 0.4865
+ },
+ "win_prob_exact": {
+  "A": 0.51351,
+  "B": 0.48649
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.95,
+   "american": "-106"
+  },
+  "B": {
+   "decimal": 2.06,
+   "american": "+106"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3198,
+  "0-2": 0.2983,
+  "2-1": 0.1938,
+  "1-2": 0.1882
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.019,
+ "games": {
+  "mean": 22.91,
+  "median": 22.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 5.96,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.0017,
+   "13": 0.00854,
+   "14": 0.02026,
+   "15": 0.03979,
+   "16": 0.06023,
+   "17": 0.07988,
+   "18": 0.08372,
+   "19": 0.0791,
+   "20": 0.06944,
+   "21": 0.05073,
+   "22": 0.06345,
+   "23": 0.04261,
+   "24": 0.01961,
+   "25": 0.03618,
+   "26": 0.04162,
+   "27": 0.03745,
+   "28": 0.0411,
+   "29": 0.04198,
+   "30": 0.04091,
+   "31": 0.03927,
+   "32": 0.03395,
+   "33": 0.02124,
+   "34": 0.01559,
+   "35": 0.01695,
+   "36": 0.00813,
+   "37": 0.00181,
+   "38": 0.00318,
+   "39": 0.00158
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00076,
+  "-11": 0.00382,
+  "-10": 0.00998,
+  "-9": 0.01967,
+  "-8": 0.0331,
+  "-7": 0.05306,
+  "-6": 0.06881,
+  "-5": 0.07612,
+  "-4": 0.07723,
+  "-3": 0.0586,
+  "-2": 0.04038,
+  "-1": 0.02989,
+  "0": 0.02968,
+  "1": 0.03071,
+  "2": 0.04166,
+  "3": 0.05908,
+  "4": 0.08047,
+  "5": 0.08059,
+  "6": 0.07151,
+  "7": 0.05837,
+  "8": 0.03734,
+  "9": 0.02243,
+  "10": 0.01103,
+  "11": 0.00477,
+  "12": 0.00094
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7896,
+   "under": 0.2104
+  },
+  {
+   "line": 18.5,
+   "over": 0.7059,
+   "under": 0.2941
+  },
+  {
+   "line": 19.5,
+   "over": 0.6268,
+   "under": 0.3732
+  },
+  {
+   "line": 20.5,
+   "over": 0.5573,
+   "under": 0.4427
+  },
+  {
+   "line": 21.5,
+   "over": 0.5066,
+   "under": 0.4934
+  },
+  {
+   "line": 22.5,
+   "over": 0.4432,
+   "under": 0.5568
+  },
+  {
+   "line": 23.5,
+   "over": 0.4005,
+   "under": 0.5995
+  },
+  {
+   "line": 24.5,
+   "over": 0.3809,
+   "under": 0.6191
+  },
+  {
+   "line": 25.5,
+   "over": 0.3448,
+   "under": 0.6552
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4682,
+   "B +1.5": 0.5318,
+   "B -1.5": 0.4415,
+   "A +1.5": 0.5585
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4265,
+   "B +2.5": 0.5735,
+   "B -2.5": 0.4012,
+   "A +2.5": 0.5988
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3674,
+   "B +3.5": 0.6325,
+   "B -3.5": 0.3426,
+   "A +3.5": 0.6574
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.287,
+   "B +4.5": 0.713,
+   "B -4.5": 0.2653,
+   "A +4.5": 0.7347
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2064,
+   "B +5.5": 0.7936,
+   "B -5.5": 0.1892,
+   "A +5.5": 0.8108
+  }
+ ],
+ "p_tiebreak": 0.2915,
+ "p_a_wins_set": 0.7017,
+ "p_b_wins_set": 0.6802,
+ "p_decider": 0.3819,
+ "expected_breaks": {
+  "total": 7.0,
+  "by_A": 3.54,
+  "by_B": 3.46
+ },
+ "expected_break_points": {
+  "A_creates": 8.15,
+  "B_creates": 8.02
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3198
+ },
+ "match": "Magda Linette vs Anastasia Zakharova",
+ "players": {
+  "A": {
+   "id": "wta:202663",
+   "name": "Magda Linette",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 73.0,
+   "age": 34.654483230663935,
+   "elo": 1719.9,
+   "surface_elo": {
+    "Hard": 1661.3,
+    "Clay": 1740.3,
+    "Grass": 1529.0
+   },
+   "matches_total": 475,
+   "matches_surface": {
+    "Hard": 328,
+    "Clay": 100,
+    "Grass": 47
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    23,
+    24
+   ],
+   "last52w_surface": [
+    18,
+    19
+   ],
+   "career_surface_wl": [
+    162,
+    166
+   ],
+   "games_won_lost_52w": [
+    506,
+    545
+   ],
+   "sets_won_lost_52w": [
+    50,
+    62
+   ],
+   "avg_opp_elo_last20": 1704.1,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.1267,
+   "return_rating": -0.0075,
+   "form_elo": -41.9,
+   "last_match": "2026-11-06",
+   "last_stats_match": "2026-11-06",
+   "stats_52w": {
+    "first_in": 0.5746,
+    "first_won": 0.6566,
+    "second_won": 0.4534,
+    "serve_pts_won": 0.5702,
+    "hold": 0.664,
+    "aces_per_svgm": 0.3885,
+    "df_per_svgm": 0.2362,
+    "bp_saved": 0.4754,
+    "ret_pts_won": 0.4132,
+    "ret_1st_won": 0.3552,
+    "ret_2nd_won": 0.5082,
+    "ret_games_won": 0.2997,
+    "bp_conv": 0.4021,
+    "bp_chances_per_retgm": 0.7454,
+    "matches_with_stats": 34
+   },
+   "rank_history": [
+    [
+     "2026-01-05",
+     52.0
+    ],
+    [
+     "2026-01-12",
+     53.0
+    ],
+    [
+     "2026-01-19",
+     50.0
+    ],
+    [
+     "2026-02-08",
+     47.0
+    ],
+    [
+     "2026-02-15",
+     50.0
+    ],
+    [
+     "2026-02-23",
+     47.0
+    ],
+    [
+     "2026-03-04",
+     49.0
+    ],
+    [
+     "2026-03-17",
+     50.0
+    ],
+    [
+     "2026-04-10",
+     55.0
+    ],
+    [
+     "2026-04-21",
+     57.0
+    ],
+    [
+     "2026-05-05",
+     55.0
+    ],
+    [
+     "2026-05-25",
+     73.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220435",
+   "name": "Anastasia Zakharova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 80.0,
+   "age": 24.75448323066393,
+   "elo": 1632.0,
+   "surface_elo": {
+    "Hard": 1596.9,
+    "Clay": 1440.1,
+    "Grass": 1578.1
+   },
+   "matches_total": 80,
+   "matches_surface": {
+    "Hard": 64,
+    "Clay": 6,
+    "Grass": 10
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    12
+   ],
+   "last52w": [
+    21,
+    26
+   ],
+   "last52w_surface": [
+    17,
+    19
+   ],
+   "career_surface_wl": [
+    26,
+    38
+   ],
+   "games_won_lost_52w": [
+    471,
+    529
+   ],
+   "sets_won_lost_52w": [
+    45,
+    61
+   ],
+   "avg_opp_elo_last20": 1676.2,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.0935,
+   "return_rating": 0.0812,
+   "form_elo": -8.0,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-11-05",
+   "stats_52w": {
+    "first_in": 0.6679,
+    "first_won": 0.5941,
+    "second_won": 0.4622,
+    "serve_pts_won": 0.5503,
+    "hold": 0.601,
+    "aces_per_svgm": 0.1218,
+    "df_per_svgm": 0.3031,
+    "bp_saved": 0.5064,
+    "ret_pts_won": 0.4295,
+    "ret_1st_won": 0.3381,
+    "ret_2nd_won": 0.5677,
+    "ret_games_won": 0.3299,
+    "bp_conv": 0.453,
+    "bp_chances_per_retgm": 0.7284,
+    "matches_with_stats": 38
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     99.0
+    ],
+    [
+     "2026-01-19",
+     105.0
+    ],
+    [
+     "2026-02-01",
+     107.0
+    ],
+    [
+     "2026-02-08",
+     105.0
+    ],
+    [
+     "2026-02-15",
+     104.0
+    ],
+    [
+     "2026-02-23",
+     88.0
+    ],
+    [
+     "2026-03-04",
+     86.0
+    ],
+    [
+     "2026-03-17",
+     74.0
+    ],
+    [
+     "2026-03-30",
+     66.0
+    ],
+    [
+     "2026-04-21",
+     79.0
+    ],
+    [
+     "2026-05-05",
+     81.0
+    ],
+    [
+     "2026-05-25",
+     80.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Chennai Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-06",
+ "forecast_date": "2026-11-07",
+ "performance_revision": "8004c33ef7c2aec0",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 11.6,
+  "components_elo": {
+   "surface_elo": 64.4,
+   "overall_elo": 87.9,
+   "serve_return": -48.9,
+   "form": -33.9
+  },
+  "weighted_contributions": {
+   "surface_elo": 7.9,
+   "overall_elo": 20.8,
+   "serve_return": -17.1,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5167,
+  "serve_return_implied_spw": {
+   "A": 0.5767,
+   "B": 0.5902
+  },
+  "point_probs": {
+   "A_serve": 0.5858,
+   "B_serve": 0.581
+  },
+  "point_probs_exact": {
+   "A_serve": 0.585840076326857,
+   "B_serve": 0.5810308109061941
+  },
+  "hold_probs": {
+   "A": 0.7055,
+   "B": 0.6949
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5135,
+   0.5163
+  ],
+  "p_tb": [
+   0.2915,
+   0.2913
+  ],
+  "p_decider": [
+   0.3819,
+   0.3803
+  ],
+  "games_mean": [
+   22.908,
+   22.901
+  ],
+  "exp_breaks": [
+   7.0,
+   7.001
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2983,
+    0.2967
+   ],
+   "1-2": [
+    0.1882,
+    0.187
+   ],
+   "2-0": [
+    0.3198,
+    0.323
+   ],
+   "2-1": [
+    0.1938,
+    0.1933
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0032
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Magda Linette",
+   "elo_points": 20.8,
+   "raw_diff": 87.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Anastasia Zakharova",
+   "elo_points": -17.1,
+   "raw_diff": -48.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Magda Linette",
+   "elo_points": 7.9,
+   "raw_diff": 64.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4534,
+   "B": 0.4622,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4132,
+   "B": 0.4295,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5858,
+   "B": 0.581,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Anastasia Zakharova +4.5 games",
+  "probability": 0.713,
+  "fair_odds": {
+   "decimal": 1.4,
+   "american": "-248"
+  },
+  "confidence": "Medium",
+  "main_risk": "Game margin is highly sensitive to a deciding set and to break-point conversion luck.",
+  "candidates": [
+   {
+    "selection": "Anastasia Zakharova +4.5 games",
+    "probability": 0.713,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7085,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7059,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Magda Linette to win at least one set",
+    "probability": 0.7017,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Anastasia Zakharova to win at least one set",
+    "probability": 0.6802,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6191,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6181,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Anastasia Zakharova +2.5 games",
+    "probability": 0.5735,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5573,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5568,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Magda Linette to win",
+    "probability": 0.5135,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Anastasia Zakharova to win",
+    "probability": 0.4865,
+    "fair_decimal": 2.06
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4432,
+    "fair_decimal": 2.26
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4427,
+    "fair_decimal": 2.26
+   },
+   {
+    "selection": "Magda Linette -2.5 games",
+    "probability": 0.4265,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-06",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T21:30:18+00:00",
+  "version": 1,
+  "input_hash": "6cb1ae1745cc1e60",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186593",
+  "scheduled_start_utc": "2026-11-07T14:00Z"
+ }
+}

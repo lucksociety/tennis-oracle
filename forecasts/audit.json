@@ -1,58 +1,58 @@
 {
- "generated_at_utc": "2026-11-06T15:58:07+00:00",
+ "generated_at_utc": "2026-11-06T21:31:39+00:00",
  "summary": {
-  "n": 358,
-  "brier": 0.23121580407821227,
-  "log_loss": 0.658038509020791,
-  "accuracy": 0.611731843575419,
-  "games_mae": 5.200446927374302,
-  "exact_sets_accuracy": 0.42178770949720673,
-  "tiebreak_brier": 0.19492973865921787
+  "n": 361,
+  "brier": 0.23106157335180055,
+  "log_loss": 0.6577051989865385,
+  "accuracy": 0.6149584487534626,
+  "games_mae": 5.238005540166205,
+  "exact_sets_accuracy": 0.4182825484764543,
+  "tiebreak_brier": 0.1947146300831025
  },
- "n": 358,
+ "n": 361,
  "overall": {
-  "n": 358,
-  "brier": 0.23121580407821227,
-  "log_loss": 0.658038509020791,
-  "accuracy": 0.611731843575419
+  "n": 361,
+  "brier": 0.23106157335180055,
+  "log_loss": 0.6577051989865385,
+  "accuracy": 0.6149584487534626
  },
- "games_mae": 5.200446927374302,
- "exact_sets_accuracy": 0.42178770949720673,
- "tiebreak_brier": 0.19492973865921787,
+ "games_mae": 5.238005540166205,
+ "exact_sets_accuracy": 0.4182825484764543,
+ "tiebreak_brier": 0.1947146300831025,
  "by_surface": {
   "Clay": {
-   "n": 36,
-   "brier": 0.1690109527777778,
-   "log_loss": 0.5218795978770978,
-   "accuracy": 0.7777777777777778
+   "n": 37,
+   "brier": 0.17067530648648654,
+   "log_loss": 0.5254588291986559,
+   "accuracy": 0.7837837837837838
   },
   "Hard": {
-   "n": 322,
-   "brier": 0.23817038372670807,
-   "log_loss": 0.6732612444281604,
-   "accuracy": 0.593167701863354
+   "n": 324,
+   "brier": 0.23795753592592592,
+   "log_loss": 0.6728074078820684,
+   "accuracy": 0.595679012345679
   }
  },
  "by_tour": {
   "atp": {
-   "n": 114,
-   "brier": 0.24683923763157897,
-   "log_loss": 0.6949635922015772,
-   "accuracy": 0.5526315789473685
+   "n": 115,
+   "brier": 0.246174582,
+   "log_loss": 0.6935499070666229,
+   "accuracy": 0.5565217391304348
   },
   "wta": {
-   "n": 244,
-   "brier": 0.22391633102459013,
-   "log_loss": 0.6407866258953417,
-   "accuracy": 0.639344262295082
+   "n": 246,
+   "brier": 0.2239965489837398,
+   "log_loss": 0.6409485265100764,
+   "accuracy": 0.6422764227642277
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 69,
-   "brier": 0.2560528165217391,
-   "log_loss": 0.7184119540573809,
-   "accuracy": 0.5797101449275363
+   "n": 72,
+   "brier": 0.2542446452777778,
+   "log_loss": 0.7142252143702295,
+   "accuracy": 0.5972222222222222
   },
   "LOW": {
    "n": 156,
@@ -70,9 +70,9 @@
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 188,
-   "mean_pred": 0.545629255319149,
-   "observed": 0.5053191489361702
+   "n": 191,
+   "mean_pred": 0.545541884816754,
+   "observed": 0.5130890052356021
   },
   {
    "bucket": "60%-70%",
@@ -14759,6 +14759,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Luca Van Assche vs Rinky Hijikata",
+   "date": "2026-11-06",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.5872,
+   "a_won": 1,
+   "pred_winner": "Luca Van Assche",
+   "actual_winner": "Luca Van Assche",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2107,
+   "exp_games": 23.78,
+   "actual_games": 35,
+   "p_tb": 0.3869,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5364,
+     1
+    ],
+    "A -2.5": [
+     0.4818,
+     1
+    ],
+    "A -3.5": [
+     0.4014,
+     0
+    ],
+    "A -4.5": [
+     0.2984,
+     0
+    ],
+    "A -5.5": [
+     0.2016,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Janice Tjen vs Polina Kudermetova",
    "date": "2026-11-06",
    "tour": "wta",
@@ -14794,6 +14836,48 @@
     ],
     "A -5.5": [
      0.2208,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Mai Hontama vs Magda Linette",
+   "date": "2026-11-06",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.4868,
+   "a_won": 0,
+   "pred_winner": "Magda Linette",
+   "actual_winner": "Magda Linette",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1907,
+   "exp_games": 22.63,
+   "actual_games": 32,
+   "p_tb": 0.2665,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4442,
+     0
+    ],
+    "A -2.5": [
+     0.406,
+     0
+    ],
+    "A -3.5": [
+     0.3502,
+     0
+    ],
+    "A -4.5": [
+     0.2776,
+     0
+    ],
+    "A -5.5": [
+     0.2023,
      0
     ]
    },
@@ -15134,6 +15218,48 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Leyre Romero Gormaz vs Julia Riera",
+   "date": "2026-11-06",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.5198,
+   "a_won": 1,
+   "pred_winner": "Leyre Romero Gormaz",
+   "actual_winner": "Leyre Romero Gormaz",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1905,
+   "exp_games": 22.43,
+   "actual_games": 31,
+   "p_tb": 0.2454,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4766,
+     0
+    ],
+    "A -2.5": [
+     0.4398,
+     0
+    ],
+    "A -3.5": [
+     0.3875,
+     0
+    ],
+    "A -4.5": [
+     0.3117,
+     0
+    ],
+    "A -5.5": [
+     0.2349,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
    "version": "v1.1"
   }
  ]
