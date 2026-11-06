@@ -1,0 +1,92 @@
+{
+ "date": "2026-11-07",
+ "snapshot_at_utc": "2026-11-06T06:46:10Z",
+ "snapshot_path": "market_snapshots/2026-11-07/20261106T064610Z.json",
+ "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
+ "errors": [],
+ "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
+ "note": "Prices are compared with forecasts frozen BEFORE the snapshot; they are never model inputs.",
+ "matches": [
+  {
+   "espn_id": "186504",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186505",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186644",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186643",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186593",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186594",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186741",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186684",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "186685",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  }
+ ]
+}

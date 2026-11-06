@@ -1,0 +1,641 @@
+{
+ "predicted_winner": "Martyna Kubka",
+ "win_prob": {
+  "A": 0.4203,
+  "B": 0.5797
+ },
+ "win_prob_exact": {
+  "A": 0.42029,
+  "B": 0.57971
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.38,
+   "american": "+138"
+  },
+  "B": {
+   "decimal": 1.73,
+   "american": "-138"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3762,
+  "2-0": 0.2497,
+  "1-2": 0.2035,
+  "2-1": 0.1706
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "4-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0199,
+ "games": {
+  "mean": 22.72,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.97,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00207,
+   "13": 0.0099,
+   "14": 0.0231,
+   "15": 0.04447,
+   "16": 0.06526,
+   "17": 0.08101,
+   "18": 0.08272,
+   "19": 0.0772,
+   "20": 0.06992,
+   "21": 0.05012,
+   "22": 0.06119,
+   "23": 0.04139,
+   "24": 0.01914,
+   "25": 0.03679,
+   "26": 0.04171,
+   "27": 0.03757,
+   "28": 0.04078,
+   "29": 0.04114,
+   "30": 0.03867,
+   "31": 0.03686,
+   "32": 0.03252,
+   "33": 0.02117,
+   "34": 0.01597,
+   "35": 0.01537,
+   "36": 0.00743,
+   "37": 0.00219,
+   "38": 0.0029,
+   "39": 0.00144
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00164,
+  "-11": 0.00717,
+  "-10": 0.01596,
+  "-9": 0.03043,
+  "-8": 0.04859,
+  "-7": 0.06983,
+  "-6": 0.08386,
+  "-5": 0.08677,
+  "-4": 0.08556,
+  "-3": 0.06245,
+  "-2": 0.04205,
+  "-1": 0.03122,
+  "0": 0.02831,
+  "1": 0.02938,
+  "2": 0.03707,
+  "3": 0.05229,
+  "4": 0.0689,
+  "5": 0.0646,
+  "6": 0.05571,
+  "7": 0.04295,
+  "8": 0.02754,
+  "9": 0.01671,
+  "10": 0.00776,
+  "11": 0.00282,
+  "12": 0.00043
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7742,
+   "under": 0.2258
+  },
+  {
+   "line": 18.5,
+   "over": 0.6915,
+   "under": 0.3085
+  },
+  {
+   "line": 19.5,
+   "over": 0.6143,
+   "under": 0.3857
+  },
+  {
+   "line": 20.5,
+   "over": 0.5444,
+   "under": 0.4556
+  },
+  {
+   "line": 21.5,
+   "over": 0.4942,
+   "under": 0.5058
+  },
+  {
+   "line": 22.5,
+   "over": 0.433,
+   "under": 0.567
+  },
+  {
+   "line": 23.5,
+   "over": 0.3916,
+   "under": 0.6084
+  },
+  {
+   "line": 24.5,
+   "over": 0.3725,
+   "under": 0.6275
+  },
+  {
+   "line": 25.5,
+   "over": 0.3357,
+   "under": 0.6643
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3768,
+   "B +1.5": 0.6232,
+   "B -1.5": 0.5343,
+   "A +1.5": 0.4657
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3397,
+   "B +2.5": 0.6603,
+   "B -2.5": 0.4923,
+   "A +2.5": 0.5077
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2874,
+   "B +3.5": 0.7126,
+   "B -3.5": 0.4298,
+   "A +3.5": 0.5702
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2185,
+   "B +4.5": 0.7815,
+   "B -4.5": 0.3443,
+   "A +4.5": 0.6557
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1539,
+   "B +5.5": 0.8461,
+   "B -5.5": 0.2575,
+   "A +5.5": 0.7425
+  }
+ ],
+ "p_tiebreak": 0.2794,
+ "p_a_wins_set": 0.6238,
+ "p_b_wins_set": 0.7503,
+ "p_decider": 0.3741,
+ "expected_breaks": {
+  "total": 7.31,
+  "by_A": 3.41,
+  "by_B": 3.9
+ },
+ "expected_break_points": {
+  "A_creates": 7.92,
+  "B_creates": 8.68
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "4-6",
+   "4-6"
+  ],
+  "prob": 0.3762
+ },
+ "match": "Sofya Lansere vs Martyna Kubka",
+ "players": {
+  "A": {
+   "id": "wta:216139",
+   "name": "Sofya Lansere",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 511.0,
+   "age": 26.02251882272416,
+   "elo": 1528.9,
+   "surface_elo": {
+    "Hard": 1624.6,
+    "Clay": 1353.3,
+    "Grass": 1500.0
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 7,
+    "Grass": 0
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    10
+   ],
+   "last52w": [
+    5,
+    6
+   ],
+   "last52w_surface": [
+    4,
+    2
+   ],
+   "career_surface_wl": [
+    7,
+    4
+   ],
+   "games_won_lost_52w": [
+    111,
+    105
+   ],
+   "sets_won_lost_52w": [
+    12,
+    13
+   ],
+   "avg_opp_elo_last20": 1541.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0004,
+   "return_rating": 0.1879,
+   "form_elo": 31.3,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6255,
+    "first_won": 0.5967,
+    "second_won": 0.3611,
+    "serve_pts_won": 0.5085,
+    "hold": 0.5463,
+    "aces_per_svgm": 0.213,
+    "df_per_svgm": 0.6667,
+    "bp_saved": 0.5625,
+    "ret_pts_won": 0.5,
+    "ret_1st_won": 0.4599,
+    "ret_2nd_won": 0.5646,
+    "ret_games_won": 0.486,
+    "bp_conv": 0.4643,
+    "bp_chances_per_retgm": 1.0467,
+    "matches_with_stats": 11
+   },
+   "rank_history": [
+    [
+     "2023-07-17",
+     353.0
+    ],
+    [
+     "2023-10-09",
+     271.0
+    ],
+    [
+     "2025-09-15",
+     558.0
+    ],
+    [
+     "2025-09-22",
+     511.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:221243",
+   "name": "Martyna Kubka",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 387.0,
+   "age": 25.49082819986311,
+   "elo": 1691.3,
+   "surface_elo": {
+    "Hard": 1683.5,
+    "Clay": 1444.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 21,
+   "matches_surface": {
+    "Hard": 20,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    11,
+    7
+   ],
+   "last52w_surface": [
+    11,
+    7
+   ],
+   "career_surface_wl": [
+    12,
+    8
+   ],
+   "games_won_lost_52w": [
+    206,
+    183
+   ],
+   "sets_won_lost_52w": [
+    24,
+    18
+   ],
+   "avg_opp_elo_last20": 1579.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.2483,
+   "return_rating": -0.0293,
+   "form_elo": 65.0,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6737,
+    "first_won": 0.6482,
+    "second_won": 0.5208,
+    "serve_pts_won": 0.6066,
+    "hold": 0.7401,
+    "aces_per_svgm": 0.4972,
+    "df_per_svgm": 0.1638,
+    "bp_saved": 0.5741,
+    "ret_pts_won": 0.4074,
+    "ret_1st_won": 0.3409,
+    "ret_2nd_won": 0.519,
+    "ret_games_won": 0.2924,
+    "bp_conv": 0.431,
+    "bp_chances_per_retgm": 0.6784,
+    "matches_with_stats": 17
+   },
+   "rank_history": [
+    [
+     "2022-07-25",
+     472.0
+    ],
+    [
+     "2025-06-16",
+     387.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Angola Ladies Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-05",
+ "forecast_date": "2026-11-06",
+ "performance_revision": "09289e4ad67dd6bb",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Sofya Lansere: limited recent/surface sample (11 matches 52w, 11 career on Hard, 11 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -55.3,
+  "components_elo": {
+   "surface_elo": -58.8,
+   "overall_elo": -162.5,
+   "serve_return": -28.1,
+   "form": -33.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -7.2,
+   "overall_elo": -38.4,
+   "serve_return": -9.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4211,
+  "serve_return_implied_spw": {
+   "A": 0.5726,
+   "B": 0.5803
+  },
+  "point_probs": {
+   "A_serve": 0.5649,
+   "B_serve": 0.588
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5648766290693664,
+   "B_serve": 0.5879624865487356
+  },
+  "hold_probs": {
+   "A": 0.6582,
+   "B": 0.7101
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.4203,
+   0.4224
+  ],
+  "p_tb": [
+   0.2794,
+   0.278
+  ],
+  "p_decider": [
+   0.3741,
+   0.3739
+  ],
+  "games_mean": [
+   22.721,
+   22.71
+  ],
+  "exp_breaks": [
+   7.306,
+   7.287
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3762,
+    0.3757
+   ],
+   "1-2": [
+    0.2035,
+    0.2018
+   ],
+   "2-0": [
+    0.2497,
+    0.2504
+   ],
+   "2-1": [
+    0.1706,
+    0.1721
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Martyna Kubka",
+   "elo_points": -38.4,
+   "raw_diff": -162.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Martyna Kubka",
+   "elo_points": -9.8,
+   "raw_diff": -28.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Martyna Kubka",
+   "elo_points": -7.2,
+   "raw_diff": -58.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3611,
+   "B": 0.5208,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.5,
+   "B": 0.4074,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5649,
+   "B": 0.588,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Martyna Kubka to win at least one set",
+  "probability": 0.7503,
+  "fair_odds": {
+   "decimal": 1.33,
+   "american": "-300"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Sofya Lansere: limited recent/surface sample (11 matches 52w, 11 career on Hard, 11 with stats)",
+  "candidates": [
+   {
+    "selection": "Martyna Kubka to win at least one set",
+    "probability": 0.7503,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7206,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6915,
+    "fair_decimal": 1.45
+   },
+   {
+    "selection": "Sofya Lansere +4.5 games",
+    "probability": 0.6557,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6275,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6259,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Sofya Lansere to win at least one set",
+    "probability": 0.6238,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Martyna Kubka to win",
+    "probability": 0.5797,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.567,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5444,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Sofya Lansere +2.5 games",
+    "probability": 0.5077,
+    "fair_decimal": 1.97
+   },
+   {
+    "selection": "Martyna Kubka -2.5 games",
+    "probability": 0.4923,
+    "fair_decimal": 2.03
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4556,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.433,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Sofya Lansere to win",
+    "probability": 0.4203,
+    "fair_decimal": 2.38
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-05",
+ "freeze": {
+  "frozen_at_utc": "2026-11-06T06:45:04+00:00",
+  "version": 3,
+  "input_hash": "0228ed3bb223fa6b",
+  "reason": "performance inputs or format refreshed (results through 2026-11-05)",
+  "pre_match": true,
+  "espn_id": "186689",
+  "scheduled_start_utc": "2026-11-06T10:30Z"
+ }
+}
