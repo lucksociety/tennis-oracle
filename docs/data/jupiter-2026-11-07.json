@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
- "snapshot_at_utc": "2026-11-07T20:58:42Z",
- "snapshot_path": "market_snapshots/2026-11-07/20261107T205842Z.json",
+ "snapshot_at_utc": "2026-11-07T23:41:11Z",
+ "snapshot_path": "market_snapshots/2026-11-07/20261107T234111Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -61,10 +61,10 @@
      "model_p": 0.3752,
      "mc_lower_95": 0.3722,
      "score_consistent": false,
-     "price": 0.41,
-     "implied": 0.4269,
-     "edge": -0.0517,
-     "ev_per_1": -0.1212,
+     "price": 0.42,
+     "implied": 0.4371,
+     "edge": -0.0619,
+     "ev_per_1": -0.1415,
      "eligible": false
     },
     {
@@ -106,10 +106,10 @@
      "model_p": 0.5084,
      "mc_lower_95": 0.5053,
      "score_consistent": true,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": 0.0009,
-     "ev_per_1": 0.0017,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0091,
+     "ev_per_1": -0.0177,
      "eligible": false
     },
     {
@@ -151,10 +151,10 @@
      "model_p": 0.3903,
      "mc_lower_95": 0.3873,
      "score_consistent": false,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.1172,
-     "ev_per_1": -0.2309,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0568,
+     "ev_per_1": -0.1271,
      "eligible": false
     },
     {

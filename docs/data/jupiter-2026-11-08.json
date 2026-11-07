@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
- "snapshot_at_utc": "2026-11-07T20:58:42Z",
- "snapshot_path": "market_snapshots/2026-11-08/20261107T205842Z.json",
+ "snapshot_at_utc": "2026-11-07T23:41:11Z",
+ "snapshot_path": "market_snapshots/2026-11-08/20261107T234111Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -75,10 +75,10 @@
      "model_p": 0.3599,
      "mc_lower_95": 0.3569,
      "score_consistent": false,
-     "price": 0.41,
-     "implied": 0.4269,
-     "edge": -0.067,
-     "ev_per_1": -0.157,
+     "price": 0.42,
+     "implied": 0.4371,
+     "edge": -0.0772,
+     "ev_per_1": -0.1765,
      "eligible": false
     },
     {
@@ -120,10 +120,10 @@
      "model_p": 0.5238,
      "mc_lower_95": 0.5207,
      "score_consistent": true,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": 0.0163,
-     "ev_per_1": 0.0321,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": 0.0063,
+     "ev_per_1": 0.0121,
      "eligible": true
     },
     {
@@ -165,10 +165,10 @@
      "model_p": 0.3761,
      "mc_lower_95": 0.373,
      "score_consistent": false,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.1314,
-     "ev_per_1": -0.259,
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0711,
+     "ev_per_1": -0.159,
      "eligible": false
     },
     {
@@ -252,12 +252,52 @@
   },
   {
    "espn_id": "186690",
-   "event_id": null,
-   "event_title": null,
-   "status": "no_market",
+   "event_id": "POLY-1335953",
+   "event_title": "Luanda: Anna Blinkova vs Sofya Lansere",
+   "status": "no_bet",
    "best": null,
-   "verdict": "NO BET (no market)",
-   "outcomes": []
+   "verdict": "NO BET (no outcome with both >50% and positive edge)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6823164-0",
+     "type": "moneyline",
+     "label": "Anna Blinkova",
+     "status": "open",
+     "selection": "Anna Blinkova to win",
+     "model_p": 0.6439,
+     "mc_lower_95": 0.6409,
+     "score_consistent": true,
+     "price": 0.75,
+     "implied": 0.7631,
+     "edge": -0.1192,
+     "ev_per_1": -0.1562,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6823164-1",
+     "type": "moneyline",
+     "label": "Sofya Lansere",
+     "status": "open",
+     "selection": "Sofya Lansere to win",
+     "model_p": 0.3561,
+     "mc_lower_95": 0.3531,
+     "score_consistent": false,
+     "price": 0.29,
+     "implied": 0.3044,
+     "edge": 0.0517,
+     "ev_per_1": 0.1698,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6823166",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 0
   },
   {
    "espn_id": "187457",
@@ -292,10 +332,10 @@
      "model_p": 0.5945,
      "mc_lower_95": 0.5915,
      "score_consistent": true,
-     "price": 0.67,
-     "implied": 0.6855,
-     "edge": -0.091,
-     "ev_per_1": -0.1327,
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.0714,
+     "ev_per_1": -0.1073,
      "eligible": false
     },
     {
@@ -307,10 +347,10 @@
      "model_p": 0.4055,
      "mc_lower_95": 0.4025,
      "score_consistent": false,
-     "price": 0.34,
-     "implied": 0.3557,
-     "edge": 0.0498,
-     "ev_per_1": 0.14,
+     "price": 0.36,
+     "implied": 0.3761,
+     "edge": 0.0294,
+     "ev_per_1": 0.0781,
      "eligible": false
     },
     {
@@ -322,7 +362,11 @@
      "model_p": 0.396,
      "mc_lower_95": 0.393,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0107,
+     "ev_per_1": -0.0262,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808202-1",
@@ -333,7 +377,11 @@
      "model_p": 0.604,
      "mc_lower_95": 0.601,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0423,
+     "ev_per_1": -0.0655,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808204-0",
@@ -344,10 +392,10 @@
      "model_p": 0.6333,
      "mc_lower_95": 0.6303,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.3481,
-     "ev_per_1": -0.3547,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.013,
+     "ev_per_1": -0.0202,
      "eligible": false
     },
     {
@@ -359,7 +407,11 @@
      "model_p": 0.3667,
      "mc_lower_95": 0.3637,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0501,
+     "ev_per_1": -0.1202,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808206-0",
@@ -370,10 +422,10 @@
      "model_p": 0.5414,
      "mc_lower_95": 0.5383,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.4399,
-     "ev_per_1": -0.4483,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": 0.004,
+     "ev_per_1": 0.0074,
      "eligible": false
     },
     {
@@ -385,7 +437,11 @@
      "model_p": 0.4586,
      "mc_lower_95": 0.4555,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.0689,
+     "ev_per_1": -0.1307,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808208-0",
@@ -396,10 +452,10 @@
      "model_p": 0.4656,
      "mc_lower_95": 0.4625,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.5157,
-     "ev_per_1": -0.5255,
+     "price": 0.45,
+     "implied": 0.4673,
+     "edge": -0.0017,
+     "ev_per_1": -0.0036,
      "eligible": false
     },
     {
@@ -411,7 +467,11 @@
      "model_p": 0.5344,
      "mc_lower_95": 0.5313,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.0627,
+     "ev_per_1": -0.105,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808210-0",
@@ -422,7 +482,11 @@
      "model_p": 0.3764,
      "mc_lower_95": 0.3734,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.43,
+     "implied": 0.4472,
+     "edge": -0.0708,
+     "ev_per_1": -0.1582,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808210-1",
@@ -433,7 +497,11 @@
      "model_p": 0.6237,
      "mc_lower_95": 0.6207,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": 0.0168,
+     "ev_per_1": 0.0276,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808211-0",
@@ -444,7 +512,11 @@
      "model_p": 0.3603,
      "mc_lower_95": 0.3574,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.45,
+     "implied": 0.4673,
+     "edge": -0.107,
+     "ev_per_1": -0.2289,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808211-1",
@@ -455,19 +527,37 @@
      "model_p": 0.6397,
      "mc_lower_95": 0.6367,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": 0.0426,
+     "ev_per_1": 0.0714,
+     "eligible": false
     }
    ],
-   "n_priced": 5,
+   "n_priced": 14,
    "n_eligible": 0
   },
   {
    "espn_id": "187455",
    "event_id": "POLY-1333760",
    "event_title": "BNP Paribas Nordic Open, Qualification: Adrian Mannarino vs Toby Samuel",
-   "status": "no_bet",
-   "best": null,
-   "verdict": "NO BET (no positive edge)",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6817720-1",
+    "type": "tennis_game_handicap",
+    "label": "Adrian Mannarino +1.5",
+    "status": "open",
+    "selection": "Adrian Mannarino +1.5 games",
+    "model_p": 0.5865,
+    "mc_lower_95": 0.5835,
+    "score_consistent": true,
+    "price": 0.56,
+    "implied": 0.5772,
+    "edge": 0.0093,
+    "ev_per_1": 0.0161,
+    "eligible": true
+   },
+   "verdict": "Adrian Mannarino +1.5 games @ 0.56 (model 58.7%, edge 0.9 pts, EV +1.6%)",
    "outcomes": [
     {
      "market_id": "POLY-6806528",
@@ -485,11 +575,11 @@
      "model_p": 0.5341,
      "mc_lower_95": 0.531,
      "score_consistent": true,
-     "price": 0.53,
-     "implied": 0.5474,
-     "edge": -0.0133,
-     "ev_per_1": -0.0244,
-     "eligible": false
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": 0.0066,
+     "ev_per_1": 0.0125,
+     "eligible": true
     },
     {
      "market_id": "POLY-6806527-1",
@@ -515,7 +605,11 @@
      "model_p": 0.3921,
      "mc_lower_95": 0.3891,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0146,
+     "ev_per_1": -0.0358,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808164-1",
@@ -526,7 +620,11 @@
      "model_p": 0.6079,
      "mc_lower_95": 0.6049,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0384,
+     "ev_per_1": -0.0594,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808170-0",
@@ -537,10 +635,10 @@
      "model_p": 0.5659,
      "mc_lower_95": 0.5629,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.4154,
-     "ev_per_1": -0.4233,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0113,
+     "ev_per_1": -0.0196,
      "eligible": false
     },
     {
@@ -552,7 +650,11 @@
      "model_p": 0.4341,
      "mc_lower_95": 0.431,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0534,
+     "ev_per_1": -0.1095,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808176-0",
@@ -563,10 +665,10 @@
      "model_p": 0.4898,
      "mc_lower_95": 0.4867,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.4916,
-     "ev_per_1": -0.5009,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0077,
+     "ev_per_1": -0.0154,
      "eligible": false
     },
     {
@@ -578,7 +680,11 @@
      "model_p": 0.5102,
      "mc_lower_95": 0.5071,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.0571,
+     "ev_per_1": -0.1007,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808182-0",
@@ -589,10 +695,10 @@
      "model_p": 0.4324,
      "mc_lower_95": 0.4293,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.549,
-     "ev_per_1": -0.5594,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.1349,
+     "ev_per_1": -0.2378,
      "eligible": false
     },
     {
@@ -604,7 +710,11 @@
      "model_p": 0.5676,
      "mc_lower_95": 0.5645,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.92,
+     "implied": 0.9252,
+     "edge": -0.3576,
+     "ev_per_1": -0.3865,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808189-0",
@@ -615,7 +725,11 @@
      "model_p": 0.3318,
      "mc_lower_95": 0.3289,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.32,
+     "implied": 0.3352,
+     "edge": -0.0034,
+     "ev_per_1": -0.0102,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808189-1",
@@ -626,7 +740,11 @@
      "model_p": 0.6682,
      "mc_lower_95": 0.6653,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.7,
+     "implied": 0.7147,
+     "edge": -0.0465,
+     "ev_per_1": -0.0651,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808194-0",
@@ -637,7 +755,11 @@
      "model_p": 0.2761,
      "mc_lower_95": 0.2733,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.32,
+     "implied": 0.3352,
+     "edge": -0.0591,
+     "ev_per_1": -0.1764,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808194-1",
@@ -648,11 +770,45 @@
      "model_p": 0.7239,
      "mc_lower_95": 0.7211,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.7,
+     "implied": 0.7147,
+     "edge": 0.0092,
+     "ev_per_1": 0.0129,
+     "eligible": true
+    },
+    {
+     "market_id": "POLY-6817720-0",
+     "type": "tennis_game_handicap",
+     "label": "Toby Samuel -1.5",
+     "status": "open",
+     "selection": "Toby Samuel -1.5 games",
+     "model_p": 0.4135,
+     "mc_lower_95": 0.4104,
+     "score_consistent": false,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.084,
+     "ev_per_1": -0.1688,
+     "eligible": false
+    },
+    {
+     "market_id": "POLY-6817720-1",
+     "type": "tennis_game_handicap",
+     "label": "Adrian Mannarino +1.5",
+     "status": "open",
+     "selection": "Adrian Mannarino +1.5 games",
+     "model_p": 0.5865,
+     "mc_lower_95": 0.5835,
+     "score_consistent": true,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": 0.0093,
+     "ev_per_1": 0.0161,
+     "eligible": true
     }
    ],
-   "n_priced": 5,
-   "n_eligible": 0
+   "n_priced": 16,
+   "n_eligible": 3
   },
   {
    "espn_id": "187454",
@@ -708,7 +864,11 @@
      "model_p": 0.3826,
      "mc_lower_95": 0.3796,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": -0.0139,
+     "ev_per_1": -0.035,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808165-1",
@@ -719,7 +879,11 @@
      "model_p": 0.6174,
      "mc_lower_95": 0.6144,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.64,
+     "implied": 0.6561,
+     "edge": -0.0387,
+     "ev_per_1": -0.059,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808171-0",
@@ -730,10 +894,10 @@
      "model_p": 0.5644,
      "mc_lower_95": 0.5613,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.417,
-     "ev_per_1": -0.4249,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": 0.007,
+     "ev_per_1": 0.0126,
      "eligible": false
     },
     {
@@ -745,7 +909,11 @@
      "model_p": 0.4356,
      "mc_lower_95": 0.4325,
      "score_consistent": false,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0719,
+     "ev_per_1": -0.1416,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808178-0",
@@ -756,10 +924,10 @@
      "model_p": 0.4862,
      "mc_lower_95": 0.4831,
      "score_consistent": false,
-     "price": 0.98,
-     "implied": 0.9814,
-     "edge": -0.4951,
-     "ev_per_1": -0.5045,
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": 0.0088,
+     "ev_per_1": 0.0185,
      "eligible": false
     },
     {
@@ -771,7 +939,11 @@
      "model_p": 0.5138,
      "mc_lower_95": 0.5107,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0635,
+     "ev_per_1": -0.11,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808184-0",
@@ -808,7 +980,11 @@
      "model_p": 0.4078,
      "mc_lower_95": 0.4048,
      "score_consistent": true,
-     "skip": "ask at 0.99 placeholder (no real liquidity)"
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0897,
+     "ev_per_1": -0.1803,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808190-1",
@@ -819,10 +995,14 @@
      "model_p": 0.5922,
      "mc_lower_95": 0.5892,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": 0.0348,
+     "ev_per_1": 0.0625,
+     "eligible": false
     }
    ],
-   "n_priced": 5,
+   "n_priced": 11,
    "n_eligible": 0
   },
   {
@@ -849,10 +1029,10 @@
      "model_p": 0.6323,
      "mc_lower_95": 0.6293,
      "score_consistent": true,
-     "price": 0.67,
-     "implied": 0.6855,
-     "edge": -0.0532,
-     "ev_per_1": -0.0776,
+     "price": 0.66,
+     "implied": 0.6757,
+     "edge": -0.0434,
+     "ev_per_1": -0.0642,
      "eligible": false
     },
     {
@@ -864,10 +1044,10 @@
      "model_p": 0.3677,
      "mc_lower_95": 0.3647,
      "score_consistent": false,
-     "price": 0.34,
-     "implied": 0.3557,
-     "edge": 0.012,
-     "ev_per_1": 0.0337,
+     "price": 0.35,
+     "implied": 0.3659,
+     "edge": 0.0018,
+     "ev_per_1": 0.0049,
      "eligible": false
     },
     {
@@ -879,10 +1059,10 @@
      "model_p": 0.3726,
      "mc_lower_95": 0.3696,
      "score_consistent": false,
-     "price": 0.39,
-     "implied": 0.4067,
-     "edge": -0.0341,
-     "ev_per_1": -0.0837,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": -0.0239,
+     "ev_per_1": -0.0603,
      "eligible": false
     },
     {
@@ -894,10 +1074,10 @@
      "model_p": 0.6274,
      "mc_lower_95": 0.6244,
      "score_consistent": true,
-     "price": 0.63,
-     "implied": 0.6463,
-     "edge": -0.0189,
-     "ev_per_1": -0.0293,
+     "price": 0.64,
+     "implied": 0.6561,
+     "edge": -0.0287,
+     "ev_per_1": -0.0438,
      "eligible": false
     },
     {
@@ -909,10 +1089,10 @@
      "model_p": 0.5259,
      "mc_lower_95": 0.5228,
      "score_consistent": false,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.0315,
-     "ev_per_1": -0.0565,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.0016,
+     "ev_per_1": -0.003,
      "eligible": false
     },
     {
@@ -924,10 +1104,10 @@
      "model_p": 0.4741,
      "mc_lower_95": 0.471,
      "score_consistent": false,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.0334,
-     "ev_per_1": -0.0658,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.0534,
+     "ev_per_1": -0.1012,
      "eligible": false
     },
     {
@@ -939,10 +1119,10 @@
      "model_p": 0.4539,
      "mc_lower_95": 0.4508,
      "score_consistent": false,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": -0.0335,
-     "ev_per_1": -0.0687,
+     "price": 0.44,
+     "implied": 0.4572,
+     "edge": -0.0033,
+     "ev_per_1": -0.0073,
      "eligible": false
     },
     {
@@ -954,10 +1134,10 @@
      "model_p": 0.5461,
      "mc_lower_95": 0.543,
      "score_consistent": true,
-     "price": 0.57,
-     "implied": 0.5872,
-     "edge": -0.0411,
-     "ev_per_1": -0.07,
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.051,
+     "ev_per_1": -0.0854,
      "eligible": false
     },
     {
@@ -969,10 +1149,10 @@
      "model_p": 0.404,
      "mc_lower_95": 0.401,
      "score_consistent": false,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.5587,
-     "ev_per_1": -0.5803,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0834,
+     "ev_per_1": -0.1712,
      "eligible": false
     },
     {
@@ -984,10 +1164,10 @@
      "model_p": 0.596,
      "mc_lower_95": 0.593,
      "score_consistent": true,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.376,
-     "ev_per_1": -0.3869,
+     "price": 0.67,
+     "implied": 0.6855,
+     "edge": -0.0895,
+     "ev_per_1": -0.1305,
      "eligible": false
     },
     {
@@ -1052,21 +1232,21 @@
    "event_title": "Rolex Paris Masters: Ben Shelton vs Carlos Alcaraz",
    "status": "bet",
    "best": {
-    "market_id": "POLY-6808120-1",
-    "type": "tennis_set_totals",
-    "label": "Under 2.5",
+    "market_id": "POLY-6808132-1",
+    "type": "tennis_match_totals",
+    "label": "Under 22.5",
     "status": "open",
-    "selection": "Under 2.5 sets",
-    "model_p": 0.6529,
-    "mc_lower_95": 0.6499,
+    "selection": "Under 22.5 games",
+    "model_p": 0.5106,
+    "mc_lower_95": 0.5075,
     "score_consistent": true,
-    "price": 0.63,
-    "implied": 0.6463,
-    "edge": 0.0066,
-    "ev_per_1": 0.0102,
+    "price": 0.49,
+    "implied": 0.5075,
+    "edge": 0.0031,
+    "ev_per_1": 0.0062,
     "eligible": true
    },
-   "verdict": "Under 2.5 sets @ 0.63 (model 65.3%, edge 0.7 pts, EV +1.0%)",
+   "verdict": "Under 22.5 games @ 0.49 (model 51.1%, edge 0.3 pts, EV +0.6%)",
    "outcomes": [
     {
      "market_id": "POLY-6806543",
@@ -1114,10 +1294,10 @@
      "model_p": 0.3471,
      "mc_lower_95": 0.3441,
      "score_consistent": false,
-     "price": 0.38,
-     "implied": 0.3965,
-     "edge": -0.0494,
-     "ev_per_1": -0.1246,
+     "price": 0.37,
+     "implied": 0.3863,
+     "edge": -0.0392,
+     "ev_per_1": -0.1015,
      "eligible": false
     },
     {
@@ -1129,11 +1309,11 @@
      "model_p": 0.6529,
      "mc_lower_95": 0.6499,
      "score_consistent": true,
-     "price": 0.63,
-     "implied": 0.6463,
-     "edge": 0.0066,
-     "ev_per_1": 0.0102,
-     "eligible": true
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.013,
+     "ev_per_1": -0.0196,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808126-0",
@@ -1144,10 +1324,10 @@
      "model_p": 0.58,
      "mc_lower_95": 0.5769,
      "score_consistent": false,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": -0.086,
-     "ev_per_1": -0.1291,
+     "price": 0.64,
+     "implied": 0.6561,
+     "edge": -0.0762,
+     "ev_per_1": -0.1161,
      "eligible": false
     },
     {
@@ -1159,10 +1339,10 @@
      "model_p": 0.42,
      "mc_lower_95": 0.417,
      "score_consistent": false,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": -0.0875,
-     "ev_per_1": -0.1723,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": 0.0235,
+     "ev_per_1": 0.0594,
      "eligible": false
     },
     {
@@ -1174,10 +1354,10 @@
      "model_p": 0.4894,
      "mc_lower_95": 0.4863,
      "score_consistent": false,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.068,
-     "ev_per_1": -0.122,
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.0481,
+     "ev_per_1": -0.0895,
      "eligible": false
     },
     {
@@ -1204,10 +1384,10 @@
      "model_p": 0.4146,
      "mc_lower_95": 0.4115,
      "score_consistent": false,
-     "price": 0.45,
-     "implied": 0.4673,
-     "edge": -0.0528,
-     "ev_per_1": -0.1129,
+     "price": 0.44,
+     "implied": 0.4572,
+     "edge": -0.0427,
+     "ev_per_1": -0.0934,
      "eligible": false
     },
     {
@@ -1219,10 +1399,10 @@
      "model_p": 0.5855,
      "mc_lower_95": 0.5824,
      "score_consistent": true,
-     "price": 0.57,
-     "implied": 0.5872,
-     "edge": -0.0017,
-     "ev_per_1": -0.0029,
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.0116,
+     "ev_per_1": -0.0194,
      "eligible": false
     },
     {
@@ -1234,11 +1414,11 @@
      "model_p": 0.5321,
      "mc_lower_95": 0.529,
      "score_consistent": true,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": 0.0046,
-     "ev_per_1": 0.0087,
-     "eligible": true
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.0352,
+     "ev_per_1": -0.0621,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808143-1",
@@ -1249,10 +1429,10 @@
      "model_p": 0.468,
      "mc_lower_95": 0.4649,
      "score_consistent": false,
-     "price": 0.5,
-     "implied": 0.5175,
-     "edge": -0.0495,
-     "ev_per_1": -0.0957,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0295,
+     "ev_per_1": -0.0592,
      "eligible": false
     },
     {
@@ -1264,10 +1444,10 @@
      "model_p": 0.5119,
      "mc_lower_95": 0.5088,
      "score_consistent": true,
-     "price": 0.52,
-     "implied": 0.5375,
-     "edge": -0.0256,
-     "ev_per_1": -0.0477,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0455,
+     "ev_per_1": -0.0817,
      "eligible": false
     },
     {
@@ -1279,15 +1459,15 @@
      "model_p": 0.4881,
      "mc_lower_95": 0.485,
      "score_consistent": false,
-     "price": 0.5,
-     "implied": 0.5175,
-     "edge": -0.0294,
-     "ev_per_1": -0.0567,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0194,
+     "ev_per_1": -0.0381,
      "eligible": false
     }
    ],
    "n_priced": 14,
-   "n_eligible": 3
+   "n_eligible": 1
   },
   {
    "espn_id": "186534",
@@ -1313,10 +1493,10 @@
      "model_p": 0.4316,
      "mc_lower_95": 0.4285,
      "score_consistent": false,
-     "price": 0.24,
-     "implied": 0.2528,
-     "edge": 0.1788,
-     "ev_per_1": 0.7075,
+     "price": 0.25,
+     "implied": 0.2631,
+     "edge": 0.1685,
+     "ev_per_1": 0.6403,
      "eligible": false
     },
     {
@@ -1328,10 +1508,10 @@
      "model_p": 0.5684,
      "mc_lower_95": 0.5653,
      "score_consistent": true,
-     "price": 0.77,
-     "implied": 0.7824,
-     "edge": -0.214,
-     "ev_per_1": -0.2735,
+     "price": 0.76,
+     "implied": 0.7728,
+     "edge": -0.2044,
+     "ev_per_1": -0.2645,
      "eligible": false
     },
     {
@@ -1343,10 +1523,10 @@
      "model_p": 0.3922,
      "mc_lower_95": 0.3892,
      "score_consistent": false,
-     "price": 0.94,
-     "implied": 0.9439,
-     "edge": -0.5517,
-     "ev_per_1": -0.5845,
+     "price": 0.44,
+     "implied": 0.4572,
+     "edge": -0.065,
+     "ev_per_1": -0.1423,
      "eligible": false
     },
     {
@@ -1373,10 +1553,10 @@
      "model_p": 0.586,
      "mc_lower_95": 0.5829,
      "score_consistent": false,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": 0.0087,
-     "ev_per_1": 0.0151,
+     "price": 0.57,
+     "implied": 0.5872,
+     "edge": -0.0012,
+     "ev_per_1": -0.002,
      "eligible": false
     },
     {
@@ -1388,10 +1568,10 @@
      "model_p": 0.414,
      "mc_lower_95": 0.411,
      "score_consistent": false,
-     "price": 0.94,
-     "implied": 0.9439,
-     "edge": -0.5299,
-     "ev_per_1": -0.5614,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0835,
+     "ev_per_1": -0.1678,
      "eligible": false
     },
     {
@@ -1418,10 +1598,10 @@
      "model_p": 0.4965,
      "mc_lower_95": 0.4934,
      "score_consistent": false,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.0608,
-     "ev_per_1": -0.1092,
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.0509,
+     "ev_per_1": -0.093,
      "eligible": false
     },
     {
@@ -1433,10 +1613,10 @@
      "model_p": 0.4405,
      "mc_lower_95": 0.4374,
      "score_consistent": false,
-     "price": 0.89,
-     "implied": 0.8969,
-     "edge": -0.4563,
-     "ev_per_1": -0.5088,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.057,
+     "ev_per_1": -0.1145,
      "eligible": false
     },
     {
@@ -1493,10 +1673,10 @@
      "model_p": 0.3695,
      "mc_lower_95": 0.3665,
      "score_consistent": true,
-     "price": 0.58,
-     "implied": 0.5971,
-     "edge": -0.2275,
-     "ev_per_1": -0.3811,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.1978,
+     "ev_per_1": -0.3487,
      "eligible": false
     },
     {
@@ -1508,15 +1688,33 @@
      "model_p": 0.6305,
      "mc_lower_95": 0.6275,
      "score_consistent": false,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.3041,
-     "ev_per_1": -0.3254,
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": 0.103,
+     "ev_per_1": 0.1953,
      "eligible": false
     }
    ],
    "n_priced": 14,
    "n_eligible": 0
+  },
+  {
+   "espn_id": "187459",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "187458",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
   },
   {
    "espn_id": "186528",
@@ -1532,13 +1730,13 @@
     "model_p": 0.6699,
     "mc_lower_95": 0.667,
     "score_consistent": true,
-    "price": 0.62,
-    "implied": 0.6365,
-    "edge": 0.0334,
-    "ev_per_1": 0.0525,
+    "price": 0.61,
+    "implied": 0.6267,
+    "edge": 0.0432,
+    "ev_per_1": 0.069,
     "eligible": true
    },
-   "verdict": "Jaume Munar to win @ 0.62 (model 67.0%, edge 3.3 pts, EV +5.2%)",
+   "verdict": "Jaume Munar to win @ 0.61 (model 67.0%, edge 4.3 pts, EV +6.9%)",
    "outcomes": [
     {
      "market_id": "POLY-6806510",
@@ -1556,10 +1754,10 @@
      "model_p": 0.3301,
      "mc_lower_95": 0.3272,
      "score_consistent": false,
-     "price": 0.39,
-     "implied": 0.4067,
-     "edge": -0.0766,
-     "ev_per_1": -0.1883,
+     "price": 0.4,
+     "implied": 0.4168,
+     "edge": -0.0867,
+     "ev_per_1": -0.208,
      "eligible": false
     },
     {
@@ -1571,10 +1769,10 @@
      "model_p": 0.6699,
      "mc_lower_95": 0.667,
      "score_consistent": true,
-     "price": 0.62,
-     "implied": 0.6365,
-     "edge": 0.0334,
-     "ev_per_1": 0.0525,
+     "price": 0.61,
+     "implied": 0.6267,
+     "edge": 0.0432,
+     "ev_per_1": 0.069,
      "eligible": true
     },
     {
@@ -1586,10 +1784,10 @@
      "model_p": 0.3685,
      "mc_lower_95": 0.3655,
      "score_consistent": false,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.5661,
-     "ev_per_1": -0.6057,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.129,
+     "ev_per_1": -0.2593,
      "eligible": false
     },
     {
@@ -1601,10 +1799,10 @@
      "model_p": 0.6315,
      "mc_lower_95": 0.6285,
      "score_consistent": true,
-     "price": 0.61,
-     "implied": 0.6267,
-     "edge": 0.0048,
-     "ev_per_1": 0.0077,
+     "price": 0.6,
+     "implied": 0.6168,
+     "edge": 0.0147,
+     "ev_per_1": 0.0238,
      "eligible": true
     },
     {
@@ -1631,10 +1829,10 @@
      "model_p": 0.4386,
      "mc_lower_95": 0.4356,
      "score_consistent": false,
-     "price": 0.94,
-     "implied": 0.9439,
-     "edge": -0.5053,
-     "ev_per_1": -0.5353,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0689,
+     "ev_per_1": -0.1357,
      "eligible": false
     },
     {
@@ -1676,10 +1874,10 @@
      "model_p": 0.4163,
      "mc_lower_95": 0.4132,
      "score_consistent": false,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.5183,
-     "ev_per_1": -0.5546,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0912,
+     "ev_per_1": -0.1798,
      "eligible": false
     },
     {
@@ -1706,10 +1904,10 @@
      "model_p": 0.4511,
      "mc_lower_95": 0.448,
      "score_consistent": true,
-     "price": 0.93,
-     "implied": 0.9346,
-     "edge": -0.4835,
-     "ev_per_1": -0.5173,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0464,
+     "ev_per_1": -0.0932,
      "eligible": false
     },
     {
@@ -1721,10 +1919,10 @@
      "model_p": 0.5489,
      "mc_lower_95": 0.5458,
      "score_consistent": false,
-     "price": 0.64,
-     "implied": 0.6561,
-     "edge": -0.1072,
-     "ev_per_1": -0.1634,
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": -0.0876,
+     "ev_per_1": -0.1376,
      "eligible": false
     },
     {
@@ -1736,10 +1934,10 @@
      "model_p": 0.5584,
      "mc_lower_95": 0.5554,
      "score_consistent": true,
-     "price": 0.52,
-     "implied": 0.5375,
-     "edge": 0.021,
-     "ev_per_1": 0.039,
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": 0.011,
+     "ev_per_1": 0.0201,
      "eligible": true
     },
     {
@@ -1751,10 +1949,10 @@
      "model_p": 0.4416,
      "mc_lower_95": 0.4385,
      "score_consistent": false,
-     "price": 0.51,
-     "implied": 0.5275,
-     "edge": -0.0859,
-     "ev_per_1": -0.1629,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0759,
+     "ev_per_1": -0.1467,
      "eligible": false
     }
    ],
@@ -1762,13 +1960,85 @@
    "n_eligible": 3
   },
   {
-   "espn_id": "187373",
+   "espn_id": "187461",
    "event_id": null,
    "event_title": null,
    "status": "no_market",
    "best": null,
    "verdict": "NO BET (no market)",
    "outcomes": []
+  },
+  {
+   "espn_id": "187460",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "187373",
+   "event_id": "POLY-1335955",
+   "event_title": "WTA Finals, Group A: Marta Kostyuk vs Linda Noskova",
+   "status": "bet",
+   "best": {
+    "market_id": "POLY-6823180-0",
+    "type": "moneyline",
+    "label": "Marta Kostyuk",
+    "status": "open",
+    "selection": "Marta Kostyuk to win",
+    "model_p": 0.5298,
+    "mc_lower_95": 0.5267,
+    "score_consistent": true,
+    "price": 0.47,
+    "implied": 0.4874,
+    "edge": 0.0424,
+    "ev_per_1": 0.0869,
+    "eligible": true
+   },
+   "verdict": "Marta Kostyuk to win @ 0.47 (model 53.0%, edge 4.2 pts, EV +8.7%)",
+   "outcomes": [
+    {
+     "market_id": "POLY-6823182",
+     "type": "tennis_completed_match",
+     "label": "Yes",
+     "status": "open",
+     "skip": "market type tennis_completed_match not modelled"
+    },
+    {
+     "market_id": "POLY-6823180-0",
+     "type": "moneyline",
+     "label": "Marta Kostyuk",
+     "status": "open",
+     "selection": "Marta Kostyuk to win",
+     "model_p": 0.5298,
+     "mc_lower_95": 0.5267,
+     "score_consistent": true,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": 0.0424,
+     "ev_per_1": 0.0869,
+     "eligible": true
+    },
+    {
+     "market_id": "POLY-6823180-1",
+     "type": "moneyline",
+     "label": "Linda Noskova",
+     "status": "open",
+     "selection": "Linda Noskova to win",
+     "model_p": 0.4702,
+     "mc_lower_95": 0.4671,
+     "score_consistent": false,
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.1269,
+     "ev_per_1": -0.2125,
+     "eligible": false
+    }
+   ],
+   "n_priced": 2,
+   "n_eligible": 1
   },
   {
    "espn_id": "187374",
@@ -1784,13 +2054,13 @@
     "model_p": 0.5533,
     "mc_lower_95": 0.5502,
     "score_consistent": true,
-    "price": 0.42,
-    "implied": 0.4371,
-    "edge": 0.1162,
-    "ev_per_1": 0.266,
+    "price": 0.41,
+    "implied": 0.4269,
+    "edge": 0.1264,
+    "ev_per_1": 0.296,
     "eligible": true
    },
-   "verdict": "Jessica Pegula to win @ 0.42 (model 55.3%, edge 11.6 pts, EV +26.6%)",
+   "verdict": "Jessica Pegula to win @ 0.41 (model 55.3%, edge 12.6 pts, EV +29.6%)",
    "outcomes": [
     {
      "market_id": "POLY-6739674",
@@ -1823,10 +2093,10 @@
      "model_p": 0.5533,
      "mc_lower_95": 0.5502,
      "score_consistent": true,
-     "price": 0.42,
-     "implied": 0.4371,
-     "edge": 0.1162,
-     "ev_per_1": 0.266,
+     "price": 0.41,
+     "implied": 0.4269,
+     "edge": 0.1264,
+     "ev_per_1": 0.296,
      "eligible": true
     },
     {
@@ -1868,10 +2138,10 @@
      "model_p": 0.5074,
      "mc_lower_95": 0.5043,
      "score_consistent": false,
-     "price": 0.54,
-     "implied": 0.5574,
-     "edge": -0.05,
-     "ev_per_1": -0.0896,
+     "price": 0.53,
+     "implied": 0.5474,
+     "edge": -0.04,
+     "ev_per_1": -0.0731,
      "eligible": false
     },
     {
@@ -1898,10 +2168,10 @@
      "model_p": 0.443,
      "mc_lower_95": 0.4399,
      "score_consistent": false,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": -0.0545,
-     "ev_per_1": -0.1096,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0445,
+     "ev_per_1": -0.0912,
      "eligible": false
     },
     {
@@ -1913,10 +2183,10 @@
      "model_p": 0.557,
      "mc_lower_95": 0.554,
      "score_consistent": true,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": -0.0202,
-     "ev_per_1": -0.035,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.0103,
+     "ev_per_1": -0.0181,
      "eligible": false
     },
     {
@@ -1943,10 +2213,10 @@
      "model_p": 0.6013,
      "mc_lower_95": 0.5983,
      "score_consistent": true,
-     "price": 0.62,
-     "implied": 0.6365,
-     "edge": -0.0352,
-     "ev_per_1": -0.0553,
+     "price": 0.59,
+     "implied": 0.6069,
+     "edge": -0.0056,
+     "ev_per_1": -0.0092,
      "eligible": false
     },
     {
@@ -1988,10 +2258,10 @@
      "model_p": 0.4018,
      "mc_lower_95": 0.3988,
      "score_consistent": false,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": -0.1754,
-     "ev_per_1": -0.3039,
+     "price": 0.55,
+     "implied": 0.5673,
+     "edge": -0.1655,
+     "ev_per_1": -0.2917,
      "eligible": false
     },
     {
@@ -2003,10 +2273,10 @@
      "model_p": 0.5982,
      "mc_lower_95": 0.5951,
      "score_consistent": true,
-     "price": 0.48,
-     "implied": 0.4975,
-     "edge": 0.1007,
-     "ev_per_1": 0.2024,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": 0.1107,
+     "ev_per_1": 0.2272,
      "eligible": true
     }
    ],

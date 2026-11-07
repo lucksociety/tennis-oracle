@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
- "n": 17,
- "passed": 17,
+ "n": 19,
+ "passed": 19,
  "results": [
   {
    "match": "Ben Shelton vs Carlos Alcaraz",
@@ -308,6 +308,42 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-08/187457-inaki-montes-de-la-torre-vs-lorenzo-sonego/v1.json"
+  },
+  {
+   "match": "Katrina Scott vs Maria Camila Torres Murcia",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0019,
+   "reproduction": {
+    "frozen_p_a": 0.4516,
+    "rerun_p_a": 0.4516,
+    "frozen_games_mean": 22.7,
+    "rerun_games_mean": 22.7,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-08/187459-katrina-scott-vs-maria-camila-torres-murcia/v1.json"
+  },
+  {
+   "match": "Maria Herazo Gonzalez vs Maria Jose Sanchez Uribe",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0035,
+   "reproduction": {
+    "frozen_p_a": 0.5012,
+    "rerun_p_a": 0.5012,
+    "frozen_games_mean": 22.65,
+    "rerun_games_mean": 22.65,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-08/187461-maria-herazo-gonzalez-vs-maria-jose-sanchez-uribe/v1.json"
   }
  ]
 }

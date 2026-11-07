@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-07T20:57:22+00:00",
+ "generated_at_utc": "2026-11-07T23:39:46+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1224,6 +1224,173 @@
    }
   },
   {
+   "espn_id": "187459",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Qualifying Final",
+   "court": "Main Court",
+   "start_utc": "2026-11-08T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Katrina Scott",
+     "id": "wta:221512"
+    },
+    {
+     "name": "Maria Camila Torres Murcia",
+     "id": "wta:222000"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T23:39:44+00:00",
+    "path": "forecasts/2026-11-08/187459-katrina-scott-vs-maria-camila-torres-murcia/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Maria Camila Torres Murcia",
+    "win_prob": {
+     "A": 0.4516,
+     "B": 0.5484
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3503
+    },
+    "games_mean": 22.7,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7276,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history",
+      "Maria Camila Torres Murcia: serve/return statistics missing, future-dated or older than 60 days"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4516,
+      "B": 0.5484
+     },
+     "set_score_probs": {
+      "0-2": 0.3503,
+      "2-0": 0.2735,
+      "1-2": 0.1981,
+      "2-1": 0.1781
+     },
+     "games_pmf": {
+      "12": 0.00213,
+      "13": 0.00982,
+      "14": 0.02353,
+      "15": 0.04344,
+      "16": 0.06303,
+      "17": 0.08331,
+      "18": 0.08324,
+      "19": 0.07964,
+      "20": 0.06793,
+      "21": 0.04991,
+      "22": 0.06058,
+      "23": 0.04143,
+      "24": 0.02097,
+      "25": 0.03633,
+      "26": 0.04142,
+      "27": 0.03757,
+      "28": 0.04168,
+      "29": 0.04126,
+      "30": 0.03994,
+      "31": 0.03801,
+      "32": 0.03109,
+      "33": 0.02045,
+      "34": 0.01539,
+      "35": 0.01477,
+      "36": 0.00689,
+      "37": 0.00189,
+      "38": 0.00269,
+      "39": 0.00166
+     },
+     "games_diff_pmf": {
+      "-12": 0.00147,
+      "-11": 0.00623,
+      "-10": 0.01471,
+      "-9": 0.02739,
+      "-8": 0.04372,
+      "-7": 0.06517,
+      "-6": 0.0782,
+      "-5": 0.08481,
+      "-4": 0.08265,
+      "-3": 0.06008,
+      "-2": 0.04087,
+      "-1": 0.02983,
+      "0": 0.02827,
+      "1": 0.02867,
+      "2": 0.03825,
+      "3": 0.05382,
+      "4": 0.06978,
+      "5": 0.07038,
+      "6": 0.06112,
+      "7": 0.05076,
+      "8": 0.0312,
+      "9": 0.01866,
+      "10": 0.00961,
+      "11": 0.00369,
+      "12": 0.00066
+     },
+     "p_tiebreak": 0.2724,
+     "p_decider": 0.3762
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0019
+   }
+  },
+  {
+   "espn_id": "187458",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Qualifying Final",
+   "court": "Court 1",
+   "start_utc": "2026-11-08T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Carolina Alves",
+     "id": "wta:206430"
+    },
+    {
+     "name": "Sara Alejandra Lozano Avellaneda",
+     "id": null
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  },
+  {
    "espn_id": "186528",
    "tour": "atp",
    "tournament": "Bybit Stockholm Open",
@@ -1357,6 +1524,174 @@
     "seed": 20261027,
     "cross_check_max_diff": 0.0032
    }
+  },
+  {
+   "espn_id": "187461",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Qualifying Final",
+   "court": "Main Court",
+   "start_utc": "2026-11-08T16:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Maria Herazo Gonzalez",
+     "id": "wta:espn2670"
+    },
+    {
+     "name": "Maria Jose Sanchez Uribe",
+     "id": "wta:263775"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T23:39:46+00:00",
+    "path": "forecasts/2026-11-08/187461-maria-herazo-gonzalez-vs-maria-jose-sanchez-uribe/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Maria Herazo Gonzalez",
+    "win_prob": {
+     "A": 0.5012,
+     "B": 0.4988
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-4"
+     ],
+     "prob": 0.313
+    },
+    "games_mean": 22.65,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7344,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history",
+      "Maria Herazo Gonzalez: serve/return statistics missing, future-dated or older than 60 days",
+      "Maria Jose Sanchez Uribe: serve/return statistics missing, future-dated or older than 60 days"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5012,
+      "B": 0.4988
+     },
+     "set_score_probs": {
+      "2-0": 0.313,
+      "0-2": 0.3113,
+      "2-1": 0.1882,
+      "1-2": 0.1875
+     },
+     "games_pmf": {
+      "12": 0.00225,
+      "13": 0.00996,
+      "14": 0.02256,
+      "15": 0.0447,
+      "16": 0.06599,
+      "17": 0.08243,
+      "18": 0.0821,
+      "19": 0.07883,
+      "20": 0.06846,
+      "21": 0.05089,
+      "22": 0.06132,
+      "23": 0.04152,
+      "24": 0.02161,
+      "25": 0.03637,
+      "26": 0.04125,
+      "27": 0.0375,
+      "28": 0.04148,
+      "29": 0.04171,
+      "30": 0.04031,
+      "31": 0.03657,
+      "32": 0.03085,
+      "33": 0.01966,
+      "34": 0.01501,
+      "35": 0.01414,
+      "36": 0.00708,
+      "37": 0.00166,
+      "38": 0.00267,
+      "39": 0.00112
+     },
+     "games_diff_pmf": {
+      "-12": 0.00116,
+      "-11": 0.0047,
+      "-10": 0.01145,
+      "-9": 0.02334,
+      "-8": 0.03914,
+      "-7": 0.0582,
+      "-6": 0.06836,
+      "-5": 0.07673,
+      "-4": 0.0759,
+      "-3": 0.05633,
+      "-2": 0.04004,
+      "-1": 0.02918,
+      "0": 0.02819,
+      "1": 0.02931,
+      "2": 0.03871,
+      "3": 0.05573,
+      "4": 0.07662,
+      "5": 0.0769,
+      "6": 0.07122,
+      "7": 0.05714,
+      "8": 0.03926,
+      "9": 0.02413,
+      "10": 0.0118,
+      "11": 0.00537,
+      "12": 0.00109
+     },
+     "p_tiebreak": 0.2656,
+     "p_decider": 0.3757
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0035
+   }
+  },
+  {
+   "espn_id": "187460",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Qualifying Final",
+   "court": "Court 1",
+   "start_utc": "2026-11-08T16:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Dalila Jakupovic",
+     "id": "wta:203435"
+    },
+    {
+     "name": "Isabella Collazos",
+     "id": null
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
    "espn_id": "187373",
