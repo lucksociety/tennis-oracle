@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
- "snapshot_at_utc": "2026-11-07T20:16:24Z",
- "snapshot_path": "market_snapshots/2026-11-08/20261107T201624Z.json",
+ "snapshot_at_utc": "2026-11-07T20:58:42Z",
+ "snapshot_path": "market_snapshots/2026-11-08/20261107T205842Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -165,10 +165,10 @@
      "model_p": 0.3761,
      "mc_lower_95": 0.373,
      "score_consistent": false,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": -0.1114,
-     "ev_per_1": -0.2285,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.1314,
+     "ev_per_1": -0.259,
      "eligible": false
     },
     {
@@ -322,7 +322,7 @@
      "model_p": 0.396,
      "mc_lower_95": 0.393,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808202-1",
@@ -333,7 +333,7 @@
      "model_p": 0.604,
      "mc_lower_95": 0.601,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808204-0",
@@ -344,7 +344,11 @@
      "model_p": 0.6333,
      "mc_lower_95": 0.6303,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.3481,
+     "ev_per_1": -0.3547,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808204-1",
@@ -355,7 +359,7 @@
      "model_p": 0.3667,
      "mc_lower_95": 0.3637,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808206-0",
@@ -366,7 +370,11 @@
      "model_p": 0.5414,
      "mc_lower_95": 0.5383,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.4399,
+     "ev_per_1": -0.4483,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808206-1",
@@ -377,7 +385,7 @@
      "model_p": 0.4586,
      "mc_lower_95": 0.4555,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808208-0",
@@ -388,7 +396,11 @@
      "model_p": 0.4656,
      "mc_lower_95": 0.4625,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.5157,
+     "ev_per_1": -0.5255,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808208-1",
@@ -399,7 +411,7 @@
      "model_p": 0.5344,
      "mc_lower_95": 0.5313,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808210-0",
@@ -410,7 +422,7 @@
      "model_p": 0.3764,
      "mc_lower_95": 0.3734,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808210-1",
@@ -432,7 +444,7 @@
      "model_p": 0.3603,
      "mc_lower_95": 0.3574,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808211-1",
@@ -443,10 +455,10 @@
      "model_p": 0.6397,
      "mc_lower_95": 0.6367,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     }
    ],
-   "n_priced": 2,
+   "n_priced": 5,
    "n_eligible": 0
   },
   {
@@ -488,10 +500,10 @@
      "model_p": 0.4659,
      "mc_lower_95": 0.4628,
      "score_consistent": false,
-     "price": 0.52,
-     "implied": 0.5375,
-     "edge": -0.0716,
-     "ev_per_1": -0.1332,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0516,
+     "ev_per_1": -0.0997,
      "eligible": false
     },
     {
@@ -503,7 +515,7 @@
      "model_p": 0.3921,
      "mc_lower_95": 0.3891,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808164-1",
@@ -514,7 +526,7 @@
      "model_p": 0.6079,
      "mc_lower_95": 0.6049,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808170-0",
@@ -525,7 +537,11 @@
      "model_p": 0.5659,
      "mc_lower_95": 0.5629,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.4154,
+     "ev_per_1": -0.4233,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808170-1",
@@ -536,7 +552,7 @@
      "model_p": 0.4341,
      "mc_lower_95": 0.431,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808176-0",
@@ -547,7 +563,11 @@
      "model_p": 0.4898,
      "mc_lower_95": 0.4867,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.4916,
+     "ev_per_1": -0.5009,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808176-1",
@@ -558,7 +578,7 @@
      "model_p": 0.5102,
      "mc_lower_95": 0.5071,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808182-0",
@@ -569,7 +589,11 @@
      "model_p": 0.4324,
      "mc_lower_95": 0.4293,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.549,
+     "ev_per_1": -0.5594,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808182-1",
@@ -580,7 +604,7 @@
      "model_p": 0.5676,
      "mc_lower_95": 0.5645,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808189-0",
@@ -591,7 +615,7 @@
      "model_p": 0.3318,
      "mc_lower_95": 0.3289,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808189-1",
@@ -613,7 +637,7 @@
      "model_p": 0.2761,
      "mc_lower_95": 0.2733,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808194-1",
@@ -627,7 +651,7 @@
      "skip": "no ask price (no liquidity)"
     }
    ],
-   "n_priced": 2,
+   "n_priced": 5,
    "n_eligible": 0
   },
   {
@@ -654,10 +678,10 @@
      "model_p": 0.6241,
      "mc_lower_95": 0.6211,
      "score_consistent": true,
-     "price": 0.74,
-     "implied": 0.7535,
-     "edge": -0.1294,
-     "ev_per_1": -0.1717,
+     "price": 0.71,
+     "implied": 0.7244,
+     "edge": -0.1003,
+     "ev_per_1": -0.1385,
      "eligible": false
     },
     {
@@ -684,7 +708,7 @@
      "model_p": 0.3826,
      "mc_lower_95": 0.3796,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808165-1",
@@ -695,7 +719,7 @@
      "model_p": 0.6174,
      "mc_lower_95": 0.6144,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808171-0",
@@ -706,7 +730,11 @@
      "model_p": 0.5644,
      "mc_lower_95": 0.5613,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.417,
+     "ev_per_1": -0.4249,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808171-1",
@@ -717,7 +745,7 @@
      "model_p": 0.4356,
      "mc_lower_95": 0.4325,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808178-0",
@@ -728,7 +756,11 @@
      "model_p": 0.4862,
      "mc_lower_95": 0.4831,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.4951,
+     "ev_per_1": -0.5045,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808178-1",
@@ -739,7 +771,7 @@
      "model_p": 0.5138,
      "mc_lower_95": 0.5107,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808184-0",
@@ -750,7 +782,11 @@
      "model_p": 0.4265,
      "mc_lower_95": 0.4234,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.98,
+     "implied": 0.9814,
+     "edge": -0.5549,
+     "ev_per_1": -0.5654,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808184-1",
@@ -761,7 +797,7 @@
      "model_p": 0.5735,
      "mc_lower_95": 0.5704,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808190-0",
@@ -772,7 +808,7 @@
      "model_p": 0.4078,
      "mc_lower_95": 0.4048,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "skip": "ask at 0.99 placeholder (no real liquidity)"
     },
     {
      "market_id": "POLY-6808190-1",
@@ -786,7 +822,7 @@
      "skip": "no ask price (no liquidity)"
     }
    ],
-   "n_priced": 2,
+   "n_priced": 5,
    "n_eligible": 0
   },
   {
@@ -813,10 +849,10 @@
      "model_p": 0.6323,
      "mc_lower_95": 0.6293,
      "score_consistent": true,
-     "price": 0.7,
-     "implied": 0.7147,
-     "edge": -0.0824,
-     "ev_per_1": -0.1153,
+     "price": 0.67,
+     "implied": 0.6855,
+     "edge": -0.0532,
+     "ev_per_1": -0.0776,
      "eligible": false
     },
     {
@@ -828,10 +864,10 @@
      "model_p": 0.3677,
      "mc_lower_95": 0.3647,
      "score_consistent": false,
-     "price": 0.35,
-     "implied": 0.3659,
-     "edge": 0.0018,
-     "ev_per_1": 0.0049,
+     "price": 0.34,
+     "implied": 0.3557,
+     "edge": 0.012,
+     "ev_per_1": 0.0337,
      "eligible": false
     },
     {
@@ -843,10 +879,10 @@
      "model_p": 0.3726,
      "mc_lower_95": 0.3696,
      "score_consistent": false,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5994,
-     "ev_per_1": -0.6167,
+     "price": 0.39,
+     "implied": 0.4067,
+     "edge": -0.0341,
+     "ev_per_1": -0.0837,
      "eligible": false
     },
     {
@@ -858,10 +894,10 @@
      "model_p": 0.6274,
      "mc_lower_95": 0.6244,
      "score_consistent": true,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.3446,
-     "ev_per_1": -0.3546,
+     "price": 0.63,
+     "implied": 0.6463,
+     "edge": -0.0189,
+     "ev_per_1": -0.0293,
      "eligible": false
     },
     {
@@ -873,10 +909,10 @@
      "model_p": 0.5259,
      "mc_lower_95": 0.5228,
      "score_consistent": false,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.4368,
-     "ev_per_1": -0.4537,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.0315,
+     "ev_per_1": -0.0565,
      "eligible": false
     },
     {
@@ -888,10 +924,10 @@
      "model_p": 0.4741,
      "mc_lower_95": 0.471,
      "score_consistent": false,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.4979,
-     "ev_per_1": -0.5123,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0334,
+     "ev_per_1": -0.0658,
      "eligible": false
     },
     {
@@ -903,10 +939,10 @@
      "model_p": 0.4539,
      "mc_lower_95": 0.4508,
      "score_consistent": false,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.5088,
-     "ev_per_1": -0.5285,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0335,
+     "ev_per_1": -0.0687,
      "eligible": false
     },
     {
@@ -918,10 +954,10 @@
      "model_p": 0.5461,
      "mc_lower_95": 0.543,
      "score_consistent": true,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.426,
-     "ev_per_1": -0.4382,
+     "price": 0.57,
+     "implied": 0.5872,
+     "edge": -0.0411,
+     "ev_per_1": -0.07,
      "eligible": false
     },
     {
@@ -963,10 +999,10 @@
      "model_p": 0.4215,
      "mc_lower_95": 0.4184,
      "score_consistent": true,
-     "price": 0.97,
-     "implied": 0.972,
-     "edge": -0.5505,
-     "ev_per_1": -0.5664,
+     "price": 0.46,
+     "implied": 0.4774,
+     "edge": -0.0559,
+     "ev_per_1": -0.1171,
      "eligible": false
     },
     {
@@ -978,10 +1014,10 @@
      "model_p": 0.5785,
      "mc_lower_95": 0.5754,
      "score_consistent": false,
-     "price": 0.58,
-     "implied": 0.5971,
-     "edge": -0.0186,
-     "ev_per_1": -0.0311,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": 0.0013,
+     "ev_per_1": 0.0022,
      "eligible": false
     },
     {
@@ -1016,21 +1052,21 @@
    "event_title": "Rolex Paris Masters: Ben Shelton vs Carlos Alcaraz",
    "status": "bet",
    "best": {
-    "market_id": "POLY-6808132-1",
-    "type": "tennis_match_totals",
-    "label": "Under 22.5",
+    "market_id": "POLY-6808120-1",
+    "type": "tennis_set_totals",
+    "label": "Under 2.5",
     "status": "open",
-    "selection": "Under 22.5 games",
-    "model_p": 0.5106,
-    "mc_lower_95": 0.5075,
+    "selection": "Under 2.5 sets",
+    "model_p": 0.6529,
+    "mc_lower_95": 0.6499,
     "score_consistent": true,
-    "price": 0.47,
-    "implied": 0.4874,
-    "edge": 0.0232,
-    "ev_per_1": 0.0476,
+    "price": 0.63,
+    "implied": 0.6463,
+    "edge": 0.0066,
+    "ev_per_1": 0.0102,
     "eligible": true
    },
-   "verdict": "Under 22.5 games @ 0.47 (model 51.1%, edge 2.3 pts, EV +4.8%)",
+   "verdict": "Under 2.5 sets @ 0.63 (model 65.3%, edge 0.7 pts, EV +1.0%)",
    "outcomes": [
     {
      "market_id": "POLY-6806543",
@@ -1048,10 +1084,10 @@
      "model_p": 0.2425,
      "mc_lower_95": 0.2398,
      "score_consistent": false,
-     "price": 0.25,
-     "implied": 0.2631,
-     "edge": -0.0206,
-     "ev_per_1": -0.0784,
+     "price": 0.24,
+     "implied": 0.2528,
+     "edge": -0.0103,
+     "ev_per_1": -0.0406,
      "eligible": false
     },
     {
@@ -1063,10 +1099,10 @@
      "model_p": 0.7575,
      "mc_lower_95": 0.7548,
      "score_consistent": true,
-     "price": 0.76,
-     "implied": 0.7728,
-     "edge": -0.0153,
-     "ev_per_1": -0.0198,
+     "price": 0.77,
+     "implied": 0.7824,
+     "edge": -0.0249,
+     "ev_per_1": -0.0318,
      "eligible": false
     },
     {
@@ -1078,10 +1114,10 @@
      "model_p": 0.3471,
      "mc_lower_95": 0.3441,
      "score_consistent": false,
-     "price": 0.39,
-     "implied": 0.4067,
-     "edge": -0.0596,
-     "ev_per_1": -0.1464,
+     "price": 0.38,
+     "implied": 0.3965,
+     "edge": -0.0494,
+     "ev_per_1": -0.1246,
      "eligible": false
     },
     {
@@ -1108,10 +1144,10 @@
      "model_p": 0.58,
      "mc_lower_95": 0.5769,
      "score_consistent": false,
-     "price": 0.96,
-     "implied": 0.9627,
-     "edge": -0.3827,
-     "ev_per_1": -0.3976,
+     "price": 0.65,
+     "implied": 0.6659,
+     "edge": -0.086,
+     "ev_per_1": -0.1291,
      "eligible": false
     },
     {
@@ -1123,10 +1159,10 @@
      "model_p": 0.42,
      "mc_lower_95": 0.417,
      "score_consistent": false,
-     "price": 0.62,
-     "implied": 0.6365,
-     "edge": -0.2165,
-     "ev_per_1": -0.3401,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": -0.0875,
+     "ev_per_1": -0.1723,
      "eligible": false
     },
     {
@@ -1138,10 +1174,10 @@
      "model_p": 0.4894,
      "mc_lower_95": 0.4863,
      "score_consistent": false,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.078,
-     "ev_per_1": -0.1374,
+     "price": 0.54,
+     "implied": 0.5574,
+     "edge": -0.068,
+     "ev_per_1": -0.122,
      "eligible": false
     },
     {
@@ -1153,10 +1189,10 @@
      "model_p": 0.5106,
      "mc_lower_95": 0.5075,
      "score_consistent": true,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": 0.0232,
-     "ev_per_1": 0.0476,
+     "price": 0.49,
+     "implied": 0.5075,
+     "edge": 0.0031,
+     "ev_per_1": 0.0062,
      "eligible": true
     },
     {
@@ -1168,10 +1204,10 @@
      "model_p": 0.4146,
      "mc_lower_95": 0.4115,
      "score_consistent": false,
-     "price": 0.46,
-     "implied": 0.4774,
-     "edge": -0.0628,
-     "ev_per_1": -0.1316,
+     "price": 0.45,
+     "implied": 0.4673,
+     "edge": -0.0528,
+     "ev_per_1": -0.1129,
      "eligible": false
     },
     {
@@ -1183,11 +1219,11 @@
      "model_p": 0.5855,
      "mc_lower_95": 0.5824,
      "score_consistent": true,
-     "price": 0.56,
-     "implied": 0.5772,
-     "edge": 0.0082,
-     "ev_per_1": 0.0142,
-     "eligible": true
+     "price": 0.57,
+     "implied": 0.5872,
+     "edge": -0.0017,
+     "ev_per_1": -0.0029,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808143-0",
@@ -1228,11 +1264,11 @@
      "model_p": 0.5119,
      "mc_lower_95": 0.5088,
      "score_consistent": true,
-     "price": 0.49,
-     "implied": 0.5075,
-     "edge": 0.0044,
-     "ev_per_1": 0.0086,
-     "eligible": true
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": -0.0256,
+     "ev_per_1": -0.0477,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808148-1",
@@ -1243,15 +1279,15 @@
      "model_p": 0.4881,
      "mc_lower_95": 0.485,
      "score_consistent": false,
-     "price": 0.53,
-     "implied": 0.5474,
-     "edge": -0.0593,
-     "ev_per_1": -0.1083,
+     "price": 0.5,
+     "implied": 0.5175,
+     "edge": -0.0294,
+     "ev_per_1": -0.0567,
      "eligible": false
     }
    ],
    "n_priced": 14,
-   "n_eligible": 5
+   "n_eligible": 3
   },
   {
    "espn_id": "186534",
@@ -1337,10 +1373,10 @@
      "model_p": 0.586,
      "mc_lower_95": 0.5829,
      "score_consistent": false,
-     "price": 0.57,
-     "implied": 0.5872,
-     "edge": -0.0012,
-     "ev_per_1": -0.002,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": 0.0087,
+     "ev_per_1": 0.0151,
      "eligible": false
     },
     {
@@ -1397,10 +1433,10 @@
      "model_p": 0.4405,
      "mc_lower_95": 0.4374,
      "score_consistent": false,
-     "price": 0.92,
-     "implied": 0.9252,
-     "edge": -0.4846,
-     "ev_per_1": -0.5239,
+     "price": 0.89,
+     "implied": 0.8969,
+     "edge": -0.4563,
+     "ev_per_1": -0.5088,
      "eligible": false
     },
     {
@@ -1457,7 +1493,11 @@
      "model_p": 0.3695,
      "mc_lower_95": 0.3665,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.58,
+     "implied": 0.5971,
+     "edge": -0.2275,
+     "ev_per_1": -0.3811,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808195-1",
@@ -1468,10 +1508,14 @@
      "model_p": 0.6305,
      "mc_lower_95": 0.6275,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.93,
+     "implied": 0.9346,
+     "edge": -0.3041,
+     "ev_per_1": -0.3254,
+     "eligible": false
     }
    ],
-   "n_priced": 12,
+   "n_priced": 14,
    "n_eligible": 0
   },
   {
@@ -1632,7 +1676,11 @@
      "model_p": 0.4163,
      "mc_lower_95": 0.4132,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.93,
+     "implied": 0.9346,
+     "edge": -0.5183,
+     "ev_per_1": -0.5546,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808183-1",
@@ -1643,7 +1691,11 @@
      "model_p": 0.5837,
      "mc_lower_95": 0.5807,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.57,
+     "implied": 0.5872,
+     "edge": -0.0034,
+     "ev_per_1": -0.0058,
+     "eligible": false
     },
     {
      "market_id": "POLY-6808188-0",
@@ -1669,10 +1721,10 @@
      "model_p": 0.5489,
      "mc_lower_95": 0.5458,
      "score_consistent": false,
-     "price": 0.65,
-     "implied": 0.6659,
-     "edge": -0.117,
-     "ev_per_1": -0.1757,
+     "price": 0.64,
+     "implied": 0.6561,
+     "edge": -0.1072,
+     "ev_per_1": -0.1634,
      "eligible": false
     },
     {
@@ -1684,7 +1736,11 @@
      "model_p": 0.5584,
      "mc_lower_95": 0.5554,
      "score_consistent": true,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.52,
+     "implied": 0.5375,
+     "edge": 0.021,
+     "ev_per_1": 0.039,
+     "eligible": true
     },
     {
      "market_id": "POLY-6808193-1",
@@ -1695,11 +1751,15 @@
      "model_p": 0.4416,
      "mc_lower_95": 0.4385,
      "score_consistent": false,
-     "skip": "no ask price (no liquidity)"
+     "price": 0.51,
+     "implied": 0.5275,
+     "edge": -0.0859,
+     "ev_per_1": -0.1629,
+     "eligible": false
     }
    ],
-   "n_priced": 10,
-   "n_eligible": 2
+   "n_priced": 14,
+   "n_eligible": 3
   },
   {
    "espn_id": "187373",
@@ -1838,10 +1898,10 @@
      "model_p": 0.443,
      "mc_lower_95": 0.4399,
      "score_consistent": false,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": -0.0445,
-     "ev_per_1": -0.0912,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": -0.0545,
+     "ev_per_1": -0.1096,
      "eligible": false
     },
     {
@@ -1853,10 +1913,10 @@
      "model_p": 0.557,
      "mc_lower_95": 0.554,
      "score_consistent": true,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.0103,
-     "ev_per_1": -0.0181,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.0202,
+     "ev_per_1": -0.035,
      "eligible": false
     },
     {
@@ -1868,10 +1928,10 @@
      "model_p": 0.3987,
      "mc_lower_95": 0.3956,
      "score_consistent": false,
-     "price": 0.46,
-     "implied": 0.4774,
-     "edge": -0.0787,
-     "ev_per_1": -0.1649,
+     "price": 0.47,
+     "implied": 0.4874,
+     "edge": -0.0888,
+     "ev_per_1": -0.1821,
      "eligible": false
     },
     {
@@ -1883,10 +1943,10 @@
      "model_p": 0.6013,
      "mc_lower_95": 0.5983,
      "score_consistent": true,
-     "price": 0.61,
-     "implied": 0.6267,
-     "edge": -0.0253,
-     "ev_per_1": -0.0404,
+     "price": 0.62,
+     "implied": 0.6365,
+     "edge": -0.0352,
+     "ev_per_1": -0.0553,
      "eligible": false
     },
     {
@@ -1928,10 +1988,10 @@
      "model_p": 0.4018,
      "mc_lower_95": 0.3988,
      "score_consistent": false,
-     "price": 0.55,
-     "implied": 0.5673,
-     "edge": -0.1655,
-     "ev_per_1": -0.2917,
+     "price": 0.56,
+     "implied": 0.5772,
+     "edge": -0.1754,
+     "ev_per_1": -0.3039,
      "eligible": false
     },
     {
@@ -1943,10 +2003,10 @@
      "model_p": 0.5982,
      "mc_lower_95": 0.5951,
      "score_consistent": true,
-     "price": 0.47,
-     "implied": 0.4874,
-     "edge": 0.1107,
-     "ev_per_1": 0.2272,
+     "price": 0.48,
+     "implied": 0.4975,
+     "edge": 0.1007,
+     "ev_per_1": 0.2024,
      "eligible": true
     }
    ],
