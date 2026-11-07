@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-07T05:58:39+00:00",
+ "generated_at_utc": "2026-11-07T14:55:54+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -35,11 +35,11 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
-   "espn_id": "186523",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
+   "espn_id": "186690",
+   "tour": "wta",
+   "tournament": "Angola Ladies Open",
+   "venue": "Luanda, Angola",
+   "round": "Final",
    "court": "",
    "start_utc": "2026-11-08T05:00Z",
    "status": "STATUS_SCHEDULED",
@@ -50,12 +50,12 @@
      "id": null
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Sofya Lansere",
+     "id": "wta:216139"
     }
    ],
    "surface": "Hard",
-   "surface_source": "venue-history",
+   "surface_source": "official-wta-current-edition",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
@@ -64,42 +64,148 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
-   "espn_id": "187454",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Qualifying Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "espn_id": "186642",
+   "tour": "wta",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "venue": "Hong Kong, Hong Kong, China",
+   "round": "Final",
+   "court": "Centre Court",
+   "start_utc": "2026-11-08T08:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Claire Liu",
+     "id": "wta:214906"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Alexandra Eala",
+     "id": "wta:223253"
     }
    ],
    "surface": "Hard",
-   "surface_source": "venue-history",
+   "surface_source": "official-wta-current-edition",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T14:55:43+00:00",
+    "path": "forecasts/2026-11-08/186642-claire-liu-vs-alexandra-eala/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alexandra Eala",
+    "win_prob": {
+     "A": 0.3543,
+     "B": 0.6457
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4365
+    },
+    "games_mean": 22.5,
+    "strongest": {
+     "selection": "Alexandra Eala to win at least one set",
+     "probability": 0.7987,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3543,
+      "B": 0.6457
+     },
+     "set_score_probs": {
+      "0-2": 0.4365,
+      "1-2": 0.2092,
+      "2-0": 0.2013,
+      "2-1": 0.153
+     },
+     "games_pmf": {
+      "12": 0.00268,
+      "13": 0.01137,
+      "14": 0.0258,
+      "15": 0.04804,
+      "16": 0.06729,
+      "17": 0.08346,
+      "18": 0.08518,
+      "19": 0.07889,
+      "20": 0.06868,
+      "21": 0.05069,
+      "22": 0.05914,
+      "23": 0.0401,
+      "24": 0.01938,
+      "25": 0.03645,
+      "26": 0.03971,
+      "27": 0.03653,
+      "28": 0.03873,
+      "29": 0.04036,
+      "30": 0.03716,
+      "31": 0.0362,
+      "32": 0.03234,
+      "33": 0.02033,
+      "34": 0.01435,
+      "35": 0.01425,
+      "36": 0.00736,
+      "37": 0.00169,
+      "38": 0.00262,
+      "39": 0.00122
+     },
+     "games_diff_pmf": {
+      "-12": 0.00238,
+      "-11": 0.00943,
+      "-10": 0.02169,
+      "-9": 0.0395,
+      "-8": 0.0586,
+      "-7": 0.08139,
+      "-6": 0.09389,
+      "-5": 0.09845,
+      "-4": 0.09126,
+      "-3": 0.06499,
+      "-2": 0.04111,
+      "-1": 0.02987,
+      "0": 0.02761,
+      "1": 0.02728,
+      "2": 0.0338,
+      "3": 0.04557,
+      "4": 0.05798,
+      "5": 0.05601,
+      "6": 0.04687,
+      "7": 0.03398,
+      "8": 0.02006,
+      "9": 0.01108,
+      "10": 0.00487,
+      "11": 0.00203,
+      "12": 0.0003
+     },
+     "p_tiebreak": 0.2724,
+     "p_decider": 0.3622
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0017
+   }
   },
   {
-   "espn_id": "187455",
+   "espn_id": "187457",
    "tour": "atp",
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Qualifying Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "court": "Court 1",
+   "start_utc": "2026-11-08T11:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -127,18 +233,18 @@
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Qualifying Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-08T11:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Nikoloz Basilashvili",
+     "id": "atp:105932"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Borna Gojo",
+     "id": "atp:127339"
     }
    ],
    "surface": "Hard",
@@ -147,17 +253,123 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T14:55:45+00:00",
+    "path": "forecasts/2026-11-08/187456-nikoloz-basilashvili-vs-borna-gojo/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Nikoloz Basilashvili",
+    "win_prob": {
+     "A": 0.5945,
+     "B": 0.4055
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3764
+    },
+    "games_mean": 24.85,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8384,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5945,
+      "B": 0.4055
+     },
+     "set_score_probs": {
+      "2-0": 0.3764,
+      "0-2": 0.2277,
+      "2-1": 0.2182,
+      "1-2": 0.1778
+     },
+     "games_pmf": {
+      "12": 0.00023,
+      "13": 0.00188,
+      "14": 0.00543,
+      "15": 0.01532,
+      "16": 0.0267,
+      "17": 0.05119,
+      "18": 0.06083,
+      "19": 0.07855,
+      "20": 0.07661,
+      "21": 0.04998,
+      "22": 0.09185,
+      "23": 0.07579,
+      "24": 0.00904,
+      "25": 0.03284,
+      "26": 0.06008,
+      "27": 0.02278,
+      "28": 0.02972,
+      "29": 0.03313,
+      "30": 0.03314,
+      "31": 0.04474,
+      "32": 0.04957,
+      "33": 0.03056,
+      "34": 0.023,
+      "35": 0.03938,
+      "36": 0.03015,
+      "37": 0.00258,
+      "38": 0.01028,
+      "39": 0.01465
+     },
+     "games_diff_pmf": {
+      "-12": 4e-05,
+      "-11": 0.00049,
+      "-10": 0.00148,
+      "-9": 0.00456,
+      "-8": 0.00964,
+      "-7": 0.02173,
+      "-6": 0.03521,
+      "-5": 0.0571,
+      "-4": 0.08044,
+      "-3": 0.07539,
+      "-2": 0.06123,
+      "-1": 0.03859,
+      "0": 0.03807,
+      "1": 0.0434,
+      "2": 0.07397,
+      "3": 0.09832,
+      "4": 0.11716,
+      "5": 0.09506,
+      "6": 0.06425,
+      "7": 0.04562,
+      "8": 0.02085,
+      "9": 0.01171,
+      "10": 0.0041,
+      "11": 0.0014,
+      "12": 0.00019
+     },
+     "p_tiebreak": 0.5038,
+     "p_decider": 0.396
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0019
+   }
   },
   {
-   "espn_id": "187457",
+   "espn_id": "187455",
    "tour": "atp",
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Qualifying Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-08T12:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -180,13 +392,13 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
-   "espn_id": "186522",
+   "espn_id": "187454",
    "tour": "atp",
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "round": "Qualifying Final",
+   "court": "Court 1",
+   "start_utc": "2026-11-08T12:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -201,441 +413,6 @@
    ],
    "surface": "Hard",
    "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186537",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186536",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186535",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186534",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186533",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186532",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186531",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186530",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186529",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186528",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186527",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186526",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186525",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186524",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186642",
-   "tour": "wta",
-   "tournament": "Prudential Hong Kong Tennis Open",
-   "venue": "Hong Kong, Hong Kong, China",
-   "round": "Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
@@ -649,14 +426,14 @@
    "tournament": "Chennai Open",
    "venue": "Chennai, India",
    "round": "Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
+   "court": "Centre Court",
+   "start_utc": "2026-11-08T13:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Janice Tjen",
+     "id": "wta:222145"
     },
     {
      "name": "TBD",
@@ -673,33 +450,274 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
-   "espn_id": "186690",
-   "tour": "wta",
-   "tournament": "Angola Ladies Open",
-   "venue": "Luanda, Angola",
-   "round": "Final",
-   "court": "",
-   "start_utc": "2026-11-08T05:00Z",
-   "status": "STATUS_CANCELED",
+   "espn_id": "186534",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Round 1",
+   "court": "Center Court",
+   "start_utc": "2026-11-08T15:00Z",
+   "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Elias Ymer",
+     "id": "atp:111200"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Juan Manuel Cerundolo",
+     "id": "atp:207678"
     }
    ],
    "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
+   "surface_source": "venue-history",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T14:55:47+00:00",
+    "path": "forecasts/2026-11-08/186534-elias-ymer-vs-juan-manuel-cerundolo/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Juan Manuel Cerundolo",
+    "win_prob": {
+     "A": 0.4316,
+     "B": 0.5684
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.3595
+    },
+    "games_mean": 24.16,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.7978,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4316,
+      "B": 0.5684
+     },
+     "set_score_probs": {
+      "0-2": 0.3595,
+      "2-0": 0.2483,
+      "1-2": 0.2088,
+      "2-1": 0.1834
+     },
+     "games_pmf": {
+      "12": 0.0006,
+      "13": 0.00308,
+      "14": 0.00929,
+      "15": 0.02103,
+      "16": 0.03788,
+      "17": 0.06092,
+      "18": 0.06943,
+      "19": 0.08189,
+      "20": 0.07617,
+      "21": 0.05373,
+      "22": 0.08252,
+      "23": 0.06295,
+      "24": 0.01177,
+      "25": 0.03349,
+      "26": 0.04887,
+      "27": 0.02841,
+      "28": 0.03425,
+      "29": 0.03733,
+      "30": 0.0385,
+      "31": 0.04563,
+      "32": 0.04609,
+      "33": 0.02859,
+      "34": 0.02096,
+      "35": 0.02966,
+      "36": 0.0204,
+      "37": 0.00264,
+      "38": 0.0065,
+      "39": 0.00742
+     },
+     "games_diff_pmf": {
+      "-12": 0.00038,
+      "-11": 0.00224,
+      "-10": 0.00647,
+      "-9": 0.01478,
+      "-8": 0.02775,
+      "-7": 0.04997,
+      "-6": 0.06851,
+      "-5": 0.09298,
+      "-4": 0.10643,
+      "-3": 0.0845,
+      "-2": 0.0598,
+      "-1": 0.03806,
+      "0": 0.03619,
+      "1": 0.03524,
+      "2": 0.053,
+      "3": 0.07084,
+      "4": 0.08083,
+      "5": 0.06828,
+      "6": 0.04501,
+      "7": 0.03145,
+      "8": 0.0155,
+      "9": 0.00755,
+      "10": 0.00314,
+      "11": 0.00088,
+      "12": 0.00022
+     },
+     "p_tiebreak": 0.4249,
+     "p_decider": 0.3922
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0028
+   }
+  },
+  {
+   "espn_id": "186528",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Round 1",
+   "court": "Center Court",
+   "start_utc": "2026-11-08T16:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Thiago Agustin Tirante",
+     "id": "atp:202058"
+    },
+    {
+     "name": "Jaume Munar",
+     "id": "atp:144719"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T14:55:50+00:00",
+    "path": "forecasts/2026-11-08/186528-thiago-agustin-tirante-vs-jaume-munar/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Jaume Munar",
+    "win_prob": {
+     "A": 0.3301,
+     "B": 0.6699
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4511
+    },
+    "games_mean": 23.81,
+    "strongest": {
+     "selection": "Jaume Munar to win at least one set",
+     "probability": 0.8196,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3301,
+      "B": 0.6699
+     },
+     "set_score_probs": {
+      "0-2": 0.4511,
+      "1-2": 0.2188,
+      "2-0": 0.1804,
+      "2-1": 0.1497
+     },
+     "games_pmf": {
+      "12": 0.00076,
+      "13": 0.00441,
+      "14": 0.01146,
+      "15": 0.02572,
+      "16": 0.04205,
+      "17": 0.06662,
+      "18": 0.07363,
+      "19": 0.0848,
+      "20": 0.07694,
+      "21": 0.05225,
+      "22": 0.08305,
+      "23": 0.06204,
+      "24": 0.01096,
+      "25": 0.03258,
+      "26": 0.04789,
+      "27": 0.02704,
+      "28": 0.03216,
+      "29": 0.03446,
+      "30": 0.03558,
+      "31": 0.0435,
+      "32": 0.04235,
+      "33": 0.02683,
+      "34": 0.01995,
+      "35": 0.02817,
+      "36": 0.01947,
+      "37": 0.00206,
+      "38": 0.00599,
+      "39": 0.00728
+     },
+     "games_diff_pmf": {
+      "-12": 0.00072,
+      "-11": 0.00401,
+      "-10": 0.01028,
+      "-9": 0.02299,
+      "-8": 0.03852,
+      "-7": 0.06714,
+      "-6": 0.08711,
+      "-5": 0.11204,
+      "-4": 0.12282,
+      "-3": 0.09281,
+      "-2": 0.06016,
+      "-1": 0.03657,
+      "0": 0.03274,
+      "1": 0.03125,
+      "2": 0.04476,
+      "3": 0.05697,
+      "4": 0.06306,
+      "5": 0.04893,
+      "6": 0.03117,
+      "7": 0.02052,
+      "8": 0.00945,
+      "9": 0.00409,
+      "10": 0.00141,
+      "11": 0.00044,
+      "12": 4e-05
+     },
+     "p_tiebreak": 0.4134,
+     "p_decider": 0.3686
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0032
+   }
   },
   {
    "espn_id": "187373",
@@ -728,14 +746,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-07T05:58:38+00:00",
-    "path": "forecasts/2026-11-08/187373-elena-rybakina-vs-linda-noskova/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-07T14:55:52+00:00",
+    "path": "forecasts/2026-11-08/187373-elena-rybakina-vs-linda-noskova/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Elena Rybakina",
     "win_prob": {
-     "A": 0.6903,
-     "B": 0.3097
+     "A": 0.6898,
+     "B": 0.3102
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -745,12 +763,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.4712
+     "prob": 0.4696
     },
-    "games_mean": 23.88,
+    "games_mean": 23.91,
     "strongest": {
      "selection": "Elena Rybakina to win at least one set",
-     "probability": 0.8354,
+     "probability": 0.8357,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -762,78 +780,77 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.6903,
-      "B": 0.3097
+      "A": 0.6898,
+      "B": 0.3102
      },
      "set_score_probs": {
-      "2-0": 0.4712,
-      "2-1": 0.2192,
-      "0-2": 0.1646,
-      "1-2": 0.1451
+      "2-0": 0.4696,
+      "2-1": 0.2202,
+      "0-2": 0.1643,
+      "1-2": 0.1458
      },
      "games_pmf": {
-      "12": 0.00072,
-      "13": 0.00399,
-      "14": 0.01063,
-      "15": 0.02573,
-      "16": 0.04214,
-      "17": 0.06536,
-      "18": 0.07365,
-      "19": 0.08381,
-      "20": 0.07766,
-      "21": 0.05075,
-      "22": 0.08406,
-      "23": 0.06585,
-      "24": 0.01078,
-      "25": 0.03191,
-      "26": 0.04767,
-      "27": 0.02524,
-      "28": 0.03066,
-      "29": 0.03323,
-      "30": 0.03458,
-      "31": 0.04227,
-      "32": 0.04321,
-      "33": 0.02726,
-      "34": 0.01972,
-      "35": 0.03053,
-      "36": 0.02095,
-      "37": 0.00195,
-      "38": 0.00701,
-      "39": 0.00868
+      "12": 0.00078,
+      "13": 0.00404,
+      "14": 0.01036,
+      "15": 0.02539,
+      "16": 0.04121,
+      "17": 0.06557,
+      "18": 0.07261,
+      "19": 0.08266,
+      "20": 0.07786,
+      "21": 0.05198,
+      "22": 0.08434,
+      "23": 0.06533,
+      "24": 0.00987,
+      "25": 0.03298,
+      "26": 0.04867,
+      "27": 0.02544,
+      "28": 0.03125,
+      "29": 0.03389,
+      "30": 0.03398,
+      "31": 0.04195,
+      "32": 0.04326,
+      "33": 0.02729,
+      "34": 0.01958,
+      "35": 0.03054,
+      "36": 0.0218,
+      "37": 0.00235,
+      "38": 0.00677,
+      "39": 0.00825
      },
      "games_diff_pmf": {
-      "-12": 1e-05,
-      "-11": 0.0003,
-      "-10": 0.00107,
-      "-9": 0.00376,
+      "-11": 0.00038,
+      "-10": 0.00119,
+      "-9": 0.00344,
       "-8": 0.00746,
-      "-7": 0.01636,
-      "-6": 0.02782,
-      "-5": 0.04313,
-      "-4": 0.05934,
-      "-3": 0.05577,
-      "-2": 0.04475,
-      "-1": 0.03243,
-      "0": 0.03317,
-      "1": 0.03692,
-      "2": 0.06325,
-      "3": 0.09789,
-      "4": 0.12661,
-      "5": 0.11434,
-      "6": 0.08937,
-      "7": 0.06869,
-      "8": 0.04011,
-      "9": 0.02325,
-      "10": 0.00977,
-      "11": 0.00372,
-      "12": 0.00071
+      "-7": 0.01713,
+      "-6": 0.02624,
+      "-5": 0.04368,
+      "-4": 0.05886,
+      "-3": 0.057,
+      "-2": 0.04543,
+      "-1": 0.03142,
+      "0": 0.03259,
+      "1": 0.0375,
+      "2": 0.06378,
+      "3": 0.09744,
+      "4": 0.12635,
+      "5": 0.11413,
+      "6": 0.0915,
+      "7": 0.06862,
+      "8": 0.03867,
+      "9": 0.02323,
+      "10": 0.00949,
+      "11": 0.00369,
+      "12": 0.00078
      },
-     "p_tiebreak": 0.4272,
-     "p_decider": 0.3642
+     "p_tiebreak": 0.4286,
+     "p_decider": 0.3661
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0026
+    "cross_check_max_diff": 0.0031
    }
   },
   {
@@ -863,14 +880,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-07T05:58:39+00:00",
-    "path": "forecasts/2026-11-08/187374-coco-gauff-vs-jessica-pegula/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-07T14:55:54+00:00",
+    "path": "forecasts/2026-11-08/187374-coco-gauff-vs-jessica-pegula/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Jessica Pegula",
     "win_prob": {
-     "A": 0.4472,
-     "B": 0.5528
+     "A": 0.4474,
+     "B": 0.5526
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -880,12 +897,12 @@
       "4-6",
       "4-6"
      ],
-     "prob": 0.3526
+     "prob": 0.3517
     },
     "games_mean": 22.91,
     "strongest": {
      "selection": "Jessica Pegula to win at least one set",
-     "probability": 0.7318,
+     "probability": 0.7312,
      "confidence": "Medium"
     },
     "data_quality": "HIGH",
@@ -897,78 +914,78 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.4472,
-      "B": 0.5528
+      "A": 0.4474,
+      "B": 0.5526
      },
      "set_score_probs": {
-      "0-2": 0.3526,
-      "2-0": 0.2682,
-      "1-2": 0.2002,
-      "2-1": 0.179
+      "0-2": 0.3517,
+      "2-0": 0.2688,
+      "1-2": 0.2009,
+      "2-1": 0.1786
      },
      "games_pmf": {
-      "12": 0.00162,
-      "13": 0.00799,
-      "14": 0.02016,
-      "15": 0.04108,
-      "16": 0.06167,
-      "17": 0.07839,
-      "18": 0.08148,
-      "19": 0.08109,
-      "20": 0.06953,
-      "21": 0.0504,
-      "22": 0.0629,
-      "23": 0.04472,
-      "24": 0.01873,
-      "25": 0.0367,
-      "26": 0.04193,
-      "27": 0.0375,
-      "28": 0.04072,
-      "29": 0.04086,
-      "30": 0.0403,
-      "31": 0.03876,
-      "32": 0.03396,
-      "33": 0.02098,
-      "34": 0.01611,
-      "35": 0.01722,
-      "36": 0.00821,
-      "37": 0.00186,
-      "38": 0.00306,
-      "39": 0.00207
+      "12": 0.00175,
+      "13": 0.00817,
+      "14": 0.02054,
+      "15": 0.04021,
+      "16": 0.06032,
+      "17": 0.0795,
+      "18": 0.0818,
+      "19": 0.07908,
+      "20": 0.07129,
+      "21": 0.05063,
+      "22": 0.06426,
+      "23": 0.0445,
+      "24": 0.01931,
+      "25": 0.03572,
+      "26": 0.04184,
+      "27": 0.03591,
+      "28": 0.04095,
+      "29": 0.04123,
+      "30": 0.03968,
+      "31": 0.03912,
+      "32": 0.03413,
+      "33": 0.02201,
+      "34": 0.01608,
+      "35": 0.01686,
+      "36": 0.00763,
+      "37": 0.00206,
+      "38": 0.00319,
+      "39": 0.00223
      },
      "games_diff_pmf": {
-      "-12": 0.00114,
+      "-12": 0.00124,
       "-11": 0.00528,
-      "-10": 0.01249,
-      "-9": 0.0269,
-      "-8": 0.04306,
-      "-7": 0.06292,
-      "-6": 0.07704,
-      "-5": 0.086,
-      "-4": 0.08478,
-      "-3": 0.06395,
-      "-2": 0.0429,
-      "-1": 0.03117,
-      "0": 0.03049,
-      "1": 0.02957,
-      "2": 0.0395,
-      "3": 0.05757,
-      "4": 0.0719,
-      "5": 0.06983,
-      "6": 0.05917,
-      "7": 0.04681,
-      "8": 0.02924,
-      "9": 0.01684,
-      "10": 0.00819,
-      "11": 0.00278,
-      "12": 0.00048
+      "-10": 0.0131,
+      "-9": 0.02572,
+      "-8": 0.0419,
+      "-7": 0.06337,
+      "-6": 0.07726,
+      "-5": 0.08581,
+      "-4": 0.08609,
+      "-3": 0.06323,
+      "-2": 0.04357,
+      "-1": 0.03161,
+      "0": 0.02938,
+      "1": 0.03091,
+      "2": 0.03874,
+      "3": 0.05503,
+      "4": 0.07398,
+      "5": 0.0694,
+      "6": 0.05994,
+      "7": 0.0471,
+      "8": 0.02894,
+      "9": 0.0168,
+      "10": 0.00812,
+      "11": 0.00297,
+      "12": 0.00051
      },
-     "p_tiebreak": 0.2934,
-     "p_decider": 0.3791
+     "p_tiebreak": 0.2913,
+     "p_decider": 0.3795
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0027
+    "cross_check_max_diff": 0.0025
    }
   }
  ]

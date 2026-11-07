@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
- "n": 18,
- "passed": 18,
+ "n": 21,
+ "passed": 21,
  "results": [
   {
    "match": "Luca Van Assche vs Ben Shelton",
@@ -38,6 +38,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-07/186505-casper-ruud-vs-carlos-alcaraz/v1.json"
+  },
+  {
+   "match": "Casper Ruud vs Carlos Alcaraz",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0012,
+   "max_mc_vs_exact": 0.0027,
+   "reproduction": {
+    "frozen_p_a": 0.1784,
+    "rerun_p_a": 0.1784,
+    "frozen_games_mean": 22.74,
+    "rerun_games_mean": 22.74,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-07/186505-casper-ruud-vs-carlos-alcaraz/v2.json"
   },
   {
    "match": "Magda Linette vs Anastasia Zakharova",
@@ -202,6 +220,24 @@
    "file": "forecasts/2026-11-07/186684-sofya-lansere-vs-noma-noha-akugue/v2.json"
   },
   {
+   "match": "Anna Blinkova vs Gina Feistel",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0014,
+   "max_mc_vs_exact": 0.0023,
+   "reproduction": {
+    "frozen_p_a": 0.7003,
+    "rerun_p_a": 0.7003,
+    "frozen_games_mean": 21.91,
+    "rerun_games_mean": 21.91,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-07/186685-anna-blinkova-vs-gina-feistel/v1.json"
+  },
+  {
    "match": "Anna Blinkova vs Yasmine Kabbaj",
    "n_sims": 100000,
    "seed": 20261027,
@@ -236,6 +272,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-07/186735-alice-tubello-vs-bianca-andreescu/v1.json"
+  },
+  {
+   "match": "Alice Tubello vs Bianca Andreescu",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0004,
+   "reproduction": {
+    "frozen_p_a": 0.4561,
+    "rerun_p_a": 0.4561,
+    "frozen_games_mean": 22.54,
+    "rerun_games_mean": 22.54,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-07/186735-alice-tubello-vs-bianca-andreescu/v2.json"
   },
   {
    "match": "Olle Wallin vs Lorenzo Sonego",
