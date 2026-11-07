@@ -46,7 +46,7 @@ jobs:
       - name: Update permitted results
         run: oracle update-data --days 5
       - name: Run model and freeze
-        run: oracle schedule --date "$DATE" --days 1 --no-export
+        run: oracle schedule --date "$DATE" --days 1 --no-export --refresh
       - name: Verify frozen simulations
         run: oracle verify --date "$DATE" --days 1
       - name: Compare prices after freeze

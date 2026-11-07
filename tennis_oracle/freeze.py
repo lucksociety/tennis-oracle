@@ -26,7 +26,7 @@ def input_hash(f: dict) -> str:
 
 
 def freeze(f: dict, match_date: str, match_key: str | None = None, reason: str = "initial pre-match forecast",
-           extra: dict | None = None) -> Path | None:
+           extra: dict | None = None, *, force: bool = False) -> Path | None:
     """Write forecasts/<date>/<match>/v<N>.json. Returns None if an identical-input
     forecast already exists (no duplicate version)."""
     key = match_key or slug(f"{f['players']['A']['name']}-vs-{f['players']['B']['name']}")
@@ -34,7 +34,7 @@ def freeze(f: dict, match_date: str, match_key: str | None = None, reason: str =
     d.mkdir(parents=True, exist_ok=True)
     h = input_hash(f)
     existing = sorted(d.glob("v*.json"), key=lambda p: int(p.stem[1:]))
-    for p in existing:
+    for p in ([] if force else existing):
         if json.loads(p.read_text()).get("freeze", {}).get("input_hash") == h:
             return None
     n = len(existing) + 1

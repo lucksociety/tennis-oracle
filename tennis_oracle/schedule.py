@@ -49,7 +49,7 @@ def fetch_day_matches(day: date) -> list:
     return sorted(seen.values(), key=lambda r: (r["start"], r["tour"]))
 
 
-def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_freeze=True) -> dict:
+def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_freeze=True, refresh=False) -> dict:
     lookups = {t: surface_lookup(load_sackmann(t)) for t in engines}
     nmap = {t: name_map(e) for t, e in engines.items()}
     matches = fetch_day_matches(day)
@@ -70,9 +70,9 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
             f = latest(str(day), key)
             cur_v = eng.p["version"]
             stale = f is not None and (f["model"]["version"] != cur_v or f.get("results_cutoff") != eng.info["results_cutoff"] or f.get("surface") != surf or f.get("data_cutoff") != str(pd.Timestamp(eng.point_cutoff).date()) or f.get("best_of") != bo or f.get("final_rule") != fr or f.get("performance_revision") != eng.info.get("performance_revision"))
-            if (f is None or stale) and r["status"] == "STATUS_SCHEDULED" and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
+            if (refresh or f is None or stale) and r["status"] == "STATUS_SCHEDULED" and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
                 # new version only before play; earlier versions stay untouched
-                reason = "initial pre-match forecast" if f is None else (
+                reason = "Discord request: fresh inputs and simulation" if refresh else "initial pre-match forecast" if f is None else (
                     f"model updated to {cur_v}" if f["model"]["version"] != cur_v else
                     f"surface corrected from {f.get('surface')} to {surf}" if f.get("surface") != surf else
                     f"performance inputs or format refreshed (results through {eng.info['results_cutoff']})")
@@ -80,9 +80,11 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
                              meta={"tournament": r["event"], "round": r["round"]}, n_sims=n_sims,
                              data_cutoff=eng.point_cutoff)
                 f["results_cutoff"] = eng.info["results_cutoff"]
-                if do_freeze:
-                    freeze(f, str(day), key, reason=reason, extra={"espn_id": r["espn_id"], "scheduled_start_utc": r["start"]})
+                if do_freeze and pd.Timestamp(r["start"]) > pd.Timestamp.now(tz="UTC"):
+                    freeze(f, str(day), key, reason=reason, extra={"espn_id": r["espn_id"], "scheduled_start_utc": r["start"]}, force=refresh)
                     f = latest(str(day), key)
+                elif do_freeze:
+                    f = latest(str(day), key)  # fitting crossed start; preserve only the old pregame forecast
             if f is not None:
                 m["forecast"] = {
                     "frozen_version": f.get("freeze", {}).get("version"), "frozen_at_utc": f.get("freeze", {}).get("frozen_at_utc"),

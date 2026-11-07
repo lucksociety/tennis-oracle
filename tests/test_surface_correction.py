@@ -26,6 +26,10 @@ def test_changed_surface_refreezes_only_before_play(monkeypatch):
     freezes=[];monkeypatch.setattr(schedule,'freeze',lambda *a,**k:freezes.append(k))
     schedule.build_slate(date(2099,1,1),{'wta':eng},write=False)
     assert calls==['Clay'] and 'surface corrected' in freezes[0]['reason']
+    calls.clear();freezes.clear();f['surface']='Clay'
+    schedule.build_slate(date(2099,1,1),{'wta':eng},write=False,refresh=True)
+    schedule.build_slate(date(2099,1,1),{'wta':eng},write=False,refresh=True)
+    assert calls==['Clay','Clay'] and all(x['force'] for x in freezes)
     calls.clear();freezes.clear();row['start']='2000-01-01T20:00Z'
     schedule.build_slate(date(2000,1,1),{'wta':eng},write=False)
     assert calls==[] and freezes==[]

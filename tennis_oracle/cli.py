@@ -83,7 +83,7 @@ def cmd_schedule(a):
     d0 = date.fromisoformat(a.date) if a.date else datetime.now(tz).date()
     for k in range(a.days):
         d = d0 + timedelta(days=k)
-        s = build_slate(d, engs, n_sims=a.sims)
+        s = build_slate(d, engs, n_sims=a.sims, refresh=a.refresh)
         nf = sum(1 for m in s["matches"] if m["forecast"])
         print(f"{d}: {len(s['matches'])} singles matches, {nf} with frozen forecasts")
 
@@ -206,7 +206,7 @@ def main(argv=None):
     p = sub.add_parser("slate"); p.add_argument("file"); common(p); p.add_argument("--full", action="store_true"); p.set_defaults(func=cmd_slate)
     p = sub.add_parser("schedule", help="fetch day's order of play (ESPN), freeze forecasts, write docs/data slate")
     p.add_argument("--date", default=None); p.add_argument("--days", type=int, default=1); p.add_argument("--sims", type=int, default=100_000)
-    p.add_argument("--no-export", action="store_true"); p.set_defaults(func=cmd_schedule)
+    p.add_argument("--refresh", action="store_true", help="rerun every pre-start match and append a fresh snapshot"); p.add_argument("--no-export", action="store_true"); p.set_defaults(func=cmd_schedule)
     p = sub.add_parser("export"); p.set_defaults(func=cmd_export)
     p = sub.add_parser("verify", help="audit frozen forecasts: real MC (n, seed, re-run), analytic cross-check, internal consistency")
     p.add_argument("--date"); p.add_argument("--days", type=int, default=1); p.add_argument("--no-resim", action="store_true")

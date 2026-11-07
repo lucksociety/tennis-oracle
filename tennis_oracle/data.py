@@ -133,7 +133,7 @@ def fetch_espn_day(league: str, d: date, retries: int = 3, strict: bool = False)
     url = ESPN_URL.format(league=league, d=d.strftime("%Y%m%d"))
     for k in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "tennis-oracle/1.0 (research)"})
+            req = urllib.request.Request(url, headers={"User-Agent": "tennis-oracle/1.0 (research)", "Cache-Control": "no-cache"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return _strip_market(json.loads(r.read().decode()))
         except Exception as e:

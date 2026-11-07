@@ -22,3 +22,12 @@ def test_freeze_never_overwrites(tmp_path, monkeypatch):
     assert rec["freeze"]["version"] == 2 and rec["freeze"]["pre_match"] is True
     with pytest.raises(FileExistsError):
         open(p1, "x")
+
+
+def test_explicit_refresh_appends_identical_input_version(tmp_path,monkeypatch):
+    monkeypatch.setattr(F,'FORECASTS',tmp_path)
+    p1=F.freeze(_f(),'2099-01-01','refresh')
+    before=p1.read_bytes()
+    p2=F.freeze(_f(),'2099-01-01','refresh',reason='Discord fresh simulation',force=True)
+    assert p2!=p1 and p1.read_bytes()==before
+    assert json.loads(p2.read_text())['freeze']['version']==2
