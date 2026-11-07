@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-06T21:30:18+00:00",
+ "generated_at_utc": "2026-11-07T05:58:35+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1755,6 +1755,141 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
+   "espn_id": "186735",
+   "tour": "wta",
+   "tournament": "Reto Win Tennis Cali Open",
+   "venue": "Cali, Colombia",
+   "round": "Semifinal",
+   "court": "Campo 1",
+   "start_utc": "2026-11-07T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alice Tubello",
+     "id": "wta:220554"
+    },
+    {
+     "name": "Bianca Andreescu",
+     "id": "wta:215370"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T05:58:33+00:00",
+    "path": "forecasts/2026-11-07/186735-alice-tubello-vs-bianca-andreescu/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Bianca Andreescu",
+    "win_prob": {
+     "A": 0.4551,
+     "B": 0.5449
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.3491
+    },
+    "games_mean": 22.52,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7414,
+     "confidence": "Medium"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4551,
+      "B": 0.5449
+     },
+     "set_score_probs": {
+      "0-2": 0.3491,
+      "2-0": 0.2783,
+      "1-2": 0.1958,
+      "2-1": 0.1768
+     },
+     "games_pmf": {
+      "12": 0.00231,
+      "13": 0.01106,
+      "14": 0.02613,
+      "15": 0.04686,
+      "16": 0.06903,
+      "17": 0.08342,
+      "18": 0.08318,
+      "19": 0.07782,
+      "20": 0.06706,
+      "21": 0.0497,
+      "22": 0.05938,
+      "23": 0.03928,
+      "24": 0.02053,
+      "25": 0.03776,
+      "26": 0.04088,
+      "27": 0.03783,
+      "28": 0.04152,
+      "29": 0.04218,
+      "30": 0.03968,
+      "31": 0.03508,
+      "32": 0.03017,
+      "33": 0.01976,
+      "34": 0.01425,
+      "35": 0.01339,
+      "36": 0.00622,
+      "37": 0.00185,
+      "38": 0.00254,
+      "39": 0.00113
+     },
+     "games_diff_pmf": {
+      "-12": 0.00149,
+      "-11": 0.007,
+      "-10": 0.01656,
+      "-9": 0.02917,
+      "-8": 0.04643,
+      "-7": 0.06637,
+      "-6": 0.07842,
+      "-5": 0.08187,
+      "-4": 0.07878,
+      "-3": 0.05669,
+      "-2": 0.0391,
+      "-1": 0.02896,
+      "0": 0.02838,
+      "1": 0.02913,
+      "2": 0.03594,
+      "3": 0.05209,
+      "4": 0.06869,
+      "5": 0.06932,
+      "6": 0.06269,
+      "7": 0.0518,
+      "8": 0.03526,
+      "9": 0.02055,
+      "10": 0.01032,
+      "11": 0.00417,
+      "12": 0.00082
+     },
+     "p_tiebreak": 0.2586,
+     "p_decider": 0.3726
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0022
+   }
+  },
+  {
    "espn_id": "186505",
    "tour": "atp",
    "tournament": "Rolex Paris Masters",
@@ -1766,12 +1901,12 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Casper Ruud",
+     "id": "atp:134770"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Carlos Alcaraz",
+     "id": "atp:207989"
     }
    ],
    "surface": "Hard",
@@ -1780,8 +1915,113 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-07T05:58:35+00:00",
+    "path": "forecasts/2026-11-07/186505-casper-ruud-vs-carlos-alcaraz/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Carlos Alcaraz",
+    "win_prob": {
+     "A": 0.1797,
+     "B": 0.8203
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.6156
+    },
+    "games_mean": 22.73,
+    "strongest": {
+     "selection": "Carlos Alcaraz to win at least one set",
+     "probability": 0.9132,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.1797,
+      "B": 0.8203
+     },
+     "set_score_probs": {
+      "0-2": 0.6156,
+      "1-2": 0.2047,
+      "2-1": 0.0929,
+      "2-0": 0.0868
+     },
+     "games_pmf": {
+      "12": 0.00158,
+      "13": 0.00867,
+      "14": 0.01973,
+      "15": 0.04046,
+      "16": 0.06034,
+      "17": 0.08396,
+      "18": 0.08456,
+      "19": 0.08788,
+      "20": 0.0814,
+      "21": 0.05245,
+      "22": 0.07827,
+      "23": 0.05726,
+      "24": 0.00875,
+      "25": 0.02795,
+      "26": 0.04355,
+      "27": 0.02099,
+      "28": 0.0255,
+      "29": 0.02726,
+      "30": 0.02805,
+      "31": 0.03437,
+      "32": 0.03418,
+      "33": 0.02165,
+      "34": 0.01598,
+      "35": 0.02486,
+      "36": 0.01658,
+      "37": 0.00177,
+      "38": 0.00523,
+      "39": 0.00677
+     },
+     "games_diff_pmf": {
+      "-12": 0.00158,
+      "-11": 0.00861,
+      "-10": 0.01963,
+      "-9": 0.04059,
+      "-8": 0.06335,
+      "-7": 0.09863,
+      "-6": 0.11696,
+      "-5": 0.13521,
+      "-4": 0.13937,
+      "-3": 0.09559,
+      "-2": 0.06003,
+      "-1": 0.02991,
+      "0": 0.02409,
+      "1": 0.02248,
+      "2": 0.02944,
+      "3": 0.03412,
+      "4": 0.0336,
+      "5": 0.02274,
+      "6": 0.0124,
+      "7": 0.00706,
+      "8": 0.00282,
+      "9": 0.00124,
+      "10": 0.00043,
+      "11": 0.00012
+     },
+     "p_tiebreak": 0.3739,
+     "p_decider": 0.2976
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0024
+   }
   },
   {
    "espn_id": "186741",
