@@ -1,0 +1,639 @@
+{
+ "predicted_winner": "Lorenzo Sonego",
+ "win_prob": {
+  "A": 0.3573,
+  "B": 0.6427
+ },
+ "win_prob_exact": {
+  "A": 0.35733,
+  "B": 0.6426700000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.8,
+   "american": "+180"
+  },
+  "B": {
+   "decimal": 1.56,
+   "american": "-180"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4221,
+  "1-2": 0.2206,
+  "2-0": 0.1948,
+  "2-1": 0.1625
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0333,
+ "games": {
+  "mean": 24.39,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.26,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00035,
+   "13": 0.00278,
+   "14": 0.00815,
+   "15": 0.01971,
+   "16": 0.03229,
+   "17": 0.05794,
+   "18": 0.06627,
+   "19": 0.08237,
+   "20": 0.07796,
+   "21": 0.05121,
+   "22": 0.08768,
+   "23": 0.07008,
+   "24": 0.00988,
+   "25": 0.03426,
+   "26": 0.05273,
+   "27": 0.02489,
+   "28": 0.03015,
+   "29": 0.03319,
+   "30": 0.03403,
+   "31": 0.04517,
+   "32": 0.04678,
+   "33": 0.02879,
+   "34": 0.02175,
+   "35": 0.03479,
+   "36": 0.02536,
+   "37": 0.00224,
+   "38": 0.0081,
+   "39": 0.0111
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00031,
+  "-11": 0.00254,
+  "-10": 0.00689,
+  "-9": 0.01688,
+  "-8": 0.02871,
+  "-7": 0.05648,
+  "-6": 0.07769,
+  "-5": 0.10616,
+  "-4": 0.12179,
+  "-3": 0.09954,
+  "-2": 0.06932,
+  "-1": 0.04002,
+  "0": 0.03567,
+  "1": 0.03579,
+  "2": 0.05087,
+  "3": 0.06571,
+  "4": 0.06988,
+  "5": 0.05196,
+  "6": 0.03069,
+  "7": 0.01916,
+  "8": 0.00816,
+  "9": 0.00401,
+  "10": 0.00146,
+  "11": 0.00027,
+  "12": 4e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8788,
+   "under": 0.1212
+  },
+  {
+   "line": 18.5,
+   "over": 0.8125,
+   "under": 0.1875
+  },
+  {
+   "line": 19.5,
+   "over": 0.7301,
+   "under": 0.2699
+  },
+  {
+   "line": 20.5,
+   "over": 0.6522,
+   "under": 0.3478
+  },
+  {
+   "line": 21.5,
+   "over": 0.601,
+   "under": 0.399
+  },
+  {
+   "line": 22.5,
+   "over": 0.5133,
+   "under": 0.4867
+  },
+  {
+   "line": 23.5,
+   "over": 0.4432,
+   "under": 0.5568
+  },
+  {
+   "line": 24.5,
+   "over": 0.4333,
+   "under": 0.5667
+  },
+  {
+   "line": 25.5,
+   "over": 0.3991,
+   "under": 0.6009
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3022,
+   "B +1.5": 0.6978,
+   "B -1.5": 0.5863,
+   "A +1.5": 0.4137
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2513,
+   "B +2.5": 0.7487,
+   "B -2.5": 0.517,
+   "A +2.5": 0.483
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1856,
+   "B +3.5": 0.8144,
+   "B -3.5": 0.4174,
+   "A +3.5": 0.5826
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1157,
+   "B +4.5": 0.8842,
+   "B -4.5": 0.2957,
+   "A +4.5": 0.7043
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0638,
+   "B +5.5": 0.9362,
+   "B -5.5": 0.1895,
+   "A +5.5": 0.8105
+  }
+ ],
+ "p_tiebreak": 0.4632,
+ "p_a_wins_set": 0.5779,
+ "p_b_wins_set": 0.8052,
+ "p_decider": 0.3831,
+ "expected_breaks": {
+  "total": 3.95,
+  "by_A": 1.62,
+  "by_B": 2.33
+ },
+ "expected_break_points": {
+  "A_creates": 4.77,
+  "B_creates": 6.18
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4221
+ },
+ "match": "Inaki Montes-De La Torre vs Lorenzo Sonego",
+ "players": {
+  "A": {
+   "id": "atp:espn9215",
+   "name": "Inaki Montes-De La Torre",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1591.9,
+   "surface_elo": {
+    "Hard": 1565.9,
+    "Clay": 1500.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 1,
+    "Clay": 0,
+    "Grass": 0
+   },
+   "last5": [
+    1,
+    0
+   ],
+   "last10": [
+    1,
+    0
+   ],
+   "last20": [
+    1,
+    0
+   ],
+   "last52w": [
+    1,
+    0
+   ],
+   "last52w_surface": [
+    1,
+    0
+   ],
+   "career_surface_wl": [
+    1,
+    0
+   ],
+   "games_won_lost_52w": [
+    13,
+    8
+   ],
+   "sets_won_lost_52w": [
+    2,
+    0
+   ],
+   "avg_opp_elo_last20": 1629.7,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 5.8,
+   "last_match": "2026-11-07",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "atp:132283",
+   "name": "Lorenzo Sonego",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 70.0,
+   "age": 31.45722108145106,
+   "elo": 1683.4,
+   "surface_elo": {
+    "Hard": 1672.4,
+    "Clay": 1548.5,
+    "Grass": 1640.5
+   },
+   "matches_total": 389,
+   "matches_surface": {
+    "Hard": 213,
+    "Clay": 121,
+    "Grass": 55
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    17,
+    22
+   ],
+   "last52w_surface": [
+    10,
+    12
+   ],
+   "career_surface_wl": [
+    97,
+    116
+   ],
+   "games_won_lost_52w": [
+    515,
+    553
+   ],
+   "sets_won_lost_52w": [
+    45,
+    59
+   ],
+   "avg_opp_elo_last20": 1691.8,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.1858,
+   "return_rating": 0.0655,
+   "form_elo": -13.1,
+   "last_match": "2026-11-07",
+   "last_stats_match": "2026-10-19",
+   "stats_52w": {
+    "first_in": 0.6787,
+    "first_won": 0.7132,
+    "second_won": 0.5244,
+    "serve_pts_won": 0.6525,
+    "hold": 0.8026,
+    "aces_per_svgm": 0.534,
+    "df_per_svgm": 0.1456,
+    "bp_saved": 0.6013,
+    "ret_pts_won": 0.3313,
+    "ret_1st_won": 0.2698,
+    "ret_2nd_won": 0.4469,
+    "ret_games_won": 0.1581,
+    "bp_conv": 0.3657,
+    "bp_chances_per_retgm": 0.4323,
+    "matches_with_stats": 22
+   },
+   "rank_history": [
+    [
+     "2025-09-17",
+     44.0
+    ],
+    [
+     "2025-10-01",
+     46.0
+    ],
+    [
+     "2025-10-13",
+     47.0
+    ],
+    [
+     "2025-10-20",
+     45.0
+    ],
+    [
+     "2025-11-02",
+     42.0
+    ],
+    [
+     "2026-01-05",
+     39.0
+    ],
+    [
+     "2026-01-19",
+     40.0
+    ],
+    [
+     "2026-04-13",
+     66.0
+    ],
+    [
+     "2026-04-22",
+     62.0
+    ],
+    [
+     "2026-05-06",
+     66.0
+    ],
+    [
+     "2026-05-17",
+     69.0
+    ],
+    [
+     "2026-05-25",
+     70.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Qualifying Final",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-08",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Inaki Montes-De La Torre: sparse record (1 tour matches, 0 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Inaki Montes-De La Torre: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -102.2,
+  "components_elo": {
+   "surface_elo": -106.5,
+   "overall_elo": -91.6,
+   "serve_return": -193.6,
+   "form": 18.8
+  },
+  "weighted_contributions": {
+   "surface_elo": -13.0,
+   "overall_elo": -21.6,
+   "serve_return": -67.5,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.357,
+  "serve_return_implied_spw": {
+   "A": 0.6338,
+   "B": 0.6899
+  },
+  "point_probs": {
+   "A_serve": 0.6409,
+   "B_serve": 0.6833
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6408846783831403,
+   "B_serve": 0.6832938389822357
+  },
+  "hold_probs": {
+   "A": 0.8142,
+   "B": 0.8796
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3573,
+   0.3578
+  ],
+  "p_tb": [
+   0.4632,
+   0.465
+  ],
+  "p_decider": [
+   0.3831,
+   0.3836
+  ],
+  "games_mean": [
+   24.39,
+   24.394
+  ],
+  "exp_breaks": [
+   3.95,
+   3.949
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4221,
+    0.4206
+   ],
+   "1-2": [
+    0.2206,
+    0.2216
+   ],
+   "2-0": [
+    0.1948,
+    0.1958
+   ],
+   "2-1": [
+    0.1625,
+    0.162
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0018
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Lorenzo Sonego",
+   "elo_points": -67.5,
+   "raw_diff": -193.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Lorenzo Sonego",
+   "elo_points": -21.6,
+   "raw_diff": -91.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Lorenzo Sonego",
+   "elo_points": -13.0,
+   "raw_diff": -106.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6409,
+   "B": 0.6833,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8125,
+  "fair_odds": {
+   "decimal": 1.23,
+   "american": "-433"
+  },
+  "confidence": "Low",
+  "main_risk": "Total-games distribution is wide (sd 6.26 games; p10-p90 17-34); a single tiebreak or deciding set swings it. Data quality LOW: Inaki Montes-De La Torre: sparse record (1 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8125,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "Lorenzo Sonego to win at least one set",
+    "probability": 0.8052,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Inaki Montes-De La Torre +4.5 games",
+    "probability": 0.7043,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6522,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Lorenzo Sonego to win",
+    "probability": 0.6427,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6169,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Inaki Montes-De La Torre to win at least one set",
+    "probability": 0.5779,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5667,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5368,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Lorenzo Sonego -2.5 games",
+    "probability": 0.517,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5133,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4867,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Inaki Montes-De La Torre +2.5 games",
+    "probability": 0.483,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4632,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4333,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-07",
+ "freeze": {
+  "frozen_at_utc": "2026-11-07T20:14:49+00:00",
+  "version": 1,
+  "input_hash": "bef042504f07a7c2",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187457",
+  "scheduled_start_utc": "2026-11-08T11:00Z"
+ }
+}

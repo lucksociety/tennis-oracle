@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-07T14:55:40+00:00",
+ "generated_at_utc": "2026-11-07T20:14:41+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1248,8 +1248,8 @@
    "round": "Qualifying 1st Round",
    "court": "Center Court",
    "start_utc": "2026-11-07T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Karl Friberg",
@@ -1265,7 +1265,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-06T21:30:13+00:00",
@@ -1386,8 +1398,8 @@
    "round": "Qualifying 1st Round",
    "court": "Court 1",
    "start_utc": "2026-11-07T13:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Viktor Durasovic",
@@ -1403,7 +1415,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-06T21:30:15+00:00",
@@ -1524,8 +1548,8 @@
    "round": "Semifinal",
    "court": "Court Central",
    "start_utc": "2026-11-07T13:40Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Luca Van Assche",
@@ -1541,7 +1565,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-06T21:30:16+00:00",
@@ -1659,8 +1699,8 @@
    "round": "Semifinal",
    "court": "Centre Court",
    "start_utc": "2026-11-07T14:20Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Magda Linette",
@@ -1676,7 +1716,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-06T21:30:18+00:00",
@@ -1794,8 +1850,8 @@
    "round": "Qualifying 1st Round",
    "court": "Center Court",
    "start_utc": "2026-11-07T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Adrian Mannarino",
@@ -1803,7 +1859,7 @@
     },
     {
      "name": "Jan Simonsson",
-     "id": null
+     "id": "atp:espn19358"
     }
    ],
    "surface": "Hard",
@@ -1811,9 +1867,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      1
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187448",
@@ -1823,8 +1890,8 @@
    "round": "Qualifying 1st Round",
    "court": "Court 1",
    "start_utc": "2026-11-07T14:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Jacob Fearnley",
@@ -1832,7 +1899,7 @@
     },
     {
      "name": "Arthur Nagel",
-     "id": null
+     "id": "atp:espn16638"
     }
    ],
    "surface": "Hard",
@@ -1840,9 +1907,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      0
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "186735",
@@ -1851,9 +1929,9 @@
    "venue": "Cali, Colombia",
    "round": "Semifinal",
    "court": "Campo 1",
-   "start_utc": "2026-11-07T15:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-07T15:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alice Tubello",
@@ -1869,7 +1947,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      0,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-07T14:55:36+00:00",
@@ -1986,9 +2076,9 @@
    "venue": "Luanda, Angola",
    "round": "Semifinal",
    "court": "Lwena Court",
-   "start_utc": "2026-11-07T15:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-07T15:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Anna Blinkova",
@@ -2004,7 +2094,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-07T14:55:38+00:00",
@@ -2121,9 +2227,9 @@
    "venue": "Paris, France",
    "round": "Semifinal",
    "court": "Court Central",
-   "start_utc": "2026-11-07T16:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-07T16:25Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Casper Ruud",
@@ -2139,7 +2245,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-07T14:55:40+00:00",
@@ -2255,13 +2373,13 @@
    "venue": "Cali, Colombia",
    "round": "Final",
    "court": "Campo 1",
-   "start_utc": "2026-11-07T16:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-07T16:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Bianca Andreescu",
+     "id": "wta:215370"
     },
     {
      "name": "Leyre Romero Gormaz",
@@ -2273,9 +2391,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   "forecast": null
   }
  ]
 }

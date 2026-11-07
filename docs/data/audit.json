@@ -1,96 +1,96 @@
 {
- "generated_at_utc": "2026-11-07T14:56:59+00:00",
+ "generated_at_utc": "2026-11-07T20:16:24+00:00",
  "summary": {
-  "n": 372,
-  "brier": 0.22894656086021506,
-  "log_loss": 0.6530770167782918,
-  "accuracy": 0.6182795698924731,
-  "games_mae": 5.22247311827957,
-  "exact_sets_accuracy": 0.4166666666666667,
-  "tiebreak_brier": 0.19515428013440864
+  "n": 380,
+  "brier": 0.22713212439473687,
+  "log_loss": 0.6490996889648247,
+  "accuracy": 0.6263157894736842,
+  "games_mae": 5.233657894736842,
+  "exact_sets_accuracy": 0.42105263157894735,
+  "tiebreak_brier": 0.1942921254473684
  },
- "n": 372,
+ "n": 380,
  "overall": {
-  "n": 372,
-  "brier": 0.22894656086021506,
-  "log_loss": 0.6530770167782918,
-  "accuracy": 0.6182795698924731
+  "n": 380,
+  "brier": 0.22713212439473687,
+  "log_loss": 0.6490996889648247,
+  "accuracy": 0.6263157894736842
  },
- "games_mae": 5.22247311827957,
- "exact_sets_accuracy": 0.4166666666666667,
- "tiebreak_brier": 0.19515428013440864,
+ "games_mae": 5.233657894736842,
+ "exact_sets_accuracy": 0.42105263157894735,
+ "tiebreak_brier": 0.1942921254473684,
  "by_surface": {
   "Clay": {
-   "n": 37,
-   "brier": 0.17067530648648654,
-   "log_loss": 0.5254588291986559,
-   "accuracy": 0.7837837837837838
+   "n": 39,
+   "brier": 0.17254178333333337,
+   "log_loss": 0.5296436629779672,
+   "accuracy": 0.7948717948717948
   },
   "Hard": {
-   "n": 335,
-   "brier": 0.23538249044776122,
-   "log_loss": 0.6671721598841023,
-   "accuracy": 0.6
+   "n": 341,
+   "brier": 0.2333755944868035,
+   "log_loss": 0.662761815104084,
+   "accuracy": 0.6070381231671554
   }
  },
  "by_tour": {
   "atp": {
-   "n": 120,
-   "brier": 0.23989466608333335,
-   "log_loss": 0.6799095603351114,
-   "accuracy": 0.575
+   "n": 124,
+   "brier": 0.23539355653225807,
+   "log_loss": 0.6698830718999804,
+   "accuracy": 0.5887096774193549
   },
   "wta": {
-   "n": 252,
-   "brier": 0.22373317742063492,
-   "log_loss": 0.6402996150845681,
-   "accuracy": 0.6388888888888888
+   "n": 256,
+   "brier": 0.223130493203125,
+   "log_loss": 0.6390327378556087,
+   "accuracy": 0.64453125
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 76,
-   "brier": 0.24947795052631577,
-   "log_loss": 0.7036123598857118,
-   "accuracy": 0.6052631578947368
+   "n": 81,
+   "brier": 0.24344223975308643,
+   "log_loss": 0.6898000975013213,
+   "accuracy": 0.6296296296296297
   },
   "LOW": {
-   "n": 158,
-   "brier": 0.22162306791139244,
-   "log_loss": 0.6351530504615707,
-   "accuracy": 0.6455696202531646
+   "n": 160,
+   "brier": 0.2206888380625,
+   "log_loss": 0.6331993657963964,
+   "accuracy": 0.65
   },
   "MEDIUM": {
-   "n": 138,
-   "brier": 0.22602428746376813,
-   "log_loss": 0.6457676008498716,
-   "accuracy": 0.5942028985507246
+   "n": 139,
+   "brier": 0.22504440115107913,
+   "log_loss": 0.6436847149755607,
+   "accuracy": 0.5971223021582733
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 194,
-   "mean_pred": 0.5455463917525774,
-   "observed": 0.5103092783505154
+   "n": 198,
+   "mean_pred": 0.5454040404040404,
+   "observed": 0.5202020202020202
   },
   {
    "bucket": "60%-70%",
-   "n": 116,
-   "mean_pred": 0.647348275862069,
-   "observed": 0.7586206896551724
+   "n": 117,
+   "mean_pred": 0.6477726495726496,
+   "observed": 0.7606837606837606
   },
   {
    "bucket": "70%-80%",
-   "n": 48,
-   "mean_pred": 0.7354333333333333,
-   "observed": 0.7708333333333334
+   "n": 50,
+   "mean_pred": 0.7345139999999998,
+   "observed": 0.78
   },
   {
    "bucket": "80%-90%",
-   "n": 13,
-   "mean_pred": 0.8389615384615384,
-   "observed": 0.46153846153846156
+   "n": 14,
+   "mean_pred": 0.8377214285714285,
+   "observed": 0.5
   },
   {
    "bucket": "90%-100%",
@@ -15389,6 +15389,174 @@
    "version": "v1.1"
   },
   {
+   "match": "Alice Tubello vs Bianca Andreescu",
+   "date": "2026-11-06",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.454,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3492,
+   "exp_games": 22.54,
+   "actual_games": 16,
+   "p_tb": 0.2589,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4115,
+     0
+    ],
+    "A -2.5": [
+     0.3749,
+     0
+    ],
+    "A -3.5": [
+     0.3232,
+     0
+    ],
+    "A -4.5": [
+     0.2536,
+     0
+    ],
+    "A -5.5": [
+     0.1852,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Luca Van Assche vs Ben Shelton",
+   "date": "2026-11-07",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.2754,
+   "a_won": 0,
+   "pred_winner": "Ben Shelton",
+   "actual_winner": "Ben Shelton",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.224,
+   "exp_games": 24.1,
+   "actual_games": 31,
+   "p_tb": 0.4621,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2256,
+     0
+    ],
+    "A -2.5": [
+     0.1808,
+     0
+    ],
+    "A -3.5": [
+     0.1273,
+     0
+    ],
+    "A -4.5": [
+     0.0746,
+     0
+    ],
+    "A -5.5": [
+     0.0387,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Casper Ruud vs Carlos Alcaraz",
+   "date": "2026-11-07",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.1784,
+   "a_won": 0,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.6153,
+   "exp_games": 22.74,
+   "actual_games": 20,
+   "p_tb": 0.3747,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.1423,
+     0
+    ],
+    "A -2.5": [
+     0.113,
+     0
+    ],
+    "A -3.5": [
+     0.0789,
+     0
+    ],
+    "A -4.5": [
+     0.0456,
+     0
+    ],
+    "A -5.5": [
+     0.023,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Magda Linette vs Anastasia Zakharova",
+   "date": "2026-11-07",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.5135,
+   "a_won": 1,
+   "pred_winner": "Magda Linette",
+   "actual_winner": "Magda Linette",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1938,
+   "exp_games": 22.91,
+   "actual_games": 25,
+   "p_tb": 0.2915,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4682,
+     1
+    ],
+    "A -2.5": [
+     0.4265,
+     1
+    ],
+    "A -3.5": [
+     0.3674,
+     0
+    ],
+    "A -4.5": [
+     0.287,
+     0
+    ],
+    "A -5.5": [
+     0.2064,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Janice Tjen vs Robin Montgomery",
    "date": "2026-11-07",
    "tour": "wta",
@@ -15557,6 +15725,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Anna Blinkova vs Gina Feistel",
+   "date": "2026-11-07",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.7003,
+   "a_won": 1,
+   "pred_winner": "Anna Blinkova",
+   "actual_winner": "Anna Blinkova",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2029,
+   "exp_games": 21.91,
+   "actual_games": 30,
+   "p_tb": 0.2367,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6635,
+     1
+    ],
+    "A -2.5": [
+     0.6262,
+     1
+    ],
+    "A -3.5": [
+     0.567,
+     1
+    ],
+    "A -4.5": [
+     0.4775,
+     0
+    ],
+    "A -5.5": [
+     0.3772,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Anna Blinkova vs Yasmine Kabbaj",
    "date": "2026-11-07",
    "tour": "wta",
@@ -15599,6 +15809,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Alice Tubello vs Bianca Andreescu",
+   "date": "2026-11-07",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "Reto Win Tennis Cali Open",
+   "p_a": 0.4561,
+   "a_won": 0,
+   "pred_winner": "Bianca Andreescu",
+   "actual_winner": "Bianca Andreescu",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3485,
+   "exp_games": 22.54,
+   "actual_games": 16,
+   "p_tb": 0.2588,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4126,
+     0
+    ],
+    "A -2.5": [
+     0.3765,
+     0
+    ],
+    "A -3.5": [
+     0.3241,
+     0
+    ],
+    "A -4.5": [
+     0.2541,
+     0
+    ],
+    "A -5.5": [
+     0.1852,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Olle Wallin vs Lorenzo Sonego",
    "date": "2026-11-07",
    "tour": "atp",
@@ -15634,6 +15886,90 @@
     ],
     "A -5.5": [
      0.0578,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Viktor Durasovic vs Aleksandr Shevchenko",
+   "date": "2026-11-07",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.4494,
+   "a_won": 0,
+   "pred_winner": "Aleksandr Shevchenko",
+   "actual_winner": "Aleksandr Shevchenko",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3388,
+   "exp_games": 24.65,
+   "actual_games": 14,
+   "p_tb": 0.4734,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3917,
+     0
+    ],
+    "A -2.5": [
+     0.3314,
+     0
+    ],
+    "A -3.5": [
+     0.254,
+     0
+    ],
+    "A -4.5": [
+     0.1656,
+     0
+    ],
+    "A -5.5": [
+     0.0977,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Karl Friberg vs Toby Samuel",
+   "date": "2026-11-07",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.303,
+   "a_won": 0,
+   "pred_winner": "Toby Samuel",
+   "actual_winner": "Toby Samuel",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4757,
+   "exp_games": 23.48,
+   "actual_games": 21,
+   "p_tb": 0.3831,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2574,
+     0
+    ],
+    "A -2.5": [
+     0.217,
+     0
+    ],
+    "A -3.5": [
+     0.166,
+     0
+    ],
+    "A -4.5": [
+     0.1084,
+     0
+    ],
+    "A -5.5": [
+     0.0632,
      0
     ]
    },
