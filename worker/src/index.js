@@ -132,7 +132,7 @@ async function engineExtras(env, day, slate, events) {
 
 function matchLines(m, row) {
   const start = Date.parse(m.start_utc);
-  if (row?.status === 'bet' && (!Number.isFinite(start) || Date.now() >= start || !(row.best?.model_p > .5) || !(row.best?.ev_per_1 > 0))) {
+  if (row?.status === 'bet' && (!Number.isFinite(start) || Date.now() >= start || !(row.best?.model_p > .5) || !(row.best?.ev_per_1 > 0) || !M.recommendationMatchesScore(m,row.best))) {
     row = { ...row, status: 'not_prematch', best: null, verdict: 'NO BET (pregame eligibility no longer satisfied)' };
   }
   const [A, B] = [m.players[0].name, m.players[1].name], f = m.forecast;
@@ -188,6 +188,8 @@ export async function buildReport(env, day, tour) {
   bb.rows = bb.rows.map(r => {
     const m = slate.matches.find(m => String(m.espn_id) === String(r.espn_id));
     const start = Date.parse(m?.start_utc);
+    r = { ...r, outcomes: (r.outcomes || []).map(o => ({ ...o, eligible: !!o.eligible && M.recommendationMatchesScore(m,o) })) };
+    if (r.best && !M.recommendationMatchesScore(m,r.best)) r = { ...r, status: 'no_bet', best: null, n_eligible: 0, verdict: 'NO BET (bet does not win at displayed predicted score)' };
     return !Number.isFinite(start) || publicationNow >= start
       ? { ...r, status: 'not_prematch', best: null, n_eligible: 0,
           verdict: 'NO BET (scheduled start passed or unavailable)',

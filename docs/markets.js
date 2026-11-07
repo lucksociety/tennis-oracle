@@ -92,6 +92,26 @@
     return { skip: `market type ${t} not modelled` };
   }
 
+  function scoreSupports(mk,lab,f,A,B,bo=3) {
+    const fs=f?.final_score||{},a=fs.A_sets,b=fs.B_sets;
+    if(![a,b].every(x=>Number.isInteger(x)&&x>=0)||Math.max(a,b)!==Math.floor(bo/2)+1||a===b)return false;
+    const t=mk.sportsMarketType,sd=side(lab.name,A,B),line=lab.line;
+    if(t==='moneyline')return sd==='A'?a>b:sd==='B'?b>a:false;
+    if(!Number.isFinite(line))return false;
+    if(t==='handicap')return sd?((sd==='A'?a-b:b-a)+line>0):false;
+    if(t==='tennis_set_totals')return lab.ou==='over'?a+b>line:lab.ou==='under'?a+b<line:false;
+    const sets=fs.sets||[],pairs=[];
+    for(const text of sets){const m=/^(\d+)-(\d+)(?:\(\d+\))?$/.exec(String(text));if(!m)return false;pairs.push([+m[1],+m[2]]);}
+    if(pairs.length!==a+b||pairs.filter(([x,y])=>x>y).length!==a||pairs.filter(([x,y])=>y>x).length!==b)return false;
+    const ga=pairs.reduce((n,[x,y])=>n+x,0),gb=pairs.reduce((n,[x,y])=>n+y,0);
+    if(t==='tennis_game_handicap')return sd?((sd==='A'?ga-gb:gb-ga)+line>0):false;
+    if(t==='tennis_match_totals'){
+      const totals=[ga+gb];if(f.games_projected!=null)totals.push(f.games_projected);
+      return lab.ou==='over'?totals.every(v=>v>line):lab.ou==='under'?totals.every(v=>v<line):false;
+    }
+    return false;
+  }
+  function recommendationMatchesScore(m,o){return !!(m?.forecast&&o)&&scoreSupports({sportsMarketType:o.type},parseLabel(o.label),m.forecast,m.players[0].name,m.players[1].name,m.best_of||3);}
   // evaluate every outcome of a matched event against a slate match's frozen forecast
   function evaluate(m, ev, opts) {
     opts = opts || {};
@@ -120,7 +140,8 @@
       if (price >= 0.99) { o.skip = 'ask at 0.99 placeholder (no real liquidity)'; outs.push(o); continue; }
       const c = cost(price);
       o.price = r4(price); o.implied = r4(c); o.edge = r4(mp.p - c); o.ev_per_1 = r4(mp.p / c - 1);
-      o.eligible = lower > 0.5 && lower > c && o.model_p > 0.5 && o.ev_per_1 > 0;
+      o.score_consistent = scoreSupports(mk,lab,f,A,B,bo);
+      o.eligible = o.score_consistent && lower > 0.5 && lower > c && o.model_p > 0.5 && o.ev_per_1 > 0;
       outs.push(o);
     }
     const priced = outs.filter(o => o.implied != null);
@@ -171,5 +192,5 @@
     return { top_probability: prob, top_ev: ev, n_outcomes: all.length };
   }
 
-  return { leaderboards, API, FEE_RATE, LISTS, norm, samePlayer, eventPlayers, side, matchEvent, parseLabel, cost, modelProb, evaluate, evaluateSlate, fetchEvents };
+  return { scoreSupports, recommendationMatchesScore, leaderboards, API, FEE_RATE, LISTS, norm, samePlayer, eventPlayers, side, matchEvent, parseLabel, cost, modelProb, evaluate, evaluateSlate, fetchEvents };
 }));

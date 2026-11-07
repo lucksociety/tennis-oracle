@@ -126,6 +126,29 @@ def _fmt(x):
     return str(int(x)) if float(x).is_integer() else str(x)
 
 
+def score_supports(mk, lab, f, A, B, bo=3):
+    fs = f.get('final_score') or {}; a,b = fs.get('A_sets'),fs.get('B_sets')
+    if any(isinstance(x,bool) or not isinstance(x,int) or x<0 for x in (a,b)) or max(a,b)!=bo//2+1 or a==b: return False
+    t=mk.get('sportsMarketType'); sd=side(lab.get('name'),A,B); line=lab.get('line')
+    if t=='moneyline': return a>b if sd=='A' else b>a if sd=='B' else False
+    if not isinstance(line,(int,float)) or not math.isfinite(line): return False
+    if t=='handicap': return (a-b if sd=='A' else b-a)+line>0 if sd else False
+    if t=='tennis_set_totals': return a+b>line if lab.get('ou')=='over' else a+b<line if lab.get('ou')=='under' else False
+    sets=fs.get('sets') or []; parsed=[]
+    for text in sets:
+        m=re.fullmatch(r'(\d+)-(\d+)(?:\(\d+\))?',str(text))
+        if not m:return False
+        x,y=map(int,m.groups());parsed.append((x,y))
+    if len(parsed)!=a+b or sum(x>y for x,y in parsed)!=a or sum(y>x for x,y in parsed)!=b:return False
+    ga,gb=sum(x for x,y in parsed),sum(y for x,y in parsed)
+    if t=='tennis_game_handicap':return (ga-gb if sd=='A' else gb-ga)+line>0 if sd else False
+    if t=='tennis_match_totals':
+        totals=[ga+gb]
+        if f.get('games_projected') is not None:totals.append(f['games_projected'])
+        return all(v>line for v in totals) if lab.get('ou')=='over' else all(v<line for v in totals) if lab.get('ou')=='under' else False
+    return False
+
+
 def evaluate(m, ev, snapshot_at_utc=None):
     f = m.get("forecast")
     base = {"espn_id": m["espn_id"], "event_id": ev["eventId"] if ev else None,
@@ -152,12 +175,13 @@ def evaluate(m, ev, snapshot_at_utc=None):
         n = f.get("n_sims")
         lower = mp["p"] - 1.96 * math.sqrt(mp["p"] * (1 - mp["p"]) / n) if isinstance(n, int) and n >= 1000 else -1
         o["mc_lower_95"] = r4(lower)
+        o["score_consistent"] = score_supports(mk, lab, f, A, B, bo)
         if mk.get("status") and mk["status"] != "open": o["skip"] = f"market {mk['status']}"; outs.append(o); continue
         if not (0 < price < 1): o["skip"] = "no ask price (no liquidity)"; outs.append(o); continue
         if price >= 0.99: o["skip"] = "ask at 0.99 placeholder (no real liquidity)"; outs.append(o); continue
         c = cost(price)
         o.update(price=r4(price), implied=r4(c), edge=r4(mp["p"] - c), ev_per_1=r4(mp["p"] / c - 1),
-                 eligible=bool(lower > 0.5 and lower > c and o["model_p"] > 0.5 and r4(mp["p"] / c - 1) > 0))
+                 eligible=bool(o["score_consistent"] and lower > 0.5 and lower > c and o["model_p"] > 0.5 and r4(mp["p"] / c - 1) > 0))
         outs.append(o)
     priced = [o for o in outs if o.get("implied") is not None]
     elig = sorted([o for o in priced if o["eligible"]], key=lambda o: (-o["ev_per_1"], -o["model_p"]))
