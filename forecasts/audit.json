@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-08T15:14:31+00:00",
+ "generated_at_utc": "2026-11-08T20:30:46+00:00",
  "summary": {
-  "n": 385,
-  "brier": 0.22860649451948054,
-  "log_loss": 0.6520875947399271,
-  "accuracy": 0.6207792207792208,
-  "games_mae": 5.234727272727272,
-  "exact_sets_accuracy": 0.41818181818181815,
-  "tiebreak_brier": 0.1937028533246753
+  "n": 391,
+  "brier": 0.22901066040920715,
+  "log_loss": 0.652829728974264,
+  "accuracy": 0.618925831202046,
+  "games_mae": 5.214117647058824,
+  "exact_sets_accuracy": 0.4194373401534527,
+  "tiebreak_brier": 0.19393100327365728
  },
- "n": 385,
+ "n": 391,
  "overall": {
-  "n": 385,
-  "brier": 0.22860649451948054,
-  "log_loss": 0.6520875947399271,
-  "accuracy": 0.6207792207792208
+  "n": 391,
+  "brier": 0.22901066040920715,
+  "log_loss": 0.652829728974264,
+  "accuracy": 0.618925831202046
  },
- "games_mae": 5.234727272727272,
- "exact_sets_accuracy": 0.41818181818181815,
- "tiebreak_brier": 0.1937028533246753,
+ "games_mae": 5.214117647058824,
+ "exact_sets_accuracy": 0.4194373401534527,
+ "tiebreak_brier": 0.19393100327365728,
  "by_surface": {
   "Clay": {
    "n": 39,
@@ -27,64 +27,64 @@
    "accuracy": 0.7948717948717948
   },
   "Hard": {
-   "n": 346,
-   "brier": 0.23492592728323697,
-   "log_loss": 0.6658890783778357,
-   "accuracy": 0.6011560693641619
+   "n": 352,
+   "brier": 0.2352671553125,
+   "log_loss": 0.66647818514999,
+   "accuracy": 0.5994318181818182
   }
  },
  "by_tour": {
   "atp": {
-   "n": 127,
-   "brier": 0.2366881524409449,
-   "log_loss": 0.6723515328822137,
-   "accuracy": 0.5826771653543307
+   "n": 131,
+   "brier": 0.2369383226717557,
+   "log_loss": 0.6725529647588956,
+   "accuracy": 0.5801526717557252
   },
   "wta": {
-   "n": 258,
-   "brier": 0.22462831406976744,
-   "log_loss": 0.6421127104605844,
-   "accuracy": 0.6395348837209303
+   "n": 260,
+   "brier": 0.22501633826923076,
+   "log_loss": 0.6428922524827764,
+   "accuracy": 0.6384615384615384
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 82,
-   "brier": 0.24557210951219513,
-   "log_loss": 0.6940727148378484,
-   "accuracy": 0.6219512195121951
+   "n": 84,
+   "brier": 0.24577565940476193,
+   "log_loss": 0.6940663076101071,
+   "accuracy": 0.6190476190476191
   },
   "LOW": {
-   "n": 161,
-   "brier": 0.22011103962732922,
-   "log_loss": 0.6320122717641511,
-   "accuracy": 0.6521739130434783
+   "n": 163,
+   "brier": 0.22078540061349694,
+   "log_loss": 0.6333796447896896,
+   "accuracy": 0.6503067484662577
   },
   "MEDIUM": {
-   "n": 142,
-   "brier": 0.22844161992957743,
-   "log_loss": 0.650604123972817,
-   "accuracy": 0.5845070422535211
+   "n": 144,
+   "brier": 0.22854161479166665,
+   "log_loss": 0.650791472840061,
+   "accuracy": 0.5833333333333334
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 199,
-   "mean_pred": 0.5456507537688443,
-   "observed": 0.5175879396984925
+   "n": 203,
+   "mean_pred": 0.5454990147783251,
+   "observed": 0.5172413793103449
   },
   {
    "bucket": "60%-70%",
-   "n": 121,
-   "mean_pred": 0.6474933884297521,
-   "observed": 0.743801652892562
+   "n": 122,
+   "mean_pred": 0.6476811475409837,
+   "observed": 0.7377049180327869
   },
   {
    "bucket": "70%-80%",
-   "n": 50,
-   "mean_pred": 0.7345139999999998,
-   "observed": 0.78
+   "n": 51,
+   "mean_pred": 0.7349647058823527,
+   "observed": 0.7843137254901961
   },
   {
    "bucket": "80%-90%",
@@ -16061,6 +16061,132 @@
    "version": "v1.1"
   },
   {
+   "match": "Ben Shelton vs Carlos Alcaraz",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Rolex Paris Masters",
+   "p_a": 0.2425,
+   "a_won": 0,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.5321,
+   "exp_games": 24.11,
+   "actual_games": 25,
+   "p_tb": 0.4753,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.1941,
+     0
+    ],
+    "A -2.5": [
+     0.1507,
+     0
+    ],
+    "A -3.5": [
+     0.1015,
+     0
+    ],
+    "A -4.5": [
+     0.0565,
+     0
+    ],
+    "A -5.5": [
+     0.0274,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Thiago Agustin Tirante vs Jaume Munar",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.3296,
+   "a_won": 1,
+   "pred_winner": "Jaume Munar",
+   "actual_winner": "Thiago Agustin Tirante",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.1798,
+   "exp_games": 23.83,
+   "actual_games": 22,
+   "p_tb": 0.4126,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.2807,
+     1
+    ],
+    "A -2.5": [
+     0.2353,
+     1
+    ],
+    "A -3.5": [
+     0.1793,
+     1
+    ],
+    "A -4.5": [
+     0.1164,
+     0
+    ],
+    "A -5.5": [
+     0.0669,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Elias Ymer vs Juan Manuel Cerundolo",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.4313,
+   "a_won": 0,
+   "pred_winner": "Juan Manuel Cerundolo",
+   "actual_winner": "Juan Manuel Cerundolo",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3577,
+   "exp_games": 24.15,
+   "actual_games": 20,
+   "p_tb": 0.4229,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3772,
+     0
+    ],
+    "A -2.5": [
+     0.3243,
+     0
+    ],
+    "A -3.5": [
+     0.2532,
+     0
+    ],
+    "A -4.5": [
+     0.1712,
+     0
+    ],
+    "A -5.5": [
+     0.1053,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Claire Liu vs Alexandra Eala",
    "date": "2026-11-08",
    "tour": "wta",
@@ -16187,6 +16313,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Adrian Mannarino vs Toby Samuel",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5341,
+   "a_won": 0,
+   "pred_winner": "Adrian Mannarino",
+   "actual_winner": "Toby Samuel",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1898,
+   "exp_games": 23.87,
+   "actual_games": 28,
+   "p_tb": 0.3907,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4812,
+     0
+    ],
+    "A -2.5": [
+     0.4289,
+     0
+    ],
+    "A -3.5": [
+     0.3518,
+     0
+    ],
+    "A -4.5": [
+     0.2558,
+     0
+    ],
+    "A -5.5": [
+     0.1688,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Nikoloz Basilashvili vs Borna Gojo",
    "date": "2026-11-08",
    "tour": "atp",
@@ -16265,6 +16433,90 @@
     "A -5.5": [
      0.0638,
      0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Katrina Scott vs Maria Camila Torres Murcia",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.4516,
+   "a_won": 1,
+   "pred_winner": "Maria Camila Torres Murcia",
+   "actual_winner": "Katrina Scott",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2735,
+   "exp_games": 22.7,
+   "actual_games": 18,
+   "p_tb": 0.2724,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4079,
+     1
+    ],
+    "A -2.5": [
+     0.3697,
+     1
+    ],
+    "A -3.5": [
+     0.3159,
+     1
+    ],
+    "A -4.5": [
+     0.2461,
+     1
+    ],
+    "A -5.5": [
+     0.1757,
+     1
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maria Herazo Gonzalez vs Maria Jose Sanchez Uribe",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.5006,
+   "a_won": 1,
+   "pred_winner": "Maria Herazo Gonzalez",
+   "actual_winner": "Maria Herazo Gonzalez",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3124,
+   "exp_games": 22.65,
+   "actual_games": 15,
+   "p_tb": 0.2668,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.457,
+     1
+    ],
+    "A -2.5": [
+     0.4183,
+     1
+    ],
+    "A -3.5": [
+     0.3635,
+     1
+    ],
+    "A -4.5": [
+     0.2873,
+     1
+    ],
+    "A -5.5": [
+     0.2111,
+     1
     ]
    },
    "data_quality": "LOW",

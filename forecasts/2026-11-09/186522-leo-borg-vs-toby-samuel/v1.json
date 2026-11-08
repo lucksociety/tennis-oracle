@@ -1,0 +1,643 @@
+{
+ "predicted_winner": "Toby Samuel",
+ "win_prob": {
+  "A": 0.2996,
+  "B": 0.7004
+ },
+ "win_prob_exact": {
+  "A": 0.29961,
+  "B": 0.7003900000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.34,
+   "american": "+234"
+  },
+  "B": {
+   "decimal": 1.43,
+   "american": "-234"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4805,
+  "1-2": 0.2199,
+  "2-0": 0.1598,
+  "2-1": 0.1398
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0346,
+ "games": {
+  "mean": 23.58,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.19,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00105,
+   "13": 0.00541,
+   "14": 0.0138,
+   "15": 0.02999,
+   "16": 0.0459,
+   "17": 0.06881,
+   "18": 0.07605,
+   "19": 0.08473,
+   "20": 0.07906,
+   "21": 0.05185,
+   "22": 0.07898,
+   "23": 0.06009,
+   "24": 0.01114,
+   "25": 0.03212,
+   "26": 0.04602,
+   "27": 0.02676,
+   "28": 0.03196,
+   "29": 0.03473,
+   "30": 0.03422,
+   "31": 0.04145,
+   "32": 0.04143,
+   "33": 0.02597,
+   "34": 0.01947,
+   "35": 0.0269,
+   "36": 0.0177,
+   "37": 0.00205,
+   "38": 0.00621,
+   "39": 0.00615
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00096,
+  "-11": 0.00498,
+  "-10": 0.01284,
+  "-9": 0.02739,
+  "-8": 0.04384,
+  "-7": 0.07365,
+  "-6": 0.09418,
+  "-5": 0.11597,
+  "-4": 0.12406,
+  "-3": 0.09271,
+  "-2": 0.06045,
+  "-1": 0.03483,
+  "0": 0.0313,
+  "1": 0.02879,
+  "2": 0.04142,
+  "3": 0.05265,
+  "4": 0.05751,
+  "5": 0.04438,
+  "6": 0.02694,
+  "7": 0.0172,
+  "8": 0.00814,
+  "9": 0.00403,
+  "10": 0.00126,
+  "11": 0.00043,
+  "12": 9e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.835,
+   "under": 0.165
+  },
+  {
+   "line": 18.5,
+   "over": 0.759,
+   "under": 0.241
+  },
+  {
+   "line": 19.5,
+   "over": 0.6743,
+   "under": 0.3257
+  },
+  {
+   "line": 20.5,
+   "over": 0.5952,
+   "under": 0.4048
+  },
+  {
+   "line": 21.5,
+   "over": 0.5434,
+   "under": 0.4567
+  },
+  {
+   "line": 22.5,
+   "over": 0.4644,
+   "under": 0.5356
+  },
+  {
+   "line": 23.5,
+   "over": 0.4043,
+   "under": 0.5957
+  },
+  {
+   "line": 24.5,
+   "over": 0.3931,
+   "under": 0.6069
+  },
+  {
+   "line": 25.5,
+   "over": 0.361,
+   "under": 0.639
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.254,
+   "B +1.5": 0.746,
+   "B -1.5": 0.651,
+   "A +1.5": 0.349
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2126,
+   "B +2.5": 0.7874,
+   "B -2.5": 0.5906,
+   "A +2.5": 0.4094
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.16,
+   "B +3.5": 0.84,
+   "B -3.5": 0.4979,
+   "A +3.5": 0.5021
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1025,
+   "B +4.5": 0.8975,
+   "B -4.5": 0.3738,
+   "A +4.5": 0.6262
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0581,
+   "B +5.5": 0.9419,
+   "B -5.5": 0.2578,
+   "A +5.5": 0.7422
+  }
+ ],
+ "p_tiebreak": 0.3967,
+ "p_a_wins_set": 0.5195,
+ "p_b_wins_set": 0.8402,
+ "p_decider": 0.3598,
+ "expected_breaks": {
+  "total": 4.52,
+  "by_A": 1.73,
+  "by_B": 2.79
+ },
+ "expected_break_points": {
+  "A_creates": 4.97,
+  "B_creates": 6.94
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4805
+ },
+ "match": "Leo Borg vs Toby Samuel",
+ "players": {
+  "A": {
+   "id": "atp:209863",
+   "name": "Leo Borg",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 622.0,
+   "age": 23.473237508555783,
+   "elo": 1526.9,
+   "surface_elo": {
+    "Hard": 1479.7,
+    "Clay": 1511.3,
+    "Grass": 1500.0
+   },
+   "matches_total": 17,
+   "matches_surface": {
+    "Hard": 14,
+    "Clay": 3,
+    "Grass": 0
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    5,
+    12
+   ],
+   "last52w": [
+    0,
+    0
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    4,
+    10
+   ],
+   "games_won_lost_52w": [
+    0,
+    0
+   ],
+   "sets_won_lost_52w": [
+    0,
+    0
+   ],
+   "avg_opp_elo_last20": 1678.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0058,
+   "return_rating": -0.0382,
+   "form_elo": 29.5,
+   "last_match": "2025-10-13",
+   "last_stats_match": "2025-10-13",
+   "stats_52w": {},
+   "rank_history": [
+    [
+     "2021-11-08",
+     2146.0
+    ],
+    [
+     "2022-10-17",
+     577.0
+    ],
+    [
+     "2023-07-17",
+     437.0
+    ],
+    [
+     "2023-09-12",
+     334.0
+    ],
+    [
+     "2023-10-16",
+     359.0
+    ],
+    [
+     "2024-07-15",
+     461.0
+    ],
+    [
+     "2024-09-14",
+     603.0
+    ],
+    [
+     "2024-10-14",
+     590.0
+    ],
+    [
+     "2025-01-31",
+     484.0
+    ],
+    [
+     "2025-09-12",
+     589.0
+    ],
+    [
+     "2025-10-13",
+     622.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:210389",
+   "name": "Toby Samuel",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 159.0,
+   "age": 24.159958932238194,
+   "elo": 1748.6,
+   "surface_elo": {
+    "Hard": 1685.7,
+    "Clay": 1483.2,
+    "Grass": 1498.6
+   },
+   "matches_total": 15,
+   "matches_surface": {
+    "Hard": 8,
+    "Clay": 1,
+    "Grass": 6
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    8,
+    7
+   ],
+   "last52w": [
+    8,
+    7
+   ],
+   "last52w_surface": [
+    5,
+    3
+   ],
+   "career_surface_wl": [
+    5,
+    3
+   ],
+   "games_won_lost_52w": [
+    202,
+    189
+   ],
+   "sets_won_lost_52w": [
+    21,
+    20
+   ],
+   "avg_opp_elo_last20": 1722.2,
+   "vs_top_opp_52w": [
+    0,
+    3
+   ],
+   "serve_rating": 0.0675,
+   "return_rating": 0.144,
+   "form_elo": 65.0,
+   "last_match": "2026-11-08",
+   "last_stats_match": "2026-10-20",
+   "stats_52w": {
+    "first_in": 0.6277,
+    "first_won": 0.7016,
+    "second_won": 0.5152,
+    "serve_pts_won": 0.6322,
+    "hold": 0.7929,
+    "aces_per_svgm": 0.3786,
+    "df_per_svgm": 0.2214,
+    "bp_saved": 0.6133,
+    "ret_pts_won": 0.3857,
+    "ret_1st_won": 0.2911,
+    "ret_2nd_won": 0.56,
+    "ret_games_won": 0.2426,
+    "bp_conv": 0.4521,
+    "bp_chances_per_retgm": 0.5368,
+    "matches_with_stats": 10
+   },
+   "rank_history": [
+    [
+     "2026-05-25",
+     159.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Leo Borg: sparse record (17 tour matches, 0 with serve stats in 52w)",
+  "Leo Borg: latest point-level stats are 392 days old (2025-10-13)",
+  "Leo Borg: no recorded match since 2025-10-13 (layoff/injury status unverified)",
+  "Toby Samuel: limited recent/surface sample (15 matches 52w, 8 career on Hard, 10 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Leo Borg: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -145.8,
+  "components_elo": {
+   "surface_elo": -205.9,
+   "overall_elo": -221.7,
+   "serve_return": -195.9,
+   "form": -35.6
+  },
+  "weighted_contributions": {
+   "surface_elo": -25.2,
+   "overall_elo": -52.4,
+   "serve_return": -68.3,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3016,
+  "serve_return_implied_spw": {
+   "A": 0.6167,
+   "B": 0.6725
+  },
+  "point_probs": {
+   "A_serve": 0.6144,
+   "B_serve": 0.6747
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6144264303290666,
+   "B_serve": 0.674666152899494
+  },
+  "hold_probs": {
+   "A": 0.765,
+   "B": 0.8677
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2996,
+   0.303
+  ],
+  "p_tb": [
+   0.3967,
+   0.398
+  ],
+  "p_decider": [
+   0.3598,
+   0.3604
+  ],
+  "games_mean": [
+   23.577,
+   23.59
+  ],
+  "exp_breaks": [
+   4.517,
+   4.518
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4805,
+    0.4779
+   ],
+   "1-2": [
+    0.2199,
+    0.2191
+   ],
+   "2-0": [
+    0.1598,
+    0.1616
+   ],
+   "2-1": [
+    0.1398,
+    0.1413
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0034
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Toby Samuel",
+   "elo_points": -68.3,
+   "raw_diff": -195.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Toby Samuel",
+   "elo_points": -52.4,
+   "raw_diff": -221.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Toby Samuel",
+   "elo_points": -25.2,
+   "raw_diff": -205.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6144,
+   "B": 0.6747,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Toby Samuel to win at least one set",
+  "probability": 0.8402,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-526"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Leo Borg: sparse record (17 tour matches, 0 with serve stats in 52w); Leo Borg: latest point-level stats are 392 days old (2025-10-13)",
+  "candidates": [
+   {
+    "selection": "Toby Samuel to win at least one set",
+    "probability": 0.8402,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.759,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Toby Samuel to win",
+    "probability": 0.7004,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6402,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "Leo Borg +4.5 games",
+    "probability": 0.6262,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6069,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6033,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5952,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Toby Samuel -2.5 games",
+    "probability": 0.5906,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5356,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Leo Borg to win at least one set",
+    "probability": 0.5195,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Exact sets Leo Borg 0-2 Toby Samuel",
+    "probability": 0.4805,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4644,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Leo Borg +2.5 games",
+    "probability": 0.4094,
+    "fair_decimal": 2.44
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4048,
+    "fair_decimal": 2.47
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-08T20:29:31+00:00",
+  "version": 1,
+  "input_hash": "eae9e5b1bbcbdc8c",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186522",
+  "scheduled_start_utc": "2026-11-09T18:30Z"
+ }
+}

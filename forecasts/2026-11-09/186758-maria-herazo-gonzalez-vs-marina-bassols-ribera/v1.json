@@ -1,0 +1,639 @@
+{
+ "predicted_winner": "Marina Bassols Ribera",
+ "win_prob": {
+  "A": 0.474,
+  "B": 0.526
+ },
+ "win_prob_exact": {
+  "A": 0.47396,
+  "B": 0.5260400000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.11,
+   "american": "+111"
+  },
+  "B": {
+   "decimal": 1.9,
+   "american": "-111"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.3299,
+  "2-0": 0.29,
+  "1-2": 0.1961,
+  "2-1": 0.1839
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0173,
+ "games": {
+  "mean": 22.74,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.94,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00201,
+   "13": 0.00934,
+   "14": 0.02338,
+   "15": 0.04447,
+   "16": 0.06457,
+   "17": 0.08134,
+   "18": 0.08228,
+   "19": 0.0761,
+   "20": 0.06758,
+   "21": 0.05089,
+   "22": 0.06124,
+   "23": 0.04083,
+   "24": 0.02048,
+   "25": 0.03806,
+   "26": 0.04213,
+   "27": 0.03816,
+   "28": 0.04147,
+   "29": 0.04238,
+   "30": 0.03876,
+   "31": 0.03869,
+   "32": 0.03237,
+   "33": 0.02075,
+   "34": 0.01527,
+   "35": 0.01451,
+   "36": 0.00687,
+   "37": 0.00196,
+   "38": 0.00278,
+   "39": 0.00133
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00131,
+  "-11": 0.00514,
+  "-10": 0.01344,
+  "-9": 0.02568,
+  "-8": 0.04215,
+  "-7": 0.06104,
+  "-6": 0.07401,
+  "-5": 0.08036,
+  "-4": 0.07782,
+  "-3": 0.05949,
+  "-2": 0.04065,
+  "-1": 0.03037,
+  "0": 0.02844,
+  "1": 0.02983,
+  "2": 0.03911,
+  "3": 0.05581,
+  "4": 0.0728,
+  "5": 0.07327,
+  "6": 0.06602,
+  "7": 0.05217,
+  "8": 0.03409,
+  "9": 0.02138,
+  "10": 0.01065,
+  "11": 0.00427,
+  "12": 0.0007
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7749,
+   "under": 0.2251
+  },
+  {
+   "line": 18.5,
+   "over": 0.6926,
+   "under": 0.3074
+  },
+  {
+   "line": 19.5,
+   "over": 0.6165,
+   "under": 0.3835
+  },
+  {
+   "line": 20.5,
+   "over": 0.5489,
+   "under": 0.4511
+  },
+  {
+   "line": 21.5,
+   "over": 0.498,
+   "under": 0.502
+  },
+  {
+   "line": 22.5,
+   "over": 0.4368,
+   "under": 0.5632
+  },
+  {
+   "line": 23.5,
+   "over": 0.396,
+   "under": 0.604
+  },
+  {
+   "line": 24.5,
+   "over": 0.3755,
+   "under": 0.6245
+  },
+  {
+   "line": 25.5,
+   "over": 0.3374,
+   "under": 0.6626
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4303,
+   "B +1.5": 0.5697,
+   "B -1.5": 0.4811,
+   "A +1.5": 0.5189
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.3912,
+   "B +2.5": 0.6088,
+   "B -2.5": 0.4404,
+   "A +2.5": 0.5596
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3353,
+   "B +3.5": 0.6646,
+   "B -3.5": 0.381,
+   "A +3.5": 0.619
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2626,
+   "B +4.5": 0.7374,
+   "B -4.5": 0.3031,
+   "A +4.5": 0.6969
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1893,
+   "B +5.5": 0.8107,
+   "B -5.5": 0.2228,
+   "A +5.5": 0.7772
+  }
+ ],
+ "p_tiebreak": 0.2719,
+ "p_a_wins_set": 0.6701,
+ "p_b_wins_set": 0.7099,
+ "p_decider": 0.3801,
+ "expected_breaks": {
+  "total": 7.55,
+  "by_A": 3.69,
+  "by_B": 3.85
+ },
+ "expected_break_points": {
+  "A_creates": 8.38,
+  "B_creates": 8.62
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.3299
+ },
+ "match": "Maria Herazo Gonzalez vs Marina Bassols Ribera",
+ "players": {
+  "A": {
+   "id": "wta:espn2670",
+   "name": "Maria Herazo Gonzalez",
+   "tour": "wta",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1482.6,
+   "surface_elo": {
+    "Hard": 1530.3,
+    "Clay": 1410.6,
+    "Grass": 1500.0
+   },
+   "matches_total": 4,
+   "matches_surface": {
+    "Hard": 3,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    2,
+    2
+   ],
+   "last10": [
+    2,
+    2
+   ],
+   "last20": [
+    2,
+    2
+   ],
+   "last52w": [
+    2,
+    2
+   ],
+   "last52w_surface": [
+    2,
+    1
+   ],
+   "career_surface_wl": [
+    2,
+    1
+   ],
+   "games_won_lost_52w": [
+    38,
+    43
+   ],
+   "sets_won_lost_52w": [
+    5,
+    4
+   ],
+   "avg_opp_elo_last20": 1432.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0,
+   "return_rating": 0.0,
+   "form_elo": 1.5,
+   "last_match": "2026-11-08",
+   "last_stats_match": null,
+   "stats_52w": {},
+   "rank_history": []
+  },
+  "B": {
+   "id": "wta:215453",
+   "name": "Marina Bassols Ribera",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 175.0,
+   "age": 26.859958932238193,
+   "elo": 1551.6,
+   "surface_elo": {
+    "Hard": 1484.5,
+    "Clay": 1533.6,
+    "Grass": 1541.0
+   },
+   "matches_total": 44,
+   "matches_surface": {
+    "Hard": 19,
+    "Clay": 23,
+    "Grass": 2
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    13,
+    15
+   ],
+   "last52w_surface": [
+    5,
+    6
+   ],
+   "career_surface_wl": [
+    5,
+    14
+   ],
+   "games_won_lost_52w": [
+    296,
+    293
+   ],
+   "sets_won_lost_52w": [
+    34,
+    33
+   ],
+   "avg_opp_elo_last20": 1569.5,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0352,
+   "return_rating": -0.0166,
+   "form_elo": 59.6,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-11-04",
+   "stats_52w": {
+    "first_in": 0.6491,
+    "first_won": 0.6087,
+    "second_won": 0.4323,
+    "serve_pts_won": 0.5468,
+    "hold": 0.5972,
+    "aces_per_svgm": 0.0758,
+    "df_per_svgm": 0.545,
+    "bp_saved": 0.5813,
+    "ret_pts_won": 0.4547,
+    "ret_1st_won": 0.3912,
+    "ret_2nd_won": 0.5665,
+    "ret_games_won": 0.4174,
+    "bp_conv": 0.4715,
+    "bp_chances_per_retgm": 0.8853,
+    "matches_with_stats": 22
+   },
+   "rank_history": [
+    [
+     "2023-01-30",
+     124.0
+    ],
+    [
+     "2023-02-06",
+     128.0
+    ],
+    [
+     "2023-02-27",
+     124.0
+    ],
+    [
+     "2023-04-03",
+     122.0
+    ],
+    [
+     "2023-04-24",
+     119.0
+    ],
+    [
+     "2023-10-16",
+     110.0
+    ],
+    [
+     "2024-02-05",
+     105.0
+    ],
+    [
+     "2024-07-15",
+     121.0
+    ],
+    [
+     "2024-07-22",
+     122.0
+    ],
+    [
+     "2024-08-26",
+     114.0
+    ],
+    [
+     "2024-09-09",
+     113.0
+    ],
+    [
+     "2026-05-25",
+     175.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "DIRECTV Open Presentado por Compesar",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-08",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "18a4a901f8215d3e",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Maria Herazo Gonzalez: sparse record (4 tour matches, 0 with serve stats in 52w)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Maria Herazo Gonzalez: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -16.4,
+  "components_elo": {
+   "surface_elo": 45.8,
+   "overall_elo": -69.1,
+   "serve_return": -16.6,
+   "form": -58.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 5.6,
+   "overall_elo": -16.3,
+   "serve_return": -5.8,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.4764,
+  "serve_return_implied_spw": {
+   "A": 0.569,
+   "B": 0.5735
+  },
+  "point_probs": {
+   "A_serve": 0.5678,
+   "B_serve": 0.5747
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5678289299471272,
+   "B_serve": 0.5747090574771699
+  },
+  "hold_probs": {
+   "A": 0.665,
+   "B": 0.6807
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.474,
+   0.4768
+  ],
+  "p_tb": [
+   0.2719,
+   0.2741
+  ],
+  "p_decider": [
+   0.3801,
+   0.3778
+  ],
+  "games_mean": [
+   22.735,
+   22.721
+  ],
+  "exp_breaks": [
+   7.546,
+   7.538
+  ],
+  "set_scores": {
+   "0-2": [
+    0.3299,
+    0.3298
+   ],
+   "1-2": [
+    0.1961,
+    0.1934
+   ],
+   "2-0": [
+    0.29,
+    0.2923
+   ],
+   "2-1": [
+    0.1839,
+    0.1844
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0028
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Marina Bassols Ribera",
+   "elo_points": -16.3,
+   "raw_diff": -69.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Marina Bassols Ribera",
+   "elo_points": -5.8,
+   "raw_diff": -16.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Maria Herazo Gonzalez",
+   "elo_points": 5.6,
+   "raw_diff": 45.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5678,
+   "B": 0.5747,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "No tiebreak",
+  "probability": 0.7281,
+  "fair_odds": {
+   "decimal": 1.37,
+   "american": "-268"
+  },
+  "confidence": "Low",
+  "main_risk": "Tiebreak occurrence hinges on hold rates; small serve-model misspecification moves it materially. Data quality LOW: Maria Herazo Gonzalez: sparse record (4 tour matches, 0 with serve stats in 52w)",
+  "candidates": [
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7281,
+    "fair_decimal": 1.37
+   },
+   {
+    "selection": "Marina Bassols Ribera to win at least one set",
+    "probability": 0.7099,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Maria Herazo Gonzalez +4.5 games",
+    "probability": 0.6969,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6926,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Maria Herazo Gonzalez to win at least one set",
+    "probability": 0.6701,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6245,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6199,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5632,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Maria Herazo Gonzalez +2.5 games",
+    "probability": 0.5596,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5489,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Marina Bassols Ribera to win",
+    "probability": 0.526,
+    "fair_decimal": 1.9
+   },
+   {
+    "selection": "Maria Herazo Gonzalez to win",
+    "probability": 0.474,
+    "fair_decimal": 2.11
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4511,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Marina Bassols Ribera -2.5 games",
+    "probability": 0.4404,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4368,
+    "fair_decimal": 2.29
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-08T20:29:26+00:00",
+  "version": 1,
+  "input_hash": "c183df802c417157",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186758",
+  "scheduled_start_utc": "2026-11-09T16:30Z"
+ }
+}

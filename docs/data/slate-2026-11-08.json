@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-08T15:12:41+00:00",
+ "generated_at_utc": "2026-11-08T20:29:15+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -755,8 +755,8 @@
    "round": "Qualifying Final",
    "court": "Center Court",
    "start_utc": "2026-11-08T12:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Adrian Mannarino",
@@ -772,7 +772,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      1,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-07T20:14:51+00:00",
@@ -890,8 +906,8 @@
    "round": "Final",
    "court": "Court Central",
    "start_utc": "2026-11-08T14:15Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Ben Shelton",
@@ -907,7 +923,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-07T20:14:58+00:00",
@@ -1025,8 +1053,8 @@
    "round": "Qualifying Final",
    "court": "Court 1",
    "start_utc": "2026-11-08T15:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Carolina Alves",
@@ -1034,7 +1062,7 @@
     },
     {
      "name": "Sara Alejandra Lozano Avellaneda",
-     "id": null
+     "id": "wta:espn17802"
     }
    ],
    "surface": "Hard",
@@ -1042,9 +1070,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      0
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187459",
@@ -1054,8 +1093,8 @@
    "round": "Qualifying Final",
    "court": "Main Court",
    "start_utc": "2026-11-08T15:10Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Katrina Scott",
@@ -1071,7 +1110,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-07T23:39:44+00:00",
@@ -1191,9 +1242,9 @@
    "venue": "Stockholm, Sweden",
    "round": "Round 1",
    "court": "Center Court",
-   "start_utc": "2026-11-08T15:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-08T15:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Elias Ymer",
@@ -1209,7 +1260,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-08T15:12:32+00:00",
@@ -1320,274 +1383,44 @@
    }
   },
   {
-   "espn_id": "186598",
+   "espn_id": "187460",
    "tour": "wta",
-   "tournament": "Chennai Open",
-   "venue": "Chennai, India",
-   "round": "Final",
-   "court": "Centre Court",
-   "start_utc": "2026-11-08T15:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Qualifying Final",
+   "court": "Court 1",
+   "start_utc": "2026-11-08T16:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
-     "name": "Janice Tjen",
-     "id": "wta:222145"
+     "name": "Dalila Jakupovic",
+     "id": "wta:203435"
     },
     {
-     "name": "Magda Linette",
-     "id": "wta:202663"
+     "name": "Isabella Collazos",
+     "id": "wta:espn19364"
     }
    ],
    "surface": "Hard",
-   "surface_source": "official-wta-current-edition",
+   "surface_source": "assumed",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-08T15:12:34+00:00",
-    "path": "forecasts/2026-11-08/186598-janice-tjen-vs-magda-linette/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Janice Tjen",
-    "win_prob": {
-     "A": 0.6335,
-     "B": 0.3665
-    },
-    "most_likely_set_score": "2-0",
-    "final_score": {
-     "A_sets": 2,
-     "B_sets": 0,
-     "sets": [
-      "6-3",
-      "6-4"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      1
      ],
-     "prob": 0.422
-    },
-    "games_mean": 23.25,
-    "strongest": {
-     "selection": "Janice Tjen to win at least one set",
-     "probability": 0.7945,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.6335,
-      "B": 0.3665
-     },
-     "set_score_probs": {
-      "2-0": 0.422,
-      "2-1": 0.2114,
-      "0-2": 0.2055,
-      "1-2": 0.161
-     },
-     "games_pmf": {
-      "12": 0.0013,
-      "13": 0.0064,
-      "14": 0.01721,
-      "15": 0.03516,
-      "16": 0.0526,
-      "17": 0.07451,
-      "18": 0.08055,
-      "19": 0.08112,
-      "20": 0.07495,
-      "21": 0.05128,
-      "22": 0.07105,
-      "23": 0.05118,
-      "24": 0.01503,
-      "25": 0.03438,
-      "26": 0.04211,
-      "27": 0.0323,
-      "28": 0.03727,
-      "29": 0.03939,
-      "30": 0.03823,
-      "31": 0.04072,
-      "32": 0.03715,
-      "33": 0.02397,
-      "34": 0.01798,
-      "35": 0.02205,
-      "36": 0.0123,
-      "37": 0.00205,
-      "38": 0.00412,
-      "39": 0.00364
-     },
-     "games_diff_pmf": {
-      "-12": 0.00022,
-      "-11": 0.0011,
-      "-10": 0.00374,
-      "-9": 0.00858,
-      "-8": 0.01618,
-      "-7": 0.02937,
-      "-6": 0.04266,
-      "-5": 0.05635,
-      "-4": 0.06578,
-      "-3": 0.05551,
-      "-2": 0.03994,
-      "-1": 0.03015,
-      "0": 0.0306,
-      "1": 0.03345,
-      "2": 0.0497,
-      "3": 0.07687,
-      "4": 0.10467,
-      "5": 0.10055,
-      "6": 0.08853,
-      "7": 0.07225,
-      "8": 0.04476,
-      "9": 0.02862,
-      "10": 0.01399,
-      "11": 0.00535,
-      "12": 0.00108
-     },
-     "p_tiebreak": 0.3427,
-     "p_decider": 0.3725
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0024
-   }
-  },
-  {
-   "espn_id": "186528",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "Center Court",
-   "start_utc": "2026-11-08T16:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Thiago Agustin Tirante",
-     "id": "atp:202058"
-    },
-    {
-     "name": "Jaume Munar",
-     "id": "atp:144719"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 2,
-    "frozen_at_utc": "2026-11-08T15:12:36+00:00",
-    "path": "forecasts/2026-11-08/186528-thiago-agustin-tirante-vs-jaume-munar/v2.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Jaume Munar",
-    "win_prob": {
-     "A": 0.3296,
-     "B": 0.6704
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
-     ],
-     "prob": 0.4497
-    },
-    "games_mean": 23.83,
-    "strongest": {
-     "selection": "Jaume Munar to win at least one set",
-     "probability": 0.8202,
-     "confidence": "High"
-    },
-    "data_quality": "HIGH",
-    "recommendation_quality": {
-     "eligible": true,
-     "reasons": [],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3296,
-      "B": 0.6704
-     },
-     "set_score_probs": {
-      "0-2": 0.4497,
-      "1-2": 0.2207,
-      "2-0": 0.1798,
-      "2-1": 0.1497
-     },
-     "games_pmf": {
-      "12": 0.00088,
-      "13": 0.00433,
-      "14": 0.0114,
-      "15": 0.02654,
-      "16": 0.04138,
-      "17": 0.06684,
-      "18": 0.07391,
-      "19": 0.08374,
-      "20": 0.07689,
-      "21": 0.05209,
-      "22": 0.08195,
-      "23": 0.06168,
-      "24": 0.0113,
-      "25": 0.03212,
-      "26": 0.04887,
-      "27": 0.02687,
-      "28": 0.03256,
-      "29": 0.03512,
-      "30": 0.03593,
-      "31": 0.04184,
-      "32": 0.04228,
-      "33": 0.02729,
-      "34": 0.01966,
-      "35": 0.02877,
-      "36": 0.01948,
-      "37": 0.00225,
-      "38": 0.00657,
-      "39": 0.00746
-     },
-     "games_diff_pmf": {
-      "-12": 0.00084,
-      "-11": 0.00393,
-      "-10": 0.01039,
-      "-9": 0.02362,
-      "-8": 0.03816,
-      "-7": 0.06694,
-      "-6": 0.08775,
-      "-5": 0.11003,
-      "-4": 0.12185,
-      "-3": 0.09259,
-      "-2": 0.06222,
-      "-1": 0.03714,
-      "0": 0.03246,
-      "1": 0.03136,
-      "2": 0.04538,
-      "3": 0.05601,
-      "4": 0.06296,
-      "5": 0.04946,
-      "6": 0.03093,
-      "7": 0.02111,
-      "8": 0.0087,
-      "9": 0.00431,
-      "10": 0.00138,
-      "11": 0.00044,
-      "12": 4e-05
-     },
-     "p_tiebreak": 0.4126,
-     "p_decider": 0.3704
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0029
-   }
+     [
+      6,
+      1
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "187461",
@@ -1596,9 +1429,9 @@
    "venue": "Sopo, Colombia",
    "round": "Qualifying Final",
    "court": "Main Court",
-   "start_utc": "2026-11-08T16:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-08T17:00Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Maria Herazo Gonzalez",
@@ -1614,7 +1447,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-08T15:12:38+00:00",
@@ -1729,33 +1574,151 @@
    }
   },
   {
-   "espn_id": "187460",
-   "tour": "wta",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "venue": "Sopo, Colombia",
-   "round": "Qualifying Final",
-   "court": "Court 1",
-   "start_utc": "2026-11-08T16:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "espn_id": "186528",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Round 1",
+   "court": "Center Court",
+   "start_utc": "2026-11-08T17:35Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
-     "name": "Dalila Jakupovic",
-     "id": "wta:203435"
+     "name": "Thiago Agustin Tirante",
+     "id": "atp:202058"
     },
     {
-     "name": "Isabella Collazos",
-     "id": null
+     "name": "Jaume Munar",
+     "id": "atp:144719"
     }
    ],
    "surface": "Hard",
-   "surface_source": "assumed",
+   "surface_source": "venue-history",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-08T15:12:36+00:00",
+    "path": "forecasts/2026-11-08/186528-thiago-agustin-tirante-vs-jaume-munar/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Jaume Munar",
+    "win_prob": {
+     "A": 0.3296,
+     "B": 0.6704
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4497
+    },
+    "games_mean": 23.83,
+    "strongest": {
+     "selection": "Jaume Munar to win at least one set",
+     "probability": 0.8202,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3296,
+      "B": 0.6704
+     },
+     "set_score_probs": {
+      "0-2": 0.4497,
+      "1-2": 0.2207,
+      "2-0": 0.1798,
+      "2-1": 0.1497
+     },
+     "games_pmf": {
+      "12": 0.00088,
+      "13": 0.00433,
+      "14": 0.0114,
+      "15": 0.02654,
+      "16": 0.04138,
+      "17": 0.06684,
+      "18": 0.07391,
+      "19": 0.08374,
+      "20": 0.07689,
+      "21": 0.05209,
+      "22": 0.08195,
+      "23": 0.06168,
+      "24": 0.0113,
+      "25": 0.03212,
+      "26": 0.04887,
+      "27": 0.02687,
+      "28": 0.03256,
+      "29": 0.03512,
+      "30": 0.03593,
+      "31": 0.04184,
+      "32": 0.04228,
+      "33": 0.02729,
+      "34": 0.01966,
+      "35": 0.02877,
+      "36": 0.01948,
+      "37": 0.00225,
+      "38": 0.00657,
+      "39": 0.00746
+     },
+     "games_diff_pmf": {
+      "-12": 0.00084,
+      "-11": 0.00393,
+      "-10": 0.01039,
+      "-9": 0.02362,
+      "-8": 0.03816,
+      "-7": 0.06694,
+      "-6": 0.08775,
+      "-5": 0.11003,
+      "-4": 0.12185,
+      "-3": 0.09259,
+      "-2": 0.06222,
+      "-1": 0.03714,
+      "0": 0.03246,
+      "1": 0.03136,
+      "2": 0.04538,
+      "3": 0.05601,
+      "4": 0.06296,
+      "5": 0.04946,
+      "6": 0.03093,
+      "7": 0.02111,
+      "8": 0.0087,
+      "9": 0.00431,
+      "10": 0.00138,
+      "11": 0.00044,
+      "12": 4e-05
+     },
+     "p_tiebreak": 0.4126,
+     "p_decider": 0.3704
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0029
+   }
   },
   {
    "espn_id": "187373",
@@ -1764,8 +1727,8 @@
    "venue": "Indian Wells Tennis Garden, Indian Wells, USA",
    "round": "Group Stage",
    "court": "Indian Wells Tennis Garden",
-   "start_utc": "2026-11-08T20:00Z",
-   "status": "STATUS_SCHEDULED",
+   "start_utc": "2026-11-08T20:15Z",
+   "status": "STATUS_IN_PROGRESS",
    "completed": false,
    "players": [
     {
