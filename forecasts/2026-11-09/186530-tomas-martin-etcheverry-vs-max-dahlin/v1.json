@@ -1,0 +1,668 @@
+{
+ "predicted_winner": "Tomas Martin Etcheverry",
+ "win_prob": {
+  "A": 0.7033,
+  "B": 0.2967
+ },
+ "win_prob_exact": {
+  "A": 0.70329,
+  "B": 0.29671000000000003
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.42,
+   "american": "-237"
+  },
+  "B": {
+   "decimal": 3.37,
+   "american": "+237"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4802,
+  "2-1": 0.2231,
+  "0-2": 0.1547,
+  "1-2": 0.1421
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0381,
+ "games": {
+  "mean": 24.31,
+  "median": 23.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.31,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00042,
+   "13": 0.00302,
+   "14": 0.00845,
+   "15": 0.02039,
+   "16": 0.03339,
+   "17": 0.05821,
+   "18": 0.06825,
+   "19": 0.0827,
+   "20": 0.07768,
+   "21": 0.05205,
+   "22": 0.09058,
+   "23": 0.07481,
+   "24": 0.0081,
+   "25": 0.03246,
+   "26": 0.0549,
+   "27": 0.02253,
+   "28": 0.02782,
+   "29": 0.02966,
+   "30": 0.03248,
+   "31": 0.04169,
+   "32": 0.04371,
+   "33": 0.02856,
+   "34": 0.02112,
+   "35": 0.03614,
+   "36": 0.02715,
+   "37": 0.00236,
+   "38": 0.00853,
+   "39": 0.01284
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 1e-05,
+  "-11": 0.00024,
+  "-10": 0.00079,
+  "-9": 0.0022,
+  "-8": 0.00468,
+  "-7": 0.01297,
+  "-6": 0.02177,
+  "-5": 0.03876,
+  "-4": 0.05594,
+  "-3": 0.05864,
+  "-2": 0.04873,
+  "-1": 0.03292,
+  "0": 0.03405,
+  "1": 0.04027,
+  "2": 0.07247,
+  "3": 0.11036,
+  "4": 0.13615,
+  "5": 0.11721,
+  "6": 0.0868,
+  "7": 0.06197,
+  "8": 0.03291,
+  "9": 0.0191,
+  "10": 0.00787,
+  "11": 0.00278,
+  "12": 0.00041
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8761,
+   "under": 0.1239
+  },
+  {
+   "line": 18.5,
+   "over": 0.8079,
+   "under": 0.1921
+  },
+  {
+   "line": 19.5,
+   "over": 0.7252,
+   "under": 0.2748
+  },
+  {
+   "line": 20.5,
+   "over": 0.6475,
+   "under": 0.3525
+  },
+  {
+   "line": 21.5,
+   "over": 0.5954,
+   "under": 0.4046
+  },
+  {
+   "line": 22.5,
+   "over": 0.5049,
+   "under": 0.4951
+  },
+  {
+   "line": 23.5,
+   "over": 0.4301,
+   "under": 0.5699
+  },
+  {
+   "line": 24.5,
+   "over": 0.4219,
+   "under": 0.578
+  },
+  {
+   "line": 25.5,
+   "over": 0.3895,
+   "under": 0.6105
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.648,
+   "B +1.5": 0.352,
+   "B -1.5": 0.2447,
+   "A +1.5": 0.7553
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5756,
+   "B +2.5": 0.4244,
+   "B -2.5": 0.196,
+   "A +2.5": 0.804
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4652,
+   "B +3.5": 0.5348,
+   "B -3.5": 0.1374,
+   "A +3.5": 0.8626
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3291,
+   "B +4.5": 0.6709,
+   "B -4.5": 0.0814,
+   "A +4.5": 0.9186
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2118,
+   "B +5.5": 0.7882,
+   "B -5.5": 0.0427,
+   "A +5.5": 0.9573
+  }
+ ],
+ "p_tiebreak": 0.4777,
+ "p_a_wins_set": 0.8453,
+ "p_b_wins_set": 0.5198,
+ "p_decider": 0.3652,
+ "expected_breaks": {
+  "total": 3.64,
+  "by_A": 2.31,
+  "by_B": 1.33
+ },
+ "expected_break_points": {
+  "A_creates": 6.14,
+  "B_creates": 4.15
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.4802
+ },
+ "match": "Tomas Martin Etcheverry vs Max Dahlin",
+ "players": {
+  "A": {
+   "id": "atp:144869",
+   "name": "Tomas Martin Etcheverry",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 28.0,
+   "age": 27.259958932238195,
+   "elo": 1710.9,
+   "surface_elo": {
+    "Hard": 1674.5,
+    "Clay": 1725.5,
+    "Grass": 1356.5
+   },
+   "matches_total": 242,
+   "matches_surface": {
+    "Hard": 110,
+    "Clay": 115,
+    "Grass": 17
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    7,
+    13
+   ],
+   "last52w": [
+    28,
+    28
+   ],
+   "last52w_surface": [
+    11,
+    15
+   ],
+   "career_surface_wl": [
+    49,
+    61
+   ],
+   "games_won_lost_52w": [
+    737,
+    750
+   ],
+   "sets_won_lost_52w": [
+    73,
+    74
+   ],
+   "avg_opp_elo_last20": 1769.8,
+   "vs_top_opp_52w": [
+    2,
+    8
+   ],
+   "serve_rating": 0.2369,
+   "return_rating": 0.0411,
+   "form_elo": -51.4,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.6473,
+    "first_won": 0.724,
+    "second_won": 0.5471,
+    "serve_pts_won": 0.6616,
+    "hold": 0.8222,
+    "aces_per_svgm": 0.4774,
+    "df_per_svgm": 0.1342,
+    "bp_saved": 0.573,
+    "ret_pts_won": 0.3498,
+    "ret_1st_won": 0.2781,
+    "ret_2nd_won": 0.4796,
+    "ret_games_won": 0.1747,
+    "bp_conv": 0.3466,
+    "bp_chances_per_retgm": 0.5039,
+    "matches_with_stats": 49
+   },
+   "rank_history": [
+    [
+     "2026-01-12",
+     61.0
+    ],
+    [
+     "2026-01-19",
+     62.0
+    ],
+    [
+     "2026-02-09",
+     54.0
+    ],
+    [
+     "2026-02-16",
+     51.0
+    ],
+    [
+     "2026-03-04",
+     31.0
+    ],
+    [
+     "2026-03-18",
+     32.0
+    ],
+    [
+     "2026-03-30",
+     31.0
+    ],
+    [
+     "2026-04-05",
+     30.0
+    ],
+    [
+     "2026-04-13",
+     29.0
+    ],
+    [
+     "2026-05-06",
+     26.0
+    ],
+    [
+     "2026-05-17",
+     25.0
+    ],
+    [
+     "2026-05-25",
+     28.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:espn13232",
+   "name": "Max Dahlin",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1468.6,
+   "surface_elo": {
+    "Hard": 1500.0,
+    "Clay": 1463.0,
+    "Grass": 1500.0
+   },
+   "matches_total": 1,
+   "matches_surface": {
+    "Hard": 0,
+    "Clay": 1,
+    "Grass": 0
+   },
+   "last5": [
+    0,
+    1
+   ],
+   "last10": [
+    0,
+    1
+   ],
+   "last20": [
+    0,
+    1
+   ],
+   "last52w": [
+    0,
+    1
+   ],
+   "last52w_surface": [
+    0,
+    0
+   ],
+   "career_surface_wl": [
+    0,
+    0
+   ],
+   "games_won_lost_52w": [
+    11,
+    16
+   ],
+   "sets_won_lost_52w": [
+    1,
+    2
+   ],
+   "avg_opp_elo_last20": 1707.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0032,
+   "return_rating": -0.0077,
+   "form_elo": -2.0,
+   "last_match": "2026-07-14",
+   "last_stats_match": "2026-07-14",
+   "stats_52w": {
+    "first_in": 0.5,
+    "first_won": 0.7317,
+    "second_won": 0.439,
+    "serve_pts_won": 0.5854,
+    "hold": 0.7143,
+    "aces_per_svgm": 0.3571,
+    "df_per_svgm": 0.4286,
+    "bp_saved": 0.4286,
+    "ret_pts_won": 0.3483,
+    "ret_1st_won": 0.3088,
+    "ret_2nd_won": 0.4762,
+    "ret_games_won": 0.0769,
+    "bp_conv": 0.1,
+    "bp_chances_per_retgm": 0.7692,
+    "matches_with_stats": 1
+   },
+   "rank_history": []
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "LOW",
+ "data_quality_notes": [
+  "Max Dahlin: sparse record (1 tour matches, 1 with serve stats in 52w)",
+  "Max Dahlin: latest point-level stats are 118 days old (2026-07-14)"
+ ],
+ "recommendation_quality": {
+  "eligible": false,
+  "reasons": [
+   "insufficient player history",
+   "Max Dahlin: serve/return statistics missing, future-dated or older than 60 days"
+  ],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 153.0,
+  "components_elo": {
+   "surface_elo": 174.5,
+   "overall_elo": 242.3,
+   "serve_return": 213.1,
+   "form": -49.4
+  },
+  "weighted_contributions": {
+   "surface_elo": 21.3,
+   "overall_elo": 57.2,
+   "serve_return": 74.3,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.707,
+  "serve_return_implied_spw": {
+   "A": 0.7024,
+   "B": 0.6401
+  },
+  "point_probs": {
+   "A_serve": 0.7027,
+   "B_serve": 0.6398
+  },
+  "point_probs_exact": {
+   "A_serve": 0.7027076320309519,
+   "B_serve": 0.6397558407885772
+  },
+  "hold_probs": {
+   "A": 0.904,
+   "B": 0.8122
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7033,
+   0.706
+  ],
+  "p_tb": [
+   0.4777,
+   0.4777
+  ],
+  "p_decider": [
+   0.3652,
+   0.3655
+  ],
+  "games_mean": [
+   24.313,
+   24.313
+  ],
+  "exp_breaks": [
+   3.644,
+   3.642
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1547,
+    0.1534
+   ],
+   "1-2": [
+    0.1421,
+    0.1405
+   ],
+   "2-0": [
+    0.4802,
+    0.4811
+   ],
+   "2-1": [
+    0.2231,
+    0.2249
+   ]
+  },
+  "mc_se_p_a": 0.0014,
+  "max_abs_diff_probs": 0.0027
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tomas Martin Etcheverry",
+   "elo_points": 74.3,
+   "raw_diff": 213.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tomas Martin Etcheverry",
+   "elo_points": 57.2,
+   "raw_diff": 242.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Tomas Martin Etcheverry",
+   "elo_points": 21.3,
+   "raw_diff": 174.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5471,
+   "B": 0.439,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3498,
+   "B": 0.3483,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.7027,
+   "B": 0.6398,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Tomas Martin Etcheverry to win at least one set",
+  "probability": 0.8453,
+  "fair_odds": {
+   "decimal": 1.18,
+   "american": "-546"
+  },
+  "confidence": "Low",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality LOW: Max Dahlin: sparse record (1 tour matches, 1 with serve stats in 52w); Max Dahlin: latest point-level stats are 118 days old (2026-07-14)",
+  "candidates": [
+   {
+    "selection": "Tomas Martin Etcheverry to win at least one set",
+    "probability": 0.8453,
+    "fair_decimal": 1.18
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8079,
+    "fair_decimal": 1.24
+   },
+   {
+    "selection": "Tomas Martin Etcheverry to win",
+    "probability": 0.7033,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Max Dahlin +4.5 games",
+    "probability": 0.6709,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6475,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6348,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.578,
+    "fair_decimal": 1.73
+   },
+   {
+    "selection": "Tomas Martin Etcheverry -2.5 games",
+    "probability": 0.5756,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5223,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Max Dahlin to win at least one set",
+    "probability": 0.5198,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5049,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4951,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Exact sets Tomas Martin Etcheverry 2-0 Max Dahlin",
+    "probability": 0.4802,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4777,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Max Dahlin +2.5 games",
+    "probability": 0.4244,
+    "fair_decimal": 2.36
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-07",
+ "freeze": {
+  "frozen_at_utc": "2026-11-08T06:00:47+00:00",
+  "version": 1,
+  "input_hash": "3c6169a80989b90f",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186530",
+  "scheduled_start_utc": "2026-11-09T05:00Z"
+ }
+}
