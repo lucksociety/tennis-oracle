@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Jaume Munar",
+ "win_prob": {
+  "A": 0.3296,
+  "B": 0.6704
+ },
+ "win_prob_exact": {
+  "A": 0.32955,
+  "B": 0.67045
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.03,
+   "american": "+203"
+  },
+  "B": {
+   "decimal": 1.49,
+   "american": "-203"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4497,
+  "1-2": 0.2207,
+  "2-0": 0.1798,
+  "2-1": 0.1497
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0332,
+ "games": {
+  "mean": 23.83,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.2,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00088,
+   "13": 0.00433,
+   "14": 0.0114,
+   "15": 0.02654,
+   "16": 0.04138,
+   "17": 0.06684,
+   "18": 0.07391,
+   "19": 0.08374,
+   "20": 0.07689,
+   "21": 0.05209,
+   "22": 0.08195,
+   "23": 0.06168,
+   "24": 0.0113,
+   "25": 0.03212,
+   "26": 0.04887,
+   "27": 0.02687,
+   "28": 0.03256,
+   "29": 0.03512,
+   "30": 0.03593,
+   "31": 0.04184,
+   "32": 0.04228,
+   "33": 0.02729,
+   "34": 0.01966,
+   "35": 0.02877,
+   "36": 0.01948,
+   "37": 0.00225,
+   "38": 0.00657,
+   "39": 0.00746
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00084,
+  "-11": 0.00393,
+  "-10": 0.01039,
+  "-9": 0.02362,
+  "-8": 0.03816,
+  "-7": 0.06694,
+  "-6": 0.08775,
+  "-5": 0.11003,
+  "-4": 0.12185,
+  "-3": 0.09259,
+  "-2": 0.06222,
+  "-1": 0.03714,
+  "0": 0.03246,
+  "1": 0.03136,
+  "2": 0.04538,
+  "3": 0.05601,
+  "4": 0.06296,
+  "5": 0.04946,
+  "6": 0.03093,
+  "7": 0.02111,
+  "8": 0.0087,
+  "9": 0.00431,
+  "10": 0.00138,
+  "11": 0.00044,
+  "12": 4e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8486,
+   "under": 0.1514
+  },
+  {
+   "line": 18.5,
+   "over": 0.7747,
+   "under": 0.2253
+  },
+  {
+   "line": 19.5,
+   "over": 0.691,
+   "under": 0.309
+  },
+  {
+   "line": 20.5,
+   "over": 0.6141,
+   "under": 0.3859
+  },
+  {
+   "line": 21.5,
+   "over": 0.562,
+   "under": 0.438
+  },
+  {
+   "line": 22.5,
+   "over": 0.48,
+   "under": 0.52
+  },
+  {
+   "line": 23.5,
+   "over": 0.4184,
+   "under": 0.5816
+  },
+  {
+   "line": 24.5,
+   "over": 0.4071,
+   "under": 0.5929
+  },
+  {
+   "line": 25.5,
+   "over": 0.375,
+   "under": 0.625
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2807,
+   "B +1.5": 0.7193,
+   "B -1.5": 0.6183,
+   "A +1.5": 0.3817
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2353,
+   "B +2.5": 0.7647,
+   "B -2.5": 0.5561,
+   "A +2.5": 0.4439
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1793,
+   "B +3.5": 0.8207,
+   "B -3.5": 0.4635,
+   "A +3.5": 0.5365
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1164,
+   "B +4.5": 0.8836,
+   "B -4.5": 0.3417,
+   "A +4.5": 0.6583
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0669,
+   "B +5.5": 0.9331,
+   "B -5.5": 0.2316,
+   "A +5.5": 0.7684
+  }
+ ],
+ "p_tiebreak": 0.4126,
+ "p_a_wins_set": 0.5503,
+ "p_b_wins_set": 0.8202,
+ "p_decider": 0.3704,
+ "expected_breaks": {
+  "total": 4.43,
+  "by_A": 1.77,
+  "by_B": 2.66
+ },
+ "expected_break_points": {
+  "A_creates": 5.06,
+  "B_creates": 6.75
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4497
+ },
+ "match": "Thiago Agustin Tirante vs Jaume Munar",
+ "players": {
+  "A": {
+   "id": "atp:202058",
+   "name": "Thiago Agustin Tirante",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 60.0,
+   "age": 25.55722108145106,
+   "elo": 1731.5,
+   "surface_elo": {
+    "Hard": 1617.2,
+    "Clay": 1810.0,
+    "Grass": 1445.6
+   },
+   "matches_total": 71,
+   "matches_surface": {
+    "Hard": 30,
+    "Clay": 38,
+    "Grass": 3
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    2,
+    8
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    27,
+    21
+   ],
+   "last52w_surface": [
+    12,
+    12
+   ],
+   "career_surface_wl": [
+    14,
+    16
+   ],
+   "games_won_lost_52w": [
+    627,
+    623
+   ],
+   "sets_won_lost_52w": [
+    66,
+    59
+   ],
+   "avg_opp_elo_last20": 1763.5,
+   "vs_top_opp_52w": [
+    5,
+    5
+   ],
+   "serve_rating": 0.1667,
+   "return_rating": 0.0071,
+   "form_elo": -93.5,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-19",
+   "stats_52w": {
+    "first_in": 0.5917,
+    "first_won": 0.7591,
+    "second_won": 0.5068,
+    "serve_pts_won": 0.6561,
+    "hold": 0.8196,
+    "aces_per_svgm": 0.6764,
+    "df_per_svgm": 0.2387,
+    "bp_saved": 0.6114,
+    "ret_pts_won": 0.3516,
+    "ret_1st_won": 0.2869,
+    "ret_2nd_won": 0.4657,
+    "ret_games_won": 0.1921,
+    "bp_conv": 0.3989,
+    "bp_chances_per_retgm": 0.4816,
+    "matches_with_stats": 31
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     130.0
+    ],
+    [
+     "2025-08-07",
+     135.0
+    ],
+    [
+     "2026-01-19",
+     103.0
+    ],
+    [
+     "2026-02-07",
+     95.0
+    ],
+    [
+     "2026-02-16",
+     92.0
+    ],
+    [
+     "2026-02-23",
+     76.0
+    ],
+    [
+     "2026-03-18",
+     81.0
+    ],
+    [
+     "2026-03-30",
+     83.0
+    ],
+    [
+     "2026-04-22",
+     75.0
+    ],
+    [
+     "2026-05-06",
+     69.0
+    ],
+    [
+     "2026-05-17",
+     58.0
+    ],
+    [
+     "2026-05-25",
+     60.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:144719",
+   "name": "Jaume Munar",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 41.0,
+   "age": 29.45722108145106,
+   "elo": 1776.1,
+   "surface_elo": {
+    "Hard": 1789.6,
+    "Clay": 1592.9,
+    "Grass": 1509.7
+   },
+   "matches_total": 309,
+   "matches_surface": {
+    "Hard": 130,
+    "Clay": 155,
+    "Grass": 24
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    19,
+    20
+   ],
+   "last52w_surface": [
+    14,
+    11
+   ],
+   "career_surface_wl": [
+    54,
+    76
+   ],
+   "games_won_lost_52w": [
+    506,
+    490
+   ],
+   "sets_won_lost_52w": [
+    50,
+    52
+   ],
+   "avg_opp_elo_last20": 1770.2,
+   "vs_top_opp_52w": [
+    1,
+    7
+   ],
+   "serve_rating": 0.1627,
+   "return_rating": 0.3316,
+   "form_elo": 17.0,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-10-19",
+   "stats_52w": {
+    "first_in": 0.6166,
+    "first_won": 0.7323,
+    "second_won": 0.5015,
+    "serve_pts_won": 0.6438,
+    "hold": 0.7981,
+    "aces_per_svgm": 0.4883,
+    "df_per_svgm": 0.2019,
+    "bp_saved": 0.5905,
+    "ret_pts_won": 0.3757,
+    "ret_1st_won": 0.2922,
+    "ret_2nd_won": 0.5117,
+    "ret_games_won": 0.2173,
+    "bp_conv": 0.3843,
+    "bp_chances_per_retgm": 0.5654,
+    "matches_with_stats": 34
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     44.0
+    ],
+    [
+     "2025-09-13",
+     37.0
+    ],
+    [
+     "2025-09-24",
+     40.0
+    ],
+    [
+     "2025-10-01",
+     41.0
+    ],
+    [
+     "2025-10-20",
+     42.0
+    ],
+    [
+     "2025-10-27",
+     36.0
+    ],
+    [
+     "2026-01-05",
+     38.0
+    ],
+    [
+     "2026-01-19",
+     39.0
+    ],
+    [
+     "2026-02-09",
+     37.0
+    ],
+    [
+     "2026-04-13",
+     38.0
+    ],
+    [
+     "2026-05-17",
+     39.0
+    ],
+    [
+     "2026-05-25",
+     41.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-01",
+ "forecast_date": "2026-11-08",
+ "performance_revision": "df842d17c36d5cd7",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -122.0,
+  "components_elo": {
+   "surface_elo": -172.3,
+   "overall_elo": -44.5,
+   "serve_return": -259.6,
+   "form": -110.5
+  },
+  "weighted_contributions": {
+   "surface_elo": -21.1,
+   "overall_elo": -10.5,
+   "serve_return": -90.6,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3313,
+  "serve_return_implied_spw": {
+   "A": 0.6104,
+   "B": 0.6834
+  },
+  "point_probs": {
+   "A_serve": 0.6221,
+   "B_serve": 0.6726
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6220966745329234,
+   "B_serve": 0.6726346430354367
+  },
+  "hold_probs": {
+   "A": 0.7799,
+   "B": 0.8648
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3296,
+   0.3325
+  ],
+  "p_tb": [
+   0.4126,
+   0.414
+  ],
+  "p_decider": [
+   0.3704,
+   0.3715
+  ],
+  "games_mean": [
+   23.827,
+   23.844
+  ],
+  "exp_breaks": [
+   4.428,
+   4.436
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4497,
+    0.4479
+   ],
+   "1-2": [
+    0.2207,
+    0.2196
+   ],
+   "2-0": [
+    0.1798,
+    0.1806
+   ],
+   "2-1": [
+    0.1497,
+    0.1519
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jaume Munar",
+   "elo_points": -90.6,
+   "raw_diff": -259.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Jaume Munar",
+   "elo_points": -21.1,
+   "raw_diff": -172.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Jaume Munar",
+   "elo_points": -10.5,
+   "raw_diff": -44.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5068,
+   "B": 0.5015,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3516,
+   "B": 0.3757,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6221,
+   "B": 0.6726,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Jaume Munar to win at least one set",
+  "probability": 0.8202,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-456"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Jaume Munar to win at least one set",
+    "probability": 0.8202,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7747,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Jaume Munar to win",
+    "probability": 0.6704,
+    "fair_decimal": 1.49
+   },
+   {
+    "selection": "Thiago Agustin Tirante +4.5 games",
+    "probability": 0.6583,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6296,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6141,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5929,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5874,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Jaume Munar -2.5 games",
+    "probability": 0.5561,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Thiago Agustin Tirante to win at least one set",
+    "probability": 0.5503,
+    "fair_decimal": 1.82
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.52,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.48,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Exact sets Thiago Agustin Tirante 0-2 Jaume Munar",
+    "probability": 0.4497,
+    "fair_decimal": 2.22
+   },
+   {
+    "selection": "Thiago Agustin Tirante +2.5 games",
+    "probability": 0.4439,
+    "fair_decimal": 2.25
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4126,
+    "fair_decimal": 2.42
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-08T15:12:36+00:00",
+  "version": 2,
+  "input_hash": "f5238e9773c46290",
+  "reason": "performance inputs or format refreshed (results through 2026-11-08)",
+  "pre_match": true,
+  "espn_id": "186528",
+  "scheduled_start_utc": "2026-11-08T16:30Z"
+ }
+}

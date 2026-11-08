@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-08T06:01:58+00:00",
+ "generated_at_utc": "2026-11-08T15:14:31+00:00",
  "summary": {
-  "n": 380,
-  "brier": 0.22713212439473687,
-  "log_loss": 0.6490996889648247,
-  "accuracy": 0.6263157894736842,
-  "games_mae": 5.233657894736842,
-  "exact_sets_accuracy": 0.42105263157894735,
-  "tiebreak_brier": 0.1942921254473684
+  "n": 385,
+  "brier": 0.22860649451948054,
+  "log_loss": 0.6520875947399271,
+  "accuracy": 0.6207792207792208,
+  "games_mae": 5.234727272727272,
+  "exact_sets_accuracy": 0.41818181818181815,
+  "tiebreak_brier": 0.1937028533246753
  },
- "n": 380,
+ "n": 385,
  "overall": {
-  "n": 380,
-  "brier": 0.22713212439473687,
-  "log_loss": 0.6490996889648247,
-  "accuracy": 0.6263157894736842
+  "n": 385,
+  "brier": 0.22860649451948054,
+  "log_loss": 0.6520875947399271,
+  "accuracy": 0.6207792207792208
  },
- "games_mae": 5.233657894736842,
- "exact_sets_accuracy": 0.42105263157894735,
- "tiebreak_brier": 0.1942921254473684,
+ "games_mae": 5.234727272727272,
+ "exact_sets_accuracy": 0.41818181818181815,
+ "tiebreak_brier": 0.1937028533246753,
  "by_surface": {
   "Clay": {
    "n": 39,
@@ -27,58 +27,58 @@
    "accuracy": 0.7948717948717948
   },
   "Hard": {
-   "n": 341,
-   "brier": 0.2333755944868035,
-   "log_loss": 0.662761815104084,
-   "accuracy": 0.6070381231671554
+   "n": 346,
+   "brier": 0.23492592728323697,
+   "log_loss": 0.6658890783778357,
+   "accuracy": 0.6011560693641619
   }
  },
  "by_tour": {
   "atp": {
-   "n": 124,
-   "brier": 0.23539355653225807,
-   "log_loss": 0.6698830718999804,
-   "accuracy": 0.5887096774193549
+   "n": 127,
+   "brier": 0.2366881524409449,
+   "log_loss": 0.6723515328822137,
+   "accuracy": 0.5826771653543307
   },
   "wta": {
-   "n": 256,
-   "brier": 0.223130493203125,
-   "log_loss": 0.6390327378556087,
-   "accuracy": 0.64453125
+   "n": 258,
+   "brier": 0.22462831406976744,
+   "log_loss": 0.6421127104605844,
+   "accuracy": 0.6395348837209303
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 81,
-   "brier": 0.24344223975308643,
-   "log_loss": 0.6898000975013213,
-   "accuracy": 0.6296296296296297
+   "n": 82,
+   "brier": 0.24557210951219513,
+   "log_loss": 0.6940727148378484,
+   "accuracy": 0.6219512195121951
   },
   "LOW": {
-   "n": 160,
-   "brier": 0.2206888380625,
-   "log_loss": 0.6331993657963964,
-   "accuracy": 0.65
+   "n": 161,
+   "brier": 0.22011103962732922,
+   "log_loss": 0.6320122717641511,
+   "accuracy": 0.6521739130434783
   },
   "MEDIUM": {
-   "n": 139,
-   "brier": 0.22504440115107913,
-   "log_loss": 0.6436847149755607,
-   "accuracy": 0.5971223021582733
+   "n": 142,
+   "brier": 0.22844161992957743,
+   "log_loss": 0.650604123972817,
+   "accuracy": 0.5845070422535211
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 198,
-   "mean_pred": 0.5454040404040404,
-   "observed": 0.5202020202020202
+   "n": 199,
+   "mean_pred": 0.5456507537688443,
+   "observed": 0.5175879396984925
   },
   {
    "bucket": "60%-70%",
-   "n": 117,
-   "mean_pred": 0.6477726495726496,
-   "observed": 0.7606837606837606
+   "n": 121,
+   "mean_pred": 0.6474933884297521,
+   "observed": 0.743801652892562
   },
   {
    "bucket": "70%-80%",
@@ -16054,6 +16054,216 @@
     ],
     "A -5.5": [
      0.0474,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "Claire Liu vs Alexandra Eala",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Prudential Hong Kong Tennis Open",
+   "p_a": 0.3534,
+   "a_won": 1,
+   "pred_winner": "Alexandra Eala",
+   "actual_winner": "Claire Liu",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2022,
+   "exp_games": 22.49,
+   "actual_games": 15,
+   "p_tb": 0.2703,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3129,
+     1
+    ],
+    "A -2.5": [
+     0.2794,
+     1
+    ],
+    "A -3.5": [
+     0.2333,
+     1
+    ],
+    "A -4.5": [
+     0.1745,
+     1
+    ],
+    "A -5.5": [
+     0.1195,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Anna Blinkova vs Sofya Lansere",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Angola Ladies Open",
+   "p_a": 0.6439,
+   "a_won": 0,
+   "pred_winner": "Anna Blinkova",
+   "actual_winner": "Sofya Lansere",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1502,
+   "exp_games": 21.99,
+   "actual_games": 29,
+   "p_tb": 0.2253,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6043,
+     0
+    ],
+    "A -2.5": [
+     0.5677,
+     0
+    ],
+    "A -3.5": [
+     0.5113,
+     0
+    ],
+    "A -4.5": [
+     0.43,
+     0
+    ],
+    "A -5.5": [
+     0.3395,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Jacob Fearnley vs Aleksandr Shevchenko",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.6241,
+   "a_won": 0,
+   "pred_winner": "Jacob Fearnley",
+   "actual_winner": "Aleksandr Shevchenko",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2096,
+   "exp_games": 23.84,
+   "actual_games": 18,
+   "p_tb": 0.4,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5718,
+     0
+    ],
+    "A -2.5": [
+     0.512,
+     0
+    ],
+    "A -3.5": [
+     0.4259,
+     0
+    ],
+    "A -4.5": [
+     0.315,
+     0
+    ],
+    "A -5.5": [
+     0.2135,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Nikoloz Basilashvili vs Borna Gojo",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5945,
+   "a_won": 0,
+   "pred_winner": "Nikoloz Basilashvili",
+   "actual_winner": "Borna Gojo",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2277,
+   "exp_games": 24.85,
+   "actual_games": 22,
+   "p_tb": 0.5038,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5326,
+     0
+    ],
+    "A -2.5": [
+     0.4587,
+     0
+    ],
+    "A -3.5": [
+     0.3603,
+     0
+    ],
+    "A -4.5": [
+     0.2432,
+     0
+    ],
+    "A -5.5": [
+     0.1481,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Inaki Montes-De La Torre vs Lorenzo Sonego",
+   "date": "2026-11-08",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.3573,
+   "a_won": 0,
+   "pred_winner": "Lorenzo Sonego",
+   "actual_winner": "Lorenzo Sonego",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4221,
+   "exp_games": 24.39,
+   "actual_games": 21,
+   "p_tb": 0.4632,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3022,
+     0
+    ],
+    "A -2.5": [
+     0.2513,
+     0
+    ],
+    "A -3.5": [
+     0.1856,
+     0
+    ],
+    "A -4.5": [
+     0.1157,
+     0
+    ],
+    "A -5.5": [
+     0.0638,
      0
     ]
    },
