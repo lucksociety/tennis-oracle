@@ -1,58 +1,58 @@
 {
- "generated_at_utc": "2026-11-09T06:28:53+00:00",
+ "generated_at_utc": "2026-11-09T18:53:21+00:00",
  "summary": {
-  "n": 394,
-  "brier": 0.22899722911167514,
-  "log_loss": 0.6527553102282175,
-  "accuracy": 0.616751269035533,
-  "games_mae": 5.223934010152284,
-  "exact_sets_accuracy": 0.41878172588832485,
-  "tiebreak_brier": 0.1945024088324873
+  "n": 403,
+  "brier": 0.2288946886848635,
+  "log_loss": 0.6524239471902916,
+  "accuracy": 0.6153846153846154,
+  "games_mae": 5.239627791563275,
+  "exact_sets_accuracy": 0.41935483870967744,
+  "tiebreak_brier": 0.19445648506203475
  },
- "n": 394,
+ "n": 403,
  "overall": {
-  "n": 394,
-  "brier": 0.22899722911167514,
-  "log_loss": 0.6527553102282175,
-  "accuracy": 0.616751269035533
+  "n": 403,
+  "brier": 0.2288946886848635,
+  "log_loss": 0.6524239471902916,
+  "accuracy": 0.6153846153846154
  },
- "games_mae": 5.223934010152284,
- "exact_sets_accuracy": 0.41878172588832485,
- "tiebreak_brier": 0.1945024088324873,
+ "games_mae": 5.239627791563275,
+ "exact_sets_accuracy": 0.41935483870967744,
+ "tiebreak_brier": 0.19445648506203475,
  "by_surface": {
   "Clay": {
-   "n": 39,
-   "brier": 0.17254178333333337,
-   "log_loss": 0.5296436629779672,
-   "accuracy": 0.7948717948717948
+   "n": 42,
+   "brier": 0.17540273833333334,
+   "log_loss": 0.5357420897614743,
+   "accuracy": 0.7857142857142857
   },
   "Hard": {
-   "n": 355,
-   "brier": 0.2351993766760563,
-   "log_loss": 0.6662802517571181,
-   "accuracy": 0.5971830985915493
+   "n": 361,
+   "brier": 0.23511812889196676,
+   "log_loss": 0.6659991217387966,
+   "accuracy": 0.5955678670360111
   }
  },
  "by_tour": {
   "atp": {
-   "n": 131,
-   "brier": 0.2369383226717557,
-   "log_loss": 0.6725529647588956,
-   "accuracy": 0.5801526717557252
+   "n": 135,
+   "brier": 0.23420845614814814,
+   "log_loss": 0.6666156921632083,
+   "accuracy": 0.5851851851851851
   },
   "wta": {
-   "n": 263,
-   "brier": 0.2250417794676806,
-   "log_loss": 0.6428941210893625,
-   "accuracy": 0.6349809885931559
+   "n": 268,
+   "brier": 0.22621797746268657,
+   "log_loss": 0.6452751204315462,
+   "accuracy": 0.6305970149253731
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 87,
-   "brier": 0.2451367291954023,
-   "log_loss": 0.6923073337957408,
-   "accuracy": 0.6091954022988506
+   "n": 92,
+   "brier": 0.24368472130434785,
+   "log_loss": 0.6886314311379231,
+   "accuracy": 0.6086956521739131
   },
   "LOW": {
    "n": 163,
@@ -61,24 +61,24 @@
    "accuracy": 0.6503067484662577
   },
   "MEDIUM": {
-   "n": 144,
-   "brier": 0.22854161479166665,
-   "log_loss": 0.650791472840061,
-   "accuracy": 0.5833333333333334
+   "n": 148,
+   "brier": 0.22863205999999997,
+   "log_loss": 0.6508910604883728,
+   "accuracy": 0.581081081081081
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 205,
-   "mean_pred": 0.5454546341463415,
-   "observed": 0.5121951219512195
+   "n": 206,
+   "mean_pred": 0.5454199029126214,
+   "observed": 0.5097087378640777
   },
   {
    "bucket": "60%-70%",
-   "n": 123,
-   "mean_pred": 0.6480235772357725,
-   "observed": 0.7398373983739838
+   "n": 131,
+   "mean_pred": 0.6486618320610686,
+   "observed": 0.732824427480916
   },
   {
    "bucket": "70%-80%",
@@ -16187,6 +16187,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Janice Tjen vs Magda Linette",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.6335,
+   "a_won": 0,
+   "pred_winner": "Janice Tjen",
+   "actual_winner": "Magda Linette",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.161,
+   "exp_games": 23.25,
+   "actual_games": 29,
+   "p_tb": 0.3427,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5864,
+     0
+    ],
+    "A -2.5": [
+     0.5367,
+     0
+    ],
+    "A -3.5": [
+     0.4598,
+     0
+    ],
+    "A -4.5": [
+     0.3551,
+     0
+    ],
+    "A -5.5": [
+     0.2546,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Claire Liu vs Alexandra Eala",
    "date": "2026-11-08",
    "tour": "wta",
@@ -16646,6 +16688,342 @@
     ]
    },
    "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
+   "match": "James Duckworth vs Cameron Norrie",
+   "date": "2026-11-09",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.3144,
+   "a_won": 0,
+   "pred_winner": "Cameron Norrie",
+   "actual_winner": "Cameron Norrie",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4619,
+   "exp_games": 23.98,
+   "actual_games": 18,
+   "p_tb": 0.4339,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2641,
+     0
+    ],
+    "A -2.5": [
+     0.2176,
+     0
+    ],
+    "A -3.5": [
+     0.1619,
+     0
+    ],
+    "A -4.5": [
+     0.1005,
+     0
+    ],
+    "A -5.5": [
+     0.0559,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alex Michelsen vs Yannick Hanfmann",
+   "date": "2026-11-09",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.6941,
+   "a_won": 1,
+   "pred_winner": "Alex Michelsen",
+   "actual_winner": "Alex Michelsen",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4704,
+   "exp_games": 24.41,
+   "actual_games": 17,
+   "p_tb": 0.4848,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6379,
+     1
+    ],
+    "A -2.5": [
+     0.563,
+     1
+    ],
+    "A -3.5": [
+     0.4555,
+     1
+    ],
+    "A -4.5": [
+     0.3188,
+     1
+    ],
+    "A -5.5": [
+     0.2043,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Adolfo Daniel Vallejo vs Ugo Humbert",
+   "date": "2026-11-09",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.3115,
+   "a_won": 0,
+   "pred_winner": "Ugo Humbert",
+   "actual_winner": "Ugo Humbert",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4671,
+   "exp_games": 23.84,
+   "actual_games": 19,
+   "p_tb": 0.4215,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.2625,
+     0
+    ],
+    "A -2.5": [
+     0.2181,
+     0
+    ],
+    "A -3.5": [
+     0.162,
+     0
+    ],
+    "A -4.5": [
+     0.1037,
+     0
+    ],
+    "A -5.5": [
+     0.0583,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tomas Machac vs Borna Gojo",
+   "date": "2026-11-09",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5383,
+   "a_won": 0,
+   "pred_winner": "Tomas Machac",
+   "actual_winner": "Borna Gojo",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2684,
+   "exp_games": 24.93,
+   "actual_games": 19,
+   "p_tb": 0.5064,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4771,
+     0
+    ],
+    "A -2.5": [
+     0.4077,
+     0
+    ],
+    "A -3.5": [
+     0.3131,
+     0
+    ],
+    "A -4.5": [
+     0.2049,
+     0
+    ],
+    "A -5.5": [
+     0.1208,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Janice Tjen vs Magda Linette",
+   "date": "2026-11-09",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "Chennai Open",
+   "p_a": 0.6335,
+   "a_won": 0,
+   "pred_winner": "Janice Tjen",
+   "actual_winner": "Magda Linette",
+   "pred_sets": "2-0",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.1602,
+   "exp_games": 23.24,
+   "actual_games": 29,
+   "p_tb": 0.3424,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5866,
+     0
+    ],
+    "A -2.5": [
+     0.5358,
+     0
+    ],
+    "A -3.5": [
+     0.4607,
+     0
+    ],
+    "A -4.5": [
+     0.3556,
+     0
+    ],
+    "A -5.5": [
+     0.2543,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Laura Pigossi vs Dalila Jakupovic",
+   "date": "2026-11-09",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.3721,
+   "a_won": 1,
+   "pred_winner": "Dalila Jakupovic",
+   "actual_winner": "Laura Pigossi",
+   "pred_sets": "0-2",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.2164,
+   "exp_games": 22.05,
+   "actual_games": 18,
+   "p_tb": 0.2253,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.3322,
+     1
+    ],
+    "A -2.5": [
+     0.3017,
+     1
+    ],
+    "A -3.5": [
+     0.2592,
+     1
+    ],
+    "A -4.5": [
+     0.2027,
+     1
+    ],
+    "A -5.5": [
+     0.147,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Polona Hercog vs Varvara Lepchenko",
+   "date": "2026-11-09",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.6223,
+   "a_won": 1,
+   "pred_winner": "Polona Hercog",
+   "actual_winner": "Polona Hercog",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.417,
+   "exp_games": 22.55,
+   "actual_games": 21,
+   "p_tb": 0.2682,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5792,
+     1
+    ],
+    "A -2.5": [
+     0.5386,
+     1
+    ],
+    "A -3.5": [
+     0.4764,
+     1
+    ],
+    "A -4.5": [
+     0.3862,
+     1
+    ],
+    "A -5.5": [
+     0.2921,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Tatjana Maria vs Luisina Giovannini",
+   "date": "2026-11-09",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.6824,
+   "a_won": 1,
+   "pred_winner": "Tatjana Maria",
+   "actual_winner": "Tatjana Maria",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2021,
+   "exp_games": 21.93,
+   "actual_games": 34,
+   "p_tb": 0.2316,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6447,
+     1
+    ],
+    "A -2.5": [
+     0.6075,
+     0
+    ],
+    "A -3.5": [
+     0.5491,
+     0
+    ],
+    "A -4.5": [
+     0.4616,
+     0
+    ],
+    "A -5.5": [
+     0.3664,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   }
  ]

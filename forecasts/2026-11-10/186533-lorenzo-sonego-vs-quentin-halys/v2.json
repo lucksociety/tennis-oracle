@@ -1,0 +1,710 @@
+{
+ "predicted_winner": "Quentin Halys",
+ "win_prob": {
+  "A": 0.3671,
+  "B": 0.6329
+ },
+ "win_prob_exact": {
+  "A": 0.36713,
+  "B": 0.63287
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 2.72,
+   "american": "+172"
+  },
+  "B": {
+   "decimal": 1.58,
+   "american": "-172"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4037,
+  "1-2": 0.2291,
+  "2-0": 0.1987,
+  "2-1": 0.1684
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "6-7",
+  "6-7"
+ ],
+ "representative_sets_prob": 0.0344,
+ "games": {
+  "mean": 25.35,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.41,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00018,
+   "13": 0.00127,
+   "14": 0.00421,
+   "15": 0.01149,
+   "16": 0.02155,
+   "17": 0.04331,
+   "18": 0.05354,
+   "19": 0.07424,
+   "20": 0.07385,
+   "21": 0.04755,
+   "22": 0.09703,
+   "23": 0.08667,
+   "24": 0.00635,
+   "25": 0.0333,
+   "26": 0.07063,
+   "27": 0.01878,
+   "28": 0.02538,
+   "29": 0.02819,
+   "30": 0.029,
+   "31": 0.0442,
+   "32": 0.05188,
+   "33": 0.03183,
+   "34": 0.02378,
+   "35": 0.04719,
+   "36": 0.03874,
+   "37": 0.00258,
+   "38": 0.01165,
+   "39": 0.02163
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00018,
+  "-11": 0.00115,
+  "-10": 0.00358,
+  "-9": 0.00967,
+  "-8": 0.01958,
+  "-7": 0.0415,
+  "-6": 0.06238,
+  "-5": 0.09644,
+  "-4": 0.12727,
+  "-3": 0.11778,
+  "-2": 0.08721,
+  "-1": 0.04711,
+  "0": 0.04077,
+  "1": 0.0413,
+  "2": 0.06515,
+  "3": 0.07337,
+  "4": 0.0718,
+  "5": 0.04713,
+  "6": 0.02401,
+  "7": 0.01428,
+  "8": 0.00512,
+  "9": 0.00235,
+  "10": 0.00072,
+  "11": 0.00015
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.918,
+   "under": 0.082
+  },
+  {
+   "line": 18.5,
+   "over": 0.8645,
+   "under": 0.1356
+  },
+  {
+   "line": 19.5,
+   "over": 0.7902,
+   "under": 0.2098
+  },
+  {
+   "line": 20.5,
+   "over": 0.7164,
+   "under": 0.2836
+  },
+  {
+   "line": 21.5,
+   "over": 0.6688,
+   "under": 0.3312
+  },
+  {
+   "line": 22.5,
+   "over": 0.5718,
+   "under": 0.4282
+  },
+  {
+   "line": 23.5,
+   "over": 0.4851,
+   "under": 0.5149
+  },
+  {
+   "line": 24.5,
+   "over": 0.4788,
+   "under": 0.5212
+  },
+  {
+   "line": 25.5,
+   "over": 0.4455,
+   "under": 0.5545
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.3041,
+   "B +1.5": 0.6959,
+   "B -1.5": 0.5667,
+   "A +1.5": 0.4333
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2389,
+   "B +2.5": 0.7611,
+   "B -2.5": 0.4795,
+   "A +2.5": 0.5205
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1656,
+   "B +3.5": 0.8344,
+   "B -3.5": 0.3618,
+   "A +3.5": 0.6382
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0938,
+   "B +4.5": 0.9062,
+   "B -4.5": 0.2345,
+   "A +4.5": 0.7655
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0466,
+   "B +5.5": 0.9534,
+   "B -5.5": 0.138,
+   "A +5.5": 0.862
+  }
+ ],
+ "p_tiebreak": 0.5633,
+ "p_a_wins_set": 0.5963,
+ "p_b_wins_set": 0.8013,
+ "p_decider": 0.3976,
+ "expected_breaks": {
+  "total": 3.1,
+  "by_A": 1.26,
+  "by_B": 1.84
+ },
+ "expected_break_points": {
+  "A_creates": 4.01,
+  "B_creates": 5.28
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "6-7",
+   "6-7"
+  ],
+  "prob": 0.4037
+ },
+ "match": "Lorenzo Sonego vs Quentin Halys",
+ "players": {
+  "A": {
+   "id": "atp:132283",
+   "name": "Lorenzo Sonego",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 70.0,
+   "age": 31.462696783025326,
+   "elo": 1691.9,
+   "surface_elo": {
+    "Hard": 1682.6,
+    "Clay": 1548.5,
+    "Grass": 1640.5
+   },
+   "matches_total": 390,
+   "matches_surface": {
+    "Hard": 214,
+    "Clay": 121,
+    "Grass": 55
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    18,
+    22
+   ],
+   "last52w_surface": [
+    11,
+    12
+   ],
+   "career_surface_wl": [
+    98,
+    116
+   ],
+   "games_won_lost_52w": [
+    528,
+    561
+   ],
+   "sets_won_lost_52w": [
+    47,
+    59
+   ],
+   "avg_opp_elo_last20": 1698.8,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.1858,
+   "return_rating": 0.0655,
+   "form_elo": 9.1,
+   "last_match": "2026-11-08",
+   "last_stats_match": "2026-10-19",
+   "stats_52w": {
+    "first_in": 0.6787,
+    "first_won": 0.7132,
+    "second_won": 0.5244,
+    "serve_pts_won": 0.6525,
+    "hold": 0.8026,
+    "aces_per_svgm": 0.534,
+    "df_per_svgm": 0.1456,
+    "bp_saved": 0.6013,
+    "ret_pts_won": 0.3313,
+    "ret_1st_won": 0.2698,
+    "ret_2nd_won": 0.4469,
+    "ret_games_won": 0.1581,
+    "bp_conv": 0.3657,
+    "bp_chances_per_retgm": 0.4323,
+    "matches_with_stats": 22
+   },
+   "rank_history": [
+    [
+     "2025-09-17",
+     44.0
+    ],
+    [
+     "2025-10-01",
+     46.0
+    ],
+    [
+     "2025-10-13",
+     47.0
+    ],
+    [
+     "2025-10-20",
+     45.0
+    ],
+    [
+     "2025-11-02",
+     42.0
+    ],
+    [
+     "2026-01-05",
+     39.0
+    ],
+    [
+     "2026-01-19",
+     40.0
+    ],
+    [
+     "2026-04-13",
+     66.0
+    ],
+    [
+     "2026-04-22",
+     62.0
+    ],
+    [
+     "2026-05-06",
+     66.0
+    ],
+    [
+     "2026-05-17",
+     69.0
+    ],
+    [
+     "2026-05-25",
+     70.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:111460",
+   "name": "Quentin Halys",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 90.0,
+   "age": 29.962696783025326,
+   "elo": 1821.4,
+   "surface_elo": {
+    "Hard": 1742.2,
+    "Clay": 1828.3,
+    "Grass": 1499.5
+   },
+   "matches_total": 181,
+   "matches_surface": {
+    "Hard": 117,
+    "Clay": 41,
+    "Grass": 23
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    28,
+    23
+   ],
+   "last52w_surface": [
+    17,
+    16
+   ],
+   "career_surface_wl": [
+    44,
+    73
+   ],
+   "games_won_lost_52w": [
+    707,
+    681
+   ],
+   "sets_won_lost_52w": [
+    72,
+    61
+   ],
+   "avg_opp_elo_last20": 1820.6,
+   "vs_top_opp_52w": [
+    1,
+    10
+   ],
+   "serve_rating": 0.3706,
+   "return_rating": 0.1078,
+   "form_elo": 87.4,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-10-26",
+   "stats_52w": {
+    "first_in": 0.6067,
+    "first_won": 0.7881,
+    "second_won": 0.5131,
+    "serve_pts_won": 0.6799,
+    "hold": 0.8629,
+    "aces_per_svgm": 0.9015,
+    "df_per_svgm": 0.2452,
+    "bp_saved": 0.6682,
+    "ret_pts_won": 0.3428,
+    "ret_1st_won": 0.2731,
+    "ret_2nd_won": 0.4745,
+    "ret_games_won": 0.1507,
+    "bp_conv": 0.3548,
+    "bp_chances_per_retgm": 0.4247,
+    "matches_with_stats": 39
+   },
+   "rank_history": [
+    [
+     "2025-10-13",
+     77.0
+    ],
+    [
+     "2025-10-20",
+     78.0
+    ],
+    [
+     "2025-11-02",
+     84.0
+    ],
+    [
+     "2026-01-04",
+     91.0
+    ],
+    [
+     "2026-01-12",
+     85.0
+    ],
+    [
+     "2026-01-19",
+     83.0
+    ],
+    [
+     "2026-02-09",
+     77.0
+    ],
+    [
+     "2026-02-16",
+     72.0
+    ],
+    [
+     "2026-02-23",
+     68.0
+    ],
+    [
+     "2026-03-04",
+     102.0
+    ],
+    [
+     "2026-03-18",
+     111.0
+    ],
+    [
+     "2026-03-30",
+     90.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-08",
+ "forecast_date": "2026-11-10",
+ "performance_revision": "33ab480675985a1f",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -94.0,
+  "components_elo": {
+   "surface_elo": -59.6,
+   "overall_elo": -129.5,
+   "serve_return": -161.2,
+   "form": -78.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -7.3,
+   "overall_elo": -30.6,
+   "serve_return": -56.2,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3679,
+  "serve_return_implied_spw": {
+   "A": 0.6652,
+   "B": 0.7137
+  },
+  "point_probs": {
+   "A_serve": 0.6702,
+   "B_serve": 0.7091
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6701882242629289,
+   "B_serve": 0.709126229123167
+  },
+  "hold_probs": {
+   "A": 0.8612,
+   "B": 0.9113
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3671,
+   0.3683
+  ],
+  "p_tb": [
+   0.5633,
+   0.5636
+  ],
+  "p_decider": [
+   0.3976,
+   0.3959
+  ],
+  "games_mean": [
+   25.353,
+   25.34
+  ],
+  "exp_breaks": [
+   3.104,
+   3.1
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4037,
+    0.4047
+   ],
+   "1-2": [
+    0.2291,
+    0.2269
+   ],
+   "2-0": [
+    0.1987,
+    0.1994
+   ],
+   "2-1": [
+    0.1684,
+    0.169
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0022
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Quentin Halys",
+   "elo_points": -56.2,
+   "raw_diff": -161.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Quentin Halys",
+   "elo_points": -30.6,
+   "raw_diff": -129.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Quentin Halys",
+   "elo_points": -7.3,
+   "raw_diff": -59.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5244,
+   "B": 0.5131,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3313,
+   "B": 0.3428,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6702,
+   "B": 0.7091,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8645,
+  "fair_odds": {
+   "decimal": 1.16,
+   "american": "-638"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.41 games; p10-p90 18-35); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8645,
+    "fair_decimal": 1.16
+   },
+   {
+    "selection": "Quentin Halys to win at least one set",
+    "probability": 0.8013,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Lorenzo Sonego +4.5 games",
+    "probability": 0.7655,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7164,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Quentin Halys to win",
+    "probability": 0.6329,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6024,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Lorenzo Sonego to win at least one set",
+    "probability": 0.5963,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5718,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5633,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5212,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Lorenzo Sonego +2.5 games",
+    "probability": 0.5205,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Quentin Halys -2.5 games",
+    "probability": 0.4795,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4788,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4367,
+    "fair_decimal": 2.29
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4282,
+    "fair_decimal": 2.34
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-09",
+ "freeze": {
+  "frozen_at_utc": "2026-11-09T18:50:39+00:00",
+  "version": 2,
+  "input_hash": "0f695c92d9d22c3f",
+  "reason": "performance inputs or format refreshed (results through 2026-11-09)",
+  "pre_match": true,
+  "espn_id": "186533",
+  "scheduled_start_utc": "2026-11-10T13:30Z"
+ }
+}

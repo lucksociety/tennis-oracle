@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Mirra Andreeva",
+ "win_prob": {
+  "A": 0.5939,
+  "B": 0.4061
+ },
+ "win_prob_exact": {
+  "A": 0.59391,
+  "B": 0.40608999999999995
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.68,
+   "american": "-146"
+  },
+  "B": {
+   "decimal": 2.46,
+   "american": "+146"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3921,
+  "0-2": 0.238,
+  "2-1": 0.2018,
+  "1-2": 0.1681
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0199,
+ "games": {
+  "mean": 22.56,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 31.0,
+  "sd": 5.95,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00247,
+   "13": 0.01075,
+   "14": 0.0254,
+   "15": 0.04653,
+   "16": 0.06882,
+   "17": 0.08313,
+   "18": 0.08199,
+   "19": 0.07797,
+   "20": 0.06863,
+   "21": 0.04961,
+   "22": 0.06059,
+   "23": 0.03908,
+   "24": 0.0202,
+   "25": 0.03691,
+   "26": 0.04132,
+   "27": 0.03756,
+   "28": 0.0405,
+   "29": 0.04048,
+   "30": 0.03986,
+   "31": 0.03596,
+   "32": 0.03012,
+   "33": 0.01988,
+   "34": 0.01488,
+   "35": 0.01426,
+   "36": 0.00678,
+   "37": 0.00226,
+   "38": 0.00273,
+   "39": 0.00133
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00067,
+  "-11": 0.00299,
+  "-10": 0.00747,
+  "-9": 0.01562,
+  "-8": 0.02665,
+  "-7": 0.04267,
+  "-6": 0.05512,
+  "-5": 0.06198,
+  "-4": 0.06539,
+  "-3": 0.04888,
+  "-2": 0.03599,
+  "-1": 0.02871,
+  "0": 0.02764,
+  "1": 0.03025,
+  "2": 0.0406,
+  "3": 0.05984,
+  "4": 0.08608,
+  "5": 0.08923,
+  "6": 0.08406,
+  "7": 0.07382,
+  "8": 0.05415,
+  "9": 0.03386,
+  "10": 0.01867,
+  "11": 0.00786,
+  "12": 0.0018
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7629,
+   "under": 0.2371
+  },
+  {
+   "line": 18.5,
+   "over": 0.6809,
+   "under": 0.3191
+  },
+  {
+   "line": 19.5,
+   "over": 0.6029,
+   "under": 0.3971
+  },
+  {
+   "line": 20.5,
+   "over": 0.5343,
+   "under": 0.4657
+  },
+  {
+   "line": 21.5,
+   "over": 0.4847,
+   "under": 0.5153
+  },
+  {
+   "line": 22.5,
+   "over": 0.4241,
+   "under": 0.5759
+  },
+  {
+   "line": 23.5,
+   "over": 0.385,
+   "under": 0.615
+  },
+  {
+   "line": 24.5,
+   "over": 0.3648,
+   "under": 0.6352
+  },
+  {
+   "line": 25.5,
+   "over": 0.3279,
+   "under": 0.6721
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.55,
+   "B +1.5": 0.45,
+   "B -1.5": 0.3634,
+   "A +1.5": 0.6366
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5094,
+   "B +2.5": 0.4906,
+   "B -2.5": 0.3274,
+   "A +2.5": 0.6726
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4495,
+   "B +3.5": 0.5505,
+   "B -3.5": 0.2786,
+   "A +3.5": 0.7214
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3634,
+   "B +4.5": 0.6365,
+   "B -4.5": 0.2132,
+   "A +4.5": 0.7868
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2742,
+   "B +5.5": 0.7258,
+   "B -5.5": 0.1512,
+   "A +5.5": 0.8488
+  }
+ ],
+ "p_tiebreak": 0.2666,
+ "p_a_wins_set": 0.762,
+ "p_b_wins_set": 0.6079,
+ "p_decider": 0.3699,
+ "expected_breaks": {
+  "total": 7.66,
+  "by_A": 4.12,
+  "by_B": 3.53
+ },
+ "expected_break_points": {
+  "A_creates": 8.99,
+  "B_creates": 8.11
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.3921
+ },
+ "match": "Mirra Andreeva vs Elina Svitolina",
+ "players": {
+  "A": {
+   "id": "wta:259799",
+   "name": "Mirra Andreeva",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 8.0,
+   "age": 19.459958932238195,
+   "elo": 2029.7,
+   "surface_elo": {
+    "Hard": 1958.5,
+    "Clay": 2068.0,
+    "Grass": 1633.8
+   },
+   "matches_total": 190,
+   "matches_surface": {
+    "Hard": 106,
+    "Clay": 68,
+    "Grass": 16
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    50,
+    16
+   ],
+   "last52w_surface": [
+    27,
+    11
+   ],
+   "career_surface_wl": [
+    72,
+    34
+   ],
+   "games_won_lost_52w": [
+    833,
+    576
+   ],
+   "sets_won_lost_52w": [
+    108,
+    45
+   ],
+   "avg_opp_elo_last20": 1817.8,
+   "vs_top_opp_52w": [
+    5,
+    12
+   ],
+   "serve_rating": 0.4838,
+   "return_rating": 0.4561,
+   "form_elo": -4.1,
+   "last_match": "2026-10-11",
+   "last_stats_match": "2026-10-10",
+   "stats_52w": {
+    "first_in": 0.6405,
+    "first_won": 0.6801,
+    "second_won": 0.4796,
+    "serve_pts_won": 0.608,
+    "hold": 0.7366,
+    "aces_per_svgm": 0.3011,
+    "df_per_svgm": 0.3513,
+    "bp_saved": 0.5847,
+    "ret_pts_won": 0.4701,
+    "ret_1st_won": 0.4062,
+    "ret_2nd_won": 0.5772,
+    "ret_games_won": 0.4467,
+    "bp_conv": 0.5021,
+    "bp_chances_per_retgm": 0.8897,
+    "matches_with_stats": 53
+   },
+   "rank_history": [
+    [
+     "2025-06-16",
+     7.0
+    ],
+    [
+     "2025-07-27",
+     5.0
+    ],
+    [
+     "2025-10-13",
+     6.0
+    ],
+    [
+     "2026-01-04",
+     9.0
+    ],
+    [
+     "2026-01-12",
+     8.0
+    ],
+    [
+     "2026-01-19",
+     7.0
+    ],
+    [
+     "2026-03-04",
+     8.0
+    ],
+    [
+     "2026-03-17",
+     10.0
+    ],
+    [
+     "2026-04-13",
+     9.0
+    ],
+    [
+     "2026-04-21",
+     8.0
+    ],
+    [
+     "2026-05-05",
+     7.0
+    ],
+    [
+     "2026-05-25",
+     8.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:202494",
+   "name": "Elina Svitolina",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 7.0,
+   "age": 32.059958932238196,
+   "elo": 2024.7,
+   "surface_elo": {
+    "Hard": 1965.4,
+    "Clay": 2013.6,
+    "Grass": 1707.0
+   },
+   "matches_total": 694,
+   "matches_surface": {
+    "Hard": 468,
+    "Clay": 170,
+    "Grass": 56
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    46,
+    15
+   ],
+   "last52w_surface": [
+    32,
+    10
+   ],
+   "career_surface_wl": [
+    310,
+    158
+   ],
+   "games_won_lost_52w": [
+    770,
+    577
+   ],
+   "sets_won_lost_52w": [
+    97,
+    48
+   ],
+   "avg_opp_elo_last20": 1814.6,
+   "vs_top_opp_52w": [
+    11,
+    11
+   ],
+   "serve_rating": 0.3622,
+   "return_rating": 0.3633,
+   "form_elo": -41.2,
+   "last_match": "2026-10-16",
+   "last_stats_match": "2026-10-16",
+   "stats_52w": {
+    "first_in": 0.6063,
+    "first_won": 0.6694,
+    "second_won": 0.4766,
+    "serve_pts_won": 0.5935,
+    "hold": 0.7282,
+    "aces_per_svgm": 0.3527,
+    "df_per_svgm": 0.2988,
+    "bp_saved": 0.6391,
+    "ret_pts_won": 0.4587,
+    "ret_1st_won": 0.3844,
+    "ret_2nd_won": 0.5787,
+    "ret_games_won": 0.4249,
+    "bp_conv": 0.5038,
+    "bp_chances_per_retgm": 0.8436,
+    "matches_with_stats": 45
+   },
+   "rank_history": [
+    [
+     "2025-04-10",
+     18.0
+    ],
+    [
+     "2025-04-22",
+     17.0
+    ],
+    [
+     "2025-05-06",
+     14.0
+    ],
+    [
+     "2025-06-30",
+     13.0
+    ],
+    [
+     "2025-08-25",
+     15.0
+    ],
+    [
+     "2025-09-19",
+     13.0
+    ],
+    [
+     "2026-01-19",
+     12.0
+    ],
+    [
+     "2026-02-08",
+     9.0
+    ],
+    [
+     "2026-03-17",
+     8.0
+    ],
+    [
+     "2026-04-10",
+     7.0
+    ],
+    [
+     "2026-05-05",
+     10.0
+    ],
+    [
+     "2026-05-25",
+     7.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "FAGE WTA Finals Indian Wells",
+ "round": "Group Stage",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-09",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "e351888246fdba0a",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 68.8,
+  "components_elo": {
+   "surface_elo": -6.9,
+   "overall_elo": 5.0,
+   "serve_return": 196.3,
+   "form": 37.1
+  },
+  "weighted_contributions": {
+   "surface_elo": -0.8,
+   "overall_elo": 1.2,
+   "serve_return": 68.5,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5977,
+  "serve_return_implied_spw": {
+   "A": 0.5942,
+   "B": 0.5417
+  },
+  "point_probs": {
+   "A_serve": 0.5824,
+   "B_serve": 0.5538
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5824085516192005,
+   "B_serve": 0.5537779758041235
+  },
+  "hold_probs": {
+   "A": 0.6979,
+   "B": 0.6321
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5939,
+   0.5958
+  ],
+  "p_tb": [
+   0.2666,
+   0.2655
+  ],
+  "p_decider": [
+   0.3699,
+   0.3696
+  ],
+  "games_mean": [
+   22.563,
+   22.549
+  ],
+  "exp_breaks": [
+   7.659,
+   7.644
+  ],
+  "set_scores": {
+   "0-2": [
+    0.238,
+    0.2375
+   ],
+   "1-2": [
+    0.1681,
+    0.1667
+   ],
+   "2-0": [
+    0.3921,
+    0.3928
+   ],
+   "2-1": [
+    0.2018,
+    0.203
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0019
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Mirra Andreeva",
+   "elo_points": 68.5,
+   "raw_diff": 196.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Mirra Andreeva",
+   "elo_points": 1.2,
+   "raw_diff": 5.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Elina Svitolina",
+   "elo_points": -0.8,
+   "raw_diff": -6.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4796,
+   "B": 0.4766,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4701,
+   "B": 0.4587,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5824,
+   "B": 0.5538,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Mirra Andreeva to win at least one set",
+  "probability": 0.762,
+  "fair_odds": {
+   "decimal": 1.31,
+   "american": "-320"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Mirra Andreeva to win at least one set",
+    "probability": 0.762,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7334,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6809,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Elina Svitolina +4.5 games",
+    "probability": 0.6365,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6352,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6301,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Elina Svitolina to win at least one set",
+    "probability": 0.6079,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Mirra Andreeva to win",
+    "probability": 0.5939,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5759,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5343,
+    "fair_decimal": 1.87
+   },
+   {
+    "selection": "Mirra Andreeva -2.5 games",
+    "probability": 0.5094,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Elina Svitolina +2.5 games",
+    "probability": 0.4906,
+    "fair_decimal": 2.04
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4657,
+    "fair_decimal": 2.15
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4241,
+    "fair_decimal": 2.36
+   },
+   {
+    "selection": "Elina Svitolina to win",
+    "probability": 0.4061,
+    "fair_decimal": 2.46
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-09",
+ "freeze": {
+  "frozen_at_utc": "2026-11-09T18:50:14+00:00",
+  "version": 4,
+  "input_hash": "4d753634bc8e2efc",
+  "reason": "performance inputs or format refreshed (results through 2026-11-09)",
+  "pre_match": true,
+  "espn_id": "187382",
+  "scheduled_start_utc": "2026-11-09T21:30Z"
+ }
+}
