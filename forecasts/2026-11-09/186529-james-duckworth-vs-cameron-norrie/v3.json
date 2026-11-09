@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Cameron Norrie",
+ "win_prob": {
+  "A": 0.3144,
+  "B": 0.6856
+ },
+ "win_prob_exact": {
+  "A": 0.31435,
+  "B": 0.68565
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.18,
+   "american": "+218"
+  },
+  "B": {
+   "decimal": 1.46,
+   "american": "-218"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4619,
+  "1-2": 0.2238,
+  "2-0": 0.1682,
+  "2-1": 0.1462
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0343,
+ "games": {
+  "mean": 23.98,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.24,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.0006,
+   "13": 0.00389,
+   "14": 0.01048,
+   "15": 0.02472,
+   "16": 0.04089,
+   "17": 0.06388,
+   "18": 0.07057,
+   "19": 0.08247,
+   "20": 0.07824,
+   "21": 0.05187,
+   "22": 0.08455,
+   "23": 0.06556,
+   "24": 0.00998,
+   "25": 0.03234,
+   "26": 0.04968,
+   "27": 0.02506,
+   "28": 0.03109,
+   "29": 0.03385,
+   "30": 0.03407,
+   "31": 0.04247,
+   "32": 0.04436,
+   "33": 0.02736,
+   "34": 0.02107,
+   "35": 0.03181,
+   "36": 0.02168,
+   "37": 0.00247,
+   "38": 0.00687,
+   "39": 0.00812
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00057,
+  "-11": 0.00356,
+  "-10": 0.00968,
+  "-9": 0.0219,
+  "-8": 0.03867,
+  "-7": 0.06779,
+  "-6": 0.08786,
+  "-5": 0.11198,
+  "-4": 0.12623,
+  "-3": 0.09884,
+  "-2": 0.06434,
+  "-1": 0.03863,
+  "0": 0.03346,
+  "1": 0.03243,
+  "2": 0.0465,
+  "3": 0.05561,
+  "4": 0.06149,
+  "5": 0.04461,
+  "6": 0.02681,
+  "7": 0.01628,
+  "8": 0.00746,
+  "9": 0.00389,
+  "10": 0.00103,
+  "11": 0.00035,
+  "12": 3e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8555,
+   "under": 0.1445
+  },
+  {
+   "line": 18.5,
+   "over": 0.785,
+   "under": 0.215
+  },
+  {
+   "line": 19.5,
+   "over": 0.7025,
+   "under": 0.2975
+  },
+  {
+   "line": 20.5,
+   "over": 0.6243,
+   "under": 0.3757
+  },
+  {
+   "line": 21.5,
+   "over": 0.5724,
+   "under": 0.4276
+  },
+  {
+   "line": 22.5,
+   "over": 0.4878,
+   "under": 0.5122
+  },
+  {
+   "line": 23.5,
+   "over": 0.4223,
+   "under": 0.5777
+  },
+  {
+   "line": 24.5,
+   "over": 0.4123,
+   "under": 0.5877
+  },
+  {
+   "line": 25.5,
+   "over": 0.38,
+   "under": 0.62
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2641,
+   "B +1.5": 0.7359,
+   "B -1.5": 0.6314,
+   "A +1.5": 0.3686
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2176,
+   "B +2.5": 0.7824,
+   "B -2.5": 0.5671,
+   "A +2.5": 0.4329
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1619,
+   "B +3.5": 0.838,
+   "B -3.5": 0.4682,
+   "A +3.5": 0.5318
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1005,
+   "B +4.5": 0.8995,
+   "B -4.5": 0.342,
+   "A +4.5": 0.658
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0559,
+   "B +5.5": 0.9442,
+   "B -5.5": 0.23,
+   "A +5.5": 0.77
+  }
+ ],
+ "p_tiebreak": 0.4339,
+ "p_a_wins_set": 0.5381,
+ "p_b_wins_set": 0.8318,
+ "p_decider": 0.3699,
+ "expected_breaks": {
+  "total": 4.19,
+  "by_A": 1.62,
+  "by_B": 2.57
+ },
+ "expected_break_points": {
+  "A_creates": 4.75,
+  "B_creates": 6.59
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.4619
+ },
+ "match": "James Duckworth vs Cameron Norrie",
+ "players": {
+  "A": {
+   "id": "atp:105902",
+   "name": "James Duckworth",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 82.0,
+   "age": 34.75995893223819,
+   "elo": 1642.9,
+   "surface_elo": {
+    "Hard": 1607.4,
+    "Clay": 1338.4,
+    "Grass": 1518.5
+   },
+   "matches_total": 227,
+   "matches_surface": {
+    "Hard": 170,
+    "Clay": 19,
+    "Grass": 38
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    13,
+    23
+   ],
+   "last52w_surface": [
+    11,
+    17
+   ],
+   "career_surface_wl": [
+    67,
+    103
+   ],
+   "games_won_lost_52w": [
+    446,
+    493
+   ],
+   "sets_won_lost_52w": [
+    37,
+    56
+   ],
+   "avg_opp_elo_last20": 1730.5,
+   "vs_top_opp_52w": [
+    0,
+    6
+   ],
+   "serve_rating": 0.1398,
+   "return_rating": -0.0219,
+   "form_elo": 24.5,
+   "last_match": "2026-10-31",
+   "last_stats_match": "2026-10-23",
+   "stats_52w": {
+    "first_in": 0.5621,
+    "first_won": 0.7316,
+    "second_won": 0.5276,
+    "serve_pts_won": 0.6423,
+    "hold": 0.8113,
+    "aces_per_svgm": 0.6788,
+    "df_per_svgm": 0.2583,
+    "bp_saved": 0.6524,
+    "ret_pts_won": 0.3218,
+    "ret_1st_won": 0.2368,
+    "ret_2nd_won": 0.4692,
+    "ret_games_won": 0.1462,
+    "bp_conv": 0.3121,
+    "bp_chances_per_retgm": 0.4684,
+    "matches_with_stats": 23
+   },
+   "rank_history": [
+    [
+     "2025-06-23",
+     106.0
+    ],
+    [
+     "2025-06-30",
+     103.0
+    ],
+    [
+     "2025-07-14",
+     113.0
+    ],
+    [
+     "2025-07-27",
+     106.0
+    ],
+    [
+     "2025-10-13",
+     138.0
+    ],
+    [
+     "2026-01-04",
+     86.0
+    ],
+    [
+     "2026-01-19",
+     88.0
+    ],
+    [
+     "2026-02-07",
+     86.0
+    ],
+    [
+     "2026-02-09",
+     83.0
+    ],
+    [
+     "2026-03-18",
+     80.0
+    ],
+    [
+     "2026-05-17",
+     83.0
+    ],
+    [
+     "2026-05-25",
+     82.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:111815",
+   "name": "Cameron Norrie",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 22.0,
+   "age": 31.18186173853525,
+   "elo": 1795.0,
+   "surface_elo": {
+    "Hard": 1750.1,
+    "Clay": 1796.1,
+    "Grass": 1706.5
+   },
+   "matches_total": 461,
+   "matches_surface": {
+    "Hard": 293,
+    "Clay": 119,
+    "Grass": 49
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    23,
+    23
+   ],
+   "last52w_surface": [
+    18,
+    17
+   ],
+   "career_surface_wl": [
+    161,
+    132
+   ],
+   "games_won_lost_52w": [
+    607,
+    601
+   ],
+   "sets_won_lost_52w": [
+    61,
+    60
+   ],
+   "avg_opp_elo_last20": 1814.6,
+   "vs_top_opp_52w": [
+    2,
+    10
+   ],
+   "serve_rating": 0.1594,
+   "return_rating": 0.254,
+   "form_elo": -38.4,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6375,
+    "first_won": 0.6914,
+    "second_won": 0.5213,
+    "serve_pts_won": 0.6297,
+    "hold": 0.8017,
+    "aces_per_svgm": 0.3502,
+    "df_per_svgm": 0.2025,
+    "bp_saved": 0.6314,
+    "ret_pts_won": 0.3648,
+    "ret_1st_won": 0.2927,
+    "ret_2nd_won": 0.4794,
+    "ret_games_won": 0.2042,
+    "bp_conv": 0.3889,
+    "bp_chances_per_retgm": 0.525,
+    "matches_with_stats": 36
+   },
+   "rank_history": [
+    [
+     "2025-10-01",
+     33.0
+    ],
+    [
+     "2025-10-20",
+     35.0
+    ],
+    [
+     "2025-10-27",
+     31.0
+    ],
+    [
+     "2025-11-02",
+     27.0
+    ],
+    [
+     "2026-01-04",
+     28.0
+    ],
+    [
+     "2026-01-19",
+     27.0
+    ],
+    [
+     "2026-02-05",
+     26.0
+    ],
+    [
+     "2026-03-04",
+     29.0
+    ],
+    [
+     "2026-03-18",
+     24.0
+    ],
+    [
+     "2026-04-22",
+     23.0
+    ],
+    [
+     "2026-05-06",
+     19.0
+    ],
+    [
+     "2026-05-17",
+     22.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-08",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "33ab480675985a1f",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -135.0,
+  "components_elo": {
+   "surface_elo": -142.7,
+   "overall_elo": -152.1,
+   "serve_return": -233.7,
+   "form": 62.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -17.4,
+   "overall_elo": -35.9,
+   "serve_return": -81.5,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3149,
+  "serve_return_implied_spw": {
+   "A": 0.6211,
+   "B": 0.6878
+  },
+  "point_probs": {
+   "A_serve": 0.6268,
+   "B_serve": 0.6826
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6267881371708847,
+   "B_serve": 0.6825941601810243
+  },
+  "hold_probs": {
+   "A": 0.7887,
+   "B": 0.8787
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3144,
+   0.3161
+  ],
+  "p_tb": [
+   0.4339,
+   0.4314
+  ],
+  "p_decider": [
+   0.3699,
+   0.3684
+  ],
+  "games_mean": [
+   23.984,
+   23.955
+  ],
+  "exp_breaks": [
+   4.188,
+   4.18
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4619,
+    0.4625
+   ],
+   "1-2": [
+    0.2238,
+    0.2214
+   ],
+   "2-0": [
+    0.1682,
+    0.1691
+   ],
+   "2-1": [
+    0.1462,
+    0.147
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Cameron Norrie",
+   "elo_points": -81.5,
+   "raw_diff": -233.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Cameron Norrie",
+   "elo_points": -35.9,
+   "raw_diff": -152.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Cameron Norrie",
+   "elo_points": -17.4,
+   "raw_diff": -142.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5276,
+   "B": 0.5213,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3218,
+   "B": 0.3648,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6268,
+   "B": 0.6826,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Cameron Norrie to win at least one set",
+  "probability": 0.8318,
+  "fair_odds": {
+   "decimal": 1.2,
+   "american": "-495"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Cameron Norrie to win at least one set",
+    "probability": 0.8318,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.785,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Cameron Norrie to win",
+    "probability": 0.6856,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "James Duckworth +4.5 games",
+    "probability": 0.658,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6301,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6243,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5877,
+    "fair_decimal": 1.7
+   },
+   {
+    "selection": "Cameron Norrie -2.5 games",
+    "probability": 0.5671,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5661,
+    "fair_decimal": 1.77
+   },
+   {
+    "selection": "James Duckworth to win at least one set",
+    "probability": 0.5381,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5122,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4878,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Exact sets James Duckworth 0-2 Cameron Norrie",
+    "probability": 0.4619,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4339,
+    "fair_decimal": 2.3
+   },
+   {
+    "selection": "James Duckworth +2.5 games",
+    "probability": 0.4329,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-09T06:26:58+00:00",
+  "version": 3,
+  "input_hash": "7124416751128692",
+  "reason": "performance inputs or format refreshed (results through 2026-11-08)",
+  "pre_match": true,
+  "espn_id": "186529",
+  "scheduled_start_utc": "2026-11-09T12:00Z"
+ }
+}

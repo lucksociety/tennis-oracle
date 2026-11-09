@@ -1,0 +1,669 @@
+{
+ "predicted_winner": "Tatjana Maria",
+ "win_prob": {
+  "A": 0.6824,
+  "B": 0.3176
+ },
+ "win_prob_exact": {
+  "A": 0.68238,
+  "B": 0.31762
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.47,
+   "american": "-215"
+  },
+  "B": {
+   "decimal": 3.15,
+   "american": "+215"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4803,
+  "2-1": 0.2021,
+  "0-2": 0.1771,
+  "1-2": 0.1406
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-2"
+ ],
+ "representative_sets_prob": 0.0221,
+ "games": {
+  "mean": 21.93,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.92,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.0038,
+   "13": 0.01727,
+   "14": 0.03494,
+   "15": 0.05802,
+   "16": 0.0801,
+   "17": 0.09004,
+   "18": 0.08541,
+   "19": 0.07578,
+   "20": 0.06589,
+   "21": 0.04617,
+   "22": 0.05541,
+   "23": 0.03493,
+   "24": 0.02104,
+   "25": 0.03516,
+   "26": 0.03789,
+   "27": 0.03555,
+   "28": 0.03879,
+   "29": 0.03771,
+   "30": 0.03543,
+   "31": 0.03225,
+   "32": 0.02722,
+   "33": 0.01751,
+   "34": 0.01293,
+   "35": 0.01131,
+   "36": 0.00503,
+   "37": 0.00163,
+   "38": 0.00211,
+   "39": 0.00068
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00034,
+  "-11": 0.00212,
+  "-10": 0.0057,
+  "-9": 0.0115,
+  "-8": 0.02074,
+  "-7": 0.0319,
+  "-6": 0.04165,
+  "-5": 0.04599,
+  "-4": 0.05032,
+  "-3": 0.0391,
+  "-2": 0.03025,
+  "-1": 0.02428,
+  "0": 0.02451,
+  "1": 0.02686,
+  "2": 0.03728,
+  "3": 0.05835,
+  "4": 0.08748,
+  "5": 0.09528,
+  "6": 0.10124,
+  "7": 0.09362,
+  "8": 0.07289,
+  "9": 0.04964,
+  "10": 0.03013,
+  "11": 0.01537,
+  "12": 0.00346
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7158,
+   "under": 0.2842
+  },
+  {
+   "line": 18.5,
+   "over": 0.6304,
+   "under": 0.3696
+  },
+  {
+   "line": 19.5,
+   "over": 0.5546,
+   "under": 0.4454
+  },
+  {
+   "line": 20.5,
+   "over": 0.4888,
+   "under": 0.5112
+  },
+  {
+   "line": 21.5,
+   "over": 0.4426,
+   "under": 0.5574
+  },
+  {
+   "line": 22.5,
+   "over": 0.3872,
+   "under": 0.6128
+  },
+  {
+   "line": 23.5,
+   "over": 0.3522,
+   "under": 0.6478
+  },
+  {
+   "line": 24.5,
+   "over": 0.3312,
+   "under": 0.6688
+  },
+  {
+   "line": 25.5,
+   "over": 0.296,
+   "under": 0.704
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6447,
+   "B +1.5": 0.3553,
+   "B -1.5": 0.2796,
+   "A +1.5": 0.7204
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6075,
+   "B +2.5": 0.3925,
+   "B -2.5": 0.2494,
+   "A +2.5": 0.7506
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.5491,
+   "B +3.5": 0.4509,
+   "B -3.5": 0.2103,
+   "A +3.5": 0.7897
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4616,
+   "B +4.5": 0.5384,
+   "B -4.5": 0.1599,
+   "A +4.5": 0.8401
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3664,
+   "B +5.5": 0.6337,
+   "B -5.5": 0.1139,
+   "A +5.5": 0.8861
+  }
+ ],
+ "p_tiebreak": 0.2316,
+ "p_a_wins_set": 0.8229,
+ "p_b_wins_set": 0.5197,
+ "p_decider": 0.3426,
+ "expected_breaks": {
+  "total": 8.48,
+  "by_A": 4.84,
+  "by_B": 3.64
+ },
+ "expected_break_points": {
+  "A_creates": 9.89,
+  "B_creates": 8.2
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-2"
+  ],
+  "prob": 0.4803
+ },
+ "match": "Tatjana Maria vs Luisina Giovannini",
+ "players": {
+  "A": {
+   "id": "wta:213583",
+   "name": "Tatjana Maria",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 54.0,
+   "age": 39.1599589322382,
+   "elo": 1728.2,
+   "surface_elo": {
+    "Hard": 1501.7,
+    "Clay": 1613.0,
+    "Grass": 1789.4
+   },
+   "matches_total": 372,
+   "matches_surface": {
+    "Hard": 201,
+    "Clay": 108,
+    "Grass": 63
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    27,
+    26
+   ],
+   "last52w_surface": [
+    10,
+    8
+   ],
+   "career_surface_wl": [
+    47,
+    61
+   ],
+   "games_won_lost_52w": [
+    552,
+    507
+   ],
+   "sets_won_lost_52w": [
+    62,
+    54
+   ],
+   "avg_opp_elo_last20": 1685.0,
+   "vs_top_opp_52w": [
+    0,
+    5
+   ],
+   "serve_rating": 0.1712,
+   "return_rating": 0.138,
+   "form_elo": 88.8,
+   "last_match": "2026-11-01",
+   "last_stats_match": "2026-09-14",
+   "stats_52w": {
+    "first_in": 0.5772,
+    "first_won": 0.6711,
+    "second_won": 0.4499,
+    "serve_pts_won": 0.5776,
+    "hold": 0.6629,
+    "aces_per_svgm": 0.4136,
+    "df_per_svgm": 0.2436,
+    "bp_saved": 0.5405,
+    "ret_pts_won": 0.4258,
+    "ret_1st_won": 0.3652,
+    "ret_2nd_won": 0.5295,
+    "ret_games_won": 0.3477,
+    "bp_conv": 0.4979,
+    "bp_chances_per_retgm": 0.6983,
+    "matches_with_stats": 36
+   },
+   "rank_history": [
+    [
+     "2025-09-15",
+     44.0
+    ],
+    [
+     "2025-10-20",
+     43.0
+    ],
+    [
+     "2026-01-12",
+     42.0
+    ],
+    [
+     "2026-02-01",
+     54.0
+    ],
+    [
+     "2026-02-23",
+     55.0
+    ],
+    [
+     "2026-03-04",
+     59.0
+    ],
+    [
+     "2026-03-30",
+     60.0
+    ],
+    [
+     "2026-04-06",
+     61.0
+    ],
+    [
+     "2026-04-13",
+     63.0
+    ],
+    [
+     "2026-04-21",
+     54.0
+    ],
+    [
+     "2026-05-18",
+     52.0
+    ],
+    [
+     "2026-05-25",
+     54.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:236972",
+   "name": "Luisina Giovannini",
+   "tour": "wta",
+   "hand": "U",
+   "rank": 465.0,
+   "age": 19.95482546201232,
+   "elo": 1568.1,
+   "surface_elo": {
+    "Hard": 1508.7,
+    "Clay": 1622.0,
+    "Grass": 1419.2
+   },
+   "matches_total": 10,
+   "matches_surface": {
+    "Hard": 2,
+    "Clay": 7,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    5,
+    5
+   ],
+   "last52w": [
+    5,
+    4
+   ],
+   "last52w_surface": [
+    4,
+    2
+   ],
+   "career_surface_wl": [
+    4,
+    3
+   ],
+   "games_won_lost_52w": [
+    95,
+    87
+   ],
+   "sets_won_lost_52w": [
+    10,
+    10
+   ],
+   "avg_opp_elo_last20": 1567.9,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.0245,
+   "return_rating": -0.0159,
+   "form_elo": 20.9,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-11-05",
+   "stats_52w": {
+    "first_in": 0.6713,
+    "first_won": 0.5903,
+    "second_won": 0.461,
+    "serve_pts_won": 0.5478,
+    "hold": 0.6032,
+    "aces_per_svgm": 0.1905,
+    "df_per_svgm": 0.2698,
+    "bp_saved": 0.5283,
+    "ret_pts_won": 0.4847,
+    "ret_1st_won": 0.4365,
+    "ret_2nd_won": 0.5714,
+    "ret_games_won": 0.4754,
+    "bp_conv": 0.6905,
+    "bp_chances_per_retgm": 0.6885,
+    "matches_with_stats": 6
+   },
+   "rank_history": [
+    [
+     "2024-11-25",
+     465.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "DIRECTV Open Presentado por Compesar",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-08",
+ "forecast_date": "2026-11-09",
+ "performance_revision": "c5a15171476b956c",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Luisina Giovannini: limited recent/surface sample (9 matches 52w, 7 career on Clay, 6 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 136.6,
+  "components_elo": {
+   "surface_elo": -9.1,
+   "overall_elo": 160.1,
+   "serve_return": 286.5,
+   "form": 67.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -1.1,
+   "overall_elo": 37.8,
+   "serve_return": 100.0,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.687,
+  "serve_return_implied_spw": {
+   "A": 0.5842,
+   "B": 0.5099
+  },
+  "point_probs": {
+   "A_serve": 0.5755,
+   "B_serve": 0.5188
+  },
+  "point_probs_exact": {
+   "A_serve": 0.5754870256251311,
+   "B_serve": 0.5187945556510851
+  },
+  "hold_probs": {
+   "A": 0.6824,
+   "B": 0.5469
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6824,
+   0.6842
+  ],
+  "p_tb": [
+   0.2316,
+   0.2312
+  ],
+  "p_decider": [
+   0.3426,
+   0.3441
+  ],
+  "games_mean": [
+   21.933,
+   21.934
+  ],
+  "exp_breaks": [
+   8.48,
+   8.476
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1771,
+    0.1767
+   ],
+   "1-2": [
+    0.1406,
+    0.1391
+   ],
+   "2-0": [
+    0.4803,
+    0.4792
+   ],
+   "2-1": [
+    0.2021,
+    0.205
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0029
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Tatjana Maria",
+   "elo_points": 100.0,
+   "raw_diff": 286.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Tatjana Maria",
+   "elo_points": 37.8,
+   "raw_diff": 160.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Luisina Giovannini",
+   "elo_points": -1.1,
+   "raw_diff": -9.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4499,
+   "B": 0.461,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4258,
+   "B": 0.4847,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.5755,
+   "B": 0.5188,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Tatjana Maria to win at least one set",
+  "probability": 0.8229,
+  "fair_odds": {
+   "decimal": 1.22,
+   "american": "-465"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Luisina Giovannini: limited recent/surface sample (9 matches 52w, 7 career on Clay, 6 with stats)",
+  "candidates": [
+   {
+    "selection": "Tatjana Maria to win at least one set",
+    "probability": 0.8229,
+    "fair_decimal": 1.22
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7684,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Tatjana Maria to win",
+    "probability": 0.6824,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6688,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6574,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.6304,
+    "fair_decimal": 1.59
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6128,
+    "fair_decimal": 1.63
+   },
+   {
+    "selection": "Tatjana Maria -2.5 games",
+    "probability": 0.6075,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Luisina Giovannini +4.5 games",
+    "probability": 0.5384,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Luisina Giovannini to win at least one set",
+    "probability": 0.5197,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5112,
+    "fair_decimal": 1.96
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4888,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Exact sets Tatjana Maria 2-0 Luisina Giovannini",
+    "probability": 0.4803,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Tatjana Maria -4.5 games",
+    "probability": 0.4616,
+    "fair_decimal": 2.17
+   },
+   {
+    "selection": "Luisina Giovannini +2.5 games",
+    "probability": 0.3925,
+    "fair_decimal": 2.55
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-09T06:27:05+00:00",
+  "version": 2,
+  "input_hash": "333be373edd77fb5",
+  "reason": "surface corrected from Hard to Clay",
+  "pre_match": true,
+  "espn_id": "186753",
+  "scheduled_start_utc": "2026-11-09T15:00Z"
+ }
+}

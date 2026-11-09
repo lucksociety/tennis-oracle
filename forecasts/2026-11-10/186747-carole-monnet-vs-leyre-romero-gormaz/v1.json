@@ -1,0 +1,659 @@
+{
+ "predicted_winner": "Leyre Romero Gormaz",
+ "win_prob": {
+  "A": 0.3075,
+  "B": 0.6925
+ },
+ "win_prob_exact": {
+  "A": 0.30754,
+  "B": 0.6924600000000001
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 3.25,
+   "american": "+225"
+  },
+  "B": {
+   "decimal": 1.44,
+   "american": "-225"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.4874,
+  "1-2": 0.2051,
+  "2-0": 0.1719,
+  "2-1": 0.1356
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.0228,
+ "games": {
+  "mean": 21.73,
+  "median": 20.0,
+  "p10": 15.0,
+  "p90": 31.0,
+  "sd": 5.88,
+  "projected": 20.0,
+  "pmf": {
+   "12": 0.00526,
+   "13": 0.01941,
+   "14": 0.0391,
+   "15": 0.06254,
+   "16": 0.08303,
+   "17": 0.09006,
+   "18": 0.08364,
+   "19": 0.07452,
+   "20": 0.06383,
+   "21": 0.04646,
+   "22": 0.05262,
+   "23": 0.03407,
+   "24": 0.02152,
+   "25": 0.03542,
+   "26": 0.03902,
+   "27": 0.03723,
+   "28": 0.03909,
+   "29": 0.03715,
+   "30": 0.03476,
+   "31": 0.0314,
+   "32": 0.02469,
+   "33": 0.01593,
+   "34": 0.01124,
+   "35": 0.00998,
+   "36": 0.0041,
+   "37": 0.00173,
+   "38": 0.00158,
+   "39": 0.00062
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00491,
+  "-11": 0.01758,
+  "-10": 0.0342,
+  "-9": 0.05414,
+  "-8": 0.07876,
+  "-7": 0.09557,
+  "-6": 0.10154,
+  "-5": 0.09381,
+  "-4": 0.08369,
+  "-3": 0.05516,
+  "-2": 0.03475,
+  "-1": 0.02692,
+  "0": 0.02358,
+  "1": 0.02354,
+  "2": 0.02748,
+  "3": 0.03712,
+  "4": 0.04694,
+  "5": 0.04596,
+  "6": 0.04084,
+  "7": 0.03286,
+  "8": 0.02059,
+  "9": 0.01186,
+  "10": 0.00585,
+  "11": 0.002,
+  "12": 0.00035
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7006,
+   "under": 0.2994
+  },
+  {
+   "line": 18.5,
+   "over": 0.617,
+   "under": 0.383
+  },
+  {
+   "line": 19.5,
+   "over": 0.5424,
+   "under": 0.4576
+  },
+  {
+   "line": 20.5,
+   "over": 0.4786,
+   "under": 0.5214
+  },
+  {
+   "line": 21.5,
+   "over": 0.4322,
+   "under": 0.5678
+  },
+  {
+   "line": 22.5,
+   "over": 0.3795,
+   "under": 0.6205
+  },
+  {
+   "line": 23.5,
+   "over": 0.3455,
+   "under": 0.6545
+  },
+  {
+   "line": 24.5,
+   "over": 0.3239,
+   "under": 0.6761
+  },
+  {
+   "line": 25.5,
+   "over": 0.2885,
+   "under": 0.7115
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.2719,
+   "B +1.5": 0.7281,
+   "B -1.5": 0.6541,
+   "A +1.5": 0.3459
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.2444,
+   "B +2.5": 0.7556,
+   "B -2.5": 0.6194,
+   "A +2.5": 0.3806
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.2073,
+   "B +3.5": 0.7927,
+   "B -3.5": 0.5642,
+   "A +3.5": 0.4358
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.1603,
+   "B +4.5": 0.8397,
+   "B -4.5": 0.4805,
+   "A +4.5": 0.5195
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1143,
+   "B +5.5": 0.8857,
+   "B -5.5": 0.3867,
+   "A +5.5": 0.6133
+  }
+ ],
+ "p_tiebreak": 0.2163,
+ "p_a_wins_set": 0.5126,
+ "p_b_wins_set": 0.8281,
+ "p_decider": 0.3407,
+ "expected_breaks": {
+  "total": 10.39,
+  "by_A": 4.55,
+  "by_B": 5.84
+ },
+ "expected_break_points": {
+  "A_creates": 9.46,
+  "B_creates": 11.08
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.4874
+ },
+ "match": "Carole Monnet vs Leyre Romero Gormaz",
+ "players": {
+  "A": {
+   "id": "wta:220733",
+   "name": "Carole Monnet",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 171.0,
+   "age": 24.916016427104722,
+   "elo": 1637.0,
+   "surface_elo": {
+    "Hard": 1501.3,
+    "Clay": 1642.7,
+    "Grass": 1430.9
+   },
+   "matches_total": 32,
+   "matches_surface": {
+    "Hard": 12,
+    "Clay": 19,
+    "Grass": 1
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    13,
+    13
+   ],
+   "last52w_surface": [
+    8,
+    5
+   ],
+   "career_surface_wl": [
+    9,
+    10
+   ],
+   "games_won_lost_52w": [
+    276,
+    277
+   ],
+   "sets_won_lost_52w": [
+    28,
+    30
+   ],
+   "avg_opp_elo_last20": 1589.6,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": -0.1056,
+   "return_rating": 0.1197,
+   "form_elo": 64.9,
+   "last_match": "2026-11-05",
+   "last_stats_match": "2026-11-05",
+   "stats_52w": {
+    "first_in": 0.6664,
+    "first_won": 0.568,
+    "second_won": 0.3561,
+    "serve_pts_won": 0.4973,
+    "hold": 0.4879,
+    "aces_per_svgm": 0.1208,
+    "df_per_svgm": 0.5604,
+    "bp_saved": 0.5204,
+    "ret_pts_won": 0.4857,
+    "ret_1st_won": 0.4166,
+    "ret_2nd_won": 0.5925,
+    "ret_games_won": 0.4785,
+    "bp_conv": 0.5102,
+    "bp_chances_per_retgm": 0.9378,
+    "matches_with_stats": 19
+   },
+   "rank_history": [
+    [
+     "2022-05-16",
+     249.0
+    ],
+    [
+     "2022-05-23",
+     253.0
+    ],
+    [
+     "2023-07-17",
+     185.0
+    ],
+    [
+     "2024-07-15",
+     221.0
+    ],
+    [
+     "2025-05-26",
+     231.0
+    ],
+    [
+     "2026-03-30",
+     171.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:220742",
+   "name": "Leyre Romero Gormaz",
+   "tour": "wta",
+   "hand": "L",
+   "rank": 175.0,
+   "age": 24.58590006844627,
+   "elo": 1761.0,
+   "surface_elo": {
+    "Hard": 1578.5,
+    "Clay": 1771.0,
+    "Grass": 1427.8
+   },
+   "matches_total": 40,
+   "matches_surface": {
+    "Hard": 9,
+    "Clay": 30,
+    "Grass": 1
+   },
+   "last5": [
+    5,
+    0
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    20,
+    13
+   ],
+   "last52w_surface": [
+    15,
+    9
+   ],
+   "career_surface_wl": [
+    18,
+    12
+   ],
+   "games_won_lost_52w": [
+    399,
+    331
+   ],
+   "sets_won_lost_52w": [
+    47,
+    32
+   ],
+   "avg_opp_elo_last20": 1588.6,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1388,
+   "return_rating": 0.1616,
+   "form_elo": 150.8,
+   "last_match": "2026-11-07",
+   "last_stats_match": "2026-11-07",
+   "stats_52w": {
+    "first_in": 0.561,
+    "first_won": 0.6226,
+    "second_won": 0.4563,
+    "serve_pts_won": 0.5496,
+    "hold": 0.6314,
+    "aces_per_svgm": 0.2299,
+    "df_per_svgm": 0.4745,
+    "bp_saved": 0.607,
+    "ret_pts_won": 0.4692,
+    "ret_1st_won": 0.4273,
+    "ret_2nd_won": 0.5605,
+    "ret_games_won": 0.4484,
+    "bp_conv": 0.5101,
+    "bp_chances_per_retgm": 0.879,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2024-07-22",
+     179.0
+    ],
+    [
+     "2024-12-30",
+     158.0
+    ],
+    [
+     "2025-05-26",
+     150.0
+    ],
+    [
+     "2025-07-14",
+     133.0
+    ],
+    [
+     "2026-04-10",
+     175.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "DIRECTV Open Presentado por Compesar",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-08",
+ "forecast_date": "2026-11-10",
+ "performance_revision": "c5a15171476b956c",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -141.4,
+  "components_elo": {
+   "surface_elo": -128.3,
+   "overall_elo": -124.0,
+   "serve_return": -276.7,
+   "form": -85.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -15.7,
+   "overall_elo": -29.3,
+   "serve_return": -96.5,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.3071,
+  "serve_return_implied_spw": {
+   "A": 0.4715,
+   "B": 0.5429
+  },
+  "point_probs": {
+   "A_serve": 0.4779,
+   "B_serve": 0.5366
+  },
+  "point_probs_exact": {
+   "A_serve": 0.4778522654232067,
+   "B_serve": 0.536556584933463
+  },
+  "hold_probs": {
+   "A": 0.4448,
+   "B": 0.5907
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.3075,
+   0.31
+  ],
+  "p_tb": [
+   0.2163,
+   0.2121
+  ],
+  "p_decider": [
+   0.3407,
+   0.3395
+  ],
+  "games_mean": [
+   21.728,
+   21.698
+  ],
+  "exp_breaks": [
+   10.394,
+   10.371
+  ],
+  "set_scores": {
+   "0-2": [
+    0.4874,
+    0.4868
+   ],
+   "1-2": [
+    0.2051,
+    0.2031
+   ],
+   "2-0": [
+    0.1719,
+    0.1736
+   ],
+   "2-1": [
+    0.1356,
+    0.1364
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0042
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Leyre Romero Gormaz",
+   "elo_points": -96.5,
+   "raw_diff": -276.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Leyre Romero Gormaz",
+   "elo_points": -29.3,
+   "raw_diff": -124.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Leyre Romero Gormaz",
+   "elo_points": -15.7,
+   "raw_diff": -128.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.3561,
+   "B": 0.4563,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4857,
+   "B": 0.4692,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.4779,
+   "B": 0.5366,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Leyre Romero Gormaz to win at least one set",
+  "probability": 0.8281,
+  "fair_odds": {
+   "decimal": 1.21,
+   "american": "-482"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Leyre Romero Gormaz to win at least one set",
+    "probability": 0.8281,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.7837,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "Leyre Romero Gormaz to win",
+    "probability": 0.6925,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6761,
+    "fair_decimal": 1.48
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6593,
+    "fair_decimal": 1.52
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6205,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Leyre Romero Gormaz -2.5 games",
+    "probability": 0.6194,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.617,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.5214,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Carole Monnet +4.5 games",
+    "probability": 0.5195,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Carole Monnet to win at least one set",
+    "probability": 0.5126,
+    "fair_decimal": 1.95
+   },
+   {
+    "selection": "Exact sets Carole Monnet 0-2 Leyre Romero Gormaz",
+    "probability": 0.4874,
+    "fair_decimal": 2.05
+   },
+   {
+    "selection": "Leyre Romero Gormaz -4.5 games",
+    "probability": 0.4805,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.4786,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.383,
+    "fair_decimal": 2.61
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-08",
+ "freeze": {
+  "frozen_at_utc": "2026-11-09T06:27:28+00:00",
+  "version": 1,
+  "input_hash": "64f8464a9b8feb05",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186747",
+  "scheduled_start_utc": "2026-11-10T05:00Z"
+ }
+}

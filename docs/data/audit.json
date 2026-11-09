@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-08T20:30:46+00:00",
+ "generated_at_utc": "2026-11-09T06:28:53+00:00",
  "summary": {
-  "n": 391,
-  "brier": 0.22901066040920715,
-  "log_loss": 0.652829728974264,
-  "accuracy": 0.618925831202046,
-  "games_mae": 5.214117647058824,
-  "exact_sets_accuracy": 0.4194373401534527,
-  "tiebreak_brier": 0.19393100327365728
+  "n": 394,
+  "brier": 0.22899722911167514,
+  "log_loss": 0.6527553102282175,
+  "accuracy": 0.616751269035533,
+  "games_mae": 5.223934010152284,
+  "exact_sets_accuracy": 0.41878172588832485,
+  "tiebreak_brier": 0.1945024088324873
  },
- "n": 391,
+ "n": 394,
  "overall": {
-  "n": 391,
-  "brier": 0.22901066040920715,
-  "log_loss": 0.652829728974264,
-  "accuracy": 0.618925831202046
+  "n": 394,
+  "brier": 0.22899722911167514,
+  "log_loss": 0.6527553102282175,
+  "accuracy": 0.616751269035533
  },
- "games_mae": 5.214117647058824,
- "exact_sets_accuracy": 0.4194373401534527,
- "tiebreak_brier": 0.19393100327365728,
+ "games_mae": 5.223934010152284,
+ "exact_sets_accuracy": 0.41878172588832485,
+ "tiebreak_brier": 0.1945024088324873,
  "by_surface": {
   "Clay": {
    "n": 39,
@@ -27,10 +27,10 @@
    "accuracy": 0.7948717948717948
   },
   "Hard": {
-   "n": 352,
-   "brier": 0.2352671553125,
-   "log_loss": 0.66647818514999,
-   "accuracy": 0.5994318181818182
+   "n": 355,
+   "brier": 0.2351993766760563,
+   "log_loss": 0.6662802517571181,
+   "accuracy": 0.5971830985915493
   }
  },
  "by_tour": {
@@ -41,18 +41,18 @@
    "accuracy": 0.5801526717557252
   },
   "wta": {
-   "n": 260,
-   "brier": 0.22501633826923076,
-   "log_loss": 0.6428922524827764,
-   "accuracy": 0.6384615384615384
+   "n": 263,
+   "brier": 0.2250417794676806,
+   "log_loss": 0.6428941210893625,
+   "accuracy": 0.6349809885931559
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 84,
-   "brier": 0.24577565940476193,
-   "log_loss": 0.6940663076101071,
-   "accuracy": 0.6190476190476191
+   "n": 87,
+   "brier": 0.2451367291954023,
+   "log_loss": 0.6923073337957408,
+   "accuracy": 0.6091954022988506
   },
   "LOW": {
    "n": 163,
@@ -70,15 +70,15 @@
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 203,
-   "mean_pred": 0.5454990147783251,
-   "observed": 0.5172413793103449
+   "n": 205,
+   "mean_pred": 0.5454546341463415,
+   "observed": 0.5121951219512195
   },
   {
    "bucket": "60%-70%",
-   "n": 122,
-   "mean_pred": 0.6476811475409837,
-   "observed": 0.7377049180327869
+   "n": 123,
+   "mean_pred": 0.6480235772357725,
+   "observed": 0.7398373983739838
   },
   {
    "bucket": "70%-80%",
@@ -16268,6 +16268,132 @@
     ]
    },
    "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Elena Rybakina vs Linda Noskova",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "FAGE WTA Finals Indian Wells",
+   "p_a": 0.6898,
+   "a_won": 1,
+   "pred_winner": "Elena Rybakina",
+   "actual_winner": "Elena Rybakina",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4696,
+   "exp_games": 23.91,
+   "actual_games": 18,
+   "p_tb": 0.4286,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6377,
+     1
+    ],
+    "A -2.5": [
+     0.5739,
+     1
+    ],
+    "A -3.5": [
+     0.4765,
+     1
+    ],
+    "A -4.5": [
+     0.3501,
+     1
+    ],
+    "A -5.5": [
+     0.236,
+     1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Marta Kostyuk vs Linda Noskova",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "FAGE WTA Finals Indian Wells",
+   "p_a": 0.5295,
+   "a_won": 0,
+   "pred_winner": "Marta Kostyuk",
+   "actual_winner": "Linda Noskova",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2821,
+   "exp_games": 23.48,
+   "actual_games": 18,
+   "p_tb": 0.3472,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4808,
+     0
+    ],
+    "A -2.5": [
+     0.4318,
+     0
+    ],
+    "A -3.5": [
+     0.3613,
+     0
+    ],
+    "A -4.5": [
+     0.2715,
+     0
+    ],
+    "A -5.5": [
+     0.1857,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Coco Gauff vs Jessica Pegula",
+   "date": "2026-11-08",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "FAGE WTA Finals Indian Wells",
+   "p_a": 0.4476,
+   "a_won": 1,
+   "pred_winner": "Jessica Pegula",
+   "actual_winner": "Coco Gauff",
+   "pred_sets": "0-2",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1777,
+   "exp_games": 22.88,
+   "actual_games": 31,
+   "p_tb": 0.291,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4022,
+     1
+    ],
+    "A -2.5": [
+     0.3639,
+     1
+    ],
+    "A -3.5": [
+     0.3076,
+     1
+    ],
+    "A -4.5": [
+     0.2345,
+     1
+    ],
+    "A -5.5": [
+     0.1647,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
    "version": "v1.1"
   },
   {
