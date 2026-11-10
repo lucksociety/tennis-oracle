@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-10T12:40:19+00:00",
+ "generated_at_utc": "2026-11-10T21:49:36+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -11,14 +11,14 @@
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-11T12:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Lorenzo Sonego",
+     "id": "atp:132283"
     },
     {
      "name": "Alejandro Tabilo",
@@ -31,120 +31,33 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186538",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "Casper Ruud",
-     "id": "atp:134770"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186544",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186542",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Borna Gojo",
-     "id": "atp:127339"
-    },
-    {
-     "name": "Ugo Humbert",
-     "id": "atp:200005"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
    "forecast": {
     "frozen_version": 1,
-    "frozen_at_utc": "2026-11-10T12:40:10+00:00",
-    "path": "forecasts/2026-11-11/186542-borna-gojo-vs-ugo-humbert/v1.json",
+    "frozen_at_utc": "2026-11-10T21:49:10+00:00",
+    "path": "forecasts/2026-11-11/186540-lorenzo-sonego-vs-alejandro-tabilo/v1.json",
     "model_version": "v1.1",
-    "predicted_winner": "Ugo Humbert",
+    "predicted_winner": "Alejandro Tabilo",
     "win_prob": {
-     "A": 0.3962,
-     "B": 0.6038
+     "A": 0.4406,
+     "B": 0.5594
     },
     "most_likely_set_score": "0-2",
     "final_score": {
      "A_sets": 0,
      "B_sets": 2,
      "sets": [
-      "6-7",
-      "6-7"
+      "4-6",
+      "4-6"
      ],
-     "prob": 0.3824
+     "prob": 0.3438
     },
-    "games_mean": 25.41,
+    "games_mean": 25.21,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.8708,
-     "confidence": "Medium"
+     "probability": 0.8588,
+     "confidence": "High"
     },
-    "data_quality": "MEDIUM",
+    "data_quality": "HIGH",
     "recommendation_quality": {
      "eligible": true,
      "reasons": [],
@@ -153,77 +66,78 @@
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.3962,
-      "B": 0.6038
+      "A": 0.4406,
+      "B": 0.5594
      },
      "set_score_probs": {
-      "0-2": 0.3824,
-      "1-2": 0.2214,
-      "2-0": 0.2175,
-      "2-1": 0.1787
+      "0-2": 0.3438,
+      "2-0": 0.2516,
+      "1-2": 0.2157,
+      "2-1": 0.189
      },
      "games_pmf": {
-      "12": 0.00013,
-      "13": 0.00132,
-      "14": 0.00387,
-      "15": 0.01086,
-      "16": 0.02042,
-      "17": 0.04182,
-      "18": 0.05082,
-      "19": 0.07568,
-      "20": 0.0738,
-      "21": 0.04837,
-      "22": 0.09578,
-      "23": 0.08589,
-      "24": 0.00677,
-      "25": 0.0348,
-      "26": 0.073,
-      "27": 0.01906,
-      "28": 0.02588,
-      "29": 0.02787,
-      "30": 0.03083,
-      "31": 0.0443,
-      "32": 0.05092,
-      "33": 0.03173,
-      "34": 0.02405,
-      "35": 0.04805,
-      "36": 0.03789,
-      "37": 0.00251,
-      "38": 0.01194,
-      "39": 0.02164
+      "12": 0.00022,
+      "13": 0.00144,
+      "14": 0.00414,
+      "15": 0.01313,
+      "16": 0.02217,
+      "17": 0.04489,
+      "18": 0.05526,
+      "19": 0.07561,
+      "20": 0.07365,
+      "21": 0.04813,
+      "22": 0.09479,
+      "23": 0.08224,
+      "24": 0.00727,
+      "25": 0.03522,
+      "26": 0.06557,
+      "27": 0.02037,
+      "28": 0.02867,
+      "29": 0.03086,
+      "30": 0.03325,
+      "31": 0.04701,
+      "32": 0.05068,
+      "33": 0.03266,
+      "34": 0.02397,
+      "35": 0.04378,
+      "36": 0.03436,
+      "37": 0.00288,
+      "38": 0.011,
+      "39": 0.01678
      },
      "games_diff_pmf": {
-      "-12": 0.00013,
-      "-11": 0.00113,
-      "-10": 0.00317,
-      "-9": 0.00831,
-      "-8": 0.01742,
-      "-7": 0.03803,
-      "-6": 0.05704,
-      "-5": 0.0932,
-      "-4": 0.12051,
-      "-3": 0.11201,
-      "-2": 0.08646,
-      "-1": 0.04674,
-      "0": 0.04101,
-      "1": 0.04258,
-      "2": 0.06897,
-      "3": 0.07919,
-      "4": 0.07742,
-      "5": 0.05262,
-      "6": 0.02744,
-      "7": 0.01679,
-      "8": 0.00566,
-      "9": 0.00308,
-      "10": 0.00087,
-      "11": 0.00022
+      "-12": 0.00018,
+      "-11": 0.00096,
+      "-10": 0.00284,
+      "-9": 0.00921,
+      "-8": 0.01588,
+      "-7": 0.03631,
+      "-6": 0.05445,
+      "-5": 0.08417,
+      "-4": 0.11203,
+      "-3": 0.10276,
+      "-2": 0.07631,
+      "-1": 0.04463,
+      "0": 0.04073,
+      "1": 0.04096,
+      "2": 0.06869,
+      "3": 0.08523,
+      "4": 0.08639,
+      "5": 0.06352,
+      "6": 0.03658,
+      "7": 0.02207,
+      "8": 0.00942,
+      "9": 0.0047,
+      "10": 0.00146,
+      "11": 0.00048,
+      "12": 4e-05
      },
-     "p_tiebreak": 0.5655,
-     "p_decider": 0.4001
+     "p_tiebreak": 0.5393,
+     "p_decider": 0.4047
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0033
+    "cross_check_max_diff": 0.0024
    }
   },
   {
@@ -232,8 +146,8 @@
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-11T13:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -253,29 +167,29 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-10T12:40:12+00:00",
-    "path": "forecasts/2026-11-11/186545-taylor-fritz-vs-cameron-norrie/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-10T21:49:12+00:00",
+    "path": "forecasts/2026-11-11/186545-taylor-fritz-vs-cameron-norrie/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Taylor Fritz",
     "win_prob": {
-     "A": 0.649,
-     "B": 0.351
+     "A": 0.6485,
+     "B": 0.3515
     },
     "most_likely_set_score": "2-0",
     "final_score": {
      "A_sets": 2,
      "B_sets": 0,
      "sets": [
-      "6-4",
+      "6-3",
       "6-4"
      ],
-     "prob": 0.4279
+     "prob": 0.4259
     },
-    "games_mean": 24.41,
+    "games_mean": 24.47,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.8115,
+     "probability": 0.8139,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -287,98 +201,233 @@
     "games_projected": 23.0,
     "dist": {
      "win_prob": {
-      "A": 0.649,
-      "B": 0.351
+      "A": 0.6485,
+      "B": 0.3515
      },
      "set_score_probs": {
-      "2-0": 0.4279,
-      "2-1": 0.2211,
-      "0-2": 0.1904,
-      "1-2": 0.1606
+      "2-0": 0.4259,
+      "2-1": 0.2226,
+      "0-2": 0.1901,
+      "1-2": 0.1614
      },
      "games_pmf": {
-      "12": 0.00036,
-      "13": 0.0027,
-      "14": 0.00794,
-      "15": 0.01972,
-      "16": 0.03289,
-      "17": 0.05864,
-      "18": 0.06629,
-      "19": 0.08109,
-      "20": 0.07687,
-      "21": 0.05063,
-      "22": 0.08911,
-      "23": 0.0713,
-      "24": 0.00931,
-      "25": 0.03373,
-      "26": 0.05386,
-      "27": 0.02329,
-      "28": 0.03052,
-      "29": 0.03306,
-      "30": 0.03346,
-      "31": 0.04313,
-      "32": 0.04725,
-      "33": 0.02965,
-      "34": 0.02214,
-      "35": 0.0349,
-      "36": 0.02632,
-      "37": 0.00253,
-      "38": 0.00813,
-      "39": 0.01118
+      "12": 0.00035,
+      "13": 0.00266,
+      "14": 0.00745,
+      "15": 0.01939,
+      "16": 0.03188,
+      "17": 0.05767,
+      "18": 0.06675,
+      "19": 0.0811,
+      "20": 0.07697,
+      "21": 0.0503,
+      "22": 0.08761,
+      "23": 0.07196,
+      "24": 0.00858,
+      "25": 0.03265,
+      "26": 0.05537,
+      "27": 0.02381,
+      "28": 0.03077,
+      "29": 0.03239,
+      "30": 0.03464,
+      "31": 0.04218,
+      "32": 0.04718,
+      "33": 0.0307,
+      "34": 0.02219,
+      "35": 0.03599,
+      "36": 0.02666,
+      "37": 0.00224,
+      "38": 0.00881,
+      "39": 0.01175
      },
      "games_diff_pmf": {
-      "-12": 4e-05,
-      "-11": 0.00043,
-      "-10": 0.00131,
-      "-9": 0.00365,
-      "-8": 0.00797,
-      "-7": 0.0183,
-      "-6": 0.03034,
-      "-5": 0.05017,
-      "-4": 0.06811,
-      "-3": 0.06439,
-      "-2": 0.05265,
-      "-1": 0.03475,
-      "0": 0.03597,
-      "1": 0.03926,
-      "2": 0.06896,
-      "3": 0.10152,
-      "4": 0.12595,
-      "5": 0.10613,
-      "6": 0.07662,
-      "7": 0.05762,
-      "8": 0.02931,
-      "9": 0.01702,
-      "10": 0.0069,
-      "11": 0.00231,
-      "12": 0.00032
+      "-12": 2e-05,
+      "-11": 0.00035,
+      "-10": 0.00099,
+      "-9": 0.00384,
+      "-8": 0.00754,
+      "-7": 0.01923,
+      "-6": 0.02907,
+      "-5": 0.04955,
+      "-4": 0.06763,
+      "-3": 0.06434,
+      "-2": 0.05375,
+      "-1": 0.03579,
+      "0": 0.03681,
+      "1": 0.0408,
+      "2": 0.07132,
+      "3": 0.10099,
+      "4": 0.12394,
+      "5": 0.1052,
+      "6": 0.07862,
+      "7": 0.05577,
+      "8": 0.02856,
+      "9": 0.0166,
+      "10": 0.00663,
+      "11": 0.00233,
+      "12": 0.00033
      },
-     "p_tiebreak": 0.4677,
-     "p_decider": 0.3817
+     "p_tiebreak": 0.4728,
+     "p_decider": 0.384
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0035
+    "cross_check_max_diff": 0.003
    }
   },
   {
-   "espn_id": "186761",
-   "tour": "wta",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "venue": "Sopo, Colombia",
+   "espn_id": "186542",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Court 1",
+   "start_utc": "2026-11-11T15:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Borna Gojo",
+     "id": "atp:127339"
     },
     {
-     "name": "Elizabeth Mandlik",
-     "id": "wta:216097"
+     "name": "Ugo Humbert",
+     "id": "atp:200005"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-10T21:49:14+00:00",
+    "path": "forecasts/2026-11-11/186542-borna-gojo-vs-ugo-humbert/v2.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Ugo Humbert",
+    "win_prob": {
+     "A": 0.3939,
+     "B": 0.6061
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "6-7",
+      "6-7"
+     ],
+     "prob": 0.3798
+    },
+    "games_mean": 25.46,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8717,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3939,
+      "B": 0.6061
+     },
+     "set_score_probs": {
+      "0-2": 0.3798,
+      "1-2": 0.2263,
+      "2-0": 0.2178,
+      "2-1": 0.1761
+     },
+     "games_pmf": {
+      "12": 0.00015,
+      "13": 0.00111,
+      "14": 0.00362,
+      "15": 0.01139,
+      "16": 0.02006,
+      "17": 0.04094,
+      "18": 0.051,
+      "19": 0.07409,
+      "20": 0.07317,
+      "21": 0.04648,
+      "22": 0.09743,
+      "23": 0.0878,
+      "24": 0.007,
+      "25": 0.03433,
+      "26": 0.07252,
+      "27": 0.01862,
+      "28": 0.02504,
+      "29": 0.02889,
+      "30": 0.02916,
+      "31": 0.04524,
+      "32": 0.05147,
+      "33": 0.03341,
+      "34": 0.02371,
+      "35": 0.04702,
+      "36": 0.03876,
+      "37": 0.00246,
+      "38": 0.01306,
+      "39": 0.02207
+     },
+     "games_diff_pmf": {
+      "-12": 0.00014,
+      "-11": 0.00088,
+      "-10": 0.00309,
+      "-9": 0.00873,
+      "-8": 0.01713,
+      "-7": 0.03723,
+      "-6": 0.05629,
+      "-5": 0.09151,
+      "-4": 0.12201,
+      "-3": 0.11362,
+      "-2": 0.0865,
+      "-1": 0.04848,
+      "0": 0.04154,
+      "1": 0.0418,
+      "2": 0.06798,
+      "3": 0.08041,
+      "4": 0.07805,
+      "5": 0.05171,
+      "6": 0.02717,
+      "7": 0.01606,
+      "8": 0.00557,
+      "9": 0.00318,
+      "10": 0.00067,
+      "11": 0.00024,
+      "12": 1e-05
+     },
+     "p_tiebreak": 0.5686,
+     "p_decider": 0.4024
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0033
+   }
+  },
+  {
+   "espn_id": "186760",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Round 2",
+   "court": "Court 2",
+   "start_utc": "2026-11-11T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Andrea Lazaro Garcia",
+     "id": "wta:210622"
+    },
+    {
+     "name": "Jazmin Ortenzi",
+     "id": "wta:220446"
     }
    ],
    "surface": "Clay",
@@ -387,8 +436,249 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:16+00:00",
+    "path": "forecasts/2026-11-11/186760-andrea-lazaro-garcia-vs-jazmin-ortenzi/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Andrea Lazaro Garcia",
+    "win_prob": {
+     "A": 0.5662,
+     "B": 0.4338
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3693
+    },
+    "games_mean": 22.32,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7617,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5662,
+      "B": 0.4338
+     },
+     "set_score_probs": {
+      "2-0": 0.3693,
+      "0-2": 0.2595,
+      "2-1": 0.1968,
+      "1-2": 0.1744
+     },
+     "games_pmf": {
+      "12": 0.00307,
+      "13": 0.01326,
+      "14": 0.03019,
+      "15": 0.0516,
+      "16": 0.07204,
+      "17": 0.08621,
+      "18": 0.08282,
+      "19": 0.07613,
+      "20": 0.06561,
+      "21": 0.04826,
+      "22": 0.05624,
+      "23": 0.03613,
+      "24": 0.02288,
+      "25": 0.03692,
+      "26": 0.04048,
+      "27": 0.03841,
+      "28": 0.04126,
+      "29": 0.04237,
+      "30": 0.03766,
+      "31": 0.03466,
+      "32": 0.02944,
+      "33": 0.01916,
+      "34": 0.01314,
+      "35": 0.01245,
+      "36": 0.00506,
+      "37": 0.00189,
+      "38": 0.00193,
+      "39": 0.00073
+     },
+     "games_diff_pmf": {
+      "-12": 0.00097,
+      "-11": 0.00466,
+      "-10": 0.01114,
+      "-9": 0.02069,
+      "-8": 0.03395,
+      "-7": 0.04954,
+      "-6": 0.06013,
+      "-5": 0.06372,
+      "-4": 0.06452,
+      "-3": 0.04968,
+      "-2": 0.0332,
+      "-1": 0.02715,
+      "0": 0.02712,
+      "1": 0.02898,
+      "2": 0.03669,
+      "3": 0.05458,
+      "4": 0.07819,
+      "5": 0.0836,
+      "6": 0.08151,
+      "7": 0.07259,
+      "8": 0.05224,
+      "9": 0.03431,
+      "10": 0.02006,
+      "11": 0.00868,
+      "12": 0.0021
+     },
+     "p_tiebreak": 0.2383,
+     "p_decider": 0.3712
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0023
+   }
+  },
+  {
+   "espn_id": "186766",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Round 2",
+   "court": "Court 1",
+   "start_utc": "2026-11-11T15:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Polona Hercog",
+     "id": "wta:201555"
+    },
+    {
+     "name": "Carole Monnet",
+     "id": "wta:220733"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:18+00:00",
+    "path": "forecasts/2026-11-11/186766-polona-hercog-vs-carole-monnet/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Polona Hercog",
+    "win_prob": {
+     "A": 0.5206,
+     "B": 0.4794
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3327
+    },
+    "games_mean": 22.34,
+    "strongest": {
+     "selection": "No tiebreak",
+     "probability": 0.7609,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5206,
+      "B": 0.4794
+     },
+     "set_score_probs": {
+      "2-0": 0.3327,
+      "0-2": 0.2956,
+      "2-1": 0.1879,
+      "1-2": 0.1838
+     },
+     "games_pmf": {
+      "12": 0.00302,
+      "13": 0.0126,
+      "14": 0.02878,
+      "15": 0.05078,
+      "16": 0.07258,
+      "17": 0.08556,
+      "18": 0.08139,
+      "19": 0.0762,
+      "20": 0.06601,
+      "21": 0.04839,
+      "22": 0.05698,
+      "23": 0.03791,
+      "24": 0.02334,
+      "25": 0.03803,
+      "26": 0.04016,
+      "27": 0.03985,
+      "28": 0.04286,
+      "29": 0.04092,
+      "30": 0.03808,
+      "31": 0.03499,
+      "32": 0.02864,
+      "33": 0.0179,
+      "34": 0.01322,
+      "35": 0.01173,
+      "36": 0.00515,
+      "37": 0.00164,
+      "38": 0.00235,
+      "39": 0.00094
+     },
+     "games_diff_pmf": {
+      "-12": 0.00142,
+      "-11": 0.00579,
+      "-10": 0.01363,
+      "-9": 0.02469,
+      "-8": 0.0395,
+      "-7": 0.05648,
+      "-6": 0.06616,
+      "-5": 0.07126,
+      "-4": 0.07044,
+      "-3": 0.05164,
+      "-2": 0.03589,
+      "-1": 0.02839,
+      "0": 0.02694,
+      "1": 0.02815,
+      "2": 0.03614,
+      "3": 0.0514,
+      "4": 0.07515,
+      "5": 0.07708,
+      "6": 0.07309,
+      "7": 0.06605,
+      "8": 0.04651,
+      "9": 0.02962,
+      "10": 0.01609,
+      "11": 0.00689,
+      "12": 0.0016
+     },
+     "p_tiebreak": 0.2391,
+     "p_decider": 0.3717
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0036
+   }
   },
   {
    "espn_id": "186767",
@@ -396,8 +686,8 @@
    "tournament": "DIRECTV Open Presentado por Compesar",
    "venue": "Sopo, Colombia",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Main Court",
+   "start_utc": "2026-11-11T15:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -406,8 +696,8 @@
      "id": "wta:213583"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Alice Tubello",
+     "id": "wta:220554"
     }
    ],
    "surface": "Clay",
@@ -416,37 +706,114 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186760",
-   "tour": "wta",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "venue": "Sopo, Colombia",
-   "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "TBD",
-     "id": null
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:21+00:00",
+    "path": "forecasts/2026-11-11/186767-tatjana-maria-vs-alice-tubello/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alice Tubello",
+    "win_prob": {
+     "A": 0.4101,
+     "B": 0.5899
     },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.389
+    },
+    "games_mean": 22.32,
+    "strongest": {
+     "selection": "Alice Tubello to win at least one set",
+     "probability": 0.7561,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 21.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4101,
+      "B": 0.5899
+     },
+     "set_score_probs": {
+      "0-2": 0.389,
+      "2-0": 0.2439,
+      "1-2": 0.2009,
+      "2-1": 0.1662
+     },
+     "games_pmf": {
+      "12": 0.00318,
+      "13": 0.01286,
+      "14": 0.02884,
+      "15": 0.0524,
+      "16": 0.07226,
+      "17": 0.08485,
+      "18": 0.08276,
+      "19": 0.0778,
+      "20": 0.06517,
+      "21": 0.04903,
+      "22": 0.05789,
+      "23": 0.03745,
+      "24": 0.02161,
+      "25": 0.03686,
+      "26": 0.04009,
+      "27": 0.03817,
+      "28": 0.04007,
+      "29": 0.04198,
+      "30": 0.03784,
+      "31": 0.035,
+      "32": 0.02873,
+      "33": 0.01837,
+      "34": 0.01396,
+      "35": 0.01274,
+      "36": 0.00523,
+      "37": 0.0016,
+      "38": 0.00223,
+      "39": 0.00103
+     },
+     "games_diff_pmf": {
+      "-12": 0.00234,
+      "-11": 0.0096,
+      "-10": 0.02032,
+      "-9": 0.03709,
+      "-8": 0.05523,
+      "-7": 0.07525,
+      "-6": 0.08474,
+      "-5": 0.0854,
+      "-4": 0.08092,
+      "-3": 0.05737,
+      "-2": 0.03842,
+      "-1": 0.0297,
+      "0": 0.02688,
+      "1": 0.02827,
+      "2": 0.03294,
+      "3": 0.04687,
+      "4": 0.0623,
+      "5": 0.06331,
+      "6": 0.05516,
+      "7": 0.04544,
+      "8": 0.0303,
+      "9": 0.01845,
+      "10": 0.00947,
+      "11": 0.00339,
+      "12": 0.00084
+     },
+     "p_tiebreak": 0.2449,
+     "p_decider": 0.3671
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0025
+   }
   },
   {
    "espn_id": "186762",
@@ -454,8 +821,8 @@
    "tournament": "DIRECTV Open Presentado por Compesar",
    "venue": "Sopo, Colombia",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Court 2",
+   "start_utc": "2026-11-11T16:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -475,14 +842,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-10T12:40:14+00:00",
-    "path": "forecasts/2026-11-11/186762-irene-burillo-vs-julia-grabher/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-10T21:49:23+00:00",
+    "path": "forecasts/2026-11-11/186762-irene-burillo-vs-julia-grabher/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Julia Grabher",
     "win_prob": {
-     "A": 0.4175,
-     "B": 0.5825
+     "A": 0.417,
+     "B": 0.583
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -494,10 +861,10 @@
      ],
      "prob": 0.3829
     },
-    "games_mean": 22.3,
+    "games_mean": 22.27,
     "strongest": {
      "selection": "No tiebreak",
-     "probability": 0.7612,
+     "probability": 0.7645,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -509,78 +876,213 @@
     "games_projected": 21.0,
     "dist": {
      "win_prob": {
-      "A": 0.4175,
-      "B": 0.5825
+      "A": 0.417,
+      "B": 0.583
      },
      "set_score_probs": {
       "0-2": 0.3829,
-      "2-0": 0.2472,
-      "1-2": 0.1996,
-      "2-1": 0.1704
+      "2-0": 0.2495,
+      "1-2": 0.2001,
+      "2-1": 0.1675
      },
      "games_pmf": {
-      "12": 0.00343,
-      "13": 0.01298,
-      "14": 0.02924,
-      "15": 0.05244,
-      "16": 0.0739,
-      "17": 0.08571,
-      "18": 0.08388,
-      "19": 0.07474,
-      "20": 0.06515,
-      "21": 0.04734,
-      "22": 0.05716,
-      "23": 0.03626,
-      "24": 0.02293,
-      "25": 0.03737,
-      "26": 0.04049,
-      "27": 0.03783,
-      "28": 0.04204,
-      "29": 0.04164,
-      "30": 0.0383,
-      "31": 0.0346,
-      "32": 0.02825,
-      "33": 0.01869,
-      "34": 0.01333,
-      "35": 0.0124,
-      "36": 0.00516,
+      "12": 0.00331,
+      "13": 0.01313,
+      "14": 0.02984,
+      "15": 0.05251,
+      "16": 0.07339,
+      "17": 0.08645,
+      "18": 0.08296,
+      "19": 0.07667,
+      "20": 0.06519,
+      "21": 0.04904,
+      "22": 0.05624,
+      "23": 0.03548,
+      "24": 0.02223,
+      "25": 0.03758,
+      "26": 0.0414,
+      "27": 0.03812,
+      "28": 0.04159,
+      "29": 0.0421,
+      "30": 0.03676,
+      "31": 0.03437,
+      "32": 0.02831,
+      "33": 0.01776,
+      "34": 0.01406,
+      "35": 0.01179,
+      "36": 0.00498,
       "37": 0.0018,
-      "38": 0.00214,
-      "39": 0.0008
+      "38": 0.00216,
+      "39": 0.00078
      },
      "games_diff_pmf": {
-      "-12": 0.00249,
-      "-11": 0.00931,
-      "-10": 0.02088,
-      "-9": 0.03652,
-      "-8": 0.05554,
-      "-7": 0.07534,
-      "-6": 0.08517,
-      "-5": 0.08238,
-      "-4": 0.07974,
-      "-3": 0.05605,
-      "-2": 0.03748,
-      "-1": 0.02958,
-      "0": 0.026,
-      "1": 0.02702,
-      "2": 0.03403,
-      "3": 0.04674,
-      "4": 0.06373,
+      "-12": 0.00242,
+      "-11": 0.00946,
+      "-10": 0.02073,
+      "-9": 0.03689,
+      "-8": 0.05472,
+      "-7": 0.07558,
+      "-6": 0.08403,
+      "-5": 0.08502,
+      "-4": 0.07956,
+      "-3": 0.05553,
+      "-2": 0.03759,
+      "-1": 0.02873,
+      "0": 0.02619,
+      "1": 0.02777,
+      "2": 0.03352,
+      "3": 0.04613,
+      "4": 0.06302,
       "5": 0.06237,
-      "6": 0.05804,
-      "7": 0.0463,
-      "8": 0.03202,
-      "9": 0.01923,
-      "10": 0.00934,
-      "11": 0.00376,
-      "12": 0.00094
+      "6": 0.05785,
+      "7": 0.04767,
+      "8": 0.03184,
+      "9": 0.01865,
+      "10": 0.01006,
+      "11": 0.00378,
+      "12": 0.00089
      },
-     "p_tiebreak": 0.2388,
-     "p_decider": 0.37
+     "p_tiebreak": 0.2355,
+     "p_decider": 0.3676
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0022
+    "cross_check_max_diff": 0.0028
+   }
+  },
+  {
+   "espn_id": "186761",
+   "tour": "wta",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "venue": "Sopo, Colombia",
+   "round": "Round 2",
+   "court": "Main Court",
+   "start_utc": "2026-11-11T16:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Lucia Bronzetti",
+     "id": "wta:214459"
+    },
+    {
+     "name": "Elizabeth Mandlik",
+     "id": "wta:216097"
+    }
+   ],
+   "surface": "Clay",
+   "surface_source": "official-wta-current-edition",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:25+00:00",
+    "path": "forecasts/2026-11-11/186761-lucia-bronzetti-vs-elizabeth-mandlik/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Lucia Bronzetti",
+    "win_prob": {
+     "A": 0.6407,
+     "B": 0.3593
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-3",
+      "6-3"
+     ],
+     "prob": 0.44
+    },
+    "games_mean": 22.05,
+    "strongest": {
+     "selection": "Lucia Bronzetti to win at least one set",
+     "probability": 0.794,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 20.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6407,
+      "B": 0.3593
+     },
+     "set_score_probs": {
+      "2-0": 0.44,
+      "0-2": 0.206,
+      "2-1": 0.2007,
+      "1-2": 0.1533
+     },
+     "games_pmf": {
+      "12": 0.0039,
+      "13": 0.01525,
+      "14": 0.0335,
+      "15": 0.05595,
+      "16": 0.07687,
+      "17": 0.08762,
+      "18": 0.08618,
+      "19": 0.07635,
+      "20": 0.06451,
+      "21": 0.04822,
+      "22": 0.05533,
+      "23": 0.03376,
+      "24": 0.02263,
+      "25": 0.03694,
+      "26": 0.0399,
+      "27": 0.03691,
+      "28": 0.0396,
+      "29": 0.03904,
+      "30": 0.03699,
+      "31": 0.03307,
+      "32": 0.0271,
+      "33": 0.01726,
+      "34": 0.01255,
+      "35": 0.01127,
+      "36": 0.005,
+      "37": 0.00166,
+      "38": 0.00179,
+      "39": 0.00085
+     },
+     "games_diff_pmf": {
+      "-12": 0.00065,
+      "-11": 0.00274,
+      "-10": 0.00707,
+      "-9": 0.01387,
+      "-8": 0.02449,
+      "-7": 0.03813,
+      "-6": 0.04865,
+      "-5": 0.05391,
+      "-4": 0.05597,
+      "-3": 0.04259,
+      "-2": 0.0314,
+      "-1": 0.02505,
+      "0": 0.02575,
+      "1": 0.02867,
+      "2": 0.03744,
+      "3": 0.05478,
+      "4": 0.08166,
+      "5": 0.09053,
+      "6": 0.09564,
+      "7": 0.08613,
+      "8": 0.06644,
+      "9": 0.04514,
+      "10": 0.02744,
+      "11": 0.01261,
+      "12": 0.00325
+     },
+     "p_tiebreak": 0.23,
+     "p_decider": 0.354
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0038
    }
   },
   {
@@ -589,8 +1091,8 @@
    "tournament": "DIRECTV Open Presentado por Compesar",
    "venue": "Sopo, Colombia",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Court 1",
+   "start_utc": "2026-11-11T16:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -613,13 +1115,147 @@
    "note": "player(s) not in rating database (no tour-level history) - no forecast"
   },
   {
+   "espn_id": "186538",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Round 2",
+   "court": "Center Court",
+   "start_utc": "2026-11-11T17:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Aleksandr Shevchenko",
+     "id": "atp:espn8710"
+    },
+    {
+     "name": "Casper Ruud",
+     "id": "atp:134770"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:27+00:00",
+    "path": "forecasts/2026-11-11/186538-aleksandr-shevchenko-vs-casper-ruud/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Casper Ruud",
+    "win_prob": {
+     "A": 0.2278,
+     "B": 0.7722
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.5494
+    },
+    "games_mean": 23.98,
+    "strongest": {
+     "selection": "Casper Ruud to win at least one set",
+     "probability": 0.887,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.2278,
+      "B": 0.7722
+     },
+     "set_score_probs": {
+      "0-2": 0.5494,
+      "1-2": 0.2228,
+      "2-1": 0.1148,
+      "2-0": 0.113
+     },
+     "games_pmf": {
+      "12": 0.00072,
+      "13": 0.0037,
+      "14": 0.01009,
+      "15": 0.02426,
+      "16": 0.03888,
+      "17": 0.06523,
+      "18": 0.07026,
+      "19": 0.08521,
+      "20": 0.07951,
+      "21": 0.0525,
+      "22": 0.09079,
+      "23": 0.07514,
+      "24": 0.00739,
+      "25": 0.03088,
+      "26": 0.05387,
+      "27": 0.01894,
+      "28": 0.02407,
+      "29": 0.02686,
+      "30": 0.02921,
+      "31": 0.03901,
+      "32": 0.04082,
+      "33": 0.02637,
+      "34": 0.0213,
+      "35": 0.03535,
+      "36": 0.0264,
+      "37": 0.00223,
+      "38": 0.00827,
+      "39": 0.01274
+     },
+     "games_diff_pmf": {
+      "-12": 0.00072,
+      "-11": 0.00362,
+      "-10": 0.00997,
+      "-9": 0.02386,
+      "-8": 0.04025,
+      "-7": 0.07497,
+      "-6": 0.09615,
+      "-5": 0.13015,
+      "-4": 0.14838,
+      "-3": 0.11615,
+      "-2": 0.07557,
+      "-1": 0.03831,
+      "0": 0.03131,
+      "1": 0.02861,
+      "2": 0.04038,
+      "3": 0.0467,
+      "4": 0.04252,
+      "5": 0.02691,
+      "6": 0.0133,
+      "7": 0.00763,
+      "8": 0.00271,
+      "9": 0.0014,
+      "10": 0.00032,
+      "11": 0.00011
+     },
+     "p_tiebreak": 0.4714,
+     "p_decider": 0.3376
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.002
+   }
+  },
+  {
    "espn_id": "186764",
    "tour": "wta",
    "tournament": "DIRECTV Open Presentado por Compesar",
    "venue": "Sopo, Colombia",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Main Court",
+   "start_utc": "2026-11-11T18:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
@@ -647,14 +1283,14 @@
    "tournament": "DIRECTV Open Presentado por Compesar",
    "venue": "Sopo, Colombia",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Court 1",
+   "start_utc": "2026-11-11T18:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Bianca Andreescu",
+     "id": "wta:215370"
     },
     {
      "name": "Laura Pigossi",
@@ -667,37 +1303,249 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:29+00:00",
+    "path": "forecasts/2026-11-11/186765-bianca-andreescu-vs-laura-pigossi/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Bianca Andreescu",
+    "win_prob": {
+     "A": 0.8762,
+     "B": 0.1238
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-2",
+      "6-2"
+     ],
+     "prob": 0.7135
+    },
+    "games_mean": 19.82,
+    "strongest": {
+     "selection": "Bianca Andreescu to win",
+     "probability": 0.8762,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 18.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.8762,
+      "B": 0.1238
+     },
+     "set_score_probs": {
+      "2-0": 0.7135,
+      "2-1": 0.1627,
+      "1-2": 0.0637,
+      "0-2": 0.0601
+     },
+     "games_pmf": {
+      "12": 0.01383,
+      "13": 0.04406,
+      "14": 0.07379,
+      "15": 0.09886,
+      "16": 0.11177,
+      "17": 0.10704,
+      "18": 0.08854,
+      "19": 0.07098,
+      "20": 0.05566,
+      "21": 0.0391,
+      "22": 0.04161,
+      "23": 0.02598,
+      "24": 0.01572,
+      "25": 0.02584,
+      "26": 0.02624,
+      "27": 0.0245,
+      "28": 0.02483,
+      "29": 0.02504,
+      "30": 0.0226,
+      "31": 0.01961,
+      "32": 0.01534,
+      "33": 0.01027,
+      "34": 0.00726,
+      "35": 0.00631,
+      "36": 0.00265,
+      "37": 0.00101,
+      "38": 0.00113,
+      "39": 0.00043
+     },
+     "games_diff_pmf": {
+      "-12": 6e-05,
+      "-11": 0.00036,
+      "-10": 0.00086,
+      "-9": 0.00256,
+      "-8": 0.00512,
+      "-7": 0.00964,
+      "-6": 0.01378,
+      "-5": 0.01828,
+      "-4": 0.02065,
+      "-3": 0.01739,
+      "-2": 0.01415,
+      "-1": 0.01288,
+      "0": 0.01363,
+      "1": 0.01722,
+      "2": 0.02466,
+      "3": 0.04549,
+      "4": 0.07837,
+      "5": 0.09855,
+      "6": 0.12098,
+      "7": 0.13266,
+      "8": 0.12091,
+      "9": 0.10013,
+      "10": 0.07403,
+      "11": 0.04387,
+      "12": 0.01377
+     },
+     "p_tiebreak": 0.1602,
+     "p_decider": 0.2264
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0019
+   }
   },
   {
-   "espn_id": "186766",
-   "tour": "wta",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "venue": "Sopo, Colombia",
+   "espn_id": "186544",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
    "round": "Round 2",
-   "court": "",
-   "start_utc": "2026-11-11T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-11T18:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "Polona Hercog",
-     "id": "wta:201555"
+     "name": "Miomir Kecmanovic",
+     "id": "atp:200175"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Holger Rune",
+     "id": "atp:208029"
     }
    ],
-   "surface": "Clay",
-   "surface_source": "official-wta-current-edition",
+   "surface": "Hard",
+   "surface_source": "venue-history",
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-10T21:49:32+00:00",
+    "path": "forecasts/2026-11-11/186544-miomir-kecmanovic-vs-holger-rune/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Holger Rune",
+    "win_prob": {
+     "A": 0.297,
+     "B": 0.703
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4806
+    },
+    "games_mean": 24.11,
+    "strongest": {
+     "selection": "Holger Rune to win at least one set",
+     "probability": 0.8437,
+     "confidence": "Medium"
+    },
+    "data_quality": "MEDIUM",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.297,
+      "B": 0.703
+     },
+     "set_score_probs": {
+      "0-2": 0.4806,
+      "1-2": 0.2224,
+      "2-0": 0.1563,
+      "2-1": 0.1407
+     },
+     "games_pmf": {
+      "12": 0.0006,
+      "13": 0.00384,
+      "14": 0.00958,
+      "15": 0.02216,
+      "16": 0.03787,
+      "17": 0.06175,
+      "18": 0.07012,
+      "19": 0.08327,
+      "20": 0.077,
+      "21": 0.05194,
+      "22": 0.08761,
+      "23": 0.07068,
+      "24": 0.00876,
+      "25": 0.03198,
+      "26": 0.05387,
+      "27": 0.02346,
+      "28": 0.02868,
+      "29": 0.03102,
+      "30": 0.03325,
+      "31": 0.04135,
+      "32": 0.04402,
+      "33": 0.02826,
+      "34": 0.01998,
+      "35": 0.0333,
+      "36": 0.02427,
+      "37": 0.00238,
+      "38": 0.00762,
+      "39": 0.01138
+     },
+     "games_diff_pmf": {
+      "-12": 0.00058,
+      "-11": 0.0036,
+      "-10": 0.00913,
+      "-9": 0.02057,
+      "-8": 0.03639,
+      "-7": 0.06561,
+      "-6": 0.08888,
+      "-5": 0.11648,
+      "-4": 0.13302,
+      "-3": 0.10561,
+      "-2": 0.069,
+      "-1": 0.03821,
+      "0": 0.03327,
+      "1": 0.03295,
+      "2": 0.04722,
+      "3": 0.05573,
+      "4": 0.05558,
+      "5": 0.04111,
+      "6": 0.02326,
+      "7": 0.014,
+      "8": 0.00613,
+      "9": 0.00263,
+      "10": 0.00075,
+      "11": 0.00027,
+      "12": 2e-05
+     },
+     "p_tiebreak": 0.4565,
+     "p_decider": 0.3631
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0026
+   }
   },
   {
    "espn_id": "187385",
@@ -726,14 +1574,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-10T12:40:17+00:00",
-    "path": "forecasts/2026-11-11/187385-elina-svitolina-vs-karolina-muchova/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-10T21:49:34+00:00",
+    "path": "forecasts/2026-11-11/187385-elina-svitolina-vs-karolina-muchova/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Karolina Muchova",
     "win_prob": {
-     "A": 0.4725,
-     "B": 0.5275
+     "A": 0.472,
+     "B": 0.528
     },
     "most_likely_set_score": "0-2",
     "final_score": {
@@ -743,12 +1591,12 @@
       "4-6",
       "4-6"
      ],
-     "prob": 0.3307
+     "prob": 0.3296
     },
-    "games_mean": 23.05,
+    "games_mean": 23.07,
     "strongest": {
      "selection": "Over 18.5 games",
-     "probability": 0.7182,
+     "probability": 0.7189,
      "confidence": "Medium"
     },
     "data_quality": "HIGH",
@@ -760,78 +1608,78 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.4725,
-      "B": 0.5275
+      "A": 0.472,
+      "B": 0.528
      },
      "set_score_probs": {
-      "0-2": 0.3307,
-      "2-0": 0.2879,
-      "1-2": 0.1968,
-      "2-1": 0.1846
+      "0-2": 0.3296,
+      "2-0": 0.2863,
+      "1-2": 0.1984,
+      "2-1": 0.1857
      },
      "games_pmf": {
       "12": 0.00152,
-      "13": 0.00724,
-      "14": 0.01899,
-      "15": 0.03658,
-      "16": 0.05738,
-      "17": 0.07814,
-      "18": 0.08197,
-      "19": 0.08002,
-      "20": 0.07347,
-      "21": 0.05216,
-      "22": 0.06484,
-      "23": 0.04442,
-      "24": 0.01757,
-      "25": 0.03607,
-      "26": 0.04196,
-      "27": 0.03696,
-      "28": 0.03955,
-      "29": 0.04226,
-      "30": 0.04031,
-      "31": 0.03958,
-      "32": 0.03476,
-      "33": 0.0224,
-      "34": 0.01674,
-      "35": 0.01828,
-      "36": 0.00927,
-      "37": 0.00208,
-      "38": 0.00317,
-      "39": 0.00231
+      "13": 0.0072,
+      "14": 0.01897,
+      "15": 0.0371,
+      "16": 0.05683,
+      "17": 0.07818,
+      "18": 0.08128,
+      "19": 0.07991,
+      "20": 0.07125,
+      "21": 0.05039,
+      "22": 0.06641,
+      "23": 0.04502,
+      "24": 0.01775,
+      "25": 0.0364,
+      "26": 0.04242,
+      "27": 0.03606,
+      "28": 0.0415,
+      "29": 0.042,
+      "30": 0.0411,
+      "31": 0.03943,
+      "32": 0.03546,
+      "33": 0.02252,
+      "34": 0.01641,
+      "35": 0.01787,
+      "36": 0.00941,
+      "37": 0.00193,
+      "38": 0.00339,
+      "39": 0.00229
      },
      "games_diff_pmf": {
       "-12": 0.00099,
-      "-11": 0.00403,
-      "-10": 0.01121,
-      "-9": 0.02132,
-      "-8": 0.03714,
-      "-7": 0.05911,
-      "-6": 0.07282,
-      "-5": 0.08335,
-      "-4": 0.08458,
-      "-3": 0.06336,
-      "-2": 0.04307,
-      "-1": 0.03229,
-      "0": 0.02956,
-      "1": 0.03116,
-      "2": 0.04108,
-      "3": 0.05887,
-      "4": 0.07769,
-      "5": 0.07455,
-      "6": 0.06464,
-      "7": 0.04939,
-      "8": 0.02992,
-      "9": 0.01778,
-      "10": 0.00827,
-      "11": 0.00329,
+      "-11": 0.00404,
+      "-10": 0.01139,
+      "-9": 0.02129,
+      "-8": 0.03676,
+      "-7": 0.0581,
+      "-6": 0.07194,
+      "-5": 0.08251,
+      "-4": 0.08656,
+      "-3": 0.06355,
+      "-2": 0.04377,
+      "-1": 0.03214,
+      "0": 0.03069,
+      "1": 0.03013,
+      "2": 0.04189,
+      "3": 0.05978,
+      "4": 0.07789,
+      "5": 0.07375,
+      "6": 0.06339,
+      "7": 0.04969,
+      "8": 0.02972,
+      "9": 0.01807,
+      "10": 0.00818,
+      "11": 0.00325,
       "12": 0.00053
      },
-     "p_tiebreak": 0.304,
-     "p_decider": 0.3814
+     "p_tiebreak": 0.3056,
+     "p_decider": 0.384
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0027
+    "cross_check_max_diff": 0.0026
    }
   },
   {
@@ -861,14 +1709,14 @@
    "final_rule": "tb7",
    "result": null,
    "forecast": {
-    "frozen_version": 1,
-    "frozen_at_utc": "2026-11-10T12:40:19+00:00",
-    "path": "forecasts/2026-11-11/187378-aryna-sabalenka-vs-mirra-andreeva/v1.json",
+    "frozen_version": 2,
+    "frozen_at_utc": "2026-11-10T21:49:36+00:00",
+    "path": "forecasts/2026-11-11/187378-aryna-sabalenka-vs-mirra-andreeva/v2.json",
     "model_version": "v1.1",
     "predicted_winner": "Aryna Sabalenka",
     "win_prob": {
-     "A": 0.5782,
-     "B": 0.4218
+     "A": 0.5784,
+     "B": 0.4216
     },
     "most_likely_set_score": "2-0",
     "final_score": {
@@ -878,12 +1726,12 @@
       "6-3",
       "6-4"
      ],
-     "prob": 0.3733
+     "prob": 0.3731
     },
-    "games_mean": 23.12,
+    "games_mean": 23.11,
     "strongest": {
      "selection": "Aryna Sabalenka to win at least one set",
-     "probability": 0.7531,
+     "probability": 0.7529,
      "confidence": "High"
     },
     "data_quality": "HIGH",
@@ -895,78 +1743,78 @@
     "games_projected": 22.0,
     "dist": {
      "win_prob": {
-      "A": 0.5782,
-      "B": 0.4218
+      "A": 0.5784,
+      "B": 0.4216
      },
      "set_score_probs": {
-      "2-0": 0.3733,
-      "0-2": 0.2469,
-      "2-1": 0.2049,
-      "1-2": 0.175
+      "2-0": 0.3731,
+      "0-2": 0.2472,
+      "2-1": 0.2054,
+      "1-2": 0.1744
      },
      "games_pmf": {
-      "12": 0.00142,
-      "13": 0.00716,
-      "14": 0.01806,
-      "15": 0.03638,
-      "16": 0.05723,
-      "17": 0.07765,
-      "18": 0.08079,
-      "19": 0.08194,
-      "20": 0.07149,
-      "21": 0.04967,
-      "22": 0.06713,
-      "23": 0.0463,
-      "24": 0.01668,
-      "25": 0.03503,
-      "26": 0.04197,
-      "27": 0.03596,
-      "28": 0.03998,
-      "29": 0.04037,
-      "30": 0.04018,
-      "31": 0.04031,
-      "32": 0.03619,
-      "33": 0.02344,
-      "34": 0.01688,
-      "35": 0.01963,
-      "36": 0.01006,
-      "37": 0.0018,
-      "38": 0.00387,
-      "39": 0.00243
+      "12": 0.00141,
+      "13": 0.00693,
+      "14": 0.01791,
+      "15": 0.03629,
+      "16": 0.05762,
+      "17": 0.07791,
+      "18": 0.08194,
+      "19": 0.08082,
+      "20": 0.07001,
+      "21": 0.05162,
+      "22": 0.06588,
+      "23": 0.04641,
+      "24": 0.01719,
+      "25": 0.0364,
+      "26": 0.04177,
+      "27": 0.0352,
+      "28": 0.04029,
+      "29": 0.04121,
+      "30": 0.0397,
+      "31": 0.03927,
+      "32": 0.03664,
+      "33": 0.02273,
+      "34": 0.01742,
+      "35": 0.01896,
+      "36": 0.01025,
+      "37": 0.00208,
+      "38": 0.00381,
+      "39": 0.00233
      },
      "games_diff_pmf": {
-      "-12": 0.00037,
-      "-11": 0.00228,
-      "-10": 0.00583,
-      "-9": 0.01348,
-      "-8": 0.02337,
-      "-7": 0.04008,
-      "-6": 0.05365,
-      "-5": 0.06646,
-      "-4": 0.07126,
-      "-3": 0.05687,
-      "-2": 0.0413,
-      "-1": 0.03149,
-      "0": 0.03115,
-      "1": 0.03252,
-      "2": 0.04523,
-      "3": 0.06739,
-      "4": 0.09125,
-      "5": 0.09173,
-      "6": 0.08132,
-      "7": 0.06557,
-      "8": 0.04333,
-      "9": 0.02525,
-      "10": 0.01282,
-      "11": 0.00495,
-      "12": 0.00105
+      "-12": 0.00038,
+      "-11": 0.00224,
+      "-10": 0.00588,
+      "-9": 0.01295,
+      "-8": 0.02362,
+      "-7": 0.04133,
+      "-6": 0.05243,
+      "-5": 0.06719,
+      "-4": 0.0722,
+      "-3": 0.05609,
+      "-2": 0.04145,
+      "-1": 0.03042,
+      "0": 0.02906,
+      "1": 0.03203,
+      "2": 0.0467,
+      "3": 0.06836,
+      "4": 0.0916,
+      "5": 0.09125,
+      "6": 0.08144,
+      "7": 0.06612,
+      "8": 0.04343,
+      "9": 0.02541,
+      "10": 0.01262,
+      "11": 0.00477,
+      "12": 0.00103
      },
-     "p_tiebreak": 0.3169,
+     "p_tiebreak": 0.315,
      "p_decider": 0.3798
     },
     "n_sims": 100000,
     "seed": 20261027,
-    "cross_check_max_diff": 0.0026
+    "cross_check_max_diff": 0.0027
    }
   }
  ]

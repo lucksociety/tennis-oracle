@@ -1,0 +1,713 @@
+{
+ "predicted_winner": "Bianca Andreescu",
+ "win_prob": {
+  "A": 0.8762,
+  "B": 0.1238
+ },
+ "win_prob_exact": {
+  "A": 0.87624,
+  "B": 0.12375999999999998
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.14,
+   "american": "-708"
+  },
+  "B": {
+   "decimal": 8.08,
+   "american": "+708"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.7135,
+  "2-1": 0.1627,
+  "1-2": 0.0637,
+  "0-2": 0.0601
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-2",
+  "6-2"
+ ],
+ "representative_sets_prob": 0.0372,
+ "games": {
+  "mean": 19.82,
+  "median": 18.0,
+  "p10": 14.0,
+  "p90": 29.0,
+  "sd": 5.6,
+  "projected": 18.0,
+  "pmf": {
+   "12": 0.01383,
+   "13": 0.04406,
+   "14": 0.07379,
+   "15": 0.09886,
+   "16": 0.11177,
+   "17": 0.10704,
+   "18": 0.08854,
+   "19": 0.07098,
+   "20": 0.05566,
+   "21": 0.0391,
+   "22": 0.04161,
+   "23": 0.02598,
+   "24": 0.01572,
+   "25": 0.02584,
+   "26": 0.02624,
+   "27": 0.0245,
+   "28": 0.02483,
+   "29": 0.02504,
+   "30": 0.0226,
+   "31": 0.01961,
+   "32": 0.01534,
+   "33": 0.01027,
+   "34": 0.00726,
+   "35": 0.00631,
+   "36": 0.00265,
+   "37": 0.00101,
+   "38": 0.00113,
+   "39": 0.00043
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 6e-05,
+  "-11": 0.00036,
+  "-10": 0.00086,
+  "-9": 0.00256,
+  "-8": 0.00512,
+  "-7": 0.00964,
+  "-6": 0.01378,
+  "-5": 0.01828,
+  "-4": 0.02065,
+  "-3": 0.01739,
+  "-2": 0.01415,
+  "-1": 0.01288,
+  "0": 0.01363,
+  "1": 0.01722,
+  "2": 0.02466,
+  "3": 0.04549,
+  "4": 0.07837,
+  "5": 0.09855,
+  "6": 0.12098,
+  "7": 0.13266,
+  "8": 0.12091,
+  "9": 0.10013,
+  "10": 0.07403,
+  "11": 0.04387,
+  "12": 0.01377
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.5507,
+   "under": 0.4494
+  },
+  {
+   "line": 18.5,
+   "over": 0.4621,
+   "under": 0.5379
+  },
+  {
+   "line": 19.5,
+   "over": 0.3911,
+   "under": 0.6089
+  },
+  {
+   "line": 20.5,
+   "over": 0.3355,
+   "under": 0.6645
+  },
+  {
+   "line": 21.5,
+   "over": 0.2964,
+   "under": 0.7036
+  },
+  {
+   "line": 22.5,
+   "over": 0.2548,
+   "under": 0.7452
+  },
+  {
+   "line": 23.5,
+   "over": 0.2288,
+   "under": 0.7712
+  },
+  {
+   "line": 24.5,
+   "over": 0.2131,
+   "under": 0.7869
+  },
+  {
+   "line": 25.5,
+   "over": 0.1872,
+   "under": 0.8128
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.8534,
+   "B +1.5": 0.1466,
+   "B -1.5": 0.1029,
+   "A +1.5": 0.8972
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.8288,
+   "B +2.5": 0.1712,
+   "B -2.5": 0.0887,
+   "A +2.5": 0.9113
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.7833,
+   "B +3.5": 0.2167,
+   "B -3.5": 0.0713,
+   "A +3.5": 0.9287
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.7049,
+   "B +4.5": 0.2951,
+   "B -4.5": 0.0507,
+   "A +4.5": 0.9493
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.6063,
+   "B +5.5": 0.3937,
+   "B -5.5": 0.0324,
+   "A +5.5": 0.9676
+  }
+ ],
+ "p_tiebreak": 0.1602,
+ "p_a_wins_set": 0.9399,
+ "p_b_wins_set": 0.2865,
+ "p_decider": 0.2264,
+ "expected_breaks": {
+  "total": 7.76,
+  "by_A": 5.21,
+  "by_B": 2.55
+ },
+ "expected_break_points": {
+  "A_creates": 9.96,
+  "B_creates": 6.23
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-2",
+   "6-2"
+  ],
+  "prob": 0.7135
+ },
+ "match": "Bianca Andreescu vs Laura Pigossi",
+ "players": {
+  "A": {
+   "id": "wta:215370",
+   "name": "Bianca Andreescu",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 137.0,
+   "age": 26.3201916495551,
+   "elo": 1824.2,
+   "surface_elo": {
+    "Hard": 1704.7,
+    "Clay": 1862.0,
+    "Grass": 1620.5
+   },
+   "matches_total": 215,
+   "matches_surface": {
+    "Hard": 129,
+    "Clay": 48,
+    "Grass": 38
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    9,
+    1
+   ],
+   "last20": [
+    17,
+    3
+   ],
+   "last52w": [
+    25,
+    12
+   ],
+   "last52w_surface": [
+    12,
+    3
+   ],
+   "career_surface_wl": [
+    32,
+    16
+   ],
+   "games_won_lost_52w": [
+    437,
+    336
+   ],
+   "sets_won_lost_52w": [
+    54,
+    29
+   ],
+   "avg_opp_elo_last20": 1638.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.3172,
+   "return_rating": 0.1467,
+   "form_elo": 99.7,
+   "last_match": "2026-11-10",
+   "last_stats_match": "2026-11-10",
+   "stats_52w": {
+    "first_in": 0.6096,
+    "first_won": 0.6575,
+    "second_won": 0.4953,
+    "serve_pts_won": 0.5942,
+    "hold": 0.7178,
+    "aces_per_svgm": 0.3361,
+    "df_per_svgm": 0.2822,
+    "bp_saved": 0.5641,
+    "ret_pts_won": 0.4592,
+    "ret_1st_won": 0.4022,
+    "ret_2nd_won": 0.5578,
+    "ret_games_won": 0.4211,
+    "bp_conv": 0.4486,
+    "bp_chances_per_retgm": 0.9386,
+    "matches_with_stats": 24
+   },
+   "rank_history": [
+    [
+     "2025-05-06",
+     121.0
+    ],
+    [
+     "2025-06-09",
+     118.0
+    ],
+    [
+     "2025-06-16",
+     148.0
+    ],
+    [
+     "2025-07-27",
+     187.0
+    ],
+    [
+     "2025-09-24",
+     181.0
+    ],
+    [
+     "2025-10-13",
+     170.0
+    ],
+    [
+     "2025-10-20",
+     172.0
+    ],
+    [
+     "2026-02-23",
+     164.0
+    ],
+    [
+     "2026-03-04",
+     165.0
+    ],
+    [
+     "2026-03-30",
+     140.0
+    ],
+    [
+     "2026-04-10",
+     130.0
+    ],
+    [
+     "2026-05-05",
+     137.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:206007",
+   "name": "Laura Pigossi",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 193.0,
+   "age": 32.27453798767967,
+   "elo": 1369.6,
+   "surface_elo": {
+    "Hard": 1318.7,
+    "Clay": 1434.0,
+    "Grass": 1331.1
+   },
+   "matches_total": 63,
+   "matches_surface": {
+    "Hard": 24,
+    "Clay": 37,
+    "Grass": 2
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    1,
+    9
+   ],
+   "last20": [
+    4,
+    16
+   ],
+   "last52w": [
+    1,
+    9
+   ],
+   "last52w_surface": [
+    1,
+    6
+   ],
+   "career_surface_wl": [
+    15,
+    22
+   ],
+   "games_won_lost_52w": [
+    87,
+    133
+   ],
+   "sets_won_lost_52w": [
+    6,
+    18
+   ],
+   "avg_opp_elo_last20": 1605.0,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.0712,
+   "return_rating": 0.0227,
+   "form_elo": -48.1,
+   "last_match": "2026-11-09",
+   "last_stats_match": "2026-11-09",
+   "stats_52w": {
+    "first_in": 0.6385,
+    "first_won": 0.5398,
+    "second_won": 0.4,
+    "serve_pts_won": 0.4892,
+    "hold": 0.4,
+    "aces_per_svgm": 0.1579,
+    "df_per_svgm": 0.3895,
+    "bp_saved": 0.3804,
+    "ret_pts_won": 0.4458,
+    "ret_1st_won": 0.4061,
+    "ret_2nd_won": 0.534,
+    "ret_games_won": 0.3711,
+    "bp_conv": 0.439,
+    "bp_chances_per_retgm": 0.8454,
+    "matches_with_stats": 9
+   },
+   "rank_history": [
+    [
+     "2023-10-16",
+     120.0
+    ],
+    [
+     "2023-11-10",
+     134.0
+    ],
+    [
+     "2024-01-29",
+     114.0
+    ],
+    [
+     "2024-04-01",
+     119.0
+    ],
+    [
+     "2024-04-12",
+     125.0
+    ],
+    [
+     "2024-05-27",
+     119.0
+    ],
+    [
+     "2024-07-29",
+     110.0
+    ],
+    [
+     "2024-11-15",
+     129.0
+    ],
+    [
+     "2024-11-25",
+     131.0
+    ],
+    [
+     "2025-03-31",
+     180.0
+    ],
+    [
+     "2025-04-10",
+     182.0
+    ],
+    [
+     "2025-09-08",
+     193.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "DIRECTV Open Presentado por Compesar",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-10",
+ "forecast_date": "2026-11-11",
+ "performance_revision": "20b86a421fdf8ac5",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Laura Pigossi: limited recent/surface sample (10 matches 52w, 37 career on Clay, 9 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 341.7,
+  "components_elo": {
+   "surface_elo": 428.0,
+   "overall_elo": 454.6,
+   "serve_return": 522.2,
+   "form": 147.8
+  },
+  "weighted_contributions": {
+   "surface_elo": 52.3,
+   "overall_elo": 107.4,
+   "serve_return": 182.2,
+   "form": -0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.8773,
+  "serve_return_implied_spw": {
+   "A": 0.6108,
+   "B": 0.4846
+  },
+  "point_probs": {
+   "A_serve": 0.616,
+   "B_serve": 0.4791
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6160427947003475,
+   "B_serve": 0.4791297667007254
+  },
+  "hold_probs": {
+   "A": 0.7682,
+   "B": 0.448
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.8762,
+   0.8774
+  ],
+  "p_tb": [
+   0.1602,
+   0.1621
+  ],
+  "p_decider": [
+   0.2264,
+   0.2274
+  ],
+  "games_mean": [
+   19.817,
+   19.832
+  ],
+  "exp_breaks": [
+   7.758,
+   7.752
+  ],
+  "set_scores": {
+   "0-2": [
+    0.0601,
+    0.0593
+   ],
+   "1-2": [
+    0.0637,
+    0.0632
+   ],
+   "2-0": [
+    0.7135,
+    0.7133
+   ],
+   "2-1": [
+    0.1627,
+    0.1641
+   ]
+  },
+  "mc_se_p_a": 0.001,
+  "max_abs_diff_probs": 0.0019
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Bianca Andreescu",
+   "elo_points": 182.2,
+   "raw_diff": 522.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": 107.4,
+   "raw_diff": 454.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Bianca Andreescu",
+   "elo_points": 52.3,
+   "raw_diff": 428.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4953,
+   "B": 0.4,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.4592,
+   "B": 0.4458,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.616,
+   "B": 0.4791,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Bianca Andreescu to win",
+  "probability": 0.8762,
+  "fair_odds": {
+   "decimal": 1.14,
+   "american": "-708"
+  },
+  "confidence": "Medium",
+  "main_risk": "Upset through serve-dominant variance: P(at least one tiebreak) = 16%; underdog wins 12% of simulations. Data quality MEDIUM: Laura Pigossi: limited recent/surface sample (10 matches 52w, 37 career on Clay, 9 with stats)",
+  "candidates": [
+   {
+    "selection": "Bianca Andreescu to win at least one set",
+    "probability": 0.9399,
+    "fair_decimal": 1.06
+   },
+   {
+    "selection": "Bianca Andreescu to win",
+    "probability": 0.8762,
+    "fair_decimal": 1.14
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.8398,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Bianca Andreescu -2.5 games",
+    "probability": 0.8288,
+    "fair_decimal": 1.21
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7869,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7736,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.7452,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "Exact sets Bianca Andreescu 2-0 Laura Pigossi",
+    "probability": 0.7135,
+    "fair_decimal": 1.4
+   },
+   {
+    "selection": "Bianca Andreescu -4.5 games",
+    "probability": 0.7049,
+    "fair_decimal": 1.42
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.6645,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.5379,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.4621,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.3355,
+    "fair_decimal": 2.98
+   },
+   {
+    "selection": "Laura Pigossi +4.5 games",
+    "probability": 0.2951,
+    "fair_decimal": 3.39
+   },
+   {
+    "selection": "Laura Pigossi to win at least one set",
+    "probability": 0.2865,
+    "fair_decimal": 3.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-10",
+ "freeze": {
+  "frozen_at_utc": "2026-11-10T21:49:29+00:00",
+  "version": 1,
+  "input_hash": "d4f8b5fb525e245a",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186765",
+  "scheduled_start_utc": "2026-11-11T18:00Z"
+ }
+}

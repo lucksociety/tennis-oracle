@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
- "n": 45,
- "passed": 45,
+ "n": 46,
+ "passed": 46,
  "results": [
   {
    "match": "Holger Rune vs Zizou Bergs",
@@ -812,6 +812,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-10/187375-coco-gauff-vs-linda-noskova/v3.json"
+  },
+  {
+   "match": "Coco Gauff vs Linda Noskova",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0012,
+   "reproduction": {
+    "frozen_p_a": 0.6158,
+    "rerun_p_a": 0.6158,
+    "frozen_games_mean": 23.1,
+    "rerun_games_mean": 23.1,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-10/187375-coco-gauff-vs-linda-noskova/v4.json"
   }
  ]
 }
