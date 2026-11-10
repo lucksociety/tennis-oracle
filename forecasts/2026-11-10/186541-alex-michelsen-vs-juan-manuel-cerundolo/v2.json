@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Alex Michelsen",
+ "win_prob": {
+  "A": 0.7763,
+  "B": 0.2237
+ },
+ "win_prob_exact": {
+  "A": 0.7763,
+  "B": 0.2237
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.29,
+   "american": "-347"
+  },
+  "B": {
+   "decimal": 4.47,
+   "american": "+347"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.5695,
+  "2-1": 0.2068,
+  "0-2": 0.1142,
+  "1-2": 0.1095
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0347,
+ "games": {
+  "mean": 22.54,
+  "median": 21.0,
+  "p10": 16.0,
+  "p90": 32.0,
+  "sd": 6.1,
+  "projected": 21.0,
+  "pmf": {
+   "12": 0.00219,
+   "13": 0.01022,
+   "14": 0.02313,
+   "15": 0.04605,
+   "16": 0.06494,
+   "17": 0.08487,
+   "18": 0.08664,
+   "19": 0.08375,
+   "20": 0.07546,
+   "21": 0.05141,
+   "22": 0.06992,
+   "23": 0.05227,
+   "24": 0.01181,
+   "25": 0.03045,
+   "26": 0.03918,
+   "27": 0.02597,
+   "28": 0.0306,
+   "29": 0.03238,
+   "30": 0.03141,
+   "31": 0.03396,
+   "32": 0.03356,
+   "33": 0.02177,
+   "34": 0.01528,
+   "35": 0.02046,
+   "36": 0.01225,
+   "37": 0.00173,
+   "38": 0.00448,
+   "39": 0.00386
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 1e-05,
+  "-11": 0.00032,
+  "-10": 0.00107,
+  "-9": 0.00295,
+  "-8": 0.0058,
+  "-7": 0.0128,
+  "-6": 0.02046,
+  "-5": 0.03216,
+  "-4": 0.04107,
+  "-3": 0.03883,
+  "-2": 0.02993,
+  "-1": 0.0235,
+  "0": 0.02623,
+  "1": 0.02874,
+  "2": 0.0502,
+  "3": 0.08493,
+  "4": 0.12068,
+  "5": 0.12205,
+  "6": 0.11387,
+  "7": 0.09804,
+  "8": 0.06696,
+  "9": 0.04489,
+  "10": 0.02239,
+  "11": 0.00994,
+  "12": 0.00218
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.7686,
+   "under": 0.2314
+  },
+  {
+   "line": 18.5,
+   "over": 0.682,
+   "under": 0.318
+  },
+  {
+   "line": 19.5,
+   "over": 0.5982,
+   "under": 0.4018
+  },
+  {
+   "line": 20.5,
+   "over": 0.5228,
+   "under": 0.4772
+  },
+  {
+   "line": 21.5,
+   "over": 0.4713,
+   "under": 0.5287
+  },
+  {
+   "line": 22.5,
+   "over": 0.4014,
+   "under": 0.5986
+  },
+  {
+   "line": 23.5,
+   "over": 0.3492,
+   "under": 0.6508
+  },
+  {
+   "line": 24.5,
+   "over": 0.3373,
+   "under": 0.6627
+  },
+  {
+   "line": 25.5,
+   "over": 0.3069,
+   "under": 0.6931
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.7361,
+   "B +1.5": 0.2639,
+   "B -1.5": 0.1854,
+   "A +1.5": 0.8146
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.6859,
+   "B +2.5": 0.3141,
+   "B -2.5": 0.1555,
+   "A +2.5": 0.8445
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.601,
+   "B +3.5": 0.399,
+   "B -3.5": 0.1166,
+   "A +3.5": 0.8834
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.4803,
+   "B +4.5": 0.5197,
+   "B -4.5": 0.0756,
+   "A +4.5": 0.9244
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.3583,
+   "B +5.5": 0.6417,
+   "B -5.5": 0.0434,
+   "A +5.5": 0.9566
+  }
+ ],
+ "p_tiebreak": 0.3329,
+ "p_a_wins_set": 0.8858,
+ "p_b_wins_set": 0.4305,
+ "p_decider": 0.3163,
+ "expected_breaks": {
+  "total": 4.92,
+  "by_A": 3.24,
+  "by_B": 1.67
+ },
+ "expected_break_points": {
+  "A_creates": 7.61,
+  "B_creates": 4.78
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.5695
+ },
+ "match": "Alex Michelsen vs Juan Manuel Cerundolo",
+ "players": {
+  "A": {
+   "id": "atp:210506",
+   "name": "Alex Michelsen",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 42.0,
+   "age": 22.162696783025325,
+   "elo": 1882.5,
+   "surface_elo": {
+    "Hard": 1876.0,
+    "Clay": 1599.8,
+    "Grass": 1592.0
+   },
+   "matches_total": 182,
+   "matches_surface": {
+    "Hard": 128,
+    "Clay": 28,
+    "Grass": 26
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    32,
+    23
+   ],
+   "last52w_surface": [
+    26,
+    16
+   ],
+   "career_surface_wl": [
+    70,
+    58
+   ],
+   "games_won_lost_52w": [
+    746,
+    686
+   ],
+   "sets_won_lost_52w": [
+    84,
+    60
+   ],
+   "avg_opp_elo_last20": 1870.0,
+   "vs_top_opp_52w": [
+    4,
+    13
+   ],
+   "serve_rating": 0.2436,
+   "return_rating": 0.3456,
+   "form_elo": 69.0,
+   "last_match": "2026-11-09",
+   "last_stats_match": "2026-11-09",
+   "stats_52w": {
+    "first_in": 0.6528,
+    "first_won": 0.722,
+    "second_won": 0.5219,
+    "serve_pts_won": 0.6525,
+    "hold": 0.8266,
+    "aces_per_svgm": 0.4982,
+    "df_per_svgm": 0.214,
+    "bp_saved": 0.6412,
+    "ret_pts_won": 0.3717,
+    "ret_1st_won": 0.2828,
+    "ret_2nd_won": 0.5172,
+    "ret_games_won": 0.2108,
+    "bp_conv": 0.3767,
+    "bp_chances_per_retgm": 0.5597,
+    "matches_with_stats": 43
+   },
+   "rank_history": [
+    [
+     "2025-10-27",
+     35.0
+    ],
+    [
+     "2026-01-04",
+     37.0
+    ],
+    [
+     "2026-01-19",
+     38.0
+    ],
+    [
+     "2026-02-09",
+     41.0
+    ],
+    [
+     "2026-03-04",
+     44.0
+    ],
+    [
+     "2026-03-18",
+     40.0
+    ],
+    [
+     "2026-03-30",
+     35.0
+    ],
+    [
+     "2026-04-13",
+     36.0
+    ],
+    [
+     "2026-04-22",
+     37.0
+    ],
+    [
+     "2026-05-06",
+     42.0
+    ],
+    [
+     "2026-05-17",
+     41.0
+    ],
+    [
+     "2026-05-25",
+     42.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:207678",
+   "name": "Juan Manuel Cerundolo",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 56.0,
+   "age": 24.962696783025326,
+   "elo": 1750.2,
+   "surface_elo": {
+    "Hard": 1682.8,
+    "Clay": 1688.4,
+    "Grass": 1520.8
+   },
+   "matches_total": 105,
+   "matches_surface": {
+    "Hard": 41,
+    "Clay": 59,
+    "Grass": 5
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    10,
+    10
+   ],
+   "last52w": [
+    24,
+    24
+   ],
+   "last52w_surface": [
+    12,
+    11
+   ],
+   "career_surface_wl": [
+    19,
+    22
+   ],
+   "games_won_lost_52w": [
+    626,
+    651
+   ],
+   "sets_won_lost_52w": [
+    61,
+    65
+   ],
+   "avg_opp_elo_last20": 1753.2,
+   "vs_top_opp_52w": [
+    2,
+    6
+   ],
+   "serve_rating": 0.0104,
+   "return_rating": 0.0478,
+   "form_elo": 21.6,
+   "last_match": "2026-11-08",
+   "last_stats_match": "2026-11-08",
+   "stats_52w": {
+    "first_in": 0.59,
+    "first_won": 0.6853,
+    "second_won": 0.5194,
+    "serve_pts_won": 0.6173,
+    "hold": 0.7784,
+    "aces_per_svgm": 0.4011,
+    "df_per_svgm": 0.2427,
+    "bp_saved": 0.5758,
+    "ret_pts_won": 0.3576,
+    "ret_1st_won": 0.2808,
+    "ret_2nd_won": 0.4959,
+    "ret_games_won": 0.1802,
+    "bp_conv": 0.3898,
+    "bp_chances_per_retgm": 0.4621,
+    "matches_with_stats": 30
+   },
+   "rank_history": [
+    [
+     "2025-05-26",
+     109.0
+    ],
+    [
+     "2025-09-17",
+     72.0
+    ],
+    [
+     "2025-10-01",
+     87.0
+    ],
+    [
+     "2026-02-09",
+     80.0
+    ],
+    [
+     "2026-02-16",
+     78.0
+    ],
+    [
+     "2026-02-23",
+     70.0
+    ],
+    [
+     "2026-03-30",
+     69.0
+    ],
+    [
+     "2026-04-05",
+     71.0
+    ],
+    [
+     "2026-04-13",
+     69.0
+    ],
+    [
+     "2026-04-22",
+     67.0
+    ],
+    [
+     "2026-05-06",
+     72.0
+    ],
+    [
+     "2026-05-25",
+     56.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-09",
+ "forecast_date": "2026-11-10",
+ "performance_revision": "c6e6636a0281a629",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 219.8,
+  "components_elo": {
+   "surface_elo": 193.3,
+   "overall_elo": 132.3,
+   "serve_return": 473.0,
+   "form": 47.4
+  },
+  "weighted_contributions": {
+   "surface_elo": 23.6,
+   "overall_elo": 31.3,
+   "serve_return": 165.0,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.78,
+  "serve_return_implied_spw": {
+   "A": 0.6915,
+   "B": 0.5686
+  },
+  "point_probs": {
+   "A_serve": 0.676,
+   "B_serve": 0.5862
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6759799550782661,
+   "B_serve": 0.5861549903238602
+  },
+  "hold_probs": {
+   "A": 0.8695,
+   "B": 0.7061
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.7763,
+   0.7788
+  ],
+  "p_tb": [
+   0.3329,
+   0.3325
+  ],
+  "p_decider": [
+   0.3163,
+   0.3174
+  ],
+  "games_mean": [
+   22.545,
+   22.561
+  ],
+  "exp_breaks": [
+   4.917,
+   4.917
+  ],
+  "set_scores": {
+   "0-2": [
+    0.1142,
+    0.1124
+   ],
+   "1-2": [
+    0.1095,
+    0.1088
+   ],
+   "2-0": [
+    0.5695,
+    0.5703
+   ],
+   "2-1": [
+    0.2068,
+    0.2086
+   ]
+  },
+  "mc_se_p_a": 0.0013,
+  "max_abs_diff_probs": 0.0025
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alex Michelsen",
+   "elo_points": 165.0,
+   "raw_diff": 473.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alex Michelsen",
+   "elo_points": 31.3,
+   "raw_diff": 132.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alex Michelsen",
+   "elo_points": 23.6,
+   "raw_diff": 193.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5219,
+   "B": 0.5194,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3717,
+   "B": 0.3576,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.676,
+   "B": 0.5862,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alex Michelsen to win at least one set",
+  "probability": 0.8858,
+  "fair_odds": {
+   "decimal": 1.13,
+   "american": "-776"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Alex Michelsen to win at least one set",
+    "probability": 0.8858,
+    "fair_decimal": 1.13
+   },
+   {
+    "selection": "Alex Michelsen to win",
+    "probability": 0.7763,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "Alex Michelsen -2.5 games",
+    "probability": 0.6859,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6837,
+    "fair_decimal": 1.46
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.682,
+    "fair_decimal": 1.47
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6671,
+    "fair_decimal": 1.5
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6627,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5986,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Exact sets Alex Michelsen 2-0 Juan Manuel Cerundolo",
+    "probability": 0.5695,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5228,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Juan Manuel Cerundolo +4.5 games",
+    "probability": 0.5197,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Alex Michelsen -4.5 games",
+    "probability": 0.4803,
+    "fair_decimal": 2.08
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4772,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Juan Manuel Cerundolo to win at least one set",
+    "probability": 0.4305,
+    "fair_decimal": 2.32
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4014,
+    "fair_decimal": 2.49
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-09",
+ "freeze": {
+  "frozen_at_utc": "2026-11-10T02:45:44+00:00",
+  "version": 2,
+  "input_hash": "7902ffd605095a1c",
+  "reason": "performance inputs or format refreshed (results through 2026-11-09)",
+  "pre_match": true,
+  "espn_id": "186541",
+  "scheduled_start_utc": "2026-11-10T12:00Z"
+ }
+}

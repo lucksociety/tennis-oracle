@@ -1,0 +1,654 @@
+{
+ "predicted_winner": "Andrea Lazaro Garcia",
+ "win_prob": {
+  "A": 0.1695,
+  "B": 0.8305
+ },
+ "win_prob_exact": {
+  "A": 0.16948,
+  "B": 0.83052
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 5.9,
+   "american": "+490"
+  },
+  "B": {
+   "decimal": 1.2,
+   "american": "-490"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.6477,
+  "1-2": 0.1829,
+  "2-0": 0.0858,
+  "2-1": 0.0837
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "2-6",
+  "2-6"
+ ],
+ "representative_sets_prob": 0.032,
+ "games": {
+  "mean": 20.57,
+  "median": 19.0,
+  "p10": 14.0,
+  "p90": 30.0,
+  "sd": 5.78,
+  "projected": 19.0,
+  "pmf": {
+   "12": 0.01037,
+   "13": 0.03312,
+   "14": 0.05873,
+   "15": 0.08396,
+   "16": 0.10179,
+   "17": 0.0999,
+   "18": 0.08769,
+   "19": 0.07481,
+   "20": 0.0599,
+   "21": 0.04248,
+   "22": 0.04543,
+   "23": 0.02923,
+   "24": 0.01809,
+   "25": 0.02842,
+   "26": 0.03088,
+   "27": 0.02918,
+   "28": 0.0303,
+   "29": 0.02983,
+   "30": 0.02712,
+   "31": 0.02329,
+   "32": 0.01978,
+   "33": 0.01192,
+   "34": 0.00866,
+   "35": 0.00833,
+   "36": 0.00351,
+   "37": 0.00117,
+   "38": 0.00152,
+   "39": 0.00059
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.01027,
+  "-11": 0.03268,
+  "-10": 0.05788,
+  "-9": 0.08316,
+  "-8": 0.1088,
+  "-7": 0.12185,
+  "-6": 0.11992,
+  "-5": 0.10343,
+  "-4": 0.08325,
+  "-3": 0.05071,
+  "-2": 0.03069,
+  "-1": 0.02058,
+  "0": 0.01728,
+  "1": 0.01659,
+  "2": 0.01796,
+  "3": 0.02364,
+  "4": 0.02771,
+  "5": 0.02467,
+  "6": 0.0202,
+  "7": 0.01419,
+  "8": 0.00784,
+  "9": 0.00412,
+  "10": 0.00187,
+  "11": 0.00061,
+  "12": 0.0001
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.6121,
+   "under": 0.3879
+  },
+  {
+   "line": 18.5,
+   "over": 0.5244,
+   "under": 0.4756
+  },
+  {
+   "line": 19.5,
+   "over": 0.4496,
+   "under": 0.5504
+  },
+  {
+   "line": 20.5,
+   "over": 0.3897,
+   "under": 0.6103
+  },
+  {
+   "line": 21.5,
+   "over": 0.3473,
+   "under": 0.6527
+  },
+  {
+   "line": 22.5,
+   "over": 0.3018,
+   "under": 0.6982
+  },
+  {
+   "line": 23.5,
+   "over": 0.2726,
+   "under": 0.7274
+  },
+  {
+   "line": 24.5,
+   "over": 0.2545,
+   "under": 0.7455
+  },
+  {
+   "line": 25.5,
+   "over": 0.2261,
+   "under": 0.7739
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.1429,
+   "B +1.5": 0.8571,
+   "B -1.5": 0.8026,
+   "A +1.5": 0.1974
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.125,
+   "B +2.5": 0.875,
+   "B -2.5": 0.772,
+   "A +2.5": 0.228
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.1013,
+   "B +3.5": 0.8987,
+   "B -3.5": 0.7212,
+   "A +3.5": 0.2788
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0736,
+   "B +4.5": 0.9264,
+   "B -4.5": 0.638,
+   "A +4.5": 0.362
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0489,
+   "B +5.5": 0.9511,
+   "B -5.5": 0.5346,
+   "A +5.5": 0.4654
+  }
+ ],
+ "p_tiebreak": 0.1842,
+ "p_a_wins_set": 0.3523,
+ "p_b_wins_set": 0.9142,
+ "p_decider": 0.2665,
+ "expected_breaks": {
+  "total": 8.11,
+  "by_A": 2.92,
+  "by_B": 5.19
+ },
+ "expected_break_points": {
+  "A_creates": 6.91,
+  "B_creates": 10.08
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "2-6",
+   "2-6"
+  ],
+  "prob": 0.6477
+ },
+ "match": "Katrina Scott vs Andrea Lazaro Garcia",
+ "players": {
+  "A": {
+   "id": "wta:221512",
+   "name": "Katrina Scott",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 565.0,
+   "age": 22.332032854209448,
+   "elo": 1352.8,
+   "surface_elo": {
+    "Hard": 1401.6,
+    "Clay": 1371.3,
+    "Grass": 1451.0
+   },
+   "matches_total": 18,
+   "matches_surface": {
+    "Hard": 14,
+    "Clay": 3,
+    "Grass": 1
+   },
+   "last5": [
+    1,
+    4
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    4,
+    14
+   ],
+   "last52w": [
+    3,
+    8
+   ],
+   "last52w_surface": [
+    0,
+    2
+   ],
+   "career_surface_wl": [
+    0,
+    3
+   ],
+   "games_won_lost_52w": [
+    93,
+    121
+   ],
+   "sets_won_lost_52w": [
+    7,
+    16
+   ],
+   "avg_opp_elo_last20": 1573.4,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": -0.1001,
+   "return_rating": -0.1258,
+   "form_elo": -32.7,
+   "last_match": "2026-11-08",
+   "last_stats_match": "2026-11-03",
+   "stats_52w": {
+    "first_in": 0.6518,
+    "first_won": 0.5881,
+    "second_won": 0.4525,
+    "serve_pts_won": 0.5409,
+    "hold": 0.5972,
+    "aces_per_svgm": 0.3056,
+    "df_per_svgm": 0.2917,
+    "bp_saved": 0.4528,
+    "ret_pts_won": 0.3962,
+    "ret_1st_won": 0.3361,
+    "ret_2nd_won": 0.5309,
+    "ret_games_won": 0.2597,
+    "bp_conv": 0.4167,
+    "bp_chances_per_retgm": 0.6234,
+    "matches_with_stats": 8
+   },
+   "rank_history": [
+    [
+     "2020-08-31",
+     637.0
+    ],
+    [
+     "2021-03-22",
+     443.0
+    ],
+    [
+     "2021-10-06",
+     439.0
+    ],
+    [
+     "2023-04-03",
+     161.0
+    ],
+    [
+     "2024-08-19",
+     299.0
+    ],
+    [
+     "2025-08-17",
+     565.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:210622",
+   "name": "Andrea Lazaro Garcia",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 214.0,
+   "age": 31.93347022587269,
+   "elo": 1695.8,
+   "surface_elo": {
+    "Hard": 1638.7,
+    "Clay": 1698.1,
+    "Grass": 1495.8
+   },
+   "matches_total": 26,
+   "matches_surface": {
+    "Hard": 11,
+    "Clay": 13,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    10,
+    6
+   ],
+   "last52w_surface": [
+    5,
+    2
+   ],
+   "career_surface_wl": [
+    9,
+    4
+   ],
+   "games_won_lost_52w": [
+    184,
+    169
+   ],
+   "sets_won_lost_52w": [
+    22,
+    15
+   ],
+   "avg_opp_elo_last20": 1570.8,
+   "vs_top_opp_52w": [
+    0,
+    0
+   ],
+   "serve_rating": 0.1276,
+   "return_rating": 0.0904,
+   "form_elo": 37.5,
+   "last_match": "2026-10-15",
+   "last_stats_match": "2026-10-15",
+   "stats_52w": {
+    "first_in": 0.639,
+    "first_won": 0.6025,
+    "second_won": 0.4795,
+    "serve_pts_won": 0.5581,
+    "hold": 0.6075,
+    "aces_per_svgm": 0.0561,
+    "df_per_svgm": 0.5327,
+    "bp_saved": 0.5922,
+    "ret_pts_won": 0.4587,
+    "ret_1st_won": 0.3962,
+    "ret_2nd_won": 0.5734,
+    "ret_games_won": 0.4486,
+    "bp_conv": 0.4848,
+    "bp_chances_per_retgm": 0.9252,
+    "matches_with_stats": 12
+   },
+   "rank_history": [
+    [
+     "2021-05-24",
+     279.0
+    ],
+    [
+     "2025-02-24",
+     210.0
+    ],
+    [
+     "2025-09-22",
+     214.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Clay",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "DIRECTV Open Presentado por Compesar",
+ "round": "Round 1",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-09",
+ "forecast_date": "2026-11-10",
+ "performance_revision": "3341e4fbe0077c06",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Katrina Scott: limited recent/surface sample (11 matches 52w, 3 career on Clay, 8 with stats)",
+  "Andrea Lazaro Garcia: limited recent/surface sample (16 matches 52w, 13 career on Clay, 12 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -275.3,
+  "components_elo": {
+   "surface_elo": -326.8,
+   "overall_elo": -343.0,
+   "serve_return": -442.5,
+   "form": -70.3
+  },
+  "weighted_contributions": {
+   "surface_elo": -39.9,
+   "overall_elo": -81.0,
+   "serve_return": -154.4,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.1701,
+  "serve_return_implied_spw": {
+   "A": 0.4904,
+   "B": 0.6001
+  },
+  "point_probs": {
+   "A_serve": 0.4892,
+   "B_serve": 0.6013
+  },
+  "point_probs_exact": {
+   "A_serve": 0.4891885835064153,
+   "B_serve": 0.6012672838045408
+  },
+  "hold_probs": {
+   "A": 0.473,
+   "B": 0.7384
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.1695,
+   0.1711
+  ],
+  "p_tb": [
+   0.1842,
+   0.1853
+  ],
+  "p_decider": [
+   0.2665,
+   0.2681
+  ],
+  "games_mean": [
+   20.572,
+   20.571
+  ],
+  "exp_breaks": [
+   8.112,
+   8.102
+  ],
+  "set_scores": {
+   "0-2": [
+    0.6477,
+    0.6454
+   ],
+   "1-2": [
+    0.1829,
+    0.1835
+   ],
+   "2-0": [
+    0.0858,
+    0.0865
+   ],
+   "2-1": [
+    0.0837,
+    0.0846
+   ]
+  },
+  "mc_se_p_a": 0.0012,
+  "max_abs_diff_probs": 0.0023
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Andrea Lazaro Garcia",
+   "elo_points": -154.4,
+   "raw_diff": -442.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Andrea Lazaro Garcia",
+   "elo_points": -81.0,
+   "raw_diff": -343.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Andrea Lazaro Garcia",
+   "elo_points": -39.9,
+   "raw_diff": -326.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.4525,
+   "B": 0.4795,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3962,
+   "B": 0.4587,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.4892,
+   "B": 0.6013,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Andrea Lazaro Garcia to win at least one set",
+  "probability": 0.9142,
+  "fair_odds": {
+   "decimal": 1.09,
+   "american": "-1066"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Katrina Scott: limited recent/surface sample (11 matches 52w, 3 career on Clay, 8 with stats); Andrea Lazaro Garcia: limited recent/surface sample (16 matches 52w, 13 career on Clay, 12 with stats)",
+  "candidates": [
+   {
+    "selection": "Andrea Lazaro Garcia to win at least one set",
+    "probability": 0.9142,
+    "fair_decimal": 1.09
+   },
+   {
+    "selection": "Andrea Lazaro Garcia to win",
+    "probability": 0.8305,
+    "fair_decimal": 1.2
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.8158,
+    "fair_decimal": 1.23
+   },
+   {
+    "selection": "Andrea Lazaro Garcia -2.5 games",
+    "probability": 0.772,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.7455,
+    "fair_decimal": 1.34
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.7335,
+    "fair_decimal": 1.36
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.6982,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Exact sets Katrina Scott 0-2 Andrea Lazaro Garcia",
+    "probability": 0.6477,
+    "fair_decimal": 1.54
+   },
+   {
+    "selection": "Andrea Lazaro Garcia -4.5 games",
+    "probability": 0.638,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.6103,
+    "fair_decimal": 1.64
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.5244,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Under 18.5 games",
+    "probability": 0.4756,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.3897,
+    "fair_decimal": 2.57
+   },
+   {
+    "selection": "Katrina Scott +4.5 games",
+    "probability": 0.362,
+    "fair_decimal": 2.76
+   },
+   {
+    "selection": "Katrina Scott to win at least one set",
+    "probability": 0.3523,
+    "fair_decimal": 2.84
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-09",
+ "freeze": {
+  "frozen_at_utc": "2026-11-10T02:46:01+00:00",
+  "version": 3,
+  "input_hash": "0e7c2e8abc59ecd2",
+  "reason": "performance inputs or format refreshed (results through 2026-11-09)",
+  "pre_match": true,
+  "espn_id": "186748",
+  "scheduled_start_utc": "2026-11-10T16:30Z"
+ }
+}

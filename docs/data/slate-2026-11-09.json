@@ -1,7 +1,7 @@
 {
  "date": "2026-11-09",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-09T18:50:14+00:00",
+ "generated_at_utc": "2026-11-10T02:45:38+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -1197,8 +1197,8 @@
    "round": "Round 1",
    "court": "Center Court",
    "start_utc": "2026-11-09T17:05Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tomas Martin Etcheverry",
@@ -1214,7 +1214,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-09T06:27:10+00:00",
@@ -1335,8 +1351,8 @@
    "round": "Round 1",
    "court": "Court 1",
    "start_utc": "2026-11-09T17:10Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Maria Herazo Gonzalez",
@@ -1352,7 +1368,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      1,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-09T06:27:08+00:00",
@@ -1473,8 +1501,8 @@
    "round": "Round 1",
    "court": "Court 2",
    "start_utc": "2026-11-09T17:30Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Elizabeth Mandlik",
@@ -1490,7 +1518,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-09T06:27:07+00:00",
@@ -1608,8 +1652,8 @@
    "round": "Round 1",
    "court": "Main Court",
    "start_utc": "2026-11-09T18:55Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Sofia Costoulas",
@@ -1617,7 +1661,7 @@
     },
     {
      "name": "Antonella Esquivel Useche",
-     "id": null
+     "id": "wta:espn19366"
     }
    ],
    "surface": "Clay",
@@ -1625,147 +1669,20 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
-  {
-   "espn_id": "186522",
-   "tour": "atp",
-   "tournament": "Bybit Stockholm Open",
-   "venue": "Stockholm, Sweden",
-   "round": "Round 1",
-   "court": "Center Court",
-   "start_utc": "2026-11-09T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Leo Borg",
-     "id": "atp:209863"
-    },
-    {
-     "name": "Toby Samuel",
-     "id": "atp:210389"
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "venue-history",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": {
-    "frozen_version": 3,
-    "frozen_at_utc": "2026-11-09T18:50:05+00:00",
-    "path": "forecasts/2026-11-09/186522-leo-borg-vs-toby-samuel/v3.json",
-    "model_version": "v1.1",
-    "predicted_winner": "Toby Samuel",
-    "win_prob": {
-     "A": 0.3017,
-     "B": 0.6983
-    },
-    "most_likely_set_score": "0-2",
-    "final_score": {
-     "A_sets": 0,
-     "B_sets": 2,
-     "sets": [
-      "3-6",
-      "4-6"
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      0
      ],
-     "prob": 0.4793
-    },
-    "games_mean": 23.57,
-    "strongest": {
-     "selection": "Toby Samuel to win at least one set",
-     "probability": 0.8402,
-     "confidence": "Low"
-    },
-    "data_quality": "LOW",
-    "recommendation_quality": {
-     "eligible": false,
-     "reasons": [
-      "insufficient player history",
-      "Leo Borg: serve/return statistics missing, future-dated or older than 60 days"
-     ],
-     "policy": "current-performance-v1"
-    },
-    "games_projected": 22.0,
-    "dist": {
-     "win_prob": {
-      "A": 0.3017,
-      "B": 0.6983
-     },
-     "set_score_probs": {
-      "0-2": 0.4793,
-      "1-2": 0.219,
-      "2-0": 0.1598,
-      "2-1": 0.1419
-     },
-     "games_pmf": {
-      "12": 0.00105,
-      "13": 0.00529,
-      "14": 0.01356,
-      "15": 0.02974,
-      "16": 0.04747,
-      "17": 0.07079,
-      "18": 0.07662,
-      "19": 0.08279,
-      "20": 0.0763,
-      "21": 0.05173,
-      "22": 0.07978,
-      "23": 0.05998,
-      "24": 0.01165,
-      "25": 0.03187,
-      "26": 0.04608,
-      "27": 0.02748,
-      "28": 0.03175,
-      "29": 0.03532,
-      "30": 0.03589,
-      "31": 0.04019,
-      "32": 0.04067,
-      "33": 0.02587,
-      "34": 0.01893,
-      "35": 0.02756,
-      "36": 0.01749,
-      "37": 0.00205,
-      "38": 0.00606,
-      "39": 0.00604
-     },
-     "games_diff_pmf": {
-      "-12": 0.00099,
-      "-11": 0.00487,
-      "-10": 0.01248,
-      "-9": 0.02691,
-      "-8": 0.04507,
-      "-7": 0.07435,
-      "-6": 0.09548,
-      "-5": 0.11483,
-      "-4": 0.12302,
-      "-3": 0.09117,
-      "-2": 0.05927,
-      "-1": 0.03516,
-      "0": 0.03198,
-      "1": 0.02988,
-      "2": 0.04141,
-      "3": 0.05332,
-      "4": 0.05675,
-      "5": 0.04354,
-      "6": 0.02699,
-      "7": 0.01807,
-      "8": 0.00839,
-      "9": 0.00409,
-      "10": 0.00141,
-      "11": 0.00051,
-      "12": 6e-05
-     },
-     "p_tiebreak": 0.3949,
-     "p_decider": 0.3609
-    },
-    "n_sims": 100000,
-    "seed": 20261027,
-    "cross_check_max_diff": 0.0018
-   }
+     [
+      6,
+      1
+     ]
+    ]
+   },
+   "forecast": null
   },
   {
    "espn_id": "186754",
@@ -1775,8 +1692,8 @@
    "round": "Round 1",
    "court": "Court 1",
    "start_utc": "2026-11-09T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Tamara Zidansek",
@@ -1792,7 +1709,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-09T18:50:07+00:00",
@@ -1909,9 +1838,9 @@
    "venue": "Sopo, Colombia",
    "round": "Round 1",
    "court": "Main Court",
-   "start_utc": "2026-11-09T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-09T19:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Irene Burillo",
@@ -1927,7 +1856,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-09T18:50:09+00:00",
@@ -2040,15 +1981,165 @@
    }
   },
   {
+   "espn_id": "186522",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Round 1",
+   "court": "Center Court",
+   "start_utc": "2026-11-09T20:00Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
+   "players": [
+    {
+     "name": "Leo Borg",
+     "id": "atp:209863"
+    },
+    {
+     "name": "Toby Samuel",
+     "id": "atp:210389"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
+   },
+   "forecast": {
+    "frozen_version": 3,
+    "frozen_at_utc": "2026-11-09T18:50:05+00:00",
+    "path": "forecasts/2026-11-09/186522-leo-borg-vs-toby-samuel/v3.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Toby Samuel",
+    "win_prob": {
+     "A": 0.3017,
+     "B": 0.6983
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "3-6",
+      "4-6"
+     ],
+     "prob": 0.4793
+    },
+    "games_mean": 23.57,
+    "strongest": {
+     "selection": "Toby Samuel to win at least one set",
+     "probability": 0.8402,
+     "confidence": "Low"
+    },
+    "data_quality": "LOW",
+    "recommendation_quality": {
+     "eligible": false,
+     "reasons": [
+      "insufficient player history",
+      "Leo Borg: serve/return statistics missing, future-dated or older than 60 days"
+     ],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.3017,
+      "B": 0.6983
+     },
+     "set_score_probs": {
+      "0-2": 0.4793,
+      "1-2": 0.219,
+      "2-0": 0.1598,
+      "2-1": 0.1419
+     },
+     "games_pmf": {
+      "12": 0.00105,
+      "13": 0.00529,
+      "14": 0.01356,
+      "15": 0.02974,
+      "16": 0.04747,
+      "17": 0.07079,
+      "18": 0.07662,
+      "19": 0.08279,
+      "20": 0.0763,
+      "21": 0.05173,
+      "22": 0.07978,
+      "23": 0.05998,
+      "24": 0.01165,
+      "25": 0.03187,
+      "26": 0.04608,
+      "27": 0.02748,
+      "28": 0.03175,
+      "29": 0.03532,
+      "30": 0.03589,
+      "31": 0.04019,
+      "32": 0.04067,
+      "33": 0.02587,
+      "34": 0.01893,
+      "35": 0.02756,
+      "36": 0.01749,
+      "37": 0.00205,
+      "38": 0.00606,
+      "39": 0.00604
+     },
+     "games_diff_pmf": {
+      "-12": 0.00099,
+      "-11": 0.00487,
+      "-10": 0.01248,
+      "-9": 0.02691,
+      "-8": 0.04507,
+      "-7": 0.07435,
+      "-6": 0.09548,
+      "-5": 0.11483,
+      "-4": 0.12302,
+      "-3": 0.09117,
+      "-2": 0.05927,
+      "-1": 0.03516,
+      "0": 0.03198,
+      "1": 0.02988,
+      "2": 0.04141,
+      "3": 0.05332,
+      "4": 0.05675,
+      "5": 0.04354,
+      "6": 0.02699,
+      "7": 0.01807,
+      "8": 0.00839,
+      "9": 0.00409,
+      "10": 0.00141,
+      "11": 0.00051,
+      "12": 6e-05
+     },
+     "p_tiebreak": 0.3949,
+     "p_decider": 0.3609
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0018
+   }
+  },
+  {
    "espn_id": "187381",
    "tour": "wta",
    "tournament": "FAGE WTA Finals Indian Wells",
    "venue": "Indian Wells Tennis Garden, Indian Wells, USA",
    "round": "Group Stage",
    "court": "Indian Wells Tennis Garden",
-   "start_utc": "2026-11-09T20:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-09T20:15Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Aryna Sabalenka",
@@ -2064,7 +2155,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-09T18:50:12+00:00",
@@ -2181,9 +2284,9 @@
    "venue": "Indian Wells Tennis Garden, Indian Wells, USA",
    "round": "Group Stage",
    "court": "Indian Wells Tennis Garden",
-   "start_utc": "2026-11-09T21:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-09T22:30Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Mirra Andreeva",
@@ -2199,7 +2302,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-09T18:50:14+00:00",
