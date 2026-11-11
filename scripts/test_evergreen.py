@@ -26,6 +26,6 @@ class RecoveryTests(unittest.TestCase):
         from datetime import date
         from tennis_oracle import data
         with tempfile.TemporaryDirectory() as d:
-            with patch.object(data,'ESPN_DIR',pathlib.Path(d)),patch.object(data,'fetch_espn_day',side_effect=[{'events':[]},{'events':[]},RuntimeError('outage')]):
+            with patch.object(data,'ESPN_DIR',pathlib.Path(d)),patch.object(data,'fetch_espn_day',side_effect=[{'events':[]},RuntimeError('outage')]):
                 with self.assertRaises(RuntimeError):data.update_espn_results(date(2026,10,1),date(2026,10,2),step_days=1)
             self.assertEqual(json.loads((pathlib.Path(d)/'results.json').read_text()),{})

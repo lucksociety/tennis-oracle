@@ -43,7 +43,7 @@ def assert_no_market_columns(df: pd.DataFrame) -> None:
         raise ValueError(f"Refusing market/odds columns: {bad}")
 
 
-def download_sackmann(tours=("atp", "wta"), years=None, force=False) -> None:
+def download_sackmann(tours=("atp",), years=None, force=False) -> None:
     RAW.mkdir(parents=True, exist_ok=True)
     years = years or range(FIRST_YEAR, date.today().year + 1)
     for t in tours:
@@ -184,17 +184,18 @@ def espn_flatten(ev, c, tour):
 
 
 def update_espn_results(since: date, until: date | None = None, step_days: int = 2) -> list:
-    """Collect completed singles results (ATP + WTA tour-level, incl. majors) from ESPN's
+    """Collect completed singles results (ATP tour-level, incl. majors) from ESPN's
     public scoreboard between `since` and `until`. Results are cached per competition id."""
     until = until or date.today()
     ESPN_DIR.mkdir(parents=True, exist_ok=True)
     cache_f = ESPN_DIR / "results.json"
     cache = json.loads(cache_f.read_text()) if cache_f.exists() else {}
+    cache = {k:v for k,v in cache.items() if v.get("tour")=="atp"}
     d = since
     while d <= until:
-        for league in ("atp", "wta"):
+        for league in ("atp",):
             payload = fetch_espn_day(league, d, strict=True)
-            for tour in ("atp", "wta"):
+            for tour in ("atp",):
                 for ev, c in espn_competitions(payload, tour):
                     rec = espn_flatten(ev, c, tour)
                     if rec["completed"]:
@@ -205,7 +206,7 @@ def update_espn_results(since: date, until: date | None = None, step_days: int =
         os.replace(temporary,cache_f)
         coverage=ESPN_DIR/'coverage.json'
         progress=coverage.with_suffix('.tmp')
-        progress.write_text(json.dumps({'through':d.isoformat(),'source':'ESPN ATP/WTA daily scoreboards'}))
+        progress.write_text(json.dumps({'through':d.isoformat(),'source':'ESPN ATP daily scoreboards'}))
         os.replace(progress,coverage)
         d += timedelta(days=step_days)
     return list(cache.values())

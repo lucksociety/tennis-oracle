@@ -36,9 +36,9 @@ def name_map(engine):
 def fetch_day_matches(day: date) -> list:
     seen = {}
     for q in (day - timedelta(days=1), day, day + timedelta(days=1)):
-        for league in ("atp", "wta"):
+        for league in ("atp",):
             payload = fetch_espn_day(league, q)
-            for tour in ("atp", "wta"):
+            for tour in ("atp",):
                 for ev, c in espn_competitions(payload, tour):
                     rec = espn_flatten(ev, c, tour)
                     if not rec["start"]:
@@ -55,7 +55,9 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
     matches = fetch_day_matches(day)
     out = []
     for r in matches:
-        tour = r["tour"]; eng = engines[tour]
+        tour = r["tour"]
+        if tour != "atp": continue
+        eng = engines[tour]
         surf, ssrc = fixture_surface(r["event"], r["venue"], day, tour) or infer_surface(r["event"], r["venue"], lookups[tour])
         bo = 5 if (tour == "atp" and r["major"] and "Qualifying" not in r["round"]) else 3
         fr = "tb10" if r["major"] else "tb7"
@@ -106,7 +108,7 @@ def build_slate(day: date, engines: dict, n_sims: int = 100_000, write=True, do_
         out.append(m)
     slate = {"date": str(day), "timezone": "America/New_York",
              "generated_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-             "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/{atp,wta}/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+             "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
              "model_version": next(iter(engines.values())).p["version"], "matches": out}
     if write:
         DOCS_DATA.mkdir(parents=True, exist_ok=True)

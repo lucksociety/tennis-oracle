@@ -12,7 +12,7 @@
   'use strict';
   const API = 'https://api.jup.ag/prediction/v1';
   const FEE_RATE = 0.07;
-  const LISTS = [['atp', 'upcoming'], ['atp', 'live'], ['wta', 'upcoming'], ['wta', 'live']];
+  const LISTS = [['atp', 'upcoming'], ['atp', 'live']];
 
   function norm(s) {
     return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
@@ -116,6 +116,7 @@
   function evaluate(m, ev, opts) {
     opts = opts || {};
     const f = m.forecast, base = { espn_id: m.espn_id, event_id: ev ? ev.eventId : null, event_title: ev && ev.metadata ? ev.metadata.title : null };
+    if (m.tour !== 'atp') return Object.assign(base,{status:'excluded',best:null,verdict:'Excluded by men-only policy',outcomes:[]});
     if (!ev) return Object.assign(base, { status: 'no_market', best: null, verdict: 'NO BET (no market)', outcomes: [] });
     if (!f || !f.dist) return Object.assign(base, { status: 'no_forecast', best: null, verdict: 'NO BET (no frozen forecast)', outcomes: [] });
     const snapAt = opts.snapshot_at_utc ? Date.parse(opts.snapshot_at_utc) : Date.now();

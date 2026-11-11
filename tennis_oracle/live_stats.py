@@ -279,7 +279,7 @@ def refresh_wta(since, until):
 def refresh(since, until=None):
     until = until or date.today()
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'sources': {}}
-    for tour, fn in [('atp', refresh_atp), ('wta', refresh_wta)]:
+    for tour, fn in [('atp', refresh_atp)]:
         try:
             report['sources'][tour] = {'ok': True, **fn(since, until)}
         except Exception as exc:

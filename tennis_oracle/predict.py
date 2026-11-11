@@ -81,6 +81,7 @@ def forecast(engine: RatingEngine, a_id: str, b_id: str, surface: str, best_of: 
              n_sims: int | None = None, seed: int | None = None, data_cutoff=None) -> dict:
     """Full pre-match forecast for A vs B. All reported probabilities come from one
     Monte Carlo sample; the exact analytic mixture is reported alongside as a cross-check."""
+    if tour != "atp": raise ValueError("Men-only policy: ATP is the only enabled tour")
     P = engine.p
     context = context or {}
     meta = meta or {}

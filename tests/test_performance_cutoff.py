@@ -10,6 +10,6 @@ def test_historical_stats_cutoff_cannot_include_future_counts(monkeypatch):
                         **{f:[30.,40.]for f in fields}})
     monkeypatch.setattr(build,'combined_frame',lambda *a:(frame,{'point_stats_cutoff':'2026-11-01','results_cutoff':'2026-11-01'}))
     observed=[];monkeypatch.setattr(build,'run_history',lambda eng,df,cb:observed.extend(df.date.tolist()))
-    eng=build.build_engine('wta',load_params(),asof='2026-10-30')
+    eng=build.build_engine('atp',load_params(),asof='2026-10-30')
     assert observed==[pd.Timestamp('2026-10-29')]
     assert eng.point_cutoff==pd.Timestamp('2026-10-29')

@@ -50,7 +50,7 @@ def test_fee_and_rule():
     assert J.cost(0.25) * 100 == pytest.approx(26.3125)          # 100 contracts @0.25 -> $1.32 fee (rounded up)
     dist = {"win_prob": {"A": 0.6, "B": 0.4}, "set_score_probs": {"2-0": 0.35, "2-1": 0.25, "1-2": 0.2, "0-2": 0.2},
             "games_pmf": {"20": 0.5, "24": 0.5}, "games_diff_pmf": {"3": 0.6, "-3": 0.4}}
-    m = {"espn_id": "x", "start_utc": "2026-01-03T00:00:00Z", "status": "STATUS_SCHEDULED", "best_of": 3, "players": [{"name": "Ann Alpha"}, {"name": "Bea Beta"}],
+    m = {"tour":"atp", "espn_id": "x", "start_utc": "2026-01-03T00:00:00Z", "status": "STATUS_SCHEDULED", "best_of": 3, "players": [{"name": "Ann Alpha"}, {"name": "Bea Beta"}],
          "forecast": {"final_score": {"A_sets": 2, "B_sets": 1, "sets": ["6-3", "3-6", "6-4"]}, "recommendation_quality": {"eligible": True}, "n_sims": 100000, "frozen_at_utc": "2026-01-01T00:00:00+00:00", "dist": dist}}
     mk = lambda t, lab, p: {"marketId": lab, "sportsMarketType": t, "status": "open", "marketOptions": [{"label": lab}], "pricing": {"buyYesPriceUsd": int(p * 1e6)}}
     ev = {"eventId": "E", "metadata": {"title": "T: Ann Alpha vs Bea Beta"}, "markets": [

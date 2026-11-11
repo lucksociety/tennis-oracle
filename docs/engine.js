@@ -276,7 +276,9 @@
       return (lo + hi) / 2;
     }
     forecast(o) {
+      if(o.tour && o.tour!=="atp")throw new Error("Men-only policy: ATP is the only enabled tour");
       const P = this.P, a = this.byId.get(o.a), b = this.byId.get(o.b), tour = o.tour || a.t, surf = o.surface;
+      if(tour!=="atp" || a.t!=="atp" || b.t!=="atp")throw new Error("Men-only policy: ATP is the only enabled tour");
       const bo = o.bestOf || 3, fr = o.finalRule || "tb7", asof = o.date ? new Date(o.date) : new Date();
       const { comps, pa: pas, pb: pbs } = this.components(a, b, tour, surf);
       let paS = pas, pbS = pbs;
