@@ -76,7 +76,7 @@ def cmd_schedule(a):
     from .export import export_ratings
     from .schedule import build_slate
     from .config import load_params
-    engs = _engines(["atp", "wta"])
+    engs = _engines(["atp"])
     if not a.no_export:
         export_ratings(engs, load_params())
     tz = ZoneInfo("America/New_York")
@@ -125,19 +125,19 @@ def cmd_markets(a):
 def cmd_export(a):
     from .config import load_params
     from .export import export_ratings
-    print(export_ratings(_engines(["atp", "wta"]), load_params()))
+    print(export_ratings(_engines(["atp"]), load_params()))
 
 
 def cmd_update(a):
     from .build import sackmann_end
     from .data import download_sackmann, load_sackmann, update_espn_results
     download_sackmann(force=a.force)
-    end = min(sackmann_end(load_sackmann(t)) for t in ("atp", "wta"))
+    end = min(sackmann_end(load_sackmann(t)) for t in ("atp",))
     # Resume from the older tour's last cached result, rather than losing games after an outage.
     from .data import ESPN_DIR
     cached_file=ESPN_DIR/'results.json'
     cached=list(json.loads(cached_file.read_text()).values()) if cached_file.exists() else []
-    tour_ends=[max((r['start'][:10] for r in cached if r.get('tour')==tour),default=end.date().isoformat()) for tour in ('atp','wta')]
+    tour_ends=[max((r['start'][:10] for r in cached if r.get('tour')==tour),default=end.date().isoformat()) for tour in ('atp',)]
     frontier=date.fromisoformat(min(tour_ends))
     coverage=ESPN_DIR/'coverage.json'
     if coverage.exists():frontier=max(frontier,date.fromisoformat(json.loads(coverage.read_text())['through']))
@@ -150,7 +150,7 @@ def cmd_update(a):
     print('Current performance refresh: ' + json.dumps(performance['sources']))
     from .build import combined_frame
     health = {'generated_at_utc': datetime.now(ZoneInfo('UTC')).isoformat(), 'sources': performance['sources'], 'tours': {}}
-    for tour in ('atp', 'wta'):
+    for tour in ('atp',):
         _, info = combined_frame(tour)
         health['tours'][tour] = {k: info[k] for k in ('point_stats_cutoff', 'results_cutoff', 'performance')}
     target = Path(__file__).resolve().parent.parent / 'docs/data/performance-health.json'
@@ -189,7 +189,7 @@ def main(argv=None):
         p.add_argument("--surface", default="hard", choices=["hard", "clay", "grass", "Hard", "Clay", "Grass"])
         p.add_argument("--indoor", action="store_true")
         p.add_argument("--bo", type=int, default=3, choices=[3, 5])
-        p.add_argument("--tour", default="atp", choices=["atp", "wta"])
+        p.add_argument("--tour", default="atp", choices=["atp"])
         p.add_argument("--final-rule", choices=["tb7", "tb10", "adv"], default=None)
         p.add_argument("--slam", action="store_true", help="Grand Slam: deciding set 10-point tiebreak")
         p.add_argument("--tournament", default=""); p.add_argument("--round", default="")

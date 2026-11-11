@@ -52,6 +52,7 @@ def combined_frame(tour: str, use_espn: bool = True):
 
 
 def build_engine(tour: str, params: dict | None = None, use_espn: bool = True, on_match=None, asof=None):
+    if tour != "atp": raise ValueError("Men-only policy: ATP is the only enabled tour")
     params = params or load_params()
     df, info = combined_frame(tour, use_espn)
     if asof is not None:

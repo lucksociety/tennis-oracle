@@ -11,7 +11,7 @@ import urllib.request
 APP_ID = os.environ.get("DISCORD_APPLICATION_ID", "1564848519913930784")
 COMMANDS = [{
     "name": "tennis", "type": 1,
-    "description": "Tennis Oracle: ATP+WTA slate - winners, win %, score predictions, Jupiter best bets",
+    "description": "Tennis Oracle: ATP slate - winners, win %, score predictions, Jupiter best bets",
     "integration_types": [0, 1], "contexts": [0, 1, 2],
     "options": [
         {"type": 3, "name": "date", "description": "Which day's matches (New York time). Default: Today",

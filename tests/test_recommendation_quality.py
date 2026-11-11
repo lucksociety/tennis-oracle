@@ -21,7 +21,7 @@ def test_performance_evidence_age_boundaries():
 def test_quality_and_sampling_checks_python_js_parity():
     F=json.loads((ROOT/'tests/fixtures/markets_fixture.json').read_text())
     m=next(m for m in F['slate']['matches'] if m.get('forecast') and J.match_event(m,F['events']))
-    m=copy.deepcopy(m);m['start_utc']='2099-01-01T00:00:00Z';m['status']='STATUS_SCHEDULED'
+    m=copy.deepcopy(m);m['tour']='atp';m['start_utc']='2099-01-01T00:00:00Z';m['status']='STATUS_SCHEDULED'
     ev=J.match_event(m,F['events']) or F['events'][0]
     m['forecast']['n_sims']=100000
     for eligible in [None,False,True]:

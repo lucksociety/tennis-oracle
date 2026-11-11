@@ -23,7 +23,7 @@ DOCS_DATA = ROOT / "docs" / "data"
 SNAPS = ROOT / "market_snapshots"
 API = "https://api.jup.ag/prediction/v1"
 FEE_RATE = 0.07
-LISTS = [("atp", "upcoming"), ("atp", "live"), ("wta", "upcoming"), ("wta", "live")]
+LISTS = [("atp", "upcoming"), ("atp", "live")]
 
 
 def norm(s):
@@ -153,6 +153,7 @@ def evaluate(m, ev, snapshot_at_utc=None):
     f = m.get("forecast")
     base = {"espn_id": m["espn_id"], "event_id": ev["eventId"] if ev else None,
             "event_title": (ev.get("metadata") or {}).get("title") if ev else None}
+    if m.get("tour") != "atp": return {**base,"status":"excluded","best":None,"verdict":"Excluded by men-only policy","outcomes":[]}
     if not ev: return {**base, "status": "no_market", "best": None, "verdict": "NO BET (no market)", "outcomes": []}
     if not f or not f.get("dist"): return {**base, "status": "no_forecast", "best": None, "verdict": "NO BET (no frozen forecast)", "outcomes": []}
     snap = _iso(snapshot_at_utc) if snapshot_at_utc else time.time()

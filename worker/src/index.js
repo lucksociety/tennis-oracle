@@ -112,7 +112,7 @@ function distFromEngine(f) {
 async function engineExtras(env, day, slate, events) {
   if (env.ENGINE_FALLBACK !== 'on' || !events.length) return [];
   const known = new Set(slate.matches.map(m => M.matchEvent(m, events)).filter(Boolean).map(e => e.eventId));
-  const todo = events.filter(e => !known.has(e.eventId) && !e.isLive && nyDate(new Date(Number(e.beginAt) * 1000)) === day).slice(0, 8);
+  const todo = events.filter(e => e.subcategory==='atp' && !known.has(e.eventId) && !e.isLive && nyDate(new Date(Number(e.beginAt) * 1000)) === day).slice(0, 8);
   if (!todo.length) return [];
   const R = await getJSON(`${env.DASHBOARD_URL}data/ratings.json`); const O = new T.Oracle(R); const out = [];
   for (const ev of todo) {
@@ -180,8 +180,10 @@ export async function buildReport(env, day, tour) {
   let slate;
   try { slate = await getJSON(`${dash}data/slate-${day}.json?t=${Date.now()}`); }
   catch (e) { return [`🍀 **Luck Society Tennis Oracle** — no frozen slate published for ${day} yet. Dashboard: ${dash}`]; }
+  slate={...slate,matches:slate.matches.filter(m=>m.tour==='atp')};
   if (tour && tour !== 'all') slate = Object.assign({}, slate, { matches: slate.matches.filter(m => m.tour === tour) });
   const bb = await bestBets(env, day, slate);
+  bb.rows=bb.rows.filter(r=>slate.matches.some(m=>String(m.espn_id)===String(r.espn_id)));
   const extras = await engineExtras(env, day, slate, bb.events).catch(e => [{ err: String(e.message) }]);
   // A saved comparison is historical evidence, not a fresh pre-match recommendation.
   const publicationNow = Date.now();
