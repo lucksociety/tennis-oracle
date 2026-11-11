@@ -1,0 +1,663 @@
+{
+ "predicted_winner": "Casper Ruud",
+ "win_prob": {
+  "A": 0.2277,
+  "B": 0.7723
+ },
+ "win_prob_exact": {
+  "A": 0.22773,
+  "B": 0.77227
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 4.39,
+   "american": "+339"
+  },
+  "B": {
+   "decimal": 1.29,
+   "american": "-339"
+  }
+ },
+ "set_score_probs": {
+  "0-2": 0.551,
+  "1-2": 0.2213,
+  "2-1": 0.1146,
+  "2-0": 0.1131
+ },
+ "most_likely_set_score": "0-2",
+ "representative_sets": [
+  "3-6",
+  "4-6"
+ ],
+ "representative_sets_prob": 0.0429,
+ "games": {
+  "mean": 23.96,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 34.0,
+  "sd": 6.34,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00059,
+   "13": 0.00374,
+   "14": 0.01027,
+   "15": 0.02353,
+   "16": 0.03886,
+   "17": 0.06545,
+   "18": 0.07171,
+   "19": 0.08568,
+   "20": 0.07831,
+   "21": 0.05223,
+   "22": 0.09162,
+   "23": 0.07491,
+   "24": 0.0076,
+   "25": 0.03089,
+   "26": 0.05496,
+   "27": 0.01908,
+   "28": 0.02425,
+   "29": 0.02637,
+   "30": 0.02878,
+   "31": 0.03857,
+   "32": 0.04198,
+   "33": 0.02635,
+   "34": 0.01969,
+   "35": 0.03453,
+   "36": 0.02614,
+   "37": 0.00219,
+   "38": 0.0087,
+   "39": 0.01302
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00059,
+  "-11": 0.00367,
+  "-10": 0.0101,
+  "-9": 0.0232,
+  "-8": 0.04048,
+  "-7": 0.07497,
+  "-6": 0.09712,
+  "-5": 0.13107,
+  "-4": 0.14676,
+  "-3": 0.11603,
+  "-2": 0.07654,
+  "-1": 0.03712,
+  "0": 0.03118,
+  "1": 0.02829,
+  "2": 0.04111,
+  "3": 0.04646,
+  "4": 0.04291,
+  "5": 0.02665,
+  "6": 0.01371,
+  "7": 0.00791,
+  "8": 0.0026,
+  "9": 0.00108,
+  "10": 0.00036,
+  "11": 9e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8576,
+   "under": 0.1424
+  },
+  {
+   "line": 18.5,
+   "over": 0.7859,
+   "under": 0.2142
+  },
+  {
+   "line": 19.5,
+   "over": 0.7002,
+   "under": 0.2998
+  },
+  {
+   "line": 20.5,
+   "over": 0.6219,
+   "under": 0.3781
+  },
+  {
+   "line": 21.5,
+   "over": 0.5696,
+   "under": 0.4304
+  },
+  {
+   "line": 22.5,
+   "over": 0.478,
+   "under": 0.522
+  },
+  {
+   "line": 23.5,
+   "over": 0.4031,
+   "under": 0.5969
+  },
+  {
+   "line": 24.5,
+   "over": 0.3955,
+   "under": 0.6045
+  },
+  {
+   "line": 25.5,
+   "over": 0.3646,
+   "under": 0.6354
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.1829,
+   "B +1.5": 0.8171,
+   "B -1.5": 0.7205,
+   "A +1.5": 0.2795
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.1418,
+   "B +2.5": 0.8582,
+   "B -2.5": 0.644,
+   "A +2.5": 0.356
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.0953,
+   "B +3.5": 0.9047,
+   "B -3.5": 0.528,
+   "A +3.5": 0.472
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.0524,
+   "B +4.5": 0.9476,
+   "B -4.5": 0.3812,
+   "A +4.5": 0.6188
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.0257,
+   "B +5.5": 0.9742,
+   "B -5.5": 0.2501,
+   "A +5.5": 0.7499
+  }
+ ],
+ "p_tiebreak": 0.4719,
+ "p_a_wins_set": 0.449,
+ "p_b_wins_set": 0.8869,
+ "p_decider": 0.3359,
+ "expected_breaks": {
+  "total": 3.45,
+  "by_A": 1.08,
+  "by_B": 2.37
+ },
+ "expected_break_points": {
+  "A_creates": 3.52,
+  "B_creates": 6.21
+ },
+ "final_score": {
+  "A_sets": 0,
+  "B_sets": 2,
+  "sets": [
+   "3-6",
+   "4-6"
+  ],
+  "prob": 0.551
+ },
+ "match": "Aleksandr Shevchenko vs Casper Ruud",
+ "players": {
+  "A": {
+   "id": "atp:espn8710",
+   "name": "Aleksandr Shevchenko",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1629.9,
+   "surface_elo": {
+    "Hard": 1567.7,
+    "Clay": 1640.3,
+    "Grass": 1407.8
+   },
+   "matches_total": 19,
+   "matches_surface": {
+    "Hard": 12,
+    "Clay": 5,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    8,
+    11
+   ],
+   "last52w": [
+    8,
+    11
+   ],
+   "last52w_surface": [
+    5,
+    7
+   ],
+   "career_surface_wl": [
+    5,
+    7
+   ],
+   "games_won_lost_52w": [
+    227,
+    229
+   ],
+   "sets_won_lost_52w": [
+    21,
+    26
+   ],
+   "avg_opp_elo_last20": 1675.2,
+   "vs_top_opp_52w": [
+    0,
+    1
+   ],
+   "serve_rating": 0.0842,
+   "return_rating": -0.0142,
+   "form_elo": 58.3,
+   "last_match": "2026-11-10",
+   "last_stats_match": "2026-09-24",
+   "stats_52w": {
+    "first_in": 0.6165,
+    "first_won": 0.733,
+    "second_won": 0.5273,
+    "serve_pts_won": 0.6541,
+    "hold": 0.8158,
+    "aces_per_svgm": 0.5614,
+    "df_per_svgm": 0.2632,
+    "bp_saved": 0.6441,
+    "ret_pts_won": 0.3183,
+    "ret_1st_won": 0.218,
+    "ret_2nd_won": 0.4697,
+    "ret_games_won": 0.1441,
+    "bp_conv": 0.3902,
+    "bp_chances_per_retgm": 0.3694,
+    "matches_with_stats": 8
+   },
+   "rank_history": []
+  },
+  "B": {
+   "id": "atp:134770",
+   "name": "Casper Ruud",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 16.0,
+   "age": 27.865434633812455,
+   "elo": 1945.5,
+   "surface_elo": {
+    "Hard": 1858.8,
+    "Clay": 1969.3,
+    "Grass": 1462.0
+   },
+   "matches_total": 485,
+   "matches_surface": {
+    "Hard": 238,
+    "Clay": 234,
+    "Grass": 13
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    12,
+    8
+   ],
+   "last52w": [
+    32,
+    18
+   ],
+   "last52w_surface": [
+    15,
+    12
+   ],
+   "career_surface_wl": [
+    140,
+    98
+   ],
+   "games_won_lost_52w": [
+    673,
+    570
+   ],
+   "sets_won_lost_52w": [
+    76,
+    50
+   ],
+   "avg_opp_elo_last20": 1841.9,
+   "vs_top_opp_52w": [
+    5,
+    8
+   ],
+   "serve_rating": 0.3096,
+   "return_rating": 0.1433,
+   "form_elo": 19.4,
+   "last_match": "2026-11-07",
+   "last_stats_match": "2026-10-28",
+   "stats_52w": {
+    "first_in": 0.6652,
+    "first_won": 0.7145,
+    "second_won": 0.5532,
+    "serve_pts_won": 0.6605,
+    "hold": 0.847,
+    "aces_per_svgm": 0.5157,
+    "df_per_svgm": 0.1845,
+    "bp_saved": 0.654,
+    "ret_pts_won": 0.3688,
+    "ret_1st_won": 0.2824,
+    "ret_2nd_won": 0.5098,
+    "ret_games_won": 0.2232,
+    "bp_conv": 0.3782,
+    "bp_chances_per_retgm": 0.5901,
+    "matches_with_stats": 39
+   },
+   "rank_history": [
+    [
+     "2025-08-25",
+     12.0
+    ],
+    [
+     "2025-10-20",
+     11.0
+    ],
+    [
+     "2025-10-27",
+     9.0
+    ],
+    [
+     "2026-01-05",
+     12.0
+    ],
+    [
+     "2026-01-12",
+     13.0
+    ],
+    [
+     "2026-02-23",
+     12.0
+    ],
+    [
+     "2026-03-04",
+     13.0
+    ],
+    [
+     "2026-03-18",
+     12.0
+    ],
+    [
+     "2026-04-22",
+     15.0
+    ],
+    [
+     "2026-05-06",
+     25.0
+    ],
+    [
+     "2026-05-17",
+     17.0
+    ],
+    [
+     "2026-05-25",
+     16.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Round 2",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-11",
+ "forecast_date": "2026-11-11",
+ "performance_revision": "db18d7adae8aa269",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Aleksandr Shevchenko: limited recent/surface sample (19 matches 52w, 12 career on Hard, 8 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": -210.9,
+  "components_elo": {
+   "surface_elo": -291.0,
+   "overall_elo": -315.6,
+   "serve_return": -288.7,
+   "form": 38.9
+  },
+  "weighted_contributions": {
+   "surface_elo": -35.6,
+   "overall_elo": -74.6,
+   "serve_return": -100.7,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.229,
+  "serve_return_implied_spw": {
+   "A": 0.6357,
+   "B": 0.7191
+  },
+  "point_probs": {
+   "A_serve": 0.6344,
+   "B_serve": 0.7202
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6344354176282282,
+   "B_serve": 0.7201794602283778
+  },
+  "hold_probs": {
+   "A": 0.8027,
+   "B": 0.9229
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.2277,
+   0.2298
+  ],
+  "p_tb": [
+   0.4719,
+   0.4718
+  ],
+  "p_decider": [
+   0.3359,
+   0.3365
+  ],
+  "games_mean": [
+   23.96,
+   23.968
+  ],
+  "exp_breaks": [
+   3.445,
+   3.445
+  ],
+  "set_scores": {
+   "0-2": [
+    0.551,
+    0.5493
+   ],
+   "1-2": [
+    0.2213,
+    0.2209
+   ],
+   "2-0": [
+    0.1131,
+    0.1142
+   ],
+   "2-1": [
+    0.1146,
+    0.1156
+   ]
+  },
+  "mc_se_p_a": 0.0013,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Casper Ruud",
+   "elo_points": -100.7,
+   "raw_diff": -288.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Casper Ruud",
+   "elo_points": -74.6,
+   "raw_diff": -315.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Casper Ruud",
+   "elo_points": -35.6,
+   "raw_diff": -291.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5273,
+   "B": 0.5532,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3183,
+   "B": 0.3688,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6344,
+   "B": 0.7202,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Casper Ruud to win at least one set",
+  "probability": 0.8869,
+  "fair_odds": {
+   "decimal": 1.13,
+   "american": "-784"
+  },
+  "confidence": "Medium",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance. Data quality MEDIUM: Aleksandr Shevchenko: limited recent/surface sample (19 matches 52w, 12 career on Hard, 8 with stats)",
+  "candidates": [
+   {
+    "selection": "Casper Ruud to win at least one set",
+    "probability": 0.8869,
+    "fair_decimal": 1.13
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7859,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Casper Ruud to win",
+    "probability": 0.7723,
+    "fair_decimal": 1.29
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6641,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "Casper Ruud -2.5 games",
+    "probability": 0.644,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6219,
+    "fair_decimal": 1.61
+   },
+   {
+    "selection": "Aleksandr Shevchenko +4.5 games",
+    "probability": 0.6188,
+    "fair_decimal": 1.62
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6045,
+    "fair_decimal": 1.65
+   },
+   {
+    "selection": "Exact sets Aleksandr Shevchenko 0-2 Casper Ruud",
+    "probability": 0.551,
+    "fair_decimal": 1.81
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.5281,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.522,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.478,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.4719,
+    "fair_decimal": 2.12
+   },
+   {
+    "selection": "Aleksandr Shevchenko to win at least one set",
+    "probability": 0.449,
+    "fair_decimal": 2.23
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.3955,
+    "fair_decimal": 2.53
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-11",
+ "freeze": {
+  "frozen_at_utc": "2026-11-11T16:21:55+00:00",
+  "version": 3,
+  "input_hash": "85cdf62aba22be05",
+  "reason": "performance inputs or format refreshed (results through 2026-11-11)",
+  "pre_match": true,
+  "espn_id": "186538",
+  "scheduled_start_utc": "2026-11-11T17:00Z"
+ }
+}

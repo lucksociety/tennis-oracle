@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
- "n": 5,
- "passed": 5,
+ "n": 7,
+ "passed": 7,
  "results": [
   {
    "match": "Alex Michelsen vs Alejandro Tabilo",
@@ -20,6 +20,42 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-12/186549-alex-michelsen-vs-alejandro-tabilo/v1.json"
+  },
+  {
+   "match": "Alex Michelsen vs Alejandro Tabilo",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0027,
+   "reproduction": {
+    "frozen_p_a": 0.6491,
+    "rerun_p_a": 0.6491,
+    "frozen_games_mean": 24.09,
+    "rerun_games_mean": 24.09,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/186549-alex-michelsen-vs-alejandro-tabilo/v2.json"
+  },
+  {
+   "match": "Lorenzo Musetti vs Ugo Humbert",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0015,
+   "reproduction": {
+    "frozen_p_a": 0.5609,
+    "rerun_p_a": 0.5609,
+    "frozen_games_mean": 24.85,
+    "rerun_games_mean": 24.85,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/186550-lorenzo-musetti-vs-ugo-humbert/v1.json"
   },
   {
    "match": "Marta Kostyuk vs Coco Gauff",
