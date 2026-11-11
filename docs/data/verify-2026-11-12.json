@@ -1,8 +1,26 @@
 {
  "date": "2026-11-12",
- "n": 2,
- "passed": 2,
+ "n": 5,
+ "passed": 5,
  "results": [
+  {
+   "match": "Alex Michelsen vs Alejandro Tabilo",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0021,
+   "reproduction": {
+    "frozen_p_a": 0.6504,
+    "rerun_p_a": 0.6504,
+    "frozen_games_mean": 24.08,
+    "rerun_games_mean": 24.08,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/186549-alex-michelsen-vs-alejandro-tabilo/v1.json"
+  },
   {
    "match": "Marta Kostyuk vs Coco Gauff",
    "n_sims": 100000,
@@ -22,6 +40,24 @@
    "file": "forecasts/2026-11-12/187371-marta-kostyuk-vs-coco-gauff/v1.json"
   },
   {
+   "match": "Marta Kostyuk vs Coco Gauff",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0015,
+   "reproduction": {
+    "frozen_p_a": 0.402,
+    "rerun_p_a": 0.402,
+    "frozen_games_mean": 22.56,
+    "rerun_games_mean": 22.56,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/187371-marta-kostyuk-vs-coco-gauff/v2.json"
+  },
+  {
    "match": "Jessica Pegula vs Linda Noskova",
    "n_sims": 100000,
    "seed": 20261027,
@@ -38,6 +74,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-12/187376-jessica-pegula-vs-linda-noskova/v1.json"
+  },
+  {
+   "match": "Jessica Pegula vs Linda Noskova",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0036,
+   "reproduction": {
+    "frozen_p_a": 0.64,
+    "rerun_p_a": 0.64,
+    "frozen_games_mean": 23.52,
+    "rerun_games_mean": 23.52,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/187376-jessica-pegula-vs-linda-noskova/v2.json"
   }
  ]
 }

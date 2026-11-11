@@ -1,58 +1,58 @@
 {
- "generated_at_utc": "2026-11-11T06:21:20+00:00",
+ "generated_at_utc": "2026-11-11T16:12:57+00:00",
  "summary": {
-  "n": 430,
-  "brier": 0.22733779313953487,
-  "log_loss": 0.6487199385133051,
-  "accuracy": 0.6186046511627907,
-  "games_mae": 5.276767441860466,
-  "exact_sets_accuracy": 0.4232558139534884,
-  "tiebreak_brier": 0.1952540703488372
+  "n": 432,
+  "brier": 0.22726357270833333,
+  "log_loss": 0.6485660920139699,
+  "accuracy": 0.6203703703703703,
+  "games_mae": 5.299004629629629,
+  "exact_sets_accuracy": 0.4236111111111111,
+  "tiebreak_brier": 0.19497353692129632
  },
- "n": 430,
+ "n": 432,
  "overall": {
-  "n": 430,
-  "brier": 0.22733779313953487,
-  "log_loss": 0.6487199385133051,
-  "accuracy": 0.6186046511627907
+  "n": 432,
+  "brier": 0.22726357270833333,
+  "log_loss": 0.6485660920139699,
+  "accuracy": 0.6203703703703703
  },
- "games_mae": 5.276767441860466,
- "exact_sets_accuracy": 0.4232558139534884,
- "tiebreak_brier": 0.1952540703488372,
+ "games_mae": 5.299004629629629,
+ "exact_sets_accuracy": 0.4236111111111111,
+ "tiebreak_brier": 0.19497353692129632,
  "by_surface": {
   "Clay": {
-   "n": 54,
-   "brier": 0.17698289185185184,
-   "log_loss": 0.5380003493089555,
-   "accuracy": 0.7592592592592593
+   "n": 55,
+   "brier": 0.17791927563636362,
+   "log_loss": 0.5400383009778743,
+   "accuracy": 0.7636363636363637
   },
   "Hard": {
-   "n": 376,
-   "brier": 0.23456961406914892,
-   "log_loss": 0.6646211561118022,
-   "accuracy": 0.598404255319149
+   "n": 377,
+   "brier": 0.23446234283819628,
+   "log_loss": 0.6643990588759997,
+   "accuracy": 0.5994694960212201
   }
  },
  "by_tour": {
   "atp": {
-   "n": 146,
-   "brier": 0.23382183698630132,
-   "log_loss": 0.6650721609494806,
-   "accuracy": 0.589041095890411
+   "n": 147,
+   "brier": 0.2335518133333333,
+   "log_loss": 0.6644994965771323,
+   "accuracy": 0.5918367346938775
   },
   "wta": {
-   "n": 284,
-   "brier": 0.22400444665492955,
-   "log_loss": 0.6403135143031585,
-   "accuracy": 0.6338028169014085
+   "n": 285,
+   "brier": 0.2240201643859649,
+   "log_loss": 0.6403478096603386,
+   "accuracy": 0.6350877192982456
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 104,
-   "brier": 0.24416052913461536,
-   "log_loss": 0.6883317215896058,
-   "accuracy": 0.6057692307692307
+   "n": 105,
+   "brier": 0.24368403228571428,
+   "log_loss": 0.687308471843174,
+   "accuracy": 0.6095238095238096
   },
   "LOW": {
    "n": 168,
@@ -61,18 +61,18 @@
    "accuracy": 0.6607142857142857
   },
   "MEDIUM": {
-   "n": 158,
-   "brier": 0.2272674729113924,
-   "log_loss": 0.6476404723876968,
-   "accuracy": 0.5822784810126582
+   "n": 159,
+   "brier": 0.2272751240251572,
+   "log_loss": 0.6476558637003498,
+   "accuracy": 0.5849056603773585
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 214,
-   "mean_pred": 0.545377570093458,
-   "observed": 0.514018691588785
+   "n": 216,
+   "mean_pred": 0.5453342592592593,
+   "observed": 0.5185185185185185
   },
   {
    "bucket": "60%-70%",
@@ -18158,6 +18158,90 @@
     ]
    },
    "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Lorenzo Sonego vs Alejandro Tabilo",
+   "date": "2026-11-11",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.4406,
+   "a_won": 0,
+   "pred_winner": "Alejandro Tabilo",
+   "actual_winner": "Alejandro Tabilo",
+   "pred_sets": "0-2",
+   "actual_sets": "1-2",
+   "p_actual_sets": 0.2157,
+   "exp_games": 25.21,
+   "actual_games": 38,
+   "p_tb": 0.5393,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3786,
+     0
+    ],
+    "A -2.5": [
+     0.3099,
+     0
+    ],
+    "A -3.5": [
+     0.2247,
+     0
+    ],
+    "A -4.5": [
+     0.1383,
+     0
+    ],
+    "A -5.5": [
+     0.0747,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Polona Hercog vs Carole Monnet",
+   "date": "2026-11-11",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.522,
+   "a_won": 1,
+   "pred_winner": "Polona Hercog",
+   "actual_winner": "Polona Hercog",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3308,
+   "exp_games": 22.37,
+   "actual_games": 15,
+   "p_tb": 0.2389,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.4803,
+     1
+    ],
+    "A -2.5": [
+     0.4439,
+     1
+    ],
+    "A -3.5": [
+     0.3913,
+     1
+    ],
+    "A -4.5": [
+     0.3181,
+     1
+    ],
+    "A -5.5": [
+     0.2412,
+     1
+    ]
+   },
+   "data_quality": "MEDIUM",
    "version": "v1.1"
   }
  ]

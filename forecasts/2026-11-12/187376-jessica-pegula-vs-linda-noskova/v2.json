@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Jessica Pegula",
+ "win_prob": {
+  "A": 0.64,
+  "B": 0.36
+ },
+ "win_prob_exact": {
+  "A": 0.63997,
+  "B": 0.36002999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.56,
+   "american": "-178"
+  },
+  "B": {
+   "decimal": 2.78,
+   "american": "+178"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.426,
+  "2-1": 0.214,
+  "0-2": 0.2004,
+  "1-2": 0.1596
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-3",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0292,
+ "games": {
+  "mean": 23.52,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 32.0,
+  "sd": 6.13,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00106,
+   "13": 0.00535,
+   "14": 0.01358,
+   "15": 0.03119,
+   "16": 0.04832,
+   "17": 0.07294,
+   "18": 0.07549,
+   "19": 0.08264,
+   "20": 0.07658,
+   "21": 0.05152,
+   "22": 0.07388,
+   "23": 0.05589,
+   "24": 0.01334,
+   "25": 0.03383,
+   "26": 0.04462,
+   "27": 0.03038,
+   "28": 0.03536,
+   "29": 0.03768,
+   "30": 0.03721,
+   "31": 0.04169,
+   "32": 0.0403,
+   "33": 0.02571,
+   "34": 0.01928,
+   "35": 0.02511,
+   "36": 0.01523,
+   "37": 0.0022,
+   "38": 0.00489,
+   "39": 0.00473
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 0.00012,
+  "-11": 0.0009,
+  "-10": 0.00252,
+  "-9": 0.00674,
+  "-8": 0.01354,
+  "-7": 0.02702,
+  "-6": 0.03877,
+  "-5": 0.05451,
+  "-4": 0.06557,
+  "-3": 0.05835,
+  "-2": 0.04376,
+  "-1": 0.03176,
+  "0": 0.03141,
+  "1": 0.03471,
+  "2": 0.05325,
+  "3": 0.0822,
+  "4": 0.10933,
+  "5": 0.10444,
+  "6": 0.08688,
+  "7": 0.06964,
+  "8": 0.04167,
+  "9": 0.02609,
+  "10": 0.01138,
+  "11": 0.0045,
+  "12": 0.00094
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8276,
+   "under": 0.1724
+  },
+  {
+   "line": 18.5,
+   "over": 0.7521,
+   "under": 0.2479
+  },
+  {
+   "line": 19.5,
+   "over": 0.6694,
+   "under": 0.3306
+  },
+  {
+   "line": 20.5,
+   "over": 0.5928,
+   "under": 0.4072
+  },
+  {
+   "line": 21.5,
+   "over": 0.5413,
+   "under": 0.4587
+  },
+  {
+   "line": 22.5,
+   "over": 0.4675,
+   "under": 0.5326
+  },
+  {
+   "line": 23.5,
+   "over": 0.4116,
+   "under": 0.5884
+  },
+  {
+   "line": 24.5,
+   "over": 0.3982,
+   "under": 0.6018
+  },
+  {
+   "line": 25.5,
+   "over": 0.3644,
+   "under": 0.6356
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5903,
+   "B +1.5": 0.4097,
+   "B -1.5": 0.3118,
+   "A +1.5": 0.6882
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5371,
+   "B +2.5": 0.4629,
+   "B -2.5": 0.268,
+   "A +2.5": 0.732
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4549,
+   "B +3.5": 0.5451,
+   "B -3.5": 0.2097,
+   "A +3.5": 0.7903
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3455,
+   "B +4.5": 0.6545,
+   "B -4.5": 0.1441,
+   "A +4.5": 0.8559
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2411,
+   "B +5.5": 0.7589,
+   "B -5.5": 0.0896,
+   "A +5.5": 0.9104
+  }
+ ],
+ "p_tiebreak": 0.3738,
+ "p_a_wins_set": 0.7996,
+ "p_b_wins_set": 0.574,
+ "p_decider": 0.3736,
+ "expected_breaks": {
+  "total": 5.08,
+  "by_A": 2.93,
+  "by_B": 2.15
+ },
+ "expected_break_points": {
+  "A_creates": 7.21,
+  "B_creates": 5.81
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-3",
+   "6-4"
+  ],
+  "prob": 0.426
+ },
+ "match": "Jessica Pegula vs Linda Noskova",
+ "players": {
+  "A": {
+   "id": "wta:202468",
+   "name": "Jessica Pegula",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 5.0,
+   "age": 32.668172484599594,
+   "elo": 2085.1,
+   "surface_elo": {
+    "Hard": 2052.9,
+    "Clay": 1868.2,
+    "Grass": 1829.0
+   },
+   "matches_total": 448,
+   "matches_surface": {
+    "Hard": 321,
+    "Clay": 83,
+    "Grass": 44
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    6,
+    4
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    50,
+    15
+   ],
+   "last52w_surface": [
+    34,
+    10
+   ],
+   "career_surface_wl": [
+    221,
+    100
+   ],
+   "games_won_lost_52w": [
+    812,
+    628
+   ],
+   "sets_won_lost_52w": [
+    107,
+    49
+   ],
+   "avg_opp_elo_last20": 1896.2,
+   "vs_top_opp_52w": [
+    18,
+    13
+   ],
+   "serve_rating": 0.5843,
+   "return_rating": 0.3998,
+   "form_elo": -19.8,
+   "last_match": "2026-11-10",
+   "last_stats_match": "2026-10-14",
+   "stats_52w": {
+    "first_in": 0.6202,
+    "first_won": 0.7025,
+    "second_won": 0.5031,
+    "serve_pts_won": 0.6268,
+    "hold": 0.7733,
+    "aces_per_svgm": 0.4012,
+    "df_per_svgm": 0.1628,
+    "bp_saved": 0.61,
+    "ret_pts_won": 0.446,
+    "ret_1st_won": 0.3801,
+    "ret_2nd_won": 0.5494,
+    "ret_games_won": 0.376,
+    "bp_conv": 0.4008,
+    "bp_chances_per_retgm": 0.938,
+    "matches_with_stats": 49
+   },
+   "rank_history": [
+    [
+     "2025-01-13",
+     6.0
+    ],
+    [
+     "2025-02-09",
+     5.0
+    ],
+    [
+     "2025-02-24",
+     4.0
+    ],
+    [
+     "2025-04-14",
+     3.0
+    ],
+    [
+     "2025-05-06",
+     4.0
+    ],
+    [
+     "2025-05-18",
+     3.0
+    ],
+    [
+     "2025-07-21",
+     4.0
+    ],
+    [
+     "2025-09-19",
+     7.0
+    ],
+    [
+     "2025-10-06",
+     6.0
+    ],
+    [
+     "2025-11-01",
+     5.0
+    ],
+    [
+     "2026-01-04",
+     6.0
+    ],
+    [
+     "2026-02-15",
+     5.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "wta:222328",
+   "name": "Linda Noskova",
+   "tour": "wta",
+   "hand": "R",
+   "rank": 12.0,
+   "age": 21.968172484599588,
+   "elo": 2058.8,
+   "surface_elo": {
+    "Hard": 1941.4,
+    "Clay": 1671.6,
+    "Grass": 1936.1
+   },
+   "matches_total": 202,
+   "matches_surface": {
+    "Hard": 135,
+    "Clay": 33,
+    "Grass": 34
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    16,
+    4
+   ],
+   "last52w": [
+    39,
+    15
+   ],
+   "last52w_surface": [
+    21,
+    10
+   ],
+   "career_surface_wl": [
+    84,
+    51
+   ],
+   "games_won_lost_52w": [
+    670,
+    523
+   ],
+   "sets_won_lost_52w": [
+    82,
+    44
+   ],
+   "avg_opp_elo_last20": 1906.0,
+   "vs_top_opp_52w": [
+    10,
+    7
+   ],
+   "serve_rating": 0.5274,
+   "return_rating": 0.17,
+   "form_elo": 93.9,
+   "last_match": "2026-11-10",
+   "last_stats_match": "2026-10-06",
+   "stats_52w": {
+    "first_in": 0.5932,
+    "first_won": 0.7321,
+    "second_won": 0.4771,
+    "serve_pts_won": 0.6284,
+    "hold": 0.7954,
+    "aces_per_svgm": 0.6828,
+    "df_per_svgm": 0.4782,
+    "bp_saved": 0.6482,
+    "ret_pts_won": 0.4139,
+    "ret_1st_won": 0.3331,
+    "ret_2nd_won": 0.5378,
+    "ret_games_won": 0.3446,
+    "bp_conv": 0.4483,
+    "bp_chances_per_retgm": 0.7687,
+    "matches_with_stats": 41
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     23.0
+    ],
+    [
+     "2025-08-25",
+     32.0
+    ],
+    [
+     "2025-09-24",
+     27.0
+    ],
+    [
+     "2025-10-06",
+     17.0
+    ],
+    [
+     "2026-01-04",
+     12.0
+    ],
+    [
+     "2026-01-19",
+     13.0
+    ],
+    [
+     "2026-02-08",
+     12.0
+    ],
+    [
+     "2026-02-15",
+     14.0
+    ],
+    [
+     "2026-03-17",
+     13.0
+    ],
+    [
+     "2026-04-10",
+     14.0
+    ],
+    [
+     "2026-04-21",
+     13.0
+    ],
+    [
+     "2026-05-25",
+     12.0
+    ]
+   ]
+  }
+ },
+ "tour": "wta",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "FAGE WTA Finals Indian Wells",
+ "round": "Group Stage",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-11",
+ "forecast_date": "2026-11-12",
+ "performance_revision": "ec56cf29b13e846f",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 103.9,
+  "components_elo": {
+   "surface_elo": 111.5,
+   "overall_elo": 26.3,
+   "serve_return": 240.3,
+   "form": -113.7
+  },
+  "weighted_contributions": {
+   "surface_elo": 13.6,
+   "overall_elo": 6.2,
+   "serve_return": 83.8,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6452,
+  "serve_return_implied_spw": {
+   "A": 0.6627,
+   "B": 0.5959
+  },
+  "point_probs": {
+   "A_serve": 0.6512,
+   "B_serve": 0.6081
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6512350431974642,
+   "B_serve": 0.6081256581468618
+  },
+  "hold_probs": {
+   "A": 0.8317,
+   "B": 0.7524
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.64,
+   0.6436
+  ],
+  "p_tb": [
+   0.3738,
+   0.3716
+  ],
+  "p_decider": [
+   0.3736,
+   0.3732
+  ],
+  "games_mean": [
+   23.517,
+   23.505
+  ],
+  "exp_breaks": [
+   5.082,
+   5.08
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2004,
+    0.1984
+   ],
+   "1-2": [
+    0.1596,
+    0.158
+   ],
+   "2-0": [
+    0.426,
+    0.4284
+   ],
+   "2-1": [
+    0.214,
+    0.2152
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0036
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Jessica Pegula",
+   "elo_points": 83.8,
+   "raw_diff": 240.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Jessica Pegula",
+   "elo_points": 13.6,
+   "raw_diff": 111.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Jessica Pegula",
+   "elo_points": 6.2,
+   "raw_diff": 26.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5031,
+   "B": 0.4771,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.446,
+   "B": 0.4139,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6512,
+   "B": 0.6081,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Jessica Pegula to win at least one set",
+  "probability": 0.7996,
+  "fair_odds": {
+   "decimal": 1.25,
+   "american": "-399"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Jessica Pegula to win at least one set",
+    "probability": 0.7996,
+    "fair_decimal": 1.25
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7521,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Linda Noskova +4.5 games",
+    "probability": 0.6545,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "Jessica Pegula to win",
+    "probability": 0.64,
+    "fair_decimal": 1.56
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6264,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.6262,
+    "fair_decimal": 1.6
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.6018,
+    "fair_decimal": 1.66
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.5928,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Linda Noskova to win at least one set",
+    "probability": 0.574,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Jessica Pegula -2.5 games",
+    "probability": 0.5371,
+    "fair_decimal": 1.86
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5326,
+    "fair_decimal": 1.88
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4675,
+    "fair_decimal": 2.14
+   },
+   {
+    "selection": "Linda Noskova +2.5 games",
+    "probability": 0.4629,
+    "fair_decimal": 2.16
+   },
+   {
+    "selection": "Exact sets Jessica Pegula 2-0 Linda Noskova",
+    "probability": 0.426,
+    "fair_decimal": 2.35
+   },
+   {
+    "selection": "Under 20.5 games",
+    "probability": 0.4072,
+    "fair_decimal": 2.46
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-11",
+ "freeze": {
+  "frozen_at_utc": "2026-11-11T16:11:44+00:00",
+  "version": 2,
+  "input_hash": "203a561dc530f438",
+  "reason": "performance inputs or format refreshed (results through 2026-11-11)",
+  "pre_match": true,
+  "espn_id": "187376",
+  "scheduled_start_utc": "2026-11-12T21:30Z"
+ }
+}
