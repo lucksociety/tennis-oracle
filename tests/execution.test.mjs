@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {depthAtAsk,verifyRows} from '../worker/src/execution.mjs';
+const now=Date.parse('2026-11-11T12:00Z');
+const slate={matches:[{espn_id:'1',status:'STATUS_SCHEDULED',start_utc:'2026-11-11T14:00Z'}]};
+const o={market_id:'test',eligible:true,price:.55,model_p:.65,ev_per_1:.15,selection:'A to win'};
+const rows=[{espn_id:'1',status:'bet',best:o,outcomes:[o],n_eligible:1}];
+const book={yes:[[53,100]],no:[[45,100]]};
+assert.equal(depthAtAsk(book,.55),100);
+assert.equal(depthAtAsk({yes:[[53,100]],no:[[44,10000]]},.55),0);
+assert.equal(depthAtAsk({yes:[],no:[[45,10000]]},.55),0);
+assert.equal(depthAtAsk({yes:[[20,100]],no:[[45,10000]]},.55),0);
+let r=await verifyRows(slate,rows,async()=>book,{now:()=>now});assert.equal(r[0].best.executionVerified,true);
+r=await verifyRows(slate,rows,async()=>({yes:[[53,100]],no:[[45,1]]}),{now:()=>now});assert.equal(r[0].best,null);assert.equal(r[0].status,'execution_blocked');
+r=await verifyRows(slate,rows,async()=>book,{now:()=>now+3*3600000});assert.equal(r[0].best,null);
+assert.equal(rows[0].best,o);assert.ok(rows[0].outcomes[0].eligible);
+console.log('Tennis exact-ask depth, two-sided spread, kickoff and immutable price evaluation: passed');

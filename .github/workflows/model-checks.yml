@@ -27,3 +27,9 @@ jobs:
         run: python3 -m unittest discover -s scripts -p test_model_learning.py
       - name: Evergreen data and reconciliation regressions
         run: python3 -m unittest discover -s scripts -p test_evergreen.py
+
+      - name: Discord delivery recovery regressions
+        run: node scripts/discord-delivery.test.mjs
+
+      - name: Tennis executable price regressions
+        run: node tests/execution.test.mjs

@@ -47,7 +47,7 @@ def test_forecast_identical_with_or_without_price_files(tmp_path, monkeypatch):
 
 
 def test_fee_and_rule():
-    assert J.cost(0.25) * 100 == pytest.approx(26.3125)          # 100 contracts @0.25 -> $1.32 fee (rounded up)
+    assert J.cost(0.25) * 100 == pytest.approx(27.0)          # conservative one-contract rounded fee bound; actual size-specific fees can be lower
     dist = {"win_prob": {"A": 0.6, "B": 0.4}, "set_score_probs": {"2-0": 0.35, "2-1": 0.25, "1-2": 0.2, "0-2": 0.2},
             "games_pmf": {"20": 0.5, "24": 0.5}, "games_diff_pmf": {"3": 0.6, "-3": 0.4}}
     m = {"tour":"atp", "espn_id": "x", "start_utc": "2026-01-03T00:00:00Z", "status": "STATUS_SCHEDULED", "best_of": 3, "players": [{"name": "Ann Alpha"}, {"name": "Bea Beta"}],
@@ -84,3 +84,11 @@ def test_js_matches_python():
         for oa, ob in zip(a["outcomes"], b["outcomes"]):
             for k in ("model_p", "implied", "edge", "ev_per_1", "eligible", "skip", "selection"):
                 assert oa.get(k) == ob.get(k), (k, oa, ob)
+
+
+def test_ambiguous_same_players_market_is_not_arbitrarily_matched():
+    m={"tour":"atp","start_utc":"2026-11-11T12:00Z","players":[{"name":"Alex Alpha"},{"name":"Ben Beta"}]}
+    a={"eventId":"1","subcategory":"atp","metadata":{"title":"Alex Alpha vs Ben Beta"},"beginAt":1794398400}
+    assert J.match_event(m,[a])["eventId"]=="1"
+    assert J.match_event(m,[a,dict(a,eventId="2")])is None
+    assert J.match_event(m,[a,a])["eventId"]=="1"
