@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-11T16:21:57+00:00",
+ "generated_at_utc": "2026-11-11T22:42:32+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -311,8 +311,8 @@
    "round": "Round 2",
    "court": "Center Court",
    "start_utc": "2026-11-11T15:20Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Taylor Fritz",
@@ -328,7 +328,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-10T21:49:12+00:00",
@@ -445,9 +457,9 @@
    "venue": "Stockholm, Sweden",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-11-11T17:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-11T17:05Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Aleksandr Shevchenko",
@@ -463,7 +475,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-11T16:21:55+00:00",
@@ -579,9 +607,9 @@
    "venue": "Stockholm, Sweden",
    "round": "Round 2",
    "court": "Center Court",
-   "start_utc": "2026-11-11T18:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-11T19:45Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Miomir Kecmanovic",
@@ -597,7 +625,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 1,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-11T16:21:57+00:00",
