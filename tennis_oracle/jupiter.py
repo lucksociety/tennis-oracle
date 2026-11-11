@@ -14,6 +14,7 @@ import re
 import time
 import unicodedata
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -63,15 +64,19 @@ def _iso(s):
 def match_event(m, events):
     A, B = m["players"][0]["name"], m["players"][1]["name"]
     t0 = _iso(m["start_utc"]) if m.get("start_utc") else None
+    matches=[]
     for ev in events:
         if ev.get("subcategory") and m.get("tour") and ev["subcategory"] != m["tour"]: continue
         ps = event_players(ev)
         if not ps: continue
         s0, s1 = side(ps[0], A, B), side(ps[1], A, B)
         if not s0 or not s1 or s0 == s1: continue
-        if t0 and ev.get("beginAt") and abs(float(ev["beginAt"]) - t0) > 36 * 3600: continue
-        return ev
-    return None
+        if not t0 or not ev.get('beginAt'):continue
+        begin=float(ev['beginAt'])
+        if datetime.fromtimestamp(begin,timezone.utc).astimezone(ZoneInfo('America/New_York')).date()!=datetime.fromtimestamp(t0,timezone.utc).astimezone(ZoneInfo('America/New_York')).date():continue
+        matches.append(ev)
+    unique={ev["eventId"]:ev for ev in matches}
+    return next(iter(unique.values())) if len(unique)==1 else None
 
 
 def parse_label(lbl):
@@ -84,7 +89,7 @@ def parse_label(lbl):
 
 
 def cost(p):
-    return p + FEE_RATE * p * (1 - p)
+    return p + math.ceil((FEE_RATE * p * (1 - p) - 1e-12) * 100) / 100
 
 
 def r4(x):
@@ -182,7 +187,7 @@ def evaluate(m, ev, snapshot_at_utc=None):
         if price >= 0.99: o["skip"] = "ask at 0.99 placeholder (no real liquidity)"; outs.append(o); continue
         c = cost(price)
         o.update(price=r4(price), implied=r4(c), edge=r4(mp["p"] - c), ev_per_1=r4(mp["p"] / c - 1),
-                 eligible=bool(o["score_consistent"] and lower > 0.5 and lower > c and o["model_p"] > 0.5 and r4(mp["p"] / c - 1) > 0))
+                 eligible=bool(o["score_consistent"] and lower > 0.5 and lower > cost(min(.999,price+.01)) and o["model_p"] > 0.5 and r4(mp["p"] / c - 1) > 0))
         outs.append(o)
     priced = [o for o in outs if o.get("implied") is not None]
     elig = sorted([o for o in priced if o["eligible"]], key=lambda o: (-o["ev_per_1"], -o["model_p"]))

@@ -226,3 +226,7 @@ Ed25519 signature, defers, then posts the NY-date slate (winner, win %, final sc
 plus top-probability and top-EV leaderboards) in < 2000-char messages. Optional `date` option uses autocomplete (Today / Tomorrow / Yesterday / published slate dates; typed today, MM-DD, YYYY-MM-DD also work); always all ATP+WTA. `GET /api/bets?date=` returns live evaluations (CORS).
 Live: https://tennis-oracle.dreiss324.workers.dev (Interactions Endpoint: /interactions). Register the command with `DISCORD_BOT_TOKEN=... python scripts/register_commands.py --guild 780172495268610059` (currently a guild command in the Luck Society server; the global command list is empty to avoid duplicates); deploy with `worker/deploy.sh`.
 The bot token is NOT needed by the Worker (follow-ups use the interaction token).
+
+## November 11 execution reliability
+
+Discord recommendations now require a fresh Jupiter order book with a two-sided spread <=10c and at least max(10, ceil($5/ask)) contracts at the quoted ask or better. Higher-priced depth cannot justify a lower displayed price. Prices use a conservative rounded one-contract fee bound and must retain EV under a one-cent adverse quote. Actual fee depends on order size. Cached price comparisons remain historical information and cannot produce a live Discord bet. Distinct matching market IDs for the same players/date are ambiguous and do not match automatically. Predictions stay market-independent.

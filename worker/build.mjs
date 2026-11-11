@@ -4,4 +4,5 @@ const root = new URL('..', import.meta.url).pathname;
 const src = ['docs/engine.js', 'docs/markets.js'].map(f => `// ---- ${f} ----\n` + readFileSync(root + f, 'utf8')).join('\n');
 mkdirSync(root + 'worker/dist', { recursive: true });
 writeFileSync(root + 'worker/dist/index.js', src + '\n// ---- worker/src/index.js ----\n' + readFileSync(root + 'worker/src/index.js', 'utf8'));
+writeFileSync(root + 'worker/dist/execution.mjs', readFileSync(root + 'worker/src/execution.mjs', 'utf8'));
 console.log('built worker/dist/index.js');

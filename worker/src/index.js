@@ -1,3 +1,4 @@
+import {verifyRows} from './execution.mjs';
 // Encrypt short-lived interaction credentials before putting them in public workflow inputs.
 export async function dispatchModel(env, interaction, date, workflow, repo) {
   const app = env.DISCORD_APPLICATION_ID || interaction.application_id;
@@ -94,7 +95,13 @@ async function bestBets(env, day, slate) {
   const dash = env.DASHBOARD_URL;
   const live = await M.fetchEvents(fetch, { gap_ms: 2100, apiKey: env.JUPITER_API_KEY });
   if (live.events.length) {
-    const rows = M.evaluateSlate(slate, live.events, { snapshot_at_utc: live.fetched_at_utc });
+    let rows = M.evaluateSlate(slate, live.events, { snapshot_at_utc: live.fetched_at_utc });
+    let last=Date.now();
+    rows=await verifyRows(slate,rows,async id=>{
+      const delay=last+2100-Date.now();if(delay>0)await new Promise(r=>setTimeout(r,delay));last=Date.now();
+      const r=await fetch(M.API+'/orderbook/'+encodeURIComponent(id),{cache:'no-store',headers:env.JUPITER_API_KEY?{'x-api-key':env.JUPITER_API_KEY}:{},signal:AbortSignal.timeout(10000)});
+      if(!r.ok)throw Error('Order book HTTP '+r.status);return r.json();
+    });
     return { source: 'live', at: live.fetched_at_utc, errors: live.errors, rows, events: live.events };
   }
   try {
@@ -190,6 +197,7 @@ export async function buildReport(env, day, tour) {
   bb.rows = bb.rows.map(r => {
     const m = slate.matches.find(m => String(m.espn_id) === String(r.espn_id));
     const start = Date.parse(m?.start_utc);
+    if(bb.source!=='live'||!Number.isFinite(Date.parse(bb.at))||publicationNow<Date.parse(bb.at)||publicationNow-Date.parse(bb.at)>300000)r={...r,status:'pricing_blocked',best:null,n_eligible:0,verdict:'NO BET (fresh live prices unavailable; saved comparison is historical only)',outcomes:(r.outcomes||[]).map(o=>({...o,eligible:false}))};
     r = { ...r, outcomes: (r.outcomes || []).map(o => ({ ...o, eligible: !!o.eligible && M.recommendationMatchesScore(m,o) })) };
     if (r.best && !M.recommendationMatchesScore(m,r.best)) r = { ...r, status: 'no_bet', best: null, n_eligible: 0, verdict: 'NO BET (bet does not win at displayed predicted score)' };
     return !Number.isFinite(start) || publicationNow >= start

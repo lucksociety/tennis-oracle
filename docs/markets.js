@@ -43,15 +43,18 @@
   function matchEvent(m, events) {
     const [A, B] = [m.players[0].name, m.players[1].name];
     const t0 = m.start_utc ? Date.parse(m.start_utc) / 1000 : null;
+    const matches=new Map();
     for (const ev of events) {
       if (ev.subcategory && m.tour && ev.subcategory !== m.tour) continue;
       const ps = eventPlayers(ev); if (!ps) continue;
       const s0 = side(ps[0], A, B), s1 = side(ps[1], A, B);
       if (!s0 || !s1 || s0 === s1) continue;
-      if (t0 && ev.beginAt && Math.abs(Number(ev.beginAt) - t0) > 36 * 3600) continue;
-      return ev;
+      if(!t0||!ev.beginAt)continue;
+      const day=x=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York'}).format(new Date(x*1000));
+      if(day(t0)!==day(Number(ev.beginAt)))continue;
+      matches.set(ev.eventId,ev);
     }
-    return null;
+    return matches.size===1?[...matches.values()][0]:null;
   }
   function parseLabel(lbl) {            // "Jan-Lennard Struff -1.5" -> {name, line:-1.5}; "Over 21.5" -> {ou:'over', line}
     const s = String(lbl || '').trim();
@@ -61,7 +64,7 @@
     if (r) return { name: r[1], line: Number(r[2]) };
     return { name: s, line: null };
   }
-  function cost(p) { return p + FEE_RATE * p * (1 - p); }
+  function cost(p) { return p + Math.ceil((FEE_RATE * p * (1 - p) - 1e-12) * 100) / 100; }
   const r4 = x => Math.round(x * 1e4) / 1e4;
 
   // model probability of one market outcome from the frozen distribution (A/B = slate order), or {skip}
@@ -142,7 +145,7 @@
       const c = cost(price);
       o.price = r4(price); o.implied = r4(c); o.edge = r4(mp.p - c); o.ev_per_1 = r4(mp.p / c - 1);
       o.score_consistent = scoreSupports(mk,lab,f,A,B,bo);
-      o.eligible = o.score_consistent && lower > 0.5 && lower > c && o.model_p > 0.5 && o.ev_per_1 > 0;
+      o.eligible = o.score_consistent && lower > 0.5 && lower > cost(Math.min(.999,price+.01)) && o.model_p > 0.5 && o.ev_per_1 > 0;
       outs.push(o);
     }
     const priced = outs.filter(o => o.implied != null);
