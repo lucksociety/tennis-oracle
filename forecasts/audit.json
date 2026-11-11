@@ -1,36 +1,36 @@
 {
- "generated_at_utc": "2026-11-10T21:51:47+00:00",
+ "generated_at_utc": "2026-11-11T06:21:20+00:00",
  "summary": {
-  "n": 427,
-  "brier": 0.22756144103044496,
-  "log_loss": 0.6492606445509812,
-  "accuracy": 0.6182669789227166,
-  "games_mae": 5.262740046838408,
-  "exact_sets_accuracy": 0.4262295081967213,
-  "tiebreak_brier": 0.1949308443325527
+  "n": 430,
+  "brier": 0.22733779313953487,
+  "log_loss": 0.6487199385133051,
+  "accuracy": 0.6186046511627907,
+  "games_mae": 5.276767441860466,
+  "exact_sets_accuracy": 0.4232558139534884,
+  "tiebreak_brier": 0.1952540703488372
  },
- "n": 427,
+ "n": 430,
  "overall": {
-  "n": 427,
-  "brier": 0.22756144103044496,
-  "log_loss": 0.6492606445509812,
-  "accuracy": 0.6182669789227166
+  "n": 430,
+  "brier": 0.22733779313953487,
+  "log_loss": 0.6487199385133051,
+  "accuracy": 0.6186046511627907
  },
- "games_mae": 5.262740046838408,
- "exact_sets_accuracy": 0.4262295081967213,
- "tiebreak_brier": 0.1949308443325527,
+ "games_mae": 5.276767441860466,
+ "exact_sets_accuracy": 0.4232558139534884,
+ "tiebreak_brier": 0.1952540703488372,
  "by_surface": {
   "Clay": {
-   "n": 52,
-   "brier": 0.17980327057692308,
-   "log_loss": 0.5441025491130586,
-   "accuracy": 0.75
+   "n": 54,
+   "brier": 0.17698289185185184,
+   "log_loss": 0.5380003493089555,
+   "accuracy": 0.7592592592592593
   },
   "Hard": {
-   "n": 375,
-   "brier": 0.2341839073333333,
-   "log_loss": 0.6638425671183731,
-   "accuracy": 0.6
+   "n": 376,
+   "brier": 0.23456961406914892,
+   "log_loss": 0.6646211561118022,
+   "accuracy": 0.598404255319149
   }
  },
  "by_tour": {
@@ -41,30 +41,30 @@
    "accuracy": 0.589041095890411
   },
   "wta": {
-   "n": 281,
-   "brier": 0.22430870861209964,
-   "log_loss": 0.6410454082727572,
-   "accuracy": 0.6334519572953736
+   "n": 284,
+   "brier": 0.22400444665492955,
+   "log_loss": 0.6403135143031585,
+   "accuracy": 0.6338028169014085
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 103,
-   "brier": 0.24284937271844664,
-   "log_loss": 0.685727252589042,
-   "accuracy": 0.6116504854368932
+   "n": 104,
+   "brier": 0.24416052913461536,
+   "log_loss": 0.6883317215896058,
+   "accuracy": 0.6057692307692307
   },
   "LOW": {
-   "n": 167,
-   "brier": 0.21798685754491018,
-   "log_loss": 0.627433381140053,
-   "accuracy": 0.6586826347305389
+   "n": 168,
+   "brier": 0.21698985297619047,
+   "log_loss": 0.6252135707032506,
+   "accuracy": 0.6607142857142857
   },
   "MEDIUM": {
-   "n": 157,
-   "brier": 0.22771620840764328,
-   "log_loss": 0.6485542264726675,
-   "accuracy": 0.5796178343949044
+   "n": 158,
+   "brier": 0.2272674729113924,
+   "log_loss": 0.6476404723876968,
+   "accuracy": 0.5822784810126582
   }
  },
  "calibration": [
@@ -76,15 +76,15 @@
   },
   {
    "bucket": "60%-70%",
-   "n": 142,
-   "mean_pred": 0.6489718309859155,
-   "observed": 0.7183098591549296
+   "n": 144,
+   "mean_pred": 0.6484291666666667,
+   "observed": 0.7152777777777778
   },
   {
    "bucket": "70%-80%",
-   "n": 55,
-   "mean_pred": 0.7358199999999998,
-   "observed": 0.8
+   "n": 56,
+   "mean_pred": 0.7365250000000001,
+   "observed": 0.8035714285714286
   },
   {
    "bucket": "80%-90%",
@@ -17993,6 +17993,90 @@
    "version": "v1.1"
   },
   {
+   "match": "Laura Samson vs Carolina Alves",
+   "date": "2026-11-10",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.604,
+   "a_won": 1,
+   "pred_winner": "Laura Samson",
+   "actual_winner": "Laura Samson",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.1984,
+   "exp_games": 22.2,
+   "actual_games": 33,
+   "p_tb": 0.2372,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.5646,
+     1
+    ],
+    "A -2.5": [
+     0.5267,
+     1
+    ],
+    "A -3.5": [
+     0.4707,
+     1
+    ],
+    "A -4.5": [
+     0.3893,
+     1
+    ],
+    "A -5.5": [
+     0.3015,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
+   "match": "Maria Lourdes Carle vs Valentina Mediorreal Arias",
+   "date": "2026-11-10",
+   "tour": "wta",
+   "surface": "Clay",
+   "level": "DIRECTV Open Presentado por Compesar",
+   "p_a": 0.7753,
+   "a_won": 1,
+   "pred_winner": "Maria Lourdes Carle",
+   "actual_winner": "Maria Lourdes Carle",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.195,
+   "exp_games": 21.08,
+   "actual_games": 27,
+   "p_tb": 0.1952,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.7434,
+     1
+    ],
+    "A -2.5": [
+     0.7109,
+     1
+    ],
+    "A -3.5": [
+     0.6583,
+     1
+    ],
+    "A -4.5": [
+     0.5747,
+     1
+    ],
+    "A -5.5": [
+     0.4744,
+     0
+    ]
+   },
+   "data_quality": "LOW",
+   "version": "v1.1"
+  },
+  {
    "match": "Marta Kostyuk vs Jessica Pegula",
    "date": "2026-11-10",
    "tour": "wta",
@@ -18028,6 +18112,48 @@
     ],
     "A -5.5": [
      0.1137,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Coco Gauff vs Linda Noskova",
+   "date": "2026-11-10",
+   "tour": "wta",
+   "surface": "Hard",
+   "level": "FAGE WTA Finals Indian Wells",
+   "p_a": 0.6158,
+   "a_won": 0,
+   "pred_winner": "Coco Gauff",
+   "actual_winner": "Linda Noskova",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.2204,
+   "exp_games": 23.1,
+   "actual_games": 18,
+   "p_tb": 0.3222,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5693,
+     0
+    ],
+    "A -2.5": [
+     0.522,
+     0
+    ],
+    "A -3.5": [
+     0.4499,
+     0
+    ],
+    "A -4.5": [
+     0.3506,
+     0
+    ],
+    "A -5.5": [
+     0.2543,
      0
     ]
    },
