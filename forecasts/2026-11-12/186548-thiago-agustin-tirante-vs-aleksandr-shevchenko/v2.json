@@ -1,0 +1,664 @@
+{
+ "predicted_winner": "Thiago Agustin Tirante",
+ "win_prob": {
+  "A": 0.5739,
+  "B": 0.4261
+ },
+ "win_prob_exact": {
+  "A": 0.57386,
+  "B": 0.42613999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.74,
+   "american": "-135"
+  },
+  "B": {
+   "decimal": 2.35,
+   "american": "+135"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3554,
+  "0-2": 0.2379,
+  "2-1": 0.2184,
+  "1-2": 0.1882
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0303,
+ "games": {
+  "mean": 25.27,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.35,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00013,
+   "13": 0.00133,
+   "14": 0.00419,
+   "15": 0.01247,
+   "16": 0.02152,
+   "17": 0.04518,
+   "18": 0.05481,
+   "19": 0.07605,
+   "20": 0.07391,
+   "21": 0.0476,
+   "22": 0.09593,
+   "23": 0.08021,
+   "24": 0.00752,
+   "25": 0.03296,
+   "26": 0.06653,
+   "27": 0.02095,
+   "28": 0.02818,
+   "29": 0.03056,
+   "30": 0.03277,
+   "31": 0.04644,
+   "32": 0.05119,
+   "33": 0.03307,
+   "34": 0.02446,
+   "35": 0.04522,
+   "36": 0.03447,
+   "37": 0.00249,
+   "38": 0.01102,
+   "39": 0.01884
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 4e-05,
+  "-11": 0.00043,
+  "-10": 0.00141,
+  "-9": 0.00404,
+  "-8": 0.0082,
+  "-7": 0.02082,
+  "-6": 0.03353,
+  "-5": 0.05988,
+  "-4": 0.08461,
+  "-3": 0.08136,
+  "-2": 0.0671,
+  "-1": 0.04335,
+  "0": 0.04062,
+  "1": 0.04557,
+  "2": 0.07855,
+  "3": 0.10269,
+  "4": 0.1172,
+  "5": 0.08733,
+  "6": 0.05603,
+  "7": 0.03784,
+  "8": 0.01632,
+  "9": 0.00914,
+  "10": 0.00293,
+  "11": 0.00092,
+  "12": 9e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9152,
+   "under": 0.0848
+  },
+  {
+   "line": 18.5,
+   "over": 0.8604,
+   "under": 0.1396
+  },
+  {
+   "line": 19.5,
+   "over": 0.7843,
+   "under": 0.2157
+  },
+  {
+   "line": 20.5,
+   "over": 0.7104,
+   "under": 0.2896
+  },
+  {
+   "line": 21.5,
+   "over": 0.6628,
+   "under": 0.3372
+  },
+  {
+   "line": 22.5,
+   "over": 0.5669,
+   "under": 0.4331
+  },
+  {
+   "line": 23.5,
+   "over": 0.4867,
+   "under": 0.5133
+  },
+  {
+   "line": 24.5,
+   "over": 0.4791,
+   "under": 0.5209
+  },
+  {
+   "line": 25.5,
+   "over": 0.4462,
+   "under": 0.5538
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.509,
+   "B +1.5": 0.491,
+   "B -1.5": 0.3614,
+   "A +1.5": 0.6386
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4305,
+   "B +2.5": 0.5695,
+   "B -2.5": 0.2943,
+   "A +2.5": 0.7057
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3278,
+   "B +3.5": 0.6722,
+   "B -3.5": 0.213,
+   "A +3.5": 0.787
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2106,
+   "B +4.5": 0.7894,
+   "B -4.5": 0.1283,
+   "A +4.5": 0.8717
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1233,
+   "B +5.5": 0.8767,
+   "B -5.5": 0.0685,
+   "A +5.5": 0.9315
+  }
+ ],
+ "p_tiebreak": 0.5422,
+ "p_a_wins_set": 0.7621,
+ "p_b_wins_set": 0.6446,
+ "p_decider": 0.4066,
+ "expected_breaks": {
+  "total": 3.35,
+  "by_A": 1.84,
+  "by_B": 1.51
+ },
+ "expected_break_points": {
+  "A_creates": 5.28,
+  "B_creates": 4.57
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3554
+ },
+ "match": "Thiago Agustin Tirante vs Aleksandr Shevchenko",
+ "players": {
+  "A": {
+   "id": "atp:202058",
+   "name": "Thiago Agustin Tirante",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 60.0,
+   "age": 25.56817248459959,
+   "elo": 1756.5,
+   "surface_elo": {
+    "Hard": 1661.2,
+    "Clay": 1810.0,
+    "Grass": 1445.6
+   },
+   "matches_total": 72,
+   "matches_surface": {
+    "Hard": 31,
+    "Clay": 38,
+    "Grass": 3
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    3,
+    7
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    28,
+    21
+   ],
+   "last52w_surface": [
+    13,
+    12
+   ],
+   "career_surface_wl": [
+    15,
+    16
+   ],
+   "games_won_lost_52w": [
+    640,
+    632
+   ],
+   "sets_won_lost_52w": [
+    68,
+    59
+   ],
+   "avg_opp_elo_last20": 1771.3,
+   "vs_top_opp_52w": [
+    5,
+    5
+   ],
+   "serve_rating": 0.2013,
+   "return_rating": 0.0062,
+   "form_elo": -54.3,
+   "last_match": "2026-11-08",
+   "last_stats_match": "2026-11-08",
+   "stats_52w": {
+    "first_in": 0.593,
+    "first_won": 0.7618,
+    "second_won": 0.5072,
+    "serve_pts_won": 0.6582,
+    "hold": 0.8247,
+    "aces_per_svgm": 0.6985,
+    "df_per_svgm": 0.2371,
+    "bp_saved": 0.6114,
+    "ret_pts_won": 0.3506,
+    "ret_1st_won": 0.2886,
+    "ret_2nd_won": 0.4593,
+    "ret_games_won": 0.1897,
+    "bp_conv": 0.4,
+    "bp_chances_per_retgm": 0.4744,
+    "matches_with_stats": 32
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     130.0
+    ],
+    [
+     "2025-08-07",
+     135.0
+    ],
+    [
+     "2026-01-19",
+     103.0
+    ],
+    [
+     "2026-02-07",
+     95.0
+    ],
+    [
+     "2026-02-16",
+     92.0
+    ],
+    [
+     "2026-02-23",
+     76.0
+    ],
+    [
+     "2026-03-18",
+     81.0
+    ],
+    [
+     "2026-03-30",
+     83.0
+    ],
+    [
+     "2026-04-22",
+     75.0
+    ],
+    [
+     "2026-05-06",
+     69.0
+    ],
+    [
+     "2026-05-17",
+     58.0
+    ],
+    [
+     "2026-05-25",
+     60.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:espn8710",
+   "name": "Aleksandr Shevchenko",
+   "tour": "atp",
+   "hand": "U",
+   "rank": null,
+   "age": null,
+   "elo": 1690.2,
+   "surface_elo": {
+    "Hard": 1635.5,
+    "Clay": 1640.3,
+    "Grass": 1407.8
+   },
+   "matches_total": 20,
+   "matches_surface": {
+    "Hard": 13,
+    "Clay": 5,
+    "Grass": 2
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    5,
+    5
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    9,
+    11
+   ],
+   "last52w_surface": [
+    6,
+    7
+   ],
+   "career_surface_wl": [
+    6,
+    7
+   ],
+   "games_won_lost_52w": [
+    245,
+    243
+   ],
+   "sets_won_lost_52w": [
+    23,
+    27
+   ],
+   "avg_opp_elo_last20": 1687.8,
+   "vs_top_opp_52w": [
+    1,
+    1
+   ],
+   "serve_rating": 0.0843,
+   "return_rating": -0.0143,
+   "form_elo": 94.0,
+   "last_match": "2026-11-11",
+   "last_stats_match": "2026-09-24",
+   "stats_52w": {
+    "first_in": 0.6165,
+    "first_won": 0.733,
+    "second_won": 0.5273,
+    "serve_pts_won": 0.6541,
+    "hold": 0.8158,
+    "aces_per_svgm": 0.5614,
+    "df_per_svgm": 0.2632,
+    "bp_saved": 0.6441,
+    "ret_pts_won": 0.3183,
+    "ret_1st_won": 0.218,
+    "ret_2nd_won": 0.4697,
+    "ret_games_won": 0.1441,
+    "bp_conv": 0.3902,
+    "bp_chances_per_retgm": 0.3694,
+    "matches_with_stats": 8
+   },
+   "rank_history": []
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Quarterfinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-11",
+ "forecast_date": "2026-11-12",
+ "performance_revision": "0855bb5665ff02b3",
+ "data_quality": "MEDIUM",
+ "data_quality_notes": [
+  "Aleksandr Shevchenko: limited recent/surface sample (20 matches 52w, 13 career on Hard, 8 with stats)"
+ ],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 53.6,
+  "components_elo": {
+   "surface_elo": 25.7,
+   "overall_elo": 66.3,
+   "serve_return": 99.1,
+   "form": -148.3
+  },
+  "weighted_contributions": {
+   "surface_elo": 3.1,
+   "overall_elo": 15.7,
+   "serve_return": 34.6,
+   "form": 0.2
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5766,
+  "serve_return_implied_spw": {
+   "A": 0.6964,
+   "B": 0.6666
+  },
+  "point_probs": {
+   "A_serve": 0.6927,
+   "B_serve": 0.6705
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6927313219200737,
+   "B_serve": 0.6704895010667409
+  },
+  "hold_probs": {
+   "A": 0.8919,
+   "B": 0.8616
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5739,
+   0.576
+  ],
+  "p_tb": [
+   0.5422,
+   0.543
+  ],
+  "p_decider": [
+   0.4066,
+   0.4036
+  ],
+  "games_mean": [
+   25.27,
+   25.244
+  ],
+  "exp_breaks": [
+   3.349,
+   3.342
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2379,
+    0.239
+   ],
+   "1-2": [
+    0.1882,
+    0.185
+   ],
+   "2-0": [
+    0.3554,
+    0.3574
+   ],
+   "2-1": [
+    0.2184,
+    0.2186
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0032
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Thiago Agustin Tirante",
+   "elo_points": 34.6,
+   "raw_diff": 99.1,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Thiago Agustin Tirante",
+   "elo_points": 15.7,
+   "raw_diff": 66.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Thiago Agustin Tirante",
+   "elo_points": 3.1,
+   "raw_diff": 25.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5072,
+   "B": 0.5273,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3506,
+   "B": 0.3183,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6927,
+   "B": 0.6705,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8604,
+  "fair_odds": {
+   "decimal": 1.16,
+   "american": "-616"
+  },
+  "confidence": "Medium",
+  "main_risk": "Total-games distribution is wide (sd 6.35 games; p10-p90 18-35); a single tiebreak or deciding set swings it. Data quality MEDIUM: Aleksandr Shevchenko: limited recent/surface sample (20 matches 52w, 13 career on Hard, 8 with stats)",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8604,
+    "fair_decimal": 1.16
+   },
+   {
+    "selection": "Aleksandr Shevchenko +4.5 games",
+    "probability": 0.7894,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Thiago Agustin Tirante to win at least one set",
+    "probability": 0.7621,
+    "fair_decimal": 1.31
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7104,
+    "fair_decimal": 1.41
+   },
+   {
+    "selection": "Aleksandr Shevchenko to win at least one set",
+    "probability": 0.6446,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5934,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Thiago Agustin Tirante to win",
+    "probability": 0.5739,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Aleksandr Shevchenko +2.5 games",
+    "probability": 0.5695,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5669,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5422,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5209,
+    "fair_decimal": 1.92
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4791,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4578,
+    "fair_decimal": 2.18
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4331,
+    "fair_decimal": 2.31
+   },
+   {
+    "selection": "Thiago Agustin Tirante -2.5 games",
+    "probability": 0.4305,
+    "fair_decimal": 2.32
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-11",
+ "freeze": {
+  "frozen_at_utc": "2026-11-12T07:10:14+00:00",
+  "version": 2,
+  "input_hash": "618b515769ea69a3",
+  "reason": "performance inputs or format refreshed (results through 2026-11-11)",
+  "pre_match": true,
+  "espn_id": "186548",
+  "scheduled_start_utc": "2026-11-12T14:00Z"
+ }
+}
