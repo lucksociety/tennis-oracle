@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
- "n": 15,
- "passed": 15,
+ "n": 17,
+ "passed": 17,
  "results": [
   {
    "match": "Thiago Agustin Tirante vs Aleksandr Shevchenko",
@@ -166,6 +166,24 @@
    "file": "forecasts/2026-11-12/186550-lorenzo-musetti-vs-ugo-humbert/v3.json"
   },
   {
+   "match": "Lorenzo Musetti vs Ugo Humbert",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0029,
+   "reproduction": {
+    "frozen_p_a": 0.5582,
+    "rerun_p_a": 0.5582,
+    "frozen_games_mean": 24.84,
+    "rerun_games_mean": 24.84,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/186550-lorenzo-musetti-vs-ugo-humbert/v4.json"
+  },
+  {
    "match": "Taylor Fritz vs Holger Rune",
    "n_sims": 100000,
    "seed": 20261027,
@@ -200,6 +218,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-12/186551-taylor-fritz-vs-holger-rune/v2.json"
+  },
+  {
+   "match": "Taylor Fritz vs Holger Rune",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0013,
+   "reproduction": {
+    "frozen_p_a": 0.6307,
+    "rerun_p_a": 0.6307,
+    "frozen_games_mean": 24.94,
+    "rerun_games_mean": 24.94,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-12/186551-taylor-fritz-vs-holger-rune/v3.json"
   },
   {
    "match": "Marta Kostyuk vs Coco Gauff",
