@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-14",
+ "timezone": "America/New_York",
+ "generated_at_utc": "2026-11-13T12:13:26+00:00",
+ "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+ "model_version": "v1.1",
+ "matches": [
+  {
+   "espn_id": "186552",
+   "tour": "atp",
+   "tournament": "Bybit Stockholm Open",
+   "venue": "Stockholm, Sweden",
+   "round": "Final",
+   "court": "",
+   "start_utc": "2026-11-14T05:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "TBD",
+     "id": null
+    },
+    {
+     "name": "TBD",
+     "id": null
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "venue-history",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  }
+ ]
+}
