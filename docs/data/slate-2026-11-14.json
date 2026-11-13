@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-13T12:13:26+00:00",
+ "generated_at_utc": "2026-11-13T19:42:49+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -11,18 +11,18 @@
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Final",
-   "court": "",
-   "start_utc": "2026-11-14T05:00Z",
+   "court": "Center Court",
+   "start_utc": "2026-11-14T12:00Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Taylor Fritz",
+     "id": "atp:126203"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Thiago Agustin Tirante",
+     "id": "atp:202058"
     }
    ],
    "surface": "Hard",
@@ -31,8 +31,113 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-13T19:42:49+00:00",
+    "path": "forecasts/2026-11-14/186552-taylor-fritz-vs-thiago-agustin-tirante/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Taylor Fritz",
+    "win_prob": {
+     "A": 0.7608,
+     "B": 0.2392
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.5362
+    },
+    "games_mean": 24.55,
+    "strongest": {
+     "selection": "Taylor Fritz to win at least one set",
+     "probability": 0.8808,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.7608,
+      "B": 0.2392
+     },
+     "set_score_probs": {
+      "2-0": 0.5362,
+      "2-1": 0.2246,
+      "1-2": 0.1199,
+      "0-2": 0.1192
+     },
+     "games_pmf": {
+      "12": 0.00033,
+      "13": 0.00224,
+      "14": 0.00678,
+      "15": 0.01807,
+      "16": 0.02975,
+      "17": 0.05538,
+      "18": 0.06317,
+      "19": 0.08224,
+      "20": 0.07867,
+      "21": 0.05117,
+      "22": 0.09648,
+      "23": 0.08422,
+      "24": 0.00676,
+      "25": 0.03206,
+      "26": 0.0682,
+      "27": 0.01544,
+      "28": 0.02207,
+      "29": 0.02377,
+      "30": 0.02621,
+      "31": 0.03853,
+      "32": 0.04398,
+      "33": 0.02796,
+      "34": 0.02025,
+      "35": 0.04052,
+      "36": 0.03345,
+      "37": 0.00194,
+      "38": 0.01049,
+      "39": 0.01987
+     },
+     "games_diff_pmf": {
+      "-11": 8e-05,
+      "-10": 0.00016,
+      "-9": 0.00088,
+      "-8": 0.00196,
+      "-7": 0.00686,
+      "-6": 0.01168,
+      "-5": 0.02697,
+      "-4": 0.04296,
+      "-3": 0.04904,
+      "-2": 0.04814,
+      "-1": 0.03157,
+      "0": 0.0345,
+      "1": 0.043,
+      "2": 0.08956,
+      "3": 0.12759,
+      "4": 0.15235,
+      "5": 0.12504,
+      "6": 0.08714,
+      "7": 0.06245,
+      "8": 0.03107,
+      "9": 0.01777,
+      "10": 0.00674,
+      "11": 0.00216,
+      "12": 0.00033
+     },
+     "p_tiebreak": 0.5314,
+     "p_decider": 0.3446
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0018
+   }
   }
  ]
 }

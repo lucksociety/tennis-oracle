@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-13T12:13:38+00:00",
+ "generated_at_utc": "2026-11-13T19:43:03+00:00",
  "summary": {
-  "n": 154,
-  "brier": 0.2343675462337662,
-  "log_loss": 0.6664329344001656,
-  "accuracy": 0.5974025974025974,
-  "games_mae": 5.283441558441559,
-  "exact_sets_accuracy": 0.3961038961038961,
-  "tiebreak_brier": 0.24219928701298699
+  "n": 156,
+  "brier": 0.23478113185897434,
+  "log_loss": 0.6672107211042684,
+  "accuracy": 0.5961538461538461,
+  "games_mae": 5.263269230769231,
+  "exact_sets_accuracy": 0.3974358974358974,
+  "tiebreak_brier": 0.24208902365384616
  },
- "n": 154,
+ "n": 156,
  "overall": {
-  "n": 154,
-  "brier": 0.2343675462337662,
-  "log_loss": 0.6664329344001656,
-  "accuracy": 0.5974025974025974
+  "n": 156,
+  "brier": 0.23478113185897434,
+  "log_loss": 0.6672107211042684,
+  "accuracy": 0.5961538461538461
  },
- "games_mae": 5.283441558441559,
- "exact_sets_accuracy": 0.3961038961038961,
- "tiebreak_brier": 0.24219928701298699,
+ "games_mae": 5.263269230769231,
+ "exact_sets_accuracy": 0.3974358974358974,
+ "tiebreak_brier": 0.24208902365384616,
  "by_surface": {
   "Hard": {
-   "n": 154,
-   "brier": 0.2343675462337662,
-   "log_loss": 0.6664329344001656,
-   "accuracy": 0.5974025974025974
+   "n": 156,
+   "brier": 0.23478113185897434,
+   "log_loss": 0.6672107211042684,
+   "accuracy": 0.5961538461538461
   }
  },
  "by_tour": {
   "atp": {
-   "n": 154,
-   "brier": 0.2343675462337662,
-   "log_loss": 0.6664329344001656,
-   "accuracy": 0.5974025974025974
+   "n": 156,
+   "brier": 0.23478113185897434,
+   "log_loss": 0.6672107211042684,
+   "accuracy": 0.5961538461538461
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 54,
-   "brier": 0.24929110518518516,
-   "log_loss": 0.7013035914162936,
-   "accuracy": 0.5925925925925926
+   "n": 56,
+   "brier": 0.24991025232142855,
+   "log_loss": 0.7022249023414322,
+   "accuracy": 0.5892857142857143
   },
   "LOW": {
    "n": 17,
@@ -58,9 +58,9 @@
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 63,
-   "mean_pred": 0.5512492063492064,
-   "observed": 0.4444444444444444
+   "n": 65,
+   "mean_pred": 0.5520892307692307,
+   "observed": 0.4461538461538462
   },
   {
    "bucket": "60%-70%",
@@ -6551,6 +6551,90 @@
     "A -5.5": [
      0.1337,
      0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alejandro Tabilo vs Thiago Agustin Tirante",
+   "date": "2026-11-13",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5889,
+   "a_won": 0,
+   "pred_winner": "Alejandro Tabilo",
+   "actual_winner": "Thiago Agustin Tirante",
+   "pred_sets": "2-0",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.229,
+   "exp_games": 25.36,
+   "actual_games": 25,
+   "p_tb": 0.5585,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.523,
+     0
+    ],
+    "A -2.5": [
+     0.4416,
+     0
+    ],
+    "A -3.5": [
+     0.333,
+     0
+    ],
+    "A -4.5": [
+     0.2133,
+     0
+    ],
+    "A -5.5": [
+     0.1228,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Taylor Fritz vs Lorenzo Musetti",
+   "date": "2026-11-13",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5682,
+   "a_won": 1,
+   "pred_winner": "Taylor Fritz",
+   "actual_winner": "Taylor Fritz",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.3539,
+   "exp_games": 25.06,
+   "actual_games": 18,
+   "p_tb": 0.5218,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.5057,
+     1
+    ],
+    "A -2.5": [
+     0.4311,
+     1
+    ],
+    "A -3.5": [
+     0.331,
+     1
+    ],
+    "A -4.5": [
+     0.2176,
+     1
+    ],
+    "A -5.5": [
+     0.1289,
+     1
     ]
    },
    "data_quality": "HIGH",
