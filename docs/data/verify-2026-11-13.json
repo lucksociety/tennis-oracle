@@ -1,6 +1,43 @@
 {
  "date": "2026-11-13",
- "n": 0,
- "passed": 0,
- "results": []
+ "n": 2,
+ "passed": 2,
+ "results": [
+  {
+   "match": "Alejandro Tabilo vs Thiago Agustin Tirante",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0013,
+   "reproduction": {
+    "frozen_p_a": 0.5904,
+    "rerun_p_a": 0.5904,
+    "frozen_games_mean": 25.38,
+    "rerun_games_mean": 25.38,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-13/186546-alejandro-tabilo-vs-thiago-agustin-tirante/v1.json"
+  },
+  {
+   "match": "Taylor Fritz vs Lorenzo Musetti",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0041,
+   "reproduction": {
+    "frozen_p_a": 0.5704,
+    "rerun_p_a": 0.5704,
+    "frozen_games_mean": 25.09,
+    "rerun_games_mean": 25.09,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-13/186547-taylor-fritz-vs-lorenzo-musetti/v1.json"
+  }
+ ]
 }

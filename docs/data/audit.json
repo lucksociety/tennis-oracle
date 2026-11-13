@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-12T16:49:34+00:00",
+ "generated_at_utc": "2026-11-13T01:05:52+00:00",
  "summary": {
-  "n": 152,
-  "brier": 0.2349727215131579,
-  "log_loss": 0.6677127225386695,
-  "accuracy": 0.5921052631578947,
-  "games_mae": 5.241842105263157,
-  "exact_sets_accuracy": 0.40131578947368424,
-  "tiebreak_brier": 0.24234541184210528
+  "n": 154,
+  "brier": 0.2343675462337662,
+  "log_loss": 0.6664329344001656,
+  "accuracy": 0.5974025974025974,
+  "games_mae": 5.283441558441559,
+  "exact_sets_accuracy": 0.3961038961038961,
+  "tiebreak_brier": 0.24219928701298699
  },
- "n": 152,
+ "n": 154,
  "overall": {
-  "n": 152,
-  "brier": 0.2349727215131579,
-  "log_loss": 0.6677127225386695,
-  "accuracy": 0.5921052631578947
+  "n": 154,
+  "brier": 0.2343675462337662,
+  "log_loss": 0.6664329344001656,
+  "accuracy": 0.5974025974025974
  },
- "games_mae": 5.241842105263157,
- "exact_sets_accuracy": 0.40131578947368424,
- "tiebreak_brier": 0.24234541184210528,
+ "games_mae": 5.283441558441559,
+ "exact_sets_accuracy": 0.3961038961038961,
+ "tiebreak_brier": 0.24219928701298699,
  "by_surface": {
   "Hard": {
-   "n": 152,
-   "brier": 0.2349727215131579,
-   "log_loss": 0.6677127225386695,
-   "accuracy": 0.5921052631578947
+   "n": 154,
+   "brier": 0.2343675462337662,
+   "log_loss": 0.6664329344001656,
+   "accuracy": 0.5974025974025974
   }
  },
  "by_tour": {
   "atp": {
-   "n": 152,
-   "brier": 0.2349727215131579,
-   "log_loss": 0.6677127225386695,
-   "accuracy": 0.5921052631578947
+   "n": 154,
+   "brier": 0.2343675462337662,
+   "log_loss": 0.6664329344001656,
+   "accuracy": 0.5974025974025974
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 53,
-   "brier": 0.25031193283018865,
-   "log_loss": 0.7035350184641498,
-   "accuracy": 0.5849056603773585
+   "n": 54,
+   "brier": 0.24929110518518516,
+   "log_loss": 0.7013035914162936,
+   "accuracy": 0.5925925925925926
   },
   "LOW": {
    "n": 17,
@@ -49,18 +49,18 @@
    "accuracy": 0.7647058823529411
   },
   "MEDIUM": {
-   "n": 82,
-   "brier": 0.2375326525609756,
-   "log_loss": 0.6716768635530248,
-   "accuracy": 0.5609756097560976
+   "n": 83,
+   "brier": 0.2368582978313253,
+   "log_loss": 0.6702747340387453,
+   "accuracy": 0.5662650602409639
   }
  },
  "calibration": [
   {
    "bucket": "50%-60%",
-   "n": 61,
-   "mean_pred": 0.5507639344262295,
-   "observed": 0.4262295081967213
+   "n": 63,
+   "mean_pred": 0.5512492063492064,
+   "observed": 0.4444444444444444
   },
   {
    "bucket": "60%-70%",
@@ -6431,6 +6431,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Thiago Agustin Tirante vs Aleksandr Shevchenko",
+   "date": "2026-11-12",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5739,
+   "a_won": 1,
+   "pred_winner": "Thiago Agustin Tirante",
+   "actual_winner": "Thiago Agustin Tirante",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.2184,
+   "exp_games": 25.27,
+   "actual_games": 35,
+   "p_tb": 0.5422,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.509,
+     1
+    ],
+    "A -2.5": [
+     0.4305,
+     1
+    ],
+    "A -3.5": [
+     0.3278,
+     0
+    ],
+    "A -4.5": [
+     0.2106,
+     0
+    ],
+    "A -5.5": [
+     0.1233,
+     0
+    ]
+   },
+   "data_quality": "MEDIUM",
+   "version": "v1.1"
+  },
+  {
    "match": "Alex Michelsen vs Alejandro Tabilo",
    "date": "2026-11-12",
    "tour": "atp",
@@ -6466,6 +6508,48 @@
     ],
     "A -5.5": [
      0.2116,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Lorenzo Musetti vs Ugo Humbert",
+   "date": "2026-11-12",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Bybit Stockholm Open",
+   "p_a": 0.5582,
+   "a_won": 1,
+   "pred_winner": "Lorenzo Musetti",
+   "actual_winner": "Lorenzo Musetti",
+   "pred_sets": "2-0",
+   "actual_sets": "2-1",
+   "p_actual_sets": 0.211,
+   "exp_games": 24.84,
+   "actual_games": 32,
+   "p_tb": 0.4974,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.4991,
+     0
+    ],
+    "A -2.5": [
+     0.4296,
+     0
+    ],
+    "A -3.5": [
+     0.3339,
+     0
+    ],
+    "A -4.5": [
+     0.2219,
+     0
+    ],
+    "A -5.5": [
+     0.1337,
      0
     ]
    },

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-12T16:49:02+00:00",
+ "generated_at_utc": "2026-11-13T01:05:14+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -160,8 +160,8 @@
    "round": "Quarterfinal",
    "court": "Center Court",
    "start_utc": "2026-11-12T14:20Z",
-   "status": "STATUS_IN_PROGRESS",
-   "completed": false,
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Thiago Agustin Tirante",
@@ -177,7 +177,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 2,
     "frozen_at_utc": "2026-11-12T07:10:14+00:00",
@@ -293,10 +309,10 @@
    "tournament": "Bybit Stockholm Open",
    "venue": "Stockholm, Sweden",
    "round": "Quarterfinal",
-   "court": "Center Court",
+   "court": "",
    "start_utc": "2026-11-12T17:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "status": "STATUS_WALKOVER",
+   "completed": true,
    "players": [
     {
      "name": "Taylor Fritz",
@@ -312,7 +328,10 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": []
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-12T16:49:00+00:00",
@@ -429,9 +448,9 @@
    "venue": "Stockholm, Sweden",
    "round": "Quarterfinal",
    "court": "Center Court",
-   "start_utc": "2026-11-12T19:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-12T19:25Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Lorenzo Musetti",
@@ -447,7 +466,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 4,
     "frozen_at_utc": "2026-11-12T16:49:02+00:00",

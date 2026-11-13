@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Alejandro Tabilo",
+ "win_prob": {
+  "A": 0.5904,
+  "B": 0.4096
+ },
+ "win_prob_exact": {
+  "A": 0.59041,
+  "B": 0.40959
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.69,
+   "american": "-144"
+  },
+  "B": {
+   "decimal": 2.44,
+   "american": "+144"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3679,
+  "0-2": 0.2284,
+  "2-1": 0.2225,
+  "1-2": 0.1812
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "7-6",
+  "7-6"
+ ],
+ "representative_sets_prob": 0.0314,
+ "games": {
+  "mean": 25.38,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.37,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00011,
+   "13": 0.00124,
+   "14": 0.00385,
+   "15": 0.01104,
+   "16": 0.02058,
+   "17": 0.04212,
+   "18": 0.053,
+   "19": 0.07539,
+   "20": 0.07277,
+   "21": 0.04756,
+   "22": 0.09672,
+   "23": 0.08666,
+   "24": 0.00687,
+   "25": 0.03446,
+   "26": 0.06929,
+   "27": 0.01883,
+   "28": 0.02675,
+   "29": 0.02901,
+   "30": 0.03113,
+   "31": 0.04547,
+   "32": 0.05152,
+   "33": 0.03243,
+   "34": 0.02421,
+   "35": 0.04638,
+   "36": 0.0375,
+   "37": 0.00268,
+   "38": 0.01219,
+   "39": 0.02024
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 3e-05,
+  "-11": 0.00038,
+  "-10": 0.001,
+  "-9": 0.00308,
+  "-8": 0.00709,
+  "-7": 0.01828,
+  "-6": 0.03039,
+  "-5": 0.05514,
+  "-4": 0.07999,
+  "-3": 0.08155,
+  "-2": 0.06897,
+  "-1": 0.04243,
+  "0": 0.04122,
+  "1": 0.04636,
+  "2": 0.0827,
+  "3": 0.10986,
+  "4": 0.11937,
+  "5": 0.09081,
+  "6": 0.05633,
+  "7": 0.0363,
+  "8": 0.01636,
+  "9": 0.00845,
+  "10": 0.00296,
+  "11": 0.00087,
+  "12": 8e-05
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9211,
+   "under": 0.0789
+  },
+  {
+   "line": 18.5,
+   "over": 0.8681,
+   "under": 0.1319
+  },
+  {
+   "line": 19.5,
+   "over": 0.7927,
+   "under": 0.2073
+  },
+  {
+   "line": 20.5,
+   "over": 0.7199,
+   "under": 0.2801
+  },
+  {
+   "line": 21.5,
+   "over": 0.6723,
+   "under": 0.3277
+  },
+  {
+   "line": 22.5,
+   "over": 0.5756,
+   "under": 0.4244
+  },
+  {
+   "line": 23.5,
+   "over": 0.489,
+   "under": 0.511
+  },
+  {
+   "line": 24.5,
+   "over": 0.4821,
+   "under": 0.5179
+  },
+  {
+   "line": 25.5,
+   "over": 0.4476,
+   "under": 0.5524
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5241,
+   "B +1.5": 0.4759,
+   "B -1.5": 0.3459,
+   "A +1.5": 0.6541
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4414,
+   "B +2.5": 0.5586,
+   "B -2.5": 0.2769,
+   "A +2.5": 0.7231
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3315,
+   "B +3.5": 0.6685,
+   "B -3.5": 0.1954,
+   "A +3.5": 0.8046
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2122,
+   "B +4.5": 0.7878,
+   "B -4.5": 0.1154,
+   "A +4.5": 0.8846
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1213,
+   "B +5.5": 0.8787,
+   "B -5.5": 0.0602,
+   "A +5.5": 0.9397
+  }
+ ],
+ "p_tiebreak": 0.56,
+ "p_a_wins_set": 0.7716,
+ "p_b_wins_set": 0.6321,
+ "p_decider": 0.4037,
+ "expected_breaks": {
+  "total": 3.19,
+  "by_A": 1.79,
+  "by_B": 1.4
+ },
+ "expected_break_points": {
+  "A_creates": 5.16,
+  "B_creates": 4.34
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "7-6",
+   "7-6"
+  ],
+  "prob": 0.3679
+ },
+ "match": "Alejandro Tabilo vs Thiago Agustin Tirante",
+ "players": {
+  "A": {
+   "id": "atp:126214",
+   "name": "Alejandro Tabilo",
+   "tour": "atp",
+   "hand": "L",
+   "rank": 36.0,
+   "age": 29.37091033538672,
+   "elo": 1783.1,
+   "surface_elo": {
+    "Hard": 1750.1,
+    "Clay": 1689.9,
+    "Grass": 1616.3
+   },
+   "matches_total": 194,
+   "matches_surface": {
+    "Hard": 100,
+    "Clay": 79,
+    "Grass": 15
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    9,
+    11
+   ],
+   "last52w": [
+    28,
+    27
+   ],
+   "last52w_surface": [
+    13,
+    15
+   ],
+   "career_surface_wl": [
+    46,
+    54
+   ],
+   "games_won_lost_52w": [
+    709,
+    691
+   ],
+   "sets_won_lost_52w": [
+    70,
+    71
+   ],
+   "avg_opp_elo_last20": 1844.9,
+   "vs_top_opp_52w": [
+    2,
+    11
+   ],
+   "serve_rating": 0.2859,
+   "return_rating": 0.141,
+   "form_elo": 28.3,
+   "last_match": "2026-11-12",
+   "last_stats_match": "2026-11-12",
+   "stats_52w": {
+    "first_in": 0.6463,
+    "first_won": 0.7457,
+    "second_won": 0.5215,
+    "serve_pts_won": 0.6664,
+    "hold": 0.8397,
+    "aces_per_svgm": 0.4739,
+    "df_per_svgm": 0.1429,
+    "bp_saved": 0.6134,
+    "ret_pts_won": 0.3507,
+    "ret_1st_won": 0.2744,
+    "ret_2nd_won": 0.4817,
+    "ret_games_won": 0.1794,
+    "bp_conv": 0.3826,
+    "bp_chances_per_retgm": 0.4689,
+    "matches_with_stats": 45
+   },
+   "rank_history": [
+    [
+     "2026-01-19",
+     79.0
+    ],
+    [
+     "2026-02-06",
+     73.0
+    ],
+    [
+     "2026-02-09",
+     71.0
+    ],
+    [
+     "2026-02-16",
+     68.0
+    ],
+    [
+     "2026-02-23",
+     42.0
+    ],
+    [
+     "2026-03-04",
+     40.0
+    ],
+    [
+     "2026-03-18",
+     41.0
+    ],
+    [
+     "2026-04-05",
+     39.0
+    ],
+    [
+     "2026-04-13",
+     45.0
+    ],
+    [
+     "2026-04-22",
+     43.0
+    ],
+    [
+     "2026-05-06",
+     35.0
+    ],
+    [
+     "2026-05-25",
+     36.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:202058",
+   "name": "Thiago Agustin Tirante",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 60.0,
+   "age": 25.570910335386724,
+   "elo": 1774.3,
+   "surface_elo": {
+    "Hard": 1688.8,
+    "Clay": 1810.0,
+    "Grass": 1445.6
+   },
+   "matches_total": 73,
+   "matches_surface": {
+    "Hard": 32,
+    "Clay": 38,
+    "Grass": 3
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    4,
+    6
+   ],
+   "last20": [
+    11,
+    9
+   ],
+   "last52w": [
+    29,
+    21
+   ],
+   "last52w_surface": [
+    14,
+    12
+   ],
+   "career_surface_wl": [
+    16,
+    16
+   ],
+   "games_won_lost_52w": [
+    659,
+    648
+   ],
+   "sets_won_lost_52w": [
+    70,
+    60
+   ],
+   "avg_opp_elo_last20": 1773.5,
+   "vs_top_opp_52w": [
+    5,
+    5
+   ],
+   "serve_rating": 0.2014,
+   "return_rating": 0.0062,
+   "form_elo": -27.9,
+   "last_match": "2026-11-12",
+   "last_stats_match": "2026-11-08",
+   "stats_52w": {
+    "first_in": 0.593,
+    "first_won": 0.7618,
+    "second_won": 0.5072,
+    "serve_pts_won": 0.6582,
+    "hold": 0.8247,
+    "aces_per_svgm": 0.6985,
+    "df_per_svgm": 0.2371,
+    "bp_saved": 0.6114,
+    "ret_pts_won": 0.3506,
+    "ret_1st_won": 0.2886,
+    "ret_2nd_won": 0.4593,
+    "ret_games_won": 0.1897,
+    "bp_conv": 0.4,
+    "bp_chances_per_retgm": 0.4744,
+    "matches_with_stats": 32
+   },
+   "rank_history": [
+    [
+     "2025-07-21",
+     130.0
+    ],
+    [
+     "2025-08-07",
+     135.0
+    ],
+    [
+     "2026-01-19",
+     103.0
+    ],
+    [
+     "2026-02-07",
+     95.0
+    ],
+    [
+     "2026-02-16",
+     92.0
+    ],
+    [
+     "2026-02-23",
+     76.0
+    ],
+    [
+     "2026-03-18",
+     81.0
+    ],
+    [
+     "2026-03-30",
+     83.0
+    ],
+    [
+     "2026-04-22",
+     75.0
+    ],
+    [
+     "2026-05-06",
+     69.0
+    ],
+    [
+     "2026-05-17",
+     58.0
+    ],
+    [
+     "2026-05-25",
+     60.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-12",
+ "forecast_date": "2026-11-13",
+ "performance_revision": "99fa7f14f01f36eb",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 64.3,
+  "components_elo": {
+   "surface_elo": 61.3,
+   "overall_elo": 8.8,
+   "serve_return": 157.0,
+   "form": 56.1
+  },
+  "weighted_contributions": {
+   "surface_elo": 7.5,
+   "overall_elo": 2.1,
+   "serve_return": 54.8,
+   "form": -0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5915,
+  "serve_return_implied_spw": {
+   "A": 0.7098,
+   "B": 0.6626
+  },
+  "point_probs": {
+   "A_serve": 0.6999,
+   "B_serve": 0.6732
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6998502976138962,
+   "B_serve": 0.6732072997531161
+  },
+  "hold_probs": {
+   "A": 0.9006,
+   "B": 0.8656
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5904,
+   0.5909
+  ],
+  "p_tb": [
+   0.56,
+   0.5591
+  ],
+  "p_decider": [
+   0.4037,
+   0.4031
+  ],
+  "games_mean": [
+   25.381,
+   25.374
+  ],
+  "exp_breaks": [
+   3.191,
+   3.193
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2284,
+    0.2277
+   ],
+   "1-2": [
+    0.1812,
+    0.1814
+   ],
+   "2-0": [
+    0.3679,
+    0.3692
+   ],
+   "2-1": [
+    0.2225,
+    0.2217
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0013
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alejandro Tabilo",
+   "elo_points": 54.8,
+   "raw_diff": 157.0,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alejandro Tabilo",
+   "elo_points": 7.5,
+   "raw_diff": 61.3,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alejandro Tabilo",
+   "elo_points": 2.1,
+   "raw_diff": 8.8,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5215,
+   "B": 0.5072,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3507,
+   "B": 0.3506,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6999,
+   "B": 0.6732,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8681,
+  "fair_odds": {
+   "decimal": 1.15,
+   "american": "-658"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.37 games; p10-p90 18-35); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8681,
+    "fair_decimal": 1.15
+   },
+   {
+    "selection": "Thiago Agustin Tirante +4.5 games",
+    "probability": 0.7878,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Alejandro Tabilo to win at least one set",
+    "probability": 0.7716,
+    "fair_decimal": 1.3
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7199,
+    "fair_decimal": 1.39
+   },
+   {
+    "selection": "Thiago Agustin Tirante to win at least one set",
+    "probability": 0.6321,
+    "fair_decimal": 1.58
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5963,
+    "fair_decimal": 1.68
+   },
+   {
+    "selection": "Alejandro Tabilo to win",
+    "probability": 0.5904,
+    "fair_decimal": 1.69
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5756,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.56,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Thiago Agustin Tirante +2.5 games",
+    "probability": 0.5586,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5179,
+    "fair_decimal": 1.93
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4821,
+    "fair_decimal": 2.07
+   },
+   {
+    "selection": "Alejandro Tabilo -2.5 games",
+    "probability": 0.4414,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.44,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4244,
+    "fair_decimal": 2.36
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-12",
+ "freeze": {
+  "frozen_at_utc": "2026-11-13T01:05:16+00:00",
+  "version": 1,
+  "input_hash": "02bbfdf09afeb7ac",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186546",
+  "scheduled_start_utc": "2026-11-13T13:00Z"
+ }
+}

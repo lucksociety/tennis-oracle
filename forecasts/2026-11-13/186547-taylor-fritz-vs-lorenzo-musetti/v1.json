@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Taylor Fritz",
+ "win_prob": {
+  "A": 0.5704,
+  "B": 0.4296
+ },
+ "win_prob_exact": {
+  "A": 0.57042,
+  "B": 0.42957999999999996
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.75,
+   "american": "-133"
+  },
+  "B": {
+   "decimal": 2.33,
+   "american": "+133"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3543,
+  "0-2": 0.2434,
+  "2-1": 0.2161,
+  "1-2": 0.1862
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0306,
+ "games": {
+  "mean": 25.09,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.32,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.00021,
+   "13": 0.00153,
+   "14": 0.00441,
+   "15": 0.01317,
+   "16": 0.02449,
+   "17": 0.04703,
+   "18": 0.05698,
+   "19": 0.07689,
+   "20": 0.0757,
+   "21": 0.04915,
+   "22": 0.09381,
+   "23": 0.07891,
+   "24": 0.0081,
+   "25": 0.03358,
+   "26": 0.0624,
+   "27": 0.02174,
+   "28": 0.02948,
+   "29": 0.03203,
+   "30": 0.03384,
+   "31": 0.04613,
+   "32": 0.05004,
+   "33": 0.0323,
+   "34": 0.02387,
+   "35": 0.04244,
+   "36": 0.03242,
+   "37": 0.00256,
+   "38": 0.01045,
+   "39": 0.01634
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 4e-05,
+  "-11": 0.00044,
+  "-10": 0.00145,
+  "-9": 0.00423,
+  "-8": 0.00997,
+  "-7": 0.02237,
+  "-6": 0.03602,
+  "-5": 0.06076,
+  "-4": 0.08507,
+  "-3": 0.08103,
+  "-2": 0.06534,
+  "-1": 0.04221,
+  "0": 0.03939,
+  "1": 0.04287,
+  "2": 0.07609,
+  "3": 0.10083,
+  "4": 0.11354,
+  "5": 0.08978,
+  "6": 0.05814,
+  "7": 0.0386,
+  "8": 0.01787,
+  "9": 0.00958,
+  "10": 0.00311,
+  "11": 0.0011,
+  "12": 0.00017
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9092,
+   "under": 0.0908
+  },
+  {
+   "line": 18.5,
+   "over": 0.8522,
+   "under": 0.1478
+  },
+  {
+   "line": 19.5,
+   "over": 0.7753,
+   "under": 0.2247
+  },
+  {
+   "line": 20.5,
+   "over": 0.6996,
+   "under": 0.3004
+  },
+  {
+   "line": 21.5,
+   "over": 0.6504,
+   "under": 0.3496
+  },
+  {
+   "line": 22.5,
+   "over": 0.5566,
+   "under": 0.4434
+  },
+  {
+   "line": 23.5,
+   "over": 0.4777,
+   "under": 0.5223
+  },
+  {
+   "line": 24.5,
+   "over": 0.4696,
+   "under": 0.5304
+  },
+  {
+   "line": 25.5,
+   "over": 0.436,
+   "under": 0.564
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.5088,
+   "B +1.5": 0.4912,
+   "B -1.5": 0.3667,
+   "A +1.5": 0.6333
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4327,
+   "B +2.5": 0.5673,
+   "B -2.5": 0.3014,
+   "A +2.5": 0.6986
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3319,
+   "B +3.5": 0.6681,
+   "B -3.5": 0.2204,
+   "A +3.5": 0.7796
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2184,
+   "B +4.5": 0.7816,
+   "B -4.5": 0.1353,
+   "A +4.5": 0.8647
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1286,
+   "B +5.5": 0.8714,
+   "B -5.5": 0.0745,
+   "A +5.5": 0.9255
+  }
+ ],
+ "p_tiebreak": 0.5226,
+ "p_a_wins_set": 0.7566,
+ "p_b_wins_set": 0.6456,
+ "p_decider": 0.4022,
+ "expected_breaks": {
+  "total": 3.49,
+  "by_A": 1.91,
+  "by_B": 1.58
+ },
+ "expected_break_points": {
+  "A_creates": 5.4,
+  "B_creates": 4.72
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3543
+ },
+ "match": "Taylor Fritz vs Lorenzo Musetti",
+ "players": {
+  "A": {
+   "id": "atp:126203",
+   "name": "Taylor Fritz",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 9.0,
+   "age": 28.970910335386723,
+   "elo": 1978.1,
+   "surface_elo": {
+    "Hard": 1931.5,
+    "Clay": 1713.6,
+    "Grass": 1918.4
+   },
+   "matches_total": 606,
+   "matches_surface": {
+    "Hard": 427,
+    "Clay": 95,
+    "Grass": 84
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    43,
+    21
+   ],
+   "last52w_surface": [
+    32,
+    16
+   ],
+   "career_surface_wl": [
+    265,
+    162
+   ],
+   "games_won_lost_52w": [
+    937,
+    826
+   ],
+   "sets_won_lost_52w": [
+    106,
+    63
+   ],
+   "avg_opp_elo_last20": 1820.1,
+   "vs_top_opp_52w": [
+    5,
+    11
+   ],
+   "serve_rating": 0.4496,
+   "return_rating": 0.2392,
+   "form_elo": 43.5,
+   "last_match": "2026-11-11",
+   "last_stats_match": "2026-11-11",
+   "stats_52w": {
+    "first_in": 0.67,
+    "first_won": 0.7963,
+    "second_won": 0.5375,
+    "serve_pts_won": 0.7109,
+    "hold": 0.8957,
+    "aces_per_svgm": 1.0314,
+    "df_per_svgm": 0.1171,
+    "bp_saved": 0.6971,
+    "ret_pts_won": 0.3462,
+    "ret_1st_won": 0.2627,
+    "ret_2nd_won": 0.4991,
+    "ret_games_won": 0.1524,
+    "bp_conv": 0.3144,
+    "bp_chances_per_retgm": 0.4848,
+    "matches_with_stats": 51
+   },
+   "rank_history": [
+    [
+     "2025-06-16",
+     4.0
+    ],
+    [
+     "2025-06-23",
+     5.0
+    ],
+    [
+     "2025-07-21",
+     4.0
+    ],
+    [
+     "2025-09-12",
+     5.0
+    ],
+    [
+     "2025-10-01",
+     4.0
+    ],
+    [
+     "2025-11-09",
+     6.0
+    ],
+    [
+     "2026-01-05",
+     9.0
+    ],
+    [
+     "2026-02-09",
+     7.0
+    ],
+    [
+     "2026-02-16",
+     8.0
+    ],
+    [
+     "2026-03-04",
+     7.0
+    ],
+    [
+     "2026-05-17",
+     8.0
+    ],
+    [
+     "2026-05-25",
+     9.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:207518",
+   "name": "Lorenzo Musetti",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 10.0,
+   "age": 24.622929500342234,
+   "elo": 1966.7,
+   "surface_elo": {
+    "Hard": 1896.0,
+    "Clay": 1994.8,
+    "Grass": 1780.1
+   },
+   "matches_total": 340,
+   "matches_surface": {
+    "Hard": 192,
+    "Clay": 121,
+    "Grass": 27
+   },
+   "last5": [
+    4,
+    1
+   ],
+   "last10": [
+    8,
+    2
+   ],
+   "last20": [
+    14,
+    6
+   ],
+   "last52w": [
+    28,
+    13
+   ],
+   "last52w_surface": [
+    22,
+    9
+   ],
+   "career_surface_wl": [
+    103,
+    89
+   ],
+   "games_won_lost_52w": [
+    548,
+    468
+   ],
+   "sets_won_lost_52w": [
+    65,
+    35
+   ],
+   "avg_opp_elo_last20": 1812.3,
+   "vs_top_opp_52w": [
+    6,
+    8
+   ],
+   "serve_rating": 0.2786,
+   "return_rating": 0.2379,
+   "form_elo": 39.9,
+   "last_match": "2026-11-12",
+   "last_stats_match": "2026-11-10",
+   "stats_52w": {
+    "first_in": 0.6615,
+    "first_won": 0.7048,
+    "second_won": 0.5542,
+    "serve_pts_won": 0.6538,
+    "hold": 0.8406,
+    "aces_per_svgm": 0.3333,
+    "df_per_svgm": 0.1565,
+    "bp_saved": 0.6746,
+    "ret_pts_won": 0.3824,
+    "ret_1st_won": 0.3065,
+    "ret_2nd_won": 0.5217,
+    "ret_games_won": 0.2384,
+    "bp_conv": 0.3886,
+    "bp_chances_per_retgm": 0.6134,
+    "matches_with_stats": 28
+   },
+   "rank_history": [
+    [
+     "2025-02-10",
+     16.0
+    ],
+    [
+     "2025-04-23",
+     11.0
+    ],
+    [
+     "2025-05-07",
+     9.0
+    ],
+    [
+     "2025-05-26",
+     7.0
+    ],
+    [
+     "2025-07-27",
+     10.0
+    ],
+    [
+     "2025-09-17",
+     9.0
+    ],
+    [
+     "2025-10-13",
+     8.0
+    ],
+    [
+     "2025-11-02",
+     9.0
+    ],
+    [
+     "2026-01-05",
+     7.0
+    ],
+    [
+     "2026-01-19",
+     5.0
+    ],
+    [
+     "2026-04-13",
+     9.0
+    ],
+    [
+     "2026-05-06",
+     10.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Bybit Stockholm Open",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-12",
+ "forecast_date": "2026-11-13",
+ "performance_revision": "99fa7f14f01f36eb",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 51.1,
+  "components_elo": {
+   "surface_elo": 35.4,
+   "overall_elo": 11.4,
+   "serve_return": 126.2,
+   "form": 3.6
+  },
+  "weighted_contributions": {
+   "surface_elo": 4.3,
+   "overall_elo": 2.7,
+   "serve_return": 44.0,
+   "form": -0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.573,
+  "serve_return_implied_spw": {
+   "A": 0.6956,
+   "B": 0.6579
+  },
+  "point_probs": {
+   "A_serve": 0.6875,
+   "B_serve": 0.6663
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6875273394541618,
+   "B_serve": 0.6663371919100246
+  },
+  "hold_probs": {
+   "A": 0.8852,
+   "B": 0.8555
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5704,
+   0.5724
+  ],
+  "p_tb": [
+   0.5226,
+   0.5267
+  ],
+  "p_decider": [
+   0.4022,
+   0.4024
+  ],
+  "games_mean": [
+   25.088,
+   25.097
+  ],
+  "exp_breaks": [
+   3.488,
+   3.486
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2434,
+    0.2423
+   ],
+   "1-2": [
+    0.1862,
+    0.1853
+   ],
+   "2-0": [
+    0.3543,
+    0.3553
+   ],
+   "2-1": [
+    0.2161,
+    0.2171
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0041
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Taylor Fritz",
+   "elo_points": 44.0,
+   "raw_diff": 126.2,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Taylor Fritz",
+   "elo_points": 4.3,
+   "raw_diff": 35.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Taylor Fritz",
+   "elo_points": 2.7,
+   "raw_diff": 11.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.5375,
+   "B": 0.5542,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.3462,
+   "B": 0.3824,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6875,
+   "B": 0.6663,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8522,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-577"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.32 games; p10-p90 18-35); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8522,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "Lorenzo Musetti +4.5 games",
+    "probability": 0.7816,
+    "fair_decimal": 1.28
+   },
+   {
+    "selection": "Taylor Fritz to win at least one set",
+    "probability": 0.7566,
+    "fair_decimal": 1.32
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6996,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Lorenzo Musetti to win at least one set",
+    "probability": 0.6456,
+    "fair_decimal": 1.55
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5978,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Taylor Fritz to win",
+    "probability": 0.5704,
+    "fair_decimal": 1.75
+   },
+   {
+    "selection": "Lorenzo Musetti +2.5 games",
+    "probability": 0.5673,
+    "fair_decimal": 1.76
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5566,
+    "fair_decimal": 1.8
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5304,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5226,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4774,
+    "fair_decimal": 2.09
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4696,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4434,
+    "fair_decimal": 2.26
+   },
+   {
+    "selection": "Taylor Fritz -2.5 games",
+    "probability": 0.4327,
+    "fair_decimal": 2.31
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-12",
+ "freeze": {
+  "frozen_at_utc": "2026-11-13T01:05:18+00:00",
+  "version": 1,
+  "input_hash": "144cc5bbc9c33c15",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "186547",
+  "scheduled_start_utc": "2026-11-13T16:00Z"
+ }
+}

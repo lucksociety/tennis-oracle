@@ -1,7 +1,7 @@
 {
  "date": "2026-11-13",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-12T16:49:03+00:00",
+ "generated_at_utc": "2026-11-13T01:05:18+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -21,8 +21,8 @@
      "id": "atp:126214"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Thiago Agustin Tirante",
+     "id": "atp:202058"
     }
    ],
    "surface": "Hard",
@@ -31,8 +31,114 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-13T01:05:16+00:00",
+    "path": "forecasts/2026-11-13/186546-alejandro-tabilo-vs-thiago-agustin-tirante/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alejandro Tabilo",
+    "win_prob": {
+     "A": 0.5904,
+     "B": 0.4096
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "7-6",
+      "7-6"
+     ],
+     "prob": 0.3679
+    },
+    "games_mean": 25.38,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8681,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5904,
+      "B": 0.4096
+     },
+     "set_score_probs": {
+      "2-0": 0.3679,
+      "0-2": 0.2284,
+      "2-1": 0.2225,
+      "1-2": 0.1812
+     },
+     "games_pmf": {
+      "12": 0.00011,
+      "13": 0.00124,
+      "14": 0.00385,
+      "15": 0.01104,
+      "16": 0.02058,
+      "17": 0.04212,
+      "18": 0.053,
+      "19": 0.07539,
+      "20": 0.07277,
+      "21": 0.04756,
+      "22": 0.09672,
+      "23": 0.08666,
+      "24": 0.00687,
+      "25": 0.03446,
+      "26": 0.06929,
+      "27": 0.01883,
+      "28": 0.02675,
+      "29": 0.02901,
+      "30": 0.03113,
+      "31": 0.04547,
+      "32": 0.05152,
+      "33": 0.03243,
+      "34": 0.02421,
+      "35": 0.04638,
+      "36": 0.0375,
+      "37": 0.00268,
+      "38": 0.01219,
+      "39": 0.02024
+     },
+     "games_diff_pmf": {
+      "-12": 3e-05,
+      "-11": 0.00038,
+      "-10": 0.001,
+      "-9": 0.00308,
+      "-8": 0.00709,
+      "-7": 0.01828,
+      "-6": 0.03039,
+      "-5": 0.05514,
+      "-4": 0.07999,
+      "-3": 0.08155,
+      "-2": 0.06897,
+      "-1": 0.04243,
+      "0": 0.04122,
+      "1": 0.04636,
+      "2": 0.0827,
+      "3": 0.10986,
+      "4": 0.11937,
+      "5": 0.09081,
+      "6": 0.05633,
+      "7": 0.0363,
+      "8": 0.01636,
+      "9": 0.00845,
+      "10": 0.00296,
+      "11": 0.00087,
+      "12": 8e-05
+     },
+     "p_tiebreak": 0.56,
+     "p_decider": 0.4037
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0013
+   }
   },
   {
    "espn_id": "186547",
@@ -46,12 +152,12 @@
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Taylor Fritz",
+     "id": "atp:126203"
     },
     {
-     "name": "TBD",
-     "id": null
+     "name": "Lorenzo Musetti",
+     "id": "atp:207518"
     }
    ],
    "surface": "Hard",
@@ -60,8 +166,114 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-13T01:05:18+00:00",
+    "path": "forecasts/2026-11-13/186547-taylor-fritz-vs-lorenzo-musetti/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Taylor Fritz",
+    "win_prob": {
+     "A": 0.5704,
+     "B": 0.4296
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3543
+    },
+    "games_mean": 25.09,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8522,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5704,
+      "B": 0.4296
+     },
+     "set_score_probs": {
+      "2-0": 0.3543,
+      "0-2": 0.2434,
+      "2-1": 0.2161,
+      "1-2": 0.1862
+     },
+     "games_pmf": {
+      "12": 0.00021,
+      "13": 0.00153,
+      "14": 0.00441,
+      "15": 0.01317,
+      "16": 0.02449,
+      "17": 0.04703,
+      "18": 0.05698,
+      "19": 0.07689,
+      "20": 0.0757,
+      "21": 0.04915,
+      "22": 0.09381,
+      "23": 0.07891,
+      "24": 0.0081,
+      "25": 0.03358,
+      "26": 0.0624,
+      "27": 0.02174,
+      "28": 0.02948,
+      "29": 0.03203,
+      "30": 0.03384,
+      "31": 0.04613,
+      "32": 0.05004,
+      "33": 0.0323,
+      "34": 0.02387,
+      "35": 0.04244,
+      "36": 0.03242,
+      "37": 0.00256,
+      "38": 0.01045,
+      "39": 0.01634
+     },
+     "games_diff_pmf": {
+      "-12": 4e-05,
+      "-11": 0.00044,
+      "-10": 0.00145,
+      "-9": 0.00423,
+      "-8": 0.00997,
+      "-7": 0.02237,
+      "-6": 0.03602,
+      "-5": 0.06076,
+      "-4": 0.08507,
+      "-3": 0.08103,
+      "-2": 0.06534,
+      "-1": 0.04221,
+      "0": 0.03939,
+      "1": 0.04287,
+      "2": 0.07609,
+      "3": 0.10083,
+      "4": 0.11354,
+      "5": 0.08978,
+      "6": 0.05814,
+      "7": 0.0386,
+      "8": 0.01787,
+      "9": 0.00958,
+      "10": 0.00311,
+      "11": 0.0011,
+      "12": 0.00017
+     },
+     "p_tiebreak": 0.5226,
+     "p_decider": 0.4022
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0041
+   }
   }
  ]
 }
