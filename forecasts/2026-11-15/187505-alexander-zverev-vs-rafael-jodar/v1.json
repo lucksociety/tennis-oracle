@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Alexander Zverev",
+ "win_prob": {
+  "A": 0.6967,
+  "B": 0.3033
+ },
+ "win_prob_exact": {
+  "A": 0.69675,
+  "B": 0.30325
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.44,
+   "american": "-230"
+  },
+  "B": {
+   "decimal": 3.3,
+   "american": "+230"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.4771,
+  "2-1": 0.2197,
+  "0-2": 0.159,
+  "1-2": 0.1442
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0368,
+ "games": {
+  "mean": 24.12,
+  "median": 22.0,
+  "p10": 17.0,
+  "p90": 33.0,
+  "sd": 6.25,
+  "projected": 22.0,
+  "pmf": {
+   "12": 0.00057,
+   "13": 0.00361,
+   "14": 0.00872,
+   "15": 0.02201,
+   "16": 0.0371,
+   "17": 0.06209,
+   "18": 0.07004,
+   "19": 0.08199,
+   "20": 0.07878,
+   "21": 0.05178,
+   "22": 0.08783,
+   "23": 0.07033,
+   "24": 0.00917,
+   "25": 0.03285,
+   "26": 0.05457,
+   "27": 0.02322,
+   "28": 0.02926,
+   "29": 0.03123,
+   "30": 0.03233,
+   "31": 0.04282,
+   "32": 0.04368,
+   "33": 0.02708,
+   "34": 0.02064,
+   "35": 0.03394,
+   "36": 0.02379,
+   "37": 0.00222,
+   "38": 0.00795,
+   "39": 0.0104
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 2e-05,
+  "-11": 0.00026,
+  "-10": 0.00085,
+  "-9": 0.00253,
+  "-8": 0.00606,
+  "-7": 0.01486,
+  "-6": 0.0239,
+  "-5": 0.04002,
+  "-4": 0.05812,
+  "-3": 0.0571,
+  "-2": 0.04744,
+  "-1": 0.03331,
+  "0": 0.0342,
+  "1": 0.03779,
+  "2": 0.06974,
+  "3": 0.10331,
+  "4": 0.13196,
+  "5": 0.11686,
+  "6": 0.08773,
+  "7": 0.06548,
+  "8": 0.03576,
+  "9": 0.02068,
+  "10": 0.0081,
+  "11": 0.00337,
+  "12": 0.00055
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.8659,
+   "under": 0.1341
+  },
+  {
+   "line": 18.5,
+   "over": 0.7959,
+   "under": 0.2041
+  },
+  {
+   "line": 19.5,
+   "over": 0.7139,
+   "under": 0.2861
+  },
+  {
+   "line": 20.5,
+   "over": 0.6351,
+   "under": 0.3649
+  },
+  {
+   "line": 21.5,
+   "over": 0.5833,
+   "under": 0.4167
+  },
+  {
+   "line": 22.5,
+   "over": 0.4955,
+   "under": 0.5045
+  },
+  {
+   "line": 23.5,
+   "over": 0.4251,
+   "under": 0.5748
+  },
+  {
+   "line": 24.5,
+   "over": 0.416,
+   "under": 0.584
+  },
+  {
+   "line": 25.5,
+   "over": 0.3831,
+   "under": 0.6169
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.6435,
+   "B +1.5": 0.3565,
+   "B -1.5": 0.2512,
+   "A +1.5": 0.7488
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.5738,
+   "B +2.5": 0.4262,
+   "B -2.5": 0.2037,
+   "A +2.5": 0.7963
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.4705,
+   "B +3.5": 0.5295,
+   "B -3.5": 0.1466,
+   "A +3.5": 0.8534
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.3385,
+   "B +4.5": 0.6615,
+   "B -4.5": 0.0885,
+   "A +4.5": 0.9115
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.2217,
+   "B +5.5": 0.7783,
+   "B -5.5": 0.0485,
+   "A +5.5": 0.9515
+  }
+ ],
+ "p_tiebreak": 0.457,
+ "p_a_wins_set": 0.8409,
+ "p_b_wins_set": 0.5229,
+ "p_decider": 0.3639,
+ "expected_breaks": {
+  "total": 3.86,
+  "by_A": 2.41,
+  "by_B": 1.44
+ },
+ "expected_break_points": {
+  "A_creates": 6.32,
+  "B_creates": 4.38
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.4771
+ },
+ "match": "Alexander Zverev vs Rafael Jodar",
+ "players": {
+  "A": {
+   "id": "atp:100644",
+   "name": "Alexander Zverev",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 3.0,
+   "age": 29.476386036960985,
+   "elo": 2084.5,
+   "surface_elo": {
+    "Hard": 2018.1,
+    "Clay": 2052.4,
+    "Grass": 1885.6
+   },
+   "matches_total": 809,
+   "matches_surface": {
+    "Hard": 481,
+    "Clay": 250,
+    "Grass": 78
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    16,
+    4
+   ],
+   "last52w": [
+    64,
+    17
+   ],
+   "last52w_surface": [
+    35,
+    11
+   ],
+   "career_surface_wl": [
+    332,
+    149
+   ],
+   "games_won_lost_52w": [
+    1302,
+    1011
+   ],
+   "sets_won_lost_52w": [
+    164,
+    64
+   ],
+   "avg_opp_elo_last20": 1836.3,
+   "vs_top_opp_52w": [
+    14,
+    13
+   ],
+   "serve_rating": 0.615,
+   "return_rating": 0.2736,
+   "form_elo": -53.9,
+   "last_match": "2026-11-04",
+   "last_stats_match": "2026-10-31",
+   "stats_52w": {
+    "first_in": 0.7191,
+    "first_won": 0.7696,
+    "second_won": 0.571,
+    "serve_pts_won": 0.7139,
+    "hold": 0.9037,
+    "aces_per_svgm": 0.7652,
+    "df_per_svgm": 0.1495,
+    "bp_saved": 0.6298,
+    "ret_pts_won": 0.364,
+    "ret_1st_won": 0.2758,
+    "ret_2nd_won": 0.5251,
+    "ret_games_won": 0.2136,
+    "bp_conv": 0.4051,
+    "bp_chances_per_retgm": 0.5273,
+    "matches_with_stats": 65
+   },
+   "rank_history": [
+    [
+     "2023-11-13",
+     7.0
+    ],
+    [
+     "2024-01-15",
+     6.0
+    ],
+    [
+     "2024-03-18",
+     5.0
+    ],
+    [
+     "2024-05-27",
+     4.0
+    ],
+    [
+     "2024-09-20",
+     2.0
+    ],
+    [
+     "2024-10-02",
+     3.0
+    ],
+    [
+     "2024-11-11",
+     2.0
+    ],
+    [
+     "2025-04-14",
+     3.0
+    ],
+    [
+     "2025-04-23",
+     2.0
+    ],
+    [
+     "2025-05-18",
+     3.0
+    ],
+    [
+     "2026-02-23",
+     4.0
+    ],
+    [
+     "2026-04-05",
+     3.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:212588",
+   "name": "Rafael Jodar",
+   "tour": "atp",
+   "hand": "U",
+   "rank": 29.0,
+   "age": 20.076386036960987,
+   "elo": 1957.6,
+   "surface_elo": {
+    "Hard": 1872.6,
+    "Clay": 1941.5,
+    "Grass": 1560.6
+   },
+   "matches_total": 64,
+   "matches_surface": {
+    "Hard": 39,
+    "Clay": 22,
+    "Grass": 3
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    13,
+    7
+   ],
+   "last52w": [
+    44,
+    20
+   ],
+   "last52w_surface": [
+    24,
+    15
+   ],
+   "career_surface_wl": [
+    24,
+    15
+   ],
+   "games_won_lost_52w": [
+    872,
+    730
+   ],
+   "sets_won_lost_52w": [
+    105,
+    69
+   ],
+   "avg_opp_elo_last20": 1852.6,
+   "vs_top_opp_52w": [
+    10,
+    9
+   ],
+   "serve_rating": 0.1629,
+   "return_rating": 0.3612,
+   "form_elo": -36.9,
+   "last_match": "2026-11-03",
+   "last_stats_match": "2026-10-29",
+   "stats_52w": {
+    "first_in": 0.6402,
+    "first_won": 0.6896,
+    "second_won": 0.5515,
+    "serve_pts_won": 0.6399,
+    "hold": 0.8083,
+    "aces_per_svgm": 0.3713,
+    "df_per_svgm": 0.1485,
+    "bp_saved": 0.6325,
+    "ret_pts_won": 0.3963,
+    "ret_1st_won": 0.3216,
+    "ret_2nd_won": 0.5196,
+    "ret_games_won": 0.285,
+    "bp_conv": 0.434,
+    "bp_chances_per_retgm": 0.6566,
+    "matches_with_stats": 48
+   },
+   "rank_history": [
+    [
+     "2025-12-17",
+     168.0
+    ],
+    [
+     "2026-01-19",
+     150.0
+    ],
+    [
+     "2026-02-09",
+     124.0
+    ],
+    [
+     "2026-02-16",
+     118.0
+    ],
+    [
+     "2026-02-23",
+     114.0
+    ],
+    [
+     "2026-03-04",
+     103.0
+    ],
+    [
+     "2026-03-18",
+     109.0
+    ],
+    [
+     "2026-03-30",
+     89.0
+    ],
+    [
+     "2026-04-13",
+     55.0
+    ],
+    [
+     "2026-04-22",
+     42.0
+    ],
+    [
+     "2026-05-06",
+     34.0
+    ],
+    [
+     "2026-05-25",
+     29.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Nitto ATP Finals",
+ "round": "Group Stage",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-13",
+ "forecast_date": "2026-11-15",
+ "performance_revision": "0233556c2b84ebb3",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 147.1,
+  "components_elo": {
+   "surface_elo": 145.5,
+   "overall_elo": 126.9,
+   "serve_return": 284.7,
+   "form": -17.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 17.8,
+   "overall_elo": 30.0,
+   "serve_return": 99.3,
+   "form": 0.0
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.6999,
+  "serve_return_implied_spw": {
+   "A": 0.7044,
+   "B": 0.6234
+  },
+  "point_probs": {
+   "A_serve": 0.6947,
+   "B_serve": 0.6341
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6947377606305258,
+   "B_serve": 0.6340992778104826
+  },
+  "hold_probs": {
+   "A": 0.8944,
+   "B": 0.8021
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.6967,
+   0.6989
+  ],
+  "p_tb": [
+   0.457,
+   0.4575
+  ],
+  "p_decider": [
+   0.3639,
+   0.366
+  ],
+  "games_mean": [
+   24.123,
+   24.149
+  ],
+  "exp_breaks": [
+   3.856,
+   3.858
+  ],
+  "set_scores": {
+   "0-2": [
+    0.159,
+    0.1586
+   ],
+   "1-2": [
+    0.1442,
+    0.1425
+   ],
+   "2-0": [
+    0.4771,
+    0.4754
+   ],
+   "2-1": [
+    0.2197,
+    0.2235
+   ]
+  },
+  "mc_se_p_a": 0.0015,
+  "max_abs_diff_probs": 0.0038
+ },
+ "drivers": [
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alexander Zverev",
+   "elo_points": 99.3,
+   "raw_diff": 284.7,
+   "type": "statistical"
+  },
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 30.0,
+   "raw_diff": 126.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 17.8,
+   "raw_diff": 145.5,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.571,
+   "B": 0.5515,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.364,
+   "B": 0.3963,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6947,
+   "B": 0.6341,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Alexander Zverev to win at least one set",
+  "probability": 0.8409,
+  "fair_odds": {
+   "decimal": 1.19,
+   "american": "-529"
+  },
+  "confidence": "High",
+  "main_risk": "Straight-sets result for the opponent; driven by tiebreak/hold variance.",
+  "candidates": [
+   {
+    "selection": "Alexander Zverev to win at least one set",
+    "probability": 0.8409,
+    "fair_decimal": 1.19
+   },
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.7959,
+    "fair_decimal": 1.26
+   },
+   {
+    "selection": "Alexander Zverev to win",
+    "probability": 0.6967,
+    "fair_decimal": 1.44
+   },
+   {
+    "selection": "Rafael Jodar +4.5 games",
+    "probability": 0.6615,
+    "fair_decimal": 1.51
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.6361,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.6351,
+    "fair_decimal": 1.57
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.584,
+    "fair_decimal": 1.71
+   },
+   {
+    "selection": "Alexander Zverev -2.5 games",
+    "probability": 0.5738,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.543,
+    "fair_decimal": 1.84
+   },
+   {
+    "selection": "Rafael Jodar to win at least one set",
+    "probability": 0.5229,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.5045,
+    "fair_decimal": 1.98
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.4955,
+    "fair_decimal": 2.02
+   },
+   {
+    "selection": "Exact sets Alexander Zverev 2-0 Rafael Jodar",
+    "probability": 0.4771,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.457,
+    "fair_decimal": 2.19
+   },
+   {
+    "selection": "Rafael Jodar +2.5 games",
+    "probability": 0.4262,
+    "fair_decimal": 2.35
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-13",
+ "freeze": {
+  "frozen_at_utc": "2026-11-14T11:28:21+00:00",
+  "version": 1,
+  "input_hash": "ef009953decc050b",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187505",
+  "scheduled_start_utc": "2026-11-15T13:00Z"
+ }
+}

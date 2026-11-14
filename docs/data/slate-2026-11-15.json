@@ -1,0 +1,279 @@
+{
+ "date": "2026-11-15",
+ "timezone": "America/New_York",
+ "generated_at_utc": "2026-11-14T11:28:23+00:00",
+ "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+ "model_version": "v1.1",
+ "matches": [
+  {
+   "espn_id": "187505",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-15T13:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alexander Zverev",
+     "id": "atp:100644"
+    },
+    {
+     "name": "Rafael Jodar",
+     "id": "atp:212588"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-14T11:28:21+00:00",
+    "path": "forecasts/2026-11-15/187505-alexander-zverev-vs-rafael-jodar/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alexander Zverev",
+    "win_prob": {
+     "A": 0.6967,
+     "B": 0.3033
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.4771
+    },
+    "games_mean": 24.12,
+    "strongest": {
+     "selection": "Alexander Zverev to win at least one set",
+     "probability": 0.8409,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6967,
+      "B": 0.3033
+     },
+     "set_score_probs": {
+      "2-0": 0.4771,
+      "2-1": 0.2197,
+      "0-2": 0.159,
+      "1-2": 0.1442
+     },
+     "games_pmf": {
+      "12": 0.00057,
+      "13": 0.00361,
+      "14": 0.00872,
+      "15": 0.02201,
+      "16": 0.0371,
+      "17": 0.06209,
+      "18": 0.07004,
+      "19": 0.08199,
+      "20": 0.07878,
+      "21": 0.05178,
+      "22": 0.08783,
+      "23": 0.07033,
+      "24": 0.00917,
+      "25": 0.03285,
+      "26": 0.05457,
+      "27": 0.02322,
+      "28": 0.02926,
+      "29": 0.03123,
+      "30": 0.03233,
+      "31": 0.04282,
+      "32": 0.04368,
+      "33": 0.02708,
+      "34": 0.02064,
+      "35": 0.03394,
+      "36": 0.02379,
+      "37": 0.00222,
+      "38": 0.00795,
+      "39": 0.0104
+     },
+     "games_diff_pmf": {
+      "-12": 2e-05,
+      "-11": 0.00026,
+      "-10": 0.00085,
+      "-9": 0.00253,
+      "-8": 0.00606,
+      "-7": 0.01486,
+      "-6": 0.0239,
+      "-5": 0.04002,
+      "-4": 0.05812,
+      "-3": 0.0571,
+      "-2": 0.04744,
+      "-1": 0.03331,
+      "0": 0.0342,
+      "1": 0.03779,
+      "2": 0.06974,
+      "3": 0.10331,
+      "4": 0.13196,
+      "5": 0.11686,
+      "6": 0.08773,
+      "7": 0.06548,
+      "8": 0.03576,
+      "9": 0.02068,
+      "10": 0.0081,
+      "11": 0.00337,
+      "12": 0.00055
+     },
+     "p_tiebreak": 0.457,
+     "p_decider": 0.3639
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0038
+   }
+  },
+  {
+   "espn_id": "187506",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "",
+   "start_utc": "2026-11-15T19:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Ben Shelton",
+     "id": "atp:210097"
+    },
+    {
+     "name": "Arthur Fils",
+     "id": "atp:209950"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-14T11:28:23+00:00",
+    "path": "forecasts/2026-11-15/187506-ben-shelton-vs-arthur-fils/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Arthur Fils",
+    "win_prob": {
+     "A": 0.4995,
+     "B": 0.5005
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "6-7",
+      "6-7"
+     ],
+     "prob": 0.2946
+    },
+    "games_mean": 25.77,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.886,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 25.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.4995,
+      "B": 0.5005
+     },
+     "set_score_probs": {
+      "0-2": 0.2946,
+      "2-0": 0.2915,
+      "2-1": 0.208,
+      "1-2": 0.2059
+     },
+     "games_pmf": {
+      "12": 8e-05,
+      "13": 0.0009,
+      "14": 0.0028,
+      "15": 0.00867,
+      "16": 0.01701,
+      "17": 0.03721,
+      "18": 0.04728,
+      "19": 0.07141,
+      "20": 0.06997,
+      "21": 0.04568,
+      "22": 0.09795,
+      "23": 0.08996,
+      "24": 0.00647,
+      "25": 0.03438,
+      "26": 0.07811,
+      "27": 0.0183,
+      "28": 0.02492,
+      "29": 0.02792,
+      "30": 0.0289,
+      "31": 0.04597,
+      "32": 0.05365,
+      "33": 0.03353,
+      "34": 0.02439,
+      "35": 0.05097,
+      "36": 0.04204,
+      "37": 0.00275,
+      "38": 0.01306,
+      "39": 0.02572
+     },
+     "games_diff_pmf": {
+      "-12": 5e-05,
+      "-11": 0.00047,
+      "-10": 0.00152,
+      "-9": 0.00457,
+      "-8": 0.0096,
+      "-7": 0.02405,
+      "-6": 0.03832,
+      "-5": 0.07049,
+      "-4": 0.09994,
+      "-3": 0.09985,
+      "-2": 0.08168,
+      "-1": 0.04846,
+      "0": 0.04376,
+      "1": 0.04758,
+      "2": 0.08274,
+      "3": 0.09825,
+      "4": 0.09935,
+      "5": 0.07012,
+      "6": 0.03864,
+      "7": 0.02451,
+      "8": 0.00965,
+      "9": 0.00455,
+      "10": 0.00135,
+      "11": 0.00047,
+      "12": 3e-05
+     },
+     "p_tiebreak": 0.5931,
+     "p_decider": 0.4139
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0027
+   }
+  }
+ ]
+}
