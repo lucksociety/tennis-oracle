@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
- "n": 2,
- "passed": 2,
+ "n": 4,
+ "passed": 4,
  "results": [
   {
    "match": "Alexander Zverev vs Rafael Jodar",
@@ -22,6 +22,24 @@
    "file": "forecasts/2026-11-15/187505-alexander-zverev-vs-rafael-jodar/v1.json"
   },
   {
+   "match": "Alexander Zverev vs Rafael Jodar",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0011,
+   "reproduction": {
+    "frozen_p_a": 0.6986,
+    "rerun_p_a": 0.6986,
+    "frozen_games_mean": 24.15,
+    "rerun_games_mean": 24.15,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-15/187505-alexander-zverev-vs-rafael-jodar/v2.json"
+  },
+  {
    "match": "Ben Shelton vs Arthur Fils",
    "n_sims": 100000,
    "seed": 20261027,
@@ -38,6 +56,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-15/187506-ben-shelton-vs-arthur-fils/v1.json"
+  },
+  {
+   "match": "Ben Shelton vs Arthur Fils",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0016,
+   "max_mc_vs_exact": 0.0028,
+   "reproduction": {
+    "frozen_p_a": 0.5003,
+    "rerun_p_a": 0.5003,
+    "frozen_games_mean": 25.75,
+    "rerun_games_mean": 25.75,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-15/187506-ben-shelton-vs-arthur-fils/v2.json"
   }
  ]
 }

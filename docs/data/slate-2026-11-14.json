@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-14T11:28:19+00:00",
+ "generated_at_utc": "2026-11-14T18:00:50+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -12,9 +12,9 @@
    "venue": "Stockholm, Sweden",
    "round": "Final",
    "court": "Center Court",
-   "start_utc": "2026-11-14T12:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-14T12:10Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Taylor Fritz",
@@ -30,7 +30,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-13T19:42:49+00:00",
