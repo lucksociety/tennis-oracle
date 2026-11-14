@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
- "snapshot_at_utc": "2026-11-14T18:01:09Z",
- "snapshot_path": "market_snapshots/2026-11-15/20261114T180109Z.json",
+ "snapshot_at_utc": "2026-11-14T23:55:33Z",
+ "snapshot_path": "market_snapshots/2026-11-15/20261114T235533Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -98,10 +98,10 @@
      "model_p": 0.584,
      "mc_lower_95": 0.581,
      "score_consistent": false,
-     "price": 0.88,
-     "implied": 0.89,
-     "edge": -0.306,
-     "ev_per_1": -0.3438,
+     "price": 0.94,
+     "implied": 0.95,
+     "edge": -0.366,
+     "ev_per_1": -0.3852,
      "eligible": false
     },
     {
@@ -203,10 +203,10 @@
      "model_p": 0.525,
      "mc_lower_95": 0.5219,
      "score_consistent": false,
-     "price": 0.58,
-     "implied": 0.6,
-     "edge": -0.075,
-     "ev_per_1": -0.125,
+     "price": 0.59,
+     "implied": 0.61,
+     "edge": -0.085,
+     "ev_per_1": -0.1393,
      "eligible": false
     },
     {
@@ -233,10 +233,10 @@
      "model_p": 0.4258,
      "mc_lower_95": 0.4228,
      "score_consistent": false,
-     "price": 0.5,
-     "implied": 0.52,
-     "edge": -0.0942,
-     "ev_per_1": -0.1811,
+     "price": 0.49,
+     "implied": 0.51,
+     "edge": -0.0842,
+     "ev_per_1": -0.1651,
      "eligible": false
     }
    ],
@@ -320,10 +320,10 @@
      "model_p": 0.7002,
      "mc_lower_95": 0.6974,
      "score_consistent": true,
-     "price": 0.94,
-     "implied": 0.95,
-     "edge": -0.2498,
-     "ev_per_1": -0.2629,
+     "price": 0.95,
+     "implied": 0.96,
+     "edge": -0.2598,
+     "ev_per_1": -0.2706,
      "eligible": false
     },
     {
@@ -350,10 +350,10 @@
      "model_p": 0.5993,
      "mc_lower_95": 0.5962,
      "score_consistent": true,
-     "price": 0.94,
-     "implied": 0.95,
-     "edge": -0.3507,
-     "ev_per_1": -0.3692,
+     "price": 0.95,
+     "implied": 0.96,
+     "edge": -0.3607,
+     "ev_per_1": -0.3757,
      "eligible": false
     },
     {
@@ -380,10 +380,10 @@
      "model_p": 0.5096,
      "mc_lower_95": 0.5065,
      "score_consistent": true,
-     "price": 0.94,
-     "implied": 0.95,
-     "edge": -0.4404,
-     "ev_per_1": -0.4636,
+     "price": 0.95,
+     "implied": 0.96,
+     "edge": -0.4504,
+     "ev_per_1": -0.4692,
      "eligible": false
     },
     {
@@ -425,10 +425,10 @@
      "model_p": 0.7069,
      "mc_lower_95": 0.7041,
      "score_consistent": false,
-     "price": 0.65,
-     "implied": 0.67,
-     "edge": 0.0369,
-     "ev_per_1": 0.0551,
+     "price": 0.64,
+     "implied": 0.66,
+     "edge": 0.0469,
+     "ev_per_1": 0.0711,
      "eligible": false
     },
     {
@@ -440,10 +440,10 @@
      "model_p": 0.4306,
      "mc_lower_95": 0.4275,
      "score_consistent": true,
-     "price": 0.55,
-     "implied": 0.57,
-     "edge": -0.1394,
-     "ev_per_1": -0.2446,
+     "price": 0.54,
+     "implied": 0.56,
+     "edge": -0.1294,
+     "ev_per_1": -0.2311,
      "eligible": false
     },
     {
@@ -455,10 +455,10 @@
      "model_p": 0.5694,
      "mc_lower_95": 0.5664,
      "score_consistent": false,
-     "price": 0.51,
-     "implied": 0.53,
-     "edge": 0.0394,
-     "ev_per_1": 0.0744,
+     "price": 0.49,
+     "implied": 0.51,
+     "edge": 0.0594,
+     "ev_per_1": 0.1165,
      "eligible": false
     }
    ],
