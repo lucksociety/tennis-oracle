@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "snapshot_at_utc": "2026-11-15T15:40:20Z",
- "snapshot_path": "market_snapshots/2026-11-16/20261115T154020Z.json",
+ "snapshot_at_utc": "2026-11-15T21:03:05Z",
+ "snapshot_path": "market_snapshots/2026-11-16/20261115T210305Z.json",
  "source": "Jupiter Prediction API (api.jup.ag/prediction/v1, markets provided by Polymarket)",
  "errors": [],
  "rule": "best bet = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. 0.07*p*(1-p) fee); otherwise NO BET",
@@ -158,10 +158,10 @@
      "model_p": 0.3148,
      "mc_lower_95": 0.312,
      "score_consistent": false,
-     "price": 0.46,
-     "implied": 0.48,
-     "edge": -0.1652,
-     "ev_per_1": -0.3441,
+     "price": 0.44,
+     "implied": 0.46,
+     "edge": -0.1452,
+     "ev_per_1": -0.3156,
      "eligible": false
     },
     {
@@ -218,10 +218,10 @@
      "model_p": 0.3999,
      "mc_lower_95": 0.3969,
      "score_consistent": false,
-     "price": 0.35,
-     "implied": 0.37,
-     "edge": 0.0299,
-     "ev_per_1": 0.0808,
+     "price": 0.33,
+     "implied": 0.35,
+     "edge": 0.0499,
+     "ev_per_1": 0.1426,
      "eligible": false
     },
     {
@@ -274,10 +274,10 @@
      "model_p": 0.806,
      "mc_lower_95": 0.8035,
      "score_consistent": true,
-     "price": 0.77,
-     "implied": 0.79,
-     "edge": 0.016,
-     "ev_per_1": 0.0203,
+     "price": 0.76,
+     "implied": 0.78,
+     "edge": 0.026,
+     "ev_per_1": 0.0333,
      "eligible": true
     },
     {
@@ -289,10 +289,10 @@
      "model_p": 0.194,
      "mc_lower_95": 0.1915,
      "score_consistent": false,
-     "price": 0.24,
-     "implied": 0.26,
-     "edge": -0.066,
-     "ev_per_1": -0.2538,
+     "price": 0.25,
+     "implied": 0.27,
+     "edge": -0.076,
+     "ev_per_1": -0.2815,
      "eligible": false
     },
     {
@@ -394,10 +394,10 @@
      "model_p": 0.334,
      "mc_lower_95": 0.3311,
      "score_consistent": false,
-     "price": 0.46,
-     "implied": 0.48,
-     "edge": -0.146,
-     "ev_per_1": -0.3042,
+     "price": 0.45,
+     "implied": 0.47,
+     "edge": -0.136,
+     "ev_per_1": -0.2894,
      "eligible": false
     },
     {
