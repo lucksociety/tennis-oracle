@@ -1,6 +1,6 @@
 import json,subprocess
 from pathlib import Path
-from tennis_oracle.jupiter import score_supports
+from tennis_oracle.markets import score_supports
 
 def test_set_and_game_markets_python_js_parity():
     f={"final_score":{"A_sets":2,"B_sets":1,"sets":["6-3","3-6","6-4"]},"games_projected":27}

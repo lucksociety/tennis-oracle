@@ -1,6 +1,6 @@
 /* TENNIS ORACLE dashboard. All predictions are computed in-browser by engine.js from data/ratings.json
    (model version + params exported by the Python pipeline). The model never loads odds or market data.
-   Jupiter prediction-market prices (data/jupiter-<date>.json, or live via the Worker API) are only compared
+   Polymarket prediction-market prices (data/polymarket-<date>.json, or live via the Worker API) are only compared
    AFTERWARDS with the frozen pre-match forecasts to flag a best bet (markets.js). */
 (function () {
   "use strict";
@@ -55,11 +55,11 @@
     const day = $("#slateDate").value; SLATE_FILE = null;
     try {
       SLATE_FILE = await getJSON(`data/slate-${day}.json`);
-      JUP = await getJSON(`data/jupiter-${day}.json`).catch(() => null);
+      JUP = await getJSON(`data/polymarket-${day}.json`).catch(() => getJSON(`data/jupiter-${day}.json`)).catch(() => null);
       const ms = filtTour(SLATE_FILE.matches), sched = ms.filter(m => m.status === "STATUS_SCHEDULED").length;
       $("#slateInfo").innerHTML = `Schedule for <b>${day}</b> (${TZ}): <b>${ms.length}</b> singles matches (${sched} not yet started) from ${esc(SLATE_FILE.source)}.
         Fetched ${fmtNY(SLATE_FILE.generated_at_utc)}. Frozen server-side forecasts: model ${esc(SLATE_FILE.model_version)}.
-        ${JUP ? `Jupiter price snapshot: ${fmtNY(JUP.snapshot_at_utc)}.` : "No Jupiter price snapshot for this date."}`;
+        ${JUP ? `Polymarket price snapshot: ${fmtNY(JUP.snapshot_at_utc)}.` : "No Polymarket price snapshot for this date."}`;
     } catch (e) {
       $("#slateInfo").innerHTML = `No prepared schedule file for <b>${day}</b> yet (the GitHub Action fetches today and tomorrow every few hours). Available: ${(SLATES.dates || []).slice(-10).join(", ") || "none"}. Use manual matchups below.`;
     }
@@ -144,7 +144,7 @@
   function betRow(m) { return JUP && m && m.espn_id ? (JUP.matches || []).find(x => String(x.espn_id) === String(m.espn_id)) : null; }
   function betBlock(m) {
     if (!m || m.manual) return "";
-    const r = betRow(m), src = JUP ? `Jupiter · ${JUP.source_label || fmtNY(JUP.snapshot_at_utc)}` : "Jupiter";
+    const r = betRow(m), src = JUP ? `Polymarket · ${JUP.source_label || fmtNY(JUP.snapshot_at_utc)}` : "Polymarket";
     if (r && r.status === "bet") { const b = r.best;
       return `<div class="bet yes"><div><div class="l">Best bet · ${esc(src)}</div><b>${esc(b.selection)}</b> @ ${b.price.toFixed(2)}</div>
         <div class="bn"><span>Implied <b>${pct(b.implied)}</b></span><span>Model <b>${pct(b.model_p)}</b></span><span>Edge <b>+${(100 * b.edge).toFixed(1)}</b></span><span>EV <b>+${(100 * b.ev_per_1).toFixed(1)}%</b></span></div></div>`; }
@@ -169,7 +169,7 @@
       <div class="stat"><b>${nHigh}</b><span>High-conf picks</span></div>
       <div class="stat"><b>${S.rows.filter(r => (betRow(r.m) || {}).status === "bet").length}</b><span>Best bets</span></div>
       <div>${WORKER_API ? '<button class="small" id="liveBets">↻ Live prices</button> ' : ""}<button class="small" id="dlSlate">⬇ Frozen slate JSON</button> <button class="small" id="copyList">⧉ Copy score list</button></div></div>
-      <p class="muted small" style="margin:10px 0 0">Best bets compare Jupiter prices${JUP ? ` (snapshot ${fmtNY(JUP.snapshot_at_utc)})` : ""} with the <b>frozen</b> Python forecast, never the reverse: an outcome qualifies only if model probability &gt; 50% <b>and</b> edge &gt; 0 after fees; the highest-EV qualifier is shown, otherwise NO BET. Not betting advice.</p>
+      <p class="muted small" style="margin:10px 0 0">Best bets compare Polymarket prices${JUP ? ` (snapshot ${fmtNY(JUP.snapshot_at_utc)})` : ""} with the <b>frozen</b> Python forecast, never the reverse: an outcome qualifies only if model probability &gt; 50% <b>and</b> edge &gt; 0 after fees; the highest-EV qualifier is shown, otherwise NO BET. Not betting advice.</p>
       <p class="muted small" style="margin:6px 0 0">Official pre-match freezes are written by the Python pipeline to <code>forecasts/${esc(S.day)}/</code> in the repo.</p></div>`;
     // match cards
     const setsFor = (fs, side) => fs.sets.map(x => { const g = x.split("-").map(Number), me = g[side], op = g[1 - side]; return `<span class="${me > op ? "w" : ""}">${me}</span>`; }).join("");
@@ -196,11 +196,11 @@
         L.map((o, k) => `<tr${o.is_best ? ' class="hl"' : ""}><td>${k + 1}</td><td><b>${esc(o.selection)}</b></td><td class="small">${esc(nm(o))}</td><td class="num">${o.price.toFixed(2)}</td><td class="num">${pct(o.implied)}</td><td class="num">${pct(o.model_p)}</td>
           <td class="num ${o.edge > 0 ? "hit" : "miss"}">${o.edge > 0 ? "+" : ""}${(100 * o.edge).toFixed(1)}</td><td class="num">${o.ev_per_1 > 0 ? "+" : ""}${(100 * o.ev_per_1).toFixed(1)}%</td>
           <td title="${o.eligible ? "model >50% and positive edge" : o.model_p > 0.5 ? "no positive edge" : "model ≤50%"}">${o.eligible ? "✓" : o.model_p > 0.5 ? "— edge" : "— ≤50%"}</td></tr>`).join("") + `</table></div>`;
-      h += `<div class="grid2"><div class="card"><h2 class="sec">Top highest-probability bets</h2><p class="muted small">Every priced Jupiter outcome on pre-match games, ranked by frozen model probability. Highlighted = that match's best bet.</p>${tbl(LB.top_probability, "p")}</div>
+      h += `<div class="grid2"><div class="card"><h2 class="sec">Top highest-probability bets</h2><p class="muted small">Every priced Polymarket outcome on pre-match games, ranked by frozen model probability. Highlighted = that match's best bet.</p>${tbl(LB.top_probability, "p")}</div>
         <div class="card"><h2 class="sec">Top highest-EV bets</h2><p class="muted small">Only +EV outcomes (model / implied − 1 &gt; 0). “Passes rule” = also over 50% model probability.</p>${tbl(LB.top_ev, "ev")}</div></div>`;
     }
     // summary table
-    h += `<div class="card"><h2 class="sec">Multi-match summary</h2><div class="tblwrap"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>Best bet (Jupiter)</th><th>DQ</th><th>Result</th></tr>` +
+    h += `<div class="card"><h2 class="sec">Multi-match summary</h2><div class="tblwrap"><table><tr><th>Match</th><th>Predicted winner</th><th class="num">Win %</th><th>Most likely sets</th><th>Final score</th><th class="num">Exp. games</th><th>Strongest prediction</th><th>Conf.</th><th>Best bet (Polymarket)</th><th>DQ</th><th>Result</th></tr>` +
       S.rows.map((r, i) => { const f = r.f; return `<tr class="click" data-open="${i}"><td>${esc(f.A.n)} vs ${esc(f.B.n)}</td><td>${esc(f.predicted_winner)}</td><td class="num">${pct(Math.max(...f.win_prob))}</td>
         <td>${esc(f.most_likely_set_score)}</td><td class="score">${esc(f.final_score.sets.join(" "))}</td><td class="num">${f.games.mean.toFixed(1)}</td><td>${esc(f.strongest.selection)} (${pct(f.strongest.probability)})</td>
         <td class="conf ${f.strongest.confidence}">${f.strongest.confidence}</td><td>${(() => { const b = betRow(r.m); return b && b.status === "bet" ? `<b>${esc(b.best.selection)}</b> @ ${b.best.price.toFixed(2)}` : '<span class="muted">NO BET</span>'; })()}</td><td><span class="dq ${f.data_quality}">${f.data_quality}</span></td><td>${resultCell(r.m, f)}</td></tr>`; }).join("") + `</table></div></div>`;
@@ -238,9 +238,9 @@
   function marketSection(m) {
     if (!m || m.manual) return "";
     const r = betRow(m);
-    let h = `<div class="card"><h3>11. Jupiter prediction-market comparison (post-freeze)</h3>`;
+    let h = `<div class="card"><h3>11. Polymarket prediction-market comparison (post-freeze)</h3>`;
     if (!m.forecast) return h + `<p class="muted">No frozen pre-match forecast for this match, so no market comparison.</p></div>`;
-    h += `<p class="muted small">Compared with the frozen forecast v${m.forecast.frozen_version} (${fmtNY(m.forecast.frozen_at_utc)}), not the browser run above. Prices: ${JUP ? (JUP.source_label || "snapshot " + fmtNY(JUP.snapshot_at_utc)) : "none"}. Implied = ask + Jupiter fee 0.07·p·(1−p); edge = model − implied; EV per $1 = model/implied − 1.</p>`;
+    h += `<p class="muted small">Compared with the frozen forecast v${m.forecast.frozen_version} (${fmtNY(m.forecast.frozen_at_utc)}), not the browser run above. Prices: ${JUP ? (JUP.source_label || "snapshot " + fmtNY(JUP.snapshot_at_utc)) : "none"}. Implied = ask + Polymarket fee 0.07·p·(1−p); edge = model − implied; EV per $1 = model/implied − 1.</p>`;
     if (!r || !r.outcomes || !r.outcomes.length) return h + `<p><b>${esc(r ? r.verdict : "NO BET (no market)")}</b></p></div>`;
     h += `<p>Verdict: <b class="${r.status === "bet" ? "fav" : ""}">${esc(r.status === "bet" ? "BEST BET: " + r.verdict : r.verdict)}</b> <span class="muted small">${esc(r.event_title || "")}</span></p>
       <div class="tblwrap"><table><tr><th>Outcome</th><th class="num">Ask</th><th class="num">Implied (incl. fee)</th><th class="num">Model</th><th class="num">Edge</th><th class="num">EV / $1</th><th>Qualifies</th></tr>` +
@@ -353,7 +353,7 @@
     const P = ORACLE.P, w = P.weights;
     $("#aboutOut").innerHTML = `<h2>How TENNIS ORACLE works</h2>
     <p><b>Inputs (independent statistics only).</b> Match results and point-level serve/return statistics from Jeff Sackmann's tennis_atp / tennis_wta datasets (via an archival mirror, since the upstream repositories are no longer online), plus completed scores from ESPN's public scoreboard after that dataset ends. No betting odds, market prices, consensus picks, tipster or media predictions are used in any form as model inputs.</p>
-      <p><b>Jupiter best bets (post-freeze only).</b> After a forecast is frozen, Jupiter prediction-market prices (Polymarket-provided markets via api.jup.ag) are snapshotted separately (<code>market_snapshots/</code>) and compared with the frozen probabilities: implied = ask + fee 0.07·p·(1−p), edge = model − implied, EV per $1 = model/implied − 1. A best bet is the highest-EV outcome with model probability &gt; 50% and positive edge; otherwise NO BET. Prices never feed back into ratings or simulations.</p>
+      <p><b>Polymarket best bets (post-freeze only).</b> After a forecast is frozen, Polymarket prediction-market prices (Polymarket-provided markets via api.jup.ag) are snapshotted separately (<code>market_snapshots/</code>) and compared with the frozen probabilities: implied = ask + fee 0.07·p·(1−p), edge = model − implied, EV per $1 = model/implied − 1. A best bet is the highest-EV outcome with model probability &gt; 50% and positive edge; otherwise NO BET. Prices never feed back into ratings or simulations.</p>
     <p><b>Ratings.</b> Overall and surface Elo (FiveThirtyEight-style decaying K), opponent-adjusted serve and return ratings in logit space shrunk toward tour/surface baselines, and opponent-adjusted recent form. The composite rating difference uses weights (model ${esc(ORACLE.version)}): surface Elo ${w.surface_elo}, serve/return ${w.serve_return}, overall Elo ${w.overall_elo}, form ${w.form}, verified context ≤ ±${P.context_max_elo} Elo. ${esc(ORACLE.version)} weights were refit on 2014–2023 and promoted only because they beat the spec weights on 2024 validation.</p>
     <p><b>Point model.</b> Serve-point probabilities are calibrated so the match-win probability equals the composite forecast while keeping each player's serve/return style, then fed to an exact Markov model of games, tiebreaks (correct serve rotation), sets and matches (Bo3/Bo5, 7-point, 10-point or advantage deciding sets), and to a point-by-point Monte Carlo simulation (≥100,000 sims, fixed seed ${P.mc.seed}) with per-match random variation in serve level (σ=${P.variation.sigma}, ρ=${P.variation.rho}, fitted from data).</p>
     <p><b>Daily schedule.</b> A GitHub Action fetches fixtures for today and tomorrow (America/New_York) from ESPN's public tennis scoreboard API, which carries fixtures and scores only; any odds-like field is stripped defensively. It refreshes ratings with newly completed results, re-exports this dashboard's ratings, freezes pre-match forecasts in <code>forecasts/</code> (append-only, versioned, timestamped), and audits settled ones.</p>

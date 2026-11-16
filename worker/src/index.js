@@ -1,4 +1,4 @@
-import {verifyRows} from './execution.mjs';
+import {verifyRows,clobBook} from './execution.mjs';
 // Encrypt short-lived interaction credentials before putting them in public workflow inputs.
 export async function dispatchModel(env, interaction, date, workflow, repo) {
   const app = env.DISCORD_APPLICATION_ID || interaction.application_id;
@@ -33,10 +33,10 @@ export async function dispatchModel(env, interaction, date, workflow, repo) {
 
 /* Luck Society Tennis Oracle - Discord /tennis interactions endpoint + live best-bet API (Cloudflare Worker).
  * Built by worker/build.mjs, which prepends docs/engine.js (TennisOracle) and docs/markets.js (TOMarkets).
- * Forecasts come from the FROZEN pre-match slate on GitHub Pages; Jupiter prices are fetched live at
+ * Forecasts come from the FROZEN pre-match slate on GitHub Pages; Polymarket prices are fetched live at
  * command time and only compared against those frozen numbers (never fed back into the model).
- * Env: DISCORD_PUBLIC_KEY, DISCORD_APPLICATION_ID (vars), DASHBOARD_URL, optional JUPITER_API_KEY (secret),
- *      ENGINE_FALLBACK = "on" to simulate Jupiter-listed matches missing from the frozen slate (needs Workers Paid CPU). */
+ * Env: DISCORD_PUBLIC_KEY, DISCORD_APPLICATION_ID (vars), DASHBOARD_URL,
+ *      ENGINE_FALLBACK = "on" to simulate Polymarket-listed matches missing from the frozen slate (needs Workers Paid CPU). */
 const M = globalThis.TOMarkets, T = globalThis.TennisOracle;
 const DISCORD = 'https://discord.com/api/v10';
 const json = (o, s = 200, h = {}) => new Response(JSON.stringify(o), { status: s, headers: Object.assign({ 'content-type': 'application/json' }, h) });
@@ -90,22 +90,23 @@ async function verifyDiscord(req, body, pubHex) {
 
 async function getJSON(url) { const r = await fetch(url, { cf: { cacheTtl: 60 } }); if (!r.ok) throw new Error(`${url} HTTP ${r.status}`); return r.json(); }
 
-// live prices -> evaluations; falls back to the newest committed snapshot if Jupiter is unreachable/geo-blocked
+// live prices -> evaluations; falls back to the newest committed snapshot if Polymarket is unreachable/geo-blocked
 async function bestBets(env, day, slate) {
   const dash = env.DASHBOARD_URL;
-  const live = await M.fetchEvents(fetch, { gap_ms: 2100, apiKey: env.JUPITER_API_KEY });
+  const live = await M.fetchEvents(fetch);
   if (live.events.length) {
     let rows = M.evaluateSlate(slate, live.events, { snapshot_at_utc: live.fetched_at_utc });
-    let last=Date.now();
+    // market id -> CLOB outcome token, so a candidate's executable depth can be read from its own order book
+    const tokens = new Map(live.events.flatMap(e => (e.markets || []).map(mk => [mk.marketId, mk.tokenId])));
     rows=await verifyRows(slate,rows,async id=>{
-      const delay=last+2100-Date.now();if(delay>0)await new Promise(r=>setTimeout(r,delay));last=Date.now();
-      const r=await fetch(M.API+'/orderbook/'+encodeURIComponent(id),{cache:'no-store',headers:env.JUPITER_API_KEY?{'x-api-key':env.JUPITER_API_KEY}:{},signal:AbortSignal.timeout(10000)});
-      if(!r.ok)throw Error('Order book HTTP '+r.status);return r.json();
+      const token=tokens.get(id);if(!token)throw Error('No CLOB token for '+id);
+      const r=await fetch(M.CLOB+'/book?token_id='+encodeURIComponent(token),{cache:'no-store',signal:AbortSignal.timeout(10000)});
+      if(!r.ok)throw Error('Order book HTTP '+r.status);return clobBook(await r.json());
     });
     return { source: 'live', at: live.fetched_at_utc, errors: live.errors, rows, events: live.events };
   }
   try {
-    const snap = await getJSON(`${dash}data/jupiter-${day}.json?t=${Date.now()}`);
+    const snap = await getJSON(`${dash}data/polymarket-${day}.json?t=${Date.now()}`).catch(() => getJSON(`${dash}data/jupiter-${day}.json?t=${Date.now()}`));
     return { source: 'snapshot', at: snap.snapshot_at_utc, errors: live.errors, rows: snap.matches, events: [] };
   } catch (e) { return { source: 'none', at: null, errors: live.errors.concat(String(e.message)), rows: [], events: [] }; }
 }
@@ -115,7 +116,7 @@ function distFromEngine(f) {
   return { win_prob: { A: f.win_prob[0], B: f.win_prob[1] }, set_score_probs: ss, games_pmf: f.games.pmf, games_diff_pmf: f.diff_pmf };
 }
 
-// optional: run the engine for Jupiter-listed matches on this NY date that are not in the frozen slate
+// optional: run the engine for Polymarket-listed matches on this NY date that are not in the frozen slate
 async function engineExtras(env, day, slate, events) {
   if (env.ENGINE_FALLBACK !== 'on' || !events.length) return [];
   const known = new Set(slate.matches.map(m => M.matchEvent(m, events)).filter(Boolean).map(e => e.eventId));
@@ -209,8 +210,8 @@ export async function buildReport(env, day, tour) {
   const ms = [...slate.matches].sort((a, b) => String(a.start_utc).localeCompare(String(b.start_utc)));
   const nF = ms.filter(m => m.forecast).length, nBet = ms.filter(m => (byId.get(String(m.espn_id)) || {}).status === 'bet').length;
   const n0 = (ms.find(m => m.forecast) || {}).forecast;
-  const src = bb.source === 'live' ? `live Jupiter prices ${nyTime(bb.at)}` : bb.source === 'snapshot' ? `⚠️ Jupiter unreachable from Worker (${bb.errors[0] || ''}); using saved snapshot ${nyTime(bb.at)}` : `⚠️ no Jupiter prices available (${bb.errors.join('; ')})`;
-  const header = `🍀 **Luck Society Tennis Oracle — ${day} (ET)**\n${ms.length} matches · ${nF} frozen pre-match forecasts (${n0 && n0.n_sims ? n0.n_sims.toLocaleString('en-US') : '100,000'} Monte Carlo sims each, seed ${n0 && n0.seed || ''}) · ${nBet} best bets · ${src}\n_Best bet = highest EV outcome with model prob > 50% AND positive edge after Jupiter fees; otherwise NO BET. Not betting advice._`;
+  const src = bb.source === 'live' ? `live Polymarket prices ${nyTime(bb.at)}` : bb.source === 'snapshot' ? `⚠️ Polymarket unreachable from Worker (${bb.errors[0] || ''}); using saved snapshot ${nyTime(bb.at)}` : `⚠️ no Polymarket prices available (${bb.errors.join('; ')})`;
+  const header = `🍀 **Luck Society Tennis Oracle — ${day} (ET)**\n${ms.length} matches · ${nF} frozen pre-match forecasts (${n0 && n0.n_sims ? n0.n_sims.toLocaleString('en-US') : '100,000'} Monte Carlo sims each, seed ${n0 && n0.seed || ''}) · ${M.BETS_PAUSED ? 'bets paused' : nBet + ' best bets'} · ${src}\n${M.BETS_PAUSED ? '_Bets are paused: on 308 settled matches the market price was more accurate than this model (log loss 0.571 vs 0.623). Forecasts and prices are shown for comparison only. Not betting advice._' : '_Best bet = highest EV outcome with model prob > 50% AND positive edge after Polymarket fees; otherwise NO BET. Not betting advice._'}`;
   const blocks = [header].concat(ms.map(m => matchLines(m, byId.get(String(m.espn_id)))));
   for (const x of extras) {
     if (x.err) blocks.push(`_Engine fallback failed: ${x.err}_`);

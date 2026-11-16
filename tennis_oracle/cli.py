@@ -107,18 +107,18 @@ def cmd_verify(a):
 
 
 def cmd_markets(a):
-    from .jupiter import run
+    from .markets import run
     tz = ZoneInfo("America/New_York")
     d0 = date.fromisoformat(a.date) if a.date else datetime.now(tz).date()
     fetched = None
     for k in range(a.days):
         d = str(d0 + timedelta(days=k))
         if not (Path("docs/data") / f"slate-{d}.json").exists(): continue
-        from .jupiter import fetch_events
+        from .markets import fetch_events
         fetched = fetched or fetch_events()
         r = run(d, fetched=fetched)
         nb = sum(1 for m in r["matches"] if m["status"] == "bet"); nm = sum(1 for m in r["matches"] if m["event_id"])
-        print(f"{d}: snapshot {r['snapshot_at_utc']} ({r['snapshot_path']}), {nm}/{len(r['matches'])} matched to Jupiter events, {nb} best bets"
+        print(f"{d}: snapshot {r['snapshot_at_utc']} ({r['snapshot_path']}), {nm}/{len(r['matches'])} matched to Polymarket events, {nb} best bets"
               + (f"; errors: {r['errors']}" if r["errors"] else ""))
 
 
@@ -211,7 +211,7 @@ def main(argv=None):
     p = sub.add_parser("verify", help="audit frozen forecasts: real MC (n, seed, re-run), analytic cross-check, internal consistency")
     p.add_argument("--date"); p.add_argument("--days", type=int, default=1); p.add_argument("--no-resim", action="store_true")
     p.add_argument("--json", action="store_true"); p.set_defaults(func=cmd_verify)
-    p = sub.add_parser("markets", help="POST-FREEZE: snapshot Jupiter prices and compare with frozen forecasts (never a model input)")
+    p = sub.add_parser("markets", help="POST-FREEZE: snapshot Polymarket prices and compare with frozen forecasts (never a model input)")
     p.add_argument("--date"); p.add_argument("--days", type=int, default=2); p.set_defaults(func=cmd_markets)
     p = sub.add_parser("update-data"); p.add_argument("--force", action="store_true"); p.add_argument("--full", action="store_true")
     p.add_argument("--days", type=int, default=10); p.set_defaults(func=cmd_update)

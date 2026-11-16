@@ -16,6 +16,6 @@ globalThis.fetch = async (url, opts) => {
   return net(url, opts);
 };
 await fs.access(`docs/data/slate-${date}.json`);
-const parts = await buildReport({ DASHBOARD_URL: dash, JUPITER_API_KEY: process.env.JUPITER_API_KEY, ENGINE_FALLBACK: 'off' }, date, 'all');
+const parts = await buildReport({ DASHBOARD_URL: dash, ENGINE_FALLBACK: 'off' }, date, 'all');
 await fs.mkdir('out', { recursive: true });
 await fs.writeFile('out/discord.json', JSON.stringify(parts.map(content => ({ content, flags: 4 }))));

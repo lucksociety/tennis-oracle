@@ -7,6 +7,12 @@ export function depthAtAsk(book,ask){
  if(bid>ask+1e-7||ask-bid>.10+1e-7)return 0;
  return valid(book.no).reduce((sum,[p,n])=>100-p<=ask*100+1e-7?sum+n:sum,0);
 }
+// Polymarket CLOB book of one outcome token -> the {yes, no} cent ladders depthAtAsk reads:
+// yes = resting bids for the outcome; no = resting asks, expressed as the opposite side's bid (100 - ask).
+export function clobBook(book){
+ const rows=xs=>(Array.isArray(xs)?xs:[]).map(x=>[Number(x?.price),Number(x?.size)]).filter(([p,n])=>Number.isFinite(p)&&p>0&&p<1&&Number.isFinite(n)&&n>0);
+ return {yes:rows(book?.bids).map(([p,n])=>[p*100,n]),no:rows(book?.asks).map(([p,n])=>[100-p*100,n])};
+}
 export async function verifyRows(slate,rows,fetchBook,{now=()=>Date.now()}={}){
  const result=[];
  for(const original of rows){
