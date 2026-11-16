@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-16T06:28:42+00:00",
+ "generated_at_utc": "2026-11-16T17:41:36+00:00",
  "summary": {
-  "n": 159,
-  "brier": 0.23286362974842761,
-  "log_loss": 0.6629741214749616,
-  "accuracy": 0.5974842767295597,
-  "games_mae": 5.2320754716981135,
-  "exact_sets_accuracy": 0.39622641509433965,
-  "tiebreak_brier": 0.24244283962264151
+  "n": 160,
+  "brier": 0.231568432125,
+  "log_loss": 0.659920985977309,
+  "accuracy": 0.6,
+  "games_mae": 5.237875,
+  "exact_sets_accuracy": 0.4,
+  "tiebreak_brier": 0.2416210444375
  },
- "n": 159,
+ "n": 160,
  "overall": {
-  "n": 159,
-  "brier": 0.23286362974842761,
-  "log_loss": 0.6629741214749616,
-  "accuracy": 0.5974842767295597
+  "n": 160,
+  "brier": 0.231568432125,
+  "log_loss": 0.659920985977309,
+  "accuracy": 0.6
  },
- "games_mae": 5.2320754716981135,
- "exact_sets_accuracy": 0.39622641509433965,
- "tiebreak_brier": 0.24244283962264151,
+ "games_mae": 5.237875,
+ "exact_sets_accuracy": 0.4,
+ "tiebreak_brier": 0.2416210444375,
  "by_surface": {
   "Hard": {
-   "n": 159,
-   "brier": 0.23286362974842761,
-   "log_loss": 0.6629741214749616,
-   "accuracy": 0.5974842767295597
+   "n": 160,
+   "brier": 0.231568432125,
+   "log_loss": 0.659920985977309,
+   "accuracy": 0.6
   }
  },
  "by_tour": {
   "atp": {
-   "n": 159,
-   "brier": 0.23286362974842761,
-   "log_loss": 0.6629741214749616,
-   "accuracy": 0.5974842767295597
+   "n": 160,
+   "brier": 0.231568432125,
+   "log_loss": 0.659920985977309,
+   "accuracy": 0.6
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 59,
-   "brier": 0.2439734693220339,
-   "log_loss": 0.6890272432775126,
-   "accuracy": 0.5932203389830508
+   "n": 60,
+   "brier": 0.24033444500000004,
+   "log_loss": 0.6804513299203967,
+   "accuracy": 0.6
   },
   "LOW": {
    "n": 17,
@@ -76,9 +76,9 @@
   },
   {
    "bucket": "80%-90%",
-   "n": 9,
-   "mean_pred": 0.8373,
-   "observed": 0.4444444444444444
+   "n": 10,
+   "mean_pred": 0.8375600000000001,
+   "observed": 0.5
   },
   {
    "bucket": "90%-100%",
@@ -6761,6 +6761,48 @@
     "A -5.5": [
      0.0788,
      0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Carlos Alcaraz vs Frances Tiafoe",
+   "date": "2026-11-16",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.8399,
+   "a_won": 1,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.644,
+   "exp_games": 22.16,
+   "actual_games": 16,
+   "p_tb": 0.3331,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.8034,
+     1
+    ],
+    "A -2.5": [
+     0.7524,
+     1
+    ],
+    "A -3.5": [
+     0.6649,
+     1
+    ],
+    "A -4.5": [
+     0.5325,
+     1
+    ],
+    "A -5.5": [
+     0.3999,
+     1
     ]
    },
    "data_quality": "HIGH",

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "n": 6,
- "passed": 6,
+ "n": 7,
+ "passed": 7,
  "results": [
   {
    "match": "Carlos Alcaraz vs Flavio Cobolli",
@@ -92,6 +92,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-16/187512-daniil-medvedev-vs-flavio-cobolli/v2.json"
+  },
+  {
+   "match": "Daniil Medvedev vs Flavio Cobolli",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0013,
+   "max_mc_vs_exact": 0.002,
+   "reproduction": {
+    "frozen_p_a": 0.8047,
+    "rerun_p_a": 0.8047,
+    "frozen_games_mean": 22.35,
+    "rerun_games_mean": 22.35,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-16/187512-daniil-medvedev-vs-flavio-cobolli/v3.json"
   },
   {
    "match": "Flavio Cobolli vs Frances Tiafoe",
