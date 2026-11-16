@@ -2,7 +2,7 @@ import copy,json,subprocess
 from pathlib import Path
 import pandas as pd
 from tennis_oracle.quality import recommendation_quality
-from tennis_oracle import jupiter as J
+from tennis_oracle import markets as J
 ROOT=Path(__file__).resolve().parents[1]
 
 def profile(stats='2026-10-20'):

@@ -209,24 +209,30 @@ multiplier 0.9 beat 1.0 on validation by a noise-level margin (score log-loss 4.
 so σ stays at 1.0. The games median beats the mean as a point prediction (MAE 4.99 vs 5.14 validation, 5.06 vs 5.21 test),
 so "projected games" = median.
 
-## Jupiter best bets (post-freeze only)
+## Polymarket prices (post-freeze only) — bets paused
 
-`oracle markets --date D` fetches Jupiter Prediction API tennis events (api.jup.ag/prediction/v1, Polymarket-provided markets)
-AFTER forecasts are frozen, saves a timestamped price snapshot in `market_snapshots/<date>/`, and writes
-`docs/data/jupiter-<date>.json`. For each outcome: implied = ask + fee 0.07·p·(1−p) (Jupiter fee schedule), edge = model − implied,
-EV per $1 = model / implied − 1. Best bet = highest-EV outcome with model probability > 50% AND edge > 0; otherwise NO BET
-("no market" when Jupiter lists none; started matches are never bet because the pre-match model is not an in-play model).
-Prices are never inputs: `tests/test_markets.py` asserts no model/forecast module or `engine.js` imports or reads price data.
-Note: Jupiter geo-restricts US (and South Korea) IPs; the Action step is allowed to fail.
+`oracle markets --date D` fetches open ATP singles events from Polymarket's public Gamma API
+(`gamma-api.polymarket.com/events?tag_id=864`, no key) after the forecasts are frozen, stores a timestamped snapshot in
+`market_snapshots/`, and writes `docs/data/polymarket-<date>.json`. For each outcome: implied = ask + the market's own taker fee
+`rate·(p(1−p))^exponent` (sports default 0.05), edge = model − implied, EV per $1 = model / implied − 1. Prices never feed the model.
+
+**No bet is recommended (since 2026-11-16).** On 308 settled matches with a pre-match price, the market's log loss was 0.571
+against the model's 0.623 (95% interval of the gap 0.027 to 0.079). Where they disagreed by 10+ points the model's side won 27%,
+which is what the market said. The model is calibrated on its 10,806-match out-of-sample backtest; it is simply less sharp than the price.
+
+What still happens: every outcome is priced, the old candidate rule is recorded as `would_qualify`, and every pre-match row stores
+`model_p_a` and the no-vig `market_p_a`. `python research/market_benchmark.py` reproduces the comparison and prints a PASS/FAIL gate.
+To un-pause, set `BETS_PAUSED` to false in `tennis_oracle/markets.py` and `docs/markets.js` (kept in parity by the tests), and do it
+only after that gate passes on matches played after the model change being judged.
 
 ## Discord `/tennis`
 
 Cloudflare Worker in `worker/` (`node build.mjs` bundles `docs/engine.js` + `docs/markets.js`). `POST /interactions` verifies the
-Ed25519 signature, defers, then posts the NY-date slate (winner, win %, final score, projected games, Jupiter best bet or NO BET,
+Ed25519 signature, defers, then posts the NY-date slate (winner, win %, final score, projected games, Polymarket comparison (bets paused),
 plus top-probability and top-EV leaderboards) in < 2000-char messages. Optional `date` option uses autocomplete (Today / Tomorrow / Yesterday / published slate dates; typed today, MM-DD, YYYY-MM-DD also work); always all ATP+WTA. `GET /api/bets?date=` returns live evaluations (CORS).
 Live: https://tennis-oracle.dreiss324.workers.dev (Interactions Endpoint: /interactions). Register the command with `DISCORD_BOT_TOKEN=... python scripts/register_commands.py --guild 780172495268610059` (currently a guild command in the Luck Society server; the global command list is empty to avoid duplicates); deploy with `worker/deploy.sh`.
 The bot token is NOT needed by the Worker (follow-ups use the interaction token).
 
 ## November 11 execution reliability
 
-Discord recommendations now require a fresh Jupiter order book with a two-sided spread <=10c and at least max(10, ceil($5/ask)) contracts at the quoted ask or better. Higher-priced depth cannot justify a lower displayed price. Prices use a conservative rounded one-contract fee bound and must retain EV under a one-cent adverse quote. Actual fee depends on order size. Cached price comparisons remain historical information and cannot produce a live Discord bet. Distinct matching market IDs for the same players/date are ambiguous and do not match automatically. Predictions stay market-independent.
+Discord recommendations now require a fresh Polymarket CLOB order book with a two-sided spread <=10c and at least max(10, ceil($5/ask)) contracts at the quoted ask or better. Higher-priced depth cannot justify a lower displayed price. Prices use a conservative rounded one-contract fee bound and must retain EV under a one-cent adverse quote. Actual fee depends on order size. Cached price comparisons remain historical information and cannot produce a live Discord bet. Distinct matching market IDs for the same players/date are ambiguous and do not match automatically. Predictions stay market-independent.

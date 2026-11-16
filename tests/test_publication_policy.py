@@ -1,6 +1,6 @@
 import copy,json,subprocess
 from pathlib import Path
-from tennis_oracle import jupiter as J
+from tennis_oracle import markets as J
 ROOT=Path(__file__).resolve().parents[1]
 F=json.loads((ROOT/'tests/fixtures/markets_fixture.json').read_text())
 

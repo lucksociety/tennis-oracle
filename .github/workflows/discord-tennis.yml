@@ -16,7 +16,6 @@ jobs:
     timeout-minutes: 12
     env:
       DATE: ${{ inputs.date }}
-      JUPITER_API_KEY: ${{ secrets.JUPITER_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

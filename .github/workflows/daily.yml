@@ -61,8 +61,8 @@ jobs:
         run: oracle schedule --date "$DATE" --days 2
       - name: Verify simulator (n>=100k, seed, re-run, analytic cross-check, consistency)
         run: oracle verify --date "$DATE" --days 2 --json
-      - name: Jupiter prices (POST-FREEZE comparison only; never a model input)
-        continue-on-error: true   # Jupiter geo-restricts US IPs; GitHub runners may be blocked
+      - name: Polymarket prices (POST-FREEZE comparison only; never a model input)
+        continue-on-error: true   # a price outage must not block the forecast commit
         run: oracle markets --date "$DATE" --days 2
       - name: Post-match audit
         run: oracle audit > /dev/null

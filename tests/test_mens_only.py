@@ -1,7 +1,7 @@
 import pytest
 from tennis_oracle.build import build_engine
 from tennis_oracle.predict import forecast
-from tennis_oracle import schedule,jupiter
+from tennis_oracle import schedule,markets as jupiter
 from datetime import date
 
 def test_wta_cannot_build_or_predict():
@@ -18,4 +18,4 @@ def test_cached_wta_slate_cannot_generate_a_forecast(monkeypatch):
 def test_wta_contract_cannot_be_recommended():
     r=jupiter.evaluate({'tour':'wta','espn_id':'x'},None)
     assert r['status']=='excluded' and r['best'] is None
-    assert all(t=='atp' for t,_ in jupiter.LISTS)
+    assert jupiter.TOURS==('atp',)

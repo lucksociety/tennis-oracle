@@ -1,18 +1,23 @@
-/* Tennis Oracle - Jupiter prediction-market comparison (shared by the dashboard, the Discord Worker and
- * mirrored exactly by tennis_oracle/jupiter.py; parity tested in tests/test_markets.py).
+/* Tennis Oracle - Polymarket price comparison (shared by the dashboard, the Discord Worker and
+ * mirrored exactly by tennis_oracle/markets.py; parity tested in tests/test_markets.py).
  * Market prices NEVER feed the model: this only reads an already-frozen forecast distribution and
- * compares it with prices fetched afterwards.
- *   cost (implied prob incl. fee) = p + 0.07 * p * (1 - p)   (Jupiter taker fee schedule, per contract)
+ * compares it with prices fetched afterwards from Polymarket's public Gamma API.
+ *   cost (implied prob incl. fee) = p + rate * (p * (1 - p)) ^ exponent   (the market's own feeSchedule; sports default 0.05)
  *   edge = model_p - cost ;  EV per $1 staked = model_p / cost - 1
- *   best bet = highest-EV outcome with model_p > 0.5 AND edge > 0, otherwise NO BET.            */
+ * BETS ARE PAUSED (2026-11-16): on 308 settled matches the market's log loss was 0.571 against the model's 0.623.
+ * Every outcome is still priced and flagged would_qualify so the comparison keeps accumulating; nothing is recommended. */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) module.exports = factory();
   else root.TOMarkets = factory();
 }(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
-  const API = 'https://api.jup.ag/prediction/v1';
-  const FEE_RATE = 0.07;
-  const LISTS = [['atp', 'upcoming'], ['atp', 'live']];
+  const GAMMA = 'https://gamma-api.polymarket.com', CLOB = 'https://clob.polymarket.com';
+  const TENNIS_TAG = '864', TOURS = ['atp'];
+  const DEFAULT_FEE = { rate: 0.05, exponent: 1 };
+  const TYPE_MAP = { moneyline: 'moneyline', tennis_set_totals: 'tennis_set_totals', tennis_match_totals: 'tennis_match_totals', tennis_set_handicap: 'handicap', tennis_game_handicap: 'tennis_game_handicap' };
+  const HANDICAP_Q = /^.*?:\s*(.+?)\s*\(([+-]\d+(?:\.\d+)?)\)\s+vs\.?\s+(.+?)\s*\(([+-]\d+(?:\.\d+)?)\)\s*$/;
+  const BETS_PAUSED = true;
+  const PAUSE_VERDICT = 'NO BET (bets paused: the model trails the market price on settled matches)';
 
   function norm(s) {
     return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
@@ -64,8 +69,55 @@
     if (r) return { name: r[1], line: Number(r[2]) };
     return { name: s, line: null };
   }
-  function cost(p) { return p + Math.ceil((FEE_RATE * p * (1 - p) - 1e-12) * 100) / 100; }
+  function cost(p, fee) { const f = fee && fee.rate != null ? fee : DEFAULT_FEE; return p + Number(f.rate) * Math.pow(p * (1 - p), Number(f.exponent == null ? 1 : f.exponent)); }
   const r4 = x => Math.round(x * 1e4) / 1e4;
+  const list = v => { if (typeof v === 'string') { try { v = JSON.parse(v); } catch (e) { return []; } } return Array.isArray(v) ? v : []; };
+  const fnum = x => { if (x == null || x === '') return null; const n = Number(x); return Number.isFinite(n) ? n : null; };
+  const fmtLine = x => String(Number(x));
+
+  // Gamma event -> the internal event shape (one market record per buyable outcome)
+  function adaptGammaEvent(e) {
+    const tour = e.seriesSlug, t0 = Date.parse(e.startTime);
+    if (!TOURS.includes(tour) || !e.id || !Number.isFinite(t0) || !String(e.title || '').includes(' vs')) return null;
+    const markets = [];
+    for (const gm of e.markets || []) {
+      const t = TYPE_MAP[gm.sportsMarketType], outs = list(gm.outcomes), toks = list(gm.clobTokenIds);
+      if (!t || outs.length !== 2 || toks.length !== 2) continue;
+      const line = fnum(gm.line); let labels;
+      if (t === 'moneyline') labels = outs.map(String);
+      else if (t === 'tennis_set_totals' || t === 'tennis_match_totals') {
+        if (line == null || String(outs[0]).split(/\s+/)[0].toLowerCase() !== 'over' || String(outs[1]).split(/\s+/)[0].toLowerCase() !== 'under') continue;
+        labels = [`Over ${fmtLine(line)}`, `Under ${fmtLine(line)}`];
+      } else {
+        const q = HANDICAP_Q.exec(String(gm.question || ''));
+        if (!q || q[1] !== String(outs[0]) || q[3] !== String(outs[1]) || Number(q[2]) !== -Number(q[4])) continue;
+        labels = [`${outs[0]} ${q[2]}`, `${outs[1]} ${q[4]}`];
+      }
+      const bid = fnum(gm.bestBid), ask = fnum(gm.bestAsk);
+      // Binary CLOB books mirror each other: buying outcome 1 at its ask is selling outcome 0 at its bid.
+      const quotes = [[ask, bid], [bid == null ? null : 1 - bid, ask == null ? null : 1 - ask]];
+      const sched = gm.feeSchedule || {};
+      const fee = gm.feesEnabled === false ? { rate: 0, exponent: 1 } : sched.rate != null ? { rate: Number(sched.rate), exponent: Number(sched.exponent == null ? 1 : sched.exponent) } : null;
+      const open = !gm.closed && gm.active !== false && gm.acceptingOrders !== false;
+      const usd = x => (x != null && x > 0 && x < 1 ? Math.round(x * 1e6) : 0);
+      for (let i = 0; i < 2; i++) markets.push({ marketId: `POLY-${gm.id}-${i}`, sportsMarketType: t, title: labels[i], sportsLine: line, status: open ? 'open' : 'closed',
+        marketOptions: [{ label: labels[i] }], pricing: { buyYesPriceUsd: usd(quotes[i][0]), sellYesPriceUsd: usd(quotes[i][1]), buyNoPriceUsd: 0, sellNoPriceUsd: 0 }, fee, tokenId: String(toks[i]) });
+    }
+    return { eventId: `POLY-${e.id}`, subcategory: tour, slug: e.slug == null ? null : e.slug, metadata: { title: e.title }, beginAt: String(Math.floor(t0 / 1000)), isLive: !!(e.live || e.ended), markets };
+  }
+  // no-vig pre-match moneyline for the slate's player A: the benchmark the model is graded against
+  function marketWinProb(ev, A, B) {
+    const mids = {};
+    for (const mk of (ev && ev.markets) || []) {
+      if (mk.sportsMarketType !== 'moneyline' || mk.status !== 'open') continue;
+      const pr = mk.pricing || {}, a = Number(pr.buyYesPriceUsd || 0) / 1e6, b = Number(pr.sellYesPriceUsd || 0) / 1e6;
+      const sd = side(mk.title, A, B);
+      if (!sd || !(b > 0 && b <= a && a < 1) || a - b > 0.06 + 1e-9) return null;
+      mids[sd] = (a + b) / 2;
+    }
+    if (mids.A == null || mids.B == null) return null;
+    return r4(mids.A / (mids.A + mids.B));
+  }
 
   // model probability of one market outcome from the frozen distribution (A/B = slate order), or {skip}
   function modelProb(mk, lab, dist, A, B, bo) {
@@ -118,6 +170,7 @@
   // evaluate every outcome of a matched event against a slate match's frozen forecast
   function evaluate(m, ev, opts) {
     opts = opts || {};
+    const paused = opts.bets_paused == null ? BETS_PAUSED : !!opts.bets_paused;
     const f = m.forecast, base = { espn_id: m.espn_id, event_id: ev ? ev.eventId : null, event_title: ev && ev.metadata ? ev.metadata.title : null };
     if (m.tour !== 'atp') return Object.assign(base,{status:'excluded',best:null,verdict:'Excluded by men-only policy',outcomes:[]});
     if (!ev) return Object.assign(base, { status: 'no_market', best: null, verdict: 'NO BET (no market)', outcomes: [] });
@@ -125,6 +178,10 @@
     const snapAt = opts.snapshot_at_utc ? Date.parse(opts.snapshot_at_utc) : Date.now();
     if (f.frozen_at_utc && Date.parse(f.frozen_at_utc) > snapAt)
       return Object.assign(base, { status: 'invalid_order', best: null, verdict: 'NO BET (prices older than forecast)', outcomes: [] });
+    base.model_p_a = f.dist.win_prob && typeof f.dist.win_prob.A === 'number' ? r4(f.dist.win_prob.A) : null;
+    const t0 = Date.parse(m.start_utc);
+    const prematch = !!m.start_utc && Number.isFinite(t0) && snapAt < t0 && !ev.isLive && (m.status == null || m.status === 'STATUS_SCHEDULED');
+    base.market_p_a = prematch ? marketWinProb(ev, m.players[0].name, m.players[1].name) : null;
     if (!f.recommendation_quality || f.recommendation_quality.eligible !== true)
       return Object.assign(base, { status: 'input_quality', best: null, verdict: 'NO BET (current performance inputs not verified)', outcomes: [] });
     const A = m.players[0].name, B = m.players[1].name, bo = m.best_of || 3;
@@ -142,10 +199,11 @@
       if (mk.status && mk.status !== 'open') { o.skip = `market ${mk.status}`; outs.push(o); continue; }
       if (!(price > 0 && price < 1)) { o.skip = 'no ask price (no liquidity)'; outs.push(o); continue; }
       if (price >= 0.99) { o.skip = 'ask at 0.99 placeholder (no real liquidity)'; outs.push(o); continue; }
-      const c = cost(price);
+      const c = cost(price, mk.fee);
       o.price = r4(price); o.implied = r4(c); o.edge = r4(mp.p - c); o.ev_per_1 = r4(mp.p / c - 1);
       o.score_consistent = scoreSupports(mk,lab,f,A,B,bo);
-      o.eligible = o.score_consistent && lower > 0.5 && lower > cost(Math.min(.999,price+.01)) && o.model_p > 0.5 && o.ev_per_1 > 0;
+      o.would_qualify = o.score_consistent && lower > 0.5 && lower > cost(Math.min(.999,price+.01), mk.fee) && o.model_p > 0.5 && o.ev_per_1 > 0;
+      o.eligible = o.would_qualify && !paused;
       outs.push(o);
     }
     const priced = outs.filter(o => o.implied != null);
@@ -155,6 +213,7 @@
     let best = elig[0] || null, verdict, status;
     if (live) { best = null; status = 'not_prematch'; verdict = m.completed ? 'NO BET (match finished)' : 'NO BET (match in progress - pre-match model not valid in-play)'; }
     else if (!priced.length) { status = 'no_prices'; verdict = 'NO BET (no priced outcomes)'; }
+    else if (paused) { status = 'paused'; verdict = PAUSE_VERDICT; }
     else if (!best) {
       status = 'no_bet';
       const anyEdge = priced.some(o => o.edge > 0), anyFav = priced.some(o => o.model_p > 0.5);
@@ -167,21 +226,24 @@
     return slate.matches.map(m => evaluate(m, matchEvent(m, events), opts));
   }
 
+  // open ATP singles events starting from 12 h ago (in play) to 3 days ahead, with their markets
   async function fetchEvents(fetchFn, opts) {
-    opts = opts || {}; const gap = opts.gap_ms == null ? 2200 : opts.gap_ms;
-    const out = [], errors = [];
-    for (let i = 0; i < LISTS.length; i++) {
-      const [sub, filt] = LISTS[i];
-      const url = `${API}/events?category=sports&subcategory=${sub}&filter=${filt}&includeMarkets=true&includeAllMarkets=true&start=0&end=100`;
-      try {
-        const r = await fetchFn(url, { headers: Object.assign({ accept: 'application/json' }, opts.apiKey ? { 'x-api-key': opts.apiKey } : {}) });
-        if (!r.ok) { errors.push(`${sub}/${filt}: HTTP ${r.status}`); }
-        else { const j = await r.json(); for (const e of (j.data || [])) out.push(e); }
-      } catch (e) { errors.push(`${sub}/${filt}: ${e.message || e}`); }
-      if (i < LISTS.length - 1 && gap) await new Promise(res => setTimeout(res, gap));
-    }
-    const seen = new Set(); const evs = out.filter(e => !seen.has(e.eventId) && seen.add(e.eventId));
-    return { events: evs, errors, fetched_at_utc: new Date().toISOString() };
+    opts = opts || {}; const now = opts.now ? new Date(opts.now) : new Date();
+    const lo = new Date(now.getTime() - 12 * 36e5).toISOString(), hi = new Date(now.getTime() + 3 * 864e5).toISOString();
+    const out = new Map(), errors = [];
+    try {
+      let page = 0;
+      for (; page < 30; page++) {
+        const url = `${GAMMA}/events?tag_id=${TENNIS_TAG}&closed=false&limit=100&offset=${page * 100}&order=id&ascending=true&start_time_min=${encodeURIComponent(lo)}&start_time_max=${encodeURIComponent(hi)}`;
+        const r = await fetchFn(url, { headers: { accept: 'application/json' } });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const data = await r.json(); if (!Array.isArray(data)) throw new Error('Gamma events page is not a list');
+        for (const e of data) { const ev = adaptGammaEvent(e); if (ev) out.set(ev.eventId, ev); }
+        if (data.length < 100) break;
+      }
+      if (page === 30) errors.push('pagination safety limit reached; event list may be partial');
+    } catch (e) { errors.push(`gamma: ${e.message || e}`); }
+    return { events: [...out.values()], errors, fetched_at_utc: now.toISOString() };
   }
 
   // slate-wide leaderboards over every priced pre-match outcome (rows = evaluate() results)
@@ -196,5 +258,5 @@
     return { top_probability: prob, top_ev: ev, n_outcomes: all.length };
   }
 
-  return { scoreSupports, recommendationMatchesScore, leaderboards, API, FEE_RATE, LISTS, norm, samePlayer, eventPlayers, side, matchEvent, parseLabel, cost, modelProb, evaluate, evaluateSlate, fetchEvents };
+  return { scoreSupports, recommendationMatchesScore, leaderboards, GAMMA, CLOB, DEFAULT_FEE, BETS_PAUSED, PAUSE_VERDICT, adaptGammaEvent, marketWinProb, norm, samePlayer, eventPlayers, side, matchEvent, parseLabel, cost, modelProb, evaluate, evaluateSlate, fetchEvents };
 }));

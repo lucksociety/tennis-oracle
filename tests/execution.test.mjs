@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {depthAtAsk,verifyRows} from '../worker/src/execution.mjs';
+import {depthAtAsk,verifyRows,clobBook} from '../worker/src/execution.mjs';
 const now=Date.parse('2026-11-11T12:00Z');
 const slate={matches:[{espn_id:'1',status:'STATUS_SCHEDULED',start_utc:'2026-11-11T14:00Z'}]};
 const o={market_id:'test',eligible:true,price:.55,model_p:.65,ev_per_1:.15,selection:'A to win'};
@@ -13,4 +13,10 @@ let r=await verifyRows(slate,rows,async()=>book,{now:()=>now});assert.equal(r[0]
 r=await verifyRows(slate,rows,async()=>({yes:[[53,100]],no:[[45,1]]}),{now:()=>now});assert.equal(r[0].best,null);assert.equal(r[0].status,'execution_blocked');
 r=await verifyRows(slate,rows,async()=>book,{now:()=>now+3*3600000});assert.equal(r[0].best,null);
 assert.equal(rows[0].best,o);assert.ok(rows[0].outcomes[0].eligible);
+// Polymarket CLOB book (asks high->low, bids low->high, string numbers) -> depth at exactly the quoted ask
+const clob={asks:[{price:'0.99',size:'5'},{price:'0.56',size:'10000'},{price:'0.55',size:'100'}],bids:[{price:'0.01',size:'9'},{price:'0.53',size:'40'}]};
+assert.equal(depthAtAsk(clobBook(clob),.55),100);
+assert.equal(depthAtAsk(clobBook({asks:clob.asks,bids:[]}),.55),0);
+assert.equal(depthAtAsk(clobBook({asks:clob.asks,bids:[{price:'0.30',size:'40'}]}),.55),0);
+assert.deepEqual(clobBook(null),{yes:[],no:[]});
 console.log('Tennis exact-ask depth, two-sided spread, kickoff and immutable price evaluation: passed');
