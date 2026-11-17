@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-16T18:32:35+00:00",
+ "generated_at_utc": "2026-11-17T02:56:22+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -158,9 +158,9 @@
    "venue": "Inalpi Arena, Turin, Italy",
    "round": "Group Stage",
    "court": "Inalpi Arena",
-   "start_utc": "2026-11-16T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-16T19:55Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Daniil Medvedev",
@@ -176,7 +176,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 3,
     "frozen_at_utc": "2026-11-16T17:41:04+00:00",

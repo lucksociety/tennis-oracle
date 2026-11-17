@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-16T18:32:55+00:00",
+ "generated_at_utc": "2026-11-17T02:56:44+00:00",
  "summary": {
-  "n": 160,
-  "brier": 0.231568432125,
-  "log_loss": 0.659920985977309,
-  "accuracy": 0.6,
-  "games_mae": 5.237875,
-  "exact_sets_accuracy": 0.4,
-  "tiebreak_brier": 0.2416210444375
+  "n": 161,
+  "brier": 0.2303670262732919,
+  "log_loss": 0.6571716987465807,
+  "accuracy": 0.6024844720496895,
+  "games_mae": 5.207515527950311,
+  "exact_sets_accuracy": 0.40372670807453415,
+  "tiebreak_brier": 0.24291098881987574
  },
- "n": 160,
+ "n": 161,
  "overall": {
-  "n": 160,
-  "brier": 0.231568432125,
-  "log_loss": 0.659920985977309,
-  "accuracy": 0.6
+  "n": 161,
+  "brier": 0.2303670262732919,
+  "log_loss": 0.6571716987465807,
+  "accuracy": 0.6024844720496895
  },
- "games_mae": 5.237875,
- "exact_sets_accuracy": 0.4,
- "tiebreak_brier": 0.2416210444375,
+ "games_mae": 5.207515527950311,
+ "exact_sets_accuracy": 0.40372670807453415,
+ "tiebreak_brier": 0.24291098881987574,
  "by_surface": {
   "Hard": {
-   "n": 160,
-   "brier": 0.231568432125,
-   "log_loss": 0.659920985977309,
-   "accuracy": 0.6
+   "n": 161,
+   "brier": 0.2303670262732919,
+   "log_loss": 0.6571716987465807,
+   "accuracy": 0.6024844720496895
   }
  },
  "by_tour": {
   "atp": {
-   "n": 160,
-   "brier": 0.231568432125,
-   "log_loss": 0.659920985977309,
-   "accuracy": 0.6
+   "n": 161,
+   "brier": 0.2303670262732919,
+   "log_loss": 0.6571716987465807,
+   "accuracy": 0.6024844720496895
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 60,
-   "brier": 0.24033444500000004,
-   "log_loss": 0.6804513299203967,
-   "accuracy": 0.6
+   "n": 61,
+   "brier": 0.2370198162295082,
+   "log_loss": 0.6728584514271123,
+   "accuracy": 0.6065573770491803
   },
   "LOW": {
    "n": 17,
@@ -76,9 +76,9 @@
   },
   {
    "bucket": "80%-90%",
-   "n": 10,
-   "mean_pred": 0.8375600000000001,
-   "observed": 0.5
+   "n": 11,
+   "mean_pred": 0.8345727272727274,
+   "observed": 0.5454545454545454
   },
   {
    "bucket": "90%-100%",
@@ -6803,6 +6803,48 @@
     "A -5.5": [
      0.3999,
      1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Daniil Medvedev vs Flavio Cobolli",
+   "date": "2026-11-16",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.8047,
+   "a_won": 1,
+   "pred_winner": "Daniil Medvedev",
+   "actual_winner": "Daniil Medvedev",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.6033,
+   "exp_games": 22.35,
+   "actual_games": 22,
+   "p_tb": 0.3297,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.7662,
+     1
+    ],
+    "A -2.5": [
+     0.7167,
+     1
+    ],
+    "A -3.5": [
+     0.6313,
+     1
+    ],
+    "A -4.5": [
+     0.5071,
+     0
+    ],
+    "A -5.5": [
+     0.38,
+     0
     ]
    },
    "data_quality": "HIGH",
