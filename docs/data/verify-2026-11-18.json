@@ -1,7 +1,7 @@
 {
  "date": "2026-11-18",
- "n": 2,
- "passed": 2,
+ "n": 4,
+ "passed": 4,
  "results": [
   {
    "match": "Carlos Alcaraz vs Daniil Medvedev",
@@ -22,6 +22,24 @@
    "file": "forecasts/2026-11-18/187509-carlos-alcaraz-vs-daniil-medvedev/v1.json"
   },
   {
+   "match": "Carlos Alcaraz vs Daniil Medvedev",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.002,
+   "reproduction": {
+    "frozen_p_a": 0.6755,
+    "rerun_p_a": 0.6755,
+    "frozen_games_mean": 23.28,
+    "rerun_games_mean": 23.28,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-18/187509-carlos-alcaraz-vs-daniil-medvedev/v2.json"
+  },
+  {
    "match": "Flavio Cobolli vs Frances Tiafoe",
    "n_sims": 100000,
    "seed": 20261027,
@@ -38,6 +56,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-18/187514-flavio-cobolli-vs-frances-tiafoe/v1.json"
+  },
+  {
+   "match": "Flavio Cobolli vs Frances Tiafoe",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0048,
+   "reproduction": {
+    "frozen_p_a": 0.3668,
+    "rerun_p_a": 0.3668,
+    "frozen_games_mean": 24.25,
+    "rerun_games_mean": 24.25,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-18/187514-flavio-cobolli-vs-frances-tiafoe/v2.json"
   }
  ]
 }
