@@ -1,0 +1,279 @@
+{
+ "date": "2026-11-18",
+ "timezone": "America/New_York",
+ "generated_at_utc": "2026-11-17T13:26:05+00:00",
+ "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+ "model_version": "v1.1",
+ "matches": [
+  {
+   "espn_id": "187509",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-18T13:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Carlos Alcaraz",
+     "id": "atp:207989"
+    },
+    {
+     "name": "Daniil Medvedev",
+     "id": "atp:106421"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-17T13:26:03+00:00",
+    "path": "forecasts/2026-11-18/187509-carlos-alcaraz-vs-daniil-medvedev/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Carlos Alcaraz",
+    "win_prob": {
+     "A": 0.675,
+     "B": 0.325
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.4596
+    },
+    "games_mean": 23.31,
+    "strongest": {
+     "selection": "Carlos Alcaraz to win at least one set",
+     "probability": 0.8238,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.675,
+      "B": 0.325
+     },
+     "set_score_probs": {
+      "2-0": 0.4596,
+      "2-1": 0.2154,
+      "0-2": 0.1762,
+      "1-2": 0.1488
+     },
+     "games_pmf": {
+      "12": 0.00124,
+      "13": 0.00631,
+      "14": 0.01548,
+      "15": 0.03379,
+      "16": 0.05288,
+      "17": 0.07569,
+      "18": 0.07957,
+      "19": 0.08177,
+      "20": 0.07517,
+      "21": 0.05217,
+      "22": 0.07367,
+      "23": 0.05224,
+      "24": 0.01413,
+      "25": 0.0332,
+      "26": 0.04279,
+      "27": 0.02956,
+      "28": 0.03503,
+      "29": 0.03645,
+      "30": 0.03571,
+      "31": 0.04225,
+      "32": 0.03831,
+      "33": 0.02516,
+      "34": 0.01838,
+      "35": 0.0235,
+      "36": 0.01378,
+      "37": 0.00222,
+      "38": 0.00515,
+      "39": 0.0044
+     },
+     "games_diff_pmf": {
+      "-12": 0.00012,
+      "-11": 0.0007,
+      "-10": 0.00218,
+      "-9": 0.00571,
+      "-8": 0.01186,
+      "-7": 0.02369,
+      "-6": 0.0345,
+      "-5": 0.04848,
+      "-4": 0.05941,
+      "-3": 0.052,
+      "-2": 0.03924,
+      "-1": 0.02974,
+      "0": 0.03013,
+      "1": 0.03412,
+      "2": 0.05354,
+      "3": 0.08276,
+      "4": 0.11396,
+      "5": 0.10885,
+      "6": 0.09301,
+      "7": 0.07716,
+      "8": 0.04855,
+      "9": 0.02988,
+      "10": 0.01367,
+      "11": 0.00562,
+      "12": 0.00112
+     },
+     "p_tiebreak": 0.3602,
+     "p_decider": 0.3642
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0025
+   }
+  },
+  {
+   "espn_id": "187514",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-18T19:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Flavio Cobolli",
+     "id": "atp:207925"
+    },
+    {
+     "name": "Frances Tiafoe",
+     "id": "atp:126207"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-17T13:26:05+00:00",
+    "path": "forecasts/2026-11-18/187514-flavio-cobolli-vs-frances-tiafoe/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Frances Tiafoe",
+    "win_prob": {
+     "A": 0.369,
+     "B": 0.631
+    },
+    "most_likely_set_score": "0-2",
+    "final_score": {
+     "A_sets": 0,
+     "B_sets": 2,
+     "sets": [
+      "4-6",
+      "4-6"
+     ],
+     "prob": 0.41
+    },
+    "games_mean": 24.26,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8042,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.369,
+      "B": 0.631
+     },
+     "set_score_probs": {
+      "0-2": 0.41,
+      "1-2": 0.221,
+      "2-0": 0.2039,
+      "2-1": 0.165
+     },
+     "games_pmf": {
+      "12": 0.00047,
+      "13": 0.00336,
+      "14": 0.00875,
+      "15": 0.02132,
+      "16": 0.03506,
+      "17": 0.05831,
+      "18": 0.06858,
+      "19": 0.0829,
+      "20": 0.07615,
+      "21": 0.05116,
+      "22": 0.08529,
+      "23": 0.06663,
+      "24": 0.01063,
+      "25": 0.03376,
+      "26": 0.05229,
+      "27": 0.02687,
+      "28": 0.03239,
+      "29": 0.03449,
+      "30": 0.03578,
+      "31": 0.04426,
+      "32": 0.04652,
+      "33": 0.02974,
+      "34": 0.02149,
+      "35": 0.03297,
+      "36": 0.02266,
+      "37": 0.00255,
+      "38": 0.00674,
+      "39": 0.00888
+     },
+     "games_diff_pmf": {
+      "-12": 0.00042,
+      "-11": 0.00282,
+      "-10": 0.00743,
+      "-9": 0.01767,
+      "-8": 0.03036,
+      "-7": 0.05578,
+      "-6": 0.0768,
+      "-5": 0.10348,
+      "-4": 0.11971,
+      "-3": 0.09583,
+      "-2": 0.06472,
+      "-1": 0.03966,
+      "0": 0.03541,
+      "1": 0.03485,
+      "2": 0.05044,
+      "3": 0.06467,
+      "4": 0.07149,
+      "5": 0.05491,
+      "6": 0.0346,
+      "7": 0.02232,
+      "8": 0.00984,
+      "9": 0.00466,
+      "10": 0.00153,
+      "11": 0.00055,
+      "12": 5e-05
+     },
+     "p_tiebreak": 0.4478,
+     "p_decider": 0.3861
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0026
+   }
+  }
+ ]
+}
