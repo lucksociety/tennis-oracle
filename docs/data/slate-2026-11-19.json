@@ -1,0 +1,279 @@
+{
+ "date": "2026-11-19",
+ "timezone": "America/New_York",
+ "generated_at_utc": "2026-11-18T07:28:56+00:00",
+ "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+ "model_version": "v1.1",
+ "matches": [
+  {
+   "espn_id": "187507",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-19T13:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Ben Shelton",
+     "id": "atp:210097"
+    },
+    {
+     "name": "Rafael Jodar",
+     "id": "atp:212588"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-18T07:28:54+00:00",
+    "path": "forecasts/2026-11-19/187507-ben-shelton-vs-rafael-jodar/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Ben Shelton",
+    "win_prob": {
+     "A": 0.5605,
+     "B": 0.4395
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.347
+    },
+    "games_mean": 24.77,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8329,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5605,
+      "B": 0.4395
+     },
+     "set_score_probs": {
+      "2-0": 0.347,
+      "0-2": 0.2518,
+      "2-1": 0.2135,
+      "1-2": 0.1877
+     },
+     "games_pmf": {
+      "12": 0.00027,
+      "13": 0.00208,
+      "14": 0.00573,
+      "15": 0.01593,
+      "16": 0.02877,
+      "17": 0.0522,
+      "18": 0.06217,
+      "19": 0.07819,
+      "20": 0.07547,
+      "21": 0.05008,
+      "22": 0.08944,
+      "23": 0.0739,
+      "24": 0.00914,
+      "25": 0.03391,
+      "26": 0.0566,
+      "27": 0.02453,
+      "28": 0.03156,
+      "29": 0.03464,
+      "30": 0.03472,
+      "31": 0.04682,
+      "32": 0.04982,
+      "33": 0.03131,
+      "34": 0.0231,
+      "35": 0.0381,
+      "36": 0.02781,
+      "37": 0.00269,
+      "38": 0.00866,
+      "39": 0.01236
+     },
+     "games_diff_pmf": {
+      "-12": 0.0001,
+      "-11": 0.00067,
+      "-10": 0.00198,
+      "-9": 0.00587,
+      "-8": 0.01208,
+      "-7": 0.02736,
+      "-6": 0.04097,
+      "-5": 0.06579,
+      "-4": 0.08582,
+      "-3": 0.07922,
+      "-2": 0.06179,
+      "-1": 0.03914,
+      "0": 0.03744,
+      "1": 0.04101,
+      "2": 0.06903,
+      "3": 0.09525,
+      "4": 0.10838,
+      "5": 0.08881,
+      "6": 0.06077,
+      "7": 0.04125,
+      "8": 0.02077,
+      "9": 0.01096,
+      "10": 0.00396,
+      "11": 0.00141,
+      "12": 0.00017
+     },
+     "p_tiebreak": 0.4884,
+     "p_decider": 0.4012
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0028
+   }
+  },
+  {
+   "espn_id": "187504",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Group Stage",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-19T19:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alexander Zverev",
+     "id": "atp:100644"
+    },
+    {
+     "name": "Arthur Fils",
+     "id": "atp:209950"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-18T07:28:56+00:00",
+    "path": "forecasts/2026-11-19/187504-alexander-zverev-vs-arthur-fils/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alexander Zverev",
+    "win_prob": {
+     "A": 0.6556,
+     "B": 0.3444
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "7-6",
+      "7-6"
+     ],
+     "prob": 0.4283
+    },
+    "games_mean": 25.32,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8656,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.6556,
+      "B": 0.3444
+     },
+     "set_score_probs": {
+      "2-0": 0.4283,
+      "2-1": 0.2273,
+      "0-2": 0.1838,
+      "1-2": 0.1606
+     },
+     "games_pmf": {
+      "12": 0.00016,
+      "13": 0.00118,
+      "14": 0.00415,
+      "15": 0.01192,
+      "16": 0.02071,
+      "17": 0.04321,
+      "18": 0.05306,
+      "19": 0.07502,
+      "20": 0.07491,
+      "21": 0.04756,
+      "22": 0.09924,
+      "23": 0.0873,
+      "24": 0.00635,
+      "25": 0.03431,
+      "26": 0.07422,
+      "27": 0.018,
+      "28": 0.02458,
+      "29": 0.02584,
+      "30": 0.0279,
+      "31": 0.04207,
+      "32": 0.04857,
+      "33": 0.03139,
+      "34": 0.0233,
+      "35": 0.04809,
+      "36": 0.03951,
+      "37": 0.0027,
+      "38": 0.01201,
+      "39": 0.02274
+     },
+     "games_diff_pmf": {
+      "-12": 3e-05,
+      "-11": 0.00014,
+      "-10": 0.00057,
+      "-9": 0.00206,
+      "-8": 0.00441,
+      "-7": 0.01205,
+      "-6": 0.02112,
+      "-5": 0.04285,
+      "-4": 0.06515,
+      "-3": 0.07048,
+      "-2": 0.06398,
+      "-1": 0.04124,
+      "0": 0.03974,
+      "1": 0.04743,
+      "2": 0.09079,
+      "3": 0.11958,
+      "4": 0.13489,
+      "5": 0.10089,
+      "6": 0.06524,
+      "7": 0.0431,
+      "8": 0.01895,
+      "9": 0.01045,
+      "10": 0.00367,
+      "11": 0.00106,
+      "12": 0.00013
+     },
+     "p_tiebreak": 0.5695,
+     "p_decider": 0.3879
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0025
+   }
+  }
+ ]
+}
