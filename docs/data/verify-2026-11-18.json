@@ -1,7 +1,7 @@
 {
  "date": "2026-11-18",
- "n": 4,
- "passed": 4,
+ "n": 5,
+ "passed": 5,
  "results": [
   {
    "match": "Carlos Alcaraz vs Daniil Medvedev",
@@ -74,6 +74,24 @@
    "errors": [],
    "notes": [],
    "file": "forecasts/2026-11-18/187514-flavio-cobolli-vs-frances-tiafoe/v2.json"
+  },
+  {
+   "match": "Flavio Cobolli vs Frances Tiafoe",
+   "n_sims": 100000,
+   "seed": 20261027,
+   "mc_se": 0.0015,
+   "max_mc_vs_exact": 0.0032,
+   "reproduction": {
+    "frozen_p_a": 0.3684,
+    "rerun_p_a": 0.3684,
+    "frozen_games_mean": 24.28,
+    "rerun_games_mean": 24.28,
+    "mode": "exact"
+   },
+   "ok": true,
+   "errors": [],
+   "notes": [],
+   "file": "forecasts/2026-11-18/187514-flavio-cobolli-vs-frances-tiafoe/v3.json"
   }
  ]
 }
