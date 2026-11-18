@@ -22,6 +22,7 @@ jobs:
         run: |
           python -m pytest -q tests
           node tests/dispatch.test.mjs
+          node tests/top-pick.test.mjs
           node worker/build.mjs
       - name: Prospective evaluation regressions
         run: python3 -m unittest discover -s scripts -p test_model_learning.py

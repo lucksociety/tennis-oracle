@@ -138,6 +138,15 @@ async function engineExtras(env, day, slate, events) {
   return out;
 }
 
+// The model's most likely winner as a plain pick, shown when no value bet is given.
+// `market` is the no-vig price of that player. A pick is not a value bet.
+export function topPick(name, p, market) {
+  if (!(p >= 0.55)) return `🎯 Top pick: none, too close to call (${name} ${(p * 100).toFixed(0)}%)`;
+  const price = !Number.isFinite(market) ? 'no price available'
+    : `price about ${(market * 100).toFixed(0)}¢` + (p - market >= 0.02 ? ' · model rates it above the price' : p - market <= -0.02 ? ' · price is above the model’s number' : ' · in line with the price');
+  return `🎯 **Top pick: ${name} to win** · model ${(p * 100).toFixed(0)}% · ${price}\n_A pick is the model’s most likely winner, not a value bet._`;
+}
+
 function matchLines(m, row) {
   const start = Date.parse(m.start_utc);
   if (row?.status === 'bet' && (!Number.isFinite(start) || Date.now() >= start || !(row.best?.model_p > .5) || !(row.best?.ev_per_1 > 0) || !M.recommendationMatchesScore(m,row.best))) {
@@ -159,6 +168,10 @@ function matchLines(m, row) {
   const v = row ? row.verdict : 'NO BET (no market)';
   if (row && row.status === 'bet') { const b = row.best; lines.push(`💰 Best bet: **${b.selection} @ ${b.price.toFixed(2)}** · implied ${pct(b.implied)} · model ${pct(b.model_p)} · edge +${(100 * b.edge).toFixed(1)} pts · EV +${(100 * b.ev_per_1).toFixed(1)}%`); }
   else lines.push(`🚫 ${v}`);
+  if (!(row && row.status === 'bet') && !m.result && Number.isFinite(start) && Date.now() < start) {
+    const mp = row && typeof row.market_p_a === 'number' ? (aW ? row.market_p_a : 1 - row.market_p_a) : null;
+    lines.push(topPick(w, wp, mp));
+  }
   return lines.join('\n');
 }
 
