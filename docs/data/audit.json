@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-18T17:16:05+00:00",
+ "generated_at_utc": "2026-11-19T01:52:59+00:00",
  "summary": {
-  "n": 164,
-  "brier": 0.22889706786585362,
-  "log_loss": 0.6540705992363941,
-  "accuracy": 0.6097560975609756,
-  "games_mae": 5.191463414634146,
-  "exact_sets_accuracy": 0.40853658536585363,
-  "tiebreak_brier": 0.24077292152439023
+  "n": 167,
+  "brier": 0.22725735892215568,
+  "log_loss": 0.6506485344950318,
+  "accuracy": 0.6167664670658682,
+  "games_mae": 5.193233532934132,
+  "exact_sets_accuracy": 0.41916167664670656,
+  "tiebreak_brier": 0.24191490568862273
  },
- "n": 164,
+ "n": 167,
  "overall": {
-  "n": 164,
-  "brier": 0.22889706786585362,
-  "log_loss": 0.6540705992363941,
-  "accuracy": 0.6097560975609756
+  "n": 167,
+  "brier": 0.22725735892215568,
+  "log_loss": 0.6506485344950318,
+  "accuracy": 0.6167664670658682
  },
- "games_mae": 5.191463414634146,
- "exact_sets_accuracy": 0.40853658536585363,
- "tiebreak_brier": 0.24077292152439023,
+ "games_mae": 5.193233532934132,
+ "exact_sets_accuracy": 0.41916167664670656,
+ "tiebreak_brier": 0.24191490568862273,
  "by_surface": {
   "Hard": {
-   "n": 164,
-   "brier": 0.22889706786585362,
-   "log_loss": 0.6540705992363941,
-   "accuracy": 0.6097560975609756
+   "n": 167,
+   "brier": 0.22725735892215568,
+   "log_loss": 0.6506485344950318,
+   "accuracy": 0.6167664670658682
   }
  },
  "by_tour": {
   "atp": {
-   "n": 164,
-   "brier": 0.22889706786585362,
-   "log_loss": 0.6540705992363941,
-   "accuracy": 0.6097560975609756
+   "n": 167,
+   "brier": 0.22725735892215568,
+   "log_loss": 0.6506485344950318,
+   "accuracy": 0.6167664670658682
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 64,
-   "brier": 0.23294119828124998,
-   "log_loss": 0.664176567400359,
-   "accuracy": 0.625
+   "n": 67,
+   "brier": 0.22867308208955225,
+   "log_loss": 0.6551944373063385,
+   "accuracy": 0.6417910447761194
   },
   "LOW": {
    "n": 17,
@@ -64,9 +64,9 @@
   },
   {
    "bucket": "60%-70%",
-   "n": 55,
-   "mean_pred": 0.6558781818181817,
-   "observed": 0.7090909090909091
+   "n": 58,
+   "mean_pred": 0.6544896551724138,
+   "observed": 0.7241379310344828
   },
   {
    "bucket": "70%-80%",
@@ -6851,6 +6851,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Flavio Cobolli vs Frances Tiafoe",
+   "date": "2026-11-16",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.373,
+   "a_won": 0,
+   "pred_winner": "Frances Tiafoe",
+   "actual_winner": "Frances Tiafoe",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4066,
+   "exp_games": 24.29,
+   "actual_games": 19,
+   "p_tb": 0.4474,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3194,
+     0
+    ],
+    "A -2.5": [
+     0.2672,
+     0
+    ],
+    "A -3.5": [
+     0.202,
+     0
+    ],
+    "A -4.5": [
+     0.1291,
+     0
+    ],
+    "A -5.5": [
+     0.0753,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Alexander Zverev vs Ben Shelton",
    "date": "2026-11-17",
    "tour": "atp",
@@ -6935,6 +6977,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Flavio Cobolli vs Frances Tiafoe",
+   "date": "2026-11-17",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.3715,
+   "a_won": 0,
+   "pred_winner": "Frances Tiafoe",
+   "actual_winner": "Frances Tiafoe",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4071,
+   "exp_games": 24.3,
+   "actual_games": 19,
+   "p_tb": 0.452,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3192,
+     0
+    ],
+    "A -2.5": [
+     0.2678,
+     0
+    ],
+    "A -3.5": [
+     0.2007,
+     0
+    ],
+    "A -4.5": [
+     0.1282,
+     0
+    ],
+    "A -5.5": [
+     0.0734,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Carlos Alcaraz vs Daniil Medvedev",
    "date": "2026-11-18",
    "tour": "atp",
@@ -6971,6 +7055,48 @@
     "A -5.5": [
      0.2694,
      1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Flavio Cobolli vs Frances Tiafoe",
+   "date": "2026-11-18",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.3684,
+   "a_won": 0,
+   "pred_winner": "Frances Tiafoe",
+   "actual_winner": "Frances Tiafoe",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.4094,
+   "exp_games": 24.28,
+   "actual_games": 19,
+   "p_tb": 0.4456,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.316,
+     0
+    ],
+    "A -2.5": [
+     0.2634,
+     0
+    ],
+    "A -3.5": [
+     0.1981,
+     0
+    ],
+    "A -4.5": [
+     0.127,
+     0
+    ],
+    "A -5.5": [
+     0.0724,
+     0
     ]
    },
    "data_quality": "HIGH",
