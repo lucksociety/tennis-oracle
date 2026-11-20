@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-21",
+ "timezone": "America/New_York",
+ "generated_at_utc": "2026-11-20T07:15:07+00:00",
+ "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
+ "model_version": "v1.1",
+ "matches": [
+  {
+   "espn_id": "187527",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Semifinal",
+   "court": "",
+   "start_utc": "2026-11-21T05:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alexander Zverev",
+     "id": "atp:100644"
+    },
+    {
+     "name": "TBD",
+     "id": null
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  },
+  {
+   "espn_id": "187528",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Semifinal",
+   "court": "",
+   "start_utc": "2026-11-21T05:00Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "TBD",
+     "id": null
+    },
+    {
+     "name": "Ben Shelton",
+     "id": "atp:210097"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": null,
+   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+  }
+ ]
+}

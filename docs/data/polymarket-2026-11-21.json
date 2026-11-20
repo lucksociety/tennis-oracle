@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-21",
+ "snapshot_at_utc": "2026-11-20T07:15:15Z",
+ "snapshot_path": "market_snapshots/2026-11-21/20261120T071515Z.json",
+ "source": "Polymarket Gamma API (gamma-api.polymarket.com; best bid/ask per market)",
+ "errors": [],
+ "bets_paused": true,
+ "rule": "BETS PAUSED: no outcome is recommended while the model trails the market on settled matches. Candidate rule (would_qualify) = highest EV per $1 among outcomes with model prob > 50% AND edge > 0 (edge = model prob - ask incl. the Polymarket taker fee rate*p*(1-p)); otherwise NO BET",
+ "note": "Prices are compared with forecasts frozen BEFORE the snapshot; they are never model inputs.",
+ "matches": [
+  {
+   "espn_id": "187527",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  },
+  {
+   "espn_id": "187528",
+   "event_id": null,
+   "event_title": null,
+   "status": "no_market",
+   "best": null,
+   "verdict": "NO BET (no market)",
+   "outcomes": []
+  }
+ ]
+}
