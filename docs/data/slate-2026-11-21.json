@@ -1,53 +1,24 @@
 {
  "date": "2026-11-21",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-20T16:58:32+00:00",
+ "generated_at_utc": "2026-11-21T01:30:58+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
-  {
-   "espn_id": "187527",
-   "tour": "atp",
-   "tournament": "Nitto ATP Finals",
-   "venue": "Inalpi Arena, Turin, Italy",
-   "round": "Semifinal",
-   "court": "",
-   "start_utc": "2026-11-21T05:00Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
-   "players": [
-    {
-     "name": "Alexander Zverev",
-     "id": "atp:100644"
-    },
-    {
-     "name": "TBD",
-     "id": null
-    }
-   ],
-   "surface": "Hard",
-   "surface_source": "assumed",
-   "indoor": null,
-   "best_of": 3,
-   "final_rule": "tb7",
-   "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
-  },
   {
    "espn_id": "187528",
    "tour": "atp",
    "tournament": "Nitto ATP Finals",
    "venue": "Inalpi Arena, Turin, Italy",
    "round": "Semifinal",
-   "court": "",
-   "start_utc": "2026-11-21T05:00Z",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-21T13:30Z",
    "status": "STATUS_SCHEDULED",
    "completed": false,
    "players": [
     {
-     "name": "TBD",
-     "id": null
+     "name": "Carlos Alcaraz",
+     "id": "atp:207989"
     },
     {
      "name": "Ben Shelton",
@@ -60,8 +31,249 @@
    "best_of": 3,
    "final_rule": "tb7",
    "result": null,
-   "forecast": null,
-   "note": "player(s) not in rating database (no tour-level history) - no forecast"
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-21T01:30:57+00:00",
+    "path": "forecasts/2026-11-21/187528-carlos-alcaraz-vs-ben-shelton/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Carlos Alcaraz",
+    "win_prob": {
+     "A": 0.757,
+     "B": 0.243
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.5359
+    },
+    "games_mean": 24.05,
+    "strongest": {
+     "selection": "Carlos Alcaraz to win at least one set",
+     "probability": 0.8789,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 22.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.757,
+      "B": 0.243
+     },
+     "set_score_probs": {
+      "2-0": 0.5359,
+      "2-1": 0.2211,
+      "1-2": 0.1219,
+      "0-2": 0.1211
+     },
+     "games_pmf": {
+      "12": 0.00067,
+      "13": 0.00357,
+      "14": 0.00932,
+      "15": 0.02321,
+      "16": 0.03869,
+      "17": 0.06276,
+      "18": 0.07073,
+      "19": 0.0826,
+      "20": 0.07994,
+      "21": 0.05228,
+      "22": 0.09184,
+      "23": 0.07381,
+      "24": 0.0077,
+      "25": 0.03049,
+      "26": 0.05676,
+      "27": 0.02005,
+      "28": 0.02522,
+      "29": 0.02669,
+      "30": 0.02968,
+      "31": 0.03939,
+      "32": 0.04144,
+      "33": 0.0268,
+      "34": 0.02037,
+      "35": 0.03586,
+      "36": 0.02699,
+      "37": 0.00211,
+      "38": 0.00804,
+      "39": 0.01299
+     },
+     "games_diff_pmf": {
+      "-12": 2e-05,
+      "-11": 0.0001,
+      "-10": 0.00046,
+      "-9": 0.00142,
+      "-8": 0.00305,
+      "-7": 0.00883,
+      "-6": 0.01462,
+      "-5": 0.02926,
+      "-4": 0.04512,
+      "-3": 0.04794,
+      "-2": 0.04438,
+      "-1": 0.03012,
+      "0": 0.03188,
+      "1": 0.03843,
+      "2": 0.07546,
+      "3": 0.11341,
+      "4": 0.14659,
+      "5": 0.1265,
+      "6": 0.09622,
+      "7": 0.07029,
+      "8": 0.03988,
+      "9": 0.02281,
+      "10": 0.00906,
+      "11": 0.0035,
+      "12": 0.00065
+     },
+     "p_tiebreak": 0.4743,
+     "p_decider": 0.343
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0024
+   }
+  },
+  {
+   "espn_id": "187527",
+   "tour": "atp",
+   "tournament": "Nitto ATP Finals",
+   "venue": "Inalpi Arena, Turin, Italy",
+   "round": "Semifinal",
+   "court": "Inalpi Arena",
+   "start_utc": "2026-11-21T19:30Z",
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "players": [
+    {
+     "name": "Alexander Zverev",
+     "id": "atp:100644"
+    },
+    {
+     "name": "Daniil Medvedev",
+     "id": "atp:106421"
+    }
+   ],
+   "surface": "Hard",
+   "surface_source": "assumed",
+   "indoor": null,
+   "best_of": 3,
+   "final_rule": "tb7",
+   "result": null,
+   "forecast": {
+    "frozen_version": 1,
+    "frozen_at_utc": "2026-11-21T01:30:58+00:00",
+    "path": "forecasts/2026-11-21/187527-alexander-zverev-vs-daniil-medvedev/v1.json",
+    "model_version": "v1.1",
+    "predicted_winner": "Alexander Zverev",
+    "win_prob": {
+     "A": 0.5616,
+     "B": 0.4384
+    },
+    "most_likely_set_score": "2-0",
+    "final_score": {
+     "A_sets": 2,
+     "B_sets": 0,
+     "sets": [
+      "6-4",
+      "6-4"
+     ],
+     "prob": 0.3472
+    },
+    "games_mean": 25.1,
+    "strongest": {
+     "selection": "Over 18.5 games",
+     "probability": 0.8536,
+     "confidence": "High"
+    },
+    "data_quality": "HIGH",
+    "recommendation_quality": {
+     "eligible": true,
+     "reasons": [],
+     "policy": "current-performance-v1"
+    },
+    "games_projected": 23.0,
+    "dist": {
+     "win_prob": {
+      "A": 0.5616,
+      "B": 0.4384
+     },
+     "set_score_probs": {
+      "2-0": 0.3472,
+      "0-2": 0.2501,
+      "2-1": 0.2144,
+      "1-2": 0.1882
+     },
+     "games_pmf": {
+      "12": 0.0002,
+      "13": 0.00152,
+      "14": 0.00466,
+      "15": 0.01372,
+      "16": 0.0237,
+      "17": 0.04655,
+      "18": 0.05607,
+      "19": 0.0779,
+      "20": 0.07515,
+      "21": 0.04823,
+      "22": 0.09349,
+      "23": 0.08028,
+      "24": 0.00878,
+      "25": 0.03377,
+      "26": 0.06227,
+      "27": 0.02228,
+      "28": 0.02893,
+      "29": 0.03136,
+      "30": 0.03372,
+      "31": 0.04563,
+      "32": 0.05149,
+      "33": 0.03203,
+      "34": 0.02389,
+      "35": 0.04211,
+      "36": 0.03277,
+      "37": 0.00263,
+      "38": 0.01088,
+      "39": 0.01599
+     },
+     "games_diff_pmf": {
+      "-12": 5e-05,
+      "-11": 0.0005,
+      "-10": 0.00165,
+      "-9": 0.00503,
+      "-8": 0.01015,
+      "-7": 0.02324,
+      "-6": 0.0372,
+      "-5": 0.06343,
+      "-4": 0.08616,
+      "-3": 0.08169,
+      "-2": 0.06736,
+      "-1": 0.04121,
+      "0": 0.04007,
+      "1": 0.04258,
+      "2": 0.07503,
+      "3": 0.10156,
+      "4": 0.11269,
+      "5": 0.08715,
+      "6": 0.05537,
+      "7": 0.0372,
+      "8": 0.01702,
+      "9": 0.00937,
+      "10": 0.0031,
+      "11": 0.00104,
+      "12": 0.00015
+     },
+     "p_tiebreak": 0.5243,
+     "p_decider": 0.4027
+    },
+    "n_sims": 100000,
+    "seed": 20261027,
+    "cross_check_max_diff": 0.0021
+   }
   }
  ]
 }

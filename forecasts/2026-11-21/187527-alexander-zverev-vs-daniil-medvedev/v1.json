@@ -1,0 +1,711 @@
+{
+ "predicted_winner": "Alexander Zverev",
+ "win_prob": {
+  "A": 0.5616,
+  "B": 0.4384
+ },
+ "win_prob_exact": {
+  "A": 0.56165,
+  "B": 0.43835
+ },
+ "fair_odds": {
+  "A": {
+   "decimal": 1.78,
+   "american": "-128"
+  },
+  "B": {
+   "decimal": 2.28,
+   "american": "+128"
+  }
+ },
+ "set_score_probs": {
+  "2-0": 0.3472,
+  "0-2": 0.2501,
+  "2-1": 0.2144,
+  "1-2": 0.1882
+ },
+ "most_likely_set_score": "2-0",
+ "representative_sets": [
+  "6-4",
+  "6-4"
+ ],
+ "representative_sets_prob": 0.0299,
+ "games": {
+  "mean": 25.1,
+  "median": 23.0,
+  "p10": 18.0,
+  "p90": 35.0,
+  "sd": 6.32,
+  "projected": 23.0,
+  "pmf": {
+   "12": 0.0002,
+   "13": 0.00152,
+   "14": 0.00466,
+   "15": 0.01372,
+   "16": 0.0237,
+   "17": 0.04655,
+   "18": 0.05607,
+   "19": 0.0779,
+   "20": 0.07515,
+   "21": 0.04823,
+   "22": 0.09349,
+   "23": 0.08028,
+   "24": 0.00878,
+   "25": 0.03377,
+   "26": 0.06227,
+   "27": 0.02228,
+   "28": 0.02893,
+   "29": 0.03136,
+   "30": 0.03372,
+   "31": 0.04563,
+   "32": 0.05149,
+   "33": 0.03203,
+   "34": 0.02389,
+   "35": 0.04211,
+   "36": 0.03277,
+   "37": 0.00263,
+   "38": 0.01088,
+   "39": 0.01599
+  }
+ },
+ "games_diff_pmf": {
+  "-12": 5e-05,
+  "-11": 0.0005,
+  "-10": 0.00165,
+  "-9": 0.00503,
+  "-8": 0.01015,
+  "-7": 0.02324,
+  "-6": 0.0372,
+  "-5": 0.06343,
+  "-4": 0.08616,
+  "-3": 0.08169,
+  "-2": 0.06736,
+  "-1": 0.04121,
+  "0": 0.04007,
+  "1": 0.04258,
+  "2": 0.07503,
+  "3": 0.10156,
+  "4": 0.11269,
+  "5": 0.08715,
+  "6": 0.05537,
+  "7": 0.0372,
+  "8": 0.01702,
+  "9": 0.00937,
+  "10": 0.0031,
+  "11": 0.00104,
+  "12": 0.00015
+ },
+ "over_under": [
+  {
+   "line": 17.5,
+   "over": 0.9096,
+   "under": 0.0903
+  },
+  {
+   "line": 18.5,
+   "over": 0.8536,
+   "under": 0.1464
+  },
+  {
+   "line": 19.5,
+   "over": 0.7757,
+   "under": 0.2243
+  },
+  {
+   "line": 20.5,
+   "over": 0.7005,
+   "under": 0.2995
+  },
+  {
+   "line": 21.5,
+   "over": 0.6523,
+   "under": 0.3477
+  },
+  {
+   "line": 22.5,
+   "over": 0.5588,
+   "under": 0.4412
+  },
+  {
+   "line": 23.5,
+   "over": 0.4785,
+   "under": 0.5215
+  },
+  {
+   "line": 24.5,
+   "over": 0.4698,
+   "under": 0.5302
+  },
+  {
+   "line": 25.5,
+   "over": 0.436,
+   "under": 0.564
+  }
+ ],
+ "handicaps": [
+  {
+   "line": 1.5,
+   "A -1.5": 0.4997,
+   "B +1.5": 0.5003,
+   "B -1.5": 0.3765,
+   "A +1.5": 0.6235
+  },
+  {
+   "line": 2.5,
+   "A -2.5": 0.4247,
+   "B +2.5": 0.5754,
+   "B -2.5": 0.3091,
+   "A +2.5": 0.6909
+  },
+  {
+   "line": 3.5,
+   "A -3.5": 0.3231,
+   "B +3.5": 0.6769,
+   "B -3.5": 0.2274,
+   "A +3.5": 0.7726
+  },
+  {
+   "line": 4.5,
+   "A -4.5": 0.2104,
+   "B +4.5": 0.7896,
+   "B -4.5": 0.1412,
+   "A +4.5": 0.8588
+  },
+  {
+   "line": 5.5,
+   "A -5.5": 0.1232,
+   "B +5.5": 0.8768,
+   "B -5.5": 0.0778,
+   "A +5.5": 0.9222
+  }
+ ],
+ "p_tiebreak": 0.5243,
+ "p_a_wins_set": 0.7499,
+ "p_b_wins_set": 0.6528,
+ "p_decider": 0.4027,
+ "expected_breaks": {
+  "total": 3.5,
+  "by_A": 1.89,
+  "by_B": 1.61
+ },
+ "expected_break_points": {
+  "A_creates": 5.36,
+  "B_creates": 4.79
+ },
+ "final_score": {
+  "A_sets": 2,
+  "B_sets": 0,
+  "sets": [
+   "6-4",
+   "6-4"
+  ],
+  "prob": 0.3472
+ },
+ "match": "Alexander Zverev vs Daniil Medvedev",
+ "players": {
+  "A": {
+   "id": "atp:100644",
+   "name": "Alexander Zverev",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 3.0,
+   "age": 29.49281314168378,
+   "elo": 2103.6,
+   "surface_elo": {
+    "Hard": 2042.6,
+    "Clay": 2052.4,
+    "Grass": 1885.6
+   },
+   "matches_total": 812,
+   "matches_surface": {
+    "Hard": 484,
+    "Clay": 250,
+    "Grass": 78
+   },
+   "last5": [
+    3,
+    2
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    16,
+    4
+   ],
+   "last52w": [
+    66,
+    17
+   ],
+   "last52w_surface": [
+    37,
+    11
+   ],
+   "career_surface_wl": [
+    335,
+    149
+   ],
+   "games_won_lost_52w": [
+    1327,
+    1027
+   ],
+   "sets_won_lost_52w": [
+    168,
+    64
+   ],
+   "avg_opp_elo_last20": 1870.5,
+   "vs_top_opp_52w": [
+    17,
+    13
+   ],
+   "serve_rating": 0.615,
+   "return_rating": 0.2736,
+   "form_elo": 17.7,
+   "last_match": "2026-11-19",
+   "last_stats_match": "2026-10-31",
+   "stats_52w": {
+    "first_in": 0.7191,
+    "first_won": 0.7696,
+    "second_won": 0.571,
+    "serve_pts_won": 0.7139,
+    "hold": 0.9037,
+    "aces_per_svgm": 0.7652,
+    "df_per_svgm": 0.1495,
+    "bp_saved": 0.6298,
+    "ret_pts_won": 0.364,
+    "ret_1st_won": 0.2758,
+    "ret_2nd_won": 0.5251,
+    "ret_games_won": 0.2136,
+    "bp_conv": 0.4051,
+    "bp_chances_per_retgm": 0.5273,
+    "matches_with_stats": 65
+   },
+   "rank_history": [
+    [
+     "2023-11-13",
+     7.0
+    ],
+    [
+     "2024-01-15",
+     6.0
+    ],
+    [
+     "2024-03-18",
+     5.0
+    ],
+    [
+     "2024-05-27",
+     4.0
+    ],
+    [
+     "2024-09-20",
+     2.0
+    ],
+    [
+     "2024-10-02",
+     3.0
+    ],
+    [
+     "2024-11-11",
+     2.0
+    ],
+    [
+     "2025-04-14",
+     3.0
+    ],
+    [
+     "2025-04-23",
+     2.0
+    ],
+    [
+     "2025-05-18",
+     3.0
+    ],
+    [
+     "2026-02-23",
+     4.0
+    ],
+    [
+     "2026-04-05",
+     3.0
+    ]
+   ]
+  },
+  "B": {
+   "id": "atp:106421",
+   "name": "Daniil Medvedev",
+   "tour": "atp",
+   "hand": "R",
+   "rank": 8.0,
+   "age": 30.69281314168378,
+   "elo": 1983.2,
+   "surface_elo": {
+    "Hard": 1986.0,
+    "Clay": 1832.9,
+    "Grass": 1797.4
+   },
+   "matches_total": 656,
+   "matches_surface": {
+    "Hard": 488,
+    "Clay": 85,
+    "Grass": 83
+   },
+   "last5": [
+    2,
+    3
+   ],
+   "last10": [
+    7,
+    3
+   ],
+   "last20": [
+    15,
+    5
+   ],
+   "last52w": [
+    53,
+    21
+   ],
+   "last52w_surface": [
+    42,
+    14
+   ],
+   "career_surface_wl": [
+    359,
+    129
+   ],
+   "games_won_lost_52w": [
+    995,
+    791
+   ],
+   "sets_won_lost_52w": [
+    122,
+    62
+   ],
+   "avg_opp_elo_last20": 1867.9,
+   "vs_top_opp_52w": [
+    5,
+    9
+   ],
+   "serve_rating": 0.3783,
+   "return_rating": 0.4732,
+   "form_elo": 55.7,
+   "last_match": "2026-11-20",
+   "last_stats_match": "2026-10-31",
+   "stats_52w": {
+    "first_in": 0.6604,
+    "first_won": 0.7539,
+    "second_won": 0.4899,
+    "serve_pts_won": 0.6642,
+    "hold": 0.8541,
+    "aces_per_svgm": 0.7363,
+    "df_per_svgm": 0.3052,
+    "bp_saved": 0.6495,
+    "ret_pts_won": 0.4122,
+    "ret_1st_won": 0.3395,
+    "ret_2nd_won": 0.5465,
+    "ret_games_won": 0.2928,
+    "bp_conv": 0.4389,
+    "bp_chances_per_retgm": 0.6671,
+    "matches_with_stats": 63
+   },
+   "rank_history": [
+    [
+     "2025-06-30",
+     9.0
+    ],
+    [
+     "2025-07-21",
+     14.0
+    ],
+    [
+     "2025-08-07",
+     15.0
+    ],
+    [
+     "2025-08-25",
+     13.0
+    ],
+    [
+     "2025-09-17",
+     18.0
+    ],
+    [
+     "2025-10-13",
+     14.0
+    ],
+    [
+     "2025-10-27",
+     13.0
+    ],
+    [
+     "2026-01-19",
+     12.0
+    ],
+    [
+     "2026-02-09",
+     11.0
+    ],
+    [
+     "2026-03-18",
+     10.0
+    ],
+    [
+     "2026-05-06",
+     9.0
+    ],
+    [
+     "2026-05-25",
+     8.0
+    ]
+   ]
+  }
+ },
+ "tour": "atp",
+ "surface": "Hard",
+ "indoor": false,
+ "best_of": 3,
+ "final_set_rule": "7-point tiebreak at 6-6",
+ "final_rule": "tb7",
+ "tournament": "Nitto ATP Finals",
+ "round": "Semifinal",
+ "format": "Best of 3, deciding set: 7-point tiebreak at 6-6",
+ "data_cutoff": "2026-11-14",
+ "forecast_date": "2026-11-21",
+ "performance_revision": "a25669147c97a40d",
+ "data_quality": "HIGH",
+ "data_quality_notes": [],
+ "recommendation_quality": {
+  "eligible": true,
+  "reasons": [],
+  "policy": "current-performance-v1"
+ },
+ "model": {
+  "version": "v1.1",
+  "package": "1.0.0",
+  "composite_elo_diff": 44.8,
+  "components_elo": {
+   "surface_elo": 56.6,
+   "overall_elo": 120.4,
+   "serve_return": 26.9,
+   "form": -38.0
+  },
+  "weighted_contributions": {
+   "surface_elo": 6.9,
+   "overall_elo": 28.5,
+   "serve_return": 9.4,
+   "form": 0.1
+  },
+  "context_elo": 0.0,
+  "target_bo3_win_prob": 0.5642,
+  "serve_return_implied_spw": {
+   "A": 0.6806,
+   "B": 0.6725
+  },
+  "point_probs": {
+   "A_serve": 0.6858,
+   "B_serve": 0.6672
+  },
+  "point_probs_exact": {
+   "A_serve": 0.6858035569018222,
+   "B_serve": 0.6671959318303456
+  },
+  "hold_probs": {
+   "A": 0.883,
+   "B": 0.8568
+  },
+  "variation": {
+   "sigma": 0.2509,
+   "rho": -0.0553
+  },
+  "n_sims": 100000,
+  "seed": 20261027
+ },
+ "cross_check": {
+  "p_a": [
+   0.5616,
+   0.5637
+  ],
+  "p_tb": [
+   0.5243,
+   0.526
+  ],
+  "p_decider": [
+   0.4027,
+   0.4033
+  ],
+  "games_mean": [
+   25.098,
+   25.101
+  ],
+  "exp_breaks": [
+   3.5,
+   3.5
+  ],
+  "set_scores": {
+   "0-2": [
+    0.2501,
+    0.2487
+   ],
+   "1-2": [
+    0.1882,
+    0.1877
+   ],
+   "2-0": [
+    0.3472,
+    0.348
+   ],
+   "2-1": [
+    0.2144,
+    0.2157
+   ]
+  },
+  "mc_se_p_a": 0.0016,
+  "max_abs_diff_probs": 0.0021
+ },
+ "drivers": [
+  {
+   "driver": "all-surface Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 28.5,
+   "raw_diff": 120.4,
+   "type": "statistical"
+  },
+  {
+   "driver": "opponent-adjusted serve/return quality",
+   "favours": "Alexander Zverev",
+   "elo_points": 9.4,
+   "raw_diff": 26.9,
+   "type": "statistical"
+  },
+  {
+   "driver": "surface-specific Elo",
+   "favours": "Alexander Zverev",
+   "elo_points": 6.9,
+   "raw_diff": 56.6,
+   "type": "statistical"
+  },
+  {
+   "driver": "second-serve points won (52w)",
+   "A": 0.571,
+   "B": 0.4899,
+   "type": "descriptive"
+  },
+  {
+   "driver": "return points won (52w)",
+   "A": 0.364,
+   "B": 0.4122,
+   "type": "descriptive"
+  },
+  {
+   "driver": "modelled service-point win probability",
+   "A": 0.6858,
+   "B": 0.6672,
+   "type": "model"
+  },
+  {
+   "driver": "tactical/handedness/fatigue/weather",
+   "note": "not modelled unless entered as verified manual context (no fabricated inputs)",
+   "type": "qualitative"
+  }
+ ],
+ "context_inputs": {},
+ "strongest": {
+  "selection": "Over 18.5 games",
+  "probability": 0.8536,
+  "fair_odds": {
+   "decimal": 1.17,
+   "american": "-583"
+  },
+  "confidence": "High",
+  "main_risk": "Total-games distribution is wide (sd 6.32 games; p10-p90 18-35); a single tiebreak or deciding set swings it.",
+  "candidates": [
+   {
+    "selection": "Over 18.5 games",
+    "probability": 0.8536,
+    "fair_decimal": 1.17
+   },
+   {
+    "selection": "Daniil Medvedev +4.5 games",
+    "probability": 0.7896,
+    "fair_decimal": 1.27
+   },
+   {
+    "selection": "Alexander Zverev to win at least one set",
+    "probability": 0.7499,
+    "fair_decimal": 1.33
+   },
+   {
+    "selection": "Over 20.5 games",
+    "probability": 0.7005,
+    "fair_decimal": 1.43
+   },
+   {
+    "selection": "Daniil Medvedev to win at least one set",
+    "probability": 0.6528,
+    "fair_decimal": 1.53
+   },
+   {
+    "selection": "No deciding set",
+    "probability": 0.5973,
+    "fair_decimal": 1.67
+   },
+   {
+    "selection": "Daniil Medvedev +2.5 games",
+    "probability": 0.5754,
+    "fair_decimal": 1.74
+   },
+   {
+    "selection": "Alexander Zverev to win",
+    "probability": 0.5616,
+    "fair_decimal": 1.78
+   },
+   {
+    "selection": "Over 22.5 games",
+    "probability": 0.5588,
+    "fair_decimal": 1.79
+   },
+   {
+    "selection": "Under 24.5 games",
+    "probability": 0.5302,
+    "fair_decimal": 1.89
+   },
+   {
+    "selection": "At least one tiebreak",
+    "probability": 0.5243,
+    "fair_decimal": 1.91
+   },
+   {
+    "selection": "No tiebreak",
+    "probability": 0.4757,
+    "fair_decimal": 2.1
+   },
+   {
+    "selection": "Over 24.5 games",
+    "probability": 0.4698,
+    "fair_decimal": 2.13
+   },
+   {
+    "selection": "Under 22.5 games",
+    "probability": 0.4412,
+    "fair_decimal": 2.27
+   },
+   {
+    "selection": "Daniil Medvedev to win",
+    "probability": 0.4384,
+    "fair_decimal": 2.28
+   }
+  ]
+ },
+ "results_cutoff": "2026-11-20",
+ "freeze": {
+  "frozen_at_utc": "2026-11-21T01:30:58+00:00",
+  "version": 1,
+  "input_hash": "81c09819d53777e1",
+  "reason": "initial pre-match forecast",
+  "pre_match": true,
+  "espn_id": "187527",
+  "scheduled_start_utc": "2026-11-21T19:30Z"
+ }
+}

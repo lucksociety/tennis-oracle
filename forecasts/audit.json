@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-20T16:58:43+00:00",
+ "generated_at_utc": "2026-11-21T01:31:08+00:00",
  "summary": {
-  "n": 171,
-  "brier": 0.22392436795321638,
-  "log_loss": 0.6427427185303426,
-  "accuracy": 0.6257309941520468,
-  "games_mae": 5.13514619883041,
-  "exact_sets_accuracy": 0.4327485380116959,
-  "tiebreak_brier": 0.23975420064327485
+  "n": 173,
+  "brier": 0.22236401878612716,
+  "log_loss": 0.6394067239015226,
+  "accuracy": 0.630057803468208,
+  "games_mae": 5.128959537572254,
+  "exact_sets_accuracy": 0.4393063583815029,
+  "tiebreak_brier": 0.23882387242774566
  },
- "n": 171,
+ "n": 173,
  "overall": {
-  "n": 171,
-  "brier": 0.22392436795321638,
-  "log_loss": 0.6427427185303426,
-  "accuracy": 0.6257309941520468
+  "n": 173,
+  "brier": 0.22236401878612716,
+  "log_loss": 0.6394067239015226,
+  "accuracy": 0.630057803468208
  },
- "games_mae": 5.13514619883041,
- "exact_sets_accuracy": 0.4327485380116959,
- "tiebreak_brier": 0.23975420064327485,
+ "games_mae": 5.128959537572254,
+ "exact_sets_accuracy": 0.4393063583815029,
+ "tiebreak_brier": 0.23882387242774566,
  "by_surface": {
   "Hard": {
-   "n": 171,
-   "brier": 0.22392436795321638,
-   "log_loss": 0.6427427185303426,
-   "accuracy": 0.6257309941520468
+   "n": 173,
+   "brier": 0.22236401878612716,
+   "log_loss": 0.6394067239015226,
+   "accuracy": 0.630057803468208
   }
  },
  "by_tour": {
   "atp": {
-   "n": 171,
-   "brier": 0.22392436795321638,
-   "log_loss": 0.6427427185303426,
-   "accuracy": 0.6257309941520468
+   "n": 173,
+   "brier": 0.22236401878612716,
+   "log_loss": 0.6394067239015226,
+   "accuracy": 0.630057803468208
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 71,
-   "brier": 0.2205659785915493,
-   "log_loss": 0.6358975620780696,
-   "accuracy": 0.6619718309859155
+   "n": 73,
+   "brier": 0.21696017547945204,
+   "log_loss": 0.6281792503262709,
+   "accuracy": 0.6712328767123288
   },
   "LOW": {
    "n": 17,
@@ -70,9 +70,9 @@
   },
   {
    "bucket": "70%-80%",
-   "n": 30,
-   "mean_pred": 0.7367533333333333,
-   "observed": 0.8
+   "n": 32,
+   "mean_pred": 0.7345656250000001,
+   "observed": 0.8125
   },
   {
    "bucket": "80%-90%",
@@ -7019,6 +7019,48 @@
    "version": "v1.1"
   },
   {
+   "match": "Daniil Medvedev vs Frances Tiafoe",
+   "date": "2026-11-17",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.7028,
+   "a_won": 1,
+   "pred_winner": "Daniil Medvedev",
+   "actual_winner": "Daniil Medvedev",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4824,
+   "exp_games": 23.61,
+   "actual_games": 19,
+   "p_tb": 0.3991,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6516,
+     1
+    ],
+    "A -2.5": [
+     0.5908,
+     1
+    ],
+    "A -3.5": [
+     0.4988,
+     1
+    ],
+    "A -4.5": [
+     0.3752,
+     1
+    ],
+    "A -5.5": [
+     0.2593,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
    "match": "Flavio Cobolli vs Frances Tiafoe",
    "date": "2026-11-17",
    "tour": "atp",
@@ -7265,6 +7307,48 @@
     "A -5.5": [
      0.4958,
      1
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Daniil Medvedev vs Frances Tiafoe",
+   "date": "2026-11-20",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.7007,
+   "a_won": 1,
+   "pred_winner": "Daniil Medvedev",
+   "actual_winner": "Daniil Medvedev",
+   "pred_sets": "2-0",
+   "actual_sets": "2-0",
+   "p_actual_sets": 0.4818,
+   "exp_games": 23.59,
+   "actual_games": 19,
+   "p_tb": 0.3991,
+   "tb": 0,
+   "handicaps": {
+    "A -1.5": [
+     0.6514,
+     1
+    ],
+    "A -2.5": [
+     0.5913,
+     1
+    ],
+    "A -3.5": [
+     0.4988,
+     1
+    ],
+    "A -4.5": [
+     0.3732,
+     1
+    ],
+    "A -5.5": [
+     0.2591,
+     0
     ]
    },
    "data_quality": "HIGH",
