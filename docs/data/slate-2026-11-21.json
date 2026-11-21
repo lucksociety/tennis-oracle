@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "timezone": "America/New_York",
- "generated_at_utc": "2026-11-21T12:39:25+00:00",
+ "generated_at_utc": "2026-11-21T21:39:11+00:00",
  "source": "ESPN public scoreboard API (site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard) - fixtures/results only; odds/prediction fields stripped",
  "model_version": "v1.1",
  "matches": [
@@ -12,9 +12,9 @@
    "venue": "Inalpi Arena, Turin, Italy",
    "round": "Semifinal",
    "court": "Inalpi Arena",
-   "start_utc": "2026-11-21T13:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-21T13:40Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Carlos Alcaraz",
@@ -30,7 +30,23 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      6
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-21T01:30:57+00:00",
@@ -147,9 +163,9 @@
    "venue": "Inalpi Arena, Turin, Italy",
    "round": "Semifinal",
    "court": "Inalpi Arena",
-   "start_utc": "2026-11-21T19:30Z",
-   "status": "STATUS_SCHEDULED",
-   "completed": false,
+   "start_utc": "2026-11-21T19:45Z",
+   "status": "STATUS_FINAL",
+   "completed": true,
    "players": [
     {
      "name": "Alexander Zverev",
@@ -165,7 +181,19 @@
    "indoor": null,
    "best_of": 3,
    "final_rule": "tb7",
-   "result": null,
+   "result": {
+    "winner": 0,
+    "sets": [
+     [
+      7,
+      6
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   },
    "forecast": {
     "frozen_version": 1,
     "frozen_at_utc": "2026-11-21T01:30:58+00:00",
