@@ -1,46 +1,46 @@
 {
- "generated_at_utc": "2026-11-22T16:17:21+00:00",
+ "generated_at_utc": "2026-11-22T21:53:55+00:00",
  "summary": {
-  "n": 175,
-  "brier": 0.2212583932,
-  "log_loss": 0.6369869753530208,
-  "accuracy": 0.6342857142857142,
-  "games_mae": 5.122057142857143,
-  "exact_sets_accuracy": 0.44,
-  "tiebreak_brier": 0.23896674805714285
+  "n": 176,
+  "brier": 0.22084168164772724,
+  "log_loss": 0.636126156266323,
+  "accuracy": 0.6363636363636364,
+  "games_mae": 5.115454545454545,
+  "exact_sets_accuracy": 0.4431818181818182,
+  "tiebreak_brier": 0.23890827357954547
  },
- "n": 175,
+ "n": 176,
  "overall": {
-  "n": 175,
-  "brier": 0.2212583932,
-  "log_loss": 0.6369869753530208,
-  "accuracy": 0.6342857142857142
+  "n": 176,
+  "brier": 0.22084168164772724,
+  "log_loss": 0.636126156266323,
+  "accuracy": 0.6363636363636364
  },
- "games_mae": 5.122057142857143,
- "exact_sets_accuracy": 0.44,
- "tiebreak_brier": 0.23896674805714285,
+ "games_mae": 5.115454545454545,
+ "exact_sets_accuracy": 0.4431818181818182,
+ "tiebreak_brier": 0.23890827357954547,
  "by_surface": {
   "Hard": {
-   "n": 175,
-   "brier": 0.2212583932,
-   "log_loss": 0.6369869753530208,
-   "accuracy": 0.6342857142857142
+   "n": 176,
+   "brier": 0.22084168164772724,
+   "log_loss": 0.636126156266323,
+   "accuracy": 0.6363636363636364
   }
  },
  "by_tour": {
   "atp": {
-   "n": 175,
-   "brier": 0.2212583932,
-   "log_loss": 0.6369869753530208,
-   "accuracy": 0.6342857142857142
+   "n": 176,
+   "brier": 0.22084168164772724,
+   "log_loss": 0.636126156266323,
+   "accuracy": 0.6363636363636364
   }
  },
  "by_quality": {
   "HIGH": {
-   "n": 75,
-   "brier": 0.21452448493333334,
-   "log_loss": 0.6228325696751066,
-   "accuracy": 0.68
+   "n": 76,
+   "brier": 0.2136480727631579,
+   "log_loss": 0.6210253360753578,
+   "accuracy": 0.6842105263157895
   },
   "LOW": {
    "n": 17,
@@ -64,9 +64,9 @@
   },
   {
    "bucket": "60%-70%",
-   "n": 59,
-   "mean_pred": 0.6545033898305084,
-   "observed": 0.7288135593220338
+   "n": 60,
+   "mean_pred": 0.6538516666666666,
+   "observed": 0.7333333333333333
   },
   {
    "bucket": "70%-80%",
@@ -7432,6 +7432,48 @@
     ],
     "A -5.5": [
      0.2424,
+     0
+    ]
+   },
+   "data_quality": "HIGH",
+   "version": "v1.1"
+  },
+  {
+   "match": "Alexander Zverev vs Carlos Alcaraz",
+   "date": "2026-11-22",
+   "tour": "atp",
+   "surface": "Hard",
+   "level": "Nitto ATP Finals",
+   "p_a": 0.3846,
+   "a_won": 0,
+   "pred_winner": "Carlos Alcaraz",
+   "actual_winner": "Carlos Alcaraz",
+   "pred_sets": "0-2",
+   "actual_sets": "0-2",
+   "p_actual_sets": 0.3938,
+   "exp_games": 24.96,
+   "actual_games": 21,
+   "p_tb": 0.5218,
+   "tb": 1,
+   "handicaps": {
+    "A -1.5": [
+     0.3244,
+     0
+    ],
+    "A -2.5": [
+     0.2631,
+     0
+    ],
+    "A -3.5": [
+     0.1898,
+     0
+    ],
+    "A -4.5": [
+     0.114,
+     0
+    ],
+    "A -5.5": [
+     0.06,
      0
     ]
    },
