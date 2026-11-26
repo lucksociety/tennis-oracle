@@ -1,0 +1,3201 @@
+{
+"source": "Polymarket Gamma API (gamma-api.polymarket.com; best bid/ask per market)",
+"fetched_at_utc": "2026-11-26T13:54:00Z",
+"urls": [
+"https://gamma-api.polymarket.com/events?tag_id=864&closed=false&start_time_min=2026-11-26T01:54:00.361461+00:00&start_time_max=2026-11-29T13:54:00.361461+00:00"
+],
+"errors": [],
+"n_events": 34,
+"events": [
+{
+"eventId": "POLY-1453771",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Ryan Nijboer vs Franco Roncadelli"
+},
+"beginAt": "1795703400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7313776-0",
+"sportsMarketType": "moneyline",
+"title": "Ryan Nijboer",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ryan Nijboer"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 310000,
+"sellYesPriceUsd": 300000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7313776-1",
+"sportsMarketType": "moneyline",
+"title": "Franco Roncadelli",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Franco Roncadelli"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 700000,
+"sellYesPriceUsd": 690000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319250-0",
+"sportsMarketType": "tennis_set_totals",
+"title": "Over 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 370000,
+"sellYesPriceUsd": 340000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319250-1",
+"sportsMarketType": "tennis_set_totals",
+"title": "Under 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 660000,
+"sellYesPriceUsd": 630000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319253-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 480000,
+"sellYesPriceUsd": 460000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319253-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 540000,
+"sellYesPriceUsd": 520000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319256-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319256-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319259-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319259-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319262-0",
+"sportsMarketType": "handicap",
+"title": "Ryan Nijboer -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ryan Nijboer -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 180000,
+"sellYesPriceUsd": 170000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319262-1",
+"sportsMarketType": "handicap",
+"title": "Franco Roncadelli +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Franco Roncadelli +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 830000,
+"sellYesPriceUsd": 820000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319264-0",
+"sportsMarketType": "handicap",
+"title": "Franco Roncadelli -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Franco Roncadelli -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 480000,
+"sellYesPriceUsd": 460000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319264-1",
+"sportsMarketType": "handicap",
+"title": "Ryan Nijboer +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ryan Nijboer +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 540000,
+"sellYesPriceUsd": 520000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1453941",
+"subcategory": "atp",
+"metadata": {
+"title": "Hersonissos 4: Ryan Peniston vs Ioannis Xilas"
+},
+"beginAt": "1795692900",
+"isLive": true,
+"markets": [
+{
+"marketId": "POLY-7318159-0",
+"sportsMarketType": "moneyline",
+"title": "Ryan Peniston",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ryan Peniston"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 5000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7318159-1",
+"sportsMarketType": "moneyline",
+"title": "Ioannis Xilas",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ioannis Xilas"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 995000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319249-0",
+"sportsMarketType": "tennis_set_totals",
+"title": "Over 2.5",
+"sportsLine": 2.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Over 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319249-1",
+"sportsMarketType": "tennis_set_totals",
+"title": "Under 2.5",
+"sportsLine": 2.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Under 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319252-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319252-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319257-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319257-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319258-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319258-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319261-0",
+"sportsMarketType": "handicap",
+"title": "Ryan Peniston -1.5",
+"sportsLine": -1.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Ryan Peniston -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319261-1",
+"sportsMarketType": "handicap",
+"title": "Ioannis Xilas +1.5",
+"sportsLine": -1.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Ioannis Xilas +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319265-0",
+"sportsMarketType": "handicap",
+"title": "Ioannis Xilas -1.5",
+"sportsLine": -1.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Ioannis Xilas -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 1000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319265-1",
+"sportsMarketType": "handicap",
+"title": "Ryan Peniston +1.5",
+"sportsLine": -1.5,
+"status": "closed",
+"marketOptions": [
+{
+"label": "Ryan Peniston +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 999000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1454039",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Lucas Da Silva vs Diego Duran"
+},
+"beginAt": "1795723200",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7319409-0",
+"sportsMarketType": "moneyline",
+"title": "Lucas Da Silva",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Lucas Da Silva"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 900000,
+"sellYesPriceUsd": 890000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319409-1",
+"sportsMarketType": "moneyline",
+"title": "Diego Duran",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Diego Duran"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 110000,
+"sellYesPriceUsd": 100000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320971-0",
+"sportsMarketType": "tennis_set_totals",
+"title": "Over 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 190000,
+"sellYesPriceUsd": 160000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320971-1",
+"sportsMarketType": "tennis_set_totals",
+"title": "Under 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 840000,
+"sellYesPriceUsd": 810000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320975-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320975-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320980-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320980-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320985-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320985-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320989-0",
+"sportsMarketType": "handicap",
+"title": "Lucas Da Silva -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Lucas Da Silva -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 790000,
+"sellYesPriceUsd": 760000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320989-1",
+"sportsMarketType": "handicap",
+"title": "Diego Duran +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Diego Duran +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 240000,
+"sellYesPriceUsd": 210000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320994-0",
+"sportsMarketType": "handicap",
+"title": "Diego Duran -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Diego Duran -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 590000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320994-1",
+"sportsMarketType": "handicap",
+"title": "Lucas Da Silva +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Lucas Da Silva +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 410000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1454040",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Max Alcala Gurri vs Eduardo Ribeiro"
+},
+"beginAt": "1795698300",
+"isLive": true,
+"markets": [
+{
+"marketId": "POLY-7319410-0",
+"sportsMarketType": "moneyline",
+"title": "Max Alcala Gurri",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Max Alcala Gurri"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 350000,
+"sellYesPriceUsd": 340000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7319410-1",
+"sportsMarketType": "moneyline",
+"title": "Eduardo Ribeiro",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Eduardo Ribeiro"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 660000,
+"sellYesPriceUsd": 650000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320968-0",
+"sportsMarketType": "tennis_set_totals",
+"title": "Over 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 630000,
+"sellYesPriceUsd": 500000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320968-1",
+"sportsMarketType": "tennis_set_totals",
+"title": "Under 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 500000,
+"sellYesPriceUsd": 370000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320973-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320973-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320979-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320979-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320984-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320984-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320990-0",
+"sportsMarketType": "handicap",
+"title": "Max Alcala Gurri -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Max Alcala Gurri -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 3000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320990-1",
+"sportsMarketType": "handicap",
+"title": "Eduardo Ribeiro +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Eduardo Ribeiro +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 997000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320995-0",
+"sportsMarketType": "handicap",
+"title": "Eduardo Ribeiro -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Eduardo Ribeiro -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 490000,
+"sellYesPriceUsd": 400000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320995-1",
+"sportsMarketType": "handicap",
+"title": "Max Alcala Gurri +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Max Alcala Gurri +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 600000,
+"sellYesPriceUsd": 510000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1454186",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Joaquin Aguilar vs Genaro Alberto Olivieri"
+},
+"beginAt": "1795708800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7320289-0",
+"sportsMarketType": "moneyline",
+"title": "Joaquin Aguilar",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Joaquin Aguilar"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 580000,
+"sellYesPriceUsd": 570000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320289-1",
+"sportsMarketType": "moneyline",
+"title": "Genaro Alberto Olivieri",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Genaro Alberto Olivieri"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 430000,
+"sellYesPriceUsd": 420000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320969-0",
+"sportsMarketType": "tennis_set_totals",
+"title": "Over 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 400000,
+"sellYesPriceUsd": 380000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320969-1",
+"sportsMarketType": "tennis_set_totals",
+"title": "Under 2.5",
+"sportsLine": 2.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 2.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 620000,
+"sellYesPriceUsd": 600000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320974-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 500000,
+"sellYesPriceUsd": 480000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320974-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 21.5",
+"sportsLine": 21.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 21.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 520000,
+"sellYesPriceUsd": 500000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320978-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 440000,
+"sellYesPriceUsd": 420000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320978-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 22.5",
+"sportsLine": 22.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 22.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 580000,
+"sellYesPriceUsd": 560000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320983-0",
+"sportsMarketType": "tennis_match_totals",
+"title": "Over 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Over 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 990000,
+"sellYesPriceUsd": 0,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320983-1",
+"sportsMarketType": "tennis_match_totals",
+"title": "Under 23.5",
+"sportsLine": 23.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Under 23.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 0,
+"sellYesPriceUsd": 10000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320988-0",
+"sportsMarketType": "handicap",
+"title": "Joaquin Aguilar -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Joaquin Aguilar -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 360000,
+"sellYesPriceUsd": 350000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320988-1",
+"sportsMarketType": "handicap",
+"title": "Genaro Alberto Olivieri +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Genaro Alberto Olivieri +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 650000,
+"sellYesPriceUsd": 640000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320993-0",
+"sportsMarketType": "handicap",
+"title": "Genaro Alberto Olivieri -1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Genaro Alberto Olivieri -1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 280000,
+"sellYesPriceUsd": 250000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7320993-1",
+"sportsMarketType": "handicap",
+"title": "Joaquin Aguilar +1.5",
+"sportsLine": -1.5,
+"status": "open",
+"marketOptions": [
+{
+"label": "Joaquin Aguilar +1.5"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 750000,
+"sellYesPriceUsd": 720000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1455434",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Samuel Heredia vs Amit Vales"
+},
+"beginAt": "1795712400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7328714-0",
+"sportsMarketType": "moneyline",
+"title": "Samuel Heredia",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Samuel Heredia"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 270000,
+"sellYesPriceUsd": 260000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7328714-1",
+"sportsMarketType": "moneyline",
+"title": "Amit Vales",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Amit Vales"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 740000,
+"sellYesPriceUsd": 730000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1455482",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Juan Sebastian Gomez vs Luis Carlos Alvarez"
+},
+"beginAt": "1795712400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7329045-0",
+"sportsMarketType": "moneyline",
+"title": "Juan Sebastian Gomez",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Juan Sebastian Gomez"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 100000,
+"sellYesPriceUsd": 80000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7329045-1",
+"sportsMarketType": "moneyline",
+"title": "Luis Carlos Alvarez",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Luis Carlos Alvarez"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 920000,
+"sellYesPriceUsd": 900000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1455925",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Axel Nefve vs Benjamin Willwerth"
+},
+"beginAt": "1795717800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7331989-0",
+"sportsMarketType": "moneyline",
+"title": "Axel Nefve",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Axel Nefve"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 310000,
+"sellYesPriceUsd": 300000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7331989-1",
+"sportsMarketType": "moneyline",
+"title": "Benjamin Willwerth",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Benjamin Willwerth"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 700000,
+"sellYesPriceUsd": 690000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1456170",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Timo Legout vs Karl Poling"
+},
+"beginAt": "1795734000",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7333548-0",
+"sportsMarketType": "moneyline",
+"title": "Timo Legout",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Timo Legout"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 850000,
+"sellYesPriceUsd": 830000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7333548-1",
+"sportsMarketType": "moneyline",
+"title": "Karl Poling",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Karl Poling"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 170000,
+"sellYesPriceUsd": 150000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1456252",
+"subcategory": "atp",
+"metadata": {
+"title": "Playford: Moerani Bouzige vs Tristan Schoolkate"
+},
+"beginAt": "1795744800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7333951-0",
+"sportsMarketType": "moneyline",
+"title": "Moerani Bouzige",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Moerani Bouzige"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 160000,
+"sellYesPriceUsd": 150000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7333951-1",
+"sportsMarketType": "moneyline",
+"title": "Tristan Schoolkate",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Tristan Schoolkate"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 850000,
+"sellYesPriceUsd": 840000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1456389",
+"subcategory": "atp",
+"metadata": {
+"title": "Playford: Christian Langmo vs Matthew Dellavedova"
+},
+"beginAt": "1795739400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7334827-0",
+"sportsMarketType": "moneyline",
+"title": "Christian Langmo",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Christian Langmo"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 460000,
+"sellYesPriceUsd": 450000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7334827-1",
+"sportsMarketType": "moneyline",
+"title": "Matthew Dellavedova",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Matthew Dellavedova"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 550000,
+"sellYesPriceUsd": 540000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1456982",
+"subcategory": "atp",
+"metadata": {
+"title": "Yokohama: Masamichi Imamura vs David Jorda Sanchis"
+},
+"beginAt": "1795750200",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7337653-0",
+"sportsMarketType": "moneyline",
+"title": "Masamichi Imamura",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Masamichi Imamura"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 510000,
+"sellYesPriceUsd": 500000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7337653-1",
+"sportsMarketType": "moneyline",
+"title": "David Jorda Sanchis",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "David Jorda Sanchis"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 500000,
+"sellYesPriceUsd": 490000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1457204",
+"subcategory": "atp",
+"metadata": {
+"title": "Yokohama: Kaichi Uchida vs Ognjen Milic"
+},
+"beginAt": "1795750200",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7338859-0",
+"sportsMarketType": "moneyline",
+"title": "Kaichi Uchida",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Kaichi Uchida"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 380000,
+"sellYesPriceUsd": 370000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7338859-1",
+"sportsMarketType": "moneyline",
+"title": "Ognjen Milic",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ognjen Milic"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 630000,
+"sellYesPriceUsd": 620000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1457751",
+"subcategory": "atp",
+"metadata": {
+"title": "Hersonissos 4: Alejo Sanchez Quilez vs Philip Henning"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7341241-0",
+"sportsMarketType": "moneyline",
+"title": "Alejo Sanchez Quilez",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Alejo Sanchez Quilez"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 360000,
+"sellYesPriceUsd": 330000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7341241-1",
+"sportsMarketType": "moneyline",
+"title": "Philip Henning",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Philip Henning"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 670000,
+"sellYesPriceUsd": 640000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1458103",
+"subcategory": "atp",
+"metadata": {
+"title": "Monastir 2: Pedro Vives Marcos vs Gabriel Debru"
+},
+"beginAt": "1795773600",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7343040-0",
+"sportsMarketType": "moneyline",
+"title": "Pedro Vives Marcos",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Pedro Vives Marcos"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 460000,
+"sellYesPriceUsd": 440000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7343040-1",
+"sportsMarketType": "moneyline",
+"title": "Gabriel Debru",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Gabriel Debru"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 560000,
+"sellYesPriceUsd": 540000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1458192",
+"subcategory": "atp",
+"metadata": {
+"title": "Hersonissos 4: Gabriel Ghetu vs Andres Martin"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7343284-0",
+"sportsMarketType": "moneyline",
+"title": "Gabriel Ghetu",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Gabriel Ghetu"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 230000,
+"sellYesPriceUsd": 170000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7343284-1",
+"sportsMarketType": "moneyline",
+"title": "Andres Martin",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Andres Martin"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 830000,
+"sellYesPriceUsd": 770000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1458685",
+"subcategory": "atp",
+"metadata": {
+"title": "Monastir 2: Kimmer Coppejans vs Dali Blanch"
+},
+"beginAt": "1795773600",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7346969-0",
+"sportsMarketType": "moneyline",
+"title": "Kimmer Coppejans",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Kimmer Coppejans"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 590000,
+"sellYesPriceUsd": 550000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7346969-1",
+"sportsMarketType": "moneyline",
+"title": "Dali Blanch",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Dali Blanch"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 450000,
+"sellYesPriceUsd": 410000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1459325",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Juan Manuel La Serna vs Thiago Cigarran"
+},
+"beginAt": "1795698300",
+"isLive": true,
+"markets": [
+{
+"marketId": "POLY-7350619-0",
+"sportsMarketType": "moneyline",
+"title": "Juan Manuel La Serna",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Juan Manuel La Serna"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 957000,
+"sellYesPriceUsd": 953000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7350619-1",
+"sportsMarketType": "moneyline",
+"title": "Thiago Cigarran",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Thiago Cigarran"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 47000,
+"sellYesPriceUsd": 43000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1459804",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Javier Barranco Cosano vs Guido Justo"
+},
+"beginAt": "1795698300",
+"isLive": true,
+"markets": [
+{
+"marketId": "POLY-7354109-0",
+"sportsMarketType": "moneyline",
+"title": "Javier Barranco Cosano",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Javier Barranco Cosano"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 450000,
+"sellYesPriceUsd": 440000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7354109-1",
+"sportsMarketType": "moneyline",
+"title": "Guido Justo",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Guido Justo"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 560000,
+"sellYesPriceUsd": 550000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1459900",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Carlos Maria Zarate vs Felipe Meligeni Alves"
+},
+"beginAt": "1795703400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7355184-0",
+"sportsMarketType": "moneyline",
+"title": "Carlos Maria Zarate",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Carlos Maria Zarate"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 240000,
+"sellYesPriceUsd": 230000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7355184-1",
+"sportsMarketType": "moneyline",
+"title": "Felipe Meligeni Alves",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Felipe Meligeni Alves"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 770000,
+"sellYesPriceUsd": 760000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1460494",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Nicolas Zanellato vs Elmer Moeller"
+},
+"beginAt": "1795708800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7357451-0",
+"sportsMarketType": "moneyline",
+"title": "Nicolas Zanellato",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Nicolas Zanellato"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 80000,
+"sellYesPriceUsd": 70000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7357451-1",
+"sportsMarketType": "moneyline",
+"title": "Elmer Moeller",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Elmer Moeller"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 930000,
+"sellYesPriceUsd": 920000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1460495",
+"subcategory": "atp",
+"metadata": {
+"title": "Florianopolis: Igor Ribeiro Marcondes vs Johan Nikles"
+},
+"beginAt": "1795703400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7357452-0",
+"sportsMarketType": "moneyline",
+"title": "Igor Ribeiro Marcondes",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Igor Ribeiro Marcondes"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 710000,
+"sellYesPriceUsd": 700000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7357452-1",
+"sportsMarketType": "moneyline",
+"title": "Johan Nikles",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Johan Nikles"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 300000,
+"sellYesPriceUsd": 290000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1461548",
+"subcategory": "atp",
+"metadata": {
+"title": "San Salvador: Blaise Bicknell vs Luis Guto Miguel"
+},
+"beginAt": "1795795200",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7362401-0",
+"sportsMarketType": "moneyline",
+"title": "Blaise Bicknell",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Blaise Bicknell"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 480000,
+"sellYesPriceUsd": 420000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7362401-1",
+"sportsMarketType": "moneyline",
+"title": "Luis Guto Miguel",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Luis Guto Miguel"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 580000,
+"sellYesPriceUsd": 520000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1461756",
+"subcategory": "atp",
+"metadata": {
+"title": "Playford: Dane Sweeny vs Carl Overbeck"
+},
+"beginAt": "1795739400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7362776-0",
+"sportsMarketType": "moneyline",
+"title": "Dane Sweeny",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Dane Sweeny"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 710000,
+"sellYesPriceUsd": 650000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7362776-1",
+"sportsMarketType": "moneyline",
+"title": "Carl Overbeck",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Carl Overbeck"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 350000,
+"sellYesPriceUsd": 290000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1461929",
+"subcategory": "atp",
+"metadata": {
+"title": "Playford: Omar Jasika vs Alex Bolt"
+},
+"beginAt": "1795750200",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7363286-0",
+"sportsMarketType": "moneyline",
+"title": "Omar Jasika",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Omar Jasika"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 460000,
+"sellYesPriceUsd": 420000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7363286-1",
+"sportsMarketType": "moneyline",
+"title": "Alex Bolt",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Alex Bolt"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 580000,
+"sellYesPriceUsd": 540000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1461930",
+"subcategory": "atp",
+"metadata": {
+"title": "Yokohama: Rio Noguchi vs Hayato Matsuoka"
+},
+"beginAt": "1795744800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7363287-0",
+"sportsMarketType": "moneyline",
+"title": "Rio Noguchi",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Rio Noguchi"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 640000,
+"sellYesPriceUsd": 620000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7363287-1",
+"sportsMarketType": "moneyline",
+"title": "Hayato Matsuoka",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Hayato Matsuoka"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 380000,
+"sellYesPriceUsd": 360000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1462184",
+"subcategory": "atp",
+"metadata": {
+"title": "Yokohama: Yuta Shimizu vs Naoya Honda"
+},
+"beginAt": "1795744800",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7364776-0",
+"sportsMarketType": "moneyline",
+"title": "Yuta Shimizu",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Yuta Shimizu"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 790000,
+"sellYesPriceUsd": 720000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7364776-1",
+"sportsMarketType": "moneyline",
+"title": "Naoya Honda",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Naoya Honda"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 280000,
+"sellYesPriceUsd": 210000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1462870",
+"subcategory": "atp",
+"metadata": {
+"title": "Ankara: Vadym Ursu vs Tuncay Duran"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7366146-0",
+"sportsMarketType": "moneyline",
+"title": "Vadym Ursu",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Vadym Ursu"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 420000,
+"sellYesPriceUsd": 390000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7366146-1",
+"sportsMarketType": "moneyline",
+"title": "Tuncay Duran",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Tuncay Duran"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 610000,
+"sellYesPriceUsd": 580000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463017",
+"subcategory": "atp",
+"metadata": {
+"title": "Ankara: Matthew William Donald vs Daniel Rincon"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7366588-0",
+"sportsMarketType": "moneyline",
+"title": "Matthew William Donald",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Matthew William Donald"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 370000,
+"sellYesPriceUsd": 320000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7366588-1",
+"sportsMarketType": "moneyline",
+"title": "Daniel Rincon",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Daniel Rincon"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 680000,
+"sellYesPriceUsd": 630000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463018",
+"subcategory": "atp",
+"metadata": {
+"title": "Hersonissos 4: Gilles Arnaud Bailly vs Benjamin Pietri"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7366589-0",
+"sportsMarketType": "moneyline",
+"title": "Gilles Arnaud Bailly",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Gilles Arnaud Bailly"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 880000,
+"sellYesPriceUsd": 790000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7366589-1",
+"sportsMarketType": "moneyline",
+"title": "Benjamin Pietri",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Benjamin Pietri"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 210000,
+"sellYesPriceUsd": 120000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463174",
+"subcategory": "atp",
+"metadata": {
+"title": "Ankara: Thomas Faurel vs Robert Guna"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7367403-0",
+"sportsMarketType": "moneyline",
+"title": "Thomas Faurel",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Thomas Faurel"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 780000,
+"sellYesPriceUsd": 720000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7367403-1",
+"sportsMarketType": "moneyline",
+"title": "Robert Guna",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Robert Guna"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 280000,
+"sellYesPriceUsd": 220000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463328",
+"subcategory": "atp",
+"metadata": {
+"title": "Monastir 2: Federico Bondioli vs Semen Pankin"
+},
+"beginAt": "1795773600",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7368142-0",
+"sportsMarketType": "moneyline",
+"title": "Federico Bondioli",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Federico Bondioli"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 700000,
+"sellYesPriceUsd": 550000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7368142-1",
+"sportsMarketType": "moneyline",
+"title": "Semen Pankin",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Semen Pankin"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 450000,
+"sellYesPriceUsd": 300000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463373",
+"subcategory": "atp",
+"metadata": {
+"title": "Ankara: Diego Dedura-Palomero vs Ergi Kirkin"
+},
+"beginAt": "1795766400",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7368243-0",
+"sportsMarketType": "moneyline",
+"title": "Diego Dedura-Palomero",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Diego Dedura-Palomero"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 630000,
+"sellYesPriceUsd": 580000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7368243-1",
+"sportsMarketType": "moneyline",
+"title": "Ergi Kirkin",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Ergi Kirkin"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 420000,
+"sellYesPriceUsd": 370000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+},
+{
+"eventId": "POLY-1463626",
+"subcategory": "atp",
+"metadata": {
+"title": "Monastir 2: Giorgio Tabacco vs Yannik Kelm"
+},
+"beginAt": "1795773600",
+"isLive": false,
+"markets": [
+{
+"marketId": "POLY-7369136-0",
+"sportsMarketType": "moneyline",
+"title": "Giorgio Tabacco",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Giorgio Tabacco"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 510000,
+"sellYesPriceUsd": 480000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+},
+{
+"marketId": "POLY-7369136-1",
+"sportsMarketType": "moneyline",
+"title": "Yannik Kelm",
+"sportsLine": null,
+"status": "open",
+"marketOptions": [
+{
+"label": "Yannik Kelm"
+}
+],
+"fee": {
+"rate": 0.05,
+"exponent": 1.0
+},
+"pricing": {
+"buyYesPriceUsd": 520000,
+"sellYesPriceUsd": 490000,
+"buyNoPriceUsd": 0,
+"sellNoPriceUsd": 0
+}
+}
+]
+}
+]
+}
